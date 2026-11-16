@@ -1,0 +1,232 @@
+{
+  "tema": "Meios de transporte",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "VAN",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carro grande para várias pessoas",
+        "media": "Utilitário de passageiros"
+      }
+    },
+    {
+      "palavra": "TREM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Anda nos trilhos",
+        "media": "Composição de vagões"
+      }
+    },
+    {
+      "palavra": "MOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo de duas rodas que faz vrum",
+        "media": "Veículo de duas rodas a gasolina"
+      }
+    },
+    {
+      "palavra": "TÁXI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carro que a gente paga para nos levar",
+        "media": "Carro de aluguel com motorista"
+      }
+    },
+    {
+      "palavra": "JIPE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carro para estrada de terra",
+        "media": "Veículo para terrenos difíceis"
+      }
+    },
+    {
+      "palavra": "PNEU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte de borracha da roda",
+        "media": "Revestimento de borracha da roda"
+      }
+    },
+    {
+      "palavra": "CARRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem quatro rodas e leva a família",
+        "media": "Automóvel"
+      }
+    },
+    {
+      "palavra": "AVIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Voa no céu levando pessoas",
+        "media": "Aeronave de passageiros"
+      }
+    },
+    {
+      "palavra": "BARCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Anda na água",
+        "media": "Embarcação"
+      }
+    },
+    {
+      "palavra": "NAVIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barco bem grande que cruza o mar",
+        "media": "Grande embarcação"
+      }
+    },
+    {
+      "palavra": "METRÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Trem que anda debaixo da terra",
+        "media": "Trem urbano subterrâneo"
+      }
+    },
+    {
+      "palavra": "CANOA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barquinho de remo",
+        "media": "Embarcação a remo"
+      }
+    },
+    {
+      "palavra": "SKATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prancha com rodinhas",
+        "media": "Prancha de rodas para manobras"
+      }
+    },
+    {
+      "palavra": "BALÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sobe no céu com ar quente",
+        "media": "Aeronave de ar quente"
+      }
+    },
+    {
+      "palavra": "PORTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde os navios param",
+        "media": "Local onde atracam os navios"
+      }
+    },
+    {
+      "palavra": "BONDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vagão que anda sobre trilhos na rua",
+        "media": "Veículo elétrico sobre trilhos urbanos"
+      }
+    },
+    {
+      "palavra": "VAGÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada parte do trem",
+        "media": "Carro de uma composição ferroviária"
+      }
+    },
+    {
+      "palavra": "ÔNIBUS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo grande que leva muita gente",
+        "media": "Transporte coletivo urbano"
+      }
+    },
+    {
+      "palavra": "TRATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo que trabalha na fazenda",
+        "media": "Veículo agrícola"
+      }
+    },
+    {
+      "palavra": "LANCHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barco rápido com motor",
+        "media": "Embarcação veloz a motor"
+      }
+    },
+    {
+      "palavra": "PILOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem dirige o avião",
+        "media": "Condutor de aeronave"
+      }
+    },
+    {
+      "palavra": "ÂNCORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Segura o barco parado",
+        "media": "Peça que prende a embarcação ao fundo"
+      }
+    },
+    {
+      "palavra": "FOGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vai até o espaço",
+        "media": "Veículo espacial"
+      }
+    },
+    {
+      "palavra": "JANGADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barco de madeira dos pescadores",
+        "media": "Embarcação de pescadores do Nordeste"
+      }
+    },
+    {
+      "palavra": "CARROÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Puxada por cavalo",
+        "media": "Veículo de tração animal"
+      }
+    },
+    {
+      "palavra": "ESTRADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caminho por onde passam os carros",
+        "media": "Via de rodagem"
+      }
+    },
+    {
+      "palavra": "CAMINHÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo grande que leva carga",
+        "media": "Veículo de carga"
+      }
+    },
+    {
+      "palavra": "PATINETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem rodinhas e a gente empurra com o pé",
+        "media": "Prancha com rodas e guidão"
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "tema": "Corpo humano",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "MÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem cinco dedos",
+        "media": "Extremidade do braço"
+      }
+    },
+    {
+      "palavra": "RIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Órgão que faz o xixi",
+        "media": "Órgão que filtra o sangue"
+      }
+    },
+    {
+      "palavra": "OLHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para ver",
+        "media": "Órgão da visão"
+      }
+    },
+    {
+      "palavra": "BOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para comer e falar",
+        "media": "Abertura do rosto"
+      }
+    },
+    {
+      "palavra": "DEDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A mão tem cinco",
+        "media": "Extremidade da mão ou do pé"
+      }
+    },
+    {
+      "palavra": "OSSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte dura dentro do corpo",
+        "media": "Peça do esqueleto"
+      }
+    },
+    {
+      "palavra": "PELE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cobre o corpo todo",
+        "media": "Maior órgão do corpo"
+      }
+    },
+    {
+      "palavra": "UNHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica na ponta do dedo",
+        "media": "Lâmina na ponta dos dedos"
+      }
+    },
+    {
+      "palavra": "VEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Por onde o sangue passa",
+        "media": "Vaso que leva o sangue ao coração"
+      }
+    },
+    {
+      "palavra": "NARIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para cheirar",
+        "media": "Órgão do olfato"
+      }
+    },
+    {
+      "palavra": "DENTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para mastigar",
+        "media": "Estrutura dura da boca"
+      }
+    },
+    {
+      "palavra": "BRAÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica entre o ombro e a mão",
+        "media": "Membro superior"
+      }
+    },
+    {
+      "palavra": "PERNA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para andar",
+        "media": "Membro inferior"
+      }
+    },
+    {
+      "palavra": "OMBRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde o braço começa",
+        "media": "Junta do braço com o tronco"
+      }
+    },
+    {
+      "palavra": "TESTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica acima dos olhos",
+        "media": "Parte de cima do rosto"
+      }
+    },
+    {
+      "palavra": "CABELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cresce na cabeça",
+        "media": "Pelos da cabeça"
+      }
+    },
+    {
+      "palavra": "ORELHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Por onde ouvimos",
+        "media": "Parte externa do ouvido"
+      }
+    },
+    {
+      "palavra": "JOELHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dobra no meio da perna",
+        "media": "Articulação da perna"
+      }
+    },
+    {
+      "palavra": "COSTAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte de trás do corpo",
+        "media": "Dorso"
+      }
+    },
+    {
+      "palavra": "PULMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para respirar",
+        "media": "Órgão da respiração"
+      }
+    },
+    {
+      "palavra": "SANGUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líquido vermelho do corpo",
+        "media": "Líquido que circula nas veias"
+      }
+    },
+    {
+      "palavra": "LÍNGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sente o gosto da comida",
+        "media": "Órgão do paladar"
+      }
+    },
+    {
+      "palavra": "QUEIXO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica embaixo da boca",
+        "media": "Parte de baixo do rosto"
+      }
+    },
+    {
+      "palavra": "UMBIGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Buraquinho na barriga",
+        "media": "Cicatriz no centro da barriga"
+      }
+    },
+    {
+      "palavra": "BARRIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica abaixo do peito",
+        "media": "Abdome"
+      }
+    },
+    {
+      "palavra": "CORAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bate dentro do peito",
+        "media": "Órgão que bombeia o sangue"
+      }
+    },
+    {
+      "palavra": "CÉREBRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para pensar",
+        "media": "Órgão do pensamento"
+      }
+    },
+    {
+      "palavra": "PESCOÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Liga a cabeça ao corpo",
+        "media": "Liga a cabeça ao tronco"
+      }
+    },
+    {
+      "palavra": "CINTURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde se usa o cinto",
+        "media": "Parte do corpo onde se usa o cinto"
+      }
+    },
+    {
+      "palavra": "MÚSCULO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fica forte com exercício",
+        "media": "Tecido que permite o movimento"
+      }
+    },
+    {
+      "palavra": "ESTÔMAGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Para onde vai a comida que engolimos",
+        "media": "Órgão da digestão"
+      }
+    },
+    {
+      "palavra": "COTOVELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dobra no meio do braço",
+        "media": "Articulação do braço"
+      }
+    }
+  ]
+}

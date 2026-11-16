@@ -1,0 +1,280 @@
+{
+  "tema": "Animais",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "GATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal que mia",
+        "media": "Felino doméstico que caça ratos"
+      }
+    },
+    {
+      "palavra": "PATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave que faz quá-quá",
+        "media": "Ave aquática de bico achatado"
+      }
+    },
+    {
+      "palavra": "VACA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal que faz mu e dá leite",
+        "media": "Fêmea do boi"
+      }
+    },
+    {
+      "palavra": "LEÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O rei da selva",
+        "media": "Felino africano de juba"
+      }
+    },
+    {
+      "palavra": "SAPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho verde que pula e coaxa",
+        "media": "Anfíbio que coaxa"
+      }
+    },
+    {
+      "palavra": "URSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho grande e peludo que gosta de mel",
+        "media": "Mamífero que hiberna no inverno"
+      }
+    },
+    {
+      "palavra": "RATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho pequeno que gosta de queijo",
+        "media": "Roedor de cauda longa"
+      }
+    },
+    {
+      "palavra": "LOBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal que uiva para a lua",
+        "media": "Canídeo selvagem que vive em alcateia"
+      }
+    },
+    {
+      "palavra": "TATU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de casca dura que cava buracos",
+        "media": "Mamífero com carapaça que cava tocas"
+      }
+    },
+    {
+      "palavra": "ONÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gato grande e pintado das matas do Brasil",
+        "media": "Maior felino das Américas"
+      }
+    },
+    {
+      "palavra": "ZEBRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cavalo com listras pretas e brancas",
+        "media": "Equino listrado da África"
+      }
+    },
+    {
+      "palavra": "PEIXE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho que vive na água e tem nadadeiras",
+        "media": "Animal que respira por guelras"
+      }
+    },
+    {
+      "palavra": "COBRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho comprido que rasteja",
+        "media": "Réptil sem patas"
+      }
+    },
+    {
+      "palavra": "POLVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar com oito braços",
+        "media": "Molusco de oito tentáculos"
+      }
+    },
+    {
+      "palavra": "PORCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal cor-de-rosa que faz oinc",
+        "media": "Animal criado no chiqueiro"
+      }
+    },
+    {
+      "palavra": "ARARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave grande e colorida de bico curvo",
+        "media": "Ave de penas coloridas das matas brasileiras"
+      }
+    },
+    {
+      "palavra": "MACACO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho que adora banana e pula nas árvores",
+        "media": "Primata que vive em bando"
+      }
+    },
+    {
+      "palavra": "COELHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de orelhas compridas que come cenoura",
+        "media": "Animal de orelhas longas que salta"
+      }
+    },
+    {
+      "palavra": "GIRAFA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal de pescoço muito comprido",
+        "media": "Mamífero mais alto do mundo"
+      }
+    },
+    {
+      "palavra": "CAVALO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal que relincha e a gente monta",
+        "media": "Equino usado para montaria"
+      }
+    },
+    {
+      "palavra": "ABELHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que faz mel",
+        "media": "Inseto que produz mel e cera"
+      }
+    },
+    {
+      "palavra": "CORUJA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave que fica acordada à noite",
+        "media": "Ave noturna de olhos grandes"
+      }
+    },
+    {
+      "palavra": "OVELHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal que faz mé e dá lã",
+        "media": "Animal de onde vem a lã"
+      }
+    },
+    {
+      "palavra": "JACARÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho da água com a boca cheia de dentes",
+        "media": "Réptil parente do crocodilo"
+      }
+    },
+    {
+      "palavra": "BALEIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O maior animal do mar",
+        "media": "Maior mamífero do planeta"
+      }
+    },
+    {
+      "palavra": "CAMELO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Animal do deserto com duas corcovas",
+        "media": "Animal do deserto de duas corcovas"
+      }
+    },
+    {
+      "palavra": "GALINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave que bota ovos",
+        "media": "Ave do galinheiro"
+      }
+    },
+    {
+      "palavra": "FORMIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto pequeno que vive no formigueiro",
+        "media": "Inseto que vive em colônias"
+      }
+    },
+    {
+      "palavra": "PINGUIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave que não voa e vive no gelo",
+        "media": "Ave marinha que não voa"
+      }
+    },
+    {
+      "palavra": "TUBARÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixe grande de dentes afiados",
+        "media": "Peixe predador de dentes afiados"
+      }
+    },
+    {
+      "palavra": "ESQUILO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bichinho que guarda nozes",
+        "media": "Roedor de cauda peluda"
+      }
+    },
+    {
+      "palavra": "CANGURU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Animal que pula e leva o filhote na bolsa",
+        "media": "Marsupial da Austrália"
+      }
+    },
+    {
+      "palavra": "ELEFANTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Animal enorme com tromba",
+        "media": "Maior mamífero terrestre"
+      }
+    },
+    {
+      "palavra": "GOLFINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar muito esperto que pula",
+        "media": "Mamífero marinho muito inteligente"
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "tema": "Frutas",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "UVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta pequena que nasce em cachos",
+        "media": "Fruta da videira"
+      }
+    },
+    {
+      "palavra": "MAÇÃ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta crocante, vermelha ou verde",
+        "media": "Fruta da macieira"
+      }
+    },
+    {
+      "palavra": "PERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta parecida com a maçã, em forma de gota",
+        "media": "Fruta da pereira"
+      }
+    },
+    {
+      "palavra": "KIWI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta peluda por fora e verde por dentro",
+        "media": "Fruta de polpa verde e casca marrom"
+      }
+    },
+    {
+      "palavra": "CAJU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta com a castanha pendurada",
+        "media": "Fruta cuja castanha fica do lado de fora"
+      }
+    },
+    {
+      "palavra": "COCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta dura com água dentro",
+        "media": "Fruto do coqueiro"
+      }
+    },
+    {
+      "palavra": "AÇAÍ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Frutinha roxa da Amazônia",
+        "media": "Fruto de uma palmeira amazônica"
+      }
+    },
+    {
+      "palavra": "FIGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta roxa cheia de sementinhas",
+        "media": "Fruto da figueira"
+      }
+    },
+    {
+      "palavra": "MANGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta amarela de caroço grande",
+        "media": "Fruta tropical de caroço grande"
+      }
+    },
+    {
+      "palavra": "LIMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta verde e azeda",
+        "media": "Fruta cítrica da limonada"
+      }
+    },
+    {
+      "palavra": "MELÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta grande e doce de casca amarela",
+        "media": "Fruta da mesma família da melancia"
+      }
+    },
+    {
+      "palavra": "MAMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta laranja por dentro com sementes pretas",
+        "media": "Fruto do mamoeiro"
+      }
+    },
+    {
+      "palavra": "AMORA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Frutinha roxa bem escura",
+        "media": "Fruto da amoreira"
+      }
+    },
+    {
+      "palavra": "CAQUI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta laranja e mole, parecida com tomate",
+        "media": "Fruta oriental alaranjada"
+      }
+    },
+    {
+      "palavra": "BANANA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta amarela que o macaco adora",
+        "media": "Fruta que nasce em pencas"
+      }
+    },
+    {
+      "palavra": "GOIABA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta verde por fora e rosada por dentro",
+        "media": "Fruta do doce que se come com queijo"
+      }
+    },
+    {
+      "palavra": "CEREJA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Frutinha vermelha que enfeita o bolo",
+        "media": "Fruta pequena de cabinho e caroço"
+      }
+    },
+    {
+      "palavra": "AMEIXA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta roxa que também se come seca",
+        "media": "Fruta que, seca, vira passa"
+      }
+    },
+    {
+      "palavra": "TÂMARA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta doce do deserto",
+        "media": "Fruto da tamareira"
+      }
+    },
+    {
+      "palavra": "LARANJA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta redonda boa para suco",
+        "media": "Fruta cítrica que dá nome a uma cor"
+      }
+    },
+    {
+      "palavra": "MORANGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta vermelha com sementinhas por fora",
+        "media": "Fruta vermelha do bolo com chantili"
+      }
+    },
+    {
+      "palavra": "ABACAXI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta com coroa de folhas",
+        "media": "Fruta tropical de casca espinhosa e coroa"
+      }
+    },
+    {
+      "palavra": "PÊSSEGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta de casca aveludada",
+        "media": "Fruta de casca aveludada e caroço"
+      }
+    },
+    {
+      "palavra": "ABACATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta verde e cremosa por dentro",
+        "media": "Fruta usada no guacamole"
+      }
+    },
+    {
+      "palavra": "PITANGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Frutinha vermelha com gomos",
+        "media": "Fruta brasileira vermelha e azedinha"
+      }
+    },
+    {
+      "palavra": "MELANCIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta verde por fora e vermelha por dentro",
+        "media": "Fruta grande cheia de água"
+      }
+    },
+    {
+      "palavra": "MARACUJÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta azedinha de suco amarelo",
+        "media": "Fruta do suco que acalma"
+      }
+    },
+    {
+      "palavra": "GRAVIOLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta verde com espinhos moles",
+        "media": "Fruta tropical de casca espinhosa"
+      }
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "tema": "Escola",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "GIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bastão branco para escrever no quadro",
+        "media": "Bastão para escrever no quadro-negro"
+      }
+    },
+    {
+      "palavra": "MESA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Móvel onde apoiamos o caderno",
+        "media": "Móvel de tampo liso"
+      }
+    },
+    {
+      "palavra": "AULA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hora de aprender com a professora",
+        "media": "Período de ensino"
+      }
+    },
+    {
+      "palavra": "COLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Serve para grudar papel",
+        "media": "Adesivo de papel"
+      }
+    },
+    {
+      "palavra": "NOTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O número que sai na prova",
+        "media": "Resultado de uma avaliação"
+      }
+    },
+    {
+      "palavra": "SALA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde tem aula",
+        "media": "Cômodo onde a turma estuda"
+      }
+    },
+    {
+      "palavra": "MAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que mostra países e cidades",
+        "media": "Representação de um território"
+      }
+    },
+    {
+      "palavra": "LÁPIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Serve para escrever e dá para apagar",
+        "media": "Objeto de grafite para escrever"
+      }
+    },
+    {
+      "palavra": "LIVRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem páginas e histórias",
+        "media": "Conjunto de páginas encadernadas"
+      }
+    },
+    {
+      "palavra": "RÉGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Serve para traçar linhas retas",
+        "media": "Instrumento para medir e traçar"
+      }
+    },
+    {
+      "palavra": "LOUSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quadro onde a professora escreve",
+        "media": "Quadro-negro"
+      }
+    },
+    {
+      "palavra": "PROVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Teste do que você aprendeu",
+        "media": "Avaliação escrita"
+      }
+    },
+    {
+      "palavra": "ALUNO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem estuda na escola",
+        "media": "Estudante"
+      }
+    },
+    {
+      "palavra": "DEVER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tarefa para fazer em casa",
+        "media": "Lição de casa"
+      }
+    },
+    {
+      "palavra": "GLOBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bola com o mapa da Terra",
+        "media": "Esfera com o mapa-múndi"
+      }
+    },
+    {
+      "palavra": "LETRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A, B e C são exemplos",
+        "media": "Símbolo do alfabeto"
+      }
+    },
+    {
+      "palavra": "PÁTIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar aberto da escola para brincar",
+        "media": "Área aberta da escola"
+      }
+    },
+    {
+      "palavra": "ESTOJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caixinha para guardar lápis",
+        "media": "Porta-lápis"
+      }
+    },
+    {
+      "palavra": "CANETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Escreve com tinta",
+        "media": "Instrumento de escrita a tinta"
+      }
+    },
+    {
+      "palavra": "LANCHE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida da hora do recreio",
+        "media": "Refeição leve"
+      }
+    },
+    {
+      "palavra": "NÚMERO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "1, 2 e 3 são exemplos",
+        "media": "Símbolo que indica quantidade"
+      }
+    },
+    {
+      "palavra": "CADERNO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem folhas com linhas para escrever",
+        "media": "Bloco de folhas para anotações"
+      }
+    },
+    {
+      "palavra": "MOCHILA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolsa de levar nas costas",
+        "media": "Bolsa escolar de alças"
+      }
+    },
+    {
+      "palavra": "TESOURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Serve para cortar papel",
+        "media": "Instrumento de corte com duas lâminas"
+      }
+    },
+    {
+      "palavra": "RECREIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hora de brincar no pátio",
+        "media": "Intervalo entre as aulas"
+      }
+    },
+    {
+      "palavra": "DIRETOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem cuida da escola toda",
+        "media": "Quem dirige a escola"
+      }
+    },
+    {
+      "palavra": "BORRACHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apaga o que o lápis escreveu",
+        "media": "Objeto que apaga grafite"
+      }
+    },
+    {
+      "palavra": "CARTEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mesinha do aluno na sala",
+        "media": "Mesa escolar individual"
+      }
+    },
+    {
+      "palavra": "ALFABETO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Todas as letras de A a Z",
+        "media": "Conjunto das letras de uma língua"
+      }
+    },
+    {
+      "palavra": "UNIFORME",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa igual de todos os alunos",
+        "media": "Vestimenta padrão da escola"
+      }
+    }
+  ]
+}
