@@ -21,6 +21,12 @@ abstract final class EstadoPartida {
   static const andamento = 'andamento';
   static const desistido = 'desistido';
   static const concluido = 'concluido';
+
+  /// Desistiu e pediu para ver a resposta: encerrado sem pontos.
+  static const resposta = 'resposta';
+
+  /// Estados de quem terminou (com ou sem pontos).
+  static const encerrados = [concluido, resposta];
 }
 
 /// Progresso, pendentes e histórico.
@@ -159,21 +165,30 @@ class Banco extends _$Banco {
             ]))
           .watch();
 
-  /// Histórico de concluídas, mais recentes primeiro.
+  /// Histórico de encerradas (concluídas ou com a resposta vista), mais
+  /// recentes primeiro.
   Stream<List<Partida>> observarConcluidas(int perfilId) =>
-      (select(partidas)
-            ..where(
-              (p) =>
-                  p.perfilId.equals(perfilId) &
-                  p.estado.equals(EstadoPartida.concluido),
-            )
-            ..orderBy([
-              (p) => OrderingTerm(
-                expression: p.atualizadoEm,
-                mode: OrderingMode.desc,
-              ),
-            ]))
-          .watch();
+      _encerradas(perfilId).watch();
+
+  /// As últimas partidas encerradas, para a oferta de subir de nível.
+  Future<List<Partida>> ultimasEncerradas(int perfilId, {int limite = 30}) =>
+      (_encerradas(perfilId)..limit(limite)).get();
+
+  SimpleSelectStatement<$PartidasTable, Partida> _encerradas(int perfilId) =>
+      select(partidas)
+        ..where(
+          (p) =>
+              p.perfilId.equals(perfilId) &
+              p.estado.isIn(EstadoPartida.encerrados),
+        )
+        ..orderBy([
+          (p) =>
+              OrderingTerm(expression: p.atualizadoEm, mode: OrderingMode.desc),
+          (p) => OrderingTerm(expression: p.id, mode: OrderingMode.desc),
+        ]);
+
+  Future<Perfil> buscarPerfil(int perfilId) =>
+      (select(perfis)..where((p) => p.id.equals(perfilId))).getSingle();
 
   /// Partida mais recente do perfil com aquele desafio (ex.: o diário).
   Stream<Partida?> observarPartidaDoDesafio(int perfilId, String desafioId) =>

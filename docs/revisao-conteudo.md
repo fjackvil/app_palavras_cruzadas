@@ -24,9 +24,9 @@ Os 64 temas em `app/assets/palavras/` foram escritos com IA em 16/11/2026 e pass
 
 ## Fatos a conferir
 
-- **Mudam com o tempo:** Atletas famosos (NEYMAR artilheiro da seleção, VINI melhor do mundo 2024, MESSI), Atores e diretores (TORRES, Globo de Ouro 2025; SALLES, Oscar), Química (118 elementos), Tecnologia (REATOR: Angra; SONDA: Voyager 1).
-- **Discutidos:** ROMÁRIO e o gol mil; CUIABÁ como centro geodésico; SÃO LUÍS fundada por franceses; ESPINOSSAURO o maior terópode; HAMBÚRGUER "dos EUA"; DECATLO "rei dos atletas"; RAP "ritmo e poesia".
-- **Precisão:** SUÍÇA (Berna é "cidade federal"), BOLÍVIA (La Paz x Sucre), NEPAL e o Everest, CAZAQUISTÃO "maior país sem mar", VÉRTEBRA (33 ou 26), MAGALHÃES (morreu na viagem), PARANÁ (bandeira com araucária e erva-mate), CÍTARA (sitar indiano x cítara de mesa), LÍRIO e a flor-de-lis.
+- **Mudam com o tempo:** Atletas famosos (VINI melhor do mundo 2024, MESSI), Atores e diretores (TORRES, Globo de Ouro 2025; SALLES, Oscar), Química (118 elementos), Tecnologia (REATOR: Angra; SONDA: Voyager 1).
+- **Discutidos:** ROMÁRIO e o gol mil; SÃO LUÍS fundada por franceses; ESPINOSSAURO o maior terópode; HAMBÚRGUER "dos EUA"; DECATLO "rei dos atletas".
+- **Precisão:** CÍTARA (sitar indiano x cítara de mesa).
 - **Times brasileiros:** títulos e fundações (Bahia 1959, Coritiba 1985, Ponte Preta 1900), apelidos (TIMÃO, MENGÃO, VERDÃO, PORCO, URUBU).
 - **Cantores e bandas:** TREM DA ALEGRIA (integrantes e músicas), SANDY, MUTANTES.
 - **Dinossauros brasileiros:** IRRITATOR, OXALAIA, SATURNALIA, UBERABATITAN.
@@ -34,8 +34,9 @@ Os 64 temas em `app/assets/palavras/` foram escritos com IA em 16/11/2026 e pass
 
 ## Dicas fracas ou forçadas
 
-- Antônimos: PESADO, FORA, CEDO, DOCE.
-- Termos musicais: ACORDE ("verbo de quem desperta"), GRAVE ("voz do urso").
-- Filmes: TRILHA. Instrumentos: CORNETA ("clarim").
+- Filmes: TRILHA.
 - Expressões populares: trocadilhos nas dicas difíceis; ÉGUA ("lavar a égua") e MOURO ("trabalhar como um mouro") ainda são correntes?
-- Animais: CAMELO (dicas leve e média quase iguais), PINGUIM ("vive no gelo"), BALEIA ("maior mamífero").
+
+## Já corrigido (16/11/2026)
+
+Dicas reescritas: SUÍÇA (Berna e Cruz Vermelha), NEPAL (Everest na fronteira com a China), PARANÁ (araucária e erva-mate), VÉRTEBRA (33 no bebê), MAGALHÃES (liderou a viagem, não a terminou), LÍRIO (flor-de-lis "dizem"), NEYMAR (sem "maior artilheiro"), CUIABÁ (perto do centro), RAP (sem a sigla duvidosa), BALEIA, PINGUIM, CAMELO, antônimos PESADO, FORA, CEDO e DOCE, ACORDE, GRAVE e CORNETA. BOLÍVIA (sede do governo em La Paz) e CAZAQUISTÃO (maior país sem mar) foram conferidos e estavam certos.

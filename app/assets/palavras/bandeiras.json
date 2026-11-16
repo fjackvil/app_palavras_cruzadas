@@ -109,7 +109,7 @@
       "dicas": {
         "leve": "Quadrada e vermelha, com uma cruz branca",
         "media": "Bandeira quadrada da cruz branca",
-        "dificil": "Bandeira de Berna, com as cores invertidas da Cruz Vermelha"
+        "dificil": "Suas cores invertidas viraram o símbolo da Cruz Vermelha"
       }
     },
     {
@@ -459,7 +459,7 @@
       "dificuldade": 3,
       "dicas": {
         "leve": "Verde, com uma faixa branca e uma bola azul estrelada",
-        "media": "Faixa diagonal branca, esfera azul e ramos de pinheiro",
+        "media": "Faixa diagonal branca, esfera azul, araucária e erva-mate",
         "dificil": "Bandeira do estado de Curitiba"
       }
     }

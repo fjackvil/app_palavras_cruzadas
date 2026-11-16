@@ -236,6 +236,17 @@ class JogoCruzadas extends ChangeNotifier {
     dicasPalavra: dicasPalavra,
   );
 
+  /// "Ver resposta": completa a grade. O que faltava fica azul, como nas
+  /// dicas, para a pessoa ver o que não acertou.
+  void revelarTudo() {
+    for (var i = 0; i < respostas.length; i++) {
+      final certa = desafio.letra(i ~/ desafio.tamanho, i % desafio.tamanho);
+      if (certa != null && respostas[i] != certa) _revelar(i);
+    }
+    erradas.clear();
+    notifyListeners();
+  }
+
   Map<String, dynamic> paraJson() => {
     'respostas': respostas,
     'reveladas': reveladas.toList(),

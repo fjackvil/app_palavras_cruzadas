@@ -13,6 +13,7 @@ import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/tema.dart';
 import 'tela_jogo.dart';
+import 'tela_resposta.dart';
 
 /// Abaixo desta idade o perfil só vê temas marcados como infantis.
 const idadeTemasAdultos = 14;
@@ -101,13 +102,7 @@ class _TelaInicioState extends State<TelaInicio> {
         .toList();
     final temas = escolhidos.isEmpty ? visiveis : escolhidos;
     final semente = Random().nextInt(1 << 31);
-    final desafio = await _montar(
-      () => const GeradorCruzadas().gerar(
-        temas: temas,
-        nivel: nivel,
-        semente: semente,
-      ),
-    );
+    final desafio = await _montar(tarefaCruzadas(temas, nivel, semente));
     await _comecar(perfil, desafio);
   }
 
@@ -118,25 +113,96 @@ class _TelaInicioState extends State<TelaInicio> {
   ) async {
     if (_montando) return;
     final hoje = DateTime.now();
-    final desafio = await _montar(
-      () => DesafioDiario.gerar(todos, nivel, hoje),
-    );
+    final desafio = await _montar(tarefaDiario(todos, nivel, hoje));
     await _comecar(perfil, desafio);
   }
 
   Future<void> _retomar(Partida partida) async {
-    final desafio = DesafioCruzadas.deJson(
-      jsonDecode(partida.desafio) as Map<String, dynamic>,
-    );
-    final jogo = JogoCruzadas.deJson(
-      desafio,
-      jsonDecode(partida.respostas) as Map<String, dynamic>,
-    );
+    final jogo = _jogoDa(partida);
     await Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => TelaJogo(jogo: jogo, partidaId: partida.id),
       ),
     );
+  }
+
+  JogoCruzadas _jogoDa(Partida partida) {
+    final desafio = DesafioCruzadas.deJson(
+      jsonDecode(partida.desafio) as Map<String, dynamic>,
+    );
+    return JogoCruzadas.deJson(
+      desafio,
+      jsonDecode(partida.respostas) as Map<String, dynamic>,
+    );
+  }
+
+  /// Pendente desistido: continuar ou ver a resposta (encerra sem pontos).
+  Future<void> _abrirDesistido(Partida partida) async {
+    final escolha = await showModalBottomSheet<String>(
+      context: context,
+      builder: (context) => SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.play_arrow),
+              title: const Text('Continuar jogando'),
+              subtitle: const Text('O tempo continua de onde parou.'),
+              onTap: () => Navigator.pop(context, 'continuar'),
+            ),
+            ListTile(
+              leading: const Icon(Icons.visibility_outlined),
+              title: const Text('Ver resposta'),
+              subtitle: const Text('Encerra o desafio sem pontos.'),
+              onTap: () => Navigator.pop(context, 'resposta'),
+            ),
+          ],
+        ),
+      ),
+    );
+    if (!mounted) return;
+    if (escolha == 'continuar') await _retomar(partida);
+    if (escolha == 'resposta') await _verResposta(partida);
+  }
+
+  Future<void> _verResposta(Partida partida) async {
+    final sim = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Ver a resposta?'),
+        content: const Text(
+          'O desafio é encerrado sem pontos e não dá para continuar depois.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Voltar'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Ver resposta'),
+          ),
+        ],
+      ),
+    );
+    if (sim != true || !mounted) return;
+    final jogo = _jogoDa(partida);
+    await Servicos.of(context).banco.salvarPartida(
+      partida.id,
+      estado: EstadoPartida.resposta,
+      respostas: jsonEncode(jogo.paraJson()),
+      tempoGastoSeg: partida.tempoGastoSeg,
+      dicasUsadas: partida.dicasUsadas,
+    );
+    await _mostrarResposta(partida, jogo: jogo);
+  }
+
+  /// Abre a grade resolvida. [jogo] é o progresso de quando desistiu.
+  Future<void> _mostrarResposta(Partida partida, {JogoCruzadas? jogo}) async {
+    final j = (jogo ?? _jogoDa(partida))..revelarTudo();
+    if (!mounted) return;
+    await Navigator.of(context)
+        .push(MaterialPageRoute<void>(builder: (_) => TelaResposta(jogo: j)));
   }
 
   @override
@@ -340,8 +406,10 @@ class _TelaInicioState extends State<TelaInicio> {
                         '${p.estado == EstadoPartida.desistido ? 'Desistiu' : 'Em andamento'}'
                         ' · ${formatarTempo(p.tempoGastoSeg)}',
                       ),
-                      trailing: const Text('Continuar'),
-                      onTap: () => _retomar(p),
+                      trailing: const Icon(Icons.chevron_right),
+                      onTap: () => p.estado == EstadoPartida.desistido
+                          ? _abrirDesistido(p)
+                          : _retomar(p),
                     ),
                   ),
                 const SizedBox(height: 16),
@@ -359,15 +427,24 @@ class _TelaInicioState extends State<TelaInicio> {
               children: [
                 Text('Concluídos', style: texto.titleMedium),
                 for (final p in feitas.take(10))
-                  ListTile(
-                    leading: const Icon(Icons.emoji_events_outlined),
-                    title: Text(descreverPartida(p, todos)),
-                    subtitle: Text(
-                      '${formatarTempo(p.tempoGastoSeg)}'
-                      ' · ${p.dicasUsadas} dica(s)',
+                  if (p.estado == EstadoPartida.resposta)
+                    ListTile(
+                      leading: const Icon(Icons.visibility_outlined),
+                      title: Text(descreverPartida(p, todos)),
+                      subtitle: const Text('Viu a resposta · sem pontos'),
+                      trailing: const Icon(Icons.chevron_right),
+                      onTap: () => _mostrarResposta(p),
+                    )
+                  else
+                    ListTile(
+                      leading: const Icon(Icons.emoji_events_outlined),
+                      title: Text(descreverPartida(p, todos)),
+                      subtitle: Text(
+                        '${formatarTempo(p.tempoGastoSeg)}'
+                        ' · ${p.dicasUsadas} dica(s)',
+                      ),
+                      trailing: Text('${p.pontos} pts'),
                     ),
-                    trailing: Text('${p.pontos} pts'),
-                  ),
               ],
             );
           },
@@ -452,6 +529,11 @@ class _CartaoDiario extends StatelessWidget {
                     '${formatarTempo(partida.tempoGastoSeg)}. Volte amanhã!',
                   );
                 }
+                if (partida?.estado == EstadoPartida.resposta) {
+                  return const Text(
+                    'Você viu a resposta de hoje. Amanhã tem outro!',
+                  );
+                }
                 if (partida != null) {
                   return FilledButton.tonalIcon(
                     icon: const Icon(Icons.play_arrow),
@@ -494,3 +576,24 @@ String formatarTempo(int segundos) {
   final s = segundos % 60;
   return '${m}min${s.toString().padLeft(2, '0')}s';
 }
+
+// As tarefas do Isolate.run ficam fora da tela: uma closure
+// criada dentro de um método da tela levaria junto a tela inteira, que
+// não pode ser enviada para outro isolate.
+DesafioCruzadas Function() tarefaCruzadas(
+  List<Tema> temas,
+  Nivel nivel,
+  int semente,
+) =>
+    () => const GeradorCruzadas().gerar(
+      temas: temas,
+      nivel: nivel,
+      semente: semente,
+    );
+
+DesafioCruzadas Function() tarefaDiario(
+  List<Tema> todos,
+  Nivel nivel,
+  DateTime dia,
+) =>
+    () => DesafioDiario.gerar(todos, nivel, dia);

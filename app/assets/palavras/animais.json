@@ -224,8 +224,8 @@
       "palavra": "BALEIA",
       "dificuldade": 1,
       "dicas": {
-        "leve": "O maior animal do mar",
-        "media": "Maior mamífero do planeta",
+        "leve": "Bicho enorme do mar que respira ar",
+        "media": "Mamífero gigante dos oceanos",
         "dificil": "Jubarte e cachalote são exemplos"
       }
     },
@@ -234,7 +234,7 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Animal do deserto com duas corcovas",
-        "media": "Animal do deserto de duas corcovas",
+        "media": "Bicho de carga das caravanas da Ásia",
         "dificil": "Seu primo de uma corcova só é o dromedário"
       }
     },
@@ -260,7 +260,7 @@
       "palavra": "PINGUIM",
       "dificuldade": 1,
       "dicas": {
-        "leve": "Ave que não voa e vive no gelo",
+        "leve": "Ave que não voa e nada muito bem",
         "media": "Ave marinha que não voa",
         "dificil": "O imperador é a maior espécie dele"
       }

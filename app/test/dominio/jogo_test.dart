@@ -138,4 +138,14 @@ void main() {
     expect(volta.horizontal, isFalse);
     expect((volta.linha, volta.coluna), (1, 3));
   });
+
+  test('ver resposta completa a grade e marca o que faltava', () {
+    final jogo = JogoCruzadas(desafio(Nivel.medio));
+    digitarTudo(jogo, 'GAT');
+    jogo.revelarTudo();
+    expect(jogo.concluido, isTrue);
+    // O, V e A que faltavam ficam marcadas como reveladas (azul).
+    expect(jogo.reveladas, {3, 7, 11});
+    expect(jogo.reveladas.contains(0), isFalse);
+  });
 }

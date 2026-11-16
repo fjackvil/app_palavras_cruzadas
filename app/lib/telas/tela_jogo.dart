@@ -9,7 +9,8 @@ import '../dominio/desafio.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
-import '../widgets/grade_cruzadas.dart';
+import '../dominio/subir_nivel.dart';
+import '../widgets/grade_com_zoom.dart';
 import '../widgets/teclado.dart';
 import 'tela_inicio.dart' show formatarTempo;
 import 'tela_resultado.dart';
@@ -99,6 +100,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
     _relogio?.cancel();
     final pontuacao = _jogo.pontuacao;
     await _salvar(estado: EstadoPartida.concluido, pontos: pontuacao.total);
+    final (perfilId, proximo) = await _ofertaDeNivel();
     if (!mounted) return;
     await Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
@@ -106,8 +108,47 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
           desafio: _jogo.desafio,
           pontuacao: pontuacao,
           segundos: _jogo.segundos,
+          perfilId: perfilId,
+          proximoNivel: proximo,
         ),
       ),
+    );
+  }
+
+  /// Confere se a pessoa fez 3 desafios seguidos rápido e sem dicas.
+  /// Se algo der errado aqui, só não oferece: o resultado aparece igual.
+  Future<(int?, Nivel?)> _ofertaDeNivel() async {
+    try {
+      return await _calcularOferta();
+    } on Object {
+      return (null, null);
+    }
+  }
+
+  Future<(int, Nivel?)> _calcularOferta() async {
+    final partida = await _banco.buscarPartida(widget.partidaId);
+    final perfil = await _banco.buscarPerfil(partida.perfilId);
+    final recentes = await _banco.ultimasEncerradas(perfil.id);
+    final resumos = [
+      for (final p in recentes)
+        if (p.modo == 'cruzadas') _resumir(p),
+    ];
+    return (
+      perfil.id,
+      SubirNivel.oferta(resumos, Nivel.porNome(perfil.nivelAtual)),
+    );
+  }
+
+  static ResumoPartida _resumir(Partida p) {
+    final desafio = DesafioCruzadas.deJson(
+      jsonDecode(p.desafio) as Map<String, dynamic>,
+    );
+    return ResumoPartida(
+      nivel: desafio.nivel,
+      concluida: p.estado == EstadoPartida.concluido,
+      dicas: p.dicasUsadas,
+      segundos: p.tempoGastoSeg,
+      tempoAlvoSegundos: desafio.tempoAlvoSegundos,
     );
   }
 
@@ -254,15 +295,15 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
           child: Column(
             children: [
               Expanded(
-                child: Center(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8),
-                    child: _pausado
-                        ? _Pausado(
+                child: Padding(
+                  padding: const EdgeInsets.all(8),
+                  child: _pausado
+                      ? Center(
+                          child: _Pausado(
                             aoContinuar: () => setState(() => _pausado = false),
-                          )
-                        : GradeCruzadas(jogo: _jogo),
-                  ),
+                          ),
+                        )
+                      : GradeComZoom(jogo: _jogo),
                 ),
               ),
               Material(

@@ -74,4 +74,26 @@ void main() {
     await banco.apagarPerfil(perfil.id);
     expect(await banco.select(banco.partidas).get(), isEmpty);
   });
+
+  test('ver resposta encerra sem pontos e entra no histórico', () async {
+    final perfil = await novo('Caio');
+    final id = await banco.iniciarPartida(
+      perfilId: perfil.id,
+      modo: 'cruzadas',
+      desafioId: 'x',
+      desafio: '{}',
+      respostas: '{}',
+    );
+    await banco.salvarPartida(
+      id,
+      estado: EstadoPartida.resposta,
+      respostas: '{}',
+      tempoGastoSeg: 40,
+      dicasUsadas: 0,
+    );
+    expect(await banco.observarPendentes(perfil.id).first, isEmpty);
+    expect(await banco.observarConcluidas(perfil.id).first, hasLength(1));
+    expect(await banco.ultimasEncerradas(perfil.id), hasLength(1));
+    expect(await banco.observarTotalPontos(perfil.id).first, 0);
+  });
 }
