@@ -75,7 +75,7 @@ class GradeCruzadas extends StatelessWidget {
     final fundo = selecionada
         ? CoresMarca.amarelo
         : naPalavra
-        ? CoresMarca.verdeClaro.withValues(alpha: 0.35)
+        ? Color.lerp(Colors.white, CoresMarca.verdeClaro, 0.35)!
         : Colors.white;
     final corLetra = jogo.erradas.contains(i)
         ? CoresMarca.vermelho
