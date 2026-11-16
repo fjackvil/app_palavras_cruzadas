@@ -1,0 +1,449 @@
+{
+  "tema": "Séries",
+  "categoria": "Cinema e TV",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CANAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número que a gente troca na TV",
+        "media": "Emissora sintonizada no televisor",
+        "dificil": "Também liga dois mares, como o do Panamá"
+      }
+    },
+    {
+      "palavra": "SOFÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Móvel macio da sala para ver TV",
+        "media": "Assento estofado para várias pessoas",
+        "dificil": "Parceiro de quem passa a noite vendo episódios"
+      }
+    },
+    {
+      "palavra": "PAUSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Botão para parar o vídeo um pouquinho",
+        "media": "Interrupção breve",
+        "dificil": "Tecla útil na hora de buscar pipoca"
+      }
+    },
+    {
+      "palavra": "ATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem que dá vida a um personagem",
+        "media": "Intérprete masculino",
+        "dificil": "Decora falas e vive outras pessoas"
+      }
+    },
+    {
+      "palavra": "ATRIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher que dá vida a uma personagem",
+        "media": "Intérprete feminina",
+        "dificil": "Pode ganhar o Emmy de melhor interpretação feminina"
+      }
+    },
+    {
+      "palavra": "VILÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Personagem malvado",
+        "media": "Antagonista da trama",
+        "dificil": "Quem o público ama odiar"
+      }
+    },
+    {
+      "palavra": "HERÓI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Personagem bom e corajoso",
+        "media": "Protagonista valente",
+        "dificil": "O mocinho"
+      }
+    },
+    {
+      "palavra": "CENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedaço da história gravado de uma vez",
+        "media": "Trecho de um episódio",
+        "dificil": "Fazer uma é dar escândalo"
+      }
+    },
+    {
+      "palavra": "TELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte da TV onde aparecem as imagens",
+        "media": "Superfície do monitor",
+        "dificil": "Também é o pano do pintor"
+      }
+    },
+    {
+      "palavra": "ANTENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça no telhado que capta o sinal da TV",
+        "media": "Receptora de ondas",
+        "dificil": "Os insetos têm duas na cabeça"
+      }
+    },
+    {
+      "palavra": "FINAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O último episódio",
+        "media": "Desfecho da história",
+        "dificil": "Pode ser polêmico e dividir os fãs"
+      }
+    },
+    {
+      "palavra": "ÍDOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Artista que a gente admira muito",
+        "media": "Pessoa venerada pelos fãs",
+        "dificil": "Astro com legião de seguidores"
+      }
+    },
+    {
+      "palavra": "RISADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barulho de quem acha graça",
+        "media": "Gargalhada gravada de plateia nas comédias",
+        "dificil": "Claque que pontua as piadas"
+      }
+    },
+    {
+      "palavra": "VOLUME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Botão que deixa o som mais alto",
+        "media": "Intensidade do som",
+        "dificil": "Também é cada livro de uma coleção"
+      }
+    },
+    {
+      "palavra": "CONTROLE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelhinho com botões para mudar o canal",
+        "media": "Comando remoto da TV",
+        "dificil": "Vive sumindo entre as almofadas"
+      }
+    },
+    {
+      "palavra": "TELEVISÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho da sala que mostra programas",
+        "media": "Receptor de imagens e sons a distância",
+        "dificil": "Chegou ao Brasil em 1950"
+      }
+    },
+    {
+      "palavra": "EPISÓDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada parte de uma série",
+        "media": "Capítulo de uma temporada",
+        "dificil": "Costuma durar meia hora ou uma hora"
+      }
+    },
+    {
+      "palavra": "TEMPORADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Conjunto de episódios lançados juntos",
+        "media": "Ciclo anual de uma série",
+        "dificil": "Também é período de férias na praia"
+      }
+    },
+    {
+      "palavra": "ELENCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Todos os atores da série",
+        "media": "Conjunto de intérpretes",
+        "dificil": "Grupo escalado pelos produtores"
+      }
+    },
+    {
+      "palavra": "TRAMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A história contada",
+        "media": "Enredo da série",
+        "dificil": "Entrelaçado de fios num tecido"
+      }
+    },
+    {
+      "palavra": "ENREDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que acontece na história",
+        "media": "Sequência de fatos narrados",
+        "dificil": "Também é o tema da escola de samba"
+      }
+    },
+    {
+      "palavra": "ROTEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto com falas e cenas",
+        "media": "Script do episódio",
+        "dificil": "Também é o plano de uma viagem"
+      }
+    },
+    {
+      "palavra": "MARATONA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ver muitos episódios seguidos",
+        "media": "Sessão longa de episódios de uma vez",
+        "dificil": "Também é corrida de 42 km"
+      }
+    },
+    {
+      "palavra": "ESTREIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dia em que a série começa",
+        "media": "Primeira exibição",
+        "dificil": "Lançamento muito aguardado"
+      }
+    },
+    {
+      "palavra": "REPRISE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando passa de novo algo que já passou",
+        "media": "Reexibição",
+        "dificil": "Segunda chance para quem perdeu"
+      }
+    },
+    {
+      "palavra": "EMISSORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Empresa que transmite programas de TV",
+        "media": "Rede de televisão",
+        "dificil": "Dona do sinal aberto"
+      }
+    },
+    {
+      "palavra": "LEGENDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Letrinhas embaixo da imagem com as falas",
+        "media": "Tradução escrita dos diálogos",
+        "dificil": "Rival da dublagem"
+      }
+    },
+    {
+      "palavra": "DUBLAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vozes gravadas em português por cima das originais",
+        "media": "Versão falada em outro idioma",
+        "dificil": "Rival da legenda"
+      }
+    },
+    {
+      "palavra": "ABERTURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música e imagens do começo do episódio",
+        "media": "Vinheta inicial",
+        "dificil": "Muita gente pula, outras cantam junto"
+      }
+    },
+    {
+      "palavra": "POLICIAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Série de detetives e investigação",
+        "media": "Gênero de crimes e investigações",
+        "dificil": "Tem distintivo e viatura"
+      }
+    },
+    {
+      "palavra": "MISTÉRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Algo que ninguém sabe explicar",
+        "media": "Enigma da trama",
+        "dificil": "Gênero de quem quer descobrir o culpado"
+      }
+    },
+    {
+      "palavra": "NARRADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Voz que conta a história",
+        "media": "Quem relata os acontecimentos",
+        "dificil": "Pode ser onisciente"
+      }
+    },
+    {
+      "palavra": "AUDIÊNCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quantas pessoas estão assistindo",
+        "media": "Público medido de um programa",
+        "dificil": "Medida em pontos no horário nobre"
+      }
+    },
+    {
+      "palavra": "STREAMING",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ver vídeos pela internet sem baixar",
+        "media": "Transmissão contínua on-line",
+        "dificil": "Mudou o jeito de ver TV"
+      }
+    },
+    {
+      "palavra": "PROTAGONISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Personagem principal",
+        "media": "Figura central da trama",
+        "dificil": "Quem tem mais tempo de tela"
+      }
+    },
+    {
+      "palavra": "PERSONAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem vive a história na tela",
+        "media": "Figura da ficção",
+        "dificil": "O ator lhe dá corpo e voz"
+      }
+    },
+    {
+      "palavra": "PILOTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Primeiro episódio feito para testar a série",
+        "media": "Episódio de teste",
+        "dificil": "Também comanda aviões"
+      }
+    },
+    {
+      "palavra": "GANCHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Final que deixa a gente louco pelo próximo",
+        "media": "Suspense no fim do episódio",
+        "dificil": "Também segura o quadro na parede"
+      }
+    },
+    {
+      "palavra": "SITCOM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Série de comédia com família ou amigos",
+        "media": "Comédia de situação",
+        "dificil": "Costuma ter risadas de plateia"
+      }
+    },
+    {
+      "palavra": "MINISSÉRIE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Produção curta com poucos episódios",
+        "media": "Obra fechada em uma só temporada",
+        "dificil": "Formato entre o filme e a novela"
+      }
+    },
+    {
+      "palavra": "COADJUVANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Personagem que ajuda o principal",
+        "media": "Papel secundário",
+        "dificil": "Tem categoria própria nas premiações"
+      }
+    },
+    {
+      "palavra": "FIGURANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que aparece no fundo sem falar",
+        "media": "Extra de cena",
+        "dificil": "Passa ao fundo sem fala"
+      }
+    },
+    {
+      "palavra": "SINOPSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Resumo curtinho da história",
+        "media": "Resumo do enredo",
+        "dificil": "Texto lido antes de dar o play"
+      }
+    },
+    {
+      "palavra": "DESFECHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Como a história termina",
+        "media": "Conclusão da trama",
+        "dificil": "Ponto final do roteiro"
+      }
+    },
+    {
+      "palavra": "REVIRAVOLTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando tudo muda de repente na história",
+        "media": "Mudança brusca de rumo",
+        "dificil": "Plot twist, em bom português"
+      }
+    },
+    {
+      "palavra": "CANCELAMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando a série acaba antes do previsto",
+        "media": "Fim decretado pela produtora",
+        "dificil": "Pesadelo dos fãs após baixa audiência"
+      }
+    },
+    {
+      "palavra": "VINHETA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Musiquinha curta que anuncia o programa",
+        "media": "Abertura breve",
+        "dificil": "Pequena peça de identidade visual"
+      }
+    },
+    {
+      "palavra": "ARCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Objeto curvo que lança flechas",
+        "media": "Linha narrativa de vários episódios",
+        "dificil": "O do personagem mostra sua transformação"
+      }
+    },
+    {
+      "palavra": "ANTOLOGIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Série em que cada temporada tem história nova",
+        "media": "Coletânea de histórias independentes",
+        "dificil": "Formato em que o elenco muda a cada ano"
+      }
+    }
+  ]
+}

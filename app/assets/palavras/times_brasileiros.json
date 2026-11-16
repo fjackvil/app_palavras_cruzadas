@@ -1,0 +1,440 @@
+{
+  "tema": "Times brasileiros",
+  "categoria": "Esportes",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "FLAMENGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time do Rio de vermelho e preto",
+        "media": "Clube carioca da Gávea",
+        "dificil": "Rubro-negro carioca"
+      }
+    },
+    {
+      "palavra": "VASCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time do Rio que joga em São Januário",
+        "media": "Clube cruz-maltino carioca",
+        "dificil": "Gigante da Colina"
+      }
+    },
+    {
+      "palavra": "FLUMINENSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time do Rio de verde, branco e grená",
+        "media": "Tricolor das Laranjeiras",
+        "dificil": "Campeão da Libertadores de 2023"
+      }
+    },
+    {
+      "palavra": "BOTAFOGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time do Rio com a estrela solitária",
+        "media": "Alvinegro carioca",
+        "dificil": "Glorioso de General Severiano"
+      }
+    },
+    {
+      "palavra": "CORINTHIANS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time alvinegro de São Paulo, do Parque São Jorge",
+        "media": "Timão paulista",
+        "dificil": "Fundado em 1910 por operários"
+      }
+    },
+    {
+      "palavra": "PALMEIRAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time paulista de camisa verde",
+        "media": "Alviverde do Palestra Itália",
+        "dificil": "Fundado por imigrantes italianos"
+      }
+    },
+    {
+      "palavra": "SANTOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time do litoral paulista onde Pelé brilhou",
+        "media": "Clube da Vila Belmiro",
+        "dificil": "Peixe alvinegro praiano"
+      }
+    },
+    {
+      "palavra": "SÃO PAULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time paulista tricolor do Morumbi",
+        "media": "Tricolor do Morumbi",
+        "dificil": "Clube de Raí, Rogério Ceni e Telê"
+      }
+    },
+    {
+      "palavra": "GRÊMIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time de Porto Alegre azul, preto e branco",
+        "media": "Tricolor gaúcho",
+        "dificil": "Imortal tricolor"
+      }
+    },
+    {
+      "palavra": "INTERNACIONAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time vermelho de Porto Alegre",
+        "media": "Clube do Beira-Rio",
+        "dificil": "Colorado gaúcho"
+      }
+    },
+    {
+      "palavra": "CRUZEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time de Belo Horizonte de camisa azul com estrelas",
+        "media": "Raposa mineira",
+        "dificil": "Celeste de BH"
+      }
+    },
+    {
+      "palavra": "GALO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Atlético de Belo Horizonte",
+        "media": "Mascote alvinegro mineiro",
+        "dificil": "Campeão da Libertadores de 2013"
+      }
+    },
+    {
+      "palavra": "BAHIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time de Salvador com o nome do estado",
+        "media": "Tricolor de aço de Salvador",
+        "dificil": "Primeiro campeão brasileiro, em 1959"
+      }
+    },
+    {
+      "palavra": "VITÓRIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time rubro-negro de Salvador",
+        "media": "Leão da Barra",
+        "dificil": "Rival do Bahia no Ba-Vi"
+      }
+    },
+    {
+      "palavra": "SPORT",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time rubro-negro do Recife",
+        "media": "Leão da Ilha do Retiro",
+        "dificil": "Campeão da Copa do Brasil de 2008"
+      }
+    },
+    {
+      "palavra": "NÁUTICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time alvirrubro do Recife",
+        "media": "Timbu pernambucano",
+        "dificil": "Clube dos Aflitos"
+      }
+    },
+    {
+      "palavra": "SANTA CRUZ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time tricolor do Recife",
+        "media": "Cobra Coral pernambucana",
+        "dificil": "Clube do Arruda"
+      }
+    },
+    {
+      "palavra": "CEARÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time alvinegro de Fortaleza com o nome do estado",
+        "media": "Vovô de Fortaleza",
+        "dificil": "Alvinegro do Porangabuçu"
+      }
+    },
+    {
+      "palavra": "FORTALEZA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time cearense com o nome da capital",
+        "media": "Leão do Pici",
+        "dificil": "Tricolor do Pici"
+      }
+    },
+    {
+      "palavra": "PAYSANDU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time de Belém azul e branco",
+        "media": "Papão da Curuzu",
+        "dificil": "Rival do Remo no Re-Pa"
+      }
+    },
+    {
+      "palavra": "REMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time azul-marinho de Belém",
+        "media": "Leão Azul paraense",
+        "dificil": "Clube do Baenão"
+      }
+    },
+    {
+      "palavra": "GOIÁS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time verde do Centro-Oeste com o nome do estado",
+        "media": "Esmeraldino do Centro-Oeste",
+        "dificil": "Clube da Serrinha"
+      }
+    },
+    {
+      "palavra": "CORITIBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time verde e branco da capital paranaense",
+        "media": "Coxa-Branca",
+        "dificil": "Campeão brasileiro de 1985"
+      }
+    },
+    {
+      "palavra": "CHAPECOENSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Time verde do oeste catarinense",
+        "media": "Chape, para os íntimos",
+        "dificil": "Clube da Arena Condá"
+      }
+    },
+    {
+      "palavra": "FIGUEIRENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time alvinegro de Florianópolis",
+        "media": "Furacão do Estreito",
+        "dificil": "Clube do Orlando Scarpelli"
+      }
+    },
+    {
+      "palavra": "AVAÍ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time azul e branco de Florianópolis",
+        "media": "Leão da Ilha catarinense",
+        "dificil": "Clube da Ressacada"
+      }
+    },
+    {
+      "palavra": "CRICIÚMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time catarinense apelidado de Tigre",
+        "media": "Tigre do Heriberto Hülse",
+        "dificil": "Campeão da Copa do Brasil de 1991"
+      }
+    },
+    {
+      "palavra": "AMÉRICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time verde de Belo Horizonte, o Coelho",
+        "media": "Coelho mineiro",
+        "dificil": "Também há um no Rio e um em Natal"
+      }
+    },
+    {
+      "palavra": "ABC",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time alvinegro de Natal com nome de três letras",
+        "media": "Mais Querido potiguar",
+        "dificil": "Clube do Frasqueirão"
+      }
+    },
+    {
+      "palavra": "CSA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Time azul de Maceió, sigla de três letras",
+        "media": "Azulão alagoano",
+        "dificil": "Centro Sportivo Alagoano"
+      }
+    },
+    {
+      "palavra": "CRB",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Time vermelho de Maceió, sigla de três letras",
+        "media": "Galo da Pajuçara",
+        "dificil": "Clube de Regatas Brasil"
+      }
+    },
+    {
+      "palavra": "SAMPAIO CORRÊA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Time de São Luís, no Maranhão",
+        "media": "Bolívia Querida maranhense",
+        "dificil": "Tricolor do Castelão de São Luís"
+      }
+    },
+    {
+      "palavra": "CUIABÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time de Mato Grosso com o nome da capital",
+        "media": "Dourado mato-grossense",
+        "dificil": "Clube da Arena Pantanal"
+      }
+    },
+    {
+      "palavra": "VILA NOVA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time de Goiânia de camisa vermelha",
+        "media": "Tigre goiano",
+        "dificil": "Clube do estádio Onésio Brasileiro Alvarenga"
+      }
+    },
+    {
+      "palavra": "PONTE PRETA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time alvinegro de Campinas",
+        "media": "Macaca campineira",
+        "dificil": "Um dos clubes mais antigos do país, de 1900"
+      }
+    },
+    {
+      "palavra": "GUARANI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time verde de Campinas",
+        "media": "Bugre campineiro",
+        "dificil": "Campeão brasileiro de 1978"
+      }
+    },
+    {
+      "palavra": "PORTUGUESA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Time paulista do Canindé, de vermelho e verde",
+        "media": "Lusa paulistana",
+        "dificil": "Clube do Canindé"
+      }
+    },
+    {
+      "palavra": "TIMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Corinthians",
+        "media": "Apelido do alvinegro do Parque São Jorge",
+        "dificil": "Aumentativo carinhoso da Fiel"
+      }
+    },
+    {
+      "palavra": "MENGÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido carinhoso do Flamengo",
+        "media": "Apelido do rubro-negro carioca",
+        "dificil": "Aumentativo da Gávea"
+      }
+    },
+    {
+      "palavra": "VERDÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Palmeiras",
+        "media": "Apelido do alviverde paulista",
+        "dificil": "Aumentativo da cor da camisa"
+      }
+    },
+    {
+      "palavra": "PEIXE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Santos",
+        "media": "Mascote do alvinegro praiano",
+        "dificil": "Bicho que nada e mora na Vila"
+      }
+    },
+    {
+      "palavra": "RAPOSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Cruzeiro",
+        "media": "Mascote celeste de BH",
+        "dificil": "Bicho esperto que virou símbolo azul"
+      }
+    },
+    {
+      "palavra": "URUBU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mascote do Flamengo",
+        "media": "Ave preta adotada pela torcida rubro-negra",
+        "dificil": "Ave preta que virou símbolo da Gávea"
+      }
+    },
+    {
+      "palavra": "FOGÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apelido do Botafogo",
+        "media": "Apelido do alvinegro da estrela solitária",
+        "dificil": "Aumentativo carinhoso de General Severiano"
+      }
+    },
+    {
+      "palavra": "PORCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mascote adotado pelo Palmeiras",
+        "media": "Apelido alviverde",
+        "dificil": "Bicho rosado que virou símbolo do Palestra"
+      }
+    },
+    {
+      "palavra": "CLUBE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nome que se dá a um time com sede e sócios",
+        "media": "Agremiação esportiva",
+        "dificil": "Associação de torcedores e atletas"
+      }
+    },
+    {
+      "palavra": "HINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música que a torcida canta para o time",
+        "media": "Canção oficial do clube",
+        "dificil": "Cantado antes dos jogos"
+      }
+    },
+    {
+      "palavra": "CLÁSSICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo entre dois grandes rivais",
+        "media": "Dérbi",
+        "dificil": "Fla-Flu, Gre-Nal e Ba-Vi são exemplos"
+      }
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "tema": "Bandeiras",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "BRASIL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Verde, com um losango amarelo e um círculo azul cheio de estrelas",
+        "media": "Bandeira com a faixa Ordem e Progresso",
+        "dificil": "Tem 27 estrelas: uma para cada estado e o Distrito Federal"
+      }
+    },
+    {
+      "palavra": "JAPÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Branca, com uma bola vermelha no meio",
+        "media": "Bandeira do disco vermelho em fundo branco",
+        "dificil": "Hinomaru, o círculo do sol"
+      }
+    },
+    {
+      "palavra": "CANADÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Branca e vermelha, com uma folha vermelha no meio",
+        "media": "Bandeira da folha de bordo",
+        "dificil": "Folha de onze pontas entre duas faixas vermelhas"
+      }
+    },
+    {
+      "palavra": "ITÁLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Três faixas em pé: verde, branca e vermelha",
+        "media": "Tricolor vertical verde, branco e vermelho",
+        "dificil": "Il Tricolore, que tremula em Roma"
+      }
+    },
+    {
+      "palavra": "FRANÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Três faixas em pé: azul, branca e vermelha",
+        "media": "Tricolor vertical azul, branco e vermelho",
+        "dificil": "Le Tricolore, que tremula em Paris"
+      }
+    },
+    {
+      "palavra": "CHINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vermelha, com estrelas amarelas no canto",
+        "media": "Bandeira vermelha com cinco estrelas amarelas",
+        "dificil": "Uma estrela grande e quatro pequenas, hasteada em Pequim"
+      }
+    },
+    {
+      "palavra": "CHILE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Branca e vermelha, com um quadrado azul e uma estrela branca",
+        "media": "Bandeira da estrela solitária, na América do Sul",
+        "dificil": "Bandeira do país de Santiago"
+      }
+    },
+    {
+      "palavra": "PERU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Três faixas em pé: vermelha, branca e vermelha",
+        "media": "Bicolor vermelho e branco dos Andes",
+        "dificil": "Segundo a lenda, suas cores vieram das asas de flamingos"
+      }
+    },
+    {
+      "palavra": "CUBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Listras azuis e brancas e um triângulo vermelho com uma estrela",
+        "media": "Cinco listras e um triângulo vermelho, no Caribe",
+        "dificil": "Bandeira do país de Havana"
+      }
+    },
+    {
+      "palavra": "MÉXICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Verde, branca e vermelha, com uma águia em cima de um cacto",
+        "media": "Tricolor com águia segurando uma serpente",
+        "dificil": "Lembra a lenda asteca da fundação de Tenochtitlán"
+      }
+    },
+    {
+      "palavra": "ÍNDIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Laranja, branca e verde, com uma roda azul no meio",
+        "media": "Tricolor com uma roda azul de 24 raios",
+        "dificil": "Traz o Ashoka Chakra, hasteada em Nova Déli"
+      }
+    },
+    {
+      "palavra": "SUÍÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quadrada e vermelha, com uma cruz branca",
+        "media": "Bandeira quadrada da cruz branca",
+        "dificil": "Bandeira de Berna, com as cores invertidas da Cruz Vermelha"
+      }
+    },
+    {
+      "palavra": "GRÉCIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Listras azuis e brancas, com uma cruz branca no canto",
+        "media": "Nove listras azuis e brancas",
+        "dificil": "Bandeira hasteada na Acrópole de Atenas"
+      }
+    },
+    {
+      "palavra": "RÚSSIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Três faixas deitadas: branca, azul e vermelha",
+        "media": "Tricolor horizontal branco, azul e vermelho",
+        "dificil": "Bandeira hasteada no Kremlin, em Moscou"
+      }
+    },
+    {
+      "palavra": "EGITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vermelha, branca e preta, com uma águia dourada",
+        "media": "Tricolor com a águia de Saladino",
+        "dificil": "Bandeira do país do Cairo"
+      }
+    },
+    {
+      "palavra": "ALEMANHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Três faixas deitadas: preta, vermelha e amarela",
+        "media": "Tricolor preto, vermelho e dourado",
+        "dificil": "Bandeira hasteada em Berlim"
+      }
+    },
+    {
+      "palavra": "PORTUGAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Verde e vermelha, com um escudo e uma esfera dourada",
+        "media": "Bandeira com a esfera armilar",
+        "dificil": "Traz cinco escudos azuis pequenos, as quinas"
+      }
+    },
+    {
+      "palavra": "ESPANHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vermelha, amarela e vermelha, com um brasão",
+        "media": "Faixa amarela larga entre duas vermelhas",
+        "dificil": "O brasão traz as Colunas de Hércules"
+      }
+    },
+    {
+      "palavra": "SUÉCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Azul, com uma cruz amarela deitada",
+        "media": "Cruz nórdica amarela em fundo azul",
+        "dificil": "Bandeira hasteada em Estocolmo"
+      }
+    },
+    {
+      "palavra": "IRLANDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Três faixas em pé: verde, branca e laranja",
+        "media": "Tricolor vertical verde, branco e laranja",
+        "dificil": "Bandeira hasteada em Dublin"
+      }
+    },
+    {
+      "palavra": "TURQUIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vermelha, com uma lua e uma estrela brancas",
+        "media": "Crescente e estrela em fundo vermelho",
+        "dificil": "Bandeira de Ancara e de Istambul"
+      }
+    },
+    {
+      "palavra": "URUGUAI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Listras brancas e azuis e um sol com rosto no canto",
+        "media": "Nove listras e o Sol de Maio",
+        "dificil": "Bandeira hasteada em Montevidéu"
+      }
+    },
+    {
+      "palavra": "COLÔMBIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Amarela em cima, depois azul e vermelha",
+        "media": "Tricolor em que a faixa amarela ocupa metade",
+        "dificil": "Bandeira hasteada em Bogotá"
+      }
+    },
+    {
+      "palavra": "BOLÍVIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Três faixas deitadas: vermelha, amarela e verde",
+        "media": "Tricolor horizontal vermelho, amarelo e verde",
+        "dificil": "Bandeira de La Paz e de Sucre"
+      }
+    },
+    {
+      "palavra": "SÃO PAULO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Listras pretas e brancas e um mapa do Brasil no canto",
+        "media": "Treze listras e quatro estrelas num retângulo vermelho",
+        "dificil": "Bandeira do estado mais populoso do Brasil"
+      }
+    },
+    {
+      "palavra": "ARGENTINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Azul-clara e branca, com um sol no meio",
+        "media": "Celeste e branca com o Sol de Maio",
+        "dificil": "Bandeira hasteada em Buenos Aires"
+      }
+    },
+    {
+      "palavra": "ESTADOS UNIDOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Listras vermelhas e brancas e muitas estrelas num canto azul",
+        "media": "Treze listras e cinquenta estrelas",
+        "dificil": "Stars and Stripes, hasteada em Washington"
+      }
+    },
+    {
+      "palavra": "AUSTRÁLIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Azul, com estrelas brancas e outra bandeira no canto",
+        "media": "Azul com o Cruzeiro do Sul e a Union Jack",
+        "dificil": "Traz a Estrela da Federação, de sete pontas"
+      }
+    },
+    {
+      "palavra": "INGLATERRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Branca, com uma cruz vermelha",
+        "media": "Cruz de São Jorge em fundo branco",
+        "dificil": "Uma das partes da Union Jack, terra de Londres"
+      }
+    },
+    {
+      "palavra": "NORUEGA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelha, com uma cruz azul contornada de branco",
+        "media": "Cruz nórdica azul e branca em fundo vermelho",
+        "dificil": "Bandeira hasteada em Oslo"
+      }
+    },
+    {
+      "palavra": "DINAMARCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelha, com uma cruz branca deitada",
+        "media": "Cruz nórdica branca em fundo vermelho",
+        "dificil": "Dannebrog, tida como a mais antiga ainda em uso"
+      }
+    },
+    {
+      "palavra": "FINLÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Branca, com uma cruz azul deitada",
+        "media": "Cruz nórdica azul em fundo branco",
+        "dificil": "Bandeira de Helsinque, com as cores da neve e dos lagos"
+      }
+    },
+    {
+      "palavra": "ISLÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Azul, com uma cruz vermelha contornada de branco",
+        "media": "Cruz nórdica vermelha e branca em fundo azul",
+        "dificil": "Bandeira hasteada em Reykjavík"
+      }
+    },
+    {
+      "palavra": "BÉLGICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Três faixas em pé: preta, amarela e vermelha",
+        "media": "Tricolor vertical preto, amarelo e vermelho",
+        "dificil": "Bandeira hasteada em Bruxelas"
+      }
+    },
+    {
+      "palavra": "NOVA ZELÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Azul, com quatro estrelas vermelhas e outra bandeira no canto",
+        "media": "Union Jack e Cruzeiro do Sul com estrelas vermelhas",
+        "dificil": "Bandeira hasteada em Wellington"
+      }
+    },
+    {
+      "palavra": "ESCÓCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Azul, com um X branco",
+        "media": "Cruz de Santo André em fundo azul",
+        "dificil": "Bandeira de Edimburgo, uma das partes da Union Jack"
+      }
+    },
+    {
+      "palavra": "COREIA DO SUL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Branca, com um círculo vermelho e azul e risquinhos pretos",
+        "media": "Taegeuk no centro e quatro trigramas pretos",
+        "dificil": "Bandeira hasteada em Seul"
+      }
+    },
+    {
+      "palavra": "PARAGUAI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelha, branca e azul, com desenhos diferentes na frente e atrás",
+        "media": "Tricolor com um escudo diferente em cada lado",
+        "dificil": "Bandeira hasteada em Assunção"
+      }
+    },
+    {
+      "palavra": "VENEZUELA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Amarela, azul e vermelha, com estrelas brancas em arco",
+        "media": "Tricolor com oito estrelas na faixa azul",
+        "dificil": "Bandeira hasteada em Caracas"
+      }
+    },
+    {
+      "palavra": "EQUADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Amarela, azul e vermelha, com um condor no brasão",
+        "media": "Tricolor parecido com o colombiano, mas com brasão",
+        "dificil": "Bandeira hasteada em Quito"
+      }
+    },
+    {
+      "palavra": "JAMAICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Um X amarelo com triângulos verdes e pretos",
+        "media": "Aspa dourada entre triângulos verdes e pretos",
+        "dificil": "Bandeira de Kingston, sem vermelho, branco nem azul"
+      }
+    },
+    {
+      "palavra": "NEPAL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Única bandeira de país que não é retangular",
+        "media": "Dois triângulos vermelhos com borda azul, lua e sol",
+        "dificil": "Bandeira hasteada em Katmandu"
+      }
+    },
+    {
+      "palavra": "LÍBANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelha e branca, com uma árvore verde no meio",
+        "media": "Bandeira do cedro verde",
+        "dificil": "Bandeira hasteada em Beirute"
+      }
+    },
+    {
+      "palavra": "QUÊNIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Preta, vermelha e verde, com um escudo no meio",
+        "media": "Tricolor com escudo massai",
+        "dificil": "Bandeira hasteada em Nairóbi"
+      }
+    },
+    {
+      "palavra": "CAMBOJA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Azul e vermelha, com um templo branco no meio",
+        "media": "Bandeira com o templo de Angkor Wat",
+        "dificil": "Bandeira hasteada em Phnom Penh"
+      }
+    },
+    {
+      "palavra": "BUTÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Amarela e laranja, com um dragão branco",
+        "media": "Bandeira do dragão do trovão",
+        "dificil": "Bandeira de Thimphu, terra do Druk"
+      }
+    },
+    {
+      "palavra": "CHIPRE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Branca, com o desenho de uma ilha e dois raminhos verdes",
+        "media": "Mapa da ilha cor de cobre sobre ramos de oliveira",
+        "dificil": "Bandeira hasteada em Nicósia"
+      }
+    },
+    {
+      "palavra": "MINAS GERAIS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Branca, com um triângulo vermelho no meio",
+        "media": "Bandeira estadual com lema em latim dos inconfidentes",
+        "dificil": "Libertas quae sera tamen"
+      }
+    },
+    {
+      "palavra": "BAHIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Listras vermelhas e brancas e um triângulo branco sobre azul",
+        "media": "Bandeira estadual com triângulo branco num quadrado azul",
+        "dificil": "Bandeira do estado de Salvador"
+      }
+    },
+    {
+      "palavra": "PERNAMBUCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Azul e branca, com arco-íris, estrela, sol e cruz vermelha",
+        "media": "Bandeira estadual com arco-íris e cruz",
+        "dificil": "Bandeira do estado do Recife"
+      }
+    },
+    {
+      "palavra": "PARANÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Verde, com uma faixa branca e uma bola azul estrelada",
+        "media": "Faixa diagonal branca, esfera azul e ramos de pinheiro",
+        "dificil": "Bandeira do estado de Curitiba"
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "tema": "Pratos típicos brasileiros",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "PASTEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa frita recheada, vendida na feira",
+        "media": "Salgado frito de massa fina com recheio",
+        "dificil": "De carne ou queijo, combina com caldo de cana"
+      }
+    },
+    {
+      "palavra": "CUSCUZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolo de flocos de milho feito no vapor",
+        "media": "Massa de milho cozida no vapor, nordestina ou paulista",
+        "dificil": "A versão paulista leva sardinha e ovo"
+      }
+    },
+    {
+      "palavra": "FAROFA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Farinha torradinha com manteiga",
+        "media": "Farinha de mandioca torrada com temperos",
+        "dificil": "Companheira do churrasco e da feijoada"
+      }
+    },
+    {
+      "palavra": "PAÇOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho de amendoim que esfarela",
+        "media": "Doce de amendoim moído com açúcar",
+        "dificil": "No sertão, há uma versão salgada com carne de sol pilada"
+      }
+    },
+    {
+      "palavra": "AÇAÍ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Creme roxo e gelado servido na tigela",
+        "media": "Polpa batida de um fruto da Amazônia",
+        "dificil": "No Pará, é comido com farinha e peixe frito"
+      }
+    },
+    {
+      "palavra": "COCADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de coco ralado com açúcar",
+        "media": "Doce de tabuleiro, branco ou queimado",
+        "dificil": "Docinho baiano vendido nas praias"
+      }
+    },
+    {
+      "palavra": "ARROZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Com feijão, forma a dupla do prato brasileiro",
+        "media": "Grão branco cozido do almoço de todo dia",
+        "dificil": "O carreteiro do Sul é feito com ele e carne-seca"
+      }
+    },
+    {
+      "palavra": "FEIJÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grão que forma dupla com o arroz",
+        "media": "Leguminosa servida com caldo todo dia",
+        "dificil": "O tropeiro mineiro mistura ele com farinha e torresmo"
+      }
+    },
+    {
+      "palavra": "PIPOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Milho estourado das festas juninas",
+        "media": "Petisco de milho que estoura na panela",
+        "dificil": "Doce ou salgada, não falta no arraial"
+      }
+    },
+    {
+      "palavra": "MINGAU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Papa quentinha de leite e amido de milho",
+        "media": "Creme quente engrossado com farinha ou aveia",
+        "dificil": "Diz o ditado: quente, come-se pelas beiradas"
+      }
+    },
+    {
+      "palavra": "PUDIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de leite condensado com calda",
+        "media": "Sobremesa de forma com furo no meio e caramelo",
+        "dificil": "Estrela da sobremesa no almoço de domingo"
+      }
+    },
+    {
+      "palavra": "CURAU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Creme doce de milho verde com canela",
+        "media": "Creme de milho verde, leite e açúcar",
+        "dificil": "No Nordeste, é chamado de canjica"
+      }
+    },
+    {
+      "palavra": "MILHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Espiga cozida que não falta na festa junina",
+        "media": "Cereal da pamonha e da canjica",
+        "dificil": "Grão do fubá e do cuscuz"
+      }
+    },
+    {
+      "palavra": "QUEIJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O minas e o coalho são famosos no Brasil",
+        "media": "Feito de leite coalhado; o coalho é assado no espeto",
+        "dificil": "O da serra da Canastra ganha prêmios"
+      }
+    },
+    {
+      "palavra": "FEIJOADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Feijão preto cozido com carnes de porco",
+        "media": "Prato servido com couve, farofa, arroz e laranja",
+        "dificil": "Almoço tradicional de sábado no Rio"
+      }
+    },
+    {
+      "palavra": "PAMONHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa de milho verde cozida na palha",
+        "media": "Doce ou salgada, vem embrulhada na palha do milho",
+        "dificil": "Famosa em Goiás e no interior paulista"
+      }
+    },
+    {
+      "palavra": "COXINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Salgadinho de frango em forma de gota",
+        "media": "Salgado frito de massa com recheio de frango",
+        "dificil": "Rainha das festas de aniversário"
+      }
+    },
+    {
+      "palavra": "TAPIOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Panqueca branquinha feita de goma de mandioca",
+        "media": "Goma de mandioca na frigideira, com recheio",
+        "dificil": "Clássico do café nordestino, com coco ou queijo coalho"
+      }
+    },
+    {
+      "palavra": "CANJICA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de milho branco com leite, da festa junina",
+        "media": "Milho branco cozido com leite e açúcar",
+        "dificil": "No Nordeste, é chamada de mungunzá"
+      }
+    },
+    {
+      "palavra": "GOIABADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce vermelho em barra que se corta em fatias",
+        "media": "Doce em barra feito de uma fruta de polpa rosada",
+        "dificil": "Com queijo, vira romeu e julieta"
+      }
+    },
+    {
+      "palavra": "PICANHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carne mais famosa do churrasco",
+        "media": "Corte bovino com capa de gordura",
+        "dificil": "Rainha da churrascaria"
+      }
+    },
+    {
+      "palavra": "CHURRASCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carne assada na brasa, no espeto",
+        "media": "Assado de carnes na grelha ou no espeto",
+        "dificil": "Tradição gaúcha do fogo de chão"
+      }
+    },
+    {
+      "palavra": "PÃO DE QUEIJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinha quentinha de polvilho, orgulho de Minas",
+        "media": "Quitute mineiro assado de polvilho",
+        "dificil": "Acompanha o cafezinho em Minas Gerais"
+      }
+    },
+    {
+      "palavra": "QUINDIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Docinho amarelo e brilhante de gema e coco",
+        "media": "Doce de gemas, açúcar e coco",
+        "dificil": "Herança dos doces de convento portugueses"
+      }
+    },
+    {
+      "palavra": "MOQUECA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peixe cozido na panela de barro",
+        "media": "Ensopado de peixe da Bahia e do Espírito Santo",
+        "dificil": "A baiana leva dendê; a capixaba, urucum"
+      }
+    },
+    {
+      "palavra": "VATAPÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Creme amarelo da Bahia que vai no acarajé",
+        "media": "Creme de pão, camarão seco, amendoim e dendê",
+        "dificil": "Prato baiano cremoso de herança africana"
+      }
+    },
+    {
+      "palavra": "ACARAJÉ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinho baiano frito, recheado com camarão",
+        "media": "Bolinho de feijão-fradinho frito no dendê",
+        "dificil": "Vendido pelas baianas de tabuleiro"
+      }
+    },
+    {
+      "palavra": "TUTU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Feijão amassado com farinha, de Minas",
+        "media": "Pasta de feijão engrossada com farinha",
+        "dificil": "Com couve e torresmo, fica à mineira"
+      }
+    },
+    {
+      "palavra": "ANGU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Papa de fubá cozido com água e sal",
+        "media": "Mingau salgado de fubá",
+        "dificil": "Primo mineiro da polenta"
+      }
+    },
+    {
+      "palavra": "PIRÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Papa de farinha com caldo de peixe",
+        "media": "Creme de farinha de mandioca com caldo quente",
+        "dificil": "Acompanha a moqueca e o peixe ensopado"
+      }
+    },
+    {
+      "palavra": "TORRESMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço de pele de porco frito e crocante",
+        "media": "Toucinho frito até ficar estaladiço",
+        "dificil": "Acompanha o tutu e o feijão tropeiro"
+      }
+    },
+    {
+      "palavra": "BAIÃO DE DOIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arroz com feijão e queijo coalho, do Ceará",
+        "media": "Arroz cozido junto com feijão-de-corda",
+        "dificil": "Prato cearense com nome de ritmo nordestino"
+      }
+    },
+    {
+      "palavra": "ESCONDIDINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Purê com carne de sol por baixo, gratinado",
+        "media": "Purê de mandioca que cobre carne desfiada",
+        "dificil": "Prato que guarda o recheio embaixo do purê"
+      }
+    },
+    {
+      "palavra": "PÉ DE MOLEQUE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Doce duro de amendoim e rapadura",
+        "media": "Doce junino de amendoim com açúcar ou rapadura",
+        "dificil": "Doce com nome de criança levada"
+      }
+    },
+    {
+      "palavra": "ROMEU E JULIETA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Goiabada com queijo",
+        "media": "Sobremesa de goiabada com queijo minas",
+        "dificil": "Casal de Shakespeare que vira sobremesa"
+      }
+    },
+    {
+      "palavra": "CARNE DE SOL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Carne salgada secada ao vento, do Nordeste",
+        "media": "Carne bovina salgada e seca ao ar livre",
+        "dificil": "Com macaxeira, é um clássico do sertão"
+      }
+    },
+    {
+      "palavra": "GALINHADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arroz amarelinho cozido com frango",
+        "media": "Arroz com frango e açafrão, típico de Goiás",
+        "dificil": "Em Goiás, costuma levar pequi"
+      }
+    },
+    {
+      "palavra": "POLENTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fubá cozido que pode ser frito em palitos",
+        "media": "Prato de fubá trazido pelos imigrantes italianos",
+        "dificil": "Comum nas colônias italianas do Sul"
+      }
+    },
+    {
+      "palavra": "BOBÓ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Creme de mandioca com camarão",
+        "media": "Prato baiano de camarão em creme de aipim",
+        "dificil": "O de camarão leva dendê e leite de coco"
+      }
+    },
+    {
+      "palavra": "TACACÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Caldo quente do Pará servido numa cuia",
+        "media": "Caldo de tucupi com goma, jambu e camarão",
+        "dificil": "Faz a boca tremer por causa do jambu"
+      }
+    },
+    {
+      "palavra": "MANIÇOBA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Prato do Pará feito com folha de mandioca",
+        "media": "Folha de mandioca cozida por dias com carnes",
+        "dificil": "Chamada de feijoada paraense"
+      }
+    },
+    {
+      "palavra": "BARREADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Carne cozida por muitas horas numa panela de barro",
+        "media": "Prato do litoral do Paraná, com farinha e banana",
+        "dificil": "A panela é selada com massa de farinha"
+      }
+    },
+    {
+      "palavra": "ARRUMADINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prato nordestino de carne de sol com feijão verde",
+        "media": "Carne de sol, feijão verde, vinagrete e farofa",
+        "dificil": "Clássico pernambucano montado em camadas"
+      }
+    },
+    {
+      "palavra": "CARURU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prato baiano de quiabo picadinho",
+        "media": "Quiabo cozido com camarão seco e dendê",
+        "dificil": "Servido na festa de São Cosme e Damião"
+      }
+    },
+    {
+      "palavra": "XINXIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Galinha cozida em molho baiano",
+        "media": "Galinha com camarão seco, amendoim e dendê",
+        "dificil": "Prato da culinária afro-baiana"
+      }
+    },
+    {
+      "palavra": "MUNGUNZÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Doce de milho branco do Nordeste",
+        "media": "Milho branco cozido com leite de coco e açúcar",
+        "dificil": "No Sudeste, é chamado de canjica"
+      }
+    },
+    {
+      "palavra": "VACA ATOLADA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Costela cozida com mandioca",
+        "media": "Ensopado de costela bovina com mandioca",
+        "dificil": "Prato da roça mineira de nome engraçado"
+      }
+    },
+    {
+      "palavra": "CUCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bolo com farofa doce por cima, do Sul",
+        "media": "Bolo de origem alemã coberto de farofa doce",
+        "dificil": "Típica das colônias alemãs, como Blumenau"
+      }
+    },
+    {
+      "palavra": "PIRARUCU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peixe gigante dos rios da Amazônia",
+        "media": "Peixe amazônico salgado e seco, servido desfiado",
+        "dificil": "Chamado de bacalhau da Amazônia"
+      }
+    }
+  ]
+}

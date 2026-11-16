@@ -1,0 +1,503 @@
+{
+  "tema": "Termos musicais",
+  "categoria": "Música",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "NOTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dó, ré e mi são exemplos",
+        "media": "Cada som escrito na partitura",
+        "dificil": "Também é o que se tira na prova"
+      }
+    },
+    {
+      "palavra": "SOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quinta nota de dó-ré-mi",
+        "media": "Nota entre o fá e o lá",
+        "dificil": "Também é a estrela do nosso dia"
+      }
+    },
+    {
+      "palavra": "SOM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tudo o que a gente ouve",
+        "media": "Vibração que o ouvido percebe",
+        "dificil": "Matéria-prima da música"
+      }
+    },
+    {
+      "palavra": "RITMO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A batida que faz o pé bater no chão",
+        "media": "Pulsação da música",
+        "dificil": "Cadência"
+      }
+    },
+    {
+      "palavra": "PAUSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Momento de silêncio na música",
+        "media": "Sinal de silêncio na partitura",
+        "dificil": "Descanso entre as notas"
+      }
+    },
+    {
+      "palavra": "LETRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "As palavras que a gente canta",
+        "media": "Texto da canção",
+        "dificil": "Também é A, B ou C"
+      }
+    },
+    {
+      "palavra": "CORO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muitas vozes cantando juntas",
+        "media": "Conjunto de cantores",
+        "dificil": "Em ___: todos ao mesmo tempo"
+      }
+    },
+    {
+      "palavra": "SOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando um músico toca sozinho",
+        "media": "Trecho para um só instrumento",
+        "dificil": "Também é o chão onde se planta"
+      }
+    },
+    {
+      "palavra": "ECO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A voz que volta quando gritamos na caverna",
+        "media": "Reflexo do som",
+        "dificil": "Ninfa grega que só repetia"
+      }
+    },
+    {
+      "palavra": "VOZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som que sai da garganta",
+        "media": "Instrumento do cantor",
+        "dificil": "Pode ser de soprano ou de baixo"
+      }
+    },
+    {
+      "palavra": "CANTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usar a voz para fazer música",
+        "media": "Arte vocal",
+        "dificil": "O lírico é o da ópera"
+      }
+    },
+    {
+      "palavra": "VOLUME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O quanto o som está alto",
+        "media": "Intensidade sonora",
+        "dificil": "Também é um livro de uma coleção"
+      }
+    },
+    {
+      "palavra": "BATIDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O tum-tum que marca a música",
+        "media": "Pulso rítmico",
+        "dificil": "Também é colisão de carros"
+      }
+    },
+    {
+      "palavra": "BIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O público grita isso para ouvir de novo",
+        "media": "Pedido de repetição",
+        "dificil": "Do latim, \"duas vezes\""
+      }
+    },
+    {
+      "palavra": "CANÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música com letra",
+        "media": "Composição para voz",
+        "dificil": "A de ninar faz o bebê dormir"
+      }
+    },
+    {
+      "palavra": "GRAVE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som grosso, como a voz do urso",
+        "media": "Som de frequência baixa",
+        "dificil": "Também quer dizer sério"
+      }
+    },
+    {
+      "palavra": "AGUDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som fininho, como o do apito",
+        "media": "Som de frequência alta",
+        "dificil": "Também é o ângulo menor que 90 graus"
+      }
+    },
+    {
+      "palavra": "MELODIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A parte da música que a gente cantarola",
+        "media": "Sequência de notas",
+        "dificil": "O que fica na cabeça"
+      }
+    },
+    {
+      "palavra": "ORQUESTRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo enorme de músicos com maestro",
+        "media": "Conjunto sinfônico",
+        "dificil": "Tem cordas, sopros e percussão"
+      }
+    },
+    {
+      "palavra": "REFRÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte da música que se repete",
+        "media": "Estribilho",
+        "dificil": "A parte que todo mundo sabe"
+      }
+    },
+    {
+      "palavra": "ESTROFE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grupo de versos da letra",
+        "media": "Estância",
+        "dificil": "Fica entre um refrão e outro"
+      }
+    },
+    {
+      "palavra": "DUETO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música cantada por duas pessoas",
+        "media": "Peça para dois intérpretes",
+        "dificil": "Conversa cantada a dois"
+      }
+    },
+    {
+      "palavra": "MAESTRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem rege a orquestra",
+        "media": "Regente",
+        "dificil": "Comanda com a batuta"
+      }
+    },
+    {
+      "palavra": "ESCALA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Notas em ordem: dó, ré, mi, fá, sol, lá, si",
+        "media": "Sequência de notas ordenadas",
+        "dificil": "Também é parada no meio da viagem"
+      }
+    },
+    {
+      "palavra": "ACORDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Várias notas tocadas juntas",
+        "media": "Tríade de notas simultâneas",
+        "dificil": "Também é o verbo de quem desperta"
+      }
+    },
+    {
+      "palavra": "OITAVA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Distância de uma nota até a mesma nota mais aguda",
+        "media": "Intervalo de oito notas",
+        "dificil": "Também é a posição depois da sétima"
+      }
+    },
+    {
+      "palavra": "CLAVE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Símbolo no começo da pauta",
+        "media": "Sinal que dá nome às notas",
+        "dificil": "A de sol parece um caracol"
+      }
+    },
+    {
+      "palavra": "PAUTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "As cinco linhas onde se escrevem as notas",
+        "media": "Pentagrama",
+        "dificil": "Também é lista de assuntos de reunião"
+      }
+    },
+    {
+      "palavra": "TEMPO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A velocidade da música",
+        "media": "Andamento",
+        "dificil": "Também é sol ou chuva"
+      }
+    },
+    {
+      "palavra": "COMPASSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço da música entre duas barras",
+        "media": "Divisão rítmica",
+        "dificil": "Também desenha círculos"
+      }
+    },
+    {
+      "palavra": "AFINAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deixar o instrumento no som certo",
+        "media": "Ajuste da altura das notas",
+        "dificil": "Falta dela incomoda o ouvido"
+      }
+    },
+    {
+      "palavra": "CONCERTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Apresentação de música clássica",
+        "media": "Espetáculo musical",
+        "dificil": "Não confunda com conserto"
+      }
+    },
+    {
+      "palavra": "BAIXO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A voz masculina mais grave",
+        "media": "Registro vocal masculino mais profundo",
+        "dificil": "Também é o oposto de alto"
+      }
+    },
+    {
+      "palavra": "IMPROVISO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tocar inventando na hora",
+        "media": "Criação espontânea durante a execução",
+        "dificil": "Alma do jazz"
+      }
+    },
+    {
+      "palavra": "COMPOSITOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem cria as músicas",
+        "media": "Autor musical",
+        "dificil": "Beethoven e Mozart são exemplos"
+      }
+    },
+    {
+      "palavra": "PARTITURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Papel com as notas escritas",
+        "media": "Música grafada",
+        "dificil": "O que fica na estante do músico"
+      }
+    },
+    {
+      "palavra": "HARMONIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Notas combinando bonito",
+        "media": "Combinação de acordes",
+        "dificil": "Também é paz entre pessoas"
+      }
+    },
+    {
+      "palavra": "ENSAIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Treino antes da apresentação",
+        "media": "Preparação",
+        "dificil": "O geral vem antes da estreia"
+      }
+    },
+    {
+      "palavra": "SUSTENIDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sinal parecido com o jogo da velha na partitura",
+        "media": "Sinal que sobe meio tom",
+        "dificil": "Oposto do bemol"
+      }
+    },
+    {
+      "palavra": "BEMOL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sinal parecido com a letra b na partitura",
+        "media": "Sinal que desce meio tom",
+        "dificil": "Oposto do sustenido"
+      }
+    },
+    {
+      "palavra": "SEMÍNIMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nota que vale um tempo no compasso quatro por quatro",
+        "media": "Figura de um tempo",
+        "dificil": "Metade da mínima"
+      }
+    },
+    {
+      "palavra": "COLCHEIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nota com uma bandeirinha",
+        "media": "Figura de meio tempo",
+        "dificil": "Metade da semínima"
+      }
+    },
+    {
+      "palavra": "METRÔNOMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aparelho que faz tic-tac para marcar o ritmo",
+        "media": "Marcador de andamento",
+        "dificil": "Pêndulo do estudante de música"
+      }
+    },
+    {
+      "palavra": "DIAPASÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Garfinho de metal que dá o lá",
+        "media": "Afinador de forquilha",
+        "dificil": "Vibra em 440 hertz"
+      }
+    },
+    {
+      "palavra": "TIMBRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O jeito de cada voz ou instrumento soar",
+        "media": "Cor do som",
+        "dificil": "Diferencia piano de violino na mesma nota"
+      }
+    },
+    {
+      "palavra": "SOPRANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "A voz feminina mais aguda",
+        "media": "Registro vocal mais alto",
+        "dificil": "Brilha nas óperas"
+      }
+    },
+    {
+      "palavra": "TENOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "A voz masculina aguda",
+        "media": "Registro masculino alto",
+        "dificil": "Pavarotti era um"
+      }
+    },
+    {
+      "palavra": "CRESCENDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando a música vai ficando mais forte",
+        "media": "Aumento gradual de intensidade",
+        "dificil": "Indicado por um sinal parecido com \"<\""
+      }
+    },
+    {
+      "palavra": "ARPEJO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tocar as notas de um acorde uma por vez",
+        "media": "Acorde tocado nota a nota",
+        "dificil": "Dedilhado da harpa"
+      }
+    },
+    {
+      "palavra": "SINFONIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Obra grande para orquestra",
+        "media": "Obra orquestral em vários movimentos",
+        "dificil": "Beethoven escreveu nove"
+      }
+    },
+    {
+      "palavra": "BATUTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Varinha do maestro",
+        "media": "Bastão de reger",
+        "dificil": "Sob a ___ de alguém: sob seu comando"
+      }
+    },
+    {
+      "palavra": "STACCATO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Notas tocadas bem curtinhas e separadas",
+        "media": "Articulação destacada",
+        "dificil": "Indicado por um ponto sobre a nota"
+      }
+    },
+    {
+      "palavra": "SEMIBREVE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Nota redonda que dura quatro tempos",
+        "media": "Figura de maior duração usual",
+        "dificil": "Vale duas mínimas"
+      }
+    },
+    {
+      "palavra": "CONTRALTO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "A voz feminina mais grave",
+        "media": "Registro feminino grave",
+        "dificil": "Abaixo do mezzo-soprano"
+      }
+    },
+    {
+      "palavra": "ADÁGIO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Andamento lento e calmo",
+        "media": "Indicação de tempo vagaroso",
+        "dificil": "Também é provérbio"
+      }
+    }
+  ]
+}

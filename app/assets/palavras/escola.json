@@ -9,7 +9,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bastão branco para escrever no quadro",
-        "media": "Bastão para escrever no quadro-negro"
+        "media": "Bastão para escrever no quadro-negro",
+        "dificil": "Bastão de gesso ou calcário"
       }
     },
     {
@@ -17,7 +18,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Móvel onde apoiamos o caderno",
-        "media": "Móvel de tampo liso"
+        "media": "Móvel de tampo liso",
+        "dificil": "Pode ser de jantar, de bilhar ou redonda"
       }
     },
     {
@@ -25,7 +27,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Hora de aprender com a professora",
-        "media": "Período de ensino"
+        "media": "Período de ensino",
+        "dificil": "Pode ser magna, inaugural ou de reforço"
       }
     },
     {
@@ -33,7 +36,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Serve para grudar papel",
-        "media": "Adesivo de papel"
+        "media": "Adesivo de papel",
+        "dificil": "Vem em bastão ou tubo; também é a resposta espiada na prova"
       }
     },
     {
@@ -41,7 +45,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "O número que sai na prova",
-        "media": "Resultado de uma avaliação"
+        "media": "Resultado de uma avaliação",
+        "dificil": "Vai de zero a dez no boletim"
       }
     },
     {
@@ -49,7 +54,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Lugar onde tem aula",
-        "media": "Cômodo onde a turma estuda"
+        "media": "Cômodo onde a turma estuda",
+        "dificil": "Pode ser de aula, de estar ou de espera"
       }
     },
     {
@@ -57,7 +63,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Desenho que mostra países e cidades",
-        "media": "Representação de um território"
+        "media": "Representação de um território",
+        "dificil": "Obra do cartógrafo"
       }
     },
     {
@@ -65,7 +72,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Serve para escrever e dá para apagar",
-        "media": "Objeto de grafite para escrever"
+        "media": "Objeto de grafite para escrever",
+        "dificil": "Grafite revestido de madeira"
       }
     },
     {
@@ -73,7 +81,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tem páginas e histórias",
-        "media": "Conjunto de páginas encadernadas"
+        "media": "Conjunto de páginas encadernadas",
+        "dificil": "Obra com capa, lombada e páginas"
       }
     },
     {
@@ -81,7 +90,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Serve para traçar linhas retas",
-        "media": "Instrumento para medir e traçar"
+        "media": "Instrumento para medir e traçar",
+        "dificil": "Tem centímetros e milímetros marcados"
       }
     },
     {
@@ -89,7 +99,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Quadro onde a professora escreve",
-        "media": "Quadro-negro"
+        "media": "Quadro-negro",
+        "dificil": "Ardósia onde se escreve com giz"
       }
     },
     {
@@ -97,7 +108,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Teste do que você aprendeu",
-        "media": "Avaliação escrita"
+        "media": "Avaliação escrita",
+        "dificil": "Exame que tira o sono na véspera"
       }
     },
     {
@@ -105,7 +117,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Quem estuda na escola",
-        "media": "Estudante"
+        "media": "Estudante",
+        "dificil": "Discípulo, aprendiz"
       }
     },
     {
@@ -113,7 +126,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tarefa para fazer em casa",
-        "media": "Lição de casa"
+        "media": "Lição de casa",
+        "dificil": "Também quer dizer obrigação"
       }
     },
     {
@@ -121,7 +135,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bola com o mapa da Terra",
-        "media": "Esfera com o mapa-múndi"
+        "media": "Esfera com o mapa-múndi",
+        "dificil": "Representação esférica do planeta"
       }
     },
     {
@@ -129,7 +144,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "A, B e C são exemplos",
-        "media": "Símbolo do alfabeto"
+        "media": "Símbolo do alfabeto",
+        "dificil": "Caractere; também a parte cantada de uma música"
       }
     },
     {
@@ -137,7 +153,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Lugar aberto da escola para brincar",
-        "media": "Área aberta da escola"
+        "media": "Área aberta da escola",
+        "dificil": "Área descoberta no interior de um prédio"
       }
     },
     {
@@ -145,7 +162,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Caixinha para guardar lápis",
-        "media": "Porta-lápis"
+        "media": "Porta-lápis",
+        "dificil": "Caixa para guardar objetos pequenos"
       }
     },
     {
@@ -153,7 +171,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Escreve com tinta",
-        "media": "Instrumento de escrita a tinta"
+        "media": "Instrumento de escrita a tinta",
+        "dificil": "Esferográfica ou tinteiro"
       }
     },
     {
@@ -161,7 +180,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Comida da hora do recreio",
-        "media": "Refeição leve"
+        "media": "Refeição leve",
+        "dificil": "Refeição ligeira da tarde"
       }
     },
     {
@@ -169,7 +189,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "1, 2 e 3 são exemplos",
-        "media": "Símbolo que indica quantidade"
+        "media": "Símbolo que indica quantidade",
+        "dificil": "Algarismo, cifra"
       }
     },
     {
@@ -177,7 +198,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tem folhas com linhas para escrever",
-        "media": "Bloco de folhas para anotações"
+        "media": "Bloco de folhas para anotações",
+        "dificil": "Pode ser de capa dura, espiral ou brochura"
       }
     },
     {
@@ -185,7 +207,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bolsa de levar nas costas",
-        "media": "Bolsa escolar de alças"
+        "media": "Bolsa escolar de alças",
+        "dificil": "Companheira de costas do estudante e do trilheiro"
       }
     },
     {
@@ -193,7 +216,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Serve para cortar papel",
-        "media": "Instrumento de corte com duas lâminas"
+        "media": "Instrumento de corte com duas lâminas",
+        "dificil": "Duas lâminas presas por um eixo"
       }
     },
     {
@@ -201,7 +225,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Hora de brincar no pátio",
-        "media": "Intervalo entre as aulas"
+        "media": "Intervalo entre as aulas",
+        "dificil": "Intervalo de diversão"
       }
     },
     {
@@ -209,7 +234,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Quem cuida da escola toda",
-        "media": "Quem dirige a escola"
+        "media": "Quem dirige a escola",
+        "dificil": "Chefe de uma instituição; também comanda filmes"
       }
     },
     {
@@ -217,7 +243,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Apaga o que o lápis escreveu",
-        "media": "Objeto que apaga grafite"
+        "media": "Objeto que apaga grafite",
+        "dificil": "Látex que corrige erros"
       }
     },
     {
@@ -225,7 +252,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Mesinha do aluno na sala",
-        "media": "Mesa escolar individual"
+        "media": "Mesa escolar individual",
+        "dificil": "Também guarda dinheiro no bolso"
       }
     },
     {
@@ -233,7 +261,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Todas as letras de A a Z",
-        "media": "Conjunto das letras de uma língua"
+        "media": "Conjunto das letras de uma língua",
+        "dificil": "Abecedário"
       }
     },
     {
@@ -241,7 +270,188 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Roupa igual de todos os alunos",
-        "media": "Vestimenta padrão da escola"
+        "media": "Vestimenta padrão da escola",
+        "dificil": "Vestimenta padronizada; farda"
+      }
+    },
+    {
+      "palavra": "PROFESSOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem ensina a turma",
+        "media": "Docente",
+        "dificil": "Mestre, educador"
+      }
+    },
+    {
+      "palavra": "BIBLIOTECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sala cheia de livros para ler e pegar emprestado",
+        "media": "Lugar onde se guardam e emprestam livros",
+        "dificil": "Acervo de livros; a de Alexandria foi famosa"
+      }
+    },
+    {
+      "palavra": "APONTADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz o lápis voltar a escrever bem fino",
+        "media": "Objeto que afia o lápis",
+        "dificil": "Pequena lâmina para grafite gasto"
+      }
+    },
+    {
+      "palavra": "TABUADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lista das contas de vezes",
+        "media": "Tabela de multiplicação",
+        "dificil": "Sete vezes oito, cinquenta e seis"
+      }
+    },
+    {
+      "palavra": "MERENDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida gostosa que a escola dá no intervalo",
+        "media": "Refeição servida na escola",
+        "dificil": "Tem programa nacional de alimentação escolar"
+      }
+    },
+    {
+      "palavra": "BOLETIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Papel com as notas do aluno",
+        "media": "Documento com o desempenho escolar",
+        "dificil": "Também é um informativo periódico"
+      }
+    },
+    {
+      "palavra": "REDAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto que o aluno escreve",
+        "media": "Composição escrita",
+        "dificil": "Dissertação cobrada no Enem"
+      }
+    },
+    {
+      "palavra": "COMPASSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Serve para desenhar círculos",
+        "media": "Instrumento de traçar circunferências",
+        "dificil": "Também marca o ritmo da música"
+      }
+    },
+    {
+      "palavra": "CALIGRAFIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escrever com letra bonita",
+        "media": "Arte da escrita à mão",
+        "dificil": "Exercício de letra cursiva"
+      }
+    },
+    {
+      "palavra": "VESTIBULAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prova para entrar na faculdade",
+        "media": "Exame de ingresso na universidade",
+        "dificil": "Concurso de acesso ao ensino superior"
+      }
+    },
+    {
+      "palavra": "MATRÍCULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Inscrição do aluno na escola",
+        "media": "Registro de inscrição",
+        "dificil": "Número de registro do estudante"
+      }
+    },
+    {
+      "palavra": "CURRÍCULO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lista das matérias que a escola ensina",
+        "media": "Conjunto de disciplinas de um curso",
+        "dificil": "Também resume a vida profissional"
+      }
+    },
+    {
+      "palavra": "SEMESTRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Metade do ano de aulas",
+        "media": "Período de seis meses",
+        "dificil": "Cada metade do ano na faculdade"
+      }
+    },
+    {
+      "palavra": "ESQUADRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Régua em forma de triângulo",
+        "media": "Instrumento de desenho com ângulo reto",
+        "dificil": "Triângulo de 45 ou 60 graus do desenhista"
+      }
+    },
+    {
+      "palavra": "TRANSFERIDOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Meia-lua de plástico que mede ângulos",
+        "media": "Instrumento para medir ângulos",
+        "dificil": "Semicírculo graduado de 0 a 180"
+      }
+    },
+    {
+      "palavra": "CARTILHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Livrinho para aprender a ler",
+        "media": "Livro de alfabetização",
+        "dificil": "Também é manual de instruções básicas"
+      }
+    },
+    {
+      "palavra": "GRÊMIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo de alunos que representa a turma toda",
+        "media": "Associação estudantil",
+        "dificil": "Agremiação; também nome de clube gaúcho"
+      }
+    },
+    {
+      "palavra": "PEDAGOGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem estuda como as crianças aprendem",
+        "media": "Especialista em educação",
+        "dificil": "Profissional da ciência do ensino"
+      }
+    },
+    {
+      "palavra": "SEMINÁRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Apresentação de trabalho para a turma",
+        "media": "Exposição oral de um tema em grupo",
+        "dificil": "Também forma futuros padres"
+      }
+    },
+    {
+      "palavra": "INSPETOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem cuida do corredor e do recreio",
+        "media": "Funcionário que vigia a disciplina",
+        "dificil": "Bedel"
       }
     }
   ]

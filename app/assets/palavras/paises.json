@@ -1,0 +1,476 @@
+{
+  "tema": "Países",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "BRASIL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País onde a gente mora, do futebol e do samba",
+        "media": "Maior país da América do Sul",
+        "dificil": "Seu nome vem de uma árvore de madeira avermelhada"
+      }
+    },
+    {
+      "palavra": "CHINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País com uma muralha enorme e o urso panda",
+        "media": "País asiático de capital Pequim",
+        "dificil": "Berço do papel, da porcelana e da seda"
+      }
+    },
+    {
+      "palavra": "JAPÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País do sushi e do Monte Fuji",
+        "media": "País asiático formado por ilhas, de capital Tóquio",
+        "dificil": "Terra do Sol Nascente"
+      }
+    },
+    {
+      "palavra": "ITÁLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País da pizza, com formato de bota",
+        "media": "País europeu de capital Roma",
+        "dificil": "Terra de Leonardo da Vinci e de Veneza"
+      }
+    },
+    {
+      "palavra": "FRANÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País da Torre Eiffel",
+        "media": "País europeu de capital Paris",
+        "dificil": "Terra de Napoleão e do Museu do Louvre"
+      }
+    },
+    {
+      "palavra": "EGITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das pirâmides e das múmias",
+        "media": "País africano cortado pelo Rio Nilo",
+        "dificil": "Terra dos faraós"
+      }
+    },
+    {
+      "palavra": "MÉXICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País do taco e do chapéu sombrero",
+        "media": "Vizinho dos Estados Unidos, ao sul",
+        "dificil": "Terra dos astecas e das pirâmides de Teotihuacán"
+      }
+    },
+    {
+      "palavra": "CANADÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País frio com uma folha vermelha na bandeira",
+        "media": "Maior país da América do Norte",
+        "dificil": "Terra do xarope de bordo e dos alces"
+      }
+    },
+    {
+      "palavra": "RÚSSIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Maior país do mundo",
+        "media": "País que fica na Europa e na Ásia, de capital Moscou",
+        "dificil": "Terra das bonecas matrioscas"
+      }
+    },
+    {
+      "palavra": "ÍNDIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País dos elefantes e do Taj Mahal",
+        "media": "País asiático de capital Nova Déli",
+        "dificil": "Terra de Gandhi e do rio Ganges"
+      }
+    },
+    {
+      "palavra": "PERU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País de Machu Picchu e das lhamas",
+        "media": "País andino de capital Lima",
+        "dificil": "Terra dos incas e do ceviche"
+      }
+    },
+    {
+      "palavra": "CHILE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País comprido e fininho ao lado da Cordilheira dos Andes",
+        "media": "País sul-americano de capital Santiago",
+        "dificil": "Dono da Ilha de Páscoa e do Deserto do Atacama"
+      }
+    },
+    {
+      "palavra": "CUBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País que é uma ilha no Caribe, de capital Havana",
+        "media": "Maior ilha do Caribe",
+        "dificil": "País-ilha a cerca de 150 km da Flórida"
+      }
+    },
+    {
+      "palavra": "GRÉCIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das histórias de deuses como Zeus",
+        "media": "País europeu de capital Atenas",
+        "dificil": "Berço das Olimpíadas e da democracia"
+      }
+    },
+    {
+      "palavra": "ESPANHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País da paella e do flamenco",
+        "media": "Vizinho de Portugal na Península Ibérica",
+        "dificil": "Terra de Dom Quixote e de Gaudí"
+      }
+    },
+    {
+      "palavra": "PORTUGAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País que fala a mesma língua que o Brasil, do outro lado do mar",
+        "media": "País europeu de capital Lisboa",
+        "dificil": "Terra de Camões e do pastel de nata"
+      }
+    },
+    {
+      "palavra": "ALEMANHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das salsichas e dos castelos de contos de fadas",
+        "media": "País europeu de capital Berlim",
+        "dificil": "Terra de Beethoven e dos Irmãos Grimm"
+      }
+    },
+    {
+      "palavra": "ARGENTINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País vizinho do Brasil, terra do tango",
+        "media": "País sul-americano de capital Buenos Aires",
+        "dificil": "Terra de Maradona e da Patagônia"
+      }
+    },
+    {
+      "palavra": "ESTADOS UNIDOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País da Estátua da Liberdade",
+        "media": "País norte-americano de capital Washington",
+        "dificil": "Terra do Tio Sam, com 50 estrelas na bandeira"
+      }
+    },
+    {
+      "palavra": "SUÍÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País das montanhas dos Alpes, do chocolate e dos relógios",
+        "media": "País europeu sem saída para o mar, de capital Berna",
+        "dificil": "Terra de Genebra e de Zurique"
+      }
+    },
+    {
+      "palavra": "SUÉCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País frio do norte da Europa, de capital Estocolmo",
+        "media": "País escandinavo vizinho da Noruega e da Finlândia",
+        "dificil": "Onde se entrega a maioria dos Prêmios Nobel"
+      }
+    },
+    {
+      "palavra": "NORUEGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País gelado dos fiordes e da aurora boreal",
+        "media": "País escandinavo de capital Oslo",
+        "dificil": "Terra dos vikings onde se entrega o Nobel da Paz"
+      }
+    },
+    {
+      "palavra": "IRLANDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ilha verde do trevo de três folhas",
+        "media": "País europeu de capital Dublin",
+        "dificil": "Terra de São Patrício"
+      }
+    },
+    {
+      "palavra": "HOLANDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País das tulipas e dos moinhos de vento",
+        "media": "Nome popular dos Países Baixos",
+        "dificil": "Terra de Van Gogh e dos tamancos de madeira"
+      }
+    },
+    {
+      "palavra": "TURQUIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País com um pedaço na Europa e outro na Ásia",
+        "media": "País de capital Ancara",
+        "dificil": "Terra de Istambul e dos balões da Capadócia"
+      }
+    },
+    {
+      "palavra": "URUGUAI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País pequeno vizinho do Rio Grande do Sul",
+        "media": "País sul-americano de capital Montevidéu",
+        "dificil": "Primeiro campeão da Copa do Mundo, em 1930"
+      }
+    },
+    {
+      "palavra": "PARAGUAI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País vizinho que divide a usina de Itaipu com o Brasil",
+        "media": "País sul-americano de capital Assunção",
+        "dificil": "Terra onde o guarani é língua oficial"
+      }
+    },
+    {
+      "palavra": "BOLÍVIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País vizinho onde fica o enorme deserto de sal de Uyuni",
+        "media": "País andino com sede do governo em La Paz",
+        "dificil": "Divide o Lago Titicaca com o Peru"
+      }
+    },
+    {
+      "palavra": "COLÔMBIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País vizinho famoso pelo café",
+        "media": "País sul-americano de capital Bogotá",
+        "dificil": "Terra de Gabriel García Márquez"
+      }
+    },
+    {
+      "palavra": "VENEZUELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País vizinho onde fica a cachoeira mais alta do mundo",
+        "media": "País sul-americano de capital Caracas",
+        "dificil": "Terra do Salto Ángel e de Simón Bolívar"
+      }
+    },
+    {
+      "palavra": "EQUADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País cortado pela linha que divide a Terra ao meio",
+        "media": "País sul-americano de capital Quito",
+        "dificil": "Dono das Ilhas Galápagos"
+      }
+    },
+    {
+      "palavra": "AUSTRÁLIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País dos cangurus e dos coalas",
+        "media": "País-continente da Oceania",
+        "dificil": "Terra da Grande Barreira de Corais"
+      }
+    },
+    {
+      "palavra": "INGLATERRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País do Big Ben e dos ônibus vermelhos de dois andares",
+        "media": "Nação do Reino Unido de capital Londres",
+        "dificil": "Berço do futebol moderno e de Shakespeare"
+      }
+    },
+    {
+      "palavra": "QUÊNIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País africano dos safáris com leões e zebras",
+        "media": "País do leste da África de capital Nairóbi",
+        "dificil": "Terra dos massais e de grandes maratonistas"
+      }
+    },
+    {
+      "palavra": "ANGOLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País africano onde também se fala português",
+        "media": "País da África de capital Luanda",
+        "dificil": "Terra do semba, banhada pelo Atlântico"
+      }
+    },
+    {
+      "palavra": "MARROCOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País africano bem pertinho da Espanha",
+        "media": "País do norte da África de capital Rabat",
+        "dificil": "Terra de Marrakech e do Deserto do Saara"
+      }
+    },
+    {
+      "palavra": "TAILÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País asiático dos templos dourados e dos elefantes",
+        "media": "País do sudeste asiático de capital Bangcoc",
+        "dificil": "Antigo Sião"
+      }
+    },
+    {
+      "palavra": "VIETNÃ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País asiático dos campos de arroz e dos chapéus em cone",
+        "media": "País do sudeste asiático de capital Hanói",
+        "dificil": "Terra da Baía de Ha Long"
+      }
+    },
+    {
+      "palavra": "ISLÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ilha gelada cheia de vulcões e gêiseres",
+        "media": "País nórdico de capital Reykjavík",
+        "dificil": "Terra do fogo e do gelo, no Atlântico Norte"
+      }
+    },
+    {
+      "palavra": "FINLÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País gelado onde dizem que mora o Papai Noel",
+        "media": "País nórdico de capital Helsinque",
+        "dificil": "Terra dos mil lagos e da sauna"
+      }
+    },
+    {
+      "palavra": "DINAMARCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País da estátua da Pequena Sereia",
+        "media": "País escandinavo de capital Copenhague",
+        "dificil": "Terra de Hans Christian Andersen"
+      }
+    },
+    {
+      "palavra": "POLÔNIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País europeu de capital Varsóvia",
+        "media": "País da Europa Central vizinho da Alemanha",
+        "dificil": "Terra de Chopin e de Marie Curie"
+      }
+    },
+    {
+      "palavra": "HUNGRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País europeu de capital Budapeste",
+        "media": "País da Europa Central cortado pelo Danúbio",
+        "dificil": "Terra do goulash e do inventor do cubo mágico"
+      }
+    },
+    {
+      "palavra": "INDONÉSIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País formado por milhares de ilhas na Ásia",
+        "media": "Maior arquipélago do mundo, no sudeste asiático",
+        "dificil": "Terra de Bali e de Java"
+      }
+    },
+    {
+      "palavra": "FILIPINAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País asiático com mais de sete mil ilhas",
+        "media": "Arquipélago asiático de capital Manila",
+        "dificil": "Nome que homenageia o rei Filipe II da Espanha"
+      }
+    },
+    {
+      "palavra": "MOÇAMBIQUE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Outro país africano onde se fala português",
+        "media": "País do leste da África de capital Maputo",
+        "dificil": "Banhado pelo Índico, foi colônia portuguesa"
+      }
+    },
+    {
+      "palavra": "NOVA ZELÂNDIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País das ovelhas e do pássaro quiuí",
+        "media": "País da Oceania de capital Wellington",
+        "dificil": "Terra dos maoris e de paisagens de filmes de fantasia"
+      }
+    },
+    {
+      "palavra": "MONGÓLIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "País das grandes planícies e das tendas redondas",
+        "media": "País asiático de capital Ulan Bator",
+        "dificil": "Terra de Gengis Khan"
+      }
+    },
+    {
+      "palavra": "NEPAL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "País do Monte Everest",
+        "media": "País do Himalaia de capital Katmandu",
+        "dificil": "Única bandeira nacional que não é retangular"
+      }
+    },
+    {
+      "palavra": "BUTÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "País pequenino nas montanhas do Himalaia",
+        "media": "Reino asiático de capital Thimphu",
+        "dificil": "Mede a Felicidade Interna Bruta"
+      }
+    },
+    {
+      "palavra": "CAZAQUISTÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Maior país do mundo sem saída para o mar",
+        "media": "País da Ásia Central de capital Astana",
+        "dificil": "Terra do cosmódromo de Baikonur"
+      }
+    },
+    {
+      "palavra": "LIECHTENSTEIN",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "País pequenininho entre a Suíça e a Áustria",
+        "media": "Principado europeu de capital Vaduz",
+        "dificil": "Um dos dois países duplamente sem saída para o mar"
+      }
+    }
+  ]
+}

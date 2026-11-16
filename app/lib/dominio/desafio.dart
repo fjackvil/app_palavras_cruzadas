@@ -63,6 +63,7 @@ class DesafioCruzadas {
     required this.temas,
     required this.semente,
     required this.palavras,
+    this.diario,
   }) : _letras = _montarLetras(tamanho, palavras);
 
   factory DesafioCruzadas.deJson(Map<String, dynamic> json) => DesafioCruzadas(
@@ -70,6 +71,7 @@ class DesafioCruzadas {
     nivel: Nivel.porNome(json['nivel'] as String),
     temas: List<String>.from(json['temas'] as List),
     semente: json['semente'] as int,
+    diario: json['diario'] as String?,
     palavras: (json['palavras'] as List)
         .map((p) => PalavraNaGrade.deJson(p as Map<String, dynamic>))
         .toList(),
@@ -81,11 +83,20 @@ class DesafioCruzadas {
   /// Ids dos temas usados (nomes dos arquivos JSON).
   final List<String> temas;
   final int semente;
+
+  /// Data do desafio diário ('2026-11-16'), ou null se não é diário.
+  final String? diario;
   final List<PalavraNaGrade> palavras;
   final List<String?> _letras;
 
   /// Identificador estável: o mesmo desafio sempre tem o mesmo id.
-  String get id => 'cruzadas:${nivel.name}:${temas.join('+')}:$semente';
+  String get id => diario != null
+      ? idDiario(nivel, diario!)
+      : 'cruzadas:${nivel.name}:${temas.join('+')}:$semente';
+
+  /// Id do desafio diário de um nível numa data.
+  static String idDiario(Nivel nivel, String data) =>
+      'cruzadas:diario:${nivel.name}:$data';
 
   int indice(int linha, int coluna) => linha * tamanho + coluna;
 
@@ -124,6 +135,7 @@ class DesafioCruzadas {
     'nivel': nivel.name,
     'temas': temas,
     'semente': semente,
+    'diario': ?diario,
     'palavras': palavras.map((p) => p.paraJson()).toList(),
   };
 

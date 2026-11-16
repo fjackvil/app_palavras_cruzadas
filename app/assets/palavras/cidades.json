@@ -1,0 +1,440 @@
+{
+  "tema": "Cidades",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "RUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caminho entre as casas por onde passam os carros",
+        "media": "Via pública de uma cidade",
+        "dificil": "Todo endereço começa por ela"
+      }
+    },
+    {
+      "palavra": "PRAÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com bancos e árvores para passear na cidade",
+        "media": "Espaço público aberto, com jardim",
+        "dificil": "Onde costuma ficar o coreto"
+      }
+    },
+    {
+      "palavra": "PONTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construção para atravessar um rio",
+        "media": "Obra que liga duas margens",
+        "dificil": "A Rio-Niterói é uma das mais longas do Brasil"
+      }
+    },
+    {
+      "palavra": "BAIRRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedaço da cidade onde fica a sua casa",
+        "media": "Divisão de uma cidade",
+        "dificil": "Copacabana é um, Liberdade é outro"
+      }
+    },
+    {
+      "palavra": "PARQUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar verde da cidade para brincar e correr",
+        "media": "Área pública com árvores e lazer",
+        "dificil": "O Ibirapuera é o mais famoso de São Paulo"
+      }
+    },
+    {
+      "palavra": "PRÉDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construção alta com muitos apartamentos",
+        "media": "Edifício",
+        "dificil": "Tem andares, elevador e, às vezes, porteiro"
+      }
+    },
+    {
+      "palavra": "METRÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Trem que anda por baixo da terra, dentro da cidade",
+        "media": "Transporte urbano sobre trilhos, quase sempre subterrâneo",
+        "dificil": "Linha Azul, Linha Verde, Linha Vermelha..."
+      }
+    },
+    {
+      "palavra": "VILA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidadezinha bem pequena",
+        "media": "Pequeno povoado",
+        "dificil": "Ouro Preto já se chamou assim: ... Rica"
+      }
+    },
+    {
+      "palavra": "ROMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade italiana do Coliseu",
+        "media": "Capital da Itália",
+        "dificil": "Todos os caminhos levam a ela"
+      }
+    },
+    {
+      "palavra": "PARIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade da Torre Eiffel",
+        "media": "Capital da França",
+        "dificil": "A Cidade Luz"
+      }
+    },
+    {
+      "palavra": "VENEZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade italiana onde as ruas são canais",
+        "media": "Cidade das gôndolas",
+        "dificil": "Famosa pelo carnaval de máscaras"
+      }
+    },
+    {
+      "palavra": "SANTOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade do litoral paulista com um porto enorme",
+        "media": "Maior porto da América Latina",
+        "dificil": "Cidade onde Pelé brilhou na Vila Belmiro"
+      }
+    },
+    {
+      "palavra": "NATAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade do Rio Grande do Norte com nome de festa",
+        "media": "Capital potiguar",
+        "dificil": "Cidade das dunas de Genipabu"
+      }
+    },
+    {
+      "palavra": "MIAMI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade de praia na Flórida",
+        "media": "Cidade do sul dos Estados Unidos",
+        "dificil": "Lar da famosa South Beach"
+      }
+    },
+    {
+      "palavra": "TÓQUIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Maior cidade do Japão",
+        "media": "Capital japonesa",
+        "dificil": "Antiga Edo"
+      }
+    },
+    {
+      "palavra": "LONDRES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade do Big Ben",
+        "media": "Capital da Inglaterra",
+        "dificil": "Cidade cortada pelo Tâmisa"
+      }
+    },
+    {
+      "palavra": "NOVA YORK",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade da Estátua da Liberdade",
+        "media": "Maior cidade dos Estados Unidos",
+        "dificil": "A Grande Maçã"
+      }
+    },
+    {
+      "palavra": "SALVADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade do Elevador Lacerda",
+        "media": "Capital da Bahia",
+        "dificil": "Primeira capital do Brasil"
+      }
+    },
+    {
+      "palavra": "CALÇADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte da rua onde as pessoas andam a pé",
+        "media": "Passeio para pedestres",
+        "dificil": "Em Copacabana, tem desenho de ondas"
+      }
+    },
+    {
+      "palavra": "ESQUINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde duas ruas se encontram",
+        "media": "Ponto de cruzamento de vias",
+        "dificil": "Canto entre duas ruas"
+      }
+    },
+    {
+      "palavra": "OLINDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade de Pernambuco dos bonecos gigantes no Carnaval",
+        "media": "Cidade histórica vizinha do Recife",
+        "dificil": "Patrimônio da humanidade com ladeiras coloridas"
+      }
+    },
+    {
+      "palavra": "DUBAI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade do prédio mais alto do mundo",
+        "media": "Cidade dos Emirados Árabes Unidos",
+        "dificil": "Lar do Burj Khalifa"
+      }
+    },
+    {
+      "palavra": "GRAMADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade gaúcha famosa pelo chocolate e pelo Natal",
+        "media": "Cidade serrana do Rio Grande do Sul",
+        "dificil": "Sede de um festival de cinema e do Natal Luz"
+      }
+    },
+    {
+      "palavra": "CAMPINAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade grande do interior de São Paulo",
+        "media": "Maior cidade do interior paulista",
+        "dificil": "Terra do compositor Carlos Gomes"
+      }
+    },
+    {
+      "palavra": "BONITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade com rios de água transparente cheios de peixes",
+        "media": "Destino de ecoturismo em Mato Grosso do Sul",
+        "dificil": "Nome que também é um elogio"
+      }
+    },
+    {
+      "palavra": "MANAUS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade no meio da Floresta Amazônica",
+        "media": "Capital do Amazonas",
+        "dificil": "Cidade do Teatro Amazonas"
+      }
+    },
+    {
+      "palavra": "SEMÁFORO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luz que fica verde, amarela e vermelha",
+        "media": "Sinal de trânsito",
+        "dificil": "Farol, sinaleira ou sinal, conforme a região"
+      }
+    },
+    {
+      "palavra": "AVENIDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rua larga e movimentada",
+        "media": "Via urbana larga",
+        "dificil": "A Paulista é a mais famosa de São Paulo"
+      }
+    },
+    {
+      "palavra": "VIADUTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ponte que passa por cima de ruas",
+        "media": "Elevado que cruza outras vias",
+        "dificil": "O do Chá é famoso no centro de São Paulo"
+      }
+    },
+    {
+      "palavra": "PREFEITURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar onde trabalha quem governa a cidade",
+        "media": "Sede do governo municipal",
+        "dificil": "Paço municipal"
+      }
+    },
+    {
+      "palavra": "QUARTEIRÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço da cidade cercado por quatro ruas",
+        "media": "Quadra",
+        "dificil": "Dar a volta no ... é dar uma voltinha a pé"
+      }
+    },
+    {
+      "palavra": "ARRANHA-CÉU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Prédio altíssimo que parece tocar as nuvens",
+        "media": "Edifício muito alto",
+        "dificil": "Nova York tem muitos"
+      }
+    },
+    {
+      "palavra": "MUNICÍPIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "A cidade e toda a área em volta que ela governa",
+        "media": "Divisão administrativa de um estado",
+        "dificil": "O Brasil tem mais de 5.500"
+      }
+    },
+    {
+      "palavra": "METRÓPOLE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade gigante com milhões de pessoas",
+        "media": "Cidade muito grande e importante",
+        "dificil": "São Paulo e Cidade do México são exemplos"
+      }
+    },
+    {
+      "palavra": "PERIFERIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte da cidade longe do centro",
+        "media": "Região afastada do centro urbano",
+        "dificil": "Arredores, bordas da cidade"
+      }
+    },
+    {
+      "palavra": "SUBÚRBIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bairro afastado do centro",
+        "media": "Zona residencial fora do centro",
+        "dificil": "Arrabalde"
+      }
+    },
+    {
+      "palavra": "PETRÓPOLIS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade serrana do Rio onde o imperador passava o verão",
+        "media": "Cidade Imperial fluminense",
+        "dificil": "Sede do Museu Imperial"
+      }
+    },
+    {
+      "palavra": "OURO PRETO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade mineira de igrejas antigas e ladeiras",
+        "media": "Antiga Vila Rica",
+        "dificil": "Cidade de Aleijadinho e da Inconfidência"
+      }
+    },
+    {
+      "palavra": "PARATY",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade colonial à beira-mar no Rio de Janeiro",
+        "media": "Cidade histórica fluminense da Flip",
+        "dificil": "Ruas de pedra que alagam com a maré"
+      }
+    },
+    {
+      "palavra": "CARUARU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade pernambucana famosa pela festa de São João",
+        "media": "Capital do Forró, no agreste",
+        "dificil": "Terra da feira e do Mestre Vitalino"
+      }
+    },
+    {
+      "palavra": "PARINTINS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade do festival dos bois Garantido e Caprichoso",
+        "media": "Cidade numa ilha do rio Amazonas",
+        "dificil": "Terra do bumbódromo"
+      }
+    },
+    {
+      "palavra": "XANGAI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade gigante da China, cheia de prédios altos",
+        "media": "Metrópole portuária chinesa",
+        "dificil": "Pérola do Oriente"
+      }
+    },
+    {
+      "palavra": "ISTAMBUL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade que fica metade na Europa e metade na Ásia",
+        "media": "Maior cidade da Turquia",
+        "dificil": "Antiga Constantinopla"
+      }
+    },
+    {
+      "palavra": "FLORENÇA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade italiana cheia de obras de arte",
+        "media": "Berço do Renascimento",
+        "dificil": "Cidade de Michelangelo e dos Médici"
+      }
+    },
+    {
+      "palavra": "BARCELONA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade espanhola da igreja Sagrada Família",
+        "media": "Segunda maior cidade da Espanha",
+        "dificil": "Cidade de Gaudí, na Catalunha"
+      }
+    },
+    {
+      "palavra": "CUSCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade peruana que foi capital dos incas",
+        "media": "Antiga capital do Império Inca",
+        "dificil": "Porta de entrada para Machu Picchu"
+      }
+    },
+    {
+      "palavra": "AMSTERDÃ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade dos canais e das bicicletas",
+        "media": "Capital dos Países Baixos",
+        "dificil": "Cidade de Anne Frank e do Museu Van Gogh"
+      }
+    },
+    {
+      "palavra": "CHICAGO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cidade americana à beira de um lago gigante",
+        "media": "Cidade do Lago Michigan",
+        "dificil": "A Cidade dos Ventos"
+      }
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "tema": "Cantores e bandas",
+  "categoria": "Música",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CANTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem que canta músicas",
+        "media": "Intérprete vocal",
+        "dificil": "Dono da voz principal"
+      }
+    },
+    {
+      "palavra": "BANDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de pessoas que toca música junto",
+        "media": "Conjunto musical",
+        "dificil": "Também é um lado: \"de uma ___ para outra\""
+      }
+    },
+    {
+      "palavra": "SHOW",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apresentação de música ao vivo",
+        "media": "Espetáculo",
+        "dificil": "Tem palco, luzes e plateia"
+      }
+    },
+    {
+      "palavra": "PALCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar alto onde o artista se apresenta",
+        "media": "Tablado do espetáculo",
+        "dificil": "O artista sobe nele"
+      }
+    },
+    {
+      "palavra": "DUPLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dois cantores que cantam juntos",
+        "media": "Par de artistas",
+        "dificil": "Formato preferido do sertanejo"
+      }
+    },
+    {
+      "palavra": "TRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de três músicos",
+        "media": "Conjunto de três",
+        "dificil": "O elétrico anima o Carnaval baiano"
+      }
+    },
+    {
+      "palavra": "VOZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som que sai da garganta quando cantamos",
+        "media": "Instrumento do cantor",
+        "dificil": "Pode ser grave ou aguda"
+      }
+    },
+    {
+      "palavra": "DISCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde as músicas eram gravadas antigamente",
+        "media": "LP de vinil",
+        "dificil": "O de ouro marca grandes vendas"
+      }
+    },
+    {
+      "palavra": "ÍDOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Artista que a gente admira muito",
+        "media": "Astro venerado pelos fãs",
+        "dificil": "Estampa camisetas e pôsteres"
+      }
+    },
+    {
+      "palavra": "PALMAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bater as mãos para aplaudir",
+        "media": "Aplausos",
+        "dificil": "O que o público dá no fim da canção"
+      }
+    },
+    {
+      "palavra": "CORAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muitas pessoas cantando juntas",
+        "media": "Grupo de cantores",
+        "dificil": "Também é um bicho do recife"
+      }
+    },
+    {
+      "palavra": "MÚSICA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Melodia que a gente canta ou toca",
+        "media": "Arte dos sons",
+        "dificil": "Uma das sete artes"
+      }
+    },
+    {
+      "palavra": "RÁDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que toca músicas e notícias",
+        "media": "Emissora de som",
+        "dificil": "Onde os sucessos tocavam primeiro"
+      }
+    },
+    {
+      "palavra": "CANÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música com letra para cantar",
+        "media": "Composição cantada",
+        "dificil": "A de ninar faz dormir"
+      }
+    },
+    {
+      "palavra": "MICROFONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que deixa a voz mais alta",
+        "media": "Captador de som",
+        "dificil": "Segurado pelo cantor no palco"
+      }
+    },
+    {
+      "palavra": "SUCESSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música que todo mundo canta",
+        "media": "Hit",
+        "dificil": "Estoura nas paradas"
+      }
+    },
+    {
+      "palavra": "PLATEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoas que assistem ao show",
+        "media": "Público",
+        "dificil": "Canta junto o refrão"
+      }
+    },
+    {
+      "palavra": "TURNÊ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Viagem do artista fazendo shows em várias cidades",
+        "media": "Série de apresentações",
+        "dificil": "Leva a banda de cidade em cidade"
+      }
+    },
+    {
+      "palavra": "ÁLBUM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conjunto de músicas lançadas juntas",
+        "media": "Disco completo",
+        "dificil": "Também guarda fotos e figurinhas"
+      }
+    },
+    {
+      "palavra": "CLIPE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vídeo feito para uma música",
+        "media": "Vídeo promocional de uma canção",
+        "dificil": "Também prende papéis"
+      }
+    },
+    {
+      "palavra": "AUTÓGRAFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Assinatura que o fã pede ao artista",
+        "media": "Rubrica de famoso",
+        "dificil": "Caçado com caneta e caderninho"
+      }
+    },
+    {
+      "palavra": "VOCALISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem canta na banda",
+        "media": "Voz principal do grupo",
+        "dificil": "Fica na frente do palco"
+      }
+    },
+    {
+      "palavra": "BATERISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem toca bateria na banda",
+        "media": "Percussionista do grupo",
+        "dificil": "Marca o ritmo com baquetas"
+      }
+    },
+    {
+      "palavra": "GUITARRISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem toca guitarra na banda",
+        "media": "Instrumentista de cordas elétricas",
+        "dificil": "Faz os solos do rock"
+      }
+    },
+    {
+      "palavra": "BEATLES",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quatro rapazes de Liverpool que mudaram o rock",
+        "media": "Banda de \"Yellow Submarine\"",
+        "dificil": "John, Paul, George e Ringo"
+      }
+    },
+    {
+      "palavra": "ELVIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cantor americano chamado de Rei do Rock",
+        "media": "Astro de \"Love Me Tender\"",
+        "dificil": "Morava em Graceland"
+      }
+    },
+    {
+      "palavra": "XUXA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rainha dos Baixinhos",
+        "media": "Cantora de \"Ilariê\" (1988)",
+        "dificil": "Apresentadora de programas infantis"
+      }
+    },
+    {
+      "palavra": "SANDY",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cantava em dupla com o irmão Junior",
+        "media": "Filha de Xororó",
+        "dificil": "Cantou \"Maria Chiquinha\" ainda criança"
+      }
+    },
+    {
+      "palavra": "IVETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cantora baiana de axé muito animada",
+        "media": "Ex-vocalista da Banda Eva",
+        "dificil": "Sangalo, de Juazeiro"
+      }
+    },
+    {
+      "palavra": "SHAKIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cantora colombiana de \"Waka Waka\"",
+        "media": "Hino da Copa de 2010",
+        "dificil": "Nasceu em Barranquilla"
+      }
+    },
+    {
+      "palavra": "TOQUINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cantor de \"Aquarela\" (1983)",
+        "media": "Violonista parceiro de Vinicius de Moraes",
+        "dificil": "Gravou \"A Arca de Noé\" com o poetinha"
+      }
+    },
+    {
+      "palavra": "ABBA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo sueco de \"Dancing Queen\"",
+        "media": "Quarteto pop da Suécia",
+        "dificil": "Venceu a Eurovisão de 1974 com \"Waterloo\""
+      }
+    },
+    {
+      "palavra": "QUEEN",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda de \"We Are the Champions\"",
+        "media": "Grupo britânico de Freddie Mercury",
+        "dificil": "Tocou no primeiro Rock in Rio, em 1985"
+      }
+    },
+    {
+      "palavra": "TITÃS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda paulista de rock dos anos 1980",
+        "media": "Grupo de \"Sonífera Ilha\"",
+        "dificil": "Gigantes da mitologia grega"
+      }
+    },
+    {
+      "palavra": "SKANK",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda mineira de \"Garota Nacional\"",
+        "media": "Grupo de Samuel Rosa",
+        "dificil": "Nasceu em Belo Horizonte"
+      }
+    },
+    {
+      "palavra": "PARALAMAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda de Herbert Vianna",
+        "media": "Os ___ do Sucesso",
+        "dificil": "Proteção sobre as rodas do carro"
+      }
+    },
+    {
+      "palavra": "MUTANTES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda de Rita Lee na Tropicália",
+        "media": "Trio de \"Panis et Circencis\"",
+        "dificil": "Seres que mudaram, como nos gibis"
+      }
+    },
+    {
+      "palavra": "TRIBALISTAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Trio de Marisa Monte, Arnaldo Antunes e Carlinhos Brown",
+        "media": "Grupo de \"Velha Infância\"",
+        "dificil": "Estrearam em 2002"
+      }
+    },
+    {
+      "palavra": "KID ABELHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda de Paula Toller",
+        "media": "Grupo de \"Como Eu Quero\"",
+        "dificil": "Inseto mirim que faz mel"
+      }
+    },
+    {
+      "palavra": "BLITZ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Banda carioca de \"Você Não Soube Me Amar\"",
+        "media": "Grupo de Evandro Mesquita",
+        "dificil": "Também é inspeção-surpresa na estrada"
+      }
+    },
+    {
+      "palavra": "TREM DA ALEGRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo infantil dos anos 1980",
+        "media": "Grupo de \"Uni-Duni-Tê\"",
+        "dificil": "Juninho Bill e Patrícia Marx estavam nele"
+      }
+    },
+    {
+      "palavra": "CHITÃOZINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dupla com Xororó",
+        "media": "Irmão de Xororó na música sertaneja",
+        "dificil": "Cantou \"Evidências\""
+      }
+    },
+    {
+      "palavra": "ADELE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cantora britânica de \"Hello\"",
+        "media": "Voz de \"Someone Like You\"",
+        "dificil": "Venceu o Oscar por \"Skyfall\""
+      }
+    },
+    {
+      "palavra": "COLDPLAY",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Banda britânica de \"Yellow\"",
+        "media": "Grupo de Chris Martin",
+        "dificil": "Gravou \"Viva la Vida\" (2008)"
+      }
+    }
+  ]
+}

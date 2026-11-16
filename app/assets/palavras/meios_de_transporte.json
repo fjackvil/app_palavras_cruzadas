@@ -9,7 +9,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Carro grande para várias pessoas",
-        "media": "Utilitário de passageiros"
+        "media": "Utilitário de passageiros",
+        "dificil": "Furgão de lotação"
       }
     },
     {
@@ -17,7 +18,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Anda nos trilhos",
-        "media": "Composição de vagões"
+        "media": "Composição de vagões",
+        "dificil": "A maria-fumaça é um"
       }
     },
     {
@@ -25,7 +27,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Veículo de duas rodas que faz vrum",
-        "media": "Veículo de duas rodas a gasolina"
+        "media": "Veículo de duas rodas a gasolina",
+        "dificil": "Duas rodas e capacete obrigatório"
       }
     },
     {
@@ -33,7 +36,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Carro que a gente paga para nos levar",
-        "media": "Carro de aluguel com motorista"
+        "media": "Carro de aluguel com motorista",
+        "dificil": "Amarelo em Nova York, cobra bandeirada"
       }
     },
     {
@@ -41,7 +45,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Carro para estrada de terra",
-        "media": "Veículo para terrenos difíceis"
+        "media": "Veículo para terrenos difíceis",
+        "dificil": "Usado em safári e trilha"
       }
     },
     {
@@ -49,7 +54,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Parte de borracha da roda",
-        "media": "Revestimento de borracha da roda"
+        "media": "Revestimento de borracha da roda",
+        "dificil": "Pode ser careca ou furado"
       }
     },
     {
@@ -57,7 +63,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tem quatro rodas e leva a família",
-        "media": "Automóvel"
+        "media": "Automóvel",
+        "dificil": "Possante de quatro rodas"
       }
     },
     {
@@ -65,7 +72,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Voa no céu levando pessoas",
-        "media": "Aeronave de passageiros"
+        "media": "Aeronave de passageiros",
+        "dificil": "Pássaro de aço"
       }
     },
     {
@@ -73,7 +81,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Anda na água",
-        "media": "Embarcação"
+        "media": "Embarcação",
+        "dificil": "Vai a remo, a vela ou a motor"
       }
     },
     {
@@ -81,7 +90,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Barco bem grande que cruza o mar",
-        "media": "Grande embarcação"
+        "media": "Grande embarcação",
+        "dificil": "Pode ser cargueiro ou de cruzeiro"
       }
     },
     {
@@ -89,7 +99,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Trem que anda debaixo da terra",
-        "media": "Trem urbano subterrâneo"
+        "media": "Trem urbano subterrâneo",
+        "dificil": "Linha subterrânea das grandes cidades"
       }
     },
     {
@@ -97,7 +108,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Barquinho de remo",
-        "media": "Embarcação a remo"
+        "media": "Embarcação a remo",
+        "dificil": "Embarcação indígena feita de tronco"
       }
     },
     {
@@ -105,7 +117,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Prancha com rodinhas",
-        "media": "Prancha de rodas para manobras"
+        "media": "Prancha de rodas para manobras",
+        "dificil": "Prancha das manobras na pista"
       }
     },
     {
@@ -113,7 +126,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Sobe no céu com ar quente",
-        "media": "Aeronave de ar quente"
+        "media": "Aeronave de ar quente",
+        "dificil": "Tem cesto e queimador"
       }
     },
     {
@@ -121,7 +135,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Onde os navios param",
-        "media": "Local onde atracam os navios"
+        "media": "Local onde atracam os navios",
+        "dificil": "O de Santos é o maior do país"
       }
     },
     {
@@ -129,7 +144,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Vagão que anda sobre trilhos na rua",
-        "media": "Veículo elétrico sobre trilhos urbanos"
+        "media": "Veículo elétrico sobre trilhos urbanos",
+        "dificil": "O de Santa Teresa é famoso no Rio"
       }
     },
     {
@@ -137,7 +153,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Cada parte do trem",
-        "media": "Carro de uma composição ferroviária"
+        "media": "Carro de uma composição ferroviária",
+        "dificil": "Pode ser de carga ou restaurante"
       }
     },
     {
@@ -145,7 +162,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Veículo grande que leva muita gente",
-        "media": "Transporte coletivo urbano"
+        "media": "Transporte coletivo urbano",
+        "dificil": "Circular, coletivo"
       }
     },
     {
@@ -153,7 +171,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Veículo que trabalha na fazenda",
-        "media": "Veículo agrícola"
+        "media": "Veículo agrícola",
+        "dificil": "Puxa o arado"
       }
     },
     {
@@ -161,7 +180,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Barco rápido com motor",
-        "media": "Embarcação veloz a motor"
+        "media": "Embarcação veloz a motor",
+        "dificil": "Barco de passeio veloz"
       }
     },
     {
@@ -169,7 +189,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Quem dirige o avião",
-        "media": "Condutor de aeronave"
+        "media": "Condutor de aeronave",
+        "dificil": "Comandante da cabine"
       }
     },
     {
@@ -177,7 +198,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Segura o barco parado",
-        "media": "Peça que prende a embarcação ao fundo"
+        "media": "Peça que prende a embarcação ao fundo",
+        "dificil": "Também é quem apresenta o telejornal"
       }
     },
     {
@@ -185,7 +207,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Vai até o espaço",
-        "media": "Veículo espacial"
+        "media": "Veículo espacial",
+        "dificil": "Sobe depois da contagem regressiva"
       }
     },
     {
@@ -193,7 +216,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Barco de madeira dos pescadores",
-        "media": "Embarcação de pescadores do Nordeste"
+        "media": "Embarcação de pescadores do Nordeste",
+        "dificil": "Feita de troncos, com vela triangular"
       }
     },
     {
@@ -201,7 +225,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Puxada por cavalo",
-        "media": "Veículo de tração animal"
+        "media": "Veículo de tração animal",
+        "dificil": "Puxada pelo burro de carga"
       }
     },
     {
@@ -209,7 +234,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Caminho por onde passam os carros",
-        "media": "Via de rodagem"
+        "media": "Via de rodagem",
+        "dificil": "Rodovia"
       }
     },
     {
@@ -217,7 +243,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Veículo grande que leva carga",
-        "media": "Veículo de carga"
+        "media": "Veículo de carga",
+        "dificil": "Tem boleia e carroceria"
       }
     },
     {
@@ -225,7 +252,188 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tem rodinhas e a gente empurra com o pé",
-        "media": "Prancha com rodas e guidão"
+        "media": "Prancha com rodas e guidão",
+        "dificil": "Hoje há versões elétricas de aluguel"
+      }
+    },
+    {
+      "palavra": "BICICLETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem pedal e duas rodas",
+        "media": "Veículo de pedais",
+        "dificil": "Magrela"
+      }
+    },
+    {
+      "palavra": "HELICÓPTERO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Voa com hélices girando em cima",
+        "media": "Aeronave de asas rotativas",
+        "dificil": "Pousa no heliponto"
+      }
+    },
+    {
+      "palavra": "SUBMARINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barco que anda debaixo d'água",
+        "media": "Embarcação submersível",
+        "dificil": "Navega espiando pelo periscópio"
+      }
+    },
+    {
+      "palavra": "AMBULÂNCIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Leva doentes ao hospital com sirene",
+        "media": "Veículo de socorro médico",
+        "dificil": "Unidade móvel do Samu"
+      }
+    },
+    {
+      "palavra": "VELEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Barco com pano grande que o vento empurra",
+        "media": "Embarcação movida pelo vento",
+        "dificil": "Tem mastro, retranca e bujarrona"
+      }
+    },
+    {
+      "palavra": "TRICICLO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicicletinha de três rodas",
+        "media": "Veículo de três rodas a pedal",
+        "dificil": "Primeiro veículo de muitas crianças"
+      }
+    },
+    {
+      "palavra": "LOCOMOTIVA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Puxa os vagões do trem",
+        "media": "Máquina que traciona o trem",
+        "dificil": "A maria-fumaça a vapor é uma"
+      }
+    },
+    {
+      "palavra": "BALSA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Leva carros de um lado do rio para o outro",
+        "media": "Embarcação plana de travessia",
+        "dificil": "Ferryboat"
+      }
+    },
+    {
+      "palavra": "DIRIGÍVEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Balão comprido com motor",
+        "media": "Aeronave mais leve que o ar e motorizada",
+        "dificil": "O zepelim era um"
+      }
+    },
+    {
+      "palavra": "PLANADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Avião sem motor",
+        "media": "Aeronave que voa sem propulsão",
+        "dificil": "Voa aproveitando as correntes de ar quente"
+      }
+    },
+    {
+      "palavra": "TELEFÉRICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cabine que anda pendurada num cabo",
+        "media": "Transporte por cabos aéreos",
+        "dificil": "Sobe montanhas sem tocar o chão"
+      }
+    },
+    {
+      "palavra": "CATAMARÃ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Barco com dois cascos",
+        "media": "Embarcação de dois cascos paralelos",
+        "dificil": "Faz a travessia Rio–Niterói"
+      }
+    },
+    {
+      "palavra": "CARAVELA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Barco antigo dos navegadores portugueses",
+        "media": "Embarcação à vela dos séculos XV e XVI",
+        "dificil": "Cabral chegou ao Brasil com elas"
+      }
+    },
+    {
+      "palavra": "TRÓLEBUS",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ônibus elétrico ligado a fios lá no alto",
+        "media": "Ônibus movido por rede elétrica aérea",
+        "dificil": "Ainda circula em São Paulo"
+      }
+    },
+    {
+      "palavra": "MONOTRILHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Trem que anda no alto, numa viga só",
+        "media": "Trem urbano sobre viga única",
+        "dificil": "Elevado de uma via só"
+      }
+    },
+    {
+      "palavra": "HIDROAVIÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Avião que pousa na água",
+        "media": "Aeronave que decola e pousa na água",
+        "dificil": "Tem flutuadores no lugar das rodas"
+      }
+    },
+    {
+      "palavra": "CHARRETE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Carrinho de passeio puxado por cavalo",
+        "media": "Carro leve de duas rodas puxado a cavalo",
+        "dificil": "Passeio típico das cidades do interior"
+      }
+    },
+    {
+      "palavra": "GÔNDOLA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Barco comprido de Veneza",
+        "media": "Embarcação típica dos canais venezianos",
+        "dificil": "Conduzida por remador de chapéu de palha"
+      }
+    },
+    {
+      "palavra": "FUNICULAR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Trenzinho que sobe morro puxado por cabo",
+        "media": "Ferrovia inclinada tracionada por cabo",
+        "dificil": "Elevador inclinado sobre trilhos"
+      }
+    },
+    {
+      "palavra": "RIQUIXÁ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Carrinho puxado por uma pessoa a pé",
+        "media": "Carro leve de duas rodas puxado por um homem",
+        "dificil": "Táxi a pé da Ásia antiga"
       }
     }
   ]

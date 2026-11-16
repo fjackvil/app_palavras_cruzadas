@@ -1,0 +1,458 @@
+{
+  "tema": "Super-heróis",
+  "categoria": "Cinema e TV",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pano comprido preso nas costas que balança no voo",
+        "media": "Manto do uniforme",
+        "dificil": "Também protege o livro"
+      }
+    },
+    {
+      "palavra": "PODER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Habilidade especial, como voar",
+        "media": "Dom extraordinário",
+        "dificil": "O que nenhuma pessoa comum tem"
+      }
+    },
+    {
+      "palavra": "VILÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Malvado que o herói precisa deter",
+        "media": "Inimigo do protagonista",
+        "dificil": "Sempre tem um plano para dominar o mundo"
+      }
+    },
+    {
+      "palavra": "HERÓI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem protege a cidade e salva as pessoas",
+        "media": "Defensor dos inocentes",
+        "dificil": "Chega sempre na hora certa"
+      }
+    },
+    {
+      "palavra": "FORÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que se usa para levantar um carro com uma mão",
+        "media": "Vigor físico",
+        "dificil": "Na física, massa vezes aceleração"
+      }
+    },
+    {
+      "palavra": "RAIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Luz forte que cai do céu na tempestade",
+        "media": "Descarga elétrica",
+        "dificil": "Alguns o disparam dos olhos"
+      }
+    },
+    {
+      "palavra": "BOTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado alto que cobre a canela",
+        "media": "Calçado de cano longo",
+        "dificil": "Completa o uniforme nos pés"
+      }
+    },
+    {
+      "palavra": "LUVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veste a mão",
+        "media": "Proteção para as mãos",
+        "dificil": "Cai como uma: serve perfeitamente"
+      }
+    },
+    {
+      "palavra": "CINTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tira na cintura que guarda ferramentas",
+        "media": "Acessório de utilidades",
+        "dificil": "Afivelado, segura a calça"
+      }
+    },
+    {
+      "palavra": "ASAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que faz os pássaros voarem",
+        "media": "Membros para o voo",
+        "dificil": "Ícaro fez as suas com cera"
+      }
+    },
+    {
+      "palavra": "GELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água congelada",
+        "media": "Poder de congelar tudo",
+        "dificil": "Fica no freezer em cubos"
+      }
+    },
+    {
+      "palavra": "FOGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chama quente e brilhante",
+        "media": "Elemento de alguns poderes",
+        "dificil": "Prometeu o roubou dos deuses"
+      }
+    },
+    {
+      "palavra": "VENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ar que sopra forte",
+        "media": "Ar em movimento",
+        "dificil": "Alguns heróis comandam tempestades com ele"
+      }
+    },
+    {
+      "palavra": "MISSÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tarefa importante que o herói precisa cumprir",
+        "media": "Incumbência",
+        "dificil": "Dada como cumprida no fim"
+      }
+    },
+    {
+      "palavra": "EQUIPE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de heróis que trabalha junto",
+        "media": "Time",
+        "dificil": "Liga, esquadrão ou bando"
+      }
+    },
+    {
+      "palavra": "ESCUDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Placa usada para se proteger",
+        "media": "Peça de defesa",
+        "dificil": "Arma de defesa dos cavaleiros"
+      }
+    },
+    {
+      "palavra": "SINAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Luz no céu chamando o herói",
+        "media": "Aviso",
+        "dificil": "Pode ser de trânsito"
+      }
+    },
+    {
+      "palavra": "GIBI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Revistinha onde os heróis nasceram",
+        "media": "Revista em quadrinhos",
+        "dificil": "Nome de uma revista lançada em 1939"
+      }
+    },
+    {
+      "palavra": "NOITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hora escura em que alguns heróis vigiam",
+        "media": "Período sem sol",
+        "dificil": "Quando a cidade dorme"
+      }
+    },
+    {
+      "palavra": "CIDADE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com muitos prédios que o herói protege",
+        "media": "Área urbana",
+        "dificil": "Metrópole cheia de arranha-céus"
+      }
+    },
+    {
+      "palavra": "CORAGEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Não ter medo de ajudar",
+        "media": "Bravura",
+        "dificil": "Valentia"
+      }
+    },
+    {
+      "palavra": "UNIFORME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa especial do herói",
+        "media": "Traje padronizado",
+        "dificil": "Também usado na escola"
+      }
+    },
+    {
+      "palavra": "FOGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nave que sobe ao espaço",
+        "media": "Veículo espacial",
+        "dificil": "Sobe soltando fumaça"
+      }
+    },
+    {
+      "palavra": "PLANETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A Terra é um deles",
+        "media": "Astro que gira em volta de uma estrela",
+        "dificil": "Alguns heróis vieram de outro"
+      }
+    },
+    {
+      "palavra": "SÍMBOLO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho no peito do uniforme",
+        "media": "Emblema",
+        "dificil": "A marca de cada herói"
+      }
+    },
+    {
+      "palavra": "DISFARCE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa para não ser reconhecido",
+        "media": "Fantasia para esconder quem é",
+        "dificil": "Óculos e cabelo penteado bastam"
+      }
+    },
+    {
+      "palavra": "AJUDANTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parceiro mais novo do herói",
+        "media": "Assistente",
+        "dificil": "Fiel escudeiro"
+      }
+    },
+    {
+      "palavra": "JUSTIÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fazer o que é certo para todos",
+        "media": "Equidade",
+        "dificil": "Representada por uma balança"
+      }
+    },
+    {
+      "palavra": "RESGATE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Salvar alguém em perigo",
+        "media": "Salvamento",
+        "dificil": "Missão de tirar alguém de apuros"
+      }
+    },
+    {
+      "palavra": "TELHADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte de cima da casa onde heróis vigiam",
+        "media": "Cobertura da casa",
+        "dificil": "Coberto de telhas"
+      }
+    },
+    {
+      "palavra": "ARMADURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa de metal que protege o corpo",
+        "media": "Couraça",
+        "dificil": "Cavaleiros medievais usavam"
+      }
+    },
+    {
+      "palavra": "LASER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raio de luz muito fino e forte",
+        "media": "Feixe de luz concentrada",
+        "dificil": "Lê CDs e mede distâncias"
+      }
+    },
+    {
+      "palavra": "QUADRINHOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Revistas com histórias desenhadas",
+        "media": "Revistas de HQ",
+        "dificil": "Gibis"
+      }
+    },
+    {
+      "palavra": "VELOCIDADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ser rápido como um raio",
+        "media": "Rapidez",
+        "dificil": "Distância dividida pelo tempo"
+      }
+    },
+    {
+      "palavra": "SUPERFORÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poder de levantar um caminhão",
+        "media": "Músculos fora do comum",
+        "dificil": "Vigor sobre-humano"
+      }
+    },
+    {
+      "palavra": "INVISÍVEL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Que ninguém consegue ver",
+        "media": "Imperceptível aos olhos",
+        "dificil": "Poder de sumir à vista de todos"
+      }
+    },
+    {
+      "palavra": "ESCONDERIJO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar secreto do herói",
+        "media": "Refúgio",
+        "dificil": "Caverna ou base secreta"
+      }
+    },
+    {
+      "palavra": "LABORATÓRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar de experiências do cientista",
+        "media": "Sala de pesquisas",
+        "dificil": "Tem tubos de ensaio e jaleco"
+      }
+    },
+    {
+      "palavra": "CIENTISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que faz experiências",
+        "media": "Pesquisador",
+        "dificil": "Às vezes cria o herói, às vezes o vilão"
+      }
+    },
+    {
+      "palavra": "IDENTIDADE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nome verdadeiro escondido do herói",
+        "media": "A secreta é guardada a sete chaves",
+        "dificil": "Documento com RG"
+      }
+    },
+    {
+      "palavra": "MUTANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ser que nasceu diferente, com poderes",
+        "media": "Ser alterado nos genes",
+        "dificil": "Fruto de mudança no DNA"
+      }
+    },
+    {
+      "palavra": "RADIAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Energia invisível que dá poderes em muitas histórias",
+        "media": "Emissão de energia",
+        "dificil": "Vem do Sol e de materiais nucleares"
+      }
+    },
+    {
+      "palavra": "TELEPATIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ler o pensamento dos outros",
+        "media": "Comunicação mente a mente",
+        "dificil": "Poder psíquico"
+      }
+    },
+    {
+      "palavra": "VIGILANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem patrulha a cidade por conta própria",
+        "media": "Justiceiro sem distintivo",
+        "dificil": "Guardião noturno"
+      }
+    },
+    {
+      "palavra": "LEVITAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Flutuar no ar sem asas",
+        "media": "Suspensão no ar",
+        "dificil": "Truque de mágico e de monge"
+      }
+    },
+    {
+      "palavra": "CAMUFLAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ficar da cor do ambiente para sumir",
+        "media": "Disfarce visual",
+        "dificil": "O camaleão é mestre nisso"
+      }
+    },
+    {
+      "palavra": "NÊMESIS",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Maior inimigo do herói",
+        "media": "Rival eterno",
+        "dificil": "Deusa grega da justiça retributiva"
+      }
+    },
+    {
+      "palavra": "ALTRUÍSMO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ajudar os outros sem querer nada em troca",
+        "media": "Abnegação",
+        "dificil": "Oposto de egoísmo"
+      }
+    },
+    {
+      "palavra": "ALTER EGO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "A outra identidade do herói",
+        "media": "O \"outro eu\"",
+        "dificil": "Expressão latina"
+      }
+    },
+    {
+      "palavra": "INVULNERÁVEL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Que nada consegue machucar",
+        "media": "Imune a ferimentos",
+        "dificil": "Como Aquiles, menos no calcanhar"
+      }
+    }
+  ]
+}

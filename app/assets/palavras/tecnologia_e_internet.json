@@ -1,0 +1,449 @@
+{
+  "tema": "Tecnologia e internet",
+  "categoria": "Atualidades",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SENHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Palavra secreta para entrar no celular ou no jogo",
+        "media": "Código secreto de acesso",
+        "dificil": "Nunca conte a ninguém nem cole no monitor"
+      }
+    },
+    {
+      "palavra": "NUVEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar na internet onde guardamos fotos, com nome de coisa do céu",
+        "media": "Armazenamento de arquivos on-line",
+        "dificil": "Onde ficam salvos os arquivos fora do aparelho"
+      }
+    },
+    {
+      "palavra": "TELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte do celular onde aparecem as imagens",
+        "media": "Display",
+        "dificil": "Pode ser sensível ao toque"
+      }
+    },
+    {
+      "palavra": "SITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Página que a gente visita na internet",
+        "media": "Endereço na rede mundial",
+        "dificil": "Muitos começam com www"
+      }
+    },
+    {
+      "palavra": "REDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ligação entre computadores, como uma teia",
+        "media": "Conjunto de aparelhos conectados",
+        "dificil": "A internet é a maior de todas"
+      }
+    },
+    {
+      "palavra": "ROBÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina que faz tarefas sozinha e às vezes parece gente",
+        "media": "Autômato",
+        "dificil": "Androide da ficção científica"
+      }
+    },
+    {
+      "palavra": "VÍDEO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filminho que a gente assiste no celular",
+        "media": "Gravação de imagens em movimento",
+        "dificil": "Viralizar é o sonho de quem posta um"
+      }
+    },
+    {
+      "palavra": "JOGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Diversão no celular ou no videogame",
+        "media": "Game",
+        "dificil": "Fases, chefões e vidas extras fazem parte"
+      }
+    },
+    {
+      "palavra": "FONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que a gente põe no ouvido para ouvir música",
+        "media": "Acessório de áudio para os ouvidos",
+        "dificil": "De ouvido, com ou sem fio"
+      }
+    },
+    {
+      "palavra": "CÂMERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte do celular que tira fotos",
+        "media": "Dispositivo que captura imagens",
+        "dificil": "A selfie usa a frontal"
+      }
+    },
+    {
+      "palavra": "MOUSE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelhinho que a gente mexe com a mão para mover a setinha",
+        "media": "Dispositivo apontador do computador",
+        "dificil": "Tem nome de rato em inglês"
+      }
+    },
+    {
+      "palavra": "TABLET",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho com tela grande, maior que um celular",
+        "media": "Computador portátil com tela sensível ao toque",
+        "dificil": "Prancheta digital"
+      }
+    },
+    {
+      "palavra": "CURTIR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apertar o coraçãozinho numa foto da internet",
+        "media": "Dar um like",
+        "dificil": "Gostar, nas redes sociais"
+      }
+    },
+    {
+      "palavra": "POSTAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Colocar uma foto nas redes sociais",
+        "media": "Publicar na internet",
+        "dificil": "Compartilhar no seu perfil"
+      }
+    },
+    {
+      "palavra": "EMOJI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carinha que a gente manda nas mensagens",
+        "media": "Pictograma usado em conversas digitais",
+        "dificil": "Palavra japonesa para figura com letra"
+      }
+    },
+    {
+      "palavra": "CELULAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Telefone que a gente leva no bolso",
+        "media": "Aparelho móvel de comunicação",
+        "dificil": "Smartphone, em bom português"
+      }
+    },
+    {
+      "palavra": "INTERNET",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rede que liga computadores do mundo todo",
+        "media": "Rede mundial de computadores",
+        "dificil": "A web, a grande teia"
+      }
+    },
+    {
+      "palavra": "TECLADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte com as letras para digitar",
+        "media": "Conjunto de teclas",
+        "dificil": "QWERTY é o mais comum"
+      }
+    },
+    {
+      "palavra": "BATERIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte do celular que guarda a energia",
+        "media": "Fonte de energia recarregável",
+        "dificil": "Quando chega a 1%, bate o desespero"
+      }
+    },
+    {
+      "palavra": "MENSAGEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Texto que a gente manda para um amigo pelo celular",
+        "media": "Recado digital",
+        "dificil": "Visualizada e não respondida, que tristeza"
+      }
+    },
+    {
+      "palavra": "APLICATIVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Programinha que a gente baixa no celular",
+        "media": "Programa para celular ou tablet",
+        "dificil": "Também chamado de app"
+      }
+    },
+    {
+      "palavra": "COMPUTADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina com tela e teclado para trabalhar e jogar",
+        "media": "Máquina eletrônica que processa dados",
+        "dificil": "Pode ser de mesa ou portátil"
+      }
+    },
+    {
+      "palavra": "ÍCONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenhinho na tela que abre um programa",
+        "media": "Símbolo gráfico de um programa",
+        "dificil": "Figurinha clicável da área de trabalho"
+      }
+    },
+    {
+      "palavra": "PASTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar no computador onde guardamos arquivos juntos",
+        "media": "Diretório",
+        "dificil": "Tem nome de material escolar e de macarrão"
+      }
+    },
+    {
+      "palavra": "ARQUIVO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Documento ou foto guardado no computador",
+        "media": "Conjunto de dados salvo com um nome",
+        "dificil": "Pode ser .pdf, .jpg ou .txt"
+      }
+    },
+    {
+      "palavra": "PERFIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sua página nas redes sociais, com foto e nome",
+        "media": "Conta de um usuário",
+        "dificil": "Foto de ... é a primeira impressão"
+      }
+    },
+    {
+      "palavra": "BAIXAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Trazer um jogo da internet para o celular",
+        "media": "Fazer download",
+        "dificil": "O contrário de subir um arquivo"
+      }
+    },
+    {
+      "palavra": "DIGITAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escrever apertando as teclas",
+        "media": "Teclar",
+        "dificil": "Datilografar no século 21"
+      }
+    },
+    {
+      "palavra": "CLICAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Apertar o botão do mouse",
+        "media": "Pressionar o botão do mouse sobre algo",
+        "dificil": "Dar um toque com o mouse"
+      }
+    },
+    {
+      "palavra": "CARREGADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fio que a gente liga na tomada para encher a bateria",
+        "media": "Fonte de recarga do aparelho",
+        "dificil": "Vive esquecido na tomada do hotel"
+      }
+    },
+    {
+      "palavra": "IMPRESSORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina que passa o que está no computador para o papel",
+        "media": "Periférico de saída que usa tinta ou toner",
+        "dificil": "Jato de tinta ou laser"
+      }
+    },
+    {
+      "palavra": "PROGRAMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conjunto de instruções que faz o computador funcionar",
+        "media": "Software",
+        "dificil": "Código executável"
+      }
+    },
+    {
+      "palavra": "VÍRUS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Programa malvado que estraga o computador",
+        "media": "Software malicioso",
+        "dificil": "Pede um antídoto digital"
+      }
+    },
+    {
+      "palavra": "USUÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que usa um site ou aplicativo",
+        "media": "Quem tem conta num sistema",
+        "dificil": "Nome de ... e senha"
+      }
+    },
+    {
+      "palavra": "SEGUIDOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem acompanha o seu perfil nas redes",
+        "media": "Membro da audiência de um perfil",
+        "dificil": "Influenciador quer milhões deles"
+      }
+    },
+    {
+      "palavra": "DIGITAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Coisa feita no computador, não no papel",
+        "media": "Relativo a dados eletrônicos",
+        "dificil": "Também é a marca do seu dedo"
+      }
+    },
+    {
+      "palavra": "ROTEADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Caixinha com luzes que espalha a internet pela casa",
+        "media": "Aparelho que distribui o sinal de rede",
+        "dificil": "O Wi-Fi sai dele"
+      }
+    },
+    {
+      "palavra": "NAVEGADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Programa usado para abrir sites",
+        "media": "Browser",
+        "dificil": "Tem abas e barra de endereços"
+      }
+    },
+    {
+      "palavra": "ALGORITMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lista de passos que o computador segue",
+        "media": "Sequência de instruções para resolver um problema",
+        "dificil": "Decide o que aparece no seu feed"
+      }
+    },
+    {
+      "palavra": "PIXEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pontinho bem pequeno que forma a imagem da tela",
+        "media": "Menor elemento de uma imagem digital",
+        "dificil": "Quadradinho da resolução"
+      }
+    },
+    {
+      "palavra": "SERVIDOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Computador que guarda sites e atende outros computadores",
+        "media": "Máquina que hospeda serviços na rede",
+        "dificil": "Fica num data center, ligado o tempo todo"
+      }
+    },
+    {
+      "palavra": "CÓDIGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Texto que o programador escreve",
+        "media": "Instruções de um programa",
+        "dificil": "Fonte, aberto ou binário"
+      }
+    },
+    {
+      "palavra": "PROGRAMADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que cria programas e jogos de computador",
+        "media": "Desenvolvedor de software",
+        "dificil": "Quem escreve código"
+      }
+    },
+    {
+      "palavra": "BANDA LARGA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Internet rápida de casa",
+        "media": "Conexão de alta velocidade",
+        "dificil": "A fibra óptica é um tipo"
+      }
+    },
+    {
+      "palavra": "CHIP",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peça pequenininha que faz o celular funcionar",
+        "media": "Circuito integrado",
+        "dificil": "Também é o cartão da operadora"
+      }
+    },
+    {
+      "palavra": "SATÉLITE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aparelho no espaço que manda sinal de TV e internet",
+        "media": "Equipamento em órbita para comunicação",
+        "dificil": "A Lua é um natural"
+      }
+    },
+    {
+      "palavra": "CRIPTOGRAFIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Jeito de embaralhar mensagens para ninguém ler",
+        "media": "Técnica de cifrar dados",
+        "dificil": "De ponta a ponta, protege a conversa"
+      }
+    },
+    {
+      "palavra": "BYTE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Pedacinho de informação do computador",
+        "media": "Conjunto de oito bits",
+        "dificil": "Kilo, mega, giga, tera..."
+      }
+    },
+    {
+      "palavra": "DESINFORMAÇÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Notícia falsa espalhada pela internet",
+        "media": "Fake news",
+        "dificil": "Boato digital"
+      }
+    }
+  ]
+}

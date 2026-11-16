@@ -1,0 +1,494 @@
+{
+  "tema": "História do Brasil",
+  "categoria": "História",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "OCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa indígena feita de madeira e palha",
+        "media": "Moradia tradicional de povos indígenas",
+        "dificil": "Habitação tupi coberta de folhas"
+      }
+    },
+    {
+      "palavra": "REI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem de coroa que manda no país",
+        "media": "Monarca",
+        "dificil": "Título de Dom João VI a partir de 1816"
+      }
+    },
+    {
+      "palavra": "OURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Metal amarelo, brilhante e muito valioso",
+        "media": "Metal achado em Minas Gerais no fim do século 17",
+        "dificil": "A corrida por ele fez nascer Vila Rica"
+      }
+    },
+    {
+      "palavra": "CAFÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida feita com grãos torrados",
+        "media": "Grão que enriqueceu o Sudeste no século 19",
+        "dificil": "Produto dos barões do Vale do Paraíba"
+      }
+    },
+    {
+      "palavra": "CANOA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barquinho estreito movido a remo",
+        "media": "Barco indígena feito de um tronco escavado",
+        "dificil": "Embarcação de tronco que descia os rios"
+      }
+    },
+    {
+      "palavra": "NAVIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barco grande que atravessa o mar",
+        "media": "Embarcação de grande porte",
+        "dificil": "A nau era um tipo antigo dele"
+      }
+    },
+    {
+      "palavra": "MAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que mostra lugares e caminhos",
+        "media": "Representação de um território no papel",
+        "dificil": "Os navegadores dependiam de cartas desse tipo"
+      }
+    },
+    {
+      "palavra": "COROA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Enfeite de ouro que o rei põe na cabeça",
+        "media": "Símbolo do poder do monarca",
+        "dificil": "Dom Pedro II a recebeu em 1841"
+      }
+    },
+    {
+      "palavra": "AÇÚCAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pó doce feito da cana",
+        "media": "Produto dos engenhos do Nordeste colonial",
+        "dificil": "O ouro branco do Brasil colônia"
+      }
+    },
+    {
+      "palavra": "CANA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planta doce de onde sai o caldo",
+        "media": "Planta cultivada nos engenhos coloniais",
+        "dificil": "Matéria-prima da rapadura e do melado"
+      }
+    },
+    {
+      "palavra": "PEDRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nome dos dois imperadores do Brasil",
+        "media": "Dom ___ I proclamou a Independência",
+        "dificil": "Dom ___ II governou o país de 1840 a 1889"
+      }
+    },
+    {
+      "palavra": "ISABEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Princesa que assinou a Lei Áurea",
+        "media": "Filha de Dom Pedro II que assinou a abolição",
+        "dificil": "A Redentora, para os abolicionistas"
+      }
+    },
+    {
+      "palavra": "CABRAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Navegador que chegou ao Brasil em 1500",
+        "media": "Pedro Álvares ___, comandante da frota de 1500",
+        "dificil": "Capitão da esquadra que aportou na Bahia em abril de 1500"
+      }
+    },
+    {
+      "palavra": "TRIBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de indígenas que vive junto",
+        "media": "Grupo étnico com chefe e costumes próprios",
+        "dificil": "Os tupinambás formavam várias delas"
+      }
+    },
+    {
+      "palavra": "ALDEIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde vive uma comunidade indígena",
+        "media": "Povoado indígena com várias ocas",
+        "dificil": "Taba, em língua tupi"
+      }
+    },
+    {
+      "palavra": "PAJÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Curandeiro e conselheiro de uma aldeia",
+        "media": "Líder espiritual indígena",
+        "dificil": "Conhece as ervas e conversa com os espíritos"
+      }
+    },
+    {
+      "palavra": "FLECHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vara pontuda lançada com o arco para caçar",
+        "media": "Projétil do arco indígena",
+        "dificil": "Seta"
+      }
+    },
+    {
+      "palavra": "HINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música oficial do país, cantada de pé",
+        "media": "O Nacional tem letra de Osório Duque-Estrada",
+        "dificil": "Começa com Ouviram do Ipiranga"
+      }
+    },
+    {
+      "palavra": "INDÍGENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa dos povos que já viviam aqui antes de 1500",
+        "media": "Habitante originário do Brasil",
+        "dificil": "Nativo, como os guaranis e os tupis"
+      }
+    },
+    {
+      "palavra": "PORTUGAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País que colonizou o Brasil",
+        "media": "Reino europeu de onde veio Cabral",
+        "dificil": "Terra de Dom Manuel, o Venturoso"
+      }
+    },
+    {
+      "palavra": "CARAVELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Barco a vela das grandes navegações",
+        "media": "Embarcação leve usada pelos portugueses",
+        "dificil": "Navio de velas triangulares do século 15"
+      }
+    },
+    {
+      "palavra": "PAU-BRASIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Árvore de madeira vermelha que deu nome ao país",
+        "media": "Primeira riqueza explorada pelos portugueses",
+        "dificil": "Árvore da tinta vermelha, a ibirapitanga"
+      }
+    },
+    {
+      "palavra": "ESCRAVIDÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando pessoas eram forçadas a trabalhar sem liberdade",
+        "media": "Regime abolido no Brasil em 1888",
+        "dificil": "Sistema que a Lei Áurea acabou"
+      }
+    },
+    {
+      "palavra": "ABOLIÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fim da escravidão no Brasil",
+        "media": "Conquista de 13 de maio de 1888",
+        "dificil": "Vitória de Joaquim Nabuco e André Rebouças"
+      }
+    },
+    {
+      "palavra": "QUILOMBO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Comunidade de quem fugia da escravidão",
+        "media": "Palmares foi o maior deles",
+        "dificil": "Refúgio liderado por Zumbi"
+      }
+    },
+    {
+      "palavra": "ZUMBI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Líder do Quilombo dos Palmares",
+        "media": "Herói lembrado no Dia da Consciência Negra",
+        "dificil": "Morreu em 20 de novembro de 1695"
+      }
+    },
+    {
+      "palavra": "PALMARES",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O maior quilombo do Brasil",
+        "media": "Quilombo da Serra da Barriga, em Alagoas",
+        "dificil": "Terra de Ganga Zumba e de Zumbi"
+      }
+    },
+    {
+      "palavra": "TIRADENTES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Herói lembrado no feriado de 21 de abril",
+        "media": "Herói da Inconfidência Mineira",
+        "dificil": "Joaquim José da Silva Xavier"
+      }
+    },
+    {
+      "palavra": "INDEPENDÊNCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando o Brasil deixou de pertencer a Portugal",
+        "media": "Proclamada em 7 de setembro de 1822",
+        "dificil": "Celebrada pelo Grito do Ipiranga"
+      }
+    },
+    {
+      "palavra": "IPIRANGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Riacho de São Paulo famoso pelo grito de 1822",
+        "media": "Às suas margens Dom Pedro I proclamou a Independência",
+        "dificil": "Suas margens plácidas estão no Hino Nacional"
+      }
+    },
+    {
+      "palavra": "REPÚBLICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de governo com presidente, sem rei",
+        "media": "Proclamada no Brasil em 15 de novembro de 1889",
+        "dificil": "Regime iniciado pelo marechal Deodoro"
+      }
+    },
+    {
+      "palavra": "IMPERADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O Brasil teve dois, os dois chamados Pedro",
+        "media": "Título de Dom Pedro I e de Dom Pedro II",
+        "dificil": "Monarca que está acima dos reis"
+      }
+    },
+    {
+      "palavra": "PRINCESA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filha do rei ou do imperador",
+        "media": "Isabel tinha esse título",
+        "dificil": "Herdeira do trono, se for mulher"
+      }
+    },
+    {
+      "palavra": "ÁUREA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lei ___, que acabou com a escravidão",
+        "media": "Nome da lei de 13 de maio de 1888",
+        "dificil": "Dourada, como a lei assinada por Isabel"
+      }
+    },
+    {
+      "palavra": "ENGENHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fazenda onde se fazia açúcar",
+        "media": "Propriedade com moenda de cana",
+        "dificil": "Casa-grande e moenda faziam parte dele"
+      }
+    },
+    {
+      "palavra": "BANDEIRANTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Explorador que entrava no sertão",
+        "media": "Paulista que buscava ouro no interior",
+        "dificil": "Fernão Dias foi um deles"
+      }
+    },
+    {
+      "palavra": "TUPI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Língua de muitos povos do litoral",
+        "media": "Família de línguas indígenas do Brasil",
+        "dificil": "Língua de onde vêm jabuti e pipoca"
+      }
+    },
+    {
+      "palavra": "COLÔNIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Terra governada por outro país",
+        "media": "Condição do Brasil até 1815",
+        "dificil": "Situação de dependência da metrópole"
+      }
+    },
+    {
+      "palavra": "CACIQUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chefe de uma aldeia indígena",
+        "media": "Líder político de um povo indígena",
+        "dificil": "Morubixaba"
+      }
+    },
+    {
+      "palavra": "CORTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A família real e quem trabalhava para ela",
+        "media": "Chegou ao Rio de Janeiro em 1808",
+        "dificil": "Comitiva de Dom João que fugiu de Napoleão"
+      }
+    },
+    {
+      "palavra": "SALVADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeira capital do Brasil",
+        "media": "Capital da colônia de 1549 a 1763",
+        "dificil": "Cidade fundada por Tomé de Sousa"
+      }
+    },
+    {
+      "palavra": "BRASÍLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital atual do nosso país",
+        "media": "Capital inaugurada em 1960",
+        "dificil": "Cidade planejada por Lúcio Costa"
+      }
+    },
+    {
+      "palavra": "BORRACHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Material elástico tirado da seringueira",
+        "media": "Seu ciclo enriqueceu Manaus e Belém",
+        "dificil": "Látex que virou riqueza na Amazônia"
+      }
+    },
+    {
+      "palavra": "VOTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escolha feita na eleição",
+        "media": "Direito conquistado pelas mulheres em 1932",
+        "dificil": "Sufrágio"
+      }
+    },
+    {
+      "palavra": "MINERAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Trabalho de tirar ouro e pedras da terra",
+        "media": "Atividade econômica forte em Minas no século 18",
+        "dificil": "Garimpo e lavra de metais"
+      }
+    },
+    {
+      "palavra": "INCONFIDÊNCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Plano de mineiros para libertar o Brasil",
+        "media": "A Mineira aconteceu em 1789",
+        "dificil": "Conjuração que teve Tiradentes como herói"
+      }
+    },
+    {
+      "palavra": "DEODORO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Marechal que proclamou a República",
+        "media": "Primeiro presidente do Brasil",
+        "dificil": "Marechal Manuel ___ da Fonseca"
+      }
+    },
+    {
+      "palavra": "CAPITANIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pedaço de terra que o rei dava a um nobre",
+        "media": "Divisão hereditária criada a partir de 1534",
+        "dificil": "São Vicente e Pernambuco foram duas delas"
+      }
+    },
+    {
+      "palavra": "DONATÁRIO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Nobre que recebia uma capitania",
+        "media": "Dono hereditário de uma capitania",
+        "dificil": "Duarte Coelho foi um, em Pernambuco"
+      }
+    },
+    {
+      "palavra": "JESUÍTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Padre que vinha ensinar e catequizar",
+        "media": "Membro da ordem de Anchieta e Nóbrega",
+        "dificil": "Religioso da ordem de Inácio de Loyola"
+      }
+    },
+    {
+      "palavra": "ANCHIETA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Padre que ajudou a fundar São Paulo",
+        "media": "José de ___, missionário do século 16",
+        "dificil": "Santo que escreveu uma gramática do tupi"
+      }
+    },
+    {
+      "palavra": "CONSTITUIÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "A lei mais importante do país",
+        "media": "A atual é de 1988",
+        "dificil": "Carta Magna"
+      }
+    },
+    {
+      "palavra": "SESMARIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Lote de terra dado para ser cultivado",
+        "media": "Doação de terras feita pela Coroa portuguesa",
+        "dificil": "Lei de 1375 que veio de Portugal para a colônia"
+      }
+    },
+    {
+      "palavra": "NAU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Navio grande de velas das navegações",
+        "media": "Embarcação maior que a caravela",
+        "dificil": "Grande navio de velas redondas do século 15"
+      }
+    }
+  ]
+}

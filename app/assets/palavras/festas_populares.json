@@ -1,0 +1,485 @@
+{
+  "tema": "Festas populares",
+  "categoria": "Cultura",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CARNAVAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Festa com fantasias, confete e desfile",
+        "media": "Folia antes da Quaresma",
+        "dificil": "Reinado de Momo"
+      }
+    },
+    {
+      "palavra": "FESTA JUNINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Festa de junho com quadrilha e fogueira",
+        "media": "Arraial de São João",
+        "dificil": "Festança de junho"
+      }
+    },
+    {
+      "palavra": "FOGUEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fogo grande no meio do arraial",
+        "media": "Fogo de São João",
+        "dificil": "Tradição da noite de São João"
+      }
+    },
+    {
+      "palavra": "QUADRILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de pares na festa de São João",
+        "media": "Dança do arraial",
+        "dificil": "Olha a cobra! É mentira!"
+      }
+    },
+    {
+      "palavra": "PAMONHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida de milho cozida na palha",
+        "media": "Quitute de milho verde",
+        "dificil": "Clássico das barracas de junho"
+      }
+    },
+    {
+      "palavra": "PIPOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Milho que estoura na panela",
+        "media": "Grão estourado",
+        "dificil": "Não pode faltar no arraial"
+      }
+    },
+    {
+      "palavra": "CANJICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Doce de milho branco com leite",
+        "media": "Mungunzá, no Nordeste",
+        "dificil": "Sobremesa de junho"
+      }
+    },
+    {
+      "palavra": "BANDEIRINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Papel colorido pendurado no arraial",
+        "media": "Enfeite de varal junino",
+        "dificil": "Enfeita o céu do arraial"
+      }
+    },
+    {
+      "palavra": "ARRAIAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar da festa junina",
+        "media": "Terreiro junino",
+        "dificil": "Vila enfeitada de São João"
+      }
+    },
+    {
+      "palavra": "CONFETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinhas de papel colorido jogadas no carnaval",
+        "media": "Papel picado de folia",
+        "dificil": "Faz par com a serpentina"
+      }
+    },
+    {
+      "palavra": "SERPENTINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fita de papel enrolada que se joga no carnaval",
+        "media": "Rolinho colorido",
+        "dificil": "Companheira do confete"
+      }
+    },
+    {
+      "palavra": "FANTASIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa para virar pirata ou princesa no carnaval",
+        "media": "Disfarce",
+        "dificil": "Também é imaginação"
+      }
+    },
+    {
+      "palavra": "MÁSCARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cobre o rosto no baile de carnaval",
+        "media": "Cobertura para o rosto",
+        "dificil": "Veneza é famosa por elas"
+      }
+    },
+    {
+      "palavra": "SAMBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo das escolas no desfile",
+        "media": "Música do carnaval carioca",
+        "dificil": "Nasceu nas rodas da Tia Ciata"
+      }
+    },
+    {
+      "palavra": "FREVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de Recife com sombrinha colorida",
+        "media": "Ritmo pernambucano",
+        "dificil": "Patrimônio da humanidade pela Unesco"
+      }
+    },
+    {
+      "palavra": "MARACATU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cortejo pernambucano com rei, rainha e tambores",
+        "media": "Desfile de Recife e Olinda",
+        "dificil": "Nação de baque virado"
+      }
+    },
+    {
+      "palavra": "AXÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música do carnaval de Salvador",
+        "media": "Ritmo baiano dos trios",
+        "dificil": "Saudação iorubá que virou gênero musical"
+      }
+    },
+    {
+      "palavra": "TRIO ELÉTRICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caminhão com som que puxa a folia em Salvador",
+        "media": "Palco móvel do carnaval baiano",
+        "dificil": "Invenção de Dodô e Osmar"
+      }
+    },
+    {
+      "palavra": "BLOCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo que sai pela rua no carnaval",
+        "media": "Turma de foliões",
+        "dificil": "Cordão de rua"
+      }
+    },
+    {
+      "palavra": "FOLIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem pula carnaval",
+        "media": "Brincante da festa",
+        "dificil": "Súdito do Rei Momo"
+      }
+    },
+    {
+      "palavra": "MOMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rei gordinho do carnaval",
+        "media": "Rei da folia",
+        "dificil": "Recebe a chave da cidade"
+      }
+    },
+    {
+      "palavra": "PASSISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem samba no desfile",
+        "media": "Dançarina da escola de samba",
+        "dificil": "Samba no pé"
+      }
+    },
+    {
+      "palavra": "BATERIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo dos tambores na escola de samba",
+        "media": "Percussão do desfile",
+        "dificil": "Tem mestre e rainha"
+      }
+    },
+    {
+      "palavra": "SAMBÓDROMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Avenida onde as escolas desfilam",
+        "media": "Passarela dos desfiles no Rio",
+        "dificil": "Projetado por Niemeyer"
+      }
+    },
+    {
+      "palavra": "ENREDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tema contado pela escola no desfile",
+        "media": "Tema do desfile",
+        "dificil": "História cantada na avenida"
+      }
+    },
+    {
+      "palavra": "PARINTINS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade do Amazonas da festa dos bois",
+        "media": "Ilha do Garantido e do Caprichoso",
+        "dificil": "Festival no fim de junho"
+      }
+    },
+    {
+      "palavra": "BUMBA MEU BOI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Festa do boi que dança no Maranhão",
+        "media": "Folguedo maranhense",
+        "dificil": "Boi-bumbá, no Norte"
+      }
+    },
+    {
+      "palavra": "CAVALHADA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Encenação com cavaleiros mouros e cristãos",
+        "media": "Festa de Pirenópolis",
+        "dificil": "Torneio a cavalo em Goiás"
+      }
+    },
+    {
+      "palavra": "FOLIA DE REIS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo que canta de casa em casa no começo de janeiro",
+        "media": "Reisado",
+        "dificil": "Celebra os Reis Magos"
+      }
+    },
+    {
+      "palavra": "CÍRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grande procissão de Belém em outubro",
+        "media": "Procissão de Nazaré em Belém",
+        "dificil": "Corda segurada por milhares"
+      }
+    },
+    {
+      "palavra": "DIVINO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Festa com bandeira vermelha e pomba branca",
+        "media": "Festa do Espírito Santo",
+        "dificil": "Paraty e Pirenópolis comemoram"
+      }
+    },
+    {
+      "palavra": "SÃO JOÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Santo da festa junina mais animada do Nordeste",
+        "media": "Festa de 24 de junho",
+        "dificil": "Caruaru e Campina Grande disputam a maior"
+      }
+    },
+    {
+      "palavra": "FORRÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de casal do Nordeste com sanfona",
+        "media": "Arrasta-pé",
+        "dificil": "Xote, xaxado e baião combinam"
+      }
+    },
+    {
+      "palavra": "SANFONA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de fole que toca no forró",
+        "media": "Acordeão",
+        "dificil": "Gonzagão tocava uma"
+      }
+    },
+    {
+      "palavra": "ZABUMBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tambor grande do forró",
+        "media": "Bumbo nordestino",
+        "dificil": "Trio com sanfona e triângulo"
+      }
+    },
+    {
+      "palavra": "TRIÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de metal com três lados",
+        "media": "Ferrinho do forró",
+        "dificil": "Faz tin-tin no trio"
+      }
+    },
+    {
+      "palavra": "PESCARIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brincadeira de pegar peixinhos de papel na festa",
+        "media": "Barraca junina de prêmios",
+        "dificil": "Vara, linha e anzol de ímã"
+      }
+    },
+    {
+      "palavra": "CASAMENTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Encenação com noivos caipiras na quadrilha",
+        "media": "Matrimônio da roça",
+        "dificil": "Termina em quadrilha"
+      }
+    },
+    {
+      "palavra": "RÉVEILLON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Festa da virada do ano",
+        "media": "Passagem de ano",
+        "dificil": "Fogos em Copacabana"
+      }
+    },
+    {
+      "palavra": "FOGOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estouram e brilham no céu na virada do ano",
+        "media": "Pirotecnia",
+        "dificil": "Explodem no céu de Ano-Novo"
+      }
+    },
+    {
+      "palavra": "PAÇOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho de amendoim que esfarela",
+        "media": "Doce de amendoim moído",
+        "dificil": "Estrela das barracas de junho"
+      }
+    },
+    {
+      "palavra": "MARCHINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música curtinha e alegre do carnaval antigo",
+        "media": "Música de salão de carnaval",
+        "dificil": "Mamãe eu quero é uma"
+      }
+    },
+    {
+      "palavra": "ABADÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Camiseta para entrar no bloco de Salvador",
+        "media": "Uniforme do folião baiano",
+        "dificil": "Passaporte do trio"
+      }
+    },
+    {
+      "palavra": "ALEGORIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Carro enfeitado gigante do desfile",
+        "media": "Carro enorme de escola de samba",
+        "dificil": "Escultura sobre rodas na avenida"
+      }
+    },
+    {
+      "palavra": "LAVAGEM",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Festa baiana de limpar as escadarias de uma igreja",
+        "media": "Ritual do Bonfim em Salvador",
+        "dificil": "Água de cheiro nos degraus"
+      }
+    },
+    {
+      "palavra": "CONGADA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Festa afro-brasileira com coroação de reis",
+        "media": "Cortejo afro-brasileiro de Minas",
+        "dificil": "Homenageia Nossa Senhora do Rosário"
+      }
+    },
+    {
+      "palavra": "PASTORIL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Auto de Natal nordestino com pastorinhas",
+        "media": "Cordão azul contra cordão encarnado",
+        "dificil": "Teatro natalino do Nordeste"
+      }
+    },
+    {
+      "palavra": "ENTRUDO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Brincadeira antiga de jogar água, avó do carnaval",
+        "media": "Antigo carnaval português",
+        "dificil": "Folia de molhar trazida de Portugal"
+      }
+    },
+    {
+      "palavra": "MILHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grão amarelo da pamonha e da pipoca",
+        "media": "Cereal das festas juninas",
+        "dificil": "Espiga assada na brasa"
+      }
+    },
+    {
+      "palavra": "CHAPÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O de palha é usado na quadrilha",
+        "media": "Acessório caipira",
+        "dificil": "Tem palha e remendos no arraial"
+      }
+    },
+    {
+      "palavra": "TAMBOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de bater com baquetas",
+        "media": "Instrumento de percussão",
+        "dificil": "Dá o ritmo do maracatu"
+      }
+    },
+    {
+      "palavra": "BOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de forno feito de fubá na festa junina",
+        "media": "Doce de forno",
+        "dificil": "Fatia de fubá com café"
+      }
+    },
+    {
+      "palavra": "NATAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Festa de 25 de dezembro",
+        "media": "Festa com árvore enfeitada e presépio",
+        "dificil": "Ceia de dezembro"
+      }
+    }
+  ]
+}

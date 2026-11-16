@@ -1,0 +1,413 @@
+{
+  "tema": "Plantas e flores",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ROSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Flor perfumada que tem espinhos",
+        "media": "Flor de caule espinhoso, símbolo do amor",
+        "dificil": "Brigou com o cravo na cantiga de roda"
+      }
+    },
+    {
+      "palavra": "CACTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planta do deserto cheia de espinhos",
+        "media": "Planta que guarda água e tem espinhos",
+        "dificil": "Suculenta espinhenta das regiões secas"
+      }
+    },
+    {
+      "palavra": "FOLHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte verde da planta que nasce nos galhos",
+        "media": "Parte da planta que faz a fotossíntese",
+        "dificil": "Também é a página do caderno"
+      }
+    },
+    {
+      "palavra": "RAIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte da planta que fica embaixo da terra",
+        "media": "Órgão da planta que absorve água do solo",
+        "dificil": "A origem de tudo, em sentido figurado"
+      }
+    },
+    {
+      "palavra": "FLOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte bonita e colorida da planta",
+        "media": "Parte da planta que vira fruto",
+        "dificil": "Pétalas, estames e pistilo juntos"
+      }
+    },
+    {
+      "palavra": "GALHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Braço da árvore",
+        "media": "Ramo que sai do tronco",
+        "dificil": "Quebrar um é resolver um problema"
+      }
+    },
+    {
+      "palavra": "TRONCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte grossa da árvore que segura tudo",
+        "media": "Caule grosso das árvores",
+        "dificil": "Também é o corpo sem cabeça e membros"
+      }
+    },
+    {
+      "palavra": "PÉTALA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte colorida da flor",
+        "media": "Cada peça colorida da corola",
+        "dificil": "Bem-me-quer, mal-me-quer, uma de cada vez"
+      }
+    },
+    {
+      "palavra": "GRAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plantinha verde que cobre o campo de futebol",
+        "media": "Planta rasteira que forma tapetes verdes",
+        "dificil": "Também é unidade de massa"
+      }
+    },
+    {
+      "palavra": "CAPIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mato alto que o boi come",
+        "media": "Erva comprida que serve de pasto",
+        "dificil": "Gramínea do pasto"
+      }
+    },
+    {
+      "palavra": "ÁRVORE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planta grande de tronco e galhos",
+        "media": "Planta de caule lenhoso e copa",
+        "dificil": "A de Natal é um pinheiro enfeitado"
+      }
+    },
+    {
+      "palavra": "BROTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plantinha que acabou de nascer",
+        "media": "Ramo novo que surge na planta",
+        "dificil": "Rebento; o de feijão vai na salada"
+      }
+    },
+    {
+      "palavra": "CRAVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Flor de cheiro forte e pétalas recortadas",
+        "media": "Flor de pétalas franjadas",
+        "dificil": "Também é tempero e instrumento de teclas"
+      }
+    },
+    {
+      "palavra": "JARDIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com flores perto de casa",
+        "media": "Terreno onde se cultivam flores",
+        "dificil": "O botânico é um museu vivo de plantas"
+      }
+    },
+    {
+      "palavra": "BAMBU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planta alta e oca que o panda come",
+        "media": "Planta de caule oco dividido em gomos",
+        "dificil": "Gramínea gigante de crescimento rápido"
+      }
+    },
+    {
+      "palavra": "SEMENTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisinha que a gente planta para nascer uma planta",
+        "media": "Grão que dá origem a uma nova planta",
+        "dificil": "Germina quando encontra água e calor"
+      }
+    },
+    {
+      "palavra": "ESPINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pontinha que pica no caule da rosa",
+        "media": "Ponta dura e aguda de algumas plantas",
+        "dificil": "Não há rosa sem ele, diz o ditado"
+      }
+    },
+    {
+      "palavra": "PINHEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Árvore que vira árvore de Natal",
+        "media": "Árvore de folhas finas como agulhas",
+        "dificil": "Conífera de madeira clara usada em papel e móveis"
+      }
+    },
+    {
+      "palavra": "PALMEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Árvore alta com folhas só lá no topo",
+        "media": "Árvore de tronco reto e folhas em leque",
+        "dificil": "Onde canta o sabiá, na Canção do Exílio"
+      }
+    },
+    {
+      "palavra": "GIRASSOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Flor grande e amarela que se vira para a luz",
+        "media": "Flor amarela de sementes comestíveis",
+        "dificil": "Flor que Van Gogh pintou em vasos"
+      }
+    },
+    {
+      "palavra": "ORQUÍDEA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flor bonita e delicada que cresce nas árvores",
+        "media": "Flor delicada que vive presa a troncos",
+        "dificil": "Epífita das estufas de colecionadores"
+      }
+    },
+    {
+      "palavra": "TULIPA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flor em forma de copinho",
+        "media": "Flor de bulbo em forma de taça",
+        "dificil": "Flor que já valeu fortunas na Holanda"
+      }
+    },
+    {
+      "palavra": "LÍRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flor branca e perfumada em forma de trombeta",
+        "media": "Flor de bulbo e grandes pétalas",
+        "dificil": "Flor-de-lis da realeza francesa"
+      }
+    },
+    {
+      "palavra": "MUSGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tapetinho verde que cresce em pedras úmidas",
+        "media": "Planta pequena e sem flor de lugares úmidos",
+        "dificil": "Briófita das pedras molhadas"
+      }
+    },
+    {
+      "palavra": "CAULE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A parte da planta que segura as folhas",
+        "media": "Parte da planta que sustenta folhas e flores",
+        "dificil": "Haste por onde corre a seiva"
+      }
+    },
+    {
+      "palavra": "VIOLETA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Florzinha roxa que fica em vasinhos",
+        "media": "Flor pequena de cor arroxeada",
+        "dificil": "Também dá nome a uma cor"
+      }
+    },
+    {
+      "palavra": "BROMÉLIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Planta que guarda água no meio das folhas",
+        "media": "Planta de folhas em roseta que acumula água",
+        "dificil": "Família do abacaxi"
+      }
+    },
+    {
+      "palavra": "IPÊ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Árvore que fica toda amarela ou roxa",
+        "media": "Árvore brasileira de floração muito vistosa",
+        "dificil": "Pinta o cerrado de amarelo no fim do inverno"
+      }
+    },
+    {
+      "palavra": "MARGARIDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Flor branca com miolo amarelo",
+        "media": "Flor de pétalas brancas e centro amarelo",
+        "dificil": "Flor do bem-me-quer, mal-me-quer"
+      }
+    },
+    {
+      "palavra": "SAMAMBAIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Planta de folhas recortadas que fica pendurada",
+        "media": "Planta sem flor que se espalha por esporos",
+        "dificil": "Pteridófita das varandas"
+      }
+    },
+    {
+      "palavra": "HORTÊNSIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flor em buquê azul ou rosa",
+        "media": "Flor em bola que muda de cor conforme o solo",
+        "dificil": "Flor símbolo da serra gaúcha"
+      }
+    },
+    {
+      "palavra": "MANDACARU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cacto grande do sertão",
+        "media": "Cacto alto da caatinga",
+        "dificil": "Cacto cuja flor, diz o sertanejo, anuncia chuva"
+      }
+    },
+    {
+      "palavra": "VITÓRIA-RÉGIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Planta de folha redonda gigante que boia no rio",
+        "media": "Planta aquática amazônica de folhas enormes",
+        "dificil": "Ninfeia batizada em homenagem a uma rainha inglesa"
+      }
+    },
+    {
+      "palavra": "PAU-BRASIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Árvore que deu nome ao nosso país",
+        "media": "Árvore de madeira vermelha da Mata Atlântica",
+        "dificil": "Ibirapitanga, primeira riqueza explorada"
+      }
+    },
+    {
+      "palavra": "CLOROFILA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O que deixa as folhas verdes",
+        "media": "Pigmento verde das plantas",
+        "dificil": "Molécula que captura a luz na fotossíntese"
+      }
+    },
+    {
+      "palavra": "ESTAME",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte da flor que tem o pólen",
+        "media": "Órgão masculino da flor",
+        "dificil": "Filete com antera na ponta"
+      }
+    },
+    {
+      "palavra": "PISTILO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Parte do meio da flor que vira fruto",
+        "media": "Órgão feminino da flor",
+        "dificil": "Gineceu, com estigma, estilete e ovário"
+      }
+    },
+    {
+      "palavra": "SÉPALA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Folhinha verde embaixo das pétalas",
+        "media": "Cada peça verde do cálice da flor",
+        "dificil": "Protege o botão antes de abrir"
+      }
+    },
+    {
+      "palavra": "AZALEIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Arbusto de flores rosa que enfeita a cidade",
+        "media": "Arbusto florido muito comum em praças",
+        "dificil": "Rododendro de inverno das praças brasileiras"
+      }
+    },
+    {
+      "palavra": "CRISÂNTEMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Flor de muitas pétalas finas",
+        "media": "Flor ornamental de muitas pétalas",
+        "dificil": "Flor do selo imperial do Japão"
+      }
+    },
+    {
+      "palavra": "MAGNÓLIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Árvore de flores grandes e cheirosas",
+        "media": "Árvore de flores grandes, brancas ou rosadas",
+        "dificil": "Flor símbolo do estado do Mississippi"
+      }
+    },
+    {
+      "palavra": "JEQUITIBÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Árvore gigante da floresta brasileira",
+        "media": "Uma das maiores árvores da Mata Atlântica",
+        "dificil": "Gigante da floresta, o rosa pode viver séculos"
+      }
+    },
+    {
+      "palavra": "ARAUCÁRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Árvore em forma de taça que dá pinhão",
+        "media": "Pinheiro do Paraná",
+        "dificil": "Conífera do Sul que alimenta a gralha-azul"
+      }
+    },
+    {
+      "palavra": "CAMÉLIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Flor de inverno de pétalas redondinhas",
+        "media": "Flor ornamental de folhas brilhantes",
+        "dificil": "Flor que virou símbolo da abolição no Brasil"
+      }
+    },
+    {
+      "palavra": "GERÂNIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Flor vermelha comum em vasos na janela",
+        "media": "Planta de flores em cachos, comum em sacadas",
+        "dificil": "Pelargônio das floreiras europeias"
+      }
+    }
+  ]
+}

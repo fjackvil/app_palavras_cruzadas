@@ -1,7 +1,8 @@
-/// Níveis do jogo. Na fase 1 só Leve e Médio estão liberados.
+/// Os 4 níveis da especificação.
 enum Nivel {
   leve(
     nome: 'Leve',
+    nomeCurto: 'Leve',
     multiplicador: 1,
     tamanhoGrade: 7,
     minLetras: 3,
@@ -9,20 +10,48 @@ enum Nivel {
     maxDificuldade: 1,
     metaPalavras: 6,
     segundosPorLetra: 8,
+    chaveDica: 'leve',
   ),
   medio(
     nome: 'Médio',
+    nomeCurto: 'Médio',
     multiplicador: 1.5,
     tamanhoGrade: 10,
-    minLetras: 3,
+    minLetras: 4,
     maxLetras: 8,
     maxDificuldade: 2,
     metaPalavras: 11,
     segundosPorLetra: 6,
+    chaveDica: 'media',
+  ),
+  dificil(
+    nome: 'Difícil',
+    nomeCurto: 'Difícil',
+    multiplicador: 2,
+    tamanhoGrade: 13,
+    minLetras: 4,
+    maxLetras: 10,
+    maxDificuldade: 3,
+    metaPalavras: 16,
+    segundosPorLetra: 5,
+    chaveDica: 'dificil',
+  ),
+  superDificil(
+    nome: 'Super difícil',
+    nomeCurto: 'Super',
+    multiplicador: 3,
+    tamanhoGrade: 15,
+    minLetras: 4,
+    maxLetras: 13,
+    maxDificuldade: 4,
+    metaPalavras: 22,
+    segundosPorLetra: 5,
+    chaveDica: 'dificil',
   );
 
   const Nivel({
     required this.nome,
+    required this.nomeCurto,
     required this.multiplicador,
     required this.tamanhoGrade,
     required this.minLetras,
@@ -30,11 +59,15 @@ enum Nivel {
     required this.maxDificuldade,
     required this.metaPalavras,
     required this.segundosPorLetra,
+    required this.chaveDica,
   });
 
   final String nome;
 
-  /// Multiplicador dos pontos por letra (Leve ×1, Médio ×1,5).
+  /// Nome que cabe no seletor de níveis.
+  final String nomeCurto;
+
+  /// Multiplicador dos pontos por letra (Leve ×1 até Super difícil ×3).
   final double multiplicador;
 
   /// A grade é quadrada: tamanhoGrade × tamanhoGrade.
@@ -51,9 +84,15 @@ enum Nivel {
   /// Usado para calcular o tempo-alvo do desafio.
   final int segundosPorLetra;
 
-  /// Nível sugerido pela idade. Na fase 1, de 10 anos para cima é Médio.
-  static Nivel sugeridoParaIdade(int idade) =>
-      idade <= 9 ? Nivel.leve : Nivel.medio;
+  /// Qual dica do JSON o nível mostra ('leve', 'media' ou 'dificil').
+  final String chaveDica;
+
+  /// Nível sugerido pela idade. Super difícil fica para quem escolher.
+  static Nivel sugeridoParaIdade(int idade) {
+    if (idade <= 9) return Nivel.leve;
+    if (idade <= 13) return Nivel.medio;
+    return Nivel.dificil;
+  }
 
   static Nivel porNome(String nome) =>
       Nivel.values.firstWhere((n) => n.name == nome, orElse: () => Nivel.leve);

@@ -1,0 +1,530 @@
+{
+  "tema": "História mundial",
+  "categoria": "História",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "REI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem de coroa que governa o país",
+        "media": "Monarca",
+        "dificil": "Luís XIV foi o Sol entre eles"
+      }
+    },
+    {
+      "palavra": "RAINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher que usa coroa e governa",
+        "media": "Monarca do sexo feminino",
+        "dificil": "Vitória reinou no Reino Unido por 63 anos"
+      }
+    },
+    {
+      "palavra": "FARAÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rei do antigo Egito",
+        "media": "Soberano egípcio considerado divino",
+        "dificil": "Título de Ramsés II e Tutancâmon"
+      }
+    },
+    {
+      "palavra": "ROMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade italiana que teve um grande império",
+        "media": "Capital do império dos césares",
+        "dificil": "Cidade das sete colinas"
+      }
+    },
+    {
+      "palavra": "EGITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das pirâmides e do rio Nilo",
+        "media": "Civilização africana dos faraós",
+        "dificil": "Terra de Cleópatra"
+      }
+    },
+    {
+      "palavra": "GUERRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Luta armada entre países",
+        "media": "Conflito entre nações",
+        "dificil": "A dos Cem Anos durou, na verdade, 116"
+      }
+    },
+    {
+      "palavra": "PAZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O contrário de briga",
+        "media": "Ausência de guerra",
+        "dificil": "Tratado de Versalhes buscou selar uma em 1919"
+      }
+    },
+    {
+      "palavra": "TRONO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cadeira especial onde o rei se senta",
+        "media": "Assento do monarca",
+        "dificil": "Símbolo do poder real"
+      }
+    },
+    {
+      "palavra": "ESPADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Arma de lâmina comprida dos cavaleiros",
+        "media": "Arma branca de lâmina longa",
+        "dificil": "Excalibur era uma, na lenda do rei Artur"
+      }
+    },
+    {
+      "palavra": "MURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parede alta que separa lugares",
+        "media": "O de Berlim caiu em 1989",
+        "dificil": "Barreira que dividiu uma capital alemã"
+      }
+    },
+    {
+      "palavra": "LUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Astro que brilha à noite no céu",
+        "media": "Pisada pela primeira vez por humanos em 1969",
+        "dificil": "Destino da missão Apollo 11"
+      }
+    },
+    {
+      "palavra": "CHINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País da Grande Muralha",
+        "media": "Império governado por dinastias como a Ming",
+        "dificil": "Terra de Confúcio e da seda"
+      }
+    },
+    {
+      "palavra": "VIKING",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Navegador do norte da Europa de barco com dragão",
+        "media": "Guerreiro escandinavo da Idade Média",
+        "dificil": "Povo nórdico que chegou à América antes de Colombo"
+      }
+    },
+    {
+      "palavra": "ESCUDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Proteção que o cavaleiro segura no braço",
+        "media": "Peça de defesa contra golpes",
+        "dificil": "Brasões nasceram pintados nele"
+      }
+    },
+    {
+      "palavra": "PIRATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ladrão dos mares com bandeira de caveira",
+        "media": "Saqueador de navios",
+        "dificil": "Barba Negra foi um famoso"
+      }
+    },
+    {
+      "palavra": "CASTELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa enorme de pedra com torres",
+        "media": "Fortaleza dos senhores medievais",
+        "dificil": "Moradia com fosso e ponte levadiça"
+      }
+    },
+    {
+      "palavra": "ARMADURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa de metal dos cavaleiros",
+        "media": "Proteção de metal usada na Idade Média",
+        "dificil": "Cota de malha e elmo faziam parte dela"
+      }
+    },
+    {
+      "palavra": "CAVALEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Guerreiro medieval montado e de armadura",
+        "media": "Nobre armado da Idade Média",
+        "dificil": "Os da Távola Redonda serviam ao rei Artur"
+      }
+    },
+    {
+      "palavra": "IMPÉRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grupo enorme de terras com um só governante",
+        "media": "Estado que domina muitos povos",
+        "dificil": "O Romano caiu no Ocidente em 476"
+      }
+    },
+    {
+      "palavra": "NAPOLEÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Imperador francês do chapéu de duas pontas",
+        "media": "Imperador da França derrotado em Waterloo",
+        "dificil": "Bonaparte"
+      }
+    },
+    {
+      "palavra": "COLOMBO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Navegador que chegou à América em 1492",
+        "media": "Cristóvão ___, a serviço da Espanha",
+        "dificil": "Genovês das caravelas Pinta e Niña"
+      }
+    },
+    {
+      "palavra": "MURALHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parede gigante que protege uma cidade",
+        "media": "A da China tem milhares de quilômetros",
+        "dificil": "Grande barreira construída por dinastias chinesas"
+      }
+    },
+    {
+      "palavra": "FÁBRICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar onde muitas coisas são produzidas",
+        "media": "Símbolo da Revolução Industrial",
+        "dificil": "Indústria"
+      }
+    },
+    {
+      "palavra": "OPERÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que trabalha numa fábrica",
+        "media": "Trabalhador da indústria",
+        "dificil": "O proletário da Revolução Industrial"
+      }
+    },
+    {
+      "palavra": "SAMURAI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Guerreiro japonês com espada curva",
+        "media": "Guerreiro da nobreza japonesa",
+        "dificil": "Seguia o código bushido"
+      }
+    },
+    {
+      "palavra": "ASTECA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Povo antigo que fundou a Cidade do México",
+        "media": "Civilização de Tenochtitlán",
+        "dificil": "Povo de Montezuma"
+      }
+    },
+    {
+      "palavra": "INCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Povo antigo dos Andes",
+        "media": "Império com capital em Cusco",
+        "dificil": "Construtores de Machu Picchu"
+      }
+    },
+    {
+      "palavra": "MAIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Povo antigo da América Central",
+        "media": "Civilização de Chichén Itzá",
+        "dificil": "Criaram um calendário famoso na Mesoamérica"
+      }
+    },
+    {
+      "palavra": "PESTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Doença que se espalha e atinge muita gente",
+        "media": "A Negra devastou a Europa no século 14",
+        "dificil": "Epidemia medieval levada por pulgas de ratos"
+      }
+    },
+    {
+      "palavra": "MANDELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Líder que lutou pela igualdade na África do Sul",
+        "media": "Presidente sul-africano eleito em 1994",
+        "dificil": "Madiba"
+      }
+    },
+    {
+      "palavra": "TITANIC",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Navio enorme que afundou em 1912",
+        "media": "Transatlântico que bateu num iceberg",
+        "dificil": "Diziam que era inafundável"
+      }
+    },
+    {
+      "palavra": "TRATADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Acordo assinado entre países",
+        "media": "Documento que formaliza a paz",
+        "dificil": "O de Versalhes encerrou a Primeira Guerra"
+      }
+    },
+    {
+      "palavra": "ONU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Organização que reúne quase todos os países",
+        "media": "Entidade criada em 1945",
+        "dificil": "Nações Unidas"
+      }
+    },
+    {
+      "palavra": "RENASCIMENTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Época de grandes artistas como Leonardo",
+        "media": "Movimento cultural europeu dos séculos 15 e 16",
+        "dificil": "Florença foi seu berço"
+      }
+    },
+    {
+      "palavra": "REVOLUÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mudança enorme e rápida num país",
+        "media": "A Francesa começou em 1789",
+        "dificil": "A Industrial nasceu na Inglaterra"
+      }
+    },
+    {
+      "palavra": "IDADE MÉDIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Época de castelos e cavaleiros",
+        "media": "Período entre 476 e 1453",
+        "dificil": "Era medieval"
+      }
+    },
+    {
+      "palavra": "MONARQUIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Governo comandado por um rei",
+        "media": "Regime com soberano hereditário",
+        "dificil": "Forma de governo do Reino Unido"
+      }
+    },
+    {
+      "palavra": "FEUDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Terra de um senhor medieval",
+        "media": "Propriedade concedida a um vassalo",
+        "dificil": "Domínio rural da Idade Média"
+      }
+    },
+    {
+      "palavra": "FEUDALISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sistema de senhores e servos medievais",
+        "media": "Organização social da Idade Média europeia",
+        "dificil": "Regime de suseranos e vassalos"
+      }
+    },
+    {
+      "palavra": "VASSALO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem jurava fidelidade a um senhor",
+        "media": "Nobre que recebia terra em troca de lealdade",
+        "dificil": "Subordinado do suserano"
+      }
+    },
+    {
+      "palavra": "BASTILHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prisão de Paris tomada em 1789",
+        "media": "Fortaleza cuja queda marca a Revolução Francesa",
+        "dificil": "Sua tomada é festejada em 14 de julho"
+      }
+    },
+    {
+      "palavra": "CRUZADAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Expedições militares medievais à Terra Santa",
+        "media": "Campanhas cristãs a Jerusalém",
+        "dificil": "Ricardo Coração de Leão lutou numa delas"
+      }
+    },
+    {
+      "palavra": "ARMISTÍCIO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Acordo para parar uma guerra",
+        "media": "Trégua de 11 de novembro de 1918",
+        "dificil": "Cessar-fogo formal"
+      }
+    },
+    {
+      "palavra": "TRINCHEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vala cavada onde soldados se protegiam",
+        "media": "Símbolo da Primeira Guerra Mundial",
+        "dificil": "Fosso de combate na frente ocidental"
+      }
+    },
+    {
+      "palavra": "NAZISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Regime de Hitler na Alemanha",
+        "media": "Ideologia do Terceiro Reich",
+        "dificil": "Nacional-socialismo alemão"
+      }
+    },
+    {
+      "palavra": "HOLOCAUSTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Perseguição e morte de milhões de judeus",
+        "media": "Genocídio cometido pelo regime nazista",
+        "dificil": "Shoah"
+      }
+    },
+    {
+      "palavra": "GUERRA FRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Disputa entre EUA e União Soviética",
+        "media": "Rivalidade de 1947 a 1991",
+        "dificil": "Corrida armamentista e espacial"
+      }
+    },
+    {
+      "palavra": "URSS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "País que juntava Rússia e vizinhos até 1991",
+        "media": "União das Repúblicas Socialistas Soviéticas",
+        "dificil": "Sigla da antiga União Soviética"
+      }
+    },
+    {
+      "palavra": "ALIADOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lado dos EUA e da Inglaterra na Segunda Guerra",
+        "media": "Grupo que venceu o Eixo em 1945",
+        "dificil": "Os do Dia D desembarcaram na Normandia"
+      }
+    },
+    {
+      "palavra": "LUTERO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Monge alemão que criticou a Igreja",
+        "media": "Autor das 95 teses de 1517",
+        "dificil": "Martinho, pai da Reforma Protestante"
+      }
+    },
+    {
+      "palavra": "REFORMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Movimento que criou igrejas protestantes",
+        "media": "A Protestante começou em 1517",
+        "dificil": "Ruptura liderada por Lutero e Calvino"
+      }
+    },
+    {
+      "palavra": "CZAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Título dos antigos imperadores russos",
+        "media": "Monarca da Rússia até 1917",
+        "dificil": "Nicolau II foi o último"
+      }
+    },
+    {
+      "palavra": "TORDESILHAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tratado que dividiu o mundo entre Portugal e Espanha",
+        "media": "Acordo de 1494 com uma linha imaginária",
+        "dificil": "Linha a 370 léguas de Cabo Verde"
+      }
+    },
+    {
+      "palavra": "MAGALHÃES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Navegador da primeira viagem ao redor do mundo",
+        "media": "Português que comandou a frota de 1519",
+        "dificil": "Fernão, que dá nome a um estreito"
+      }
+    },
+    {
+      "palavra": "ILUMINISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Movimento de pensadores que valorizavam a razão",
+        "media": "Século das Luzes",
+        "dificil": "Movimento de Voltaire e Rousseau"
+      }
+    },
+    {
+      "palavra": "ABSOLUTISMO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quando o rei tinha todo o poder",
+        "media": "Regime de poder real ilimitado",
+        "dificil": "O Estado sou eu, teria dito Luís XIV"
+      }
+    },
+    {
+      "palavra": "APARTHEID",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Separação de pessoas por cor na África do Sul",
+        "media": "Regime de segregação racial sul-africano",
+        "dificil": "Acabou com a eleição de Mandela em 1994"
+      }
+    },
+    {
+      "palavra": "TEMPLÁRIO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cavaleiro monge das cruzadas",
+        "media": "Membro de ordem militar fundada em 1119",
+        "dificil": "Ordem extinta pelo papa em 1312"
+      }
+    }
+  ]
+}

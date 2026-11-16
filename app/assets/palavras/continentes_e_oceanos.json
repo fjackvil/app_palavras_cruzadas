@@ -1,0 +1,467 @@
+{
+  "tema": "Continentes e oceanos",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "MAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água salgada com ondas que chega até a praia",
+        "media": "Grande extensão de água salgada",
+        "dificil": "Por ele navegaram Cabral e Colombo"
+      }
+    },
+    {
+      "palavra": "ILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedaço de terra cercado de água por todos os lados",
+        "media": "Porção de terra rodeada de água",
+        "dificil": "Florianópolis fica numa delas"
+      }
+    },
+    {
+      "palavra": "ÁSIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Maior continente do mundo",
+        "media": "Continente da China e da Índia",
+        "dificil": "Lar do Everest e de mais da metade da humanidade"
+      }
+    },
+    {
+      "palavra": "ÁFRICA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Continente das girafas, dos leões e das zebras",
+        "media": "Continente do Egito e do Quênia",
+        "dificil": "Berço da humanidade, cortado pelo Nilo"
+      }
+    },
+    {
+      "palavra": "EUROPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Continente da França e da Itália",
+        "media": "Continente do Velho Mundo, ao norte do Mediterrâneo",
+        "dificil": "Também é nome de uma lua de Júpiter"
+      }
+    },
+    {
+      "palavra": "PRAIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar de areia na beira do mar",
+        "media": "Faixa de areia junto à água",
+        "dificil": "Copacabana é a mais famosa do Rio"
+      }
+    },
+    {
+      "palavra": "ONDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água que sobe e quebra na beira da praia",
+        "media": "Movimento ondulante da água do mar",
+        "dificil": "O surfista pega uma"
+      }
+    },
+    {
+      "palavra": "MARÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a água do mar sobe e desce na praia",
+        "media": "Subida e descida do nível do oceano",
+        "dificil": "A Lua é responsável por ela"
+      }
+    },
+    {
+      "palavra": "POLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar mais gelado do planeta, lá em cima ou lá embaixo",
+        "media": "Extremidade do eixo da Terra",
+        "dificil": "Norte ou Sul, cobertos de gelo"
+      }
+    },
+    {
+      "palavra": "MAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que mostra onde ficam os lugares",
+        "media": "Representação da Terra no papel",
+        "dificil": "O mundo inteiro cabe num atlas"
+      }
+    },
+    {
+      "palavra": "LAGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muita água parada cercada de terra",
+        "media": "Grande porção de água no interior do continente",
+        "dificil": "Titicaca, Vitória, Baikal..."
+      }
+    },
+    {
+      "palavra": "GLOBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bola que mostra o mapa do mundo",
+        "media": "Esfera que representa a Terra",
+        "dificil": "Terrestre, gira num eixo inclinado"
+      }
+    },
+    {
+      "palavra": "OCEANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mar enorme que separa os continentes",
+        "media": "Maior massa de água salgada da Terra",
+        "dificil": "Atlântico, Pacífico, Índico..."
+      }
+    },
+    {
+      "palavra": "COSTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Terra que fica perto do mar",
+        "media": "Litoral",
+        "dificil": "Nome de país: ... Rica"
+      }
+    },
+    {
+      "palavra": "DESERTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar muito seco com muita areia",
+        "media": "Região árida com pouca chuva",
+        "dificil": "Saara, Atacama, Gobi"
+      }
+    },
+    {
+      "palavra": "AMÉRICA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Continente onde fica o Brasil",
+        "media": "Continente do Norte, Central e do Sul",
+        "dificil": "Homenagem a Américo Vespúcio"
+      }
+    },
+    {
+      "palavra": "OCEANIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Continente da Austrália",
+        "media": "Continente das ilhas do Pacífico",
+        "dificil": "Novíssimo Mundo de cangurus e quiuís"
+      }
+    },
+    {
+      "palavra": "ANTÁRTIDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Continente gelado onde moram os pinguins",
+        "media": "Continente do Polo Sul",
+        "dificil": "Lar da estação brasileira Comandante Ferraz"
+      }
+    },
+    {
+      "palavra": "ATLÂNTICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Oceano que banha as praias do Brasil",
+        "media": "Oceano entre a América e a África",
+        "dificil": "Cabral o cruzou em 1500"
+      }
+    },
+    {
+      "palavra": "PACÍFICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Maior oceano do mundo",
+        "media": "Oceano entre a América e a Ásia",
+        "dificil": "Nome que quer dizer calmo, dado por Magalhães"
+      }
+    },
+    {
+      "palavra": "ÍNDICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Oceano entre a África e a Austrália",
+        "media": "Terceiro maior oceano",
+        "dificil": "Banha a Índia e Moçambique"
+      }
+    },
+    {
+      "palavra": "ÁRTICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Oceano gelado do Polo Norte",
+        "media": "Menor oceano do mundo",
+        "dificil": "Lar do urso-polar e das focas"
+      }
+    },
+    {
+      "palavra": "CARIBE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mar azul cheio de ilhas perto da América Central",
+        "media": "Mar das Antilhas",
+        "dificil": "Mar de Cuba, da Jamaica e de Porto Rico"
+      }
+    },
+    {
+      "palavra": "BAÍA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Entrada do mar na terra, com água calma",
+        "media": "Pequeno golfo",
+        "dificil": "A de Guanabara fica no Rio"
+      }
+    },
+    {
+      "palavra": "CABO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ponta de terra que entra no mar",
+        "media": "Promontório",
+        "dificil": "O da Boa Esperança fica na África do Sul"
+      }
+    },
+    {
+      "palavra": "GOLFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço grande de mar que entra na terra",
+        "media": "Porção de mar cercada de terra por três lados",
+        "dificil": "O do México é enorme"
+      }
+    },
+    {
+      "palavra": "ESTREITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faixa fina de mar entre duas terras",
+        "media": "Canal natural que liga dois mares",
+        "dificil": "O de Gibraltar é o mais famoso"
+      }
+    },
+    {
+      "palavra": "EQUADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Linha imaginária que divide a Terra ao meio",
+        "media": "Paralelo de latitude zero",
+        "dificil": "Passa por Macapá e pela foz do Amazonas"
+      }
+    },
+    {
+      "palavra": "TRÓPICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Linha imaginária de Câncer ou de Capricórnio",
+        "media": "Paralelo a cerca de 23 graus do Equador",
+        "dificil": "O de Capricórnio cruza o estado de São Paulo"
+      }
+    },
+    {
+      "palavra": "LITORAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte do país que fica na beira do mar",
+        "media": "Faixa de terra junto ao mar",
+        "dificil": "O brasileiro tem mais de sete mil quilômetros"
+      }
+    },
+    {
+      "palavra": "CONTINENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço enorme de terra, como a África",
+        "media": "Grande massa de terra emersa",
+        "dificil": "São seis ou sete, conforme o critério"
+      }
+    },
+    {
+      "palavra": "MAR MORTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mar tão salgado que a gente boia sem esforço",
+        "media": "Lago salgadíssimo do Oriente Médio",
+        "dificil": "Ponto mais baixo da superfície da Terra"
+      }
+    },
+    {
+      "palavra": "MAR NEGRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mar com nome de cor escura, perto da Turquia",
+        "media": "Mar entre o Leste Europeu e a Ásia Menor",
+        "dificil": "O Bósforo o liga ao Mármara"
+      }
+    },
+    {
+      "palavra": "MAR VERMELHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mar com nome de cor, entre a África e a Arábia",
+        "media": "Mar entre o Egito e a Península Arábica",
+        "dificil": "Segundo a Bíblia, Moisés o abriu"
+      }
+    },
+    {
+      "palavra": "MEDITERRÂNEO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mar entre a Europa e a África",
+        "media": "Mar que banha Itália, Grécia e Egito",
+        "dificil": "Nome que quer dizer no meio das terras"
+      }
+    },
+    {
+      "palavra": "BÁLTICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mar frio no norte da Europa",
+        "media": "Mar que banha a Suécia e a Polônia",
+        "dificil": "Mar de Estocolmo e de Helsinque"
+      }
+    },
+    {
+      "palavra": "CÁSPIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Maior lago do mundo, tão grande que chamam de mar",
+        "media": "Mar fechado entre a Europa e a Ásia",
+        "dificil": "Banha o Cazaquistão e o Irã"
+      }
+    },
+    {
+      "palavra": "EGEU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mar cheio de ilhas entre a Grécia e a Turquia",
+        "media": "Braço do Mediterrâneo no leste",
+        "dificil": "Mar de Santorini e Mykonos"
+      }
+    },
+    {
+      "palavra": "ADRIÁTICO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Mar entre a Itália e a Croácia",
+        "media": "Braço do Mediterrâneo a leste da Itália",
+        "dificil": "Mar de Veneza"
+      }
+    },
+    {
+      "palavra": "GIBRALTAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Passagem de mar entre a Espanha e a África",
+        "media": "Estreito que liga o Atlântico ao Mediterrâneo",
+        "dificil": "Colunas de Hércules, para os antigos"
+      }
+    },
+    {
+      "palavra": "BERING",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Passagem gelada entre a Rússia e o Alasca",
+        "media": "Estreito entre a Ásia e a América",
+        "dificil": "Por ali, dizem, os primeiros humanos chegaram à América"
+      }
+    },
+    {
+      "palavra": "MAGALHÃES",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Passagem de mar no sul do Chile",
+        "media": "Estreito entre o Atlântico e o Pacífico, no extremo sul",
+        "dificil": "Nome do navegador português da primeira volta ao mundo"
+      }
+    },
+    {
+      "palavra": "PENÍNSULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Terra cercada de água quase toda a volta",
+        "media": "Porção de terra cercada de água por três lados",
+        "dificil": "A Ibérica abriga Espanha e Portugal"
+      }
+    },
+    {
+      "palavra": "ARQUIPÉLAGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo de várias ilhas juntinhas",
+        "media": "Conjunto de ilhas próximas",
+        "dificil": "Fernando de Noronha é um"
+      }
+    },
+    {
+      "palavra": "ISTMO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Faixa fina de terra que liga dois pedaços maiores",
+        "media": "Estreita ligação de terra entre duas massas",
+        "dificil": "O do Panamá foi cortado por um canal"
+      }
+    },
+    {
+      "palavra": "ATOL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ilha de corais em forma de anel",
+        "media": "Recife de coral circular com lagoa no meio",
+        "dificil": "O das Rocas fica no Rio Grande do Norte"
+      }
+    },
+    {
+      "palavra": "FIORDE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Braço de mar entre montanhas altas, na Noruega",
+        "media": "Vale glacial invadido pelo mar",
+        "dificil": "Paisagem típica da costa norueguesa"
+      }
+    },
+    {
+      "palavra": "PANGEIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Continente gigante de antigamente, quando tudo era junto",
+        "media": "Supercontinente de uns 250 milhões de anos atrás",
+        "dificil": "Nome grego que quer dizer toda a terra"
+      }
+    },
+    {
+      "palavra": "MERIDIANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Linha imaginária que vai de um polo ao outro",
+        "media": "Linha de longitude",
+        "dificil": "O de Greenwich é o zero"
+      }
+    },
+    {
+      "palavra": "HEMISFÉRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Metade da Terra, Norte ou Sul",
+        "media": "Cada metade do globo",
+        "dificil": "O Brasil fica quase todo no Sul"
+      }
+    },
+    {
+      "palavra": "LATITUDE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Distância de um lugar até a linha do Equador",
+        "media": "Coordenada medida em graus norte ou sul",
+        "dificil": "Par da longitude"
+      }
+    }
+  ]
+}

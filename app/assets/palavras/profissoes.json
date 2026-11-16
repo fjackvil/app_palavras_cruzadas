@@ -1,0 +1,485 @@
+{
+  "tema": "Profissões",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "MÉDICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cuida da gente quando estamos doentes",
+        "media": "Profissional que trata doenças",
+        "dificil": "Usa jaleco branco e estetoscópio"
+      }
+    },
+    {
+      "palavra": "PILOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dirige o avião",
+        "media": "Profissional que conduz aeronaves",
+        "dificil": "Comandante na cabine"
+      }
+    },
+    {
+      "palavra": "CANTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Trabalha soltando a voz no palco",
+        "media": "Artista que interpreta músicas com a voz",
+        "dificil": "Intérprete que sobe ao palco com o microfone"
+      }
+    },
+    {
+      "palavra": "PINTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usa pincel e tinta para trabalhar",
+        "media": "Artista ou profissional que trabalha com tintas",
+        "dificil": "Portinari e Tarsila trabalhavam assim"
+      }
+    },
+    {
+      "palavra": "ATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem que faz papéis no cinema e na novela",
+        "media": "Artista que interpreta personagens",
+        "dificil": "Representa no palco e nas telas"
+      }
+    },
+    {
+      "palavra": "ATRIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher que faz papéis no cinema e na novela",
+        "media": "Artista mulher que interpreta personagens",
+        "dificil": "Fernanda Montenegro é uma das maiores do Brasil"
+      }
+    },
+    {
+      "palavra": "GARÇOM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Leva a comida até a mesa no restaurante",
+        "media": "Profissional que serve clientes à mesa",
+        "dificil": "Anota o pedido e traz a conta"
+      }
+    },
+    {
+      "palavra": "MÁGICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tira coelho da cartola",
+        "media": "Artista de truques e ilusões",
+        "dificil": "Ilusionista do circo"
+      }
+    },
+    {
+      "palavra": "MÚSICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Toca violão, piano ou bateria no palco",
+        "media": "Profissional que toca instrumentos ou compõe canções",
+        "dificil": "Integrante de banda ou orquestra"
+      }
+    },
+    {
+      "palavra": "ATLETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pratica esporte como trabalho",
+        "media": "Esportista profissional",
+        "dificil": "Disputa as Olimpíadas"
+      }
+    },
+    {
+      "palavra": "GARI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Limpa as ruas da cidade",
+        "media": "Profissional da limpeza urbana",
+        "dificil": "Usa uniforme laranja e vassoura"
+      }
+    },
+    {
+      "palavra": "JUIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apita o jogo de futebol",
+        "media": "Autoridade que julga processos no tribunal",
+        "dificil": "Usa toga e martelo"
+      }
+    },
+    {
+      "palavra": "BABÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cuida das crianças enquanto os pais trabalham",
+        "media": "Profissional que cuida de crianças em casa",
+        "dificil": "Mary Poppins era uma"
+      }
+    },
+    {
+      "palavra": "AUTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem escreve um livro",
+        "media": "Criador de uma obra",
+        "dificil": "Monteiro Lobato é o do Sítio do Picapau Amarelo"
+      }
+    },
+    {
+      "palavra": "POETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Escreve versos e rimas",
+        "media": "Autor de versos",
+        "dificil": "Carlos Drummond e Cecília Meireles foram"
+      }
+    },
+    {
+      "palavra": "PADEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz o pão de cada dia",
+        "media": "Profissional que assa pães",
+        "dificil": "Acorda de madrugada para assar o pão francês"
+      }
+    },
+    {
+      "palavra": "BOMBEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apaga incêndios e salva pessoas",
+        "media": "Profissional que combate o fogo",
+        "dificil": "Usa capacete e mangueira; o telefone é 193"
+      }
+    },
+    {
+      "palavra": "POLICIAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cuida da segurança das pessoas",
+        "media": "Agente que mantém a ordem pública",
+        "dificil": "Trabalha na viatura com sirene"
+      }
+    },
+    {
+      "palavra": "DENTISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cuida dos nossos dentes",
+        "media": "Profissional da saúde bucal",
+        "dificil": "Arruma o sorriso com aparelho"
+      }
+    },
+    {
+      "palavra": "CARTEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Entrega cartas nas casas",
+        "media": "Profissional dos Correios que entrega cartas",
+        "dificil": "Toca a campainha com encomendas"
+      }
+    },
+    {
+      "palavra": "PEDREIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Constrói casas com tijolo e cimento",
+        "media": "Profissional da construção que levanta paredes",
+        "dificil": "Usa prumo, colher e argamassa"
+      }
+    },
+    {
+      "palavra": "PALHAÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz rir no circo com nariz vermelho",
+        "media": "Artista cômico do circo",
+        "dificil": "Carequinha e Arrelia foram famosos"
+      }
+    },
+    {
+      "palavra": "PESCADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pega peixes no rio ou no mar",
+        "media": "Profissional da pesca",
+        "dificil": "Sai de jangada com rede e anzol"
+      }
+    },
+    {
+      "palavra": "COZINHEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prepara a comida no restaurante",
+        "media": "Profissional que prepara refeições",
+        "dificil": "Vira chef quando comanda a cozinha"
+      }
+    },
+    {
+      "palavra": "MOTORISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dirige ônibus, táxi ou caminhão",
+        "media": "Profissional que conduz veículos",
+        "dificil": "Precisa de carteira de habilitação"
+      }
+    },
+    {
+      "palavra": "ENFERMEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ajuda o médico e cuida dos doentes",
+        "media": "Profissional que cuida de pacientes no hospital",
+        "dificil": "Aplica vacinas e injeções"
+      }
+    },
+    {
+      "palavra": "PROFESSOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ensina os alunos na escola",
+        "media": "Profissional que dá aulas",
+        "dificil": "Mestre da sala de aula"
+      }
+    },
+    {
+      "palavra": "VETERINÁRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Médico dos bichos",
+        "media": "Médico de animais",
+        "dificil": "Atende cães, gatos e bois"
+      }
+    },
+    {
+      "palavra": "ASTRONAUTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Viaja para o espaço em foguete",
+        "media": "Tripulante de missões espaciais",
+        "dificil": "Marcos Pontes foi o primeiro brasileiro"
+      }
+    },
+    {
+      "palavra": "CIENTISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz experiências no laboratório",
+        "media": "Pesquisador que estuda a natureza com método",
+        "dificil": "Einstein e Marie Curie foram"
+      }
+    },
+    {
+      "palavra": "BAILARINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança balé na ponta dos pés",
+        "media": "Dançarina de balé",
+        "dificil": "Usa sapatilha e tutu"
+      }
+    },
+    {
+      "palavra": "AGRICULTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Planta e colhe na roça",
+        "media": "Profissional que cultiva a terra",
+        "dificil": "Lavrador do campo"
+      }
+    },
+    {
+      "palavra": "ESCRITOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faz livros cheios de histórias",
+        "media": "Autor de livros",
+        "dificil": "Machado de Assis foi um dos maiores"
+      }
+    },
+    {
+      "palavra": "JORNALISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conta as notícias na TV e no rádio",
+        "media": "Profissional que apura e divulga notícias",
+        "dificil": "Repórter que faz entrevistas"
+      }
+    },
+    {
+      "palavra": "FOTÓGRAFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Trabalha com câmera tirando retratos",
+        "media": "Profissional que registra imagens",
+        "dificil": "Sebastião Salgado é famoso no mundo todo"
+      }
+    },
+    {
+      "palavra": "ARQUITETO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenha casas e prédios",
+        "media": "Profissional que projeta construções",
+        "dificil": "Oscar Niemeyer desenhou Brasília"
+      }
+    },
+    {
+      "palavra": "ENGENHEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Calcula como construir pontes e prédios",
+        "media": "Profissional que projeta obras e máquinas",
+        "dificil": "Pode ser civil, mecânico ou elétrico"
+      }
+    },
+    {
+      "palavra": "ADVOGADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Defende as pessoas no tribunal",
+        "media": "Profissional que defende causas na Justiça",
+        "dificil": "Precisa passar no exame da OAB"
+      }
+    },
+    {
+      "palavra": "MECÂNICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conserta carros na oficina",
+        "media": "Profissional que repara motores",
+        "dificil": "Trabalha com graxa e chave inglesa"
+      }
+    },
+    {
+      "palavra": "JARDINEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cuida das plantas e da grama",
+        "media": "Profissional que cuida de canteiros e gramados",
+        "dificil": "Poda, rega e aduba"
+      }
+    },
+    {
+      "palavra": "PEDIATRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Médico de criança",
+        "media": "Médico especialista em crianças",
+        "dificil": "Acompanha o bebê desde o nascimento"
+      }
+    },
+    {
+      "palavra": "ALFAIATE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Costura ternos sob medida",
+        "media": "Profissional que faz roupas masculinas sob medida",
+        "dificil": "Tira as medidas com fita métrica"
+      }
+    },
+    {
+      "palavra": "TRADUTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Passa um texto de uma língua para outra",
+        "media": "Profissional que verte textos para outro idioma",
+        "dificil": "Trabalha com dicionários e idiomas"
+      }
+    },
+    {
+      "palavra": "ARQUEÓLOGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cava a terra atrás de coisas antigas",
+        "media": "Estuda civilizações antigas por meio de escavações",
+        "dificil": "Escava ruínas em busca de vestígios"
+      }
+    },
+    {
+      "palavra": "GEÓLOGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Estuda as pedras e a terra",
+        "media": "Cientista que estuda rochas e o solo",
+        "dificil": "Especialista em minerais e terremotos"
+      }
+    },
+    {
+      "palavra": "DIPLOMATA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Representa o país lá fora",
+        "media": "Representante de um país no exterior",
+        "dificil": "Trabalha em embaixadas e consulados"
+      }
+    },
+    {
+      "palavra": "APICULTOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cria abelhas",
+        "media": "Criador de abelhas que colhe mel",
+        "dificil": "Usa roupa de proteção e fumigador"
+      }
+    },
+    {
+      "palavra": "AGRÔNOMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ajuda o fazendeiro a plantar melhor",
+        "media": "Engenheiro especialista em agricultura",
+        "dificil": "Estuda solos e safras"
+      }
+    },
+    {
+      "palavra": "INTÉRPRETE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Traduz a fala na hora",
+        "media": "Tradutor da língua falada em tempo real",
+        "dificil": "Trabalha em cabines de conferências"
+      }
+    },
+    {
+      "palavra": "LEILOEIRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bate o martelo vendendo coisas",
+        "media": "Profissional que conduz vendas por lances",
+        "dificil": "Dou-lhe uma, dou-lhe duas... é sua fala"
+      }
+    },
+    {
+      "palavra": "CARTÓGRAFO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Desenha mapas",
+        "media": "Profissional que faz mapas",
+        "dificil": "Especialista em escalas e projeções"
+      }
+    },
+    {
+      "palavra": "OURIVES",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Faz anéis e colares de metal precioso",
+        "media": "Artesão que trabalha com metais preciosos",
+        "dificil": "Joalheiro artesão"
+      }
+    },
+    {
+      "palavra": "TABELIÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Trabalha no cartório",
+        "media": "Responsável por um cartório de notas",
+        "dificil": "Reconhece firma e autentica documentos"
+      }
+    }
+  ]
+}

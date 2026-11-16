@@ -1,0 +1,431 @@
+{
+  "tema": "Olimpíadas",
+  "categoria": "Esportes",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "TOCHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Leva o fogo olímpico pelas cidades",
+        "media": "Archote da chama olímpica",
+        "dificil": "Revezada antes da abertura"
+      }
+    },
+    {
+      "palavra": "CHAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fogo que fica aceso durante os Jogos",
+        "media": "Fogo olímpico",
+        "dificil": "Acesa com raios de sol na Grécia"
+      }
+    },
+    {
+      "palavra": "ANÉIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Os cinco círculos coloridos da bandeira olímpica",
+        "media": "Símbolo dos Jogos",
+        "dificil": "Cinco elos entrelaçados"
+      }
+    },
+    {
+      "palavra": "OURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Medalha de quem fica em primeiro",
+        "media": "Metal do campeão",
+        "dificil": "Topo do pódio"
+      }
+    },
+    {
+      "palavra": "PRATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Medalha do segundo lugar",
+        "media": "Metal do vice",
+        "dificil": "Vale menos que o primeiro lugar"
+      }
+    },
+    {
+      "palavra": "BRONZE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Medalha do terceiro lugar",
+        "media": "Metal do terceiro colocado",
+        "dificil": "Liga de cobre e estanho"
+      }
+    },
+    {
+      "palavra": "PÓDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar alto onde sobem os vencedores",
+        "media": "Plataforma de premiação",
+        "dificil": "Três degraus de glória"
+      }
+    },
+    {
+      "palavra": "MEDALHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prêmio pendurado no pescoço",
+        "media": "Condecoração do atleta",
+        "dificil": "Ouro, prata ou bronze"
+      }
+    },
+    {
+      "palavra": "ATLETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que compete no esporte",
+        "media": "Esportista",
+        "dificil": "Competidor dos Jogos"
+      }
+    },
+    {
+      "palavra": "NADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jeito de se mover dentro da água",
+        "media": "Estilo da natação",
+        "dificil": "Crawl, costas ou peito"
+      }
+    },
+    {
+      "palavra": "JUDÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Luta de faixa e quimono",
+        "media": "Arte marcial japonesa",
+        "dificil": "Esporte de Rafaela Silva, ouro em 2016"
+      }
+    },
+    {
+      "palavra": "REMO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte de barco com pás para empurrar a água",
+        "media": "Esporte de barco em que se vai de costas",
+        "dificil": "Popular na Lagoa Rodrigo de Freitas"
+      }
+    },
+    {
+      "palavra": "VELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte de barco empurrado pelo vento",
+        "media": "Iatismo",
+        "dificil": "Torben Grael ganhou cinco medalhas nele"
+      }
+    },
+    {
+      "palavra": "SALTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pular bem alto ou bem longe",
+        "media": "Pulo",
+        "dificil": "Com vara, em altura ou em distância"
+      }
+    },
+    {
+      "palavra": "CORRIDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prova para ver quem chega primeiro",
+        "media": "Prova de velocidade",
+        "dificil": "Os cem metros rasos são a mais famosa"
+      }
+    },
+    {
+      "palavra": "MARATONA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Corrida bem comprida pelas ruas",
+        "media": "Prova de 42 quilômetros",
+        "dificil": "Lembra a lenda do mensageiro grego"
+      }
+    },
+    {
+      "palavra": "GINÁSTICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de cambalhotas e piruetas",
+        "media": "Modalidade de solo e aparelhos",
+        "dificil": "Rebeca Andrade brilha nela"
+      }
+    },
+    {
+      "palavra": "ESGRIMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Luta com espadas e máscara",
+        "media": "Combate com florete",
+        "dificil": "Florete, espada e sabre"
+      }
+    },
+    {
+      "palavra": "ARCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usado para atirar flechas no alvo",
+        "media": "Equipamento do arqueiro",
+        "dificil": "Curvado e com corda"
+      }
+    },
+    {
+      "palavra": "TÊNIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de raquete e bolinha amarela",
+        "media": "Esporte de raquete na quadra",
+        "dificil": "Saque, voleio e smash"
+      }
+    },
+    {
+      "palavra": "VÔLEI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de passar a bola por cima da rede com as mãos",
+        "media": "Esporte de saque e cortada",
+        "dificil": "Na praia, é jogado em dupla"
+      }
+    },
+    {
+      "palavra": "BASQUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de jogar a bola na cesta",
+        "media": "Bola ao cesto",
+        "dificil": "Esporte de Oscar Schmidt"
+      }
+    },
+    {
+      "palavra": "HANDEBOL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo de bola com as mãos e gol pequeno",
+        "media": "Esporte de sete contra sete",
+        "dificil": "Tem área de seis metros"
+      }
+    },
+    {
+      "palavra": "CANOAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Esporte de remar em barco estreito",
+        "media": "Modalidade de caiaque",
+        "dificil": "Isaquias Queiroz ganhou medalhas nela"
+      }
+    },
+    {
+      "palavra": "SKATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prancha com rodinhas para fazer manobras",
+        "media": "Esporte de prancha de rodas",
+        "dificil": "Estreou nos Jogos de Tóquio"
+      }
+    },
+    {
+      "palavra": "SURFE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte de pegar onda na prancha",
+        "media": "Deslizar sobre as ondas",
+        "dificil": "Ítalo Ferreira ganhou o primeiro ouro dele"
+      }
+    },
+    {
+      "palavra": "PISCINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com água onde os nadadores competem",
+        "media": "Tanque de natação",
+        "dificil": "Tem cinquenta metros nos Jogos"
+      }
+    },
+    {
+      "palavra": "RAIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faixa de cada atleta na piscina ou na pista",
+        "media": "Pista individual",
+        "dificil": "Separada por cordas na água"
+      }
+    },
+    {
+      "palavra": "GRÉCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "País onde os Jogos nasceram há muito tempo",
+        "media": "Berço dos Jogos antigos",
+        "dificil": "Terra de Olímpia e Atenas"
+      }
+    },
+    {
+      "palavra": "ATENAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade dos primeiros Jogos modernos, em 1896",
+        "media": "Capital grega",
+        "dificil": "Sediou os Jogos também em 2004"
+      }
+    },
+    {
+      "palavra": "OLÍMPIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lugar da Grécia antiga onde os Jogos começaram",
+        "media": "Santuário grego de Zeus",
+        "dificil": "Onde se acende a chama"
+      }
+    },
+    {
+      "palavra": "PARIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade dos Jogos de 2024",
+        "media": "Capital da França",
+        "dificil": "Também sediou em 1900 e 1924"
+      }
+    },
+    {
+      "palavra": "TÓQUIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade dos Jogos adiados para 2021",
+        "media": "Capital do Japão",
+        "dificil": "Sediou em 1964 e 2020"
+      }
+    },
+    {
+      "palavra": "MASCOTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho que representa os Jogos",
+        "media": "Símbolo animado do evento",
+        "dificil": "Vinicius foi o do Rio 2016"
+      }
+    },
+    {
+      "palavra": "ABERTURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Festa que começa os Jogos",
+        "media": "Cerimônia inicial",
+        "dificil": "Desfile das delegações"
+      }
+    },
+    {
+      "palavra": "DELEGAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo de atletas de um país",
+        "media": "Comitiva de um país",
+        "dificil": "Desfila atrás da bandeira"
+      }
+    },
+    {
+      "palavra": "REVEZAMENTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Corrida em que um passa o bastão ao outro",
+        "media": "Prova de equipe com bastão",
+        "dificil": "Quatro por cem, por exemplo"
+      }
+    },
+    {
+      "palavra": "DECATLO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Disputa com dez provas diferentes",
+        "media": "Dez eventos do atletismo",
+        "dificil": "Prova do rei dos atletas, dizem"
+      }
+    },
+    {
+      "palavra": "HEPTATLO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Disputa feminina com sete provas",
+        "media": "Sete eventos do atletismo",
+        "dificil": "Irmão menor do decatlo"
+      }
+    },
+    {
+      "palavra": "TRIATLO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prova de nadar, pedalar e correr",
+        "media": "Natação, ciclismo e corrida",
+        "dificil": "Prova de três etapas"
+      }
+    },
+    {
+      "palavra": "CICLISMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de bicicleta",
+        "media": "Corrida de bike",
+        "dificil": "Pista, estrada ou mountain bike"
+      }
+    },
+    {
+      "palavra": "ATLETISMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de correr, saltar e arremessar",
+        "media": "Modalidade de pista e campo",
+        "dificil": "Rei dos esportes olímpicos"
+      }
+    },
+    {
+      "palavra": "TAEKWONDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Luta coreana com muitos chutes",
+        "media": "Arte marcial da Coreia",
+        "dificil": "Usa faixa e protetor no peito"
+      }
+    },
+    {
+      "palavra": "HIPISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Esporte com cavalos que pulam obstáculos",
+        "media": "Equitação olímpica",
+        "dificil": "Rodrigo Pessoa foi ouro nele"
+      }
+    },
+    {
+      "palavra": "RECORDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Melhor marca já feita",
+        "media": "Marca nunca superada",
+        "dificil": "Quebrá-lo é histórico"
+      }
+    },
+    {
+      "palavra": "DARDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vara pontuda lançada bem longe",
+        "media": "Lançamento do atletismo",
+        "dificil": "Arremessado depois de uma corrida"
+      }
+    },
+    {
+      "palavra": "PARALIMPÍADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogos para atletas com deficiência",
+        "media": "Competição logo após os Jogos Olímpicos",
+        "dificil": "Daniel Dias ganhou muitas medalhas nela"
+      }
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "tema": "Estados do Brasil",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ACRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado lá no oeste, vizinho do Peru e da Bolívia",
+        "media": "Estado de capital Rio Branco",
+        "dificil": "Comprado da Bolívia pelo Tratado de Petrópolis"
+      }
+    },
+    {
+      "palavra": "BAHIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado do acarajé e do Carnaval de Salvador",
+        "media": "Estado nordestino de capital Salvador",
+        "dificil": "Terra de Jorge Amado e do Senhor do Bonfim"
+      }
+    },
+    {
+      "palavra": "CEARÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado das jangadas e das dunas, no Nordeste",
+        "media": "Estado de capital Fortaleza",
+        "dificil": "Terra de Iracema, a virgem dos lábios de mel"
+      }
+    },
+    {
+      "palavra": "GOIÁS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado do Centro-Oeste quase todo em volta de Brasília",
+        "media": "Estado de capital Goiânia",
+        "dificil": "Terra do pequi e da Chapada dos Veadeiros"
+      }
+    },
+    {
+      "palavra": "PARÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado do açaí e do Círio de Nazaré",
+        "media": "Estado nortista de capital Belém",
+        "dificil": "Terra do Ver-o-Peso e da Ilha de Marajó"
+      }
+    },
+    {
+      "palavra": "PIAUÍ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado nordestino com o menor litoral do Brasil",
+        "media": "Estado de capital Teresina",
+        "dificil": "Terra da Serra da Capivara"
+      }
+    },
+    {
+      "palavra": "AMAPÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado lá no norte por onde passa a linha do Equador",
+        "media": "Estado de capital Macapá",
+        "dificil": "Vizinho da Guiana Francesa"
+      }
+    },
+    {
+      "palavra": "PARANÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado das Cataratas do Iguaçu",
+        "media": "Estado sulista de capital Curitiba",
+        "dificil": "Terra das araucárias e da usina de Itaipu"
+      }
+    },
+    {
+      "palavra": "SUL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Região mais fria do Brasil",
+        "media": "Região do chimarrão e das araucárias",
+        "dificil": "Onde às vezes até neva no Brasil"
+      }
+    },
+    {
+      "palavra": "NORTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Maior região do Brasil, onde fica a Amazônia",
+        "media": "Região do Pará, do Amazonas e de mais cinco estados",
+        "dificil": "Região do alto do mapa, com sete estados"
+      }
+    },
+    {
+      "palavra": "GAÚCHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce no Rio Grande do Sul",
+        "media": "Gentílico do estado de Porto Alegre",
+        "dificil": "Tomador de chimarrão dos pampas"
+      }
+    },
+    {
+      "palavra": "BAIANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce na Bahia",
+        "media": "Gentílico do estado de Salvador",
+        "dificil": "Conterrâneo de Caetano Veloso e Gilberto Gil"
+      }
+    },
+    {
+      "palavra": "GOIANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce em Goiás",
+        "media": "Gentílico do estado do pequi",
+        "dificil": "Conterrâneo de muitos cantores sertanejos"
+      }
+    },
+    {
+      "palavra": "ESTADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada uma das 26 partes do Brasil, como a Bahia",
+        "media": "Unidade da federação com governador",
+        "dificil": "São 26 no Brasil, mais o Distrito Federal"
+      }
+    },
+    {
+      "palavra": "CARIOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce na cidade do Rio de Janeiro",
+        "media": "Gentílico da capital fluminense",
+        "dificil": "Conterrâneo do Cristo Redentor"
+      }
+    },
+    {
+      "palavra": "MINEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce em Minas Gerais",
+        "media": "Gentílico do estado do pão de queijo",
+        "dificil": "Conterrâneo de Tiradentes e de Drummond"
+      }
+    },
+    {
+      "palavra": "PAULISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem nasce no estado de São Paulo",
+        "media": "Gentílico do estado mais populoso",
+        "dificil": "Bandeirante, para os mais antigos"
+      }
+    },
+    {
+      "palavra": "BRASÍLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Brasil",
+        "media": "Cidade sede do Distrito Federal",
+        "dificil": "Construída por JK e inaugurada em 1960"
+      }
+    },
+    {
+      "palavra": "CAPITAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade principal de um estado",
+        "media": "Cidade-sede do governo estadual",
+        "dificil": "Salvador foi a primeira do Brasil"
+      }
+    },
+    {
+      "palavra": "NORDESTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Região com nove estados e muitas praias",
+        "media": "Região da Bahia, do Ceará e de Pernambuco",
+        "dificil": "Região do baião, do forró e do sertão"
+      }
+    },
+    {
+      "palavra": "SÃO PAULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado com mais gente no Brasil",
+        "media": "Estado do Sudeste cuja capital tem o mesmo nome",
+        "dificil": "Terra da garoa e dos bandeirantes"
+      }
+    },
+    {
+      "palavra": "ALAGOAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado nordestino de praias azuis",
+        "media": "Estado de capital Maceió",
+        "dificil": "Terra da Serra da Barriga, do Quilombo dos Palmares"
+      }
+    },
+    {
+      "palavra": "AMAZONAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Maior estado do Brasil, coberto pela floresta",
+        "media": "Estado de capital Manaus",
+        "dificil": "Terra do Festival de Parintins"
+      }
+    },
+    {
+      "palavra": "MARANHÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado dos Lençóis, cheio de dunas e lagoas",
+        "media": "Estado nordestino de capital São Luís",
+        "dificil": "Terra do bumba meu boi"
+      }
+    },
+    {
+      "palavra": "PARAÍBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado onde fica a ponta mais a leste do Brasil",
+        "media": "Estado de capital João Pessoa",
+        "dificil": "Terra de Campina Grande e seu São João"
+      }
+    },
+    {
+      "palavra": "RONDÔNIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do Norte com nome de um marechal",
+        "media": "Estado de capital Porto Velho",
+        "dificil": "Homenagem ao Marechal Rondon"
+      }
+    },
+    {
+      "palavra": "RORAIMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado mais ao norte do Brasil",
+        "media": "Estado de capital Boa Vista",
+        "dificil": "Terra do Monte Caburaí, no extremo norte do país"
+      }
+    },
+    {
+      "palavra": "SERGIPE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Menor estado do Brasil",
+        "media": "Estado nordestino de capital Aracaju",
+        "dificil": "Vizinho de Alagoas, do outro lado da foz do São Francisco"
+      }
+    },
+    {
+      "palavra": "TOCANTINS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado mais novo do Brasil",
+        "media": "Estado de capital Palmas",
+        "dificil": "Terra do Jalapão, criada em 1988"
+      }
+    },
+    {
+      "palavra": "ESPÍRITO SANTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado vizinho do Rio, da Bahia e de Minas",
+        "media": "Estado do Sudeste de capital Vitória",
+        "dificil": "Terra da moqueca capixaba e do Convento da Penha"
+      }
+    },
+    {
+      "palavra": "MATO GROSSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do Centro-Oeste onde fica parte do Pantanal",
+        "media": "Estado de capital Cuiabá",
+        "dificil": "Gigante brasileiro da produção de soja"
+      }
+    },
+    {
+      "palavra": "MINAS GERAIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do pão de queijo",
+        "media": "Estado de capital Belo Horizonte",
+        "dificil": "Terra de cidades históricas como Ouro Preto"
+      }
+    },
+    {
+      "palavra": "RIO DE JANEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do Cristo Redentor e do Pão de Açúcar",
+        "media": "Estado do Sudeste com a Baía de Guanabara",
+        "dificil": "Terra fluminense"
+      }
+    },
+    {
+      "palavra": "SANTA CATARINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do Sul com a capital numa ilha",
+        "media": "Estado de capital Florianópolis",
+        "dificil": "Terra de Blumenau e de Balneário Camboriú"
+      }
+    },
+    {
+      "palavra": "PERNAMBUCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estado do frevo e do maracatu",
+        "media": "Estado de capital Recife",
+        "dificil": "Terra de Olinda e de Fernando de Noronha"
+      }
+    },
+    {
+      "palavra": "SUDESTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Região de São Paulo, Rio e Minas",
+        "media": "Região mais populosa do Brasil",
+        "dificil": "Região de quatro estados, incluindo o Espírito Santo"
+      }
+    },
+    {
+      "palavra": "CENTRO-OESTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Região do Pantanal e de Brasília",
+        "media": "Região de Goiás e dos dois Mato Grosso",
+        "dificil": "Região com três estados mais o Distrito Federal"
+      }
+    },
+    {
+      "palavra": "PAULISTANO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem nasce na cidade de São Paulo",
+        "media": "Gentílico da maior cidade do país",
+        "dificil": "Morador nato da Terra da Garoa"
+      }
+    },
+    {
+      "palavra": "CEARENSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem nasce no Ceará",
+        "media": "Gentílico do estado de Fortaleza",
+        "dificil": "Conterrâneo de Iracema e das jangadas"
+      }
+    },
+    {
+      "palavra": "FLUMINENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no estado do Rio de Janeiro",
+        "media": "Gentílico do estado do Rio",
+        "dificil": "Também é nome de um clube tricolor carioca"
+      }
+    },
+    {
+      "palavra": "CAPIXABA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Espírito Santo",
+        "media": "Gentílico do estado de Vitória",
+        "dificil": "Palavra de origem tupi ligada a roça"
+      }
+    },
+    {
+      "palavra": "POTIGUAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Rio Grande do Norte",
+        "media": "Gentílico do estado de Natal",
+        "dificil": "Nome de um povo indígena do litoral nordestino"
+      }
+    },
+    {
+      "palavra": "CATARINENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce em Santa Catarina",
+        "media": "Gentílico do estado de Florianópolis",
+        "dificil": "Também chamado de barriga-verde"
+      }
+    },
+    {
+      "palavra": "PARANAENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Paraná",
+        "media": "Gentílico do estado das araucárias",
+        "dificil": "Conterrâneo de Curitiba e de Foz do Iguaçu"
+      }
+    },
+    {
+      "palavra": "PARAENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Pará",
+        "media": "Gentílico do estado de Belém",
+        "dificil": "Conterrâneo do açaí e do tacacá"
+      }
+    },
+    {
+      "palavra": "AMAZONENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Amazonas",
+        "media": "Gentílico do estado de Manaus",
+        "dificil": "Conterrâneo do boi de Parintins"
+      }
+    },
+    {
+      "palavra": "PIAUIENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Piauí",
+        "media": "Gentílico do estado de Teresina",
+        "dificil": "Conterrâneo da Serra da Capivara"
+      }
+    },
+    {
+      "palavra": "MARANHENSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce no Maranhão",
+        "media": "Gentílico do estado de São Luís",
+        "dificil": "Conterrâneo do bumba meu boi"
+      }
+    },
+    {
+      "palavra": "SERGIPANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem nasce em Sergipe",
+        "media": "Gentílico do estado de Aracaju",
+        "dificil": "Conterrâneo do menor estado brasileiro"
+      }
+    },
+    {
+      "palavra": "CANDANGO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Nome dado a quem ajudou a construir Brasília",
+        "media": "Trabalhador pioneiro da nova capital nos anos 1950",
+        "dificil": "Também apelido de quem nasce no Distrito Federal"
+      }
+    }
+  ]
+}

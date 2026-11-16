@@ -1,0 +1,467 @@
+{
+  "tema": "Personagens históricos",
+  "categoria": "História",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "PELÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O Rei do Futebol",
+        "media": "Único jogador campeão de três Copas do Mundo",
+        "dificil": "Edson Arantes do Nascimento"
+      }
+    },
+    {
+      "palavra": "SENNA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Piloto brasileiro tricampeão de Fórmula 1",
+        "media": "Ayrton, campeão em 1988, 1990 e 1991",
+        "dificil": "Piloto que erguia a bandeira do Brasil a cada vitória"
+      }
+    },
+    {
+      "palavra": "CABRAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Navegador que chegou ao Brasil em 1500",
+        "media": "Pedro Álvares, comandante da frota portuguesa",
+        "dificil": "Capitão que avistou o Monte Pascoal"
+      }
+    },
+    {
+      "palavra": "DUMONT",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brasileiro chamado de pai da aviação",
+        "media": "Voou com o 14-Bis em Paris, em 1906",
+        "dificil": "Alberto Santos, inventor mineiro"
+      }
+    },
+    {
+      "palavra": "ISABEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Princesa que assinou a Lei Áurea",
+        "media": "Filha de Dom Pedro II",
+        "dificil": "A Redentora"
+      }
+    },
+    {
+      "palavra": "ZUMBI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líder do Quilombo dos Palmares",
+        "media": "Herói do Dia da Consciência Negra",
+        "dificil": "Último grande líder de Palmares"
+      }
+    },
+    {
+      "palavra": "LOBATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Escritor que criou a boneca Emília",
+        "media": "Monteiro, autor do Sítio do Picapau Amarelo",
+        "dificil": "Escritor paulista de Reinações de Narizinho"
+      }
+    },
+    {
+      "palavra": "MOZART",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Compositor que tocava piano desde criancinha",
+        "media": "Gênio austríaco da música clássica",
+        "dificil": "Wolfgang Amadeus, nascido em Salzburgo"
+      }
+    },
+    {
+      "palavra": "NEWTON",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cientista que pensou na gravidade vendo uma maçã",
+        "media": "Isaac, autor das leis do movimento",
+        "dificil": "Físico inglês da gravitação universal"
+      }
+    },
+    {
+      "palavra": "EDISON",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inventor que fez a lâmpada funcionar bem",
+        "media": "Thomas, inventor do fonógrafo",
+        "dificil": "O Mago de Menlo Park"
+      }
+    },
+    {
+      "palavra": "PEDRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nome do príncipe que fez a Independência",
+        "media": "Dom ___ I, primeiro imperador do Brasil",
+        "dificil": "Também foi rei de Portugal, com o número IV"
+      }
+    },
+    {
+      "palavra": "JOÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Príncipe português que trouxe a corte ao Brasil em 1808",
+        "media": "Dom ___ VI, que abriu os portos às nações amigas",
+        "dificil": "Criou o Jardim Botânico do Rio"
+      }
+    },
+    {
+      "palavra": "CÉSAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Famoso líder da Roma antiga",
+        "media": "Júlio, que atravessou o Rubicão",
+        "dificil": "Disse vim, vi e venci"
+      }
+    },
+    {
+      "palavra": "DARWIN",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cientista que estudou como os animais mudam",
+        "media": "Charles, autor da teoria da evolução",
+        "dificil": "Visitou as Galápagos no navio Beagle"
+      }
+    },
+    {
+      "palavra": "COLOMBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Navegador que chegou à América em 1492",
+        "media": "Cristóvão, genovês a serviço da Espanha",
+        "dificil": "Comandou a Santa Maria"
+      }
+    },
+    {
+      "palavra": "LEONARDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pintor da Mona Lisa",
+        "media": "Gênio de Vinci, artista e inventor",
+        "dificil": "Pintou a Última Ceia"
+      }
+    },
+    {
+      "palavra": "EINSTEIN",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cientista de cabelo branco despenteado",
+        "media": "Albert, criador da teoria da relatividade",
+        "dificil": "Físico do E = mc²"
+      }
+    },
+    {
+      "palavra": "TIRADENTES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Herói lembrado em 21 de abril",
+        "media": "Herói da Inconfidência Mineira",
+        "dificil": "Joaquim José da Silva Xavier"
+      }
+    },
+    {
+      "palavra": "GALILEU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cientista que olhou o céu com uma luneta",
+        "media": "Italiano que descobriu luas de Júpiter",
+        "dificil": "Defendeu que a Terra gira em volta do Sol"
+      }
+    },
+    {
+      "palavra": "GAGARIN",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeira pessoa a viajar ao espaço",
+        "media": "Cosmonauta soviético de 1961",
+        "dificil": "Iuri, que disse que a Terra é azul"
+      }
+    },
+    {
+      "palavra": "ARMSTRONG",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeira pessoa a pisar na Lua",
+        "media": "Neil, astronauta da Apollo 11",
+        "dificil": "Um pequeno passo para um homem"
+      }
+    },
+    {
+      "palavra": "NAPOLEÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Imperador francês do chapéu de duas pontas",
+        "media": "Bonaparte",
+        "dificil": "Derrotado em Waterloo, em 1815"
+      }
+    },
+    {
+      "palavra": "CLEÓPATRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rainha famosa do antigo Egito",
+        "media": "Última rainha do Egito ptolomaico",
+        "dificil": "Aliada de Júlio César"
+      }
+    },
+    {
+      "palavra": "MANDELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Líder que lutou pela igualdade na África do Sul",
+        "media": "Presidente sul-africano eleito em 1994",
+        "dificil": "Madiba, Nobel da Paz de 1993"
+      }
+    },
+    {
+      "palavra": "GANDHI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Líder indiano que defendia a paz",
+        "media": "Mahatma, da resistência sem violência",
+        "dificil": "Guiou a Índia rumo à independência de 1947"
+      }
+    },
+    {
+      "palavra": "CURIE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cientista que ganhou dois prêmios Nobel",
+        "media": "Marie, que estudou a radioatividade",
+        "dificil": "Descobriu o polônio e o rádio"
+      }
+    },
+    {
+      "palavra": "PASTEUR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cientista que criou a vacina contra a raiva",
+        "media": "Louis, químico francês dos micróbios",
+        "dificil": "Seu método de aquecer o leite leva o nome dele"
+      }
+    },
+    {
+      "palavra": "BEETHOVEN",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Compositor que continuou criando mesmo surdo",
+        "media": "Autor da Nona Sinfonia",
+        "dificil": "Ludwig van, de Bonn"
+      }
+    },
+    {
+      "palavra": "SHAKESPEARE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escritor inglês de Romeu e Julieta",
+        "media": "Dramaturgo autor de Hamlet",
+        "dificil": "O Bardo de Stratford"
+      }
+    },
+    {
+      "palavra": "CAMÕES",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta português de Os Lusíadas",
+        "media": "Luís Vaz, poeta épico português",
+        "dificil": "Poeta que teria perdido um olho"
+      }
+    },
+    {
+      "palavra": "MACHADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escritor de Dom Casmurro",
+        "media": "___ de Assis, fundador da Academia Brasileira de Letras",
+        "dificil": "O Bruxo do Cosme Velho"
+      }
+    },
+    {
+      "palavra": "TARSILA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintora brasileira do Abaporu",
+        "media": "Artista modernista de sobrenome Amaral",
+        "dificil": "Pintou Operários e A Negra"
+      }
+    },
+    {
+      "palavra": "ALEIJADINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escultor das estátuas de profetas em Congonhas",
+        "media": "Antônio Francisco Lisboa",
+        "dificil": "Mestre do barroco mineiro"
+      }
+    },
+    {
+      "palavra": "RONDON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Marechal que levou o telégrafo ao interior",
+        "media": "Cândido, amigo dos povos indígenas",
+        "dificil": "Marechal homenageado no nome de um estado do Norte"
+      }
+    },
+    {
+      "palavra": "MARCO POLO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Viajante que foi da Itália até a China",
+        "media": "Veneziano que serviu a Kublai Khan",
+        "dificil": "Autor das viagens narradas em O Livro das Maravilhas"
+      }
+    },
+    {
+      "palavra": "GRAHAM BELL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Inventor do telefone",
+        "media": "Alexander, patenteou sua invenção em 1876",
+        "dificil": "Mostrou seu aparelho a Dom Pedro II"
+      }
+    },
+    {
+      "palavra": "GARRINCHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Craque de pernas tortas da seleção",
+        "media": "Bicampeão mundial em 1958 e 1962",
+        "dificil": "Alegria do Povo"
+      }
+    },
+    {
+      "palavra": "PICASSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintor espanhol que pintava com formas geométricas",
+        "media": "Pablo, mestre do cubismo",
+        "dificil": "Pintou Guernica"
+      }
+    },
+    {
+      "palavra": "JOBIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tom, compositor de Garota de Ipanema",
+        "media": "Maestro da bossa nova",
+        "dificil": "Dá nome ao aeroporto do Galeão"
+      }
+    },
+    {
+      "palavra": "MICHELANGELO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Artista que pintou o teto da Capela Sistina",
+        "media": "Escultor do Davi",
+        "dificil": "Mestre italiano da Pietà"
+      }
+    },
+    {
+      "palavra": "CERVANTES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escritor espanhol de Dom Quixote",
+        "media": "Miguel de, o Manco de Lepanto",
+        "dificil": "Criador de Sancho Pança"
+      }
+    },
+    {
+      "palavra": "FLEMING",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cientista que descobriu a penicilina",
+        "media": "Alexander, bacteriologista escocês",
+        "dificil": "Notou um mofo que matava bactérias em 1928"
+      }
+    },
+    {
+      "palavra": "CHAGAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Médico brasileiro que estudou a doença do barbeiro",
+        "media": "Carlos, cientista de Manguinhos",
+        "dificil": "Descreveu uma doença inteira em 1909"
+      }
+    },
+    {
+      "palavra": "GUTENBERG",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Alemão que inventou a prensa de tipos móveis",
+        "media": "Johannes, pai da imprensa",
+        "dificil": "Imprimiu uma famosa Bíblia"
+      }
+    },
+    {
+      "palavra": "PORTINARI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pintor brasileiro dos painéis Guerra e Paz",
+        "media": "Cândido, pintor de Café e Retirantes",
+        "dificil": "Seus painéis enfeitam a sede da ONU"
+      }
+    },
+    {
+      "palavra": "MAUÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Barão que trouxe a primeira ferrovia ao Brasil",
+        "media": "Irineu Evangelista de Sousa",
+        "dificil": "Visconde e empresário do Império"
+      }
+    },
+    {
+      "palavra": "ANITA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Heroína brasileira casada com Garibaldi",
+        "media": "Ana Maria de Jesus Ribeiro",
+        "dificil": "Heroína de dois mundos"
+      }
+    },
+    {
+      "palavra": "NOBEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Inventor da dinamite",
+        "media": "Alfred, que criou um prêmio famoso",
+        "dificil": "Sueco cujo prêmio é dado em Estocolmo e Oslo"
+      }
+    },
+    {
+      "palavra": "ARISTÓTELES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Filósofo grego que foi professor de Alexandre",
+        "media": "Discípulo de Platão",
+        "dificil": "O Estagirita"
+      }
+    },
+    {
+      "palavra": "VILLA-LOBOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Maestro brasileiro das Bachianas Brasileiras",
+        "media": "Heitor, compositor do Trenzinho do Caipira",
+        "dificil": "Maior nome da música erudita brasileira"
+      }
+    },
+    {
+      "palavra": "COPÉRNICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Astrônomo que pôs o Sol no centro",
+        "media": "Nicolau, astrônomo polonês",
+        "dificil": "Pai do heliocentrismo"
+      }
+    }
+  ]
+}

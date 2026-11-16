@@ -1,0 +1,503 @@
+{
+  "tema": "Capitais",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ROMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da Itália, onde fica o Coliseu",
+        "media": "Capital italiana",
+        "dificil": "A Cidade Eterna, para onde levam todos os caminhos"
+      }
+    },
+    {
+      "palavra": "PARIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da França, onde fica a Torre Eiffel",
+        "media": "Capital francesa",
+        "dificil": "A Cidade Luz"
+      }
+    },
+    {
+      "palavra": "LIMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Peru, com nome de fruta",
+        "media": "Capital peruana",
+        "dificil": "Cidade dos Reis, fundada por Pizarro"
+      }
+    },
+    {
+      "palavra": "TÓQUIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Japão",
+        "media": "Capital japonesa, uma metrópole gigante",
+        "dificil": "Antiga Edo, sede das Olimpíadas de 1964"
+      }
+    },
+    {
+      "palavra": "MADRI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da Espanha",
+        "media": "Capital espanhola",
+        "dificil": "Cidade do Museu do Prado e do Palácio Real"
+      }
+    },
+    {
+      "palavra": "LISBOA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital de Portugal",
+        "media": "Capital portuguesa, à beira do Rio Tejo",
+        "dificil": "Cidade dos bondinhos amarelos e do fado"
+      }
+    },
+    {
+      "palavra": "BERLIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da Alemanha",
+        "media": "Capital alemã",
+        "dificil": "Cidade que já foi dividida por um muro"
+      }
+    },
+    {
+      "palavra": "PEQUIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da China",
+        "media": "Capital chinesa",
+        "dificil": "Lar da Cidade Proibida"
+      }
+    },
+    {
+      "palavra": "CAIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Egito, pertinho das pirâmides",
+        "media": "Capital egípcia, às margens do Nilo",
+        "dificil": "A cidade dos mil minaretes"
+      }
+    },
+    {
+      "palavra": "NATAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Rio Grande do Norte, com nome de festa de fim de ano",
+        "media": "Capital potiguar",
+        "dificil": "Cidade do Forte dos Reis Magos"
+      }
+    },
+    {
+      "palavra": "RECIFE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital de Pernambuco",
+        "media": "Capital pernambucana",
+        "dificil": "A Veneza brasileira, cheia de pontes"
+      }
+    },
+    {
+      "palavra": "BELÉM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Pará, cidade do açaí",
+        "media": "Capital paraense",
+        "dificil": "Cidade do Círio de Nazaré e do Ver-o-Peso"
+      }
+    },
+    {
+      "palavra": "MACEIÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital de Alagoas, de praias azuis",
+        "media": "Capital alagoana",
+        "dificil": "Cidade da Pajuçara e das piscinas naturais"
+      }
+    },
+    {
+      "palavra": "MANAUS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Amazonas, no meio da floresta",
+        "media": "Capital amazonense",
+        "dificil": "Cidade do Teatro Amazonas e do encontro das águas"
+      }
+    },
+    {
+      "palavra": "PALMAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Tocantins, com nome de aplauso",
+        "media": "Capital tocantinense",
+        "dificil": "A mais nova capital estadual do Brasil"
+      }
+    },
+    {
+      "palavra": "CUIABÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Mato Grosso",
+        "media": "Capital mato-grossense",
+        "dificil": "Fica no centro geodésico da América do Sul"
+      }
+    },
+    {
+      "palavra": "LONDRES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da Inglaterra, onde fica o Big Ben",
+        "media": "Capital do Reino Unido",
+        "dificil": "Cidade cortada pelo Rio Tâmisa"
+      }
+    },
+    {
+      "palavra": "SALVADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital da Bahia",
+        "media": "Capital baiana",
+        "dificil": "Primeira capital do Brasil"
+      }
+    },
+    {
+      "palavra": "BRASÍLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Brasil",
+        "media": "Capital federal, no Planalto Central",
+        "dificil": "Cidade planejada por Lúcio Costa e Oscar Niemeyer"
+      }
+    },
+    {
+      "palavra": "SÃO PAULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do estado de mesmo nome, a maior cidade do Brasil",
+        "media": "Maior capital brasileira",
+        "dificil": "A Terra da Garoa"
+      }
+    },
+    {
+      "palavra": "VITÓRIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Espírito Santo, que fica numa ilha",
+        "media": "Capital capixaba",
+        "dificil": "Nome que também quer dizer triunfo"
+      }
+    },
+    {
+      "palavra": "ARACAJU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Sergipe",
+        "media": "Capital sergipana",
+        "dificil": "Cidade da Orla de Atalaia"
+      }
+    },
+    {
+      "palavra": "GOIÂNIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Goiás",
+        "media": "Capital goiana",
+        "dificil": "Cidade planejada nos anos 1930, cheia de prédios art déco"
+      }
+    },
+    {
+      "palavra": "CURITIBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Paraná",
+        "media": "Capital paranaense",
+        "dificil": "Cidade do Jardim Botânico com estufa de vidro"
+      }
+    },
+    {
+      "palavra": "TERESINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Piauí",
+        "media": "Capital piauiense",
+        "dificil": "Única capital do Nordeste longe do litoral"
+      }
+    },
+    {
+      "palavra": "FORTALEZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Capital do Ceará",
+        "media": "Capital cearense",
+        "dificil": "Cidade da Praia do Futuro e da Beira-Mar"
+      }
+    },
+    {
+      "palavra": "MACAPÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Amapá",
+        "media": "Capital amapaense",
+        "dificil": "Capital cortada pela linha do Equador"
+      }
+    },
+    {
+      "palavra": "SÃO LUÍS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Maranhão",
+        "media": "Capital maranhense",
+        "dificil": "Capital fundada por franceses em 1612"
+      }
+    },
+    {
+      "palavra": "BOA VISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Roraima",
+        "media": "Capital roraimense",
+        "dificil": "A capital mais ao norte do Brasil"
+      }
+    },
+    {
+      "palavra": "PORTO VELHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital de Rondônia",
+        "media": "Capital rondoniense",
+        "dificil": "Cidade da ferrovia Madeira-Mamoré"
+      }
+    },
+    {
+      "palavra": "RIO BRANCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital do Acre",
+        "media": "Capital acriana",
+        "dificil": "Cidade às margens do Rio Acre"
+      }
+    },
+    {
+      "palavra": "JOÃO PESSOA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital da Paraíba",
+        "media": "Capital paraibana",
+        "dificil": "Onde o sol nasce primeiro nas Américas"
+      }
+    },
+    {
+      "palavra": "CAMPO GRANDE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital de Mato Grosso do Sul",
+        "media": "Capital sul-mato-grossense",
+        "dificil": "A Cidade Morena"
+      }
+    },
+    {
+      "palavra": "BELO HORIZONTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Minas Gerais",
+        "media": "Capital mineira",
+        "dificil": "Cidade da Lagoa da Pampulha"
+      }
+    },
+    {
+      "palavra": "FLORIANÓPOLIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Santa Catarina, que fica numa ilha",
+        "media": "Capital catarinense",
+        "dificil": "A Ilha da Magia"
+      }
+    },
+    {
+      "palavra": "PORTO ALEGRE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Rio Grande do Sul",
+        "media": "Capital gaúcha",
+        "dificil": "Cidade do pôr do sol no Guaíba"
+      }
+    },
+    {
+      "palavra": "ATENAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital da Grécia",
+        "media": "Capital grega",
+        "dificil": "Cidade da Acrópole e do Partenon"
+      }
+    },
+    {
+      "palavra": "MOSCOU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital da Rússia",
+        "media": "Capital russa",
+        "dificil": "Cidade da Praça Vermelha e do Kremlin"
+      }
+    },
+    {
+      "palavra": "BUENOS AIRES",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital da Argentina",
+        "media": "Capital argentina",
+        "dificil": "Cidade do tango e do Caminito"
+      }
+    },
+    {
+      "palavra": "SANTIAGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Chile",
+        "media": "Capital chilena",
+        "dificil": "Cidade ao pé da Cordilheira dos Andes"
+      }
+    },
+    {
+      "palavra": "MONTEVIDÉU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital do Uruguai",
+        "media": "Capital uruguaia",
+        "dificil": "Cidade da Rambla, à beira do Rio da Prata"
+      }
+    },
+    {
+      "palavra": "ASSUNÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital do Paraguai",
+        "media": "Capital paraguaia",
+        "dificil": "Cidade à beira do rio Paraguai"
+      }
+    },
+    {
+      "palavra": "BOGOTÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital da Colômbia",
+        "media": "Capital colombiana",
+        "dificil": "Cidade do Museu do Ouro"
+      }
+    },
+    {
+      "palavra": "QUITO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital do Equador",
+        "media": "Capital equatoriana",
+        "dificil": "Capital andina pertinho da linha do Equador"
+      }
+    },
+    {
+      "palavra": "CARACAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital da Venezuela",
+        "media": "Capital venezuelana",
+        "dificil": "Cidade aos pés do monte Ávila"
+      }
+    },
+    {
+      "palavra": "HAVANA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital de Cuba",
+        "media": "Capital cubana",
+        "dificil": "Cidade do Malecón e dos carros antigos"
+      }
+    },
+    {
+      "palavra": "WASHINGTON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capital dos Estados Unidos",
+        "media": "Capital norte-americana",
+        "dificil": "Cidade da Casa Branca"
+      }
+    },
+    {
+      "palavra": "VIENA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital da Áustria",
+        "media": "Capital austríaca",
+        "dificil": "Cidade das valsas de Strauss"
+      }
+    },
+    {
+      "palavra": "PRAGA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital da República Tcheca",
+        "media": "Capital tcheca",
+        "dificil": "Cidade das cem torres e da Ponte Carlos"
+      }
+    },
+    {
+      "palavra": "NAIRÓBI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital do Quênia",
+        "media": "Capital queniana",
+        "dificil": "Cidade com um parque de safári dentro dela"
+      }
+    },
+    {
+      "palavra": "LUANDA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Capital de Angola",
+        "media": "Capital angolana",
+        "dificil": "Cidade à beira do Atlântico onde se fala português"
+      }
+    },
+    {
+      "palavra": "HELSINQUE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Capital da Finlândia",
+        "media": "Capital finlandesa",
+        "dificil": "Cidade às margens do Golfo da Finlândia"
+      }
+    },
+    {
+      "palavra": "ANCARA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Capital da Turquia",
+        "media": "Capital turca",
+        "dificil": "Não é Istambul, embora muita gente pense que seja"
+      }
+    },
+    {
+      "palavra": "CAMBERRA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Capital da Austrália",
+        "media": "Capital australiana",
+        "dificil": "Não é Sydney nem Melbourne"
+      }
+    },
+    {
+      "palavra": "HANÓI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Capital do Vietnã",
+        "media": "Capital vietnamita",
+        "dificil": "Cidade do Lago Hoan Kiem"
+      }
+    }
+  ]
+}

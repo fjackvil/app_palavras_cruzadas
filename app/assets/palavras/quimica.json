@@ -1,0 +1,494 @@
+{
+  "tema": "Química",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ÁGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líquido que a gente bebe para matar a sede",
+        "media": "Substância de fórmula H2O",
+        "dificil": "Solvente universal"
+      }
+    },
+    {
+      "palavra": "SAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pozinho branco que dá tempero à comida",
+        "media": "Cloreto de sódio",
+        "dificil": "Tempero tirado da água do mar"
+      }
+    },
+    {
+      "palavra": "GÁS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado da matéria do ar que respiramos",
+        "media": "Matéria sem forma nem volume fixo",
+        "dificil": "O hélio do balão é um"
+      }
+    },
+    {
+      "palavra": "FERRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Metal forte de portões e pregos",
+        "media": "Elemento de símbolo Fe",
+        "dificil": "Metal do aço e das hemácias"
+      }
+    },
+    {
+      "palavra": "OURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Metal amarelo e brilhante das joias",
+        "media": "Elemento de símbolo Au",
+        "dificil": "Metal nobre que não enferruja"
+      }
+    },
+    {
+      "palavra": "PRATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Metal branco e brilhante das medalhas de segundo lugar",
+        "media": "Elemento de símbolo Ag",
+        "dificil": "Metal que conduz eletricidade melhor que todos"
+      }
+    },
+    {
+      "palavra": "COBRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Metal avermelhado dos fios elétricos",
+        "media": "Elemento de símbolo Cu",
+        "dificil": "Metal que fica esverdeado com o tempo"
+      }
+    },
+    {
+      "palavra": "GELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água bem fria que ficou dura",
+        "media": "Água no estado sólido",
+        "dificil": "Flutua porque é menos denso que a água líquida"
+      }
+    },
+    {
+      "palavra": "VAPOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fumacinha que sai da panela fervendo",
+        "media": "Água no estado gasoso",
+        "dificil": "Sai da chaleira quando ela apita"
+      }
+    },
+    {
+      "palavra": "FOGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chama quente que sai da fogueira",
+        "media": "Combustão que libera luz e calor",
+        "dificil": "Precisa de oxigênio, calor e combustível"
+      }
+    },
+    {
+      "palavra": "SABÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisa que faz espuma e limpa as mãos",
+        "media": "Produto feito de gordura e soda",
+        "dificil": "Tira a gordura da louça"
+      }
+    },
+    {
+      "palavra": "ÓLEO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líquido gorduroso de fritar comida",
+        "media": "Substância que não se mistura com a água",
+        "dificil": "Fica por cima da água no copo"
+      }
+    },
+    {
+      "palavra": "METAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Material duro e brilhante como o ferro",
+        "media": "Grupo de elementos que conduz calor e eletricidade",
+        "dificil": "Cobre, zinco e alumínio fazem parte dele"
+      }
+    },
+    {
+      "palavra": "VIDRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Material transparente das janelas",
+        "media": "Material feito de areia derretida",
+        "dificil": "Sílica fundida e resfriada"
+      }
+    },
+    {
+      "palavra": "SÓLIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado das coisas duras, como uma pedra",
+        "media": "Estado com forma e volume fixos",
+        "dificil": "O gelo é água nesse estado"
+      }
+    },
+    {
+      "palavra": "LÍQUIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estado da matéria que escorre, como o suco",
+        "media": "Estado com volume fixo e forma do recipiente",
+        "dificil": "O mercúrio é o único metal assim à temperatura ambiente"
+      }
+    },
+    {
+      "palavra": "MISTURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a gente junta coisas diferentes",
+        "media": "Reunião de duas ou mais substâncias",
+        "dificil": "Água com areia, por exemplo"
+      }
+    },
+    {
+      "palavra": "FERRUGEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Camada marrom que aparece no portão velho",
+        "media": "Óxido que aparece em pregos molhados",
+        "dificil": "Mancha alaranjada da oxidação"
+      }
+    },
+    {
+      "palavra": "PLÁSTICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Material leve de garrafas e brinquedos",
+        "media": "Material sintético feito do petróleo",
+        "dificil": "Polímero de copos descartáveis"
+      }
+    },
+    {
+      "palavra": "OXIGÊNIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gás do ar que a gente respira",
+        "media": "Elemento de símbolo O",
+        "dificil": "Gás que as plantas soltam na fotossíntese"
+      }
+    },
+    {
+      "palavra": "ÁTOMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pecinha minúscula que forma todas as coisas",
+        "media": "Menor parte de um elemento químico",
+        "dificil": "Tem núcleo e elétrons"
+      }
+    },
+    {
+      "palavra": "ÁCIDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Coisa azedinha como o limão",
+        "media": "Substância de pH menor que 7",
+        "dificil": "Vinagre e suco gástrico são exemplos"
+      }
+    },
+    {
+      "palavra": "BASE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Contrário do ácido",
+        "media": "Substância de pH maior que 7",
+        "dificil": "A soda cáustica é uma"
+      }
+    },
+    {
+      "palavra": "CARBONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Elemento do grafite e do diamante",
+        "media": "Elemento de símbolo C",
+        "dificil": "Base química de todos os seres vivos"
+      }
+    },
+    {
+      "palavra": "HIDROGÊNIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O elemento mais leve de todos",
+        "media": "Elemento de símbolo H",
+        "dificil": "Número atômico 1"
+      }
+    },
+    {
+      "palavra": "HÉLIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gás que faz o balão de festa flutuar",
+        "media": "Gás nobre de símbolo He",
+        "dificil": "Segundo elemento da tabela"
+      }
+    },
+    {
+      "palavra": "CÁLCIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mineral do leite que deixa os ossos fortes",
+        "media": "Elemento de símbolo Ca",
+        "dificil": "Metal do giz e da casca de ovo"
+      }
+    },
+    {
+      "palavra": "SÓDIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Metal que forma o sal de cozinha",
+        "media": "Elemento de símbolo Na",
+        "dificil": "Metal que reage forte com a água"
+      }
+    },
+    {
+      "palavra": "CHUMBO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Metal pesado e cinzento",
+        "media": "Elemento de símbolo Pb",
+        "dificil": "Plumbum, em latim"
+      }
+    },
+    {
+      "palavra": "ZINCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Metal das telhas onduladas",
+        "media": "Elemento de símbolo Zn",
+        "dificil": "Metal que protege o ferro na galvanização"
+      }
+    },
+    {
+      "palavra": "MERCÚRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Metal líquido dos termômetros antigos",
+        "media": "Elemento de símbolo Hg",
+        "dificil": "Metal que tem nome de planeta"
+      }
+    },
+    {
+      "palavra": "MOLÉCULA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grupinho de átomos ligados",
+        "media": "Partícula formada por átomos unidos",
+        "dificil": "H2O é uma delas"
+      }
+    },
+    {
+      "palavra": "ELEMENTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada tipo de átomo da tabela",
+        "media": "Substância formada por um só tipo de átomo",
+        "dificil": "A tabela periódica tem 118 deles"
+      }
+    },
+    {
+      "palavra": "ELÉTRON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Partícula pequenina que gira em volta do núcleo",
+        "media": "Partícula de carga negativa",
+        "dificil": "Descoberto por Thomson em 1897"
+      }
+    },
+    {
+      "palavra": "NÚCLEO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte do meio do átomo",
+        "media": "Centro do átomo, com prótons e nêutrons",
+        "dificil": "Concentra quase toda a massa atômica"
+      }
+    },
+    {
+      "palavra": "REAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando as substâncias se transformam em outras",
+        "media": "Transformação química",
+        "dificil": "Combustão e ferrugem são exemplos"
+      }
+    },
+    {
+      "palavra": "SOLUÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mistura em que não dá para ver as partes",
+        "media": "Mistura homogênea",
+        "dificil": "Água com açúcar bem misturado"
+      }
+    },
+    {
+      "palavra": "CRISTAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedrinha brilhante de faces lisas",
+        "media": "Sólido de átomos bem organizados",
+        "dificil": "O quartzo é um exemplo"
+      }
+    },
+    {
+      "palavra": "FÓRMULA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Letras e números que mostram a substância",
+        "media": "H2O é a da água",
+        "dificil": "Receita escrita da molécula"
+      }
+    },
+    {
+      "palavra": "PETRÓLEO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Óleo preto tirado do fundo da terra",
+        "media": "Combustível fóssil",
+        "dificil": "Ouro negro"
+      }
+    },
+    {
+      "palavra": "LABORATÓRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sala onde os cientistas fazem experiências",
+        "media": "Local de testes e análises",
+        "dificil": "Lugar de jaleco, béquer e tubo de ensaio"
+      }
+    },
+    {
+      "palavra": "TUBO DE ENSAIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tubinho de vidro para misturas no laboratório",
+        "media": "Vidraria cilíndrica de fundo arredondado",
+        "dificil": "Fica num suporte de madeira na bancada"
+      }
+    },
+    {
+      "palavra": "PRÓTON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Partícula positiva do átomo",
+        "media": "Partícula do núcleo com carga positiva",
+        "dificil": "Define o número atômico"
+      }
+    },
+    {
+      "palavra": "NÊUTRON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pecinha do núcleo que não tem carga",
+        "media": "Partícula do núcleo sem carga elétrica",
+        "dificil": "Descoberta por Chadwick em 1932"
+      }
+    },
+    {
+      "palavra": "ÍON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Átomo que ganhou ou perdeu elétrons",
+        "media": "Partícula com carga elétrica",
+        "dificil": "Pode ter carga positiva ou negativa"
+      }
+    },
+    {
+      "palavra": "ENXOFRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mineral amarelo com cheiro de ovo podre",
+        "media": "Elemento de símbolo S",
+        "dificil": "Pedra amarela dos vulcões"
+      }
+    },
+    {
+      "palavra": "ALQUIMIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Antiga arte de tentar transformar chumbo em ouro",
+        "media": "Prática medieval antepassada da ciência moderna",
+        "dificil": "Buscava a pedra filosofal"
+      }
+    },
+    {
+      "palavra": "LAVOISIER",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cientista francês pai da química moderna",
+        "media": "Nada se perde, nada se cria, tudo se transforma",
+        "dificil": "Descobriu o papel do oxigênio na queima"
+      }
+    },
+    {
+      "palavra": "MENDELEIEV",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cientista russo que organizou os elementos",
+        "media": "Criador da tabela periódica em 1869",
+        "dificil": "Previu elementos que ainda não conheciam"
+      }
+    },
+    {
+      "palavra": "COMBUSTÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando algo pega fogo",
+        "media": "Reação de queima",
+        "dificil": "Queima que precisa de comburente"
+      }
+    },
+    {
+      "palavra": "DENSIDADE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Por que o óleo boia na água",
+        "media": "Massa dividida pelo volume",
+        "dificil": "Explica por que o gelo flutua"
+      }
+    },
+    {
+      "palavra": "ISÓTOPO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Átomo com número diferente de nêutrons",
+        "media": "Mesmo elemento com massa diferente",
+        "dificil": "Carbono 14 é um exemplo"
+      }
+    },
+    {
+      "palavra": "POLÍMERO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Molécula gigante feita de pedaços repetidos",
+        "media": "Macromolécula de unidades repetidas",
+        "dificil": "Plásticos e borracha são exemplos"
+      }
+    },
+    {
+      "palavra": "CATALISADOR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Substância que acelera uma reação",
+        "media": "Acelera a reação sem ser consumido",
+        "dificil": "As enzimas fazem esse papel no corpo"
+      }
+    }
+  ]
+}

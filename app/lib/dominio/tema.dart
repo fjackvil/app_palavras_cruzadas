@@ -32,9 +32,15 @@ class Palavra {
 
   /// Dica do nível; se faltar, usa a mais próxima.
   String dicaPara(Nivel nivel) {
-    final ordem = nivel == Nivel.leve
-        ? ['leve', 'media', 'dificil']
-        : ['media', 'leve', 'dificil'];
+    const todas = ['leve', 'media', 'dificil'];
+    // Primeiro a do nível; depois as vizinhas, da mais perto à mais longe.
+    final alvo = todas.indexOf(nivel.chaveDica);
+    final ordem = [...todas]
+      ..sort(
+        (a, b) => (todas.indexOf(a) - alvo).abs().compareTo(
+          (todas.indexOf(b) - alvo).abs(),
+        ),
+      );
     for (final chave in ordem) {
       final dica = dicas[chave];
       if (dica != null && dica.isNotEmpty) return dica;
@@ -84,6 +90,13 @@ class Tema {
             p.grade.length <= nivel.maxLetras,
       )
       .toList();
+
+  /// Mínimo de palavras para o tema aparecer num nível.
+  static const minimoPorNivel = 12;
+
+  /// Se o tema tem palavras suficientes para montar grades no nível.
+  bool disponivelPara(Nivel nivel) =>
+      palavrasPara(nivel).length >= minimoPorNivel;
 }
 
 /// Lê os temas que vêm dentro do app.

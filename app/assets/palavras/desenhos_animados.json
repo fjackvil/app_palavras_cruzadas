@@ -1,0 +1,440 @@
+{
+  "tema": "Desenhos animados",
+  "categoria": "Cinema e TV",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "LÁPIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usamos para desenhar no papel",
+        "media": "Bastão de grafite envolto em madeira",
+        "dificil": "Precisa do apontador"
+      }
+    },
+    {
+      "palavra": "COR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vermelho, azul e amarelo são exemplos",
+        "media": "Tom de tinta",
+        "dificil": "Dá vida ao preto e branco"
+      }
+    },
+    {
+      "palavra": "TINTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líquido colorido para pintar",
+        "media": "Pigmento para pintura",
+        "dificil": "Acaba no pincel e vai parar na roupa"
+      }
+    },
+    {
+      "palavra": "VOZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som que sai da boca quando falamos",
+        "media": "Fala do personagem gravada em estúdio",
+        "dificil": "Instrumento de trabalho do dublador"
+      }
+    },
+    {
+      "palavra": "ROBÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina que anda e fala nos desenhos",
+        "media": "Autômato",
+        "dificil": "Personagem de lata e parafusos"
+      }
+    },
+    {
+      "palavra": "FADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ser mágico com asinhas e varinha",
+        "media": "Criatura encantada dos contos",
+        "dificil": "A madrinha realiza desejos"
+      }
+    },
+    {
+      "palavra": "DRAGÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho enorme que solta fogo",
+        "media": "Réptil lendário com asas",
+        "dificil": "Guarda tesouros em cavernas nas lendas"
+      }
+    },
+    {
+      "palavra": "PIADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Historinha que faz rir",
+        "media": "Anedota",
+        "dificil": "Dita para fazer graça"
+      }
+    },
+    {
+      "palavra": "TOMBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando alguém cai no chão",
+        "media": "Queda",
+        "dificil": "Escorregar na casca de banana dá nisso"
+      }
+    },
+    {
+      "palavra": "VILÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O malvado que atrapalha os mocinhos",
+        "media": "Antagonista",
+        "dificil": "Tem planos que sempre dão errado"
+      }
+    },
+    {
+      "palavra": "HERÓI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem salva o dia",
+        "media": "Protagonista corajoso",
+        "dificil": "O bonzinho que vence no fim"
+      }
+    },
+    {
+      "palavra": "MÁGICA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Truque que parece impossível",
+        "media": "Feitiço",
+        "dificil": "Abracadabra!"
+      }
+    },
+    {
+      "palavra": "BALÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bola de ar que voa nas festas",
+        "media": "Espaço onde fica a fala nos quadrinhos",
+        "dificil": "Pode ser de pensamento, com bolinhas"
+      }
+    },
+    {
+      "palavra": "GIBI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Revistinha de histórias em quadrinhos",
+        "media": "Revista de HQ",
+        "dificil": "Nome que veio de uma revista lançada em 1939"
+      }
+    },
+    {
+      "palavra": "RISADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som de quem acha muita graça",
+        "media": "Gargalhada",
+        "dificil": "Ha-ha-ha!"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folha onde desenhamos",
+        "media": "Material feito de celulose",
+        "dificil": "Também é o personagem de quem dubla"
+      }
+    },
+    {
+      "palavra": "BORRACHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Apaga o que o lápis riscou",
+        "media": "Objeto para corrigir rascunhos",
+        "dificil": "Também é material do pneu"
+      }
+    },
+    {
+      "palavra": "ANIMAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que se mexe",
+        "media": "Técnica de dar movimento a imagens",
+        "dificil": "Ilusão criada por muitos quadros por segundo"
+      }
+    },
+    {
+      "palavra": "PRINCESA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filha do rei nos contos",
+        "media": "Herdeira real",
+        "dificil": "Mora no castelo e usa coroa"
+      }
+    },
+    {
+      "palavra": "CASTELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa enorme de reis com torres",
+        "media": "Fortaleza medieval",
+        "dificil": "Tem ponte levadiça e fosso"
+      }
+    },
+    {
+      "palavra": "VARINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bastão mágico da fada",
+        "media": "Instrumento de feitiço",
+        "dificil": "Faz plim! e tudo muda"
+      }
+    },
+    {
+      "palavra": "AMIZADE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Laço entre companheiros que se gostam",
+        "media": "Afeição entre colegas",
+        "dificil": "Tema de muitos desenhos: ninguém solta a mão"
+      }
+    },
+    {
+      "palavra": "DUBLADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que dá voz ao personagem",
+        "media": "Ator de voz",
+        "dificil": "Trabalha atrás do microfone"
+      }
+    },
+    {
+      "palavra": "PERSONAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada figura que aparece na história",
+        "media": "Figura da ficção",
+        "dificil": "Pode ser um gato, um robô ou uma menina"
+      }
+    },
+    {
+      "palavra": "QUADRINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada caixinha de uma tirinha",
+        "media": "Vinheta de HQ",
+        "dificil": "Em sequência, contam uma história"
+      }
+    },
+    {
+      "palavra": "TIRINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Historinha curta em três ou quatro quadros",
+        "media": "Pequena HQ de jornal",
+        "dificil": "Cabe numa faixa da página"
+      }
+    },
+    {
+      "palavra": "ESTÚDIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar onde a equipe faz o desenho",
+        "media": "Local de produção",
+        "dificil": "Onde trabalham animadores e dubladores"
+      }
+    },
+    {
+      "palavra": "ROTEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto que conta o que vai acontecer",
+        "media": "Script do episódio",
+        "dificil": "Também é plano de viagem"
+      }
+    },
+    {
+      "palavra": "RASCUNHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeiro desenho, ainda sem capricho",
+        "media": "Versão inicial",
+        "dificil": "Vem antes da arte final"
+      }
+    },
+    {
+      "palavra": "QUADRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada imagem parada de uma animação",
+        "media": "Fotograma",
+        "dificil": "No cinema, passam 24 por segundo"
+      }
+    },
+    {
+      "palavra": "TRAÇO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Risco feito com lápis",
+        "media": "Linha do desenho",
+        "dificil": "Estilo de cada desenhista"
+      }
+    },
+    {
+      "palavra": "CENÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho do lugar onde a história acontece",
+        "media": "Fundo da cena",
+        "dificil": "Pode ser floresta, cidade ou espaço"
+      }
+    },
+    {
+      "palavra": "EPISÓDIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada historinha de um desenho na TV",
+        "media": "Parte de uma série",
+        "dificil": "Pode durar só onze minutos"
+      }
+    },
+    {
+      "palavra": "MASCOTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bichinho ou boneco que representa um time",
+        "media": "Personagem símbolo",
+        "dificil": "Anima a torcida fantasiado"
+      }
+    },
+    {
+      "palavra": "MASSINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Material mole e colorido para modelar bonecos",
+        "media": "Plasticina",
+        "dificil": "Usada em animações quadro a quadro"
+      }
+    },
+    {
+      "palavra": "COMPUTADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina usada para fazer desenhos modernos",
+        "media": "Ferramenta da animação digital",
+        "dificil": "Substituiu a mesa de luz"
+      }
+    },
+    {
+      "palavra": "CARTUNISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que desenha historinhas engraçadas",
+        "media": "Desenhista de humor",
+        "dificil": "Ziraldo e Laerte são exemplos"
+      }
+    },
+    {
+      "palavra": "ESBOÇO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Desenho rápido, só com linhas",
+        "media": "Primeiros traços",
+        "dificil": "Croqui"
+      }
+    },
+    {
+      "palavra": "COLORISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que pinta os desenhos",
+        "media": "Artista que aplica as cores",
+        "dificil": "Entra depois do arte-finalista"
+      }
+    },
+    {
+      "palavra": "PIXEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pontinho que forma a imagem na tela",
+        "media": "Menor ponto de uma imagem digital",
+        "dificil": "Muitos juntos formam a foto"
+      }
+    },
+    {
+      "palavra": "ANIMADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que faz o desenho se mexer",
+        "media": "Profissional que cria movimento quadro a quadro",
+        "dificil": "Artista do movimento desenhado"
+      }
+    },
+    {
+      "palavra": "CARICATURA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Desenho que exagera o jeito da pessoa",
+        "media": "Retrato exagerado e engraçado",
+        "dificil": "Nariz grande e cabeça enorme no papel"
+      }
+    },
+    {
+      "palavra": "NANQUIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tinta preta usada para contornar desenhos",
+        "media": "Tinta da China",
+        "dificil": "Nome vem de uma cidade chinesa"
+      }
+    },
+    {
+      "palavra": "MANGÁ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quadrinho que vem do Japão",
+        "media": "HQ japonesa",
+        "dificil": "Lido de trás para a frente"
+      }
+    },
+    {
+      "palavra": "ANIME",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Desenho animado japonês",
+        "media": "Animação do Japão",
+        "dificil": "Primo do mangá na TV"
+      }
+    },
+    {
+      "palavra": "ONOMATOPEIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Palavra que imita som, como \"pow!\" e \"crash!\"",
+        "media": "Palavra que reproduz um ruído",
+        "dificil": "\"Tic-tac\" é exemplo"
+      }
+    },
+    {
+      "palavra": "CELULOIDE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Folha transparente das animações antigas",
+        "media": "Acetato pintado à mão",
+        "dificil": "Plástico do cinema antigo"
+      }
+    },
+    {
+      "palavra": "ROTOSCOPIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Desenhar por cima de cenas filmadas",
+        "media": "Decalque de filmagens reais",
+        "dificil": "Inventada por Max Fleischer"
+      }
+    }
+  ]
+}

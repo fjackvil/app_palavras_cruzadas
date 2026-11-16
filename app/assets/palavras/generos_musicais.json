@@ -1,0 +1,440 @@
+{
+  "tema": "Gêneros musicais",
+  "categoria": "Música",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ROCK",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música de guitarra elétrica e bateria",
+        "media": "Gênero nascido nos EUA nos anos 1950",
+        "dificil": "Elvis era chamado de rei dele"
+      }
+    },
+    {
+      "palavra": "SAMBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo do Carnaval do Rio",
+        "media": "Gênero com pandeiro, cavaquinho e surdo",
+        "dificil": "\"Pelo Telefone\", de 1916, foi o primeiro registrado"
+      }
+    },
+    {
+      "palavra": "FORRÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de par com sanfona, zabumba e triângulo",
+        "media": "Gênero nordestino das festas juninas",
+        "dificil": "Luiz Gonzaga é seu grande nome"
+      }
+    },
+    {
+      "palavra": "POP",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música feita para tocar no rádio e agradar a todos",
+        "media": "Gênero comercial de refrões fáceis",
+        "dificil": "Michael Jackson foi chamado de rei dele"
+      }
+    },
+    {
+      "palavra": "VALSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança das festas de 15 anos",
+        "media": "Dança em compasso de três tempos",
+        "dificil": "Strauss compôs \"O Danúbio Azul\""
+      }
+    },
+    {
+      "palavra": "FREVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo de Recife dançado com sombrinha colorida",
+        "media": "Dança acelerada do Carnaval pernambucano",
+        "dificil": "Patrimônio Imaterial da Humanidade desde 2012"
+      }
+    },
+    {
+      "palavra": "AXÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música animada do Carnaval da Bahia",
+        "media": "Gênero baiano dos trios elétricos",
+        "dificil": "Saudação iorubá que quer dizer energia"
+      }
+    },
+    {
+      "palavra": "RAP",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música falada com rimas e batida",
+        "media": "Canto ritmado do hip-hop",
+        "dificil": "\"Ritmo e poesia\", pela sigla em inglês"
+      }
+    },
+    {
+      "palavra": "PAGODE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Samba tocado em roda com amigos",
+        "media": "Vertente do samba de fundo de quintal",
+        "dificil": "Cacique de Ramos ajudou a criar o estilo"
+      }
+    },
+    {
+      "palavra": "ÓPERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Teatro em que tudo é cantado",
+        "media": "Drama musical com orquestra",
+        "dificil": "\"Carmen\" e \"A Flauta Mágica\" são exemplos"
+      }
+    },
+    {
+      "palavra": "TANGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de par da Argentina",
+        "media": "Gênero de Buenos Aires com bandoneón",
+        "dificil": "Carlos Gardel é seu ídolo"
+      }
+    },
+    {
+      "palavra": "BAIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo nordestino tocado na sanfona",
+        "media": "Gênero popularizado por Luiz Gonzaga",
+        "dificil": "Gonzagão era o rei dele"
+      }
+    },
+    {
+      "palavra": "HINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música que se canta em pé para a bandeira",
+        "media": "Canção solene de uma nação",
+        "dificil": "O do Brasil tem letra de Osório Duque-Estrada"
+      }
+    },
+    {
+      "palavra": "CORAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de pessoas que canta junto",
+        "media": "Conjunto de cantores",
+        "dificil": "Também é um bicho que forma recifes"
+      }
+    },
+    {
+      "palavra": "CANTIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música de roda das crianças",
+        "media": "Canção popular simples",
+        "dificil": "A de ninar faz o bebê dormir"
+      }
+    },
+    {
+      "palavra": "SERTANEJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música com viola caipira e duplas",
+        "media": "Gênero de duplas do interior",
+        "dificil": "Nasceu da música caipira"
+      }
+    },
+    {
+      "palavra": "MARCHINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música curtinha dos bailes de Carnaval",
+        "media": "Gênero dos salões carnavalescos",
+        "dificil": "\"Mamãe Eu Quero\" é exemplo"
+      }
+    },
+    {
+      "palavra": "JAZZ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música de improviso com saxofone e trompete",
+        "media": "Gênero nascido em Nova Orleans",
+        "dificil": "Louis Armstrong foi uma estrela dele"
+      }
+    },
+    {
+      "palavra": "BLUES",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música americana triste com guitarra",
+        "media": "Gênero afro-americano de lamento",
+        "dificil": "B. B. King era o rei dele"
+      }
+    },
+    {
+      "palavra": "REGGAE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música da Jamaica com batida tranquila",
+        "media": "Gênero jamaicano",
+        "dificil": "Bob Marley é seu maior nome"
+      }
+    },
+    {
+      "palavra": "FADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Canção cheia de saudade de Portugal",
+        "media": "Gênero tradicional de Lisboa",
+        "dificil": "Amália Rodrigues foi sua rainha"
+      }
+    },
+    {
+      "palavra": "BOLERO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música romântica lenta para dançar juntinho",
+        "media": "Gênero romântico latino",
+        "dificil": "Também é peça orquestral de Ravel"
+      }
+    },
+    {
+      "palavra": "LAMBADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dança animada que veio do Pará",
+        "media": "Ritmo paraense que virou febre em 1989",
+        "dificil": "Dança de par com saia rodada"
+      }
+    },
+    {
+      "palavra": "GOSPEL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música cristã cantada com fé",
+        "media": "Gênero religioso de origem afro-americana",
+        "dificil": "Nasceu nas igrejas negras dos EUA"
+      }
+    },
+    {
+      "palavra": "SALSA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dança caribenha bem animada",
+        "media": "Ritmo latino de Cuba e Nova York",
+        "dificil": "Também é tempero verde"
+      }
+    },
+    {
+      "palavra": "FLAMENCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dança espanhola com palmas e sapateado",
+        "media": "Gênero da Andaluzia",
+        "dificil": "Tem castanholas e violão"
+      }
+    },
+    {
+      "palavra": "MARACATU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cortejo de Pernambuco com tambores, rei e rainha",
+        "media": "Ritmo pernambucano de alfaias",
+        "dificil": "Tem nação e corte coroada"
+      }
+    },
+    {
+      "palavra": "CHORINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música instrumental com flauta e cavaquinho",
+        "media": "Gênero de Pixinguinha",
+        "dificil": "\"Carinhoso\" é o mais famoso"
+      }
+    },
+    {
+      "palavra": "METAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rock bem pesado e barulhento",
+        "media": "Rock de guitarras distorcidas",
+        "dificil": "Também é ferro, cobre ou ouro"
+      }
+    },
+    {
+      "palavra": "DISCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música dançante dos anos 1970 com bola espelhada",
+        "media": "Gênero das pistas de dança setentistas",
+        "dificil": "Também é o LP de vinil"
+      }
+    },
+    {
+      "palavra": "HIP-HOP",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cultura do rap, do grafite e do break",
+        "media": "Movimento nascido no Bronx",
+        "dificil": "Une DJ, MC, break e grafite"
+      }
+    },
+    {
+      "palavra": "BOSSA NOVA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música calma do Rio com violão",
+        "media": "Gênero de Tom Jobim e João Gilberto",
+        "dificil": "\"Garota de Ipanema\" é exemplo"
+      }
+    },
+    {
+      "palavra": "ELETRÔNICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música feita com computador e sintetizador",
+        "media": "Gênero dos DJs",
+        "dificil": "Toca nas pistas com batidas sintéticas"
+      }
+    },
+    {
+      "palavra": "XOTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dança nordestina de dois pra lá, dois pra cá",
+        "media": "Ritmo do forró pé de serra",
+        "dificil": "Vem do schottische europeu"
+      }
+    },
+    {
+      "palavra": "COCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dança de roda nordestina com palmas e tamancos",
+        "media": "Ritmo do litoral nordestino",
+        "dificil": "Também é a fruta"
+      }
+    },
+    {
+      "palavra": "COUNTRY",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Música de caubói dos Estados Unidos",
+        "media": "Gênero rural americano",
+        "dificil": "Nashville é sua capital"
+      }
+    },
+    {
+      "palavra": "SOUL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Música negra americana cheia de emoção",
+        "media": "Gênero de Aretha Franklin",
+        "dificil": "Em inglês, quer dizer alma"
+      }
+    },
+    {
+      "palavra": "CUMBIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ritmo dançante da Colômbia",
+        "media": "Gênero colombiano",
+        "dificil": "Popular em toda a América Latina"
+      }
+    },
+    {
+      "palavra": "MERENGUE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dança da República Dominicana",
+        "media": "Ritmo dominicano",
+        "dificil": "Também é doce de clara batida"
+      }
+    },
+    {
+      "palavra": "POLCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dança animada de pares em dois tempos",
+        "media": "Dança de origem tcheca do século 19",
+        "dificil": "Embalou os salões do Império"
+      }
+    },
+    {
+      "palavra": "MAMBO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ritmo cubano dos anos 1950",
+        "media": "Gênero de Pérez Prado",
+        "dificil": "Dança de Havana"
+      }
+    },
+    {
+      "palavra": "PUNK",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Rock rápido e rebelde dos anos 1970",
+        "media": "Gênero de jaqueta e moicano",
+        "dificil": "Ramones é exemplo"
+      }
+    },
+    {
+      "palavra": "BARROCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Música antiga de Bach",
+        "media": "Estilo de Bach e Vivaldi",
+        "dificil": "Período musical de 1600 a 1750"
+      }
+    },
+    {
+      "palavra": "CARIMBÓ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dança de saia rodada do Pará",
+        "media": "Ritmo paraense de tambores",
+        "dificil": "Patrimônio cultural do Brasil desde 2014"
+      }
+    },
+    {
+      "palavra": "REPENTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Versos inventados na hora com viola",
+        "media": "Desafio improvisado nordestino",
+        "dificil": "Também quer dizer \"de súbito\""
+      }
+    },
+    {
+      "palavra": "GREGORIANO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Canto antigo dos monges",
+        "media": "Canto litúrgico medieval sem instrumentos",
+        "dificil": "Leva o nome de um papa"
+      }
+    },
+    {
+      "palavra": "LUNDU",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Dança antiga de origem africana no Brasil",
+        "media": "Gênero afro-brasileiro do período colonial",
+        "dificil": "Um dos ancestrais do samba"
+      }
+    },
+    {
+      "palavra": "MODINHA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Canção romântica do Brasil antigo",
+        "media": "Canção sentimental de salão do século 18",
+        "dificil": "Domingos Caldas Barbosa a levou a Lisboa"
+      }
+    }
+  ]
+}

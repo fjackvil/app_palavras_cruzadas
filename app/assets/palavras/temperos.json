@@ -1,0 +1,467 @@
+{
+  "tema": "Temperos",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pozinho branco que vem do mar",
+        "media": "Cristais de cloreto de sódio",
+        "dificil": "Tempero que não pode faltar nem sobrar"
+      }
+    },
+    {
+      "palavra": "ALHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dentinhos brancos de cheiro forte",
+        "media": "Bulbo de dentes usado no refogado",
+        "dificil": "Base do refogado do feijão, junto com a cebola"
+      }
+    },
+    {
+      "palavra": "CEBOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz chorar quando a gente corta",
+        "media": "Bulbo de camadas usado em refogados",
+        "dificil": "Pode ser roxa, branca ou pérola"
+      }
+    },
+    {
+      "palavra": "LIMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta verde e azedinha que tempera o peixe",
+        "media": "Fruta cítrica usada em molhos e marinadas",
+        "dificil": "Taiti, siciliano ou galego"
+      }
+    },
+    {
+      "palavra": "MOLHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caldo que vai por cima do macarrão",
+        "media": "Preparo líquido que acompanha pratos",
+        "dificil": "Bechamel e bolonhesa são exemplos"
+      }
+    },
+    {
+      "palavra": "CANELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pozinho marrom que vai no arroz-doce",
+        "media": "Casca aromática de árvore, em pau ou em pó",
+        "dificil": "Polvilhada no churros e no mingau"
+      }
+    },
+    {
+      "palavra": "CRAVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pontinho preto em cima do beijinho",
+        "media": "Botão de flor seco e aromático",
+        "dificil": "Vai na canjica e no doce de abóbora"
+      }
+    },
+    {
+      "palavra": "PITADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Um tiquinho de sal pego com os dedos",
+        "media": "Pequena porção pegada entre os dedos",
+        "dificil": "Medida de receita que cabe na ponta dos dedos"
+      }
+    },
+    {
+      "palavra": "AZEITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Óleo dourado que vai na salada",
+        "media": "Óleo extraído da oliva",
+        "dificil": "O extravirgem é o mais puro"
+      }
+    },
+    {
+      "palavra": "SALSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folhinha verde picada por cima da comida",
+        "media": "Erva de folhas recortadas do cheiro-verde",
+        "dificil": "Faz dupla com a cebolinha"
+      }
+    },
+    {
+      "palavra": "SABOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O gosto que a comida tem",
+        "media": "Sensação percebida pela língua",
+        "dificil": "Doce, salgado, azedo e amargo são tipos"
+      }
+    },
+    {
+      "palavra": "AZEDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sabor que faz careta, como o do limão",
+        "media": "Sabor ácido",
+        "dificil": "Diz-se do leite que estragou"
+      }
+    },
+    {
+      "palavra": "ERVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plantinha cheirosa usada para temperar",
+        "media": "Planta aromática de folhas usada na cozinha",
+        "dificil": "Manjericão e alecrim são exemplos"
+      }
+    },
+    {
+      "palavra": "ÓLEO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Líquido amarelo para fritar",
+        "media": "Gordura líquida vegetal",
+        "dificil": "O de soja é o mais usado na cozinha"
+      }
+    },
+    {
+      "palavra": "PIMENTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tempero que arde na boca",
+        "media": "Fruto picante usado como tempero",
+        "dificil": "Dedo-de-moça, malagueta ou de cheiro"
+      }
+    },
+    {
+      "palavra": "ORÉGANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folhinha seca que vai em cima da pizza",
+        "media": "Erva seca de aroma forte usada na pizza",
+        "dificil": "Tempero mediterrâneo da margherita"
+      }
+    },
+    {
+      "palavra": "CEBOLINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folha verde comprida e fininha",
+        "media": "Erva de talos verdes e ocos",
+        "dificil": "Parceira da salsinha no cheiro-verde"
+      }
+    },
+    {
+      "palavra": "MOSTARDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Molho amarelo do cachorro-quente",
+        "media": "Molho feito de sementes de uma planta",
+        "dificil": "Dijon é uma cidade famosa por ela"
+      }
+    },
+    {
+      "palavra": "MAIONESE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Molho branco e cremoso de ovo e óleo",
+        "media": "Emulsão de gemas e óleo",
+        "dificil": "Vai na salada de batata do Natal"
+      }
+    },
+    {
+      "palavra": "PIMENTÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Legume verde, amarelo ou vermelho com sementinhas",
+        "media": "Fruto oco usado em refogados",
+        "dificil": "Seco e moído, vira páprica"
+      }
+    },
+    {
+      "palavra": "SALEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Potinho de sal na mesa",
+        "media": "Recipiente de sal com furinhos",
+        "dificil": "Fica ao lado do paliteiro"
+      }
+    },
+    {
+      "palavra": "VINAGRE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Líquido azedo que tempera a salada",
+        "media": "Condimento ácido feito por fermentação",
+        "dificil": "Pode ser de maçã ou de arroz"
+      }
+    },
+    {
+      "palavra": "COENTRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folhinha verde que vai na moqueca",
+        "media": "Erva aromática muito usada no Nordeste",
+        "dificil": "Quem odeia diz que tem gosto de sabão"
+      }
+    },
+    {
+      "palavra": "HORTELÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folhinha refrescante do chá e da bala",
+        "media": "Erva aromática refrescante",
+        "dificil": "Vai no quibe e no tabule"
+      }
+    },
+    {
+      "palavra": "LOURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folha seca que vai no feijão",
+        "media": "Folha aromática usada no cozimento",
+        "dificil": "Na Grécia antiga, coroava os campeões"
+      }
+    },
+    {
+      "palavra": "COLORAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pozinho vermelho que dá cor à comida",
+        "media": "Tempero em pó feito de urucum",
+        "dificil": "Pinta de vermelho o arroz e o frango"
+      }
+    },
+    {
+      "palavra": "URUCUM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sementinha vermelha que pinta a comida",
+        "media": "Fruto de sementes vermelhas usado como corante",
+        "dificil": "Os indígenas usam para pintar o corpo"
+      }
+    },
+    {
+      "palavra": "GENGIBRE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raiz que arde e esquenta a boca",
+        "media": "Raiz picante usada em chás e pratos orientais",
+        "dificil": "Vai no chá contra a gripe"
+      }
+    },
+    {
+      "palavra": "AÇAFRÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tempero que deixa o arroz amarelinho",
+        "media": "Estigma de flor seco, tempero caríssimo",
+        "dificil": "Dá cor dourada à paella"
+      }
+    },
+    {
+      "palavra": "PÁPRICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pozinho vermelho feito de pimentão",
+        "media": "Pimentão seco e moído",
+        "dificil": "Pode ser doce ou defumada"
+      }
+    },
+    {
+      "palavra": "COMINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sementinha de cheiro forte que vai no feijão",
+        "media": "Semente aromática de tempero",
+        "dificil": "Marca da comida árabe e mexicana"
+      }
+    },
+    {
+      "palavra": "ALECRIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raminho cheiroso que vai na batata assada",
+        "media": "Erva de folhas finas como agulhas",
+        "dificil": "Erva dourada da cantiga de roda"
+      }
+    },
+    {
+      "palavra": "MANJERICÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folha verde que vai na pizza margherita",
+        "media": "Erva aromática de folhas largas e macias",
+        "dificil": "Base do pesto genovês"
+      }
+    },
+    {
+      "palavra": "DENDÊ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Óleo laranja da comida baiana",
+        "media": "Óleo de palmeira usado no acarajé",
+        "dificil": "Azeite que dá cor à moqueca baiana"
+      }
+    },
+    {
+      "palavra": "MALAGUETA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pimentinha vermelha e ardida",
+        "media": "Pimenta pequena e muito picante",
+        "dificil": "Ardida e famosa no molho de pimenta baiano"
+      }
+    },
+    {
+      "palavra": "CHEIRO-VERDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mistura de salsinha e cebolinha",
+        "media": "Maço de salsa e cebolinha usado para temperar",
+        "dificil": "Vai picadinho no feijão e na sopa"
+      }
+    },
+    {
+      "palavra": "GERGELIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sementinha que vai por cima do pão de hambúrguer",
+        "media": "Semente oleaginosa usada em pães",
+        "dificil": "Vira o tahine árabe"
+      }
+    },
+    {
+      "palavra": "VINAGRETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Molhinho de tomate e cebola picados",
+        "media": "Molho de tomate, cebola, azeite e um tempero ácido",
+        "dificil": "Acompanha o churrasco"
+      }
+    },
+    {
+      "palavra": "CÚRCUMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Raiz amarela que pinta a comida",
+        "media": "Raiz amarela também chamada açafrão-da-terra",
+        "dificil": "Dá cor ao curry indiano"
+      }
+    },
+    {
+      "palavra": "NOZ-MOSCADA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sementinha ralada que perfuma o purê",
+        "media": "Semente aromática ralada sobre molhos",
+        "dificil": "Vai no molho branco bechamel"
+      }
+    },
+    {
+      "palavra": "TOMILHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Erva miudinha de cheiro forte",
+        "media": "Erva aromática de folhas minúsculas",
+        "dificil": "Faz parte das ervas de Provence"
+      }
+    },
+    {
+      "palavra": "SÁLVIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Folha aveludada e cheirosa",
+        "media": "Erva de folhas aveludadas e acinzentadas",
+        "dificil": "Combina com manteiga e nhoque"
+      }
+    },
+    {
+      "palavra": "ESTRAGÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Erva de folhas finas com gosto de anis",
+        "media": "Erva aromática da cozinha francesa",
+        "dificil": "Vai no molho bearnês"
+      }
+    },
+    {
+      "palavra": "ENDRO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Erva fininha que vai com peixe",
+        "media": "Erva de folhas finas parecida com o funcho",
+        "dificil": "Tempero de picles na cozinha nórdica"
+      }
+    },
+    {
+      "palavra": "CARDAMOMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sementinha cheirosa da comida indiana",
+        "media": "Especiaria de cápsulas verdes",
+        "dificil": "Perfuma o café árabe e o chai indiano"
+      }
+    },
+    {
+      "palavra": "TUCUPI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Caldo amarelo da mandioca brava, do Pará",
+        "media": "Caldo fermentado extraído da mandioca",
+        "dificil": "Base do tacacá e do pato paraense"
+      }
+    },
+    {
+      "palavra": "JAMBU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Folha que faz a boca tremer",
+        "media": "Erva amazônica que adormece a língua",
+        "dificil": "Vai no tacacá e no pato no tucupi"
+      }
+    },
+    {
+      "palavra": "ALCAPARRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bolinha verde e azedinha em conserva",
+        "media": "Botão de flor em conserva",
+        "dificil": "Vai no molho de peixe e na salada mediterrânea"
+      }
+    },
+    {
+      "palavra": "SALMOURA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Água com bastante sal para conservar",
+        "media": "Solução de água e sal",
+        "dificil": "Banho salgado que conserva azeitonas"
+      }
+    },
+    {
+      "palavra": "MARINADA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Molho onde a carne descansa antes de assar",
+        "media": "Mistura que tempera a carne antes do preparo",
+        "dificil": "Banho de tempero que amacia a carne"
+      }
+    },
+    {
+      "palavra": "CHIMICHURRI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Molho verde argentino do churrasco",
+        "media": "Molho de salsinha, alho e orégano",
+        "dificil": "Tempero portenho das carnes assadas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "tema": "Atores e diretores",
+  "categoria": "Cinema e TV",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem que interpreta personagens",
+        "media": "Intérprete masculino",
+        "dificil": "Profissão de quem vive outras vidas em cena"
+      }
+    },
+    {
+      "palavra": "ATRIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher que interpreta personagens",
+        "media": "Intérprete feminina",
+        "dificil": "Profissão de quem vive outras vidas em cena, no feminino"
+      }
+    },
+    {
+      "palavra": "CENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedaço da história gravado de uma vez",
+        "media": "Trecho de um filme ou peça",
+        "dificil": "Fazer uma é dar escândalo"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O personagem que cabe a cada um",
+        "media": "Personagem interpretado",
+        "dificil": "O principal é cobiçado no teste"
+      }
+    },
+    {
+      "palavra": "PALCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar alto onde os artistas se apresentam",
+        "media": "Tablado do teatro",
+        "dificil": "Onde se pisa ao subir em cena"
+      }
+    },
+    {
+      "palavra": "TEATRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde se assistem peças ao vivo",
+        "media": "Arte cênica",
+        "dificil": "Berço de muitos atores"
+      }
+    },
+    {
+      "palavra": "FAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando muita gente conhece você",
+        "media": "Celebridade",
+        "dificil": "Vem com tapete vermelho e fotógrafos"
+      }
+    },
+    {
+      "palavra": "PRÊMIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Troféu dado a quem se destaca",
+        "media": "Láurea",
+        "dificil": "Agradecido em discurso emocionado"
+      }
+    },
+    {
+      "palavra": "CÂMERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que grava as imagens",
+        "media": "Equipamento de filmagem",
+        "dificil": "Olhar para ela quebra a quarta parede"
+      }
+    },
+    {
+      "palavra": "FOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Imagem tirada com celular ou máquina",
+        "media": "Retrato",
+        "dificil": "Pedida pelos fãs na saída"
+      }
+    },
+    {
+      "palavra": "TAPETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O vermelho recebe os artistas na festa",
+        "media": "Passadeira da cerimônia",
+        "dificil": "Por onde os astros desfilam"
+      }
+    },
+    {
+      "palavra": "PALMAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bater as mãos para aplaudir",
+        "media": "Aplausos",
+        "dificil": "O que a plateia oferece no fim"
+      }
+    },
+    {
+      "palavra": "AÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Palavra que o diretor grita para começar",
+        "media": "Gênero de perseguições e lutas",
+        "dificil": "Oposto de \"corta!\""
+      }
+    },
+    {
+      "palavra": "FILME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "História gravada que passa no cinema",
+        "media": "Obra cinematográfica",
+        "dificil": "Pode ser longa ou curta"
+      }
+    },
+    {
+      "palavra": "VOZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Som da fala de cada pessoa",
+        "media": "Timbre de quem fala",
+        "dificil": "Instrumento do dublador"
+      }
+    },
+    {
+      "palavra": "DIRETOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que comanda as gravações",
+        "media": "Quem comanda a equipe de filmagem",
+        "dificil": "Senta na cadeira com o nome nas costas"
+      }
+    },
+    {
+      "palavra": "ESTRELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Artista muito famoso",
+        "media": "Astro do cinema",
+        "dificil": "Também brilha no céu à noite"
+      }
+    },
+    {
+      "palavra": "CAMARIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Salinha onde o artista se arruma",
+        "media": "Sala de preparação dos atores",
+        "dificil": "Tem espelho cercado de lâmpadas"
+      }
+    },
+    {
+      "palavra": "FIGURINO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupas usadas em cena",
+        "media": "Vestuário dos personagens",
+        "dificil": "Criação do figurinista para cada papel"
+      }
+    },
+    {
+      "palavra": "CENÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar montado para a gravação",
+        "media": "Ambientação de cena",
+        "dificil": "Pode ser só fachada"
+      }
+    },
+    {
+      "palavra": "ROTEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto com as falas",
+        "media": "Script",
+        "dificil": "O ator o decora"
+      }
+    },
+    {
+      "palavra": "ELENCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Todos os atores da obra",
+        "media": "Conjunto de intérpretes",
+        "dificil": "Escolhido nos testes"
+      }
+    },
+    {
+      "palavra": "ENSAIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Treino antes da apresentação",
+        "media": "Preparação da peça",
+        "dificil": "O geral vem antes da estreia"
+      }
+    },
+    {
+      "palavra": "PLATEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Público que assiste",
+        "media": "Audiência presente",
+        "dificil": "Aplaude no fim do espetáculo"
+      }
+    },
+    {
+      "palavra": "DUBLÊ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem faz as cenas perigosas no lugar do ator",
+        "media": "Substituto em cenas de risco",
+        "dificil": "Salta, cai e ninguém vê o rosto"
+      }
+    },
+    {
+      "palavra": "CHAPLIN",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ator do bigodinho e chapéu-coco no cinema mudo",
+        "media": "Criador do vagabundo Carlitos",
+        "dificil": "Dirigiu e estrelou \"Tempos Modernos\" (1936)"
+      }
+    },
+    {
+      "palavra": "ARAGÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Renato, o Didi dos Trapalhões",
+        "media": "Humorista cearense criador do Didi Mocó",
+        "dificil": "Sobrenome do Renato de Sobral"
+      }
+    },
+    {
+      "palavra": "AUTÓGRAFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Assinatura que o fã pede ao artista",
+        "media": "Rubrica de famoso",
+        "dificil": "Caçado com caneta e caderninho"
+      }
+    },
+    {
+      "palavra": "HANKS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tom, ator de \"Forrest Gump\"",
+        "media": "Ator americano de \"Náufrago\" (2000)",
+        "dificil": "Deu voz em inglês ao caubói de \"Toy Story\""
+      }
+    },
+    {
+      "palavra": "MONROE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Marilyn, estrela loira dos anos 1950",
+        "media": "Atriz de \"Os Homens Preferem as Loiras\"",
+        "dificil": "Cantou \"Parabéns\" a Kennedy em 1962"
+      }
+    },
+    {
+      "palavra": "SPIELBERG",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Diretor do filme do extraterrestre E.T.",
+        "media": "Diretor americano de \"Tubarão\" (1975)",
+        "dificil": "Dirigiu \"A Lista de Schindler\" (1993)"
+      }
+    },
+    {
+      "palavra": "HITCHCOCK",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Diretor famoso pelos filmes de suspense",
+        "media": "Diretor britânico de \"Psicose\" (1960)",
+        "dificil": "Aparecia rapidinho nos próprios filmes"
+      }
+    },
+    {
+      "palavra": "TARANTINO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quentin, diretor de \"Pulp Fiction\"",
+        "media": "Diretor americano de \"Bastardos Inglórios\"",
+        "dificil": "Ganhou a Palma de Ouro em 1994"
+      }
+    },
+    {
+      "palavra": "GLAUBER",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Diretor baiano do Cinema Novo",
+        "media": "Cineasta de \"Deus e o Diabo na Terra do Sol\"",
+        "dificil": "\"Uma câmera na mão e uma ideia na cabeça\""
+      }
+    },
+    {
+      "palavra": "MONTENEGRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fernanda, grande dama do teatro brasileiro",
+        "media": "Indicada ao Oscar por \"Central do Brasil\"",
+        "dificil": "Mãe de Fernanda Torres"
+      }
+    },
+    {
+      "palavra": "TORRES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fernanda, atriz de \"Ainda Estou Aqui\" (2024)",
+        "media": "Ganhou o Globo de Ouro de melhor atriz em 2025",
+        "dificil": "Filha de Fernanda Montenegro"
+      }
+    },
+    {
+      "palavra": "SALLES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Walter, diretor de \"Central do Brasil\"",
+        "media": "Diretor de \"Ainda Estou Aqui\" (2024)",
+        "dificil": "Deu ao Brasil o primeiro Oscar de filme internacional"
+      }
+    },
+    {
+      "palavra": "MEIRELLES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fernando, diretor de \"Cidade de Deus\"",
+        "media": "Indicado ao Oscar de direção em 2004",
+        "dificil": "Dirigiu \"Dois Papas\" (2019)"
+      }
+    },
+    {
+      "palavra": "MAZZAROPI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Comediante do caipira Jeca nos cinemas",
+        "media": "Ator e produtor de \"Jeca Tatu\" (1959)",
+        "dificil": "Rei das bilheterias caipiras"
+      }
+    },
+    {
+      "palavra": "OSCARITO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Comediante das chanchadas da Atlântida",
+        "media": "Parceiro de Grande Otelo",
+        "dificil": "Nasceu em Málaga, na Espanha"
+      }
+    },
+    {
+      "palavra": "ALMODÓVAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pedro, diretor espanhol de filmes coloridos",
+        "media": "Diretor de \"Tudo Sobre Minha Mãe\"",
+        "dificil": "Cineasta de La Mancha"
+      }
+    },
+    {
+      "palavra": "LUMIÈRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sobrenome dos irmãos que inventaram o cinematógrafo",
+        "media": "Irmãos franceses pioneiros",
+        "dificil": "Fizeram a primeira sessão paga em Paris, 1895"
+      }
+    },
+    {
+      "palavra": "KUBRICK",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Stanley, diretor de \"2001: Uma Odisseia no Espaço\"",
+        "media": "Diretor de \"O Iluminado\" (1980)",
+        "dificil": "Perfeccionista de \"Laranja Mecânica\""
+      }
+    },
+    {
+      "palavra": "FELLINI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Federico, diretor italiano de \"Amarcord\"",
+        "media": "Cineasta de \"A Doce Vida\" (1960)",
+        "dificil": "Diretor de \"Oito e Meio\""
+      }
+    },
+    {
+      "palavra": "COPPOLA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Francis Ford, diretor de \"O Poderoso Chefão\"",
+        "media": "Diretor de \"Apocalypse Now\" (1979)",
+        "dificil": "Pai da diretora Sofia"
+      }
+    },
+    {
+      "palavra": "SCORSESE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Martin, diretor de \"Taxi Driver\"",
+        "media": "Venceu o Oscar por \"Os Infiltrados\"",
+        "dificil": "Cineasta nova-iorquino de origem italiana"
+      }
+    },
+    {
+      "palavra": "KUROSAWA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Akira, diretor de \"Os Sete Samurais\"",
+        "media": "Mestre japonês do cinema",
+        "dificil": "Dirigiu \"Rashomon\" (1950)"
+      }
+    },
+    {
+      "palavra": "BERGMAN",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ingmar, diretor sueco de \"O Sétimo Selo\"",
+        "media": "Cineasta de \"Morangos Silvestres\"",
+        "dificil": "Também sobrenome de Ingrid, de \"Casablanca\""
+      }
+    },
+    {
+      "palavra": "STREEP",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Meryl, atriz de \"O Diabo Veste Prada\"",
+        "media": "Recordista de indicações ao Oscar de atuação",
+        "dificil": "Fez Margaret Thatcher em \"A Dama de Ferro\""
+      }
+    }
+  ]
+}

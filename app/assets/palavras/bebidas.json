@@ -1,0 +1,440 @@
+{
+  "tema": "Bebidas",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SUCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida feita de fruta espremida",
+        "media": "Bebida de polpa ou caldo de fruta",
+        "dificil": "De laranja, uva ou maracujá"
+      }
+    },
+    {
+      "palavra": "ÁGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida sem cor que mata a sede",
+        "media": "Líquido incolor essencial à vida",
+        "dificil": "Mineral, com gás ou sem gás"
+      }
+    },
+    {
+      "palavra": "LEITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida branca que vem da vaca",
+        "media": "Bebida rica em cálcio",
+        "dificil": "Pode ser integral ou desnatado, de caixinha"
+      }
+    },
+    {
+      "palavra": "CHÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida de folhas na água quente",
+        "media": "Infusão de ervas ou folhas",
+        "dificil": "O de camomila ajuda a dormir"
+      }
+    },
+    {
+      "palavra": "CAFÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida preta e quente que os adultos tomam de manhã",
+        "media": "Bebida de grãos torrados e moídos",
+        "dificil": "Expresso, coado ou com leite"
+      }
+    },
+    {
+      "palavra": "GELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cubinho frio que vai no copo",
+        "media": "Água congelada",
+        "dificil": "Pedra que derrete no suco"
+      }
+    },
+    {
+      "palavra": "COPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde se coloca a bebida para tomar",
+        "media": "Recipiente para beber",
+        "dificil": "De vidro, de plástico ou americano"
+      }
+    },
+    {
+      "palavra": "JARRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vasilha com bico para servir suco",
+        "media": "Recipiente com alça e bico",
+        "dificil": "Leva o refresco à mesa"
+      }
+    },
+    {
+      "palavra": "CANUDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tubinho para sugar a bebida",
+        "media": "Tubo fino para beber",
+        "dificil": "Os de papel substituem os de plástico"
+      }
+    },
+    {
+      "palavra": "XÍCARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Copinho com asa para o café ou chá",
+        "media": "Recipiente pequeno com asa",
+        "dificil": "Vem acompanhada de pires"
+      }
+    },
+    {
+      "palavra": "CANECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Copo grande com alça",
+        "media": "Recipiente de beber com asa, maior que a xícara",
+        "dificil": "Boa para o chocolate quente"
+      }
+    },
+    {
+      "palavra": "SEDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vontade de beber água",
+        "media": "Necessidade de tomar líquidos",
+        "dificil": "O deserto dá muita"
+      }
+    },
+    {
+      "palavra": "GOLE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Um pouquinho de bebida de uma vez",
+        "media": "Quantidade bebida de uma só vez",
+        "dificil": "Pede-se só um para provar a bebida do outro"
+      }
+    },
+    {
+      "palavra": "FILTRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Limpa a água antes de beber",
+        "media": "Aparelho que retira impurezas da água",
+        "dificil": "O de papel também serve para o café"
+      }
+    },
+    {
+      "palavra": "LIMONADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Suco de limão com água e açúcar",
+        "media": "Refresco de limão adoçado",
+        "dificil": "A suíça é batida com a casca"
+      }
+    },
+    {
+      "palavra": "VITAMINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta batida com leite no liquidificador",
+        "media": "Batida de frutas com leite",
+        "dificil": "De banana com aveia, é um café da manhã"
+      }
+    },
+    {
+      "palavra": "REFRIGERANTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida doce com bolinhas de gás",
+        "media": "Bebida gaseificada e adoçada",
+        "dificil": "Faz bolinhas e cócegas no nariz"
+      }
+    },
+    {
+      "palavra": "ACHOCOLATADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Leite com chocolate em pó",
+        "media": "Bebida de leite com cacau",
+        "dificil": "Clássico do lanche da escola"
+      }
+    },
+    {
+      "palavra": "GARRAFA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Recipiente de gargalo para guardar bebida",
+        "media": "Vasilha de vidro ou plástico com gargalo",
+        "dificil": "A térmica mantém o café quente"
+      }
+    },
+    {
+      "palavra": "GUARANÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta da Amazônia que vira refrigerante",
+        "media": "Fruto amazônico rico em cafeína",
+        "dificil": "Os indígenas sateré-mawé cultivam há séculos"
+      }
+    },
+    {
+      "palavra": "REFRESCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida fresquinha de fruta com água e açúcar",
+        "media": "Bebida gelada e diluída de fruta",
+        "dificil": "Groselha com água é um exemplo"
+      }
+    },
+    {
+      "palavra": "LARANJADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Suco da fruta cítrica mais comum na feira",
+        "media": "Refresco de fruta cítrica, como a pera e a baía",
+        "dificil": "Prima cítrica da limonada"
+      }
+    },
+    {
+      "palavra": "ÁGUA DE COCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida transparente que sai de dentro do coco verde",
+        "media": "Líquido natural do coco verde",
+        "dificil": "Isotônico natural da praia"
+      }
+    },
+    {
+      "palavra": "MAMADEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Garrafinha do bebê para tomar leite",
+        "media": "Frasco com bico de borracha para bebês",
+        "dificil": "Companheira do bebê na hora da fome"
+      }
+    },
+    {
+      "palavra": "MATE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chá gelado vendido nas praias do Rio",
+        "media": "Chá feito com erva tostada do Sul",
+        "dificil": "Com limão, é o refresco dos ambulantes cariocas"
+      }
+    },
+    {
+      "palavra": "GARAPA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Suco verde tirado da cana",
+        "media": "O mesmo que caldo de cana",
+        "dificil": "Combina com pastel na feira"
+      }
+    },
+    {
+      "palavra": "CHIMARRÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chá quente que os gaúchos tomam na cuia",
+        "media": "Infusão de erva-mate tomada na cuia com bomba",
+        "dificil": "Hábito gaúcho compartilhado na roda"
+      }
+    },
+    {
+      "palavra": "EXPRESSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cafezinho forte feito na máquina",
+        "media": "Café forte feito sob pressão",
+        "dificil": "Servido em xícara pequena, nasceu na Itália"
+      }
+    },
+    {
+      "palavra": "CAMOMILA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chá de florzinha que acalma",
+        "media": "Flor de chá calmante",
+        "dificil": "Margaridinha do chá de antes de dormir"
+      }
+    },
+    {
+      "palavra": "CHALEIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Panela com bico para ferver água",
+        "media": "Recipiente de ferver água para o chá",
+        "dificil": "Apita quando a água ferve"
+      }
+    },
+    {
+      "palavra": "ESPREMEDOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que tira o suco da laranja",
+        "media": "Utensílio para extrair suco de frutas cítricas",
+        "dificil": "Pode ser manual ou elétrico, de cone"
+      }
+    },
+    {
+      "palavra": "GROSELHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Xarope vermelho que se mistura com água",
+        "media": "Fruta vermelha que vira xarope",
+        "dificil": "Com leite, vira bebida cor-de-rosa"
+      }
+    },
+    {
+      "palavra": "GEMADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte amarela do ovo batida com açúcar e leite quente",
+        "media": "Bebida de ovo batido com açúcar e leite",
+        "dificil": "Remédio de vó para a gripe"
+      }
+    },
+    {
+      "palavra": "POLPA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte da fruta que vira suco congelado",
+        "media": "Massa da fruta usada para suco",
+        "dificil": "Vende-se congelada em saquinhos"
+      }
+    },
+    {
+      "palavra": "COADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pano ou papel que separa o pó do café",
+        "media": "Utensílio para filtrar o café",
+        "dificil": "O de pano é o tradicional"
+      }
+    },
+    {
+      "palavra": "CANTIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Garrafinha que se leva em trilhas",
+        "media": "Recipiente de água para viagem e acampamento",
+        "dificil": "Companheiro do escoteiro"
+      }
+    },
+    {
+      "palavra": "CUIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vasilha onde se toma chimarrão",
+        "media": "Cabaça usada para o chimarrão",
+        "dificil": "Também serve o tacacá no Pará"
+      }
+    },
+    {
+      "palavra": "BULE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vasilha com bico e tampa para servir chá",
+        "media": "Recipiente de servir chá ou café",
+        "dificil": "Tem tampa, alça e bico"
+      }
+    },
+    {
+      "palavra": "TERERÉ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mate gelado do Mato Grosso do Sul",
+        "media": "Infusão de erva-mate em água fria",
+        "dificil": "Herança paraguaia tomada no calor"
+      }
+    },
+    {
+      "palavra": "CAJUÍNA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Suco clarinho de caju do Piauí",
+        "media": "Bebida de caju clarificada e cozida",
+        "dificil": "Patrimônio do Piauí, cantada por Caetano Veloso"
+      }
+    },
+    {
+      "palavra": "ISOTÔNICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bebida dos atletas para repor sais",
+        "media": "Bebida que repõe sais minerais",
+        "dificil": "Ajuda a hidratar depois do esporte"
+      }
+    },
+    {
+      "palavra": "KEFIR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Leite azedinho fermentado com grãozinhos",
+        "media": "Leite fermentado por grãos de bactérias e leveduras",
+        "dificil": "Bebida originária do Cáucaso"
+      }
+    },
+    {
+      "palavra": "LASSI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Bebida de iogurte da Índia",
+        "media": "Iogurte batido indiano, doce ou salgado",
+        "dificil": "De manga é a versão mais famosa"
+      }
+    },
+    {
+      "palavra": "INFUSÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Água quente com ervas de molho",
+        "media": "Bebida de ervas deixadas em água quente",
+        "dificil": "Chá é o exemplo mais comum"
+      }
+    },
+    {
+      "palavra": "DESCAFEINADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Café que não tira o sono",
+        "media": "Café sem a substância estimulante",
+        "dificil": "Opção para quem toma café à noite"
+      }
+    },
+    {
+      "palavra": "HIDRATAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O que a água faz pelo corpo",
+        "media": "Reposição de água no organismo",
+        "dificil": "Cuidado essencial nos dias quentes"
+      }
+    },
+    {
+      "palavra": "SAMOVAR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Grande chaleira de metal da Rússia",
+        "media": "Aquecedor russo de água para chá",
+        "dificil": "Peça tradicional da mesa russa"
+      }
+    },
+    {
+      "palavra": "TISANA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Chá de ervas, sem folhas de chá",
+        "media": "Infusão de ervas medicinais",
+        "dificil": "Nome francês para chá de ervas"
+      }
+    }
+  ]
+}

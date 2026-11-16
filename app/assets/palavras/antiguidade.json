@@ -1,0 +1,458 @@
+{
+  "tema": "Antiguidade",
+  "categoria": "História",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "FARAÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rei do antigo Egito",
+        "media": "Soberano egípcio visto como um deus",
+        "dificil": "Título de Ramsés II"
+      }
+    },
+    {
+      "palavra": "MÚMIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Corpo enrolado em faixas de pano",
+        "media": "Corpo preservado pelos antigos egípcios",
+        "dificil": "Encontrada dentro do sarcófago"
+      }
+    },
+    {
+      "palavra": "NILO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rio que atravessa o Egito",
+        "media": "Rio cujas cheias fertilizavam o Egito",
+        "dificil": "O Egito é dádiva dele, disse Heródoto"
+      }
+    },
+    {
+      "palavra": "ROMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cidade que virou um grande império",
+        "media": "Cidade fundada, segundo a lenda, por Rômulo",
+        "dificil": "Todos os caminhos levam a ela"
+      }
+    },
+    {
+      "palavra": "GRÉCIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das Olimpíadas antigas",
+        "media": "Terra de Atenas e Esparta",
+        "dificil": "Berço da filosofia ocidental"
+      }
+    },
+    {
+      "palavra": "EGITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "País das pirâmides",
+        "media": "Civilização às margens do Nilo",
+        "dificil": "Terra dos faraós e de Cleópatra"
+      }
+    },
+    {
+      "palavra": "ZEUS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rei dos deuses gregos, que lançava raios",
+        "media": "Deus supremo do Olimpo",
+        "dificil": "Júpiter, para os romanos"
+      }
+    },
+    {
+      "palavra": "TOGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Manto comprido usado pelos romanos",
+        "media": "Veste dos cidadãos de Roma",
+        "dificil": "Traje de lã enrolado no corpo dos senadores"
+      }
+    },
+    {
+      "palavra": "TEMPLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prédio construído para os deuses",
+        "media": "Edifício sagrado",
+        "dificil": "O Partenon é um deles"
+      }
+    },
+    {
+      "palavra": "COLUNA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pilar redondo que segura o teto",
+        "media": "Elemento da arquitetura grega",
+        "dificil": "Dórica, jônica ou coríntia"
+      }
+    },
+    {
+      "palavra": "ARENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde os romanos viam espetáculos",
+        "media": "Área central do anfiteatro",
+        "dificil": "O Coliseu tinha uma no centro"
+      }
+    },
+    {
+      "palavra": "MOEDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dinheiro redondo de metal",
+        "media": "Os lídios criaram as primeiras, de metal",
+        "dificil": "O denário era uma em Roma"
+      }
+    },
+    {
+      "palavra": "RODA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça redonda que faz a carroça andar",
+        "media": "Invenção antiga da Mesopotâmia",
+        "dificil": "Gira em torno de um eixo"
+      }
+    },
+    {
+      "palavra": "TEATRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar de assistir a peças e atores",
+        "media": "Os gregos o faziam ao ar livre",
+        "dificil": "Lugar de comédias e tragédias"
+      }
+    },
+    {
+      "palavra": "VASO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pote de barro que os gregos pintavam",
+        "media": "Recipiente de cerâmica decorado",
+        "dificil": "A ânfora é um tipo dele"
+      }
+    },
+    {
+      "palavra": "PIRÂMIDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construção egípcia de base quadrada e ponta",
+        "media": "Túmulo monumental dos faraós",
+        "dificil": "A de Quéops fica em Gizé"
+      }
+    },
+    {
+      "palavra": "ESFINGE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estátua com corpo de leão e cabeça humana",
+        "media": "Monumento de Gizé que guarda as pirâmides",
+        "dificil": "Fez um enigma a Édipo, no mito grego"
+      }
+    },
+    {
+      "palavra": "MURALHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parede gigante construída na China",
+        "media": "A Grande foi iniciada contra invasores do norte",
+        "dificil": "Obra unificada por Qin Shi Huang"
+      }
+    },
+    {
+      "palavra": "ESCRITA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jeito de guardar palavras em sinais",
+        "media": "Invenção que marca o fim da Pré-História",
+        "dificil": "Cuneiforme e hieróglifos são exemplos"
+      }
+    },
+    {
+      "palavra": "OLIMPÍADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogos esportivos criados na Grécia antiga",
+        "media": "Competição em honra a Zeus desde 776 a.C.",
+        "dificil": "Disputada a cada quatro anos no santuário de Zeus"
+      }
+    },
+    {
+      "palavra": "PAPIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folha feita de planta para escrever no Egito",
+        "media": "Planta do Nilo usada para escrever",
+        "dificil": "Folha dos rolos da Biblioteca de Alexandria"
+      }
+    },
+    {
+      "palavra": "TROIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade do cavalo de madeira",
+        "media": "Cidade cercada pelos gregos na Ilíada",
+        "dificil": "Cidade de Heitor e Páris"
+      }
+    },
+    {
+      "palavra": "OLIMPO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Montanha onde moravam os deuses gregos",
+        "media": "Morada de Zeus e dos outros deuses",
+        "dificil": "Monte mais alto da Grécia"
+      }
+    },
+    {
+      "palavra": "ATENAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade grega onde nasceu a democracia",
+        "media": "Cidade da deusa da sabedoria",
+        "dificil": "Cidade do Partenon e da Acrópole"
+      }
+    },
+    {
+      "palavra": "ESPARTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade grega de guerreiros muito treinados",
+        "media": "Rival de Atenas",
+        "dificil": "Terra do rei Leônidas"
+      }
+    },
+    {
+      "palavra": "CÉSAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Famoso general e líder de Roma",
+        "media": "Júlio ___, que atravessou o Rubicão",
+        "dificil": "Disse vim, vi e venci"
+      }
+    },
+    {
+      "palavra": "LATIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Língua falada pelos romanos",
+        "media": "Idioma que deu origem ao português",
+        "dificil": "Língua de Cícero e Virgílio"
+      }
+    },
+    {
+      "palavra": "LIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento grego de cordas",
+        "media": "Harpa pequena da Grécia antiga",
+        "dificil": "Instrumento de Apolo e Orfeu"
+      }
+    },
+    {
+      "palavra": "ESCRIBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Funcionário que anotava tudo em papiro no Egito",
+        "media": "Profissional que dominava os hieróglifos",
+        "dificil": "Funcionário que registrava impostos e leis"
+      }
+    },
+    {
+      "palavra": "SENADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conselho de homens importantes de Roma",
+        "media": "Assembleia da Roma antiga",
+        "dificil": "SPQR: ele e o povo romano"
+      }
+    },
+    {
+      "palavra": "COLISEU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grande arena oval de Roma",
+        "media": "Anfiteatro Flávio",
+        "dificil": "Um dos grandes símbolos de Roma"
+      }
+    },
+    {
+      "palavra": "POMPEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade coberta pelas cinzas de um vulcão",
+        "media": "Cidade soterrada pelo Vesúvio em 79 d.C.",
+        "dificil": "Ruína romana perto de Nápoles"
+      }
+    },
+    {
+      "palavra": "ALFABETO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O conjunto das letras",
+        "media": "Os fenícios criaram um dos primeiros",
+        "dificil": "Do á ao zê, em ordem"
+      }
+    },
+    {
+      "palavra": "CLEÓPATRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rainha famosa do antigo Egito",
+        "media": "Última rainha do Egito ptolomaico",
+        "dificil": "Aliada de Júlio César e Marco Antônio"
+      }
+    },
+    {
+      "palavra": "TUTANCÂMON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faraó menino de máscara dourada",
+        "media": "Faraó cujo túmulo foi achado em 1922",
+        "dificil": "Túmulo encontrado por Howard Carter"
+      }
+    },
+    {
+      "palavra": "HIERÓGLIFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho usado como letra no Egito",
+        "media": "Sinal da escrita egípcia",
+        "dificil": "Decifrado por Champollion"
+      }
+    },
+    {
+      "palavra": "DEMOCRACIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Governo em que o povo decide",
+        "media": "Sistema nascido em Atenas",
+        "dificil": "Poder do povo, em grego"
+      }
+    },
+    {
+      "palavra": "IMPERADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chefe supremo da Roma antiga",
+        "media": "Augusto foi o primeiro de Roma",
+        "dificil": "Título de Trajano e Adriano"
+      }
+    },
+    {
+      "palavra": "FILÓSOFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que pensa sobre as grandes perguntas",
+        "media": "Sócrates, Platão ou Aristóteles",
+        "dificil": "Amigo da sabedoria, em grego"
+      }
+    },
+    {
+      "palavra": "HOMERO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Poeta grego antigo da Ilíada",
+        "media": "Autor atribuído da Odisseia",
+        "dificil": "Poeta que a tradição diz que era cego"
+      }
+    },
+    {
+      "palavra": "AQUEDUTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Construção romana que levava água às cidades",
+        "media": "Canal elevado de arcos de pedra",
+        "dificil": "Obra hidráulica romana"
+      }
+    },
+    {
+      "palavra": "PARTENON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Templo grego no alto de Atenas",
+        "media": "Templo da deusa Atena",
+        "dificil": "Edifício principal da Acrópole"
+      }
+    },
+    {
+      "palavra": "ACRÓPOLE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte alta e protegida de uma cidade grega",
+        "media": "Colina sagrada de Atenas",
+        "dificil": "Cidade alta, em grego"
+      }
+    },
+    {
+      "palavra": "MESOPOTÂMIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Terra entre os rios Tigre e Eufrates",
+        "media": "Região dos sumérios e babilônios",
+        "dificil": "Terra entre rios, em grego"
+      }
+    },
+    {
+      "palavra": "BABILÔNIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade antiga dos jardins suspensos",
+        "media": "Cidade do rei Hamurábi",
+        "dificil": "Capital de Nabucodonosor II"
+      }
+    },
+    {
+      "palavra": "CUNEIFORME",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sinais em forma de prego gravados em argila",
+        "media": "Escrita gravada em tábuas de argila",
+        "dificil": "Sistema dos sumérios"
+      }
+    },
+    {
+      "palavra": "SARCÓFAGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Caixão de pedra das múmias",
+        "media": "Urna funerária de pedra",
+        "dificil": "Abrigava a múmia do faraó"
+      }
+    },
+    {
+      "palavra": "LEGIÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo grande de soldados romanos",
+        "media": "Unidade do exército de Roma",
+        "dificil": "Formada por coortes e centúrias"
+      }
+    },
+    {
+      "palavra": "ZIGURATE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Torre de degraus dos templos da Mesopotâmia",
+        "media": "Templo escalonado sumério",
+        "dificil": "O de Ur é dos mais conhecidos"
+      }
+    },
+    {
+      "palavra": "ÂNFORA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jarro de barro com duas alças",
+        "media": "Vaso antigo para guardar azeite e grãos",
+        "dificil": "Vasilha de gargalo estreito dos gregos"
+      }
+    }
+  ]
+}

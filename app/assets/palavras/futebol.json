@@ -1,0 +1,476 @@
+{
+  "tema": "Futebol",
+  "categoria": "Esportes",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "GOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a bola entra na rede",
+        "media": "Ponto marcado no futebol",
+        "dificil": "O grito mais esperado da torcida"
+      }
+    },
+    {
+      "palavra": "BOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "É chutada pelos jogadores no campo",
+        "media": "Objeto redondo do jogo",
+        "dificil": "Esfera de couro que rola no gramado"
+      }
+    },
+    {
+      "palavra": "CAMPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar grande e verde onde se joga",
+        "media": "Área de jogo com grama",
+        "dificil": "Gramado com duas metas"
+      }
+    },
+    {
+      "palavra": "TRAVE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada lado do gol onde a bola pode bater",
+        "media": "Poste lateral da meta",
+        "dificil": "Bateu nela, quase foi ponto"
+      }
+    },
+    {
+      "palavra": "REDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica atrás do gol e segura a bola",
+        "media": "Malha presa às traves",
+        "dificil": "Balança quando sai ponto"
+      }
+    },
+    {
+      "palavra": "TIME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de jogadores do mesmo lado",
+        "media": "Equipe",
+        "dificil": "Os onze que entram juntos"
+      }
+    },
+    {
+      "palavra": "JUIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ele apita o jogo",
+        "media": "Árbitro da partida",
+        "dificil": "Dono do apito"
+      }
+    },
+    {
+      "palavra": "APITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O juiz sopra para parar o jogo",
+        "media": "Instrumento do árbitro",
+        "dificil": "Som que marca o início e o fim"
+      }
+    },
+    {
+      "palavra": "CHUTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bater na bola com o pé",
+        "media": "Golpe com o pé na bola",
+        "dificil": "Pode ser de bico ou de chapa"
+      }
+    },
+    {
+      "palavra": "TORCIDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoas que vibram na arquibancada",
+        "media": "Conjunto de fãs que apoiam o clube",
+        "dificil": "O décimo segundo jogador, dizem"
+      }
+    },
+    {
+      "palavra": "GOLEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pode pegar a bola com as mãos",
+        "media": "Jogador que defende a meta",
+        "dificil": "Camisa 1 do time"
+      }
+    },
+    {
+      "palavra": "ESCANTEIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cobrança feita do cantinho do campo",
+        "media": "Tiro de canto",
+        "dificil": "Bola levantada perto da bandeirinha"
+      }
+    },
+    {
+      "palavra": "PÊNALTI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chute cobrado de frente para o goleiro",
+        "media": "Cobrança da marca a onze metros do gol",
+        "dificil": "Falta dentro da área vira isso"
+      }
+    },
+    {
+      "palavra": "FALTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando um jogador derruba o outro de jeito errado",
+        "media": "Infração marcada pelo juiz",
+        "dificil": "Pode virar cartão"
+      }
+    },
+    {
+      "palavra": "CARTÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O juiz mostra, amarelo ou vermelho",
+        "media": "Advertência do árbitro",
+        "dificil": "Retângulo colorido que pode expulsar"
+      }
+    },
+    {
+      "palavra": "ÁRBITRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Outro nome para o juiz do jogo",
+        "media": "Quem comanda a partida em campo",
+        "dificil": "Autoridade com apito e cartões"
+      }
+    },
+    {
+      "palavra": "ZAGUEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogador que fica perto do próprio gol para defender",
+        "media": "Defensor central",
+        "dificil": "Beque, no linguajar antigo"
+      }
+    },
+    {
+      "palavra": "ATACANTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogador que tenta fazer gols",
+        "media": "Jogador da frente",
+        "dificil": "Centroavante ou ponta, por exemplo"
+      }
+    },
+    {
+      "palavra": "LATERAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogador que corre pelo cantinho do campo",
+        "media": "Defensor das beiradas",
+        "dificil": "Também é o arremesso feito com as mãos"
+      }
+    },
+    {
+      "palavra": "MEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogador do meio do campo que arma jogadas",
+        "media": "Armador",
+        "dificil": "Posição do camisa 10 clássico"
+      }
+    },
+    {
+      "palavra": "TÉCNICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ele ensina e escolhe os jogadores do time",
+        "media": "Treinador",
+        "dificil": "Comandante à beira do campo"
+      }
+    },
+    {
+      "palavra": "ESTÁDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar grande onde acontecem os jogos",
+        "media": "Arena esportiva",
+        "dificil": "Maracanã e Mineirão são exemplos"
+      }
+    },
+    {
+      "palavra": "TAÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prêmio que o campeão levanta",
+        "media": "Troféu",
+        "dificil": "Copa de metal brilhante"
+      }
+    },
+    {
+      "palavra": "COPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Campeonato com seleções do mundo todo",
+        "media": "Torneio, como o Mundial",
+        "dificil": "Também é o nome de um troféu"
+      }
+    },
+    {
+      "palavra": "CHUTEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado com travas para jogar bola",
+        "media": "Sapato do jogador",
+        "dificil": "Tem cravos na sola"
+      }
+    },
+    {
+      "palavra": "UNIFORME",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa igual de todo o time",
+        "media": "Camisa, calção e meias do time",
+        "dificil": "Fardamento da equipe"
+      }
+    },
+    {
+      "palavra": "CAMISA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa com o número do jogador",
+        "media": "Peça do uniforme",
+        "dificil": "A 10 é a mais famosa"
+      }
+    },
+    {
+      "palavra": "DRIBLE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Passar pelo adversário com a bola no pé",
+        "media": "Finta",
+        "dificil": "Garrincha era mestre nisso"
+      }
+    },
+    {
+      "palavra": "PASSE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Entregar a bola para um colega",
+        "media": "Toque para o companheiro",
+        "dificil": "Toque que vira assistência"
+      }
+    },
+    {
+      "palavra": "CABEÇADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tocar na bola com o alto do corpo",
+        "media": "Jogada feita com a testa",
+        "dificil": "Arma do atacante alto no escanteio"
+      }
+    },
+    {
+      "palavra": "GOLAÇO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ponto tão bonito que todo mundo aplaude",
+        "media": "Tento espetacular",
+        "dificil": "Daqueles de placa"
+      }
+    },
+    {
+      "palavra": "PLACAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mostra quantos pontos cada time fez",
+        "media": "Marcador do jogo",
+        "dificil": "Dois a um, por exemplo"
+      }
+    },
+    {
+      "palavra": "EMPATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando os dois times fazem o mesmo número de gols",
+        "media": "Igualdade no resultado",
+        "dificil": "Ninguém ganha nem perde"
+      }
+    },
+    {
+      "palavra": "VITÓRIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando o time ganha",
+        "media": "Triunfo",
+        "dificil": "Vale três pontos no campeonato"
+      }
+    },
+    {
+      "palavra": "CAMPEÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time que ganha o campeonato",
+        "media": "Vencedor do torneio",
+        "dificil": "Quem levanta a taça no fim"
+      }
+    },
+    {
+      "palavra": "SELEÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Time que representa o país",
+        "media": "Equipe nacional",
+        "dificil": "A canarinho é a brasileira"
+      }
+    },
+    {
+      "palavra": "IMPEDIMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Regra difícil que o bandeirinha marca",
+        "media": "Posição irregular do atacante",
+        "dificil": "Atacante adiantado na hora do passe"
+      }
+    },
+    {
+      "palavra": "ARTILHEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogador que fez mais gols no campeonato",
+        "media": "Maior goleador",
+        "dificil": "Matador da área"
+      }
+    },
+    {
+      "palavra": "BANDEIRINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ajuda o juiz correndo na beira do campo",
+        "media": "Árbitro assistente",
+        "dificil": "Auxiliar que sinaliza com flâmula"
+      }
+    },
+    {
+      "palavra": "PRORROGAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tempo extra quando o jogo empata",
+        "media": "Tempo suplementar",
+        "dificil": "Trinta minutos a mais antes dos pênaltis"
+      }
+    },
+    {
+      "palavra": "CENTROAVANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogador que fica bem no meio do ataque",
+        "media": "Camisa 9 clássico",
+        "dificil": "Homem-gol da área"
+      }
+    },
+    {
+      "palavra": "VOLANTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogador do meio que ajuda a defender",
+        "media": "Marcador à frente da zaga",
+        "dificil": "Também é o que se gira no carro"
+      }
+    },
+    {
+      "palavra": "TRIVELA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Chute dado com a parte de fora do pé",
+        "media": "Toque com os três dedos de fora",
+        "dificil": "Efeito com o lado externo da chuteira"
+      }
+    },
+    {
+      "palavra": "CARRINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deslizar no chão para tirar a bola",
+        "media": "Desarme deslizando",
+        "dificil": "Também é brinquedo de rodinhas"
+      }
+    },
+    {
+      "palavra": "ESCALAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lista de quem vai jogar",
+        "media": "Formação do time titular",
+        "dificil": "O técnico divulga antes do jogo"
+      }
+    },
+    {
+      "palavra": "RESERVA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogador que fica no banco",
+        "media": "Suplente",
+        "dificil": "Pode entrar na substituição"
+      }
+    },
+    {
+      "palavra": "VÁRZEA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Futebol amador jogado em campos de terra",
+        "media": "Futebol amador de bairro",
+        "dificil": "Terrão onde muitos craques começaram"
+      }
+    },
+    {
+      "palavra": "CRAQUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogador muito bom",
+        "media": "Astro do futebol",
+        "dificil": "Fera com a bola no pé"
+      }
+    },
+    {
+      "palavra": "TRAVESSÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Barra de cima do gol",
+        "media": "Barra horizontal da meta",
+        "dificil": "Bola no ângulo raspa nele"
+      }
+    },
+    {
+      "palavra": "CHAPÉU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogada de passar a bola por cima do adversário",
+        "media": "Lençol, drible por cima",
+        "dificil": "Também se usa na cabeça contra o sol"
+      }
+    },
+    {
+      "palavra": "EXPULSÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando o jogador leva vermelho e sai do jogo",
+        "media": "Saída forçada por cartão vermelho",
+        "dificil": "Banho mais cedo"
+      }
+    },
+    {
+      "palavra": "GANDULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que busca a bola quando ela sai do campo",
+        "media": "Apanhador de bolas",
+        "dificil": "Repõe a bola à beira do gramado"
+      }
+    }
+  ]
+}

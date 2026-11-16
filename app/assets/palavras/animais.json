@@ -9,7 +9,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal que mia",
-        "media": "Felino doméstico que caça ratos"
+        "media": "Felino doméstico que caça ratos",
+        "dificil": "Bichano que, dizem, tem sete vidas"
       }
     },
     {
@@ -17,7 +18,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Ave que faz quá-quá",
-        "media": "Ave aquática de bico achatado"
+        "media": "Ave aquática de bico achatado",
+        "dificil": "Palmípede de bico chato, primo do ganso e do cisne"
       }
     },
     {
@@ -25,7 +27,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal que faz mu e dá leite",
-        "media": "Fêmea do boi"
+        "media": "Fêmea do boi",
+        "dificil": "Mãe do bezerro, mimosa do pasto"
       }
     },
     {
@@ -33,7 +36,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "O rei da selva",
-        "media": "Felino africano de juba"
+        "media": "Felino africano de juba",
+        "dificil": "Signo de quem nasce no fim de julho ou em agosto"
       }
     },
     {
@@ -41,7 +45,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho verde que pula e coaxa",
-        "media": "Anfíbio que coaxa"
+        "media": "Anfíbio que coaxa",
+        "dificil": "Na fábula, um beijo pode revelar que ele é um príncipe"
       }
     },
     {
@@ -49,7 +54,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho grande e peludo que gosta de mel",
-        "media": "Mamífero que hiberna no inverno"
+        "media": "Mamífero que hiberna no inverno",
+        "dificil": "Pode ser polar, pardo ou de pelúcia"
       }
     },
     {
@@ -57,7 +63,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho pequeno que gosta de queijo",
-        "media": "Roedor de cauda longa"
+        "media": "Roedor de cauda longa",
+        "dificil": "Na fábula, roeu a rede e salvou o leão"
       }
     },
     {
@@ -65,7 +72,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal que uiva para a lua",
-        "media": "Canídeo selvagem que vive em alcateia"
+        "media": "Canídeo selvagem que vive em alcateia",
+        "dificil": "O guará é o mais famoso do Cerrado"
       }
     },
     {
@@ -73,7 +81,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho de casca dura que cava buracos",
-        "media": "Mamífero com carapaça que cava tocas"
+        "media": "Mamífero com carapaça que cava tocas",
+        "dificil": "O bicho da mascote da Copa de 2014, no Brasil"
       }
     },
     {
@@ -81,7 +90,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Gato grande e pintado das matas do Brasil",
-        "media": "Maior felino das Américas"
+        "media": "Maior felino das Américas",
+        "dificil": "A pintada aparece na nota de 50 reais"
       }
     },
     {
@@ -89,7 +99,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Cavalo com listras pretas e brancas",
-        "media": "Equino listrado da África"
+        "media": "Equino listrado da África",
+        "dificil": "No futebol, é o resultado que ninguém esperava"
       }
     },
     {
@@ -97,7 +108,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho que vive na água e tem nadadeiras",
-        "media": "Animal que respira por guelras"
+        "media": "Animal que respira por guelras",
+        "dificil": "No plural, é o signo de fevereiro e março"
       }
     },
     {
@@ -105,7 +117,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho comprido que rasteja",
-        "media": "Réptil sem patas"
+        "media": "Réptil sem patas",
+        "dificil": "Serpente; também quem é craque em alguma coisa"
       }
     },
     {
@@ -113,7 +126,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho do mar com oito braços",
-        "media": "Molusco de oito tentáculos"
+        "media": "Molusco de oito tentáculos",
+        "dificil": "Cefalópode que solta tinta para fugir"
       }
     },
     {
@@ -121,7 +135,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal cor-de-rosa que faz oinc",
-        "media": "Animal criado no chiqueiro"
+        "media": "Animal criado no chiqueiro",
+        "dificil": "Suíno que, filhote, é chamado de leitão"
       }
     },
     {
@@ -129,7 +144,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Ave grande e colorida de bico curvo",
-        "media": "Ave de penas coloridas das matas brasileiras"
+        "media": "Ave de penas coloridas das matas brasileiras",
+        "dificil": "Ficar uma dessas é ficar furioso"
       }
     },
     {
@@ -137,7 +153,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho que adora banana e pula nas árvores",
-        "media": "Primata que vive em bando"
+        "media": "Primata que vive em bando",
+        "dificil": "Ferramenta que levanta o carro na troca do pneu"
       }
     },
     {
@@ -145,7 +162,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho de orelhas compridas que come cenoura",
-        "media": "Animal de orelhas longas que salta"
+        "media": "Animal de orelhas longas que salta",
+        "dificil": "Na Páscoa, dizem que traz ovos de chocolate"
       }
     },
     {
@@ -153,7 +171,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal de pescoço muito comprido",
-        "media": "Mamífero mais alto do mundo"
+        "media": "Mamífero mais alto do mundo",
+        "dificil": "Ruminante africano que come folhas no alto das acácias"
       }
     },
     {
@@ -161,7 +180,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal que relincha e a gente monta",
-        "media": "Equino usado para montaria"
+        "media": "Equino usado para montaria",
+        "dificil": "Peça do xadrez que anda em L"
       }
     },
     {
@@ -169,7 +189,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Inseto que faz mel",
-        "media": "Inseto que produz mel e cera"
+        "media": "Inseto que produz mel e cera",
+        "dificil": "Operária da colmeia"
       }
     },
     {
@@ -177,7 +198,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Ave que fica acordada à noite",
-        "media": "Ave noturna de olhos grandes"
+        "media": "Ave noturna de olhos grandes",
+        "dificil": "Símbolo da sabedoria; a mãe orgulhosa também é uma"
       }
     },
     {
@@ -185,7 +207,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal que faz mé e dá lã",
-        "media": "Animal de onde vem a lã"
+        "media": "Animal de onde vem a lã",
+        "dificil": "A negra é a diferente da família"
       }
     },
     {
@@ -193,7 +216,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho da água com a boca cheia de dentes",
-        "media": "Réptil parente do crocodilo"
+        "media": "Réptil parente do crocodilo",
+        "dificil": "O de papo-amarelo vive nos rios do Brasil"
       }
     },
     {
@@ -201,7 +225,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "O maior animal do mar",
-        "media": "Maior mamífero do planeta"
+        "media": "Maior mamífero do planeta",
+        "dificil": "Jubarte e cachalote são exemplos"
       }
     },
     {
@@ -209,7 +234,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Animal do deserto com duas corcovas",
-        "media": "Animal do deserto de duas corcovas"
+        "media": "Animal do deserto de duas corcovas",
+        "dificil": "Seu primo de uma corcova só é o dromedário"
       }
     },
     {
@@ -217,15 +243,17 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Ave que bota ovos",
-        "media": "Ave do galinheiro"
+        "media": "Ave doméstica que cacareja",
+        "dificil": "Mãe do pintinho, esposa do galo"
       }
     },
     {
       "palavra": "FORMIGA",
       "dificuldade": 1,
       "dicas": {
-        "leve": "Inseto pequeno que vive no formigueiro",
-        "media": "Inseto que vive em colônias"
+        "leve": "Inseto pequeno que anda em fila e carrega folhas",
+        "media": "Inseto que vive em colônias",
+        "dificil": "Na fábula, trabalhou enquanto a cigarra cantava"
       }
     },
     {
@@ -233,7 +261,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Ave que não voa e vive no gelo",
-        "media": "Ave marinha que não voa"
+        "media": "Ave marinha que não voa",
+        "dificil": "O imperador é a maior espécie dele"
       }
     },
     {
@@ -241,7 +270,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Peixe grande de dentes afiados",
-        "media": "Peixe predador de dentes afiados"
+        "media": "Peixe predador de dentes afiados",
+        "dificil": "Martelo e branco são espécies dele"
       }
     },
     {
@@ -249,7 +279,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Bichinho que guarda nozes",
-        "media": "Roedor de cauda peluda"
+        "media": "Roedor de cauda peluda",
+        "dificil": "No Brasil, também é chamado de caxinguelê"
       }
     },
     {
@@ -257,7 +288,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Animal que pula e leva o filhote na bolsa",
-        "media": "Marsupial da Austrália"
+        "media": "Marsupial da Austrália",
+        "dificil": "Mamãe que leva o filhote no marsúpio"
       }
     },
     {
@@ -265,7 +297,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Animal enorme com tromba",
-        "media": "Maior mamífero terrestre"
+        "media": "Maior mamífero terrestre",
+        "dificil": "Paquiderme famoso pela boa memória"
       }
     },
     {
@@ -273,7 +306,161 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bicho do mar muito esperto que pula",
-        "media": "Mamífero marinho muito inteligente"
+        "media": "Mamífero marinho muito inteligente",
+        "dificil": "Cetáceo que se comunica por assobios e cliques"
+      }
+    },
+    {
+      "palavra": "TIGRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gatão laranja com listras pretas",
+        "media": "Maior felino do mundo, todo listrado",
+        "dificil": "Felino de Bengala e da Sibéria"
+      }
+    },
+    {
+      "palavra": "TUCANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave de bico enorme e colorido",
+        "media": "Ave de bico grande e alaranjado",
+        "dificil": "Ranfastídeo de bico desproporcional"
+      }
+    },
+    {
+      "palavra": "HIPOPÓTAMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bichão gordo que passa o dia na água",
+        "media": "Grande mamífero africano dos rios",
+        "dificil": "Em grego, seu nome quer dizer cavalo do rio"
+      }
+    },
+    {
+      "palavra": "RINOCERONTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Animal grandão com chifre no nariz",
+        "media": "Mamífero de pele grossa e chifre no focinho",
+        "dificil": "Seu chifre é de queratina, como nossas unhas"
+      }
+    },
+    {
+      "palavra": "CROCODILO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Réptil grande de boca enorme e muitos dentes",
+        "media": "Réptil de focinho fino, primo do jacaré",
+        "dificil": "Dizem que suas lágrimas são falsas"
+      }
+    },
+    {
+      "palavra": "BEIJA-FLOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Passarinho minúsculo que bate as asas muito rápido",
+        "media": "Ave pequena que para no ar para beber néctar",
+        "dificil": "Colibri que consegue até voar de ré"
+      }
+    },
+    {
+      "palavra": "CAPIVARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho grande e calmo que vive na beira do rio",
+        "media": "Maior roedor do mundo",
+        "dificil": "Em tupi, seu nome quer dizer comedor de capim"
+      }
+    },
+    {
+      "palavra": "ORNITORRINCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho com bico de pato que bota ovos",
+        "media": "Mamífero australiano que bota ovos",
+        "dificil": "Monotremado de bico córneo e esporão venenoso"
+      }
+    },
+    {
+      "palavra": "JAGUATIRICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Gato do mato pintado, menor que a onça",
+        "media": "Felino brasileiro de pelo pintado, menor que a onça",
+        "dificil": "Leopardus pardalis, em latim"
+      }
+    },
+    {
+      "palavra": "SURICATO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bichinho que fica em pé vigiando a toca",
+        "media": "Pequeno mamífero africano que vigia em pé",
+        "dificil": "Mangusto do deserto do Kalahari"
+      }
+    },
+    {
+      "palavra": "ORANGOTANGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Macaco grande de pelo laranja",
+        "media": "Grande primata ruivo da Ásia",
+        "dificil": "Em malaio, seu nome quer dizer homem da floresta"
+      }
+    },
+    {
+      "palavra": "PANGOLIM",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Bicho coberto de escamas que come formigas",
+        "media": "Mamífero de escamas que se enrola como uma bola",
+        "dificil": "Tamanduá de armadura da África e da Ásia"
+      }
+    },
+    {
+      "palavra": "LONTRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho que nada muito bem e come peixe",
+        "media": "Mamífero aquático de pelo denso que come peixes",
+        "dificil": "Mustelídeo nadador, parente do furão"
+      }
+    },
+    {
+      "palavra": "ARIRANHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho do rio parecido com uma lontra gigante",
+        "media": "Lontra gigante da Amazônia e do Pantanal",
+        "dificil": "Maior mustelídeo do mundo em comprimento"
+      }
+    },
+    {
+      "palavra": "SERIEMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ave de pernas longas que canta alto no cerrado",
+        "media": "Ave do cerrado de topete e pernas longas",
+        "dificil": "Ave que bate cobras no chão para comê-las"
+      }
+    },
+    {
+      "palavra": "GUEPARDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O bicho mais rápido numa corrida",
+        "media": "Animal terrestre mais veloz",
+        "dificil": "Também chamado de chita"
+      }
+    },
+    {
+      "palavra": "OCAPI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Bicho com listras nas pernas, parente da girafa",
+        "media": "Parente da girafa que vive nas florestas do Congo",
+        "dificil": "Mamífero de língua comprida e pernas de zebra"
       }
     }
   ]

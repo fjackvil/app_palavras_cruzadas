@@ -1,0 +1,458 @@
+{
+  "tema": "Palavras difíceis",
+  "categoria": "Língua portuguesa",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ECO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sua voz que volta lá do fundo da caverna",
+        "media": "Repetição de um som refletido",
+        "dificil": "Ninfa que só repetia o que ouvia"
+      }
+    },
+    {
+      "palavra": "BREU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Escuridão total",
+        "media": "Escuridão profunda; também uma resina",
+        "dificil": "Noite sem lua nem estrela"
+      }
+    },
+    {
+      "palavra": "ÍMÃ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gruda na porta da geladeira",
+        "media": "Objeto que atrai o ferro",
+        "dificil": "Peça com polo norte e polo sul"
+      }
+    },
+    {
+      "palavra": "SÁBIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem conhece muitas coisas",
+        "media": "Pessoa de grande conhecimento",
+        "dificil": "Como a coruja nas fábulas"
+      }
+    },
+    {
+      "palavra": "TÍMIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem fica vermelho ao falar com estranhos",
+        "media": "Acanhado, envergonhado",
+        "dificil": "Retraído, avesso aos holofotes"
+      }
+    },
+    {
+      "palavra": "MANSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho que não morde e deixa fazer carinho",
+        "media": "Dócil, sossegado",
+        "dificil": "Como um cordeiro"
+      }
+    },
+    {
+      "palavra": "MIÚDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bem pequenininho",
+        "media": "De tamanho reduzido",
+        "dificil": "Antônimo de graúdo"
+      }
+    },
+    {
+      "palavra": "ÚMIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica a toalha depois do banho",
+        "media": "Levemente molhado",
+        "dificil": "Como o ar antes da chuva"
+      }
+    },
+    {
+      "palavra": "VELOZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Corre muito, como o guepardo",
+        "media": "Muito rápido",
+        "dificil": "Ligeiro como o vento"
+      }
+    },
+    {
+      "palavra": "NOBRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Reis, duques e princesas são da classe...",
+        "media": "Fidalgo; digno, generoso",
+        "dificil": "De sangue azul"
+      }
+    },
+    {
+      "palavra": "ATENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem não tira o olho da professora na aula",
+        "media": "Concentrado, alerta",
+        "dificil": "De olhos e ouvidos abertos"
+      }
+    },
+    {
+      "palavra": "FAÍSCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pontinho de fogo que pula da fogueira",
+        "media": "Centelha",
+        "dificil": "Chispa"
+      }
+    },
+    {
+      "palavra": "GRAÚDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grande, como fruta bem crescida",
+        "media": "De tamanho grande",
+        "dificil": "Antônimo de miúdo"
+      }
+    },
+    {
+      "palavra": "ÓRFÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Criança que perdeu o pai e a mãe",
+        "media": "Quem perdeu os pais",
+        "dificil": "Desamparado; também o que ficou sem dono"
+      }
+    },
+    {
+      "palavra": "ORVALHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gotinhas na grama de manhã",
+        "media": "Vapor que vira gotas ao amanhecer",
+        "dificil": "Sereno da madrugada"
+      }
+    },
+    {
+      "palavra": "BÚSSOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aponta sempre para o norte",
+        "media": "Instrumento de orientação com agulha magnética",
+        "dificil": "Guia do navegador"
+      }
+    },
+    {
+      "palavra": "TRAVESSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Criança que apronta muito",
+        "media": "Levado, arteiro",
+        "dificil": "Peralta"
+      }
+    },
+    {
+      "palavra": "ENIGMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Um mistério para descobrir",
+        "media": "Charada, coisa difícil de entender",
+        "dificil": "A esfinge propôs um a Édipo"
+      }
+    },
+    {
+      "palavra": "ÁGIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem se mexe rápido, como o gato",
+        "media": "Ligeiro nos movimentos",
+        "dificil": "Lépido, desembaraçado"
+      }
+    },
+    {
+      "palavra": "CORTÊS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem é educado com todo mundo",
+        "media": "Polido, gentil",
+        "dificil": "Diz por favor e obrigado"
+      }
+    },
+    {
+      "palavra": "ZELO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cuidado e carinho com alguma coisa",
+        "media": "Cuidado dedicado",
+        "dificil": "Desvelo, diligência"
+      }
+    },
+    {
+      "palavra": "ÍNGREME",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Subida muito inclinada",
+        "media": "Muito inclinado, difícil de subir",
+        "dificil": "Escarpado"
+      }
+    },
+    {
+      "palavra": "MIRAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Água que parece aparecer no deserto, mas não existe",
+        "media": "Ilusão de ótica causada pelo calor",
+        "dificil": "Ilusão que engana o viajante"
+      }
+    },
+    {
+      "palavra": "VASTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tão grande que não acaba mais",
+        "media": "Muito extenso, amplo",
+        "dificil": "Imenso como o oceano"
+      }
+    },
+    {
+      "palavra": "LÉGUA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Medida antiga de distância",
+        "media": "Antiga medida itinerária de alguns quilômetros",
+        "dificil": "As botas mágicas dos contos andavam sete de uma vez"
+      }
+    },
+    {
+      "palavra": "CAPRICHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fazer a lição com muito cuidado",
+        "media": "Esmero; também vontade repentina",
+        "dificil": "Birra, veneta"
+      }
+    },
+    {
+      "palavra": "OÁSIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar com água e palmeiras no deserto",
+        "media": "Área fértil no meio do deserto",
+        "dificil": "Refúgio em meio à aridez"
+      }
+    },
+    {
+      "palavra": "ALVORADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Hora em que o sol nasce",
+        "media": "Amanhecer, aurora",
+        "dificil": "Toque de clarim que acorda o quartel"
+      }
+    },
+    {
+      "palavra": "EFÊMERO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Que dura pouquinho, como bolha de sabão",
+        "media": "De curta duração, transitório",
+        "dificil": "Como a flor que vive um só dia"
+      }
+    },
+    {
+      "palavra": "PROLIXO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem fala demais e nunca chega ao ponto",
+        "media": "Longo e cansativo demais no falar ou escrever",
+        "dificil": "Antônimo de conciso"
+      }
+    },
+    {
+      "palavra": "ÍNFIMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pequenininho, o menor de todos",
+        "media": "Mínimo, o mais baixo",
+        "dificil": "No último degrau da escala"
+      }
+    },
+    {
+      "palavra": "INÓCUO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Que não faz mal nenhum",
+        "media": "Inofensivo; que não produz efeito",
+        "dificil": "Tão sem efeito quanto água com açúcar"
+      }
+    },
+    {
+      "palavra": "LACÔNICO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem responde com pouquíssimas palavras",
+        "media": "Breve e conciso no falar",
+        "dificil": "Ao estilo dos antigos espartanos, de fala curta"
+      }
+    },
+    {
+      "palavra": "ÓBICE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Coisa que atrapalha o caminho",
+        "media": "Obstáculo, impedimento",
+        "dificil": "Empecilho, entrave"
+      }
+    },
+    {
+      "palavra": "ALVÍSSARAS",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Grito de alegria por uma boa notícia",
+        "media": "Prêmio a quem traz boa notícia",
+        "dificil": "Interjeição de júbilo pelas boas-novas"
+      }
+    },
+    {
+      "palavra": "PERNÓSTICO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem se acha muito sabido e se exibe",
+        "media": "Pedante, presunçoso",
+        "dificil": "Afetado no falar, cheio de pose"
+      }
+    },
+    {
+      "palavra": "PROCRASTINAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Deixar a lição sempre para depois",
+        "media": "Adiar, protelar",
+        "dificil": "Empurrar com a barriga"
+      }
+    },
+    {
+      "palavra": "INEXORÁVEL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Que não muda de ideia nem com pedido",
+        "media": "Implacável, que não cede a súplicas",
+        "dificil": "Como o passar do tempo"
+      }
+    },
+    {
+      "palavra": "RESILIENTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem cai e logo se levanta de novo",
+        "media": "Que se recupera bem das dificuldades",
+        "dificil": "Volta à forma, como a mola esticada"
+      }
+    },
+    {
+      "palavra": "ONÍRICO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Que parece coisa de sonho",
+        "media": "Relativo aos sonhos",
+        "dificil": "Digno de Morfeu"
+      }
+    },
+    {
+      "palavra": "PUSILÂNIME",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem foge de tudo por medo",
+        "media": "Covarde, sem firmeza de ânimo",
+        "dificil": "O oposto de magnânimo"
+      }
+    },
+    {
+      "palavra": "SOLÍCITO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem está sempre pronto a ajudar",
+        "media": "Prestativo, atencioso",
+        "dificil": "Diligente em servir"
+      }
+    },
+    {
+      "palavra": "INEFÁVEL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Tão bonito que não dá para explicar",
+        "media": "Indizível, que não se pode exprimir",
+        "dificil": "Além do que as palavras alcançam"
+      }
+    },
+    {
+      "palavra": "IMPÁVIDO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem não sente medo de nada",
+        "media": "Destemido, intrépido",
+        "dificil": "Assim é o colosso do Hino Nacional"
+      }
+    },
+    {
+      "palavra": "QUIMERA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sonho impossível de realizar",
+        "media": "Fantasia, utopia",
+        "dificil": "Monstro mitológico com cabeça de leão"
+      }
+    },
+    {
+      "palavra": "FUGAZ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Que passa muito rápido, como estrela cadente",
+        "media": "Rápido e passageiro",
+        "dificil": "Que some num piscar de olhos"
+      }
+    },
+    {
+      "palavra": "ALCUNHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Apelido que a pessoa ganha",
+        "media": "Apelido, cognome",
+        "dificil": "Epíteto pelo qual alguém é conhecido"
+      }
+    },
+    {
+      "palavra": "OUTRORA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lá no tempo antigo",
+        "media": "Em tempos passados, antigamente",
+        "dificil": "Era uma vez, em época remota"
+      }
+    },
+    {
+      "palavra": "ABNEGAÇÃO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Deixar de lado o que quer para ajudar alguém",
+        "media": "Renúncia em favor dos outros",
+        "dificil": "Altruísmo que sacrifica o próprio interesse"
+      }
+    },
+    {
+      "palavra": "EPÍTOME",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Resumo de uma obra",
+        "media": "Resumo; exemplo mais perfeito de algo",
+        "dificil": "A síntese em pessoa"
+      }
+    }
+  ]
+}

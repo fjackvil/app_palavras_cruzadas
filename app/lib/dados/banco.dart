@@ -175,6 +175,33 @@ class Banco extends _$Banco {
             ]))
           .watch();
 
+  /// Partida mais recente do perfil com aquele desafio (ex.: o diário).
+  Stream<Partida?> observarPartidaDoDesafio(int perfilId, String desafioId) =>
+      (select(partidas)
+            ..where(
+              (p) =>
+                  p.perfilId.equals(perfilId) & p.desafioId.equals(desafioId),
+            )
+            ..orderBy([
+              (p) => OrderingTerm(
+                expression: p.atualizadoEm,
+                mode: OrderingMode.desc,
+              ),
+            ])
+            ..limit(1))
+          .watchSingleOrNull();
+
+  /// Datas ('2026-11-16') dos desafios diários concluídos pelo perfil.
+  Stream<Set<String>> observarDiasDoDiario(int perfilId) =>
+      (select(partidas)..where(
+            (p) =>
+                p.perfilId.equals(perfilId) &
+                p.estado.equals(EstadoPartida.concluido) &
+                p.desafioId.like('cruzadas:diario:%'),
+          ))
+          .watch()
+          .map((lista) => {for (final p in lista) p.desafioId.split(':').last});
+
   /// Soma dos pontos das partidas concluídas do perfil.
   Stream<int> observarTotalPontos(int perfilId) {
     final soma = partidas.pontos.sum();

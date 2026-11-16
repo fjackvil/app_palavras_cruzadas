@@ -1,0 +1,449 @@
+{
+  "tema": "Esportes em geral",
+  "categoria": "Esportes",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "BOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Redonda, rola e quica no chão",
+        "media": "Objeto de muitos jogos",
+        "dificil": "Esfera do futebol e do vôlei"
+      }
+    },
+    {
+      "palavra": "FUTEBOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de chutar a bola no gol",
+        "media": "Esporte mais popular do Brasil",
+        "dificil": "Paixão nacional de onze contra onze"
+      }
+    },
+    {
+      "palavra": "VÔLEI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de passar a bola por cima da rede com as mãos",
+        "media": "Esporte de saque e cortada",
+        "dificil": "Na praia, é jogado em dupla"
+      }
+    },
+    {
+      "palavra": "BASQUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de jogar a bola na cesta",
+        "media": "Bola ao cesto",
+        "dificil": "Esporte de Oscar Schmidt"
+      }
+    },
+    {
+      "palavra": "NATAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte praticado na piscina, de touca e óculos",
+        "media": "Modalidade aquática",
+        "dificil": "Crawl, costas, peito e borboleta"
+      }
+    },
+    {
+      "palavra": "XADREZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de tabuleiro com rei, rainha e cavalo",
+        "media": "Esporte da mente com 64 casas",
+        "dificil": "Xeque-mate encerra a partida"
+      }
+    },
+    {
+      "palavra": "JUDÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Luta de faixa e quimono",
+        "media": "Arte marcial japonesa",
+        "dificil": "Caminho suave, em japonês"
+      }
+    },
+    {
+      "palavra": "CAPOEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mistura de luta e dança com berimbau",
+        "media": "Arte afro-brasileira",
+        "dificil": "Ginga é seu passo básico"
+      }
+    },
+    {
+      "palavra": "SKATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prancha com rodinhas para fazer manobras",
+        "media": "Esporte de prancha de rodas",
+        "dificil": "Rayssa Leal é fera nele"
+      }
+    },
+    {
+      "palavra": "SURFE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte de pegar onda na prancha",
+        "media": "Deslizar sobre as ondas",
+        "dificil": "Gabriel Medina é tricampeão mundial"
+      }
+    },
+    {
+      "palavra": "CORRIDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prova para ver quem chega primeiro",
+        "media": "Prova de velocidade",
+        "dificil": "Pode ser de rua ou de pista"
+      }
+    },
+    {
+      "palavra": "PATINS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado com rodinhas",
+        "media": "Botas de rodas",
+        "dificil": "Também podem ter lâmina para o gelo"
+      }
+    },
+    {
+      "palavra": "BOLICHE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo de derrubar pinos com uma bola",
+        "media": "Esporte de pista e pinos",
+        "dificil": "Strike derruba os dez"
+      }
+    },
+    {
+      "palavra": "GOLFE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo de acertar uma bolinha em buracos com taco",
+        "media": "Esporte de tacos e buracos",
+        "dificil": "O campo tem dezoito buracos"
+      }
+    },
+    {
+      "palavra": "RAQUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usada para bater na bolinha do tênis",
+        "media": "Instrumento do tenista",
+        "dificil": "Tem cordas trançadas"
+      }
+    },
+    {
+      "palavra": "REDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Divide a quadra no vôlei",
+        "media": "Malha esticada entre postes",
+        "dificil": "Barreira do tênis e do vôlei"
+      }
+    },
+    {
+      "palavra": "QUADRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com linhas onde se joga vôlei ou basquete",
+        "media": "Espaço de jogo coberto ou aberto",
+        "dificil": "Poliesportiva, na escola"
+      }
+    },
+    {
+      "palavra": "TIME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo de jogadores do mesmo lado",
+        "media": "Equipe",
+        "dificil": "Os titulares e os reservas"
+      }
+    },
+    {
+      "palavra": "PLACAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mostra quantos pontos cada time fez",
+        "media": "Marcador do jogo",
+        "dificil": "Painel do resultado"
+      }
+    },
+    {
+      "palavra": "ÁRBITRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem apita e cuida das regras do jogo",
+        "media": "Juiz da partida",
+        "dificil": "Autoridade com apito"
+      }
+    },
+    {
+      "palavra": "TÉCNICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ele ensina e escolhe os jogadores do time",
+        "media": "Treinador",
+        "dificil": "Comandante à beira da quadra"
+      }
+    },
+    {
+      "palavra": "TREINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando os atletas praticam antes do jogo",
+        "media": "Preparação dos atletas",
+        "dificil": "Suor antes da partida"
+      }
+    },
+    {
+      "palavra": "MEDALHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prêmio pendurado no pescoço",
+        "media": "Condecoração do atleta",
+        "dificil": "Ouro, prata ou bronze"
+      }
+    },
+    {
+      "palavra": "TROFÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prêmio do campeão",
+        "media": "Taça",
+        "dificil": "Vai para a estante do clube"
+      }
+    },
+    {
+      "palavra": "CESTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "No basquete, a bola tem que entrar nela",
+        "media": "Aro com rede",
+        "dificil": "Vale dois ou três pontos"
+      }
+    },
+    {
+      "palavra": "TÊNIS DE MESA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo com raquetinha e bolinha em cima de uma mesa",
+        "media": "Pingue-pongue",
+        "dificil": "Hugo Calderano é destaque nele"
+      }
+    },
+    {
+      "palavra": "HANDEBOL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo de bola com as mãos e gol pequeno",
+        "media": "Esporte de sete contra sete",
+        "dificil": "Tem área de seis metros"
+      }
+    },
+    {
+      "palavra": "CICLISMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de bicicleta",
+        "media": "Corrida de bike",
+        "dificil": "Pista, estrada ou mountain bike"
+      }
+    },
+    {
+      "palavra": "ALPINISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escalar montanhas bem altas",
+        "media": "Montanhismo",
+        "dificil": "Subir o Everest é o sonho"
+      }
+    },
+    {
+      "palavra": "ESCALADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Subir em paredes usando mãos e pés",
+        "media": "Esporte de subir paredões",
+        "dificil": "Agarras, cordas e magnésio"
+      }
+    },
+    {
+      "palavra": "CARATÊ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luta japonesa de faixas coloridas",
+        "media": "Arte marcial de Okinawa",
+        "dificil": "Faixa preta é a mais alta"
+      }
+    },
+    {
+      "palavra": "AUTOMOBILISMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Corrida de carros em pista",
+        "media": "Esporte de Senna e Piquet",
+        "dificil": "A Fórmula 1 é a categoria mais famosa"
+      }
+    },
+    {
+      "palavra": "ATLETISMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de correr, saltar e arremessar",
+        "media": "Modalidade de pista e campo",
+        "dificil": "Rei dos esportes olímpicos"
+      }
+    },
+    {
+      "palavra": "GINÁSTICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Esporte de cambalhotas e piruetas",
+        "media": "Modalidade de solo e aparelhos",
+        "dificil": "Rebeca Andrade brilha nela"
+      }
+    },
+    {
+      "palavra": "POLO AQUÁTICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogo de bola dentro da piscina com gol",
+        "media": "Esporte de equipe na água",
+        "dificil": "Parece handebol molhado"
+      }
+    },
+    {
+      "palavra": "RÚGBI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogo em que se pode correr com a bola oval nas mãos",
+        "media": "Esporte da bola oval",
+        "dificil": "Tem try e scrum"
+      }
+    },
+    {
+      "palavra": "BEISEBOL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogo de taco e luva muito popular nos Estados Unidos",
+        "media": "Esporte de rebatedor e arremessador",
+        "dificil": "Home run é o lance máximo"
+      }
+    },
+    {
+      "palavra": "CRÍQUETE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Jogo de taco popular na Índia e na Inglaterra",
+        "media": "Esporte de bastão e postes",
+        "dificil": "Partidas podem durar dias"
+      }
+    },
+    {
+      "palavra": "HÓQUEI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogo de bastão curvo e disco no gelo",
+        "media": "Esporte de taco e disco",
+        "dificil": "Muito popular no Canadá"
+      }
+    },
+    {
+      "palavra": "SINUCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Jogo de bolinhas numa mesa verde com taco",
+        "media": "Bilhar",
+        "dificil": "Encaçapar a bola da vez"
+      }
+    },
+    {
+      "palavra": "BADMINTON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jogo de raquete com peteca de penas",
+        "media": "Esporte da peteca",
+        "dificil": "O volante voa por cima da rede"
+      }
+    },
+    {
+      "palavra": "TRIATLO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Prova de nadar, pedalar e correr",
+        "media": "Natação, ciclismo e corrida",
+        "dificil": "Prova de três etapas"
+      }
+    },
+    {
+      "palavra": "PARAQUEDISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pular de avião e abrir um tecido grande",
+        "media": "Esporte de salto aéreo",
+        "dificil": "Queda livre antes de abrir o velame"
+      }
+    },
+    {
+      "palavra": "REMO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esporte de barco com pás para empurrar a água",
+        "media": "Esporte de barco em que se vai de costas",
+        "dificil": "Popular na Lagoa Rodrigo de Freitas"
+      }
+    },
+    {
+      "palavra": "ESGRIMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Luta com espadas e máscara",
+        "media": "Combate com florete",
+        "dificil": "Florete, espada e sabre"
+      }
+    },
+    {
+      "palavra": "HIPISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Esporte com cavalos que pulam obstáculos",
+        "media": "Equitação esportiva",
+        "dificil": "Rodrigo Pessoa foi ouro olímpico nele"
+      }
+    },
+    {
+      "palavra": "TORCEDOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem vibra pelo time",
+        "media": "Fã de um clube",
+        "dificil": "Fica na arquibancada"
+      }
+    },
+    {
+      "palavra": "CAMPEONATO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Disputa entre vários times para ver o melhor",
+        "media": "Torneio",
+        "dificil": "Tem tabela e rodadas"
+      }
+    },
+    {
+      "palavra": "FAIXA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "No judô, a cor dela mostra o nível",
+        "media": "Cinto do lutador",
+        "dificil": "Preta é a mais alta"
+      }
+    }
+  ]
+}

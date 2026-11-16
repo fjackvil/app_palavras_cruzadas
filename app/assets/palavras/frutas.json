@@ -9,7 +9,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta pequena que nasce em cachos",
-        "media": "Fruta da videira"
+        "media": "Fruta da videira",
+        "dificil": "Moscatel, Itália e Niágara são variedades dela"
       }
     },
     {
@@ -17,7 +18,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta crocante, vermelha ou verde",
-        "media": "Fruta da macieira"
+        "media": "Fruta de clima frio, como a fuji e a gala",
+        "dificil": "A de Newton e a da Branca de Neve"
       }
     },
     {
@@ -25,7 +27,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta parecida com a maçã, em forma de gota",
-        "media": "Fruta da pereira"
+        "media": "Fruta de polpa macia e suculenta, mais fina no topo",
+        "dificil": "A Williams é uma variedade dela"
       }
     },
     {
@@ -33,7 +36,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta peluda por fora e verde por dentro",
-        "media": "Fruta de polpa verde e casca marrom"
+        "media": "Fruta de polpa verde e casca marrom",
+        "dificil": "Também é o nome de uma ave da Nova Zelândia"
       }
     },
     {
@@ -41,7 +45,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta com a castanha pendurada",
-        "media": "Fruta cuja castanha fica do lado de fora"
+        "media": "Fruta cuja castanha fica do lado de fora",
+        "dificil": "Pseudofruto cuja castanha é o fruto verdadeiro"
       }
     },
     {
@@ -49,7 +54,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta dura com água dentro",
-        "media": "Fruto do coqueiro"
+        "media": "Fruto de palmeira com polpa branca e água",
+        "dificil": "Seu leite vai na moqueca baiana"
       }
     },
     {
@@ -57,7 +63,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Frutinha roxa da Amazônia",
-        "media": "Fruto de uma palmeira amazônica"
+        "media": "Fruto de uma palmeira amazônica",
+        "dificil": "Na tigela, vem com granola e banana"
       }
     },
     {
@@ -65,7 +72,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta roxa cheia de sementinhas",
-        "media": "Fruto da figueira"
+        "media": "Fruta doce que também se come seca ou em calda",
+        "dificil": "Sua folha cobria Adão e Eva nas pinturas"
       }
     },
     {
@@ -73,7 +81,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta amarela de caroço grande",
-        "media": "Fruta tropical de caroço grande"
+        "media": "Fruta tropical de caroço grande",
+        "dificil": "Também é parte da camisa"
       }
     },
     {
@@ -81,7 +90,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta verde e azeda",
-        "media": "Fruta cítrica da limonada"
+        "media": "Fruta cítrica da limonada",
+        "dificil": "Taiti e siciliano são tipos dele"
       }
     },
     {
@@ -89,7 +99,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta grande e doce de casca amarela",
-        "media": "Fruta da mesma família da melancia"
+        "media": "Fruta da mesma família da melancia",
+        "dificil": "Cantaloupe e gália são variedades dele"
       }
     },
     {
@@ -97,7 +108,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta laranja por dentro com sementes pretas",
-        "media": "Fruto do mamoeiro"
+        "media": "Fruta tropical de polpa alaranjada e macia",
+        "dificil": "O papaia é a versão pequena dele"
       }
     },
     {
@@ -105,7 +117,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Frutinha roxa bem escura",
-        "media": "Fruto da amoreira"
+        "media": "Frutinha escura que mancha os dedos",
+        "dificil": "As folhas da sua árvore alimentam o bicho-da-seda"
       }
     },
     {
@@ -113,7 +126,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta laranja e mole, parecida com tomate",
-        "media": "Fruta oriental alaranjada"
+        "media": "Fruta oriental alaranjada",
+        "dificil": "Rama forte e chocolate são variedades dele"
       }
     },
     {
@@ -121,7 +135,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta amarela que o macaco adora",
-        "media": "Fruta que nasce em pencas"
+        "media": "Fruta que nasce em pencas",
+        "dificil": "Prata, nanica e maçã são tipos dela"
       }
     },
     {
@@ -129,7 +144,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta verde por fora e rosada por dentro",
-        "media": "Fruta do doce que se come com queijo"
+        "media": "Fruta do doce que se come com queijo",
+        "dificil": "Seu doce em barra namora o queijo"
       }
     },
     {
@@ -137,7 +153,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Frutinha vermelha que enfeita o bolo",
-        "media": "Fruta pequena de cabinho e caroço"
+        "media": "Fruta pequena de cabinho e caroço",
+        "dificil": "A do bolo é o toque final"
       }
     },
     {
@@ -145,7 +162,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta roxa que também se come seca",
-        "media": "Fruta que, seca, vira passa"
+        "media": "Fruta que, seca, vira passa",
+        "dificil": "Seca, ganha o apelido de preta"
       }
     },
     {
@@ -153,7 +171,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta doce do deserto",
-        "media": "Fruto da tamareira"
+        "media": "Fruto doce de uma palmeira do deserto",
+        "dificil": "Fruto de oásis usado para quebrar o jejum do Ramadã"
       }
     },
     {
@@ -161,7 +180,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta redonda boa para suco",
-        "media": "Fruta cítrica que dá nome a uma cor"
+        "media": "Fruta cítrica que dá nome a uma cor",
+        "dificil": "Pera, lima e baía são variedades dela"
       }
     },
     {
@@ -169,7 +189,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta vermelha com sementinhas por fora",
-        "media": "Fruta vermelha do bolo com chantili"
+        "media": "Fruta vermelha do bolo com chantili",
+        "dificil": "Pseudofruto que leva as sementes do lado de fora"
       }
     },
     {
@@ -177,7 +198,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta com coroa de folhas",
-        "media": "Fruta tropical de casca espinhosa e coroa"
+        "media": "Fruta tropical de casca espinhosa e coroa",
+        "dificil": "Também é um problema difícil de resolver"
       }
     },
     {
@@ -185,7 +207,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta de casca aveludada",
-        "media": "Fruta de casca aveludada e caroço"
+        "media": "Fruta de casca aveludada e caroço",
+        "dificil": "Fruta de caroço, prima da nectarina"
       }
     },
     {
@@ -193,7 +216,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta verde e cremosa por dentro",
-        "media": "Fruta usada no guacamole"
+        "media": "Fruta usada no guacamole",
+        "dificil": "No Brasil vai com açúcar; no México, com sal"
       }
     },
     {
@@ -201,7 +225,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Frutinha vermelha com gomos",
-        "media": "Fruta brasileira vermelha e azedinha"
+        "media": "Fruta brasileira vermelha e azedinha",
+        "dificil": "Em tupi, seu nome lembra a cor vermelha"
       }
     },
     {
@@ -209,7 +234,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fruta verde por fora e vermelha por dentro",
-        "media": "Fruta grande cheia de água"
+        "media": "Fruta grande cheia de água",
+        "dificil": "Cucurbitácea de polpa vermelha e sementes pretas"
       }
     },
     {
@@ -217,7 +243,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta azedinha de suco amarelo",
-        "media": "Fruta do suco que acalma"
+        "media": "Fruta do suco que acalma",
+        "dificil": "Fruto da flor-da-paixão"
       }
     },
     {
@@ -225,7 +252,161 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fruta verde com espinhos moles",
-        "media": "Fruta tropical de casca espinhosa"
+        "media": "Fruta tropical de casca espinhosa",
+        "dificil": "Prima da fruta-do-conde, de polpa branca"
+      }
+    },
+    {
+      "palavra": "TANGERINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Laranjinha fácil de descascar com a mão",
+        "media": "Fruta cítrica de gomos que se soltam fácil",
+        "dificil": "Mexerica, bergamota ou ponkan"
+      }
+    },
+    {
+      "palavra": "JABUTICABA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinha preta que nasce grudada no tronco",
+        "media": "Fruta brasileira que nasce no tronco da árvore",
+        "dificil": "Mirtácea brasileira de casca preta e polpa branca"
+      }
+    },
+    {
+      "palavra": "FRAMBOESA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Frutinha vermelha parecida com uma amora",
+        "media": "Fruta vermelha de gominhos, parente da amora",
+        "dificil": "Fruta de geleia, irmã da amora-preta"
+      }
+    },
+    {
+      "palavra": "CARAMBOLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta que, cortada, vira estrelinha",
+        "media": "Fruta amarela de fatias em forma de estrela",
+        "dificil": "Seus cinco gomos fazem dela uma estrela no prato"
+      }
+    },
+    {
+      "palavra": "ACEROLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Frutinha vermelha cheia de vitamina C",
+        "media": "Fruta campeã de vitamina C",
+        "dificil": "Também chamada de cereja-das-antilhas"
+      }
+    },
+    {
+      "palavra": "JACA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta enorme que nasce no tronco",
+        "media": "Maior fruta que dá em árvore",
+        "dificil": "Mole ou dura, sua polpa vira desfiado vegano"
+      }
+    },
+    {
+      "palavra": "ROMÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta cheia de grãozinhos vermelhos",
+        "media": "Fruta de casca dura e muitas sementes vermelhas",
+        "dificil": "Seus grãos vão na carteira no Dia de Reis"
+      }
+    },
+    {
+      "palavra": "CUPUAÇU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fruta da Amazônia de casca marrom e polpa branca",
+        "media": "Fruta amazônica parente do cacau",
+        "dificil": "Theobroma grandiflorum, primo do cacau"
+      }
+    },
+    {
+      "palavra": "PEQUI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fruta amarela do cerrado com espinhos no caroço",
+        "media": "Fruto do cerrado de caroço espinhoso",
+        "dificil": "Vai no arroz goiano; morder o caroço é perigoso"
+      }
+    },
+    {
+      "palavra": "UMBU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Frutinha verde do sertão nordestino",
+        "media": "Fruta azedinha e verde da caatinga",
+        "dificil": "Euclides da Cunha chamou sua árvore de sagrada"
+      }
+    },
+    {
+      "palavra": "BURITI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fruto de palmeira com casquinha de escamas",
+        "media": "Palmeira das veredas e seu fruto escamoso",
+        "dificil": "Palmeira que marca as veredas de Guimarães Rosa"
+      }
+    },
+    {
+      "palavra": "LICHIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fruta de casca vermelha e polpa branca",
+        "media": "Fruta chinesa de casca áspera e polpa translúcida",
+        "dificil": "Doce oriental de casca rugosa e caroço marrom"
+      }
+    },
+    {
+      "palavra": "PITAIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fruta rosa de cacto, com bolinhas pretas",
+        "media": "Fruto de um cacto, rosa por fora",
+        "dificil": "Chamada também de fruta-do-dragão"
+      }
+    },
+    {
+      "palavra": "MIRTILO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Frutinha azul bem pequena",
+        "media": "Fruta pequena e azul-escura",
+        "dificil": "Blueberry, em português"
+      }
+    },
+    {
+      "palavra": "NECTARINA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parece um pêssego, mas tem a casca lisa",
+        "media": "Pêssego de casca lisa",
+        "dificil": "Prunus persica sem a penugem"
+      }
+    },
+    {
+      "palavra": "MANGABA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Frutinha amarela do cerrado e das praias do Nordeste",
+        "media": "Fruta nativa do cerrado e da restinga",
+        "dificil": "Sua árvore dá um látex usado como borracha"
+      }
+    },
+    {
+      "palavra": "CAMBUCI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Fruta verde da Mata Atlântica com cara de disco voador",
+        "media": "Fruta azedinha da Mata Atlântica",
+        "dificil": "Dá nome a um bairro de São Paulo"
       }
     }
   ]

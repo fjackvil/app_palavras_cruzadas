@@ -1,0 +1,476 @@
+{
+  "tema": "Mitologia",
+  "categoria": "Cultura",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ZEUS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rei dos deuses gregos que solta raios",
+        "media": "Senhor do Olimpo",
+        "dificil": "Equivale a Júpiter"
+      }
+    },
+    {
+      "palavra": "HERA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rainha dos deuses gregos",
+        "media": "Esposa de Zeus",
+        "dificil": "Juno, para os romanos"
+      }
+    },
+    {
+      "palavra": "POSEIDON",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deus grego dos mares com tridente",
+        "media": "Senhor dos oceanos",
+        "dificil": "Netuno, em Roma"
+      }
+    },
+    {
+      "palavra": "ATENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deusa grega da sabedoria",
+        "media": "Deusa da coruja e da estratégia",
+        "dificil": "Minerva, para os romanos"
+      }
+    },
+    {
+      "palavra": "APOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deus grego do sol e da música",
+        "media": "Deus da lira",
+        "dificil": "Irmão gêmeo de Ártemis"
+      }
+    },
+    {
+      "palavra": "ÁRTEMIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deusa grega da caça e da lua",
+        "media": "Gêmea de Apolo",
+        "dificil": "Diana, em Roma"
+      }
+    },
+    {
+      "palavra": "HERMES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mensageiro dos deuses com sandálias de asas",
+        "media": "Deus mensageiro grego",
+        "dificil": "Mercúrio, para os romanos"
+      }
+    },
+    {
+      "palavra": "HADES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deus grego que reina embaixo da terra",
+        "media": "Senhor do mundo subterrâneo",
+        "dificil": "Plutão, em Roma"
+      }
+    },
+    {
+      "palavra": "AFRODITE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deusa grega do amor e da beleza",
+        "media": "Vênus dos gregos",
+        "dificil": "Nasceu da espuma do mar"
+      }
+    },
+    {
+      "palavra": "HÉRCULES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Herói fortíssimo dos doze trabalhos",
+        "media": "Héracles, para os gregos",
+        "dificil": "Filho de Zeus famoso pela força"
+      }
+    },
+    {
+      "palavra": "PÉGASO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cavalo branco com asas",
+        "media": "Corcel alado",
+        "dificil": "Montaria de Belerofonte"
+      }
+    },
+    {
+      "palavra": "MEDUSA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mulher com cobras no lugar do cabelo",
+        "media": "Górgona",
+        "dificil": "Seu olhar virava pedra"
+      }
+    },
+    {
+      "palavra": "CENTAURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Metade homem e metade cavalo",
+        "media": "Ser híbrido com corpo de cavalo",
+        "dificil": "Quíron era o mais sábio"
+      }
+    },
+    {
+      "palavra": "MINOTAURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Monstro com cabeça de touro que vivia num labirinto",
+        "media": "Criatura de Creta",
+        "dificil": "Vencido por Teseu"
+      }
+    },
+    {
+      "palavra": "CICLOPE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gigante de um olho só",
+        "media": "Gigante de olho na testa",
+        "dificil": "Polifemo era um"
+      }
+    },
+    {
+      "palavra": "SEREIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher com cauda de peixe",
+        "media": "Ser marinho mitológico",
+        "dificil": "Encantava marinheiros com o canto"
+      }
+    },
+    {
+      "palavra": "FÊNIX",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pássaro de fogo que renasce das cinzas",
+        "media": "Ave lendária",
+        "dificil": "Símbolo de recomeço"
+      }
+    },
+    {
+      "palavra": "OLIMPO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Monte onde moravam os deuses gregos",
+        "media": "Morada dos deuses",
+        "dificil": "Montanha mais alta da Grécia"
+      }
+    },
+    {
+      "palavra": "ULISSES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Herói esperto do cavalo de Troia",
+        "media": "Odisseu",
+        "dificil": "Demorou dez anos para voltar para casa"
+      }
+    },
+    {
+      "palavra": "AQUILES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Herói grego de calcanhar frágil",
+        "media": "Herói da Ilíada",
+        "dificil": "Mergulhado no rio Estige quando bebê"
+      }
+    },
+    {
+      "palavra": "ÍCARO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Menino que voou com asas de cera",
+        "media": "Filho de Dédalo",
+        "dificil": "Chegou perto demais do sol"
+      }
+    },
+    {
+      "palavra": "PANDORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Abriu uma caixa que não devia",
+        "media": "Primeira mulher na mitologia grega",
+        "dificil": "No fundo ficou a esperança"
+      }
+    },
+    {
+      "palavra": "NARCISO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Moço que se apaixonou pelo próprio reflexo",
+        "media": "Jovem que virou flor",
+        "dificil": "Admirava-se no lago"
+      }
+    },
+    {
+      "palavra": "ORFEU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Músico que encantava até as pedras",
+        "media": "Tocador de lira grego",
+        "dificil": "Foi buscar Eurídice no mundo subterrâneo"
+      }
+    },
+    {
+      "palavra": "PROMETEU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Titã que deu o fogo aos humanos",
+        "media": "Ladrão do fogo dos deuses",
+        "dificil": "Amigo dos mortais, castigado por Zeus"
+      }
+    },
+    {
+      "palavra": "TITÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gigante antigo, anterior aos deuses do Olimpo",
+        "media": "Filho de Urano e Gaia",
+        "dificil": "Cronos era um"
+      }
+    },
+    {
+      "palavra": "JÚPITER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rei dos deuses romanos",
+        "media": "Equivalente romano de Zeus",
+        "dificil": "Também é o maior planeta"
+      }
+    },
+    {
+      "palavra": "MARTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deus romano que dá nome ao planeta vermelho",
+        "media": "Equivalente romano de Ares",
+        "dificil": "O mês de março vem dele"
+      }
+    },
+    {
+      "palavra": "NETUNO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deus romano dos mares",
+        "media": "Poseidon romano",
+        "dificil": "Planeta azul distante"
+      }
+    },
+    {
+      "palavra": "VÊNUS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Deusa romana do amor",
+        "media": "Afrodite romana",
+        "dificil": "Estrela-d'alva"
+      }
+    },
+    {
+      "palavra": "CUPIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Anjinho com arco que faz as pessoas se apaixonarem",
+        "media": "Deus romano do amor",
+        "dificil": "Eros, para os gregos"
+      }
+    },
+    {
+      "palavra": "MERCÚRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mensageiro dos deuses romanos",
+        "media": "Hermes romano",
+        "dificil": "Planeta mais perto do Sol"
+      }
+    },
+    {
+      "palavra": "JANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Deus romano de duas caras",
+        "media": "Deus das portas e dos começos",
+        "dificil": "Janeiro vem do nome dele"
+      }
+    },
+    {
+      "palavra": "RÔMULO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fundador de Roma criado por uma loba",
+        "media": "Irmão de Remo",
+        "dificil": "Primeiro rei romano"
+      }
+    },
+    {
+      "palavra": "THOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deus nórdico do trovão com um martelo",
+        "media": "Filho de Odin",
+        "dificil": "Quinta-feira em inglês vem dele"
+      }
+    },
+    {
+      "palavra": "ODIN",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pai dos deuses nórdicos, de um olho só",
+        "media": "Rei de Asgard",
+        "dificil": "Montava Sleipnir, cavalo de oito patas"
+      }
+    },
+    {
+      "palavra": "LOKI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Deus nórdico das trapaças",
+        "media": "Trapaceiro de Asgard",
+        "dificil": "Mestre dos disfarces nórdicos"
+      }
+    },
+    {
+      "palavra": "FREIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Deusa nórdica do amor e da beleza",
+        "media": "Dona do colar Brísingamen",
+        "dificil": "Viaja num carro puxado por gatos"
+      }
+    },
+    {
+      "palavra": "ASGARD",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mundo onde vivem os deuses nórdicos",
+        "media": "Reino de Odin",
+        "dificil": "Ligado à Terra por uma ponte de arco-íris"
+      }
+    },
+    {
+      "palavra": "VALQUÍRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Donzela que voa a cavalo nos mitos nórdicos",
+        "media": "Mensageira alada de Odin",
+        "dificil": "Leva os heróis ao Valhala"
+      }
+    },
+    {
+      "palavra": "YGGDRASIL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Árvore gigante que liga os mundos nórdicos",
+        "media": "Freixo cósmico",
+        "dificil": "Suas raízes alcançam nove mundos"
+      }
+    },
+    {
+      "palavra": "TUPÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Trovão na crença dos povos tupis",
+        "media": "Força do trovão tupi-guarani",
+        "dificil": "Fala pelo raio e pelo trovão"
+      }
+    },
+    {
+      "palavra": "JACI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lua na mitologia tupi",
+        "media": "Deusa lua dos tupis",
+        "dificil": "Protetora das plantas à noite"
+      }
+    },
+    {
+      "palavra": "GUARACI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sol na mitologia tupi",
+        "media": "Deus sol dos tupis",
+        "dificil": "Astro-rei dos tupis"
+      }
+    },
+    {
+      "palavra": "RUDÁ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Deus do amor dos tupis",
+        "media": "Cupido tupi",
+        "dificil": "Mora nas nuvens, diz a crença"
+      }
+    },
+    {
+      "palavra": "IARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sereia dos rios brasileiros",
+        "media": "Mãe-d'água dos tupis",
+        "dificil": "Canta nas águas amazônicas"
+      }
+    },
+    {
+      "palavra": "SUMÉ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Herói tupi que ensinou a plantar",
+        "media": "Sábio barbudo das lendas tupis",
+        "dificil": "Deixou pegadas nas pedras"
+      }
+    },
+    {
+      "palavra": "MITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "História antiga de deuses e heróis",
+        "media": "Narrativa sagrada antiga",
+        "dificil": "Lenda dos tempos primordiais"
+      }
+    },
+    {
+      "palavra": "DEUSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher divina nas histórias antigas",
+        "media": "Divindade feminina",
+        "dificil": "Atena e Vênus são exemplos"
+      }
+    },
+    {
+      "palavra": "TRIDENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Garfo grande de três pontas do deus do mar",
+        "media": "Cetro de Poseidon",
+        "dificil": "Insígnia de Netuno"
+      }
+    },
+    {
+      "palavra": "LABIRINTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caminho cheio de voltas onde morava o Minotauro",
+        "media": "Construção de Dédalo em Creta",
+        "dificil": "Saída achada pelo fio de Ariadne"
+      }
+    },
+    {
+      "palavra": "TROIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cidade do cavalo de madeira",
+        "media": "Ílion",
+        "dificil": "Cercada por dez anos pelos gregos"
+      }
+    }
+  ]
+}

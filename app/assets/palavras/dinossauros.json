@@ -1,0 +1,521 @@
+{
+  "tema": "Dinossauros",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "OVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "De onde nasciam os filhotes de dinossauro",
+        "media": "Casca de onde saía o filhote",
+        "dificil": "Alguns foram achados ainda no ninho"
+      }
+    },
+    {
+      "palavra": "OSSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte dura do esqueleto",
+        "media": "Peça do esqueleto que pode virar fóssil",
+        "dificil": "O fêmur é o maior deles"
+      }
+    },
+    {
+      "palavra": "DENTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O tiranossauro tinha uns enormes na boca",
+        "media": "Peça da boca que mostra o que o bicho comia",
+        "dificil": "Pontudo nos carnívoros, achatado em muitos herbívoros"
+      }
+    },
+    {
+      "palavra": "GARRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Unha grande e curva nas patas",
+        "media": "Unha afiada dos terópodes",
+        "dificil": "O velociraptor tinha uma bem grande em cada pé"
+      }
+    },
+    {
+      "palavra": "CAUDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O rabo comprido dos dinossauros",
+        "media": "Parte de trás que ajudava no equilíbrio",
+        "dificil": "O anquilossauro tinha uma clava na ponta dela"
+      }
+    },
+    {
+      "palavra": "FÓSSIL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Osso ou marca antiga que virou pedra",
+        "media": "Resto de ser vivo preservado nas rochas",
+        "dificil": "O que o paleontólogo procura"
+      }
+    },
+    {
+      "palavra": "CHIFRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O tricerátops tinha três na cabeça",
+        "media": "Ponta dura que sai da cabeça",
+        "dificil": "Corno"
+      }
+    },
+    {
+      "palavra": "ESCAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plaquinha que cobria a pele de muitos dinossauros",
+        "media": "Placa pequena da pele dos répteis",
+        "dificil": "Pele de lagarto e de cobra tem"
+      }
+    },
+    {
+      "palavra": "PENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Alguns dinossauros eram cobertos dela, como as aves",
+        "media": "Cobertura de muitos terópodes, como o velociraptor",
+        "dificil": "Pluma"
+      }
+    },
+    {
+      "palavra": "NINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde a mamãe dinossauro punha os ovos",
+        "media": "Lugar protegido no chão para os ovos",
+        "dificil": "Maiassaura quer dizer lagarto boa mãe"
+      }
+    },
+    {
+      "palavra": "CRISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Enfeite em cima da cabeça de alguns dinossauros",
+        "media": "Projeção óssea no crânio",
+        "dificil": "O parassaurolofo tinha uma em forma de tubo"
+      }
+    },
+    {
+      "palavra": "PEGADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Marca do pé deixada no chão",
+        "media": "Rastro fossilizado de um animal",
+        "dificil": "O Vale dos Dinossauros, na Paraíba, tem muitas"
+      }
+    },
+    {
+      "palavra": "RÉPTIL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de pele com escamas, como o jacaré",
+        "media": "Grupo de animais ao qual os dinossauros pertencem",
+        "dificil": "Lagartos, cobras e tartarugas são exemplos"
+      }
+    },
+    {
+      "palavra": "MUSEU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde a gente vê esqueletos de dinossauros",
+        "media": "Instituição que guarda e mostra fósseis",
+        "dificil": "Expõe esqueletos montados ao público"
+      }
+    },
+    {
+      "palavra": "VULCÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Montanha que solta lava",
+        "media": "Abertura da Terra por onde sai magma",
+        "dificil": "Erupções na Índia também marcaram o fim dos dinossauros"
+      }
+    },
+    {
+      "palavra": "ROCHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedra onde os fósseis ficam presos",
+        "media": "Material da crosta onde os fósseis se formam",
+        "dificil": "As sedimentares guardam mais fósseis"
+      }
+    },
+    {
+      "palavra": "TIRANOSSAURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dinossauro carnívoro gigante de braços curtinhos",
+        "media": "Carnívoro gigante do fim do Cretáceo",
+        "dificil": "Rex, de dois dedos em cada braço"
+      }
+    },
+    {
+      "palavra": "TRICERÁTOPS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dinossauro de três chifres na cabeça",
+        "media": "Herbívoro com gola óssea no pescoço",
+        "dificil": "Cara de três chifres, em grego"
+      }
+    },
+    {
+      "palavra": "ESQUELETO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Todos os ossos juntos montados no museu",
+        "media": "Conjunto dos ossos de um animal",
+        "dificil": "Armação óssea"
+      }
+    },
+    {
+      "palavra": "GIGANTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muito, muito grande",
+        "media": "Enorme, como um saurópode",
+        "dificil": "Colosso"
+      }
+    },
+    {
+      "palavra": "PESCOÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O braquiossauro tinha um bem comprido",
+        "media": "Parte entre a cabeça e o corpo",
+        "dificil": "Longo nos saurópodes"
+      }
+    },
+    {
+      "palavra": "VELOCIRAPTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro pequeno, rápido e com penas",
+        "media": "Carnívoro do tamanho de um peru grande, da Mongólia",
+        "dificil": "Seu nome quer dizer ladrão rápido"
+      }
+    },
+    {
+      "palavra": "ESTEGOSSAURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro com placas nas costas",
+        "media": "Herbívoro do Jurássico com espinhos na cauda",
+        "dificil": "Lagarto de telhado, em grego"
+      }
+    },
+    {
+      "palavra": "BRAQUIOSSAURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro de pescoço comprido e patas da frente altas",
+        "media": "Saurópode herbívoro do Jurássico",
+        "dificil": "Lagarto de braço, em grego"
+      }
+    },
+    {
+      "palavra": "DIPLODOCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro de pescoço e cauda bem compridos",
+        "media": "Saurópode do Jurássico com cauda de chicote",
+        "dificil": "Viga dupla, em grego"
+      }
+    },
+    {
+      "palavra": "CRETÁCEO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Último período da era dos dinossauros",
+        "media": "Período que acabou há 66 milhões de anos",
+        "dificil": "Nome vem do giz, em latim"
+      }
+    },
+    {
+      "palavra": "JURÁSSICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Período do meio da era dos dinossauros",
+        "media": "Período entre o Triássico e o Cretáceo",
+        "dificil": "Nome vem de montanhas entre França e Suíça"
+      }
+    },
+    {
+      "palavra": "EXTINÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando uma espécie some para sempre",
+        "media": "Desaparecimento dos dinossauros não aviários",
+        "dificil": "Aconteceu há 66 milhões de anos"
+      }
+    },
+    {
+      "palavra": "ASTEROIDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedra do espaço que caiu e mudou o planeta",
+        "media": "Corpo que caiu no México há 66 milhões de anos",
+        "dificil": "Deixou a cratera de Chicxulub"
+      }
+    },
+    {
+      "palavra": "HERBÍVORO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro que comia só plantas",
+        "media": "Animal que se alimenta de vegetais",
+        "dificil": "O braquiossauro era um"
+      }
+    },
+    {
+      "palavra": "CARNÍVORO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro caçador que não comia plantas",
+        "media": "Animal que se alimenta de outros animais",
+        "dificil": "O tiranossauro era um"
+      }
+    },
+    {
+      "palavra": "PALEONTÓLOGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cientista que estuda fósseis",
+        "media": "Pesquisador da vida pré-histórica",
+        "dificil": "Caçador de ossos antigos"
+      }
+    },
+    {
+      "palavra": "PREDADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicho que caça outros bichos",
+        "media": "Animal que captura presas",
+        "dificil": "O alossauro foi um dos grandes do Jurássico"
+      }
+    },
+    {
+      "palavra": "RAPTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Apelido dos dinossauros pequenos e caçadores",
+        "media": "Nome popular dos dromeossaurídeos",
+        "dificil": "Ladrão, em latim"
+      }
+    },
+    {
+      "palavra": "MANADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grupo de dinossauros andando juntos",
+        "media": "Bando de animais",
+        "dificil": "Pegadas lado a lado mostram que alguns viviam assim"
+      }
+    },
+    {
+      "palavra": "AVE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Hoje elas são as parentes vivas dos dinossauros",
+        "media": "Grupo descendente dos terópodes",
+        "dificil": "A galinha é um dinossauro moderno"
+      }
+    },
+    {
+      "palavra": "LAGARTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dinossauro quer dizer ___ terrível",
+        "media": "Réptil de quatro patas e cauda",
+        "dificil": "Sauro, em grego"
+      }
+    },
+    {
+      "palavra": "ESCAVAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando os cientistas tiram a terra para achar fósseis",
+        "media": "Trabalho de campo do paleontólogo",
+        "dificil": "Feita com pincel, picareta e muita paciência"
+      }
+    },
+    {
+      "palavra": "TRIÁSSICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Primeiro período da era dos dinossauros",
+        "media": "Período em que surgiram os dinossauros",
+        "dificil": "Começou há uns 252 milhões de anos"
+      }
+    },
+    {
+      "palavra": "MESOZOICO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Era dos dinossauros",
+        "media": "Era do Triássico, Jurássico e Cretáceo",
+        "dificil": "Era média da vida"
+      }
+    },
+    {
+      "palavra": "SAURÓPODE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro gigante de pescoço comprido",
+        "media": "Grupo do braquiossauro e do diplodoco",
+        "dificil": "Pés de lagarto, em grego"
+      }
+    },
+    {
+      "palavra": "TERÓPODE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro que andava em duas patas e caçava",
+        "media": "Grupo do tiranossauro e das aves",
+        "dificil": "Pés de fera, em grego"
+      }
+    },
+    {
+      "palavra": "ONÍVORO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho que come de tudo",
+        "media": "Animal que come plantas e animais",
+        "dificil": "O ser humano também é um"
+      }
+    },
+    {
+      "palavra": "PANGEIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando todos os continentes estavam juntos",
+        "media": "Supercontinente do Triássico",
+        "dificil": "Toda a terra, em grego"
+      }
+    },
+    {
+      "palavra": "ANQUILOSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro com casco e uma clava na cauda",
+        "media": "Herbívoro blindado do Cretáceo",
+        "dificil": "Lagarto fundido, em grego"
+      }
+    },
+    {
+      "palavra": "ESPINOSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro com uma vela nas costas que comia peixes",
+        "media": "Carnívoro semiaquático do norte da África",
+        "dificil": "Maior terópode conhecido, segundo muitos estudos"
+      }
+    },
+    {
+      "palavra": "IGUANODONTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro com um espinho no polegar",
+        "media": "Herbívoro do início do Cretáceo",
+        "dificil": "Um dos primeiros dinossauros batizados, em 1825"
+      }
+    },
+    {
+      "palavra": "ALOSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grande caçador do Jurássico",
+        "media": "Carnívoro achado nos EUA e em Portugal",
+        "dificil": "Lagarto diferente, em grego"
+      }
+    },
+    {
+      "palavra": "MEGALOSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Primeiro dinossauro a receber nome científico",
+        "media": "Carnívoro inglês descrito em 1824",
+        "dificil": "Lagarto grande, em grego"
+      }
+    },
+    {
+      "palavra": "TITANOSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dinossauro gigante de pescoço longo do Cretáceo",
+        "media": "Saurópode do grupo dos maiores animais terrestres",
+        "dificil": "Muitos foram achados no Brasil e na Argentina"
+      }
+    },
+    {
+      "palavra": "PTEROSSAURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Réptil voador que não era dinossauro",
+        "media": "Réptil alado da era Mesozoica",
+        "dificil": "O pteranodonte é um exemplo"
+      }
+    },
+    {
+      "palavra": "ÂMBAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Resina antiga que prende insetos dentro",
+        "media": "Resina vegetal fossilizada",
+        "dificil": "Pedra dourada que guarda mosquitos"
+      }
+    },
+    {
+      "palavra": "IRRITATOR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Dinossauro comedor de peixes achado no Ceará",
+        "media": "Espinossaurídeo brasileiro",
+        "dificil": "Nome vem da raiva com um crânio adulterado"
+      }
+    },
+    {
+      "palavra": "OXALAIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Dinossauro comedor de peixes achado no Maranhão",
+        "media": "Espinossaurídeo da Ilha do Cajual",
+        "dificil": "Batizado em homenagem a um orixá"
+      }
+    },
+    {
+      "palavra": "SATURNALIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Um dos dinossauros mais antigos, do Rio Grande do Sul",
+        "media": "Sauropodomorfo do Triássico gaúcho",
+        "dificil": "Achado na época do Carnaval"
+      }
+    },
+    {
+      "palavra": "UBERABATITAN",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Dinossauro gigante achado em Minas Gerais",
+        "media": "Titanossauro do Cretáceo mineiro",
+        "dificil": "Saurópode do Triângulo Mineiro"
+      }
+    },
+    {
+      "palavra": "COPRÓLITO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cocô de dinossauro que virou pedra",
+        "media": "Excremento fossilizado",
+        "dificil": "Revela a dieta de animais extintos"
+      }
+    }
+  ]
+}

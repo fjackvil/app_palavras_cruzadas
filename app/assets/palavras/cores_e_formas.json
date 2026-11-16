@@ -1,0 +1,485 @@
+{
+  "tema": "Cores e formas",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "AZUL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do céu num dia bonito",
+        "media": "Cor primária do mar e do céu",
+        "dificil": "Cor do manto de Nossa Senhora Aparecida"
+      }
+    },
+    {
+      "palavra": "VERDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor da grama e das folhas",
+        "media": "Cor da clorofila",
+        "dificil": "Cor da esperança"
+      }
+    },
+    {
+      "palavra": "ROXO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor da uva e da berinjela",
+        "media": "Mistura de azul com vermelho",
+        "dificil": "Cor da Quaresma"
+      }
+    },
+    {
+      "palavra": "ROSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do algodão-doce",
+        "media": "Cor clara entre o vermelho e o branco",
+        "dificil": "Também é o nome de uma flor com espinhos"
+      }
+    },
+    {
+      "palavra": "PRETO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor da noite sem lua",
+        "media": "Cor mais escura que existe",
+        "dificil": "Ausência total de luz"
+      }
+    },
+    {
+      "palavra": "BRANCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor da neve e do leite",
+        "media": "Cor que reflete toda a luz",
+        "dificil": "Soma de todas as cores da luz"
+      }
+    },
+    {
+      "palavra": "CINZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do elefante e da nuvem de chuva",
+        "media": "Mistura de preto e branco",
+        "dificil": "Cor do pó que sobra da fogueira"
+      }
+    },
+    {
+      "palavra": "MARROM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do chocolate e da terra",
+        "media": "Cor da madeira e do café",
+        "dificil": "Tom castanho"
+      }
+    },
+    {
+      "palavra": "LILÁS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roxinho bem clarinho",
+        "media": "Tom claro de roxo",
+        "dificil": "Cor da flor de lavanda"
+      }
+    },
+    {
+      "palavra": "CUBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma de um dado",
+        "media": "Sólido de seis faces quadradas",
+        "dificil": "Hexaedro regular"
+      }
+    },
+    {
+      "palavra": "LINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Risco comprido feito com lápis",
+        "media": "Traço contínuo",
+        "dificil": "Pode ser reta, curva ou quebrada"
+      }
+    },
+    {
+      "palavra": "PONTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pinguinho que fica no fim da frase",
+        "media": "Marca menor que se pode desenhar",
+        "dificil": "Encontro de duas retas"
+      }
+    },
+    {
+      "palavra": "SETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que aponta para um lado",
+        "media": "Sinal em forma de flecha",
+        "dificil": "Indica a direção a seguir"
+      }
+    },
+    {
+      "palavra": "CRUZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Duas linhas que se encontram no meio, como um +",
+        "media": "Figura de duas retas perpendiculares",
+        "dificil": "Símbolo da farmácia e do sinal de mais"
+      }
+    },
+    {
+      "palavra": "CURVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Linha que não é reta",
+        "media": "Linha que muda de direção aos poucos",
+        "dificil": "Trecho da estrada que faz o carro virar"
+      }
+    },
+    {
+      "palavra": "LARANJA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor da cenoura e da abóbora",
+        "media": "Mistura de vermelho com amarelo",
+        "dificil": "Também é o nome de uma fruta cítrica"
+      }
+    },
+    {
+      "palavra": "AMARELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do sol e da banana",
+        "media": "Cor primária do girassol",
+        "dificil": "Cor da camisa do canarinho da seleção"
+      }
+    },
+    {
+      "palavra": "VERMELHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor do morango e do tomate",
+        "media": "Cor primária do sangue",
+        "dificil": "Cor do sinal fechado"
+      }
+    },
+    {
+      "palavra": "DOURADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor brilhante de ouro",
+        "media": "Cor da medalha do primeiro lugar",
+        "dificil": "Brilho do troféu de campeão"
+      }
+    },
+    {
+      "palavra": "PRATEADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cor brilhante como a de uma colher",
+        "media": "Cor de metal claro e brilhante",
+        "dificil": "Cor da medalha do segundo lugar"
+      }
+    },
+    {
+      "palavra": "CÍRCULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma redonda como uma roda",
+        "media": "Figura plana de pontos à mesma distância do centro",
+        "dificil": "Tem raio e diâmetro"
+      }
+    },
+    {
+      "palavra": "QUADRADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma de quatro lados iguais",
+        "media": "Quadrilátero de lados e ângulos iguais",
+        "dificil": "Losango com ângulos retos"
+      }
+    },
+    {
+      "palavra": "TRIÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma de três lados, como uma fatia de pizza",
+        "media": "Polígono de três lados",
+        "dificil": "Pode ser equilátero, isósceles ou escaleno"
+      }
+    },
+    {
+      "palavra": "RETÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma da porta e da folha de caderno",
+        "media": "Quadrilátero de quatro ângulos retos",
+        "dificil": "Forma da tela do celular"
+      }
+    },
+    {
+      "palavra": "ESTRELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma de cinco pontas que brilha no céu",
+        "media": "Figura de pontas que lembra um astro",
+        "dificil": "Desenho das bandeiras e dos xerifes"
+      }
+    },
+    {
+      "palavra": "CORAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma que mostra amor",
+        "media": "Figura do símbolo do amor",
+        "dificil": "Desenho dos namorados"
+      }
+    },
+    {
+      "palavra": "ARCO-ÍRIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faixa de cores no céu depois da chuva",
+        "media": "Fenômeno de sete cores no céu",
+        "dificil": "Fenômeno de luz e gotas de chuva"
+      }
+    },
+    {
+      "palavra": "PIRÂMIDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma das construções do Egito",
+        "media": "Sólido de base poligonal e faces triangulares",
+        "dificil": "A de Quéops é a maior do Egito"
+      }
+    },
+    {
+      "palavra": "BEGE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cor da areia clarinha",
+        "media": "Cor de café com leite bem clarinho",
+        "dificil": "Tom neutro entre o branco e o marrom"
+      }
+    },
+    {
+      "palavra": "OVAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de ovo",
+        "media": "Figura redonda e alongada",
+        "dificil": "Formato da bola de rúgbi"
+      }
+    },
+    {
+      "palavra": "CONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma da casquinha de sorvete",
+        "media": "Sólido de base redonda e ponta",
+        "dificil": "Usado para bloquear ruas"
+      }
+    },
+    {
+      "palavra": "TURQUESA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Azul esverdeado do mar do Caribe",
+        "media": "Tom entre o azul e o verde",
+        "dificil": "Nome de uma pedra azul-esverdeada"
+      }
+    },
+    {
+      "palavra": "SALMÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cor rosada alaranjada, nome de peixe",
+        "media": "Tom de rosa alaranjado",
+        "dificil": "Mesmo nome do peixe do sushi"
+      }
+    },
+    {
+      "palavra": "VIOLETA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roxinho de uma florzinha",
+        "media": "Tom de roxo azulado",
+        "dificil": "Última cor do arco-íris"
+      }
+    },
+    {
+      "palavra": "ESFERA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de uma bola",
+        "media": "Sólido perfeitamente redondo",
+        "dificil": "Forma da Terra, quase"
+      }
+    },
+    {
+      "palavra": "CILINDRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de uma lata de refrigerante",
+        "media": "Sólido de duas bases redondas",
+        "dificil": "Forma de um cano ou de uma pilha"
+      }
+    },
+    {
+      "palavra": "LOSANGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma da figura amarela da bandeira do Brasil",
+        "media": "Quadrilátero de quatro lados iguais",
+        "dificil": "Forma de uma pipa"
+      }
+    },
+    {
+      "palavra": "HEXÁGONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma dos favos de mel das abelhas",
+        "media": "Polígono de seis lados",
+        "dificil": "Forma das porcas de parafuso"
+      }
+    },
+    {
+      "palavra": "PENTÁGONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de cinco lados",
+        "media": "Polígono de cinco lados",
+        "dificil": "Forma das peças pretas da bola de futebol clássica"
+      }
+    },
+    {
+      "palavra": "ESPIRAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Linha que gira, como o caracol",
+        "media": "Curva que se afasta do centro enquanto gira",
+        "dificil": "Forma das galáxias como a Via Láctea"
+      }
+    },
+    {
+      "palavra": "ANIL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Azul bem forte e escuro",
+        "media": "Azul intenso de origem vegetal",
+        "dificil": "Usado para azular a roupa antigamente"
+      }
+    },
+    {
+      "palavra": "MAGENTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Rosa bem forte e vibrante",
+        "media": "Tom entre o vermelho e o roxo",
+        "dificil": "Uma das cores da tinta da impressora"
+      }
+    },
+    {
+      "palavra": "ESCARLATE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelho bem vivo",
+        "media": "Vermelho intenso",
+        "dificil": "Cor das araras e dos cardeais"
+      }
+    },
+    {
+      "palavra": "OCRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Amarelo puxado para o marrom, cor de barro",
+        "media": "Tom amarelo-acastanhado de terra",
+        "dificil": "Pigmento das pinturas rupestres"
+      }
+    },
+    {
+      "palavra": "BORDÔ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vermelho bem escuro, puxado para o roxo",
+        "media": "Tom de vermelho-escuro",
+        "dificil": "Nome que vem de uma cidade francesa"
+      }
+    },
+    {
+      "palavra": "MARFIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Branco amarelado",
+        "media": "Tom de branco cremoso",
+        "dificil": "Mesmo nome do material das presas do elefante"
+      }
+    },
+    {
+      "palavra": "OCTÓGONO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Forma da placa de PARE",
+        "media": "Polígono de oito lados",
+        "dificil": "Tem oito ângulos internos"
+      }
+    },
+    {
+      "palavra": "TRAPÉZIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Forma de quatro lados com dois paralelos",
+        "media": "Quadrilátero com só dois lados paralelos",
+        "dificil": "Mesmo nome do balanço do circo"
+      }
+    },
+    {
+      "palavra": "VÉRTICE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ponta onde duas linhas se encontram",
+        "media": "Ponto de encontro de lados ou arestas",
+        "dificil": "O cubo tem oito"
+      }
+    },
+    {
+      "palavra": "ARESTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quina de um sólido",
+        "media": "Segmento onde duas faces se encontram",
+        "dificil": "O cubo tem doze"
+      }
+    },
+    {
+      "palavra": "PRISMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peça de vidro que faz arco-íris",
+        "media": "Sólido de duas bases iguais e paralelas",
+        "dificil": "Decompõe a luz branca"
+      }
+    },
+    {
+      "palavra": "ELIPSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Círculo achatado",
+        "media": "Curva fechada de dois focos",
+        "dificil": "Forma da órbita dos planetas"
+      }
+    },
+    {
+      "palavra": "PARALELOGRAMO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Forma de quatro lados que parece um retângulo inclinado",
+        "media": "Quadrilátero de lados opostos paralelos",
+        "dificil": "O losango é um caso dele"
+      }
+    }
+  ]
+}

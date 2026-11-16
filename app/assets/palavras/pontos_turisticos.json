@@ -1,0 +1,467 @@
+{
+  "tema": "Pontos turísticos",
+  "categoria": "Mundo",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "MALA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde a gente guarda a roupa para viajar",
+        "media": "Bagagem",
+        "dificil": "Fazer a ... é o primeiro passo da viagem"
+      }
+    },
+    {
+      "palavra": "FOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Imagem que a gente tira para lembrar o passeio",
+        "media": "Retrato",
+        "dificil": "A selfie é uma delas"
+      }
+    },
+    {
+      "palavra": "HOTEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde a gente dorme durante a viagem",
+        "media": "Estabelecimento de hospedagem",
+        "dificil": "Pousada grande, com recepção e quartos"
+      }
+    },
+    {
+      "palavra": "MAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Desenho que mostra o caminho",
+        "media": "Representação dos lugares no papel",
+        "dificil": "Cartografia numa folha"
+      }
+    },
+    {
+      "palavra": "GUIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que mostra e explica os lugares para os turistas",
+        "media": "Acompanhante de excursão",
+        "dificil": "Também é um livrinho com dicas de viagem"
+      }
+    },
+    {
+      "palavra": "PRAIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar de areia e mar para nadar nas férias",
+        "media": "Faixa de areia à beira-mar",
+        "dificil": "Jericoacoara tem uma das mais bonitas"
+      }
+    },
+    {
+      "palavra": "MUSEU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com obras de arte e objetos antigos para ver",
+        "media": "Instituição que guarda e expõe acervos",
+        "dificil": "O do Ipiranga fica em São Paulo"
+      }
+    },
+    {
+      "palavra": "VIAGEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a gente vai para outro lugar nas férias",
+        "media": "Deslocamento para conhecer lugares",
+        "dificil": "Boa ...! se diz para quem parte"
+      }
+    },
+    {
+      "palavra": "TORRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construção bem alta e fininha",
+        "media": "Edificação alta e estreita",
+        "dificil": "A de Pisa é torta"
+      }
+    },
+    {
+      "palavra": "FAROL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Torre com luz que ajuda os navios à noite",
+        "media": "Sinalizador luminoso do litoral",
+        "dificil": "O da Barra é cartão-postal de Salvador"
+      }
+    },
+    {
+      "palavra": "TEMPLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prédio sagrado onde as pessoas rezam",
+        "media": "Edifício religioso",
+        "dificil": "Os de Kyoto atraem milhões de visitantes"
+      }
+    },
+    {
+      "palavra": "PONTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construção para atravessar o rio",
+        "media": "Obra que liga duas margens",
+        "dificil": "A Golden Gate é vermelha e famosa"
+      }
+    },
+    {
+      "palavra": "CRISTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estátua de braços abertos no alto de um morro do Rio",
+        "media": "Estátua do Redentor carioca",
+        "dificil": "Uma das Sete Maravilhas do Mundo Moderno"
+      }
+    },
+    {
+      "palavra": "TRILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caminho no meio do mato para fazer caminhada",
+        "media": "Percurso a pé na natureza",
+        "dificil": "Programa de quem gosta de ecoturismo"
+      }
+    },
+    {
+      "palavra": "TURISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que viaja para conhecer lugares",
+        "media": "Visitante a passeio",
+        "dificil": "Quem tira foto de tudo nas férias"
+      }
+    },
+    {
+      "palavra": "CASTELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa grande de reis e rainhas, com torres",
+        "media": "Fortaleza medieval",
+        "dificil": "O de Neuschwanstein inspirou contos de fadas"
+      }
+    },
+    {
+      "palavra": "PALÁCIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Casa enorme e chique onde morava a realeza",
+        "media": "Residência luxuosa de governantes",
+        "dificil": "O de Buckingham fica em Londres"
+      }
+    },
+    {
+      "palavra": "ESTÁTUA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Figura de pedra ou metal em forma de pessoa",
+        "media": "Escultura em vulto",
+        "dificil": "A da Liberdade fica em Nova York"
+      }
+    },
+    {
+      "palavra": "MIRANTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar alto para ver a paisagem",
+        "media": "Ponto de observação panorâmica",
+        "dificil": "Belvedere"
+      }
+    },
+    {
+      "palavra": "BONDINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cabine pendurada num cabo que sobe o morro",
+        "media": "Teleférico turístico",
+        "dificil": "O do Pão de Açúcar foi inaugurado em 1912"
+      }
+    },
+    {
+      "palavra": "PASSEIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Volta para se divertir e conhecer lugares",
+        "media": "Excursão curta",
+        "dificil": "Programa de domingo"
+      }
+    },
+    {
+      "palavra": "CRUZEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Viagem num navio enorme, com piscina",
+        "media": "Viagem turística de navio",
+        "dificil": "Também é constelação do céu do Sul"
+      }
+    },
+    {
+      "palavra": "COLISEU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arena antiga e redonda de Roma",
+        "media": "Anfiteatro romano",
+        "dificil": "Anfiteatro Flávio é seu nome oficial"
+      }
+    },
+    {
+      "palavra": "ESFINGE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estátua gigante com corpo de leão e cabeça de gente, no Egito",
+        "media": "Monumento de Gizé, guardião das pirâmides",
+        "dificil": "Fazia charadas na mitologia grega"
+      }
+    },
+    {
+      "palavra": "MURALHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Muro gigante que atravessa a China",
+        "media": "A Grande ... da China",
+        "dificil": "Obra de milhares de quilômetros"
+      }
+    },
+    {
+      "palavra": "MARACANÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Estádio de futebol famoso do Rio de Janeiro",
+        "media": "Estádio Jornalista Mário Filho",
+        "dificil": "Palco das finais de Copa de 1950 e 2014"
+      }
+    },
+    {
+      "palavra": "IPANEMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Praia famosa do Rio que virou música",
+        "media": "Praia carioca entre o Arpoador e o Leblon",
+        "dificil": "A garota mais famosa da bossa nova é de lá"
+      }
+    },
+    {
+      "palavra": "PANTANAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar alagado cheio de jacarés e tuiuiús",
+        "media": "Maior planície alagável do mundo",
+        "dificil": "Bioma de Mato Grosso e Mato Grosso do Sul"
+      }
+    },
+    {
+      "palavra": "NORONHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ilha de Pernambuco com golfinhos e mar transparente",
+        "media": "Arquipélago de Fernando de ...",
+        "dificil": "Lar da Baía do Sancho, eleita a praia mais bonita do mundo"
+      }
+    },
+    {
+      "palavra": "AMAZÔNIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A maior floresta tropical do mundo",
+        "media": "Floresta do Norte do Brasil",
+        "dificil": "Encontro das Águas, Manaus e muita biodiversidade"
+      }
+    },
+    {
+      "palavra": "CATARATAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quedas-d'água gigantes em Foz do Iguaçu",
+        "media": "Conjunto de grandes cachoeiras",
+        "dificil": "As do Iguaçu ficam na fronteira com a Argentina"
+      }
+    },
+    {
+      "palavra": "PIRÂMIDES",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Construções de pedra em forma de triângulo no Egito",
+        "media": "Túmulos dos faraós em Gizé",
+        "dificil": "Quéops, Quéfren e Miquerinos"
+      }
+    },
+    {
+      "palavra": "TORRE EIFFEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Torre de ferro famosa de Paris",
+        "media": "Monumento parisiense de 1889",
+        "dificil": "Dama de Ferro da França"
+      }
+    },
+    {
+      "palavra": "PÃO DE AÇÚCAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Morro do Rio com bondinho",
+        "media": "Cartão-postal na entrada da Baía de Guanabara",
+        "dificil": "Pedra carioca com nome de doce"
+      }
+    },
+    {
+      "palavra": "COPACABANA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Praia famosa do Rio com calçadão de ondinhas",
+        "media": "Praia carioca da maior festa de Réveillon",
+        "dificil": "Princesinha do Mar"
+      }
+    },
+    {
+      "palavra": "ZOOLÓGICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar para ver animais do mundo todo",
+        "media": "Parque com bichos em exposição",
+        "dificil": "Jardim de feras"
+      }
+    },
+    {
+      "palavra": "CORCOVADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Morro onde fica o Cristo Redentor",
+        "media": "Morro de 710 metros no Rio",
+        "dificil": "Nome que lembra corcunda"
+      }
+    },
+    {
+      "palavra": "PELOURINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bairro colorido e antigo de Salvador",
+        "media": "Centro histórico de Salvador",
+        "dificil": "Ladeiras onde o Olodum toca"
+      }
+    },
+    {
+      "palavra": "LOUVRE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Museu de Paris com uma pirâmide de vidro",
+        "media": "Museu que guarda a Mona Lisa",
+        "dificil": "Antigo palácio dos reis franceses"
+      }
+    },
+    {
+      "palavra": "BIG BEN",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Relógio famoso de Londres",
+        "media": "Torre do relógio do Parlamento britânico",
+        "dificil": "Na verdade, é o nome do sino maior"
+      }
+    },
+    {
+      "palavra": "PETRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade antiga esculpida na pedra rosada",
+        "media": "Sítio arqueológico da Jordânia",
+        "dificil": "Maravilha moderna erguida pelos nabateus"
+      }
+    },
+    {
+      "palavra": "ACRÓPOLE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Morro de Atenas com templos antigos",
+        "media": "Cidadela grega do Partenon",
+        "dificil": "Cidade alta, em grego"
+      }
+    },
+    {
+      "palavra": "PARTENON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Templo grego antigo com muitas colunas",
+        "media": "Templo de Atena no alto de Atenas",
+        "dificil": "Dedicado à deusa Atena Pártenos"
+      }
+    },
+    {
+      "palavra": "TAJ MAHAL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Construção branca na Índia feita em homenagem a uma esposa",
+        "media": "Mausoléu de mármore em Agra",
+        "dificil": "Monumento que o imperador Shah Jahan ergueu à esposa"
+      }
+    },
+    {
+      "palavra": "MACHU PICCHU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cidade antiga dos incas no alto das montanhas do Peru",
+        "media": "Ruínas incas nos Andes peruanos",
+        "dificil": "Montanha Velha, em quíchua"
+      }
+    },
+    {
+      "palavra": "STONEHENGE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Círculo de pedras gigantes na Inglaterra",
+        "media": "Monumento pré-histórico britânico",
+        "dificil": "Mistério de pedra perto de Salisbury"
+      }
+    },
+    {
+      "palavra": "VERSALHES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Palácio com espelhos e jardins perto de Paris",
+        "media": "Palácio de Luís XIV",
+        "dificil": "Lar da Galeria dos Espelhos"
+      }
+    },
+    {
+      "palavra": "ALHAMBRA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Palácio árabe numa colina da Espanha",
+        "media": "Fortaleza-palácio de Granada",
+        "dificil": "Joia mourisca da Andaluzia"
+      }
+    },
+    {
+      "palavra": "JALAPÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lugar de dunas laranjas e poços que borbulham, no Tocantins",
+        "media": "Parque estadual tocantinense",
+        "dificil": "Terra dos fervedouros e do capim-dourado"
+      }
+    },
+    {
+      "palavra": "LENÇÓIS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dunas brancas com lagoas azuis no Maranhão",
+        "media": "Parque nacional maranhense de dunas",
+        "dificil": "Deserto que não é deserto, cheio de lagoas da chuva"
+      }
+    },
+    {
+      "palavra": "ANGKOR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Templos antigos no meio da selva do Camboja",
+        "media": "Complexo de templos khmer",
+        "dificil": "Seu Wat é o maior monumento religioso do mundo"
+      }
+    }
+  ]
+}

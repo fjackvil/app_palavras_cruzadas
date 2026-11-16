@@ -1,0 +1,494 @@
+{
+  "tema": "Literatura brasileira",
+  "categoria": "Cultura",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "MACHADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escritor carioca que fundou a Academia Brasileira de Letras",
+        "media": "Autor de Dom Casmurro",
+        "dificil": "Bruxo do Cosme Velho"
+      }
+    },
+    {
+      "palavra": "LOBATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Criador do Sítio do Picapau Amarelo",
+        "media": "Monteiro, autor de Reinações de Narizinho",
+        "dificil": "Pai literário da Emília"
+      }
+    },
+    {
+      "palavra": "ALENCAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Autor de Iracema e O Guarani",
+        "media": "José, romancista do século 19",
+        "dificil": "Escritor cearense do indianismo"
+      }
+    },
+    {
+      "palavra": "AMADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escritor baiano de Capitães da Areia",
+        "media": "Autor de Gabriela, Cravo e Canela",
+        "dificil": "Jorge, contador de histórias da Bahia"
+      }
+    },
+    {
+      "palavra": "DRUMMOND",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta que achou uma pedra no meio do caminho",
+        "media": "Carlos, poeta de Itabira",
+        "dificil": "Autor de Sentimento do Mundo"
+      }
+    },
+    {
+      "palavra": "BANDEIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta que queria ir embora pra Pasárgada",
+        "media": "Manuel, poeta pernambucano",
+        "dificil": "Modernista nascido no Recife"
+      }
+    },
+    {
+      "palavra": "CECÍLIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta que escreveu Ou Isto ou Aquilo para crianças",
+        "media": "Meireles, poeta carioca",
+        "dificil": "Autora do Romanceiro da Inconfidência"
+      }
+    },
+    {
+      "palavra": "CLARICE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Escritora de A Hora da Estrela",
+        "media": "Lispector",
+        "dificil": "Autora nascida na Ucrânia"
+      }
+    },
+    {
+      "palavra": "RACHEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escritora cearense de O Quinze",
+        "media": "De Queiroz, primeira mulher na Academia",
+        "dificil": "Romancista da seca de 1915"
+      }
+    },
+    {
+      "palavra": "ZIRALDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Criador do Menino Maluquinho",
+        "media": "Autor e cartunista mineiro",
+        "dificil": "Pai do Flicts"
+      }
+    },
+    {
+      "palavra": "ROCHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ruth, autora de Marcelo, Marmelo, Martelo",
+        "media": "Sobrenome de Ruth, escritora para crianças",
+        "dificil": "Criadora do Reizinho Mandão"
+      }
+    },
+    {
+      "palavra": "VINICIUS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta que escreveu A Arca de Noé para crianças",
+        "media": "De Moraes, o poetinha",
+        "dificil": "Parceiro de Tom Jobim"
+      }
+    },
+    {
+      "palavra": "QUINTANA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Poeta gaúcho que dizia: eles passarão, eu passarinho",
+        "media": "Mario, poeta de Alegrete",
+        "dificil": "Autor de Rua dos Cataventos"
+      }
+    },
+    {
+      "palavra": "GUIMARÃES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Rosa, autor de Grande Sertão: Veredas",
+        "media": "João, médico, diplomata e escritor mineiro",
+        "dificil": "Inventor de palavras do sertão"
+      }
+    },
+    {
+      "palavra": "GRACILIANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Autor de Vidas Secas",
+        "media": "Ramos, escritor alagoano",
+        "dificil": "Criou a cachorra Baleia"
+      }
+    },
+    {
+      "palavra": "GONÇALVES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dias, poeta da Canção do Exílio",
+        "media": "Sobrenome do poeta maranhense Antônio Dias",
+        "dificil": "Minha terra tem palmeiras"
+      }
+    },
+    {
+      "palavra": "CASTRO ALVES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Poeta baiano de O Navio Negreiro",
+        "media": "Poeta dos Escravos",
+        "dificil": "Condoreiro de Espumas Flutuantes"
+      }
+    },
+    {
+      "palavra": "SUASSUNA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Autor do Auto da Compadecida",
+        "media": "Ariano, escritor paraibano",
+        "dificil": "Criador de João Grilo e Chicó"
+      }
+    },
+    {
+      "palavra": "VERÍSSIMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Erico, autor de O Tempo e o Vento",
+        "media": "Sobrenome de Erico, escritor gaúcho",
+        "dificil": "Pai de Luis Fernando, também escritor"
+      }
+    },
+    {
+      "palavra": "AZEVEDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aluísio, autor de O Cortiço",
+        "media": "Sobrenome de Aluísio, naturalista maranhense",
+        "dificil": "Também é sobrenome de Álvares, poeta romântico"
+      }
+    },
+    {
+      "palavra": "CAMINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escreveu a carta do descobrimento do Brasil",
+        "media": "Pero Vaz, escrivão de Cabral",
+        "dificil": "Autor da certidão de nascimento do Brasil"
+      }
+    },
+    {
+      "palavra": "EUCLIDES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Autor de Os Sertões",
+        "media": "Da Cunha, repórter de Canudos",
+        "dificil": "Escreveu que o sertanejo é antes de tudo um forte"
+      }
+    },
+    {
+      "palavra": "IRACEMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Romance de Alencar sobre uma moça indígena",
+        "media": "Virgem dos lábios de mel",
+        "dificil": "Anagrama de América"
+      }
+    },
+    {
+      "palavra": "MACUNAÍMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Herói sem nenhum caráter",
+        "media": "Livro de Mário de Andrade",
+        "dificil": "Rapsódia modernista de 1928"
+      }
+    },
+    {
+      "palavra": "CAPITU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Moça de olhos de ressaca",
+        "media": "Personagem de Dom Casmurro",
+        "dificil": "Olhos de cigana oblíqua e dissimulada"
+      }
+    },
+    {
+      "palavra": "EMÍLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Boneca de pano que fala, do Sítio",
+        "media": "Personagem de Lobato",
+        "dificil": "Marquesa de Rabicó"
+      }
+    },
+    {
+      "palavra": "NARIZINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Menina do Sítio do Picapau Amarelo",
+        "media": "Lúcia, neta de Dona Benta",
+        "dificil": "Dona do porquinho Rabicó"
+      }
+    },
+    {
+      "palavra": "PEDRINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Menino neto de Dona Benta",
+        "media": "Primo de Narizinho",
+        "dificil": "Aventureiro do Sítio"
+      }
+    },
+    {
+      "palavra": "VISCONDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sabugo de milho sábio do Sítio",
+        "media": "Cientista feito de milho",
+        "dificil": "Título de nobreza do sabugo"
+      }
+    },
+    {
+      "palavra": "CUCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bruxa com cara de jacaré",
+        "media": "Vilã das histórias de Lobato",
+        "dificil": "Faz feitiços contra o Sítio"
+      }
+    },
+    {
+      "palavra": "SAGARANA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Livro de contos de Guimarães Rosa",
+        "media": "Estreia de Rosa em livro, em 1946",
+        "dificil": "Traz A Hora e Vez de Augusto Matraga"
+      }
+    },
+    {
+      "palavra": "POEMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Texto escrito em versos",
+        "media": "Texto em versos e estrofes",
+        "dificil": "Pode rimar ou não"
+      }
+    },
+    {
+      "palavra": "VERSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada linha de uma poesia",
+        "media": "Linha poética",
+        "dificil": "Junte vários e vira estrofe"
+      }
+    },
+    {
+      "palavra": "RIMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando o fim das palavras soa igual",
+        "media": "Som repetido no fim do verso",
+        "dificil": "Amor com flor, por exemplo"
+      }
+    },
+    {
+      "palavra": "ESTROFE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grupo de versos de uma poesia",
+        "media": "Estância",
+        "dificil": "O soneto tem quatro"
+      }
+    },
+    {
+      "palavra": "SONETO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Poesia de 14 versos",
+        "media": "Duas quadras e dois tercetos",
+        "dificil": "Forma preferida de Camões e Bilac"
+      }
+    },
+    {
+      "palavra": "CONTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "História curta",
+        "media": "Narrativa breve",
+        "dificil": "Narrativa menor que um romance"
+      }
+    },
+    {
+      "palavra": "ROMANCE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Livro grande que conta uma história",
+        "media": "Narrativa longa",
+        "dificil": "Também é namoro"
+      }
+    },
+    {
+      "palavra": "CRÔNICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto curto sobre o dia a dia",
+        "media": "Gênero de jornal",
+        "dificil": "Rubem Braga era mestre nele"
+      }
+    },
+    {
+      "palavra": "LIVRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem capa e páginas para ler",
+        "media": "Obra impressa",
+        "dificil": "Morada das histórias"
+      }
+    },
+    {
+      "palavra": "AUTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem escreve o livro",
+        "media": "Escritor",
+        "dificil": "Nome que vai na capa"
+      }
+    },
+    {
+      "palavra": "CORDEL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Livrinho de versos pendurado em barbante nas feiras",
+        "media": "Literatura popular nordestina",
+        "dificil": "Folheto com xilogravura na capa"
+      }
+    },
+    {
+      "palavra": "FÁBULA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Historinha com bichos que ensina uma lição",
+        "media": "Narrativa com moral",
+        "dificil": "A cigarra e a formiga é uma"
+      }
+    },
+    {
+      "palavra": "PERSONAGEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem participa da história",
+        "media": "Figura de ficção",
+        "dificil": "Herói ou vilão de uma trama"
+      }
+    },
+    {
+      "palavra": "NARRADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem conta a história no livro",
+        "media": "Voz que relata os fatos",
+        "dificil": "Pode falar em primeira pessoa"
+      }
+    },
+    {
+      "palavra": "MODERNISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Movimento que mudou a arte em 1922",
+        "media": "Escola literária iniciada em 1922",
+        "dificil": "Movimento de Oswald e Mário de Andrade"
+      }
+    },
+    {
+      "palavra": "ROMANTISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escola literária do amor e da natureza",
+        "media": "Movimento de Gonçalves Dias e Alencar",
+        "dificil": "Escola de Álvares de Azevedo"
+      }
+    },
+    {
+      "palavra": "ACADEMIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Casa dos imortais das letras",
+        "media": "Instituição fundada por Machado de Assis",
+        "dificil": "Reúne quarenta imortais desde 1897"
+      }
+    },
+    {
+      "palavra": "BIBLIOTECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com muitos livros para ler e pegar emprestado",
+        "media": "Acervo de livros",
+        "dificil": "Morada dos livros"
+      }
+    },
+    {
+      "palavra": "LEITOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que lê os livros",
+        "media": "Quem percorre as páginas",
+        "dificil": "Destinatário de toda obra"
+      }
+    },
+    {
+      "palavra": "CAPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte de fora do livro, com título e desenho",
+        "media": "Cobertura do livro",
+        "dificil": "Primeira coisa que se vê na estante"
+      }
+    },
+    {
+      "palavra": "PÁGINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada folha do livro tem duas",
+        "media": "Lado numerado da folha",
+        "dificil": "Vira-se para seguir lendo"
+      }
+    },
+    {
+      "palavra": "TÍTULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nome do livro",
+        "media": "Nome de uma obra",
+        "dificil": "Vai na capa e na lombada"
+      }
+    },
+    {
+      "palavra": "HERÓI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Personagem bom que salva o dia",
+        "media": "Protagonista corajoso",
+        "dificil": "Macunaíma é um sem caráter"
+      }
+    }
+  ]
+}

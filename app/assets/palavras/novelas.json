@@ -1,0 +1,467 @@
+{
+  "tema": "Novelas",
+  "categoria": "Cinema e TV",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "NOVELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "História na TV que passa todo dia",
+        "media": "Folhetim televisivo diário",
+        "dificil": "Tem capítulos, galã e vilã"
+      }
+    },
+    {
+      "palavra": "BEIJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carinho com os lábios",
+        "media": "Ósculo",
+        "dificil": "O do último capítulo é o mais esperado"
+      }
+    },
+    {
+      "palavra": "AMOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sentimento de quem gosta muito de alguém",
+        "media": "Paixão romântica",
+        "dificil": "Move quase toda trama"
+      }
+    },
+    {
+      "palavra": "CHORO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lágrimas de quem está triste",
+        "media": "Pranto",
+        "dificil": "Comum em cenas de despedida"
+      }
+    },
+    {
+      "palavra": "FESTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comemoração com música e convidados",
+        "media": "Celebração",
+        "dificil": "Cenário de muitas brigas e revelações"
+      }
+    },
+    {
+      "palavra": "VILÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O malvado da história",
+        "media": "Antagonista da trama",
+        "dificil": "Recebe o castigo no último capítulo"
+      }
+    },
+    {
+      "palavra": "CENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedaço da história gravado de uma vez",
+        "media": "Trecho de um capítulo",
+        "dificil": "Fazer uma é dar escândalo"
+      }
+    },
+    {
+      "palavra": "FINAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como a história acaba",
+        "media": "Desfecho",
+        "dificil": "O feliz tem casamento"
+      }
+    },
+    {
+      "palavra": "PAIXÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Amor muito forte",
+        "media": "Sentimento arrebatador",
+        "dificil": "Arrebata o galã e a mocinha"
+      }
+    },
+    {
+      "palavra": "FOFOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Conversa sobre a vida dos outros",
+        "media": "Mexerico",
+        "dificil": "Espalha segredos pela vizinhança"
+      }
+    },
+    {
+      "palavra": "MANSÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa enorme de gente rica",
+        "media": "Residência luxuosa",
+        "dificil": "Cenário clássico da família poderosa"
+      }
+    },
+    {
+      "palavra": "CIÚME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Medo de perder quem a gente ama",
+        "media": "Sentimento possessivo",
+        "dificil": "Causa brigas entre casais"
+      }
+    },
+    {
+      "palavra": "NOIVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Moça que vai se casar",
+        "media": "Prometida em casamento",
+        "dificil": "Entra de branco no último capítulo"
+      }
+    },
+    {
+      "palavra": "GÊMEOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Irmãos que nasceram juntos",
+        "media": "Nascidos do mesmo parto",
+        "dificil": "Trocados no nascimento, viram trama"
+      }
+    },
+    {
+      "palavra": "CAPÍTULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada parte que passa por dia",
+        "media": "Episódio diário",
+        "dificil": "O último para o país"
+      }
+    },
+    {
+      "palavra": "CASAMENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Festa em que os noivos dizem sim",
+        "media": "Matrimônio",
+        "dificil": "Final feliz clássico"
+      }
+    },
+    {
+      "palavra": "SEGREDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisa escondida que ninguém pode saber",
+        "media": "Mistério guardado",
+        "dificil": "Quando revelado, muda tudo"
+      }
+    },
+    {
+      "palavra": "MOCINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A moça boa da história",
+        "media": "Heroína romântica",
+        "dificil": "Sofre muito antes do final feliz"
+      }
+    },
+    {
+      "palavra": "MOCINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O rapaz bom da história",
+        "media": "Herói romântico",
+        "dificil": "Par da protagonista"
+      }
+    },
+    {
+      "palavra": "LÁGRIMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gota que cai do olho quando choramos",
+        "media": "Gota de pranto",
+        "dificil": "Escorre no rosto da mocinha"
+      }
+    },
+    {
+      "palavra": "GALÃ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ator bonito que faz o par romântico",
+        "media": "Protagonista sedutor",
+        "dificil": "Coração da plateia"
+      }
+    },
+    {
+      "palavra": "TRAMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A história contada",
+        "media": "Enredo",
+        "dificil": "Teia de intrigas"
+      }
+    },
+    {
+      "palavra": "AUTORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mulher que escreve a história",
+        "media": "Criadora do texto",
+        "dificil": "Assina a obra"
+      }
+    },
+    {
+      "palavra": "ELENCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Todos os atores da história",
+        "media": "Conjunto de intérpretes",
+        "dificil": "Lista de quem atua"
+      }
+    },
+    {
+      "palavra": "VINGANÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Querer devolver o mal que sofreu",
+        "media": "Desforra",
+        "dificil": "Motor de muitas vilãs"
+      }
+    },
+    {
+      "palavra": "HERANÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bens deixados por quem morreu",
+        "media": "Espólio",
+        "dificil": "Motivo de disputa entre irmãos"
+      }
+    },
+    {
+      "palavra": "ABERTURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Imagens e música do começo",
+        "media": "Vinheta inicial",
+        "dificil": "Tem canção famosa"
+      }
+    },
+    {
+      "palavra": "INTRIGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Armação para causar briga",
+        "media": "Maquinação",
+        "dificil": "Especialidade da vilã"
+      }
+    },
+    {
+      "palavra": "TRAIÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Enganar quem confiava em você",
+        "media": "Deslealdade",
+        "dificil": "Escândalo do penúltimo capítulo"
+      }
+    },
+    {
+      "palavra": "REPRISE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando passa de novo",
+        "media": "Reexibição",
+        "dificil": "Segunda chance para quem perdeu"
+      }
+    },
+    {
+      "palavra": "ESTREIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeiro capítulo",
+        "media": "Lançamento",
+        "dificil": "Dia de grande expectativa"
+      }
+    },
+    {
+      "palavra": "AUDIÊNCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quantas pessoas estão assistindo",
+        "media": "Público medido",
+        "dificil": "Medida em pontos"
+      }
+    },
+    {
+      "palavra": "RESUMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto que conta o que vai acontecer",
+        "media": "Sinopse do dia",
+        "dificil": "Publicado em revistas e sites"
+      }
+    },
+    {
+      "palavra": "FIGURINO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "As roupas dos personagens",
+        "media": "Vestuário de cena",
+        "dificil": "Às vezes vira moda"
+      }
+    },
+    {
+      "palavra": "CENÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar montado para gravar",
+        "media": "Ambientação",
+        "dificil": "Cidade cenográfica"
+      }
+    },
+    {
+      "palavra": "MORDOMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Empregado chefe de casa rica",
+        "media": "Criado principal",
+        "dificil": "Clássico suspeito: a culpa é dele"
+      }
+    },
+    {
+      "palavra": "ÉPOCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "História passada em tempos antigos",
+        "media": "Período histórico",
+        "dificil": "Novela de figurino e carruagem"
+      }
+    },
+    {
+      "palavra": "TRILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Músicas que tocam na história",
+        "media": "Conjunto musical (com \"sonora\")",
+        "dificil": "Vira disco de sucesso"
+      }
+    },
+    {
+      "palavra": "GRAVAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando as cenas são filmadas",
+        "media": "Registro das cenas",
+        "dificil": "Acontece meses antes da exibição"
+      }
+    },
+    {
+      "palavra": "FOLHETIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "História em partes publicada no jornal",
+        "media": "Romance seriado",
+        "dificil": "Antepassado do formato na TV"
+      }
+    },
+    {
+      "palavra": "RADIONOVELA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "História em capítulos ouvida no rádio",
+        "media": "Dramaturgia radiofônica seriada",
+        "dificil": "\"Em Busca da Felicidade\" estreou em 1941"
+      }
+    },
+    {
+      "palavra": "MELODRAMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "História cheia de emoções exageradas",
+        "media": "Drama sentimental",
+        "dificil": "Lágrimas, música e exagero"
+      }
+    },
+    {
+      "palavra": "DRAMALHÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Drama exagerado demais",
+        "media": "Melodrama excessivo",
+        "dificil": "Choradeira sem fim"
+      }
+    },
+    {
+      "palavra": "NÚCLEO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo de personagens ligados entre si",
+        "media": "Conjunto de personagens de uma trama",
+        "dificil": "Pode ser rico, pobre ou cômico"
+      }
+    },
+    {
+      "palavra": "ANTAGONISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem atrapalha a protagonista",
+        "media": "Opositor do herói",
+        "dificil": "O vilão da história"
+      }
+    },
+    {
+      "palavra": "SINOPSE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Resumo da história inteira",
+        "media": "Proposta escrita da trama",
+        "dificil": "Apresentada antes da aprovação"
+      }
+    },
+    {
+      "palavra": "AMNÉSIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando a pessoa esquece quem é",
+        "media": "Perda de memória",
+        "dificil": "Recurso clássico após um acidente"
+      }
+    },
+    {
+      "palavra": "GANCHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Suspense no fim do capítulo",
+        "media": "Fim que prende o público",
+        "dificil": "Também segura o quadro na parede"
+      }
+    },
+    {
+      "palavra": "CENÓGRAFO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem cria os lugares das gravações",
+        "media": "Projetista de cenários",
+        "dificil": "Arquiteto da ficção"
+      }
+    },
+    {
+      "palavra": "FIGURINISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem escolhe as roupas dos atores",
+        "media": "Responsável pelo vestuário",
+        "dificil": "Estilista da ficção"
+      }
+    },
+    {
+      "palavra": "MERCHANDISING",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Produto que aparece no meio da história",
+        "media": "Propaganda dentro da trama",
+        "dificil": "Anúncio disfarçado de cena"
+      }
+    }
+  ]
+}

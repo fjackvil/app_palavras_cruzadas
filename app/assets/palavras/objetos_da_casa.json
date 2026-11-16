@@ -1,0 +1,485 @@
+{
+  "tema": "Objetos da casa",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde a gente dorme",
+        "media": "Móvel com colchão para dormir",
+        "dificil": "Tem cabeceira, lençol e travesseiro"
+      }
+    },
+    {
+      "palavra": "MESA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Móvel onde a família almoça",
+        "media": "Móvel de tampo e pernas para refeições",
+        "dificil": "Pode ser de jantar, de centro ou de cabeceira"
+      }
+    },
+    {
+      "palavra": "SOFÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Assento macio da sala para várias pessoas",
+        "media": "Assento estofado para mais de uma pessoa",
+        "dificil": "Pode ser retrátil ou de canto"
+      }
+    },
+    {
+      "palavra": "PORTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Abre e fecha para entrar no quarto",
+        "media": "Abertura com folha que dá acesso aos cômodos",
+        "dificil": "Tem maçaneta e fechadura"
+      }
+    },
+    {
+      "palavra": "JANELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Abertura na parede para ver lá fora",
+        "media": "Abertura que deixa entrar luz e ar",
+        "dificil": "Pode ter vidro, veneziana ou cortina"
+      }
+    },
+    {
+      "palavra": "GARFO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Talher de dentinhos para espetar a comida",
+        "media": "Talher com dentes",
+        "dificil": "Faz par com a faca no prato"
+      }
+    },
+    {
+      "palavra": "FACA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Talher que corta a carne",
+        "media": "Utensílio de lâmina para cortar",
+        "dificil": "Afiada, mora na gaveta dos talheres"
+      }
+    },
+    {
+      "palavra": "COLHER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Talher de tomar sopa",
+        "media": "Talher côncavo para levar líquidos à boca",
+        "dificil": "A de pau mexe a panela de doce"
+      }
+    },
+    {
+      "palavra": "PANELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vasilha onde se cozinha a comida",
+        "media": "Recipiente de cozinhar no fogo",
+        "dificil": "A de pressão apita"
+      }
+    },
+    {
+      "palavra": "TAPETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pano macio que fica no chão da sala",
+        "media": "Peça de tecido que cobre o piso",
+        "dificil": "O persa é famoso"
+      }
+    },
+    {
+      "palavra": "FOGÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde a comida esquenta na cozinha",
+        "media": "Eletrodoméstico com bocas e forno",
+        "dificil": "Pode ser a gás ou a lenha"
+      }
+    },
+    {
+      "palavra": "TOALHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pano para se secar depois do banho",
+        "media": "Pano felpudo de enxugar o corpo",
+        "dificil": "Também cobre a mesa de jantar"
+      }
+    },
+    {
+      "palavra": "GAVETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caixinha que se puxa para fora do móvel",
+        "media": "Compartimento deslizante de um móvel",
+        "dificil": "Guarda meias e talheres"
+      }
+    },
+    {
+      "palavra": "CHAVE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Abre a fechadura da porta",
+        "media": "Peça de metal que gira na fechadura",
+        "dificil": "A reserva às vezes fica debaixo do tapete"
+      }
+    },
+    {
+      "palavra": "VARAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Corda onde a roupa seca",
+        "media": "Fio em que se estende roupa molhada",
+        "dificil": "Usa pregadores para segurar as peças"
+      }
+    },
+    {
+      "palavra": "ESPELHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vidro que mostra a nossa imagem",
+        "media": "Superfície que reflete imagens",
+        "dificil": "A rainha má perguntava a ele quem era a mais bela"
+      }
+    },
+    {
+      "palavra": "RELÓGIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mostra as horas na parede",
+        "media": "Aparelho que marca as horas",
+        "dificil": "Tem ponteiros ou números digitais"
+      }
+    },
+    {
+      "palavra": "LÂMPADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Acende para iluminar o quarto",
+        "media": "Peça que produz luz elétrica",
+        "dificil": "A de LED gasta menos energia"
+      }
+    },
+    {
+      "palavra": "CADEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar para sentar à mesa",
+        "media": "Assento com encosto e quatro pernas",
+        "dificil": "Pode ser de balanço ou de praia"
+      }
+    },
+    {
+      "palavra": "ARMÁRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Móvel onde se guardam roupas e louças",
+        "media": "Móvel com portas e prateleiras",
+        "dificil": "O guarda-roupa é um tipo"
+      }
+    },
+    {
+      "palavra": "VASSOURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Varre o chão",
+        "media": "Utensílio de cerdas e cabo para limpar o piso",
+        "dificil": "Transporte das bruxas nas histórias"
+      }
+    },
+    {
+      "palavra": "GELADEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Guarda a comida fresquinha e fria",
+        "media": "Eletrodoméstico que conserva alimentos no frio",
+        "dificil": "Tem congelador em cima ou embaixo"
+      }
+    },
+    {
+      "palavra": "TRAVESSEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Almofada fofinha onde a cabeça descansa",
+        "media": "Almofada de apoiar a cabeça na cama",
+        "dificil": "Conselheiro de quem precisa dormir para decidir"
+      }
+    },
+    {
+      "palavra": "ALMOFADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolsa fofinha que enfeita o sofá",
+        "media": "Saco estofado de enfeite e apoio",
+        "dificil": "Fica no sofá e serve para encostar"
+      }
+    },
+    {
+      "palavra": "CHUVEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "De onde sai a água do banho",
+        "media": "Aparelho que aquece e espalha a água do banho",
+        "dificil": "Elétrico, tem posição inverno e verão"
+      }
+    },
+    {
+      "palavra": "VENTILADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hélice que refresca no calor",
+        "media": "Aparelho de hélices que move o ar",
+        "dificil": "Pode ser de teto ou de mesa"
+      }
+    },
+    {
+      "palavra": "TORNEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Abre para sair água na pia",
+        "media": "Peça que controla a saída de água",
+        "dificil": "Fica pingando quando a vedação gasta"
+      }
+    },
+    {
+      "palavra": "ABAJUR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luminária pequena do lado da cama",
+        "media": "Luminária de mesa com cúpula",
+        "dificil": "Fica na mesinha de cabeceira"
+      }
+    },
+    {
+      "palavra": "ESTANTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Móvel com prateleiras para livros",
+        "media": "Móvel aberto de prateleiras",
+        "dificil": "Lugar da coleção de livros"
+      }
+    },
+    {
+      "palavra": "CABIDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gancho para pendurar roupa no armário",
+        "media": "Suporte de pendurar roupas",
+        "dificil": "Mantém a camisa sem amassar"
+      }
+    },
+    {
+      "palavra": "INTERRUPTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Botão da parede que acende a luz",
+        "media": "Dispositivo que liga e desliga a luz",
+        "dificil": "Fica ao lado da porta"
+      }
+    },
+    {
+      "palavra": "BATEDEIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina de mexer a massa do bolo",
+        "media": "Eletrodoméstico que mistura massas e claras",
+        "dificil": "Deixa a clara em neve"
+      }
+    },
+    {
+      "palavra": "PREGADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Prende a roupa no varal",
+        "media": "Peça de madeira ou plástico com mola",
+        "dificil": "Também chamado de prendedor"
+      }
+    },
+    {
+      "palavra": "CAPACHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tapetinho da porta para limpar os pés",
+        "media": "Tapete de entrada para limpar o calçado",
+        "dificil": "Recebe as visitas com boas-vindas"
+      }
+    },
+    {
+      "palavra": "PERSIANA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cortina de lâminas na janela",
+        "media": "Cortina de lâminas reguláveis",
+        "dificil": "Controla a luz com uma cordinha"
+      }
+    },
+    {
+      "palavra": "CÔMODA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Móvel baixo com várias gavetas",
+        "media": "Móvel de gavetas para guardar roupas",
+        "dificil": "Costuma ficar no quarto do bebê com trocador"
+      }
+    },
+    {
+      "palavra": "LUMINÁRIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peça que segura a lâmpada",
+        "media": "Aparelho de iluminação",
+        "dificil": "O abajur é um tipo"
+      }
+    },
+    {
+      "palavra": "PENEIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Separa o grosso do fino na cozinha",
+        "media": "Utensílio de tela para coar",
+        "dificil": "Separa a farinha dos grumos"
+      }
+    },
+    {
+      "palavra": "FUNIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cone para encher garrafas sem derramar",
+        "media": "Utensílio cônico de passar líquidos",
+        "dificil": "Tem boca larga e bico fino"
+      }
+    },
+    {
+      "palavra": "RALADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raspa o queijo em fiapos",
+        "media": "Utensílio de furos cortantes para cenoura e queijo",
+        "dificil": "Transforma o coco em fiapos"
+      }
+    },
+    {
+      "palavra": "BANDEJA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Prato grande para carregar coisas",
+        "media": "Peça plana para servir",
+        "dificil": "O garçom a equilibra na mão"
+      }
+    },
+    {
+      "palavra": "AVENTAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Protege a roupa enquanto se cozinha",
+        "media": "Peça amarrada na cintura para proteger a roupa",
+        "dificil": "Uniforme do cozinheiro"
+      }
+    },
+    {
+      "palavra": "BIOMBO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Paredinha dobrável que divide o quarto",
+        "media": "Divisória móvel e dobrável",
+        "dificil": "Esconde o trocador de roupa"
+      }
+    },
+    {
+      "palavra": "APARADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Móvel estreito encostado na parede da sala",
+        "media": "Móvel estreito de apoio na sala de jantar",
+        "dificil": "Recebe pratos e travessas antes de servir"
+      }
+    },
+    {
+      "palavra": "PENTEADEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Móvel com espelho para se arrumar",
+        "media": "Móvel de quarto com espelho e gavetas",
+        "dificil": "Lugar da maquiagem e da escova de cabelo"
+      }
+    },
+    {
+      "palavra": "DOSSEL",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cortina que cobre a cama de princesa",
+        "media": "Cobertura de tecido sobre a cama",
+        "dificil": "Armação de cama de castelo"
+      }
+    },
+    {
+      "palavra": "OTOMANA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Sofá sem encosto",
+        "media": "Assento estofado sem encosto nem braços",
+        "dificil": "Nome que lembra o império turco"
+      }
+    },
+    {
+      "palavra": "CRISTALEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Armário de vidro para guardar taças",
+        "media": "Móvel envidraçado para cristais e louças",
+        "dificil": "Exibe a louça boa da família"
+      }
+    },
+    {
+      "palavra": "ESCUMADEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Colher grande cheia de furinhos",
+        "media": "Colher furada para tirar frituras do óleo",
+        "dificil": "Retira a espuma do caldo"
+      }
+    },
+    {
+      "palavra": "SOPEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tigela grande com tampa para servir caldo",
+        "media": "Terrina de servir caldos",
+        "dificil": "Peça de porcelana do jantar de vó"
+      }
+    },
+    {
+      "palavra": "MOLHEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Jarrinha de bico que vai à mesa no Natal",
+        "media": "Recipiente com bico para servir caldas e caldos",
+        "dificil": "Acompanha o peru com o caldo do assado"
+      }
+    },
+    {
+      "palavra": "MORINGA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pote de barro que deixa a água fresquinha",
+        "media": "Vasilha de barro para água",
+        "dificil": "Filtro de vó, de barro"
+      }
+    },
+    {
+      "palavra": "ESCRIVANINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mesinha de fazer lição",
+        "media": "Mesa de escrever com gavetas",
+        "dificil": "Lugar do computador e dos papéis"
+      }
+    }
+  ]
+}

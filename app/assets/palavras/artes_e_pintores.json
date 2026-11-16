@@ -1,0 +1,485 @@
+{
+  "tema": "Artes e pintores",
+  "categoria": "Cultura",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "TINTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usada para pintar quadros e paredes",
+        "media": "Pigmento líquido",
+        "dificil": "Guache, óleo ou acrílica"
+      }
+    },
+    {
+      "palavra": "PINCEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tem pelinhos na ponta para pintar",
+        "media": "Instrumento do pintor",
+        "dificil": "Feito de cerdas e cabo"
+      }
+    },
+    {
+      "palavra": "TELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tecido esticado onde se pinta",
+        "media": "Suporte do quadro",
+        "dificil": "Linho preso num chassi"
+      }
+    },
+    {
+      "palavra": "QUADRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pintura pendurada na parede",
+        "media": "Obra emoldurada",
+        "dificil": "Vai para o museu ou para a sala"
+      }
+    },
+    {
+      "palavra": "MOLDURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Borda que enfeita o quadro",
+        "media": "Caixilho",
+        "dificil": "Envolve a pintura na parede"
+      }
+    },
+    {
+      "palavra": "MUSEU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde ficam obras de arte",
+        "media": "Casa de exposições",
+        "dificil": "O Louvre e o Masp são famosos"
+      }
+    },
+    {
+      "palavra": "COR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Azul, vermelho e amarelo são...",
+        "media": "Tonalidade",
+        "dificil": "Matiz da paleta"
+      }
+    },
+    {
+      "palavra": "PALETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tábua onde o pintor mistura as tintas",
+        "media": "Prancha de misturar tintas",
+        "dificil": "Arco-íris do artista"
+      }
+    },
+    {
+      "palavra": "ARTISTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem cria obras para a gente admirar",
+        "media": "Criador de obras",
+        "dificil": "Pintor, escultor ou músico"
+      }
+    },
+    {
+      "palavra": "PINTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Artista dos pincéis",
+        "media": "Quem faz quadros",
+        "dificil": "Mestre das telas"
+      }
+    },
+    {
+      "palavra": "DESENHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Feito com lápis no papel",
+        "media": "Traçado",
+        "dificil": "Esboço com grafite"
+      }
+    },
+    {
+      "palavra": "ESCULTURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arte feita de pedra, barro ou metal",
+        "media": "Obra em três dimensões",
+        "dificil": "Estátua, por exemplo"
+      }
+    },
+    {
+      "palavra": "ESTÁTUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Figura de pedra ou bronze na praça",
+        "media": "Figura esculpida",
+        "dificil": "Fica parada, como na brincadeira"
+      }
+    },
+    {
+      "palavra": "ARGILA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barro mole para modelar",
+        "media": "Massa de modelar natural",
+        "dificil": "Matéria-prima da cerâmica"
+      }
+    },
+    {
+      "palavra": "MOSAICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho feito com pedacinhos coloridos",
+        "media": "Arte de caquinhos",
+        "dificil": "O calçadão de Copacabana usa pedras assim"
+      }
+    },
+    {
+      "palavra": "GRAFITE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintura feita com spray nos muros",
+        "media": "Arte de rua",
+        "dificil": "Os Gêmeos são mestres nele"
+      }
+    },
+    {
+      "palavra": "RETRATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pintura do rosto de alguém",
+        "media": "Imagem de uma pessoa",
+        "dificil": "A Mona Lisa é o mais famoso"
+      }
+    },
+    {
+      "palavra": "PAISAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintura de montanhas, rios e céu",
+        "media": "Vista da natureza pintada",
+        "dificil": "Gênero dos impressionistas"
+      }
+    },
+    {
+      "palavra": "AQUARELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintura com tinta e bastante água",
+        "media": "Técnica de tinta diluída",
+        "dificil": "Tema de canção de Toquinho"
+      }
+    },
+    {
+      "palavra": "GUACHE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tinta grossa usada na escola",
+        "media": "Tinta opaca de água",
+        "dificil": "Pote colorido da aula de arte"
+      }
+    },
+    {
+      "palavra": "CAVALETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Suporte de madeira que segura a tela",
+        "media": "Tripé do pintor",
+        "dificil": "Apoio de pernas compridas"
+      }
+    },
+    {
+      "palavra": "PICASSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintor espanhol de rostos com formas geométricas",
+        "media": "Criador do cubismo com Braque",
+        "dificil": "Autor de Guernica"
+      }
+    },
+    {
+      "palavra": "MONET",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pintor francês dos lagos com ninfeias",
+        "media": "Mestre do impressionismo",
+        "dificil": "Pintou o jardim de Giverny"
+      }
+    },
+    {
+      "palavra": "VAN GOGH",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintor holandês dos girassóis",
+        "media": "Autor de A Noite Estrelada",
+        "dificil": "Vincent, que pintou em Arles"
+      }
+    },
+    {
+      "palavra": "LEONARDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintor da Mona Lisa",
+        "media": "Gênio italiano do Renascimento",
+        "dificil": "Da Vinci, inventor de máquinas voadoras"
+      }
+    },
+    {
+      "palavra": "MICHELANGELO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pintou o teto da Capela Sistina",
+        "media": "Escultor do Davi",
+        "dificil": "Gênio italiano de Caprese"
+      }
+    },
+    {
+      "palavra": "TARSILA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintora brasileira do Abaporu",
+        "media": "Do Amaral, modernista paulista",
+        "dificil": "Pintou A Cuca e O Mamoeiro"
+      }
+    },
+    {
+      "palavra": "ABAPORU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quadro de pés enormes e um sol",
+        "media": "Obra de Tarsila de 1928",
+        "dificil": "Inspirou o Movimento Antropofágico"
+      }
+    },
+    {
+      "palavra": "PORTINARI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintor brasileiro de Café e Os Retirantes",
+        "media": "Cândido, de Brodowski",
+        "dificil": "Painéis Guerra e Paz da ONU"
+      }
+    },
+    {
+      "palavra": "MALFATTI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Anita, pintora de A Boba",
+        "media": "Sobrenome de Anita, precursora do modernismo",
+        "dificil": "Sua exposição de 1917 agitou São Paulo"
+      }
+    },
+    {
+      "palavra": "CAVALCANTI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Di, pintor carioca de cenas de samba e carnaval",
+        "media": "Sobrenome de Emiliano Di",
+        "dificil": "Idealizador da Semana de 22"
+      }
+    },
+    {
+      "palavra": "ALEIJADINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Escultor dos profetas de Congonhas",
+        "media": "Antônio Francisco Lisboa",
+        "dificil": "Mestre do barroco mineiro"
+      }
+    },
+    {
+      "palavra": "VOLPI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Pintor das bandeirinhas coloridas",
+        "media": "Alfredo, ítalo-brasileiro",
+        "dificil": "Mestre das fachadas e bandeirolas"
+      }
+    },
+    {
+      "palavra": "FRIDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintora mexicana de sobrancelhas marcantes",
+        "media": "Kahlo, mestra dos autorretratos",
+        "dificil": "Dona da Casa Azul de Coyoacán"
+      }
+    },
+    {
+      "palavra": "DALÍ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pintor espanhol dos relógios derretidos",
+        "media": "Mestre surrealista de bigode",
+        "dificil": "Autor de A Persistência da Memória"
+      }
+    },
+    {
+      "palavra": "REMBRANDT",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Pintor holandês de A Ronda Noturna",
+        "media": "Mestre da luz e da sombra",
+        "dificil": "Barroco de Amsterdã"
+      }
+    },
+    {
+      "palavra": "BARROCO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Estilo cheio de curvas e ouro das igrejas mineiras",
+        "media": "Estilo do Aleijadinho",
+        "dificil": "Arte dos séculos 17 e 18"
+      }
+    },
+    {
+      "palavra": "CUBISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Arte de formas geométricas de Picasso",
+        "media": "Movimento de Picasso e Braque",
+        "dificil": "Vários ângulos ao mesmo tempo"
+      }
+    },
+    {
+      "palavra": "RENASCIMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Época de Leonardo e Michelangelo",
+        "media": "Movimento italiano dos séculos 15 e 16",
+        "dificil": "Retorno aos clássicos na Itália"
+      }
+    },
+    {
+      "palavra": "SURREALISMO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Arte que mostra sonhos estranhos",
+        "media": "Movimento de Dalí e Magritte",
+        "dificil": "Arte do inconsciente e dos sonhos"
+      }
+    },
+    {
+      "palavra": "AUTORRETRATO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando o pintor pinta a si mesmo",
+        "media": "Pintura de si mesmo",
+        "dificil": "Frida Kahlo fez muitos"
+      }
+    },
+    {
+      "palavra": "ESBOÇO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho rápido antes da obra",
+        "media": "Rascunho",
+        "dificil": "Primeiros traços"
+      }
+    },
+    {
+      "palavra": "GALERIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar que mostra e vende obras de arte",
+        "media": "Salão de exposição",
+        "dificil": "Endereço dos marchands"
+      }
+    },
+    {
+      "palavra": "EXPOSIÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando muitas obras ficam à mostra",
+        "media": "Mostra de arte",
+        "dificil": "O vernissage marca a abertura"
+      }
+    },
+    {
+      "palavra": "XILOGRAVURA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Desenho entalhado em madeira para imprimir",
+        "media": "Impressão de matriz de madeira",
+        "dificil": "Ilustra a capa do cordel"
+      }
+    },
+    {
+      "palavra": "CERÂMICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Objetos de barro levados ao forno",
+        "media": "Arte do barro cozido",
+        "dificil": "Marajoara é um estilo"
+      }
+    },
+    {
+      "palavra": "ORIGAMI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dobradura de papel japonesa",
+        "media": "Arte de dobrar papel",
+        "dificil": "O tsuru é o mais famoso"
+      }
+    },
+    {
+      "palavra": "MURAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pintura grande feita na parede",
+        "media": "Painel",
+        "dificil": "Arte de paredão"
+      }
+    },
+    {
+      "palavra": "LÁPIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usado para desenhar e escrever",
+        "media": "Bastão de grafite",
+        "dificil": "Tem ponta e borracha às vezes"
+      }
+    },
+    {
+      "palavra": "GIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bastão que risca o quadro-negro ou a calçada",
+        "media": "Calcário de riscar",
+        "dificil": "De cera, colore desenhos"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folha onde se desenha",
+        "media": "Folha de celulose",
+        "dificil": "Sulfite ou cartolina"
+      }
+    },
+    {
+      "palavra": "ARTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pintura, música e dança são formas de...",
+        "media": "Expressão criativa",
+        "dificil": "Ofício das musas"
+      }
+    },
+    {
+      "palavra": "BARRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Terra molhada para fazer potes",
+        "media": "Argila",
+        "dificil": "Vira cerâmica no forno"
+      }
+    }
+  ]
+}

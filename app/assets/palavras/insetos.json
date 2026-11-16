@@ -1,0 +1,413 @@
+{
+  "tema": "Insetos",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ABELHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que faz mel",
+        "media": "Inseto que produz mel e cera",
+        "dificil": "Operária da colmeia"
+      }
+    },
+    {
+      "palavra": "MOSCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que zumbe e pousa na comida",
+        "media": "Inseto de duas asas comum nas casas",
+        "dificil": "Díptero; acertar nela é acertar o alvo"
+      }
+    },
+    {
+      "palavra": "PULGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho que pula e dá coceira no cachorro",
+        "media": "Inseto saltador que pica cães e gatos",
+        "dificil": "Atrás da orelha, ela é desconfiança"
+      }
+    },
+    {
+      "palavra": "PIOLHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho que dá coceira na cabeça",
+        "media": "Inseto que vive no couro cabeludo",
+        "dificil": "Pediculose é a infestação dele"
+      }
+    },
+    {
+      "palavra": "GRILO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que canta cri-cri à noite",
+        "media": "Inseto saltador de canto noturno",
+        "dificil": "Também é uma preocupação que não sai da cabeça"
+      }
+    },
+    {
+      "palavra": "CUPIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho que come madeira",
+        "media": "Inseto que rói madeira e vive em colônia",
+        "dificil": "Térmita; também é o corte da corcova do boi"
+      }
+    },
+    {
+      "palavra": "BARATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto marrom que corre e assusta muita gente",
+        "media": "Inseto noturno e muito resistente",
+        "dificil": "Blatídeo que aguenta quase tudo"
+      }
+    },
+    {
+      "palavra": "VESPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto parecido com abelha que pica",
+        "media": "Inseto de cintura fina e ferrão",
+        "dificil": "Himenóptero que faz ninho de papel"
+      }
+    },
+    {
+      "palavra": "ASA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte do corpo que o inseto usa para voar",
+        "media": "Membro usado para voar",
+        "dificil": "As da borboleta têm escamas coloridas"
+      }
+    },
+    {
+      "palavra": "MEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida doce feita pelas abelhas",
+        "media": "Alimento doce produzido na colmeia",
+        "dificil": "Néctar transformado e guardado em favos"
+      }
+    },
+    {
+      "palavra": "ANTENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Os insetos têm duas na cabeça",
+        "media": "Órgão de sentido na cabeça dos insetos",
+        "dificil": "Também capta o sinal da TV"
+      }
+    },
+    {
+      "palavra": "FERRÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pontinha que a abelha usa para picar",
+        "media": "Órgão pontudo que injeta veneno",
+        "dificil": "Aguilhão da vespa"
+      }
+    },
+    {
+      "palavra": "CASULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casinha de fios onde a lagarta se fecha",
+        "media": "Envoltório de fios tecido por algumas larvas",
+        "dificil": "O do bicho-da-seda vira tecido"
+      }
+    },
+    {
+      "palavra": "LARVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho que sai do ovo antes de virar inseto adulto",
+        "media": "Fase jovem de muitos insetos",
+        "dificil": "Primeiro estágio depois do ovo na metamorfose"
+      }
+    },
+    {
+      "palavra": "FORMIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto pequeno que anda em fila",
+        "media": "Inseto que vive em colônias",
+        "dificil": "Na fábula, trabalhou enquanto a cigarra cantava"
+      }
+    },
+    {
+      "palavra": "BESOURO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto de casca dura e brilhante",
+        "media": "Inseto de asas duras que cobrem as de voo",
+        "dificil": "Coleóptero, o maior grupo de insetos"
+      }
+    },
+    {
+      "palavra": "JOANINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho vermelho de bolinhas pretas",
+        "media": "Besouro pequeno e pintado",
+        "dificil": "Caçadora de pulgões dos jardins"
+      }
+    },
+    {
+      "palavra": "MOSQUITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto pequeno que pica e deixa coceira",
+        "media": "Inseto que pica e pode transmitir doenças",
+        "dificil": "O da dengue tem listras brancas"
+      }
+    },
+    {
+      "palavra": "LIBÉLULA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto de asas transparentes que voa perto da água",
+        "media": "Inseto de corpo longo e quatro asas",
+        "dificil": "Odonata também chamada de lavadeira"
+      }
+    },
+    {
+      "palavra": "CIGARRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que canta forte no calor",
+        "media": "Inseto de canto alto no verão",
+        "dificil": "Na fábula, cantou enquanto a formiga trabalhava"
+      }
+    },
+    {
+      "palavra": "VAGA-LUME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que acende uma luzinha à noite",
+        "media": "Besouro que brilha no escuro",
+        "dificil": "Pirilampo"
+      }
+    },
+    {
+      "palavra": "LAGARTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho comprido que vira borboleta",
+        "media": "Larva da borboleta e da mariposa",
+        "dificil": "Come folhas antes da metamorfose"
+      }
+    },
+    {
+      "palavra": "MARIPOSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parecida com borboleta, mas voa à noite",
+        "media": "Inseto noturno atraído pela luz",
+        "dificil": "Lepidóptero da noite"
+      }
+    },
+    {
+      "palavra": "COLMEIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casa das abelhas",
+        "media": "Abrigo onde as abelhas fazem o mel",
+        "dificil": "Conjunto de favos de cera"
+      }
+    },
+    {
+      "palavra": "BICHO-PAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Inseto que parece um graveto",
+        "media": "Inseto que se disfarça de galho",
+        "dificil": "Fasmídeo mestre da camuflagem"
+      }
+    },
+    {
+      "palavra": "ZANGÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O macho da abelha",
+        "media": "Abelha macho, que não tem ferrão",
+        "dificil": "Macho da colmeia que não trabalha"
+      }
+    },
+    {
+      "palavra": "ENXAME",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Monte de abelhas voando juntas",
+        "media": "Grande grupo de insetos voando",
+        "dificil": "Nuvem zumbidora de vespas ou abelhas"
+      }
+    },
+    {
+      "palavra": "TRAÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bichinho que come papel e roupa guardada",
+        "media": "Inseto que estraga livros e roupas",
+        "dificil": "Inimiga das bibliotecas e dos armários"
+      }
+    },
+    {
+      "palavra": "BORBOLETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto de asas coloridas que pousa nas flores",
+        "media": "Inseto de asas coloridas que já foi lagarta",
+        "dificil": "Lepidóptero diurno; no estômago, é ansiedade"
+      }
+    },
+    {
+      "palavra": "GAFANHOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto verde que dá saltos enormes",
+        "media": "Inseto saltador que pode virar praga",
+        "dificil": "Em nuvem, devora plantações inteiras"
+      }
+    },
+    {
+      "palavra": "PERNILONGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Inseto que zumbe no ouvido à noite",
+        "media": "Mosquito que pica e zumbe à noite",
+        "dificil": "Muriçoca ou carapanã"
+      }
+    },
+    {
+      "palavra": "LOUVA-A-DEUS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Inseto verde que junta as patas como quem reza",
+        "media": "Inseto caçador de patas dianteiras dobradas",
+        "dificil": "Mantídeo de pose de oração"
+      }
+    },
+    {
+      "palavra": "MARIMBONDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vespa que faz casa de papel no telhado",
+        "media": "Nome popular de várias vespas",
+        "dificil": "Cutucar a casa dele é procurar encrenca"
+      }
+    },
+    {
+      "palavra": "BICHO-DA-SEDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lagarta que faz fio para tecido",
+        "media": "Lagarta cujo casulo vira fio para tecidos finos",
+        "dificil": "Larva que come folha de amoreira"
+      }
+    },
+    {
+      "palavra": "ESCARAVELHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Besouro que rola bolinhas de terra",
+        "media": "Besouro sagrado do antigo Egito",
+        "dificil": "Rola-bosta, amuleto dos faraós"
+      }
+    },
+    {
+      "palavra": "PERCEVEJO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bichinho que solta cheiro ruim",
+        "media": "Inseto que solta mau cheiro quando ameaçado",
+        "dificil": "Também é o nome da tachinha de mural"
+      }
+    },
+    {
+      "palavra": "TANAJURA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Formiga gordinha que voa",
+        "media": "Rainha da saúva, de abdômen grande",
+        "dificil": "Içá que se come frita no interior"
+      }
+    },
+    {
+      "palavra": "SAÚVA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Formiga que corta folhas",
+        "media": "Formiga cortadeira que carrega folhas",
+        "dificil": "Com pouca saúde, é um dos males do Brasil em Macunaíma"
+      }
+    },
+    {
+      "palavra": "PULGÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bichinho verde que suga as plantas",
+        "media": "Inseto minúsculo que suga a seiva",
+        "dificil": "Afídeo que as joaninhas adoram comer"
+      }
+    },
+    {
+      "palavra": "MUTUCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mosca grande que pica os bois e cavalos",
+        "media": "Mosca grande de picada dolorida",
+        "dificil": "Tabanídeo que atormenta o gado"
+      }
+    },
+    {
+      "palavra": "MAMANGAVA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Abelha grandona, preta e peluda",
+        "media": "Abelha grande e zumbidora",
+        "dificil": "Abelha carpinteira que fura madeira"
+      }
+    },
+    {
+      "palavra": "TESOURINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Inseto com duas pinças no fim do corpo",
+        "media": "Inseto de pinças na ponta do abdômen",
+        "dificil": "Seu nome lembra um objeto de cortar papel"
+      }
+    },
+    {
+      "palavra": "JATAÍ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Abelhinha brasileira que não tem ferrão",
+        "media": "Abelha nativa sem ferrão de mel muito apreciado",
+        "dificil": "Meliponíneo pequeno e amarelado"
+      }
+    },
+    {
+      "palavra": "VAREJEIRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mosca de cor azul ou verde brilhante",
+        "media": "Mosca metálica que põe ovos em carne",
+        "dificil": "Califorídeo de brilho metálico"
+      }
+    },
+    {
+      "palavra": "BORRACHUDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Mosquitinho preto de picada que coça muito",
+        "media": "Mosquito pequeno comum perto de rios",
+        "dificil": "Simulídeo que infesta cachoeiras"
+      }
+    }
+  ]
+}

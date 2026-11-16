@@ -1,0 +1,476 @@
+{
+  "tema": "Invenções",
+  "categoria": "História",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "RODA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça redonda que gira e faz o carrinho andar",
+        "media": "Invenção da Mesopotâmia, há mais de 5 mil anos",
+        "dificil": "Gira em torno de um eixo"
+      }
+    },
+    {
+      "palavra": "LÁPIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Objeto de madeira para escrever e desenhar",
+        "media": "Bastão com grafite dentro",
+        "dificil": "Tem ponta que se afia no apontador"
+      }
+    },
+    {
+      "palavra": "RÁDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que toca música e notícias",
+        "media": "Aparelho que recebe ondas e as transforma em som",
+        "dificil": "Marconi e o padre Landell de Moura foram pioneiros"
+      }
+    },
+    {
+      "palavra": "AVIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina que voa levando pessoas",
+        "media": "Aeronave com asas e motor",
+        "dificil": "Santos Dumont e os irmãos Wright disputam sua autoria"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folha fina onde a gente escreve",
+        "media": "Invenção chinesa do século 2",
+        "dificil": "Cai Lun aperfeiçoou sua fabricação"
+      }
+    },
+    {
+      "palavra": "VACINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Picadinha que protege contra doenças",
+        "media": "Edward Jenner criou a primeira, contra a varíola",
+        "dificil": "Imunizante"
+      }
+    },
+    {
+      "palavra": "ÓCULOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lentes que ajudam a enxergar melhor",
+        "media": "Surgiram na Itália no século 13",
+        "dificil": "Armação com duas lentes"
+      }
+    },
+    {
+      "palavra": "TREM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vagões que andam sobre trilhos",
+        "media": "Comboio puxado por locomotiva",
+        "dificil": "Maria-fumaça, na versão a vapor"
+      }
+    },
+    {
+      "palavra": "BALÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolsa cheia de ar quente que sobe ao céu",
+        "media": "Bartolomeu de Gusmão mostrou um em 1709",
+        "dificil": "Os irmãos Montgolfier voaram nele em 1783"
+      }
+    },
+    {
+      "palavra": "ROBÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina que faz tarefas sozinha",
+        "media": "Autômato programável",
+        "dificil": "Palavra surgida numa peça tcheca de 1920"
+      }
+    },
+    {
+      "palavra": "LIVRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Páginas presas com histórias para ler",
+        "media": "Volume de folhas impressas e encadernadas",
+        "dificil": "A prensa de Gutenberg o tornou comum"
+      }
+    },
+    {
+      "palavra": "CARRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo de quatro rodas com motor",
+        "media": "Os primeiros a gasolina surgiram em 1886",
+        "dificil": "Automóvel"
+      }
+    },
+    {
+      "palavra": "CÂMERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que tira fotos",
+        "media": "Máquina fotográfica",
+        "dificil": "Tem obturador e lente"
+      }
+    },
+    {
+      "palavra": "CINEMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar de ver filmes na telona",
+        "media": "Os irmãos Lumière fizeram a primeira sessão em 1895",
+        "dificil": "Sétima arte"
+      }
+    },
+    {
+      "palavra": "CANETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Objeto que escreve com tinta",
+        "media": "A esferográfica foi patenteada por Bíró em 1938",
+        "dificil": "Pena moderna"
+      }
+    },
+    {
+      "palavra": "ZÍPER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fecho de dentinhos que abre e fecha a roupa",
+        "media": "Fecho éclair",
+        "dificil": "Gideon Sundback o aperfeiçoou em 1913"
+      }
+    },
+    {
+      "palavra": "PILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Coisa que dá energia ao controle remoto",
+        "media": "Alessandro Volta criou a primeira em 1800",
+        "dificil": "Gerador químico de corrente elétrica"
+      }
+    },
+    {
+      "palavra": "TELEFONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho para falar com quem está longe",
+        "media": "Graham Bell o patenteou em 1876",
+        "dificil": "Aparelho que transmite a voz por fios"
+      }
+    },
+    {
+      "palavra": "BICICLETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo de duas rodas e pedais",
+        "media": "A draisiana, sua avó de 1817, não tinha pedais",
+        "dificil": "Magrela"
+      }
+    },
+    {
+      "palavra": "FOGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nave comprida que sobe ao espaço soltando fogo",
+        "media": "Os chineses criaram os primeiros com pólvora",
+        "dificil": "Goddard lançou o primeiro a combustível líquido"
+      }
+    },
+    {
+      "palavra": "LÂMPADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Objeto que acende e ilumina a casa",
+        "media": "Edison criou um modelo prático em 1879",
+        "dificil": "Bulbo de vidro com filamento"
+      }
+    },
+    {
+      "palavra": "RELÓGIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que marca as horas",
+        "media": "Instrumento que mede o tempo",
+        "dificil": "O de sol foi um dos primeiros"
+      }
+    },
+    {
+      "palavra": "INTERNET",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rede que liga computadores do mundo todo",
+        "media": "Rede mundial nascida de projetos dos anos 1960",
+        "dificil": "A grande teia digital"
+      }
+    },
+    {
+      "palavra": "COMPUTADOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina com tela e teclado",
+        "media": "O ENIAC, de 1946, ocupava uma sala inteira",
+        "dificil": "Processador de dados eletrônico"
+      }
+    },
+    {
+      "palavra": "CALCULADORA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelhinho que faz contas",
+        "media": "Pascal criou uma mecânica em 1642",
+        "dificil": "A Pascalina foi uma das primeiras"
+      }
+    },
+    {
+      "palavra": "GELADEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Eletrodoméstico que deixa a comida fria",
+        "media": "Refrigerador doméstico",
+        "dificil": "Substituiu os blocos de gelo"
+      }
+    },
+    {
+      "palavra": "FOTOGRAFIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Imagem tirada com uma câmera",
+        "media": "Niépce fez a mais antiga que existe, nos anos 1820",
+        "dificil": "Hércules Florence a fez no Brasil em 1833"
+      }
+    },
+    {
+      "palavra": "IMPRENSA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina que copia muitos livros iguais",
+        "media": "A máquina de tipos móveis de Gutenberg, de 1450",
+        "dificil": "Invenção que espalhou os livros pela Europa"
+      }
+    },
+    {
+      "palavra": "MICROSCÓPIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que mostra coisas bem pequeninas",
+        "media": "Instrumento que amplia células e bactérias",
+        "dificil": "Leeuwenhoek viu bactérias com um deles"
+      }
+    },
+    {
+      "palavra": "TELESCÓPIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho para ver estrelas de perto",
+        "media": "Galileu usou um para observar Júpiter",
+        "dificil": "Luneta astronômica"
+      }
+    },
+    {
+      "palavra": "VAPOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fumacinha que sai da água fervendo",
+        "media": "A máquina movida por ele mudou as fábricas",
+        "dificil": "James Watt aperfeiçoou o motor desse tipo"
+      }
+    },
+    {
+      "palavra": "MOTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peça que faz o carro andar",
+        "media": "Máquina que transforma energia em movimento",
+        "dificil": "Coração mecânico de um veículo"
+      }
+    },
+    {
+      "palavra": "PARAQUEDAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pano grande que faz a pessoa descer devagar",
+        "media": "Leonardo da Vinci desenhou um",
+        "dificil": "Garnerin saltou com um em 1797"
+      }
+    },
+    {
+      "palavra": "TERMÔMETRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que mede a febre",
+        "media": "Instrumento que mede a temperatura",
+        "dificil": "Fahrenheit criou um de mercúrio em 1714"
+      }
+    },
+    {
+      "palavra": "RAIO X",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Exame que fotografa os ossos por dentro",
+        "media": "Descoberta de Röntgen em 1895",
+        "dificil": "Chapa que mostra o esqueleto"
+      }
+    },
+    {
+      "palavra": "ELEVADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caixa que sobe e desce os andares de um prédio",
+        "media": "Ganhou freio de segurança nos anos 1850",
+        "dificil": "Ascensor"
+      }
+    },
+    {
+      "palavra": "PARA-RAIOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Haste no telhado que protege das tempestades",
+        "media": "Invenção de Benjamin Franklin",
+        "dificil": "Haste metálica ligada à terra"
+      }
+    },
+    {
+      "palavra": "TELÉGRAFO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que mandava mensagens em código",
+        "media": "Morse criou um código para ele",
+        "dificil": "Mandava pontos e traços pelo fio"
+      }
+    },
+    {
+      "palavra": "MICROFONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que deixa a voz mais alta no show",
+        "media": "Transforma som em sinal elétrico",
+        "dificil": "Fica na mão do cantor"
+      }
+    },
+    {
+      "palavra": "BÚSSOLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Agulha que sempre aponta para o norte",
+        "media": "Invenção chinesa usada pelos navegadores",
+        "dificil": "Agulha magnética de orientação"
+      }
+    },
+    {
+      "palavra": "MOINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina movida a vento ou água para moer grãos",
+        "media": "Engenho de pás que gira com o vento",
+        "dificil": "Dom Quixote o confundiu com um gigante"
+      }
+    },
+    {
+      "palavra": "INVENTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que cria coisas novas",
+        "media": "Quem cria algo que ainda não existia",
+        "dificil": "Edison e Santos Dumont, por exemplo"
+      }
+    },
+    {
+      "palavra": "PENICILINA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Remédio que combate infecções",
+        "media": "Antibiótico descoberto por Fleming em 1928",
+        "dificil": "Remédio que nasceu de um mofo verde"
+      }
+    },
+    {
+      "palavra": "PÓLVORA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pó usado nos fogos de artifício",
+        "media": "Invenção chinesa do século 9",
+        "dificil": "Mistura de salitre, enxofre e carvão"
+      }
+    },
+    {
+      "palavra": "DINAMITE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Explosivo usado para abrir túneis",
+        "media": "Invenção de Alfred Nobel em 1867",
+        "dificil": "Nitroglicerina em forma estável"
+      }
+    },
+    {
+      "palavra": "ESTETOSCÓPIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aparelho do médico para ouvir o coração",
+        "media": "Invenção de Laennec em 1816",
+        "dificil": "Instrumento de auscultação"
+      }
+    },
+    {
+      "palavra": "ANESTESIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Remédio que tira a dor na cirurgia",
+        "media": "Usada com éter numa operação em 1846",
+        "dificil": "Insensibilidade provocada pelo médico"
+      }
+    },
+    {
+      "palavra": "GRAMOFONE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aparelho antigo que tocava discos",
+        "media": "Berliner o criou em 1887",
+        "dificil": "Avô da vitrola, com corneta"
+      }
+    },
+    {
+      "palavra": "PATENTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Documento que diz quem inventou algo",
+        "media": "Registro oficial de uma invenção",
+        "dificil": "Garante exclusividade ao autor"
+      }
+    },
+    {
+      "palavra": "PROTÓTIPO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Primeira versão de algo para testar",
+        "media": "Modelo inicial de uma invenção",
+        "dificil": "Versão de teste antes da produção"
+      }
+    },
+    {
+      "palavra": "TEAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Máquina de fazer tecido",
+        "media": "Aparelho de tecelagem",
+        "dificil": "O de Jacquard usava cartões perfurados"
+      }
+    },
+    {
+      "palavra": "ARADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ferramenta que abre a terra para plantar",
+        "media": "Instrumento agrícola puxado por bois",
+        "dificil": "Revolve o solo antes do plantio"
+      }
+    }
+  ]
+}

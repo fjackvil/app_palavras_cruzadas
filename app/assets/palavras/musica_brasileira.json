@@ -1,0 +1,458 @@
+{
+  "tema": "Música brasileira",
+  "categoria": "Música",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SAMBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo que faz o Brasil dançar no Carnaval",
+        "media": "Gênero nascido no Rio de Janeiro com raízes africanas",
+        "dificil": "Tem dia nacional em 2 de dezembro"
+      }
+    },
+    {
+      "palavra": "FORRÓ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Baile nordestino dançado agarradinho",
+        "media": "Gênero de sanfona, zabumba e triângulo",
+        "dificil": "Embala o São João"
+      }
+    },
+    {
+      "palavra": "FREVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de Recife com sombrinha colorida",
+        "media": "Ritmo frenético do Carnaval pernambucano",
+        "dificil": "Nome vem de \"ferver\""
+      }
+    },
+    {
+      "palavra": "AXÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música alegre que toca no Carnaval de Salvador",
+        "media": "Gênero baiano dos trios elétricos",
+        "dificil": "Explodiu nos anos 1990"
+      }
+    },
+    {
+      "palavra": "BAIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ritmo nordestino da sanfona",
+        "media": "Gênero criado por Luiz Gonzaga e Humberto Teixeira",
+        "dificil": "\"Asa Branca\" é o mais famoso"
+      }
+    },
+    {
+      "palavra": "CUÍCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento do samba que parece dar risada",
+        "media": "Tambor de fricção",
+        "dificil": "Ronca na bateria da escola"
+      }
+    },
+    {
+      "palavra": "AGOGÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dois sininhos de metal tocados com vareta",
+        "media": "Sino duplo de origem africana",
+        "dificil": "Dá o ritmo no samba e na capoeira"
+      }
+    },
+    {
+      "palavra": "VIOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de cordas do caipira",
+        "media": "Cordofone de dez cordas do interior",
+        "dificil": "Ponteada nas modas de raiz"
+      }
+    },
+    {
+      "palavra": "RODA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Amigos em círculo cantando e tocando samba",
+        "media": "Encontro de samba em círculo",
+        "dificil": "A de capoeira também tem música"
+      }
+    },
+    {
+      "palavra": "PAGODE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Samba feito em roda de quintal",
+        "media": "Vertente do samba dos anos 1980",
+        "dificil": "Fundo de Quintal foi seu grande grupo"
+      }
+    },
+    {
+      "palavra": "BLOCO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo que desfila cantando na rua no Carnaval",
+        "media": "Agremiação carnavalesca de rua",
+        "dificil": "O Galo da Madrugada é o maior de Recife"
+      }
+    },
+    {
+      "palavra": "TRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O elétrico é um caminhão com som e banda",
+        "media": "Caminhão de som do Carnaval baiano",
+        "dificil": "Dodô e Osmar o criaram em 1950"
+      }
+    },
+    {
+      "palavra": "FOLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muita alegria e festa no Carnaval",
+        "media": "Farra carnavalesca",
+        "dificil": "A de Reis passa de casa em casa"
+      }
+    },
+    {
+      "palavra": "APITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O mestre da bateria sopra para dar o sinal",
+        "media": "Instrumento que comanda a bateria",
+        "dificil": "Silvo do mestre de bateria"
+      }
+    },
+    {
+      "palavra": "CIRANDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança de roda de mãos dadas",
+        "media": "Dança de roda pernambucana",
+        "dificil": "Lia de Itamaracá é sua rainha"
+      }
+    },
+    {
+      "palavra": "CAPOEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de roda com música e golpes de dança",
+        "media": "Arte afro-brasileira com berimbau",
+        "dificil": "Patrimônio da humanidade desde 2014"
+      }
+    },
+    {
+      "palavra": "CARNAVAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Festa com fantasias, desfiles e muita música",
+        "media": "Maior festa popular do Brasil",
+        "dificil": "Acontece antes da Quaresma"
+      }
+    },
+    {
+      "palavra": "PANDEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento redondo com platinelas",
+        "media": "Pequeno tambor de moldura",
+        "dificil": "Jackson do ___, o Rei do Ritmo"
+      }
+    },
+    {
+      "palavra": "SANFONA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de fole do forró",
+        "media": "Acordeão",
+        "dificil": "Gonzagão a carregava no peito"
+      }
+    },
+    {
+      "palavra": "BATUCADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Muitos tambores tocando juntos",
+        "media": "Ritmo de percussão do samba",
+        "dificil": "Batida de escola de samba"
+      }
+    },
+    {
+      "palavra": "QUADRILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dança da festa junina com caipiras",
+        "media": "Dança junina em pares",
+        "dificil": "Tem \"olha a chuva!\" e \"é mentira!\""
+      }
+    },
+    {
+      "palavra": "ZABUMBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tambor grande do trio de forró",
+        "media": "Bumbo nordestino",
+        "dificil": "Forma o trio com sanfona e triângulo"
+      }
+    },
+    {
+      "palavra": "TAMBORIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento pequeno do samba tocado com baqueta",
+        "media": "Pequeno tambor de mão",
+        "dificil": "Faz o teleco-teco"
+      }
+    },
+    {
+      "palavra": "BERIMBAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arco com cabaça que comanda a capoeira",
+        "media": "Arco musical de origem africana",
+        "dificil": "Tem vareta, dobrão e caxixi"
+      }
+    },
+    {
+      "palavra": "CAVAQUINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Violãozinho de quatro cordas",
+        "media": "Cordofone que veio de Portugal",
+        "dificil": "Base do choro e do pagode"
+      }
+    },
+    {
+      "palavra": "CHORO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música instrumental com flauta e cavaquinho",
+        "media": "Gênero carioca do século 19",
+        "dificil": "Tem dia nacional em 23 de abril"
+      }
+    },
+    {
+      "palavra": "MARACATU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cortejo com rei, rainha e tambores",
+        "media": "Ritmo pernambucano de alfaias",
+        "dificil": "Patrimônio cultural do Brasil desde 2014"
+      }
+    },
+    {
+      "palavra": "BOSSA NOVA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Música calma com violão e voz baixinha",
+        "media": "Gênero carioca do fim dos anos 1950",
+        "dificil": "\"Chega de Saudade\" a inaugurou"
+      }
+    },
+    {
+      "palavra": "PASSISTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem samba bonito no desfile",
+        "media": "Dançarino da escola de samba",
+        "dificil": "Samba no pé e muito brilho"
+      }
+    },
+    {
+      "palavra": "ENREDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O tema que a escola conta no desfile",
+        "media": "Assunto do desfile",
+        "dificil": "O samba-tema da agremiação"
+      }
+    },
+    {
+      "palavra": "SAMBÓDROMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Avenida onde as escolas de samba desfilam",
+        "media": "Passarela do samba",
+        "dificil": "O do Rio foi projetado por Niemeyer"
+      }
+    },
+    {
+      "palavra": "GONZAGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luiz, o Rei do Baião",
+        "media": "Cantor e sanfoneiro de \"Asa Branca\"",
+        "dificil": "Nasceu em Exu, Pernambuco"
+      }
+    },
+    {
+      "palavra": "JOBIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tom, autor de \"Garota de Ipanema\"",
+        "media": "Maestro da bossa nova",
+        "dificil": "Dá nome ao aeroporto do Galeão"
+      }
+    },
+    {
+      "palavra": "ROBERTO CARLOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cantor chamado de \"o Rei\"",
+        "media": "Líder da Jovem Guarda",
+        "dificil": "Canta \"Detalhes\" e \"Emoções\""
+      }
+    },
+    {
+      "palavra": "TROPICÁLIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Movimento musical de Caetano e Gil",
+        "media": "Movimento cultural de 1967 e 1968",
+        "dificil": "Misturou guitarra elétrica e berimbau"
+      }
+    },
+    {
+      "palavra": "JOVEM GUARDA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Programa de TV de rock dos anos 1960",
+        "media": "Movimento de Roberto, Erasmo e Wanderléa",
+        "dificil": "Iê-iê-iê à brasileira"
+      }
+    },
+    {
+      "palavra": "MANGUEBEAT",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Movimento musical de Recife dos anos 1990",
+        "media": "Mistura de maracatu com rock e rap",
+        "dificil": "Chico Science o liderou"
+      }
+    },
+    {
+      "palavra": "PIXINGUINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Flautista que compôs \"Carinhoso\"",
+        "media": "Mestre do choro",
+        "dificil": "Alfredo da Rocha Viana Filho"
+      }
+    },
+    {
+      "palavra": "CARTOLA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sambista fundador da Mangueira",
+        "media": "Autor de \"As Rosas Não Falam\"",
+        "dificil": "Também é chapéu de mágico"
+      }
+    },
+    {
+      "palavra": "VINICIUS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Poeta de \"A Arca de Noé\", com canções para crianças",
+        "media": "Letrista de \"Garota de Ipanema\"",
+        "dificil": "O \"poetinha\" da bossa nova"
+      }
+    },
+    {
+      "palavra": "CAYMMI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dorival, cantor das canções do mar da Bahia",
+        "media": "Autor de \"O Que É Que a Baiana Tem?\"",
+        "dificil": "Pai de Nana, Dori e Danilo"
+      }
+    },
+    {
+      "palavra": "BUARQUE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Chico, compositor de \"A Banda\"",
+        "media": "Autor de \"Os Saltimbancos\" em português",
+        "dificil": "Também escreve romances"
+      }
+    },
+    {
+      "palavra": "CAETANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Veloso, cantor baiano da Tropicália",
+        "media": "Autor de \"Leãozinho\" e \"Sampa\"",
+        "dificil": "Irmão de Maria Bethânia"
+      }
+    },
+    {
+      "palavra": "MIRANDA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Carmen, cantora do turbante de frutas",
+        "media": "A \"Pequena Notável\"",
+        "dificil": "Nasceu em Portugal e brilhou em Hollywood"
+      }
+    },
+    {
+      "palavra": "VILLA-LOBOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Compositor de \"O Trenzinho do Caipira\"",
+        "media": "Maestro das \"Bachianas Brasileiras\"",
+        "dificil": "Heitor, o maior nome erudito do Brasil"
+      }
+    },
+    {
+      "palavra": "MILTON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nascimento, a voz do Clube da Esquina",
+        "media": "Autor de \"Travessia\"",
+        "dificil": "Bituca, para os amigos"
+      }
+    },
+    {
+      "palavra": "DJAVAN",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cantor alagoano de \"Flor de Lis\"",
+        "media": "Compositor de \"Oceano\"",
+        "dificil": "Nasceu em Maceió"
+      }
+    },
+    {
+      "palavra": "CHIQUINHA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Gonzaga, compositora de \"Ó Abre Alas\"",
+        "media": "Primeira maestrina do Brasil",
+        "dificil": "Fez a primeira marchinha de Carnaval, em 1899"
+      }
+    },
+    {
+      "palavra": "MODINHA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Canção romântica do tempo do Império",
+        "media": "Canção sentimental de salão",
+        "dificil": "Tocada em serestas ao violão"
+      }
+    },
+    {
+      "palavra": "SERESTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cantoria romântica ao luar",
+        "media": "Serenata sob a janela",
+        "dificil": "Diamantina tem a sua famosa vesperata"
+      }
+    }
+  ]
+}

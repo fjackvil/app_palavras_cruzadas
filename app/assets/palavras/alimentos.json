@@ -1,0 +1,467 @@
+{
+  "tema": "Alimentos",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": false,
+  "palavras": [
+    {
+      "palavra": "ARROZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grãozinho branco que vai no prato com feijão",
+        "media": "Cereal cozido que é a base do almoço brasileiro",
+        "dificil": "Grão que, na Itália, vira risoto"
+      }
+    },
+    {
+      "palavra": "FEIJÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grão preto ou marrom que faz um caldinho gostoso",
+        "media": "Leguminosa que faz dupla com o arroz no prato",
+        "dificil": "Carioca, preto ou fradinho, vai no tutu e no baião de dois"
+      }
+    },
+    {
+      "palavra": "PÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida da padaria, boa com manteiga",
+        "media": "Alimento assado de farinha, água e fermento",
+        "dificil": "O francês é o mais pedido no café da manhã"
+      }
+    },
+    {
+      "palavra": "OVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A galinha bota, e dá para fritar",
+        "media": "Pode ser frito, cozido ou mexido",
+        "dificil": "Tem clara e gema dentro da casca"
+      }
+    },
+    {
+      "palavra": "LEITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bebida branca que vem da vaca",
+        "media": "Líquido rico em cálcio que vira queijo",
+        "dificil": "Integral ou desnatado, vem na caixinha"
+      }
+    },
+    {
+      "palavra": "QUEIJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida amarelinha feita de leite, vai no misto-quente",
+        "media": "Alimento feito de leite coalhado",
+        "dificil": "O ratinho do desenho adora; tem o minas e o prato"
+      }
+    },
+    {
+      "palavra": "CARNE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vem do boi e vai para o churrasco",
+        "media": "Alimento rico em proteína, bovina ou suína",
+        "dificil": "Pode ser moída, assada ou de panela"
+      }
+    },
+    {
+      "palavra": "MEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho que as abelhas fazem",
+        "media": "Líquido doce feito nas colmeias",
+        "dificil": "Néctar transformado no favo"
+      }
+    },
+    {
+      "palavra": "SOPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida quentinha que se toma de colher",
+        "media": "Prato líquido de legumes, carne ou macarrão",
+        "dificil": "Canja e caldo verde são exemplos"
+      }
+    },
+    {
+      "palavra": "MILHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Espiga amarela que vira pipoca",
+        "media": "Cereal da pamonha e do curau",
+        "dificil": "Grão do fubá e da canjica"
+      }
+    },
+    {
+      "palavra": "BATATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vira purê e também fica crocante frita",
+        "media": "Tubérculo de casca fina usado no purê",
+        "dificil": "Inglesa ou doce, cresce embaixo da terra"
+      }
+    },
+    {
+      "palavra": "PEIXE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho da água que também vai para o prato",
+        "media": "Alimento do mar ou do rio, como a tilápia",
+        "dificil": "Filé de pescada ou posta de salmão"
+      }
+    },
+    {
+      "palavra": "FRANGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ave assada no almoço de domingo",
+        "media": "Carne de galinha jovem",
+        "dificil": "Coxa, sobrecoxa e peito no açougue"
+      }
+    },
+    {
+      "palavra": "TOMATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruto vermelho do molho de macarrão",
+        "media": "Base do molho vermelho e do vinagrete",
+        "dificil": "Fruto que muita gente pensa ser legume"
+      }
+    },
+    {
+      "palavra": "ALFACE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Folha verde da salada",
+        "media": "Hortaliça de folhas usada no sanduíche",
+        "dificil": "Pode ser crespa, lisa, roxa ou americana"
+      }
+    },
+    {
+      "palavra": "PIPOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Milho que estoura na panela",
+        "media": "Petisco clássico do cinema",
+        "dificil": "Grão que pula com o calor da panela"
+      }
+    },
+    {
+      "palavra": "SALADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Prato de alface e tomate",
+        "media": "Mistura de folhas e legumes temperados",
+        "dificil": "Pode ser de frutas, de maionese ou verde"
+      }
+    },
+    {
+      "palavra": "PIZZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa redonda com queijo, cortada em fatias",
+        "media": "Prato italiano assado no forno a lenha",
+        "dificil": "Margherita e calabresa são sabores dela"
+      }
+    },
+    {
+      "palavra": "BIFE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fatia de carne frita na frigideira",
+        "media": "Pedaço fino de carne grelhado",
+        "dificil": "Acebolado ou à milanesa"
+      }
+    },
+    {
+      "palavra": "BANANA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fruta amarela que o macaco ama",
+        "media": "Fruta em cachos: prata, nanica ou da terra",
+        "dificil": "Batida com leite, vira vitamina"
+      }
+    },
+    {
+      "palavra": "CENOURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Legume laranja que o coelho adora",
+        "media": "Raiz alaranjada rica em vitamina A",
+        "dificil": "Vai no bolo com cobertura de chocolate"
+      }
+    },
+    {
+      "palavra": "MACARRÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa comprida, como o espaguete",
+        "media": "Massa de farinha cozida em água",
+        "dificil": "Parafuso, penne e talharim são tipos dele"
+      }
+    },
+    {
+      "palavra": "IOGURTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Leite cremoso e azedinho, de potinho",
+        "media": "Leite fermentado por bactérias do bem",
+        "dificil": "Natural ou com frutas, ajuda o intestino"
+      }
+    },
+    {
+      "palavra": "BISCOITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lanche crocante que vem no pacote",
+        "media": "O mesmo que bolacha",
+        "dificil": "Recheado ou de água e sal"
+      }
+    },
+    {
+      "palavra": "MANTEIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Passa no pão quentinho",
+        "media": "Gordura tirada da nata do leite",
+        "dificil": "Com sal ou sem sal, derrete na frigideira"
+      }
+    },
+    {
+      "palavra": "SALSICHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vai dentro do cachorro-quente",
+        "media": "Embutido fininho de carne moída",
+        "dificil": "Viena e frankfurt são tipos dela"
+      }
+    },
+    {
+      "palavra": "LENTILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grãozinho redondo comido na virada do ano",
+        "media": "Leguminosa pequena e achatada",
+        "dificil": "Dizem que traz dinheiro no Ano-Novo"
+      }
+    },
+    {
+      "palavra": "BETERRABA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raiz roxa que mancha a mão",
+        "media": "Raiz vermelho-escura de sabor adocicado",
+        "dificil": "Na Europa, também se tira açúcar dela"
+      }
+    },
+    {
+      "palavra": "ABÓBORA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Legume grande e laranja que vira doce e sopa",
+        "media": "Jerimum, no Nordeste",
+        "dificil": "A moranga é um tipo dela"
+      }
+    },
+    {
+      "palavra": "BERINJELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Legume roxo e brilhante",
+        "media": "Fruto de casca roxa e lisa, comido cozido",
+        "dificil": "Vai na parmegiana e no babaganuche"
+      }
+    },
+    {
+      "palavra": "CHUCHU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Legume verde-claro de sabor bem suave",
+        "media": "Fruto verde e enrugado de sabor neutro",
+        "dificil": "Dizem que não tem gosto de nada"
+      }
+    },
+    {
+      "palavra": "MANDIOCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raiz que vira farinha e fica gostosa frita",
+        "media": "Aipim ou macaxeira",
+        "dificil": "Raiz do polvilho e da tapioca"
+      }
+    },
+    {
+      "palavra": "COUVE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folha verde que acompanha a feijoada",
+        "media": "Hortaliça refogada em tiras finas",
+        "dificil": "Picadinha, vai com o tutu à mineira"
+      }
+    },
+    {
+      "palavra": "GRÃO-DE-BICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Grão bege e redondinho, cheio de dobrinhas",
+        "media": "Leguminosa usada no homus",
+        "dificil": "Ingrediente do falafel árabe"
+      }
+    },
+    {
+      "palavra": "AVEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flocos que vão no mingau",
+        "media": "Cereal em flocos rico em fibras",
+        "dificil": "Engrossa vitaminas e vira farelo"
+      }
+    },
+    {
+      "palavra": "REQUEIJÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Creme branquinho que passa no pão",
+        "media": "Pasta cremosa feita de leite, vendida em copo",
+        "dificil": "Recheio cremoso da coxinha de frango"
+      }
+    },
+    {
+      "palavra": "ESPINAFRE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Folha verde que deixava forte o marinheiro do desenho",
+        "media": "Hortaliça de folhas escuras",
+        "dificil": "Famoso por ter muito ferro"
+      }
+    },
+    {
+      "palavra": "AZEITE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Óleo dourado para temperar a salada",
+        "media": "Óleo extraído da oliva",
+        "dificil": "O extravirgem é o mais puro"
+      }
+    },
+    {
+      "palavra": "ALMÔNDEGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinha de carne moída no molho",
+        "media": "Bolinho de carne moída cozido em molho",
+        "dificil": "Vai com espaguete em filmes americanos"
+      }
+    },
+    {
+      "palavra": "CEREAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Flocos crocantes que vão com leite de manhã",
+        "media": "Grão como arroz, trigo e milho",
+        "dificil": "Nome que vem de Ceres, deusa romana das colheitas"
+      }
+    },
+    {
+      "palavra": "QUINOA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grãozinho que vem das montanhas dos Andes",
+        "media": "Semente andina rica em proteína",
+        "dificil": "Alimento sagrado dos incas"
+      }
+    },
+    {
+      "palavra": "TUBÉRCULO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte da planta que engorda embaixo da terra, como a batata",
+        "media": "Caule subterrâneo que guarda amido",
+        "dificil": "Batata e inhame são exemplos"
+      }
+    },
+    {
+      "palavra": "CARBOIDRATO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dá energia: tem no pão e no arroz",
+        "media": "Nutriente energético, como o amido",
+        "dificil": "Açúcares e amidos formam este grupo"
+      }
+    },
+    {
+      "palavra": "PROTEÍNA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ajuda a crescer: tem na carne e no ovo",
+        "media": "Nutriente que forma os músculos",
+        "dificil": "Cadeia de aminoácidos"
+      }
+    },
+    {
+      "palavra": "FIBRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ajuda o intestino: tem na aveia e nas frutas",
+        "media": "Parte dos vegetais que o corpo não digere",
+        "dificil": "O pão integral tem mais dela"
+      }
+    },
+    {
+      "palavra": "INHAME",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Raiz marrom e peluda boa na sopa",
+        "media": "Tubérculo de casca escura e cabeluda",
+        "dificil": "Em vários lugares, é confundido com o cará"
+      }
+    },
+    {
+      "palavra": "EMBUTIDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Salsicha e linguiça são exemplos",
+        "media": "Carne temperada colocada dentro de tripa",
+        "dificil": "Salame e mortadela pertencem a esse grupo"
+      }
+    },
+    {
+      "palavra": "LATICÍNIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tudo o que é feito de leite",
+        "media": "Produto derivado do leite",
+        "dificil": "Requeijão, coalhada e manteiga são exemplos"
+      }
+    },
+    {
+      "palavra": "LEGUMINOSA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Família do feijão e da lentilha",
+        "media": "Planta que dá grãos dentro de vagens",
+        "dificil": "Ervilha e soja fazem parte"
+      }
+    },
+    {
+      "palavra": "GLÚTEN",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tem no trigo, e algumas pessoas não podem comer",
+        "media": "Proteína do trigo que dá liga à massa",
+        "dificil": "Celíacos precisam evitar"
+      }
+    },
+    {
+      "palavra": "HORTALIÇA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nome geral para verduras e legumes",
+        "media": "Planta comestível cultivada em canteiros",
+        "dificil": "Alface e couve são exemplos"
+      }
+    }
+  ]
+}

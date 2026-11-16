@@ -1,0 +1,413 @@
+{
+  "tema": "Planetas e espaço",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estrela que ilumina o nosso dia",
+        "media": "Estrela no centro do nosso sistema",
+        "dificil": "Astro-rei"
+      }
+    },
+    {
+      "palavra": "LUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fica redonda e brilhante no céu à noite",
+        "media": "Satélite natural da Terra",
+        "dificil": "Selene dos gregos, visitada em 1969"
+      }
+    },
+    {
+      "palavra": "TERRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O planeta onde a gente mora",
+        "media": "Terceiro planeta a partir do Sol",
+        "dificil": "Planeta azul"
+      }
+    },
+    {
+      "palavra": "MARTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O planeta vermelho",
+        "media": "Quarto planeta do Sistema Solar",
+        "dificil": "Deus que dá nome à terça-feira em espanhol"
+      }
+    },
+    {
+      "palavra": "COMETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bola de gelo com cauda brilhante",
+        "media": "Astro de gelo e poeira que forma uma cauda",
+        "dificil": "O de Halley volta a cada 76 anos"
+      }
+    },
+    {
+      "palavra": "VÊNUS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta mais brilhante no céu",
+        "media": "Segundo planeta a partir do Sol",
+        "dificil": "Estrela-d'alva"
+      }
+    },
+    {
+      "palavra": "NAVE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo que viaja pelo espaço",
+        "media": "Veículo espacial",
+        "dificil": "A dos alienígenas é um disco"
+      }
+    },
+    {
+      "palavra": "NETUNO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta azul mais longe do Sol",
+        "media": "Oitavo planeta do Sistema Solar",
+        "dificil": "Deus romano dos mares, com tridente"
+      }
+    },
+    {
+      "palavra": "URANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta azul-claro que gira deitado",
+        "media": "Sétimo planeta do Sistema Solar",
+        "dificil": "Gigante gelado de eixo quase deitado"
+      }
+    },
+    {
+      "palavra": "PLUTÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta-anão bem longe do Sol",
+        "media": "Planeta-anão além de Netuno",
+        "dificil": "Rebaixado em 2006"
+      }
+    },
+    {
+      "palavra": "ANEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Saturno tem vários em volta dele",
+        "media": "Faixa de gelo e rochas ao redor de um planeta",
+        "dificil": "Aliança; Saturno tem um sistema deles"
+      }
+    },
+    {
+      "palavra": "CÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lá em cima, onde vemos as estrelas",
+        "media": "Abóbada onde vemos os astros",
+        "dificil": "Firmamento"
+      }
+    },
+    {
+      "palavra": "LUNETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tubo com lente para ver longe",
+        "media": "Pequeno telescópio de lentes",
+        "dificil": "Galileu apontou uma para Júpiter"
+      }
+    },
+    {
+      "palavra": "LUAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A claridade da noite de lua cheia",
+        "media": "Claridade noturna refletida pelo satélite",
+        "dificil": "Prata da serenata noturna"
+      }
+    },
+    {
+      "palavra": "ASTRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Qualquer corpo que brilha no céu",
+        "media": "Corpo celeste",
+        "dificil": "Estrela de cinema também é"
+      }
+    },
+    {
+      "palavra": "ESTRELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pontinho que brilha no céu à noite",
+        "media": "Astro com luz própria",
+        "dificil": "O Sol é uma delas"
+      }
+    },
+    {
+      "palavra": "FOGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Veículo que sobe soltando fogo",
+        "media": "Veículo lançado ao espaço por propulsão",
+        "dificil": "Também é o fogo de artifício que estoura no céu"
+      }
+    },
+    {
+      "palavra": "SATURNO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta que tem anéis bonitos",
+        "media": "Sexto planeta, famoso pelos anéis",
+        "dificil": "Cronos dos romanos"
+      }
+    },
+    {
+      "palavra": "PLANETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A Terra é um deles",
+        "media": "Astro que gira em torno de uma estrela",
+        "dificil": "Errante do céu, para os gregos"
+      }
+    },
+    {
+      "palavra": "JÚPITER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O maior planeta de todos",
+        "media": "Maior planeta do Sistema Solar",
+        "dificil": "Gigante da Grande Mancha Vermelha"
+      }
+    },
+    {
+      "palavra": "MERCÚRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planeta mais perto do Sol",
+        "media": "Menor planeta, o mais perto do Sol",
+        "dificil": "Mensageiro dos deuses e metal do termômetro antigo"
+      }
+    },
+    {
+      "palavra": "GALÁXIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grupo enorme de bilhões de estrelas",
+        "media": "Sistema com bilhões de estrelas",
+        "dificil": "Andrômeda é a vizinha da nossa"
+      }
+    },
+    {
+      "palavra": "ECLIPSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando a Lua tapa o Sol",
+        "media": "Quando um astro esconde outro",
+        "dificil": "Escurecimento do dia por um alinhamento"
+      }
+    },
+    {
+      "palavra": "METEORO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Risco de luz que corta o céu num instante",
+        "media": "Rastro luminoso de rocha entrando na atmosfera",
+        "dificil": "Estrela cadente"
+      }
+    },
+    {
+      "palavra": "CRATERA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Buraco redondo no chão da Lua",
+        "media": "Depressão causada por impacto",
+        "dificil": "Marca de pancada de meteorito"
+      }
+    },
+    {
+      "palavra": "ÓRBITA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caminho que um planeta faz em volta do Sol",
+        "media": "Trajetória de um astro em volta de outro",
+        "dificil": "Também é a cavidade do olho"
+      }
+    },
+    {
+      "palavra": "SATÉLITE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A Lua é um deles da Terra",
+        "media": "Corpo que gira em volta de um planeta",
+        "dificil": "Leva o sinal da TV e do GPS"
+      }
+    },
+    {
+      "palavra": "ASTRONAUTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoa que viaja para o espaço",
+        "media": "Tripulante de nave espacial",
+        "dificil": "Cosmonauta, na Rússia"
+      }
+    },
+    {
+      "palavra": "TELESCÓPIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho para ver as estrelas de perto",
+        "media": "Instrumento óptico para ver astros distantes",
+        "dificil": "O Hubble é um famoso, em órbita"
+      }
+    },
+    {
+      "palavra": "CONSTELAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho que as estrelas formam no céu",
+        "media": "Grupo de estrelas que forma uma figura",
+        "dificil": "O Cruzeiro do Sul é uma delas"
+      }
+    },
+    {
+      "palavra": "VIA LÁCTEA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A galáxia onde a gente mora",
+        "media": "Nossa galáxia",
+        "dificil": "Caminho de leite, em latim"
+      }
+    },
+    {
+      "palavra": "ASTEROIDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedra grande que viaja pelo espaço",
+        "media": "Corpo rochoso que orbita o Sol",
+        "dificil": "Tem um cinturão deles entre Marte e Júpiter"
+      }
+    },
+    {
+      "palavra": "BURACO NEGRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar do espaço que puxa até a luz",
+        "media": "Região de onde nem a luz escapa",
+        "dificil": "Fim de uma estrela gigante que tudo engole"
+      }
+    },
+    {
+      "palavra": "NEBULOSA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Nuvem colorida no espaço",
+        "media": "Nuvem de gás e poeira no espaço",
+        "dificil": "Berçário de estrelas"
+      }
+    },
+    {
+      "palavra": "SUPERNOVA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Explosão gigante de uma estrela",
+        "media": "Explosão de uma estrela muito grande",
+        "dificil": "Fim brilhante de uma estrela massiva"
+      }
+    },
+    {
+      "palavra": "QUASAR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ponto superbrilhante muito longe no universo",
+        "media": "Núcleo de galáxia distante e muito luminoso",
+        "dificil": "Farol cósmico alimentado por buraco negro"
+      }
+    },
+    {
+      "palavra": "PULSAR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Estrela que pisca como um farol",
+        "media": "Estrela de nêutrons que gira e emite feixes regulares",
+        "dificil": "Farol giratório do cosmo"
+      }
+    },
+    {
+      "palavra": "ANO-LUZ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Distância muito grande usada no espaço",
+        "media": "Unidade de distância de quase 9,5 trilhões de km",
+        "dificil": "Mede a distância até as estrelas, não o tempo"
+      }
+    },
+    {
+      "palavra": "EQUINÓCIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dia em que o dia e a noite têm o mesmo tamanho",
+        "media": "Data em que dia e noite duram o mesmo",
+        "dificil": "Marca o início do outono e da primavera"
+      }
+    },
+    {
+      "palavra": "SOLSTÍCIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dia mais longo ou mais curto do ano",
+        "media": "Data do dia mais longo ou mais curto",
+        "dificil": "Marca o início do verão e do inverno"
+      }
+    },
+    {
+      "palavra": "GANIMEDES",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "A maior lua de todas, de Júpiter",
+        "media": "Maior lua do Sistema Solar",
+        "dificil": "Copeiro dos deuses e lua maior que Mercúrio"
+      }
+    },
+    {
+      "palavra": "TITÃ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Maior lua de Saturno",
+        "media": "Maior satélite de Saturno",
+        "dificil": "Lua de atmosfera densa e lagos de metano"
+      }
+    },
+    {
+      "palavra": "FOBOS",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Uma das duas luas de Marte",
+        "media": "Maior das duas luas de Marte",
+        "dificil": "Medo, em grego, irmão de Deimos"
+      }
+    },
+    {
+      "palavra": "ÓRION",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grupo de estrelas que forma um caçador",
+        "media": "Constelação do caçador",
+        "dificil": "Gigante caçador que tem as Três Marias no cinturão"
+      }
+    },
+    {
+      "palavra": "ASTRONOMIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ciência que estuda as estrelas",
+        "media": "Ciência que estuda os corpos celestes",
+        "dificil": "Ciência de Galileu e Copérnico"
+      }
+    }
+  ]
+}

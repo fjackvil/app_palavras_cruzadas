@@ -1,0 +1,467 @@
+{
+  "tema": "Sinônimos",
+  "categoria": "Língua portuguesa",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ALEGRE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem está feliz está...",
+        "media": "Sinônimo de contente",
+        "dificil": "Jovial, radiante"
+      }
+    },
+    {
+      "palavra": "BONITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Assim é uma flor que todo mundo admira",
+        "media": "Sinônimo de belo",
+        "dificil": "Formoso, vistoso"
+      }
+    },
+    {
+      "palavra": "FELIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica quem ganha um presente",
+        "media": "Sinônimo de satisfeito",
+        "dificil": "Ditoso, venturoso"
+      }
+    },
+    {
+      "palavra": "RÁPIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como corre o guepardo",
+        "media": "Sinônimo de veloz",
+        "dificil": "Ligeiro, célere"
+      }
+    },
+    {
+      "palavra": "LENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como anda a tartaruga",
+        "media": "Sinônimo de vagaroso",
+        "dificil": "Moroso, pachorrento"
+      }
+    },
+    {
+      "palavra": "BRAVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica o cachorro que late para estranhos",
+        "media": "Sinônimo de zangado",
+        "dificil": "Irritado, furioso"
+      }
+    },
+    {
+      "palavra": "CASA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar onde a família mora",
+        "media": "Sinônimo de lar",
+        "dificil": "Moradia, domicílio"
+      }
+    },
+    {
+      "palavra": "MEDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que muita gente sente no escuro",
+        "media": "Sinônimo de temor",
+        "dificil": "Pavor, receio"
+      }
+    },
+    {
+      "palavra": "FALAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Usar a boca para dizer palavras",
+        "media": "Sinônimo de dizer",
+        "dificil": "Conversar, discursar"
+      }
+    },
+    {
+      "palavra": "CALMO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica o mar sem ondas",
+        "media": "Sinônimo de sereno",
+        "dificil": "Plácido, quieto"
+      }
+    },
+    {
+      "palavra": "TRISTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica quem perdeu o brinquedo",
+        "media": "Sinônimo de infeliz",
+        "dificil": "Melancólico, abatido"
+      }
+    },
+    {
+      "palavra": "GRANDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como é um elefante",
+        "media": "Sinônimo de graúdo",
+        "dificil": "Vasto, amplo, extenso"
+      }
+    },
+    {
+      "palavra": "COMEÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A primeira parte de uma história",
+        "media": "Sinônimo de início",
+        "dificil": "Princípio, origem"
+      }
+    },
+    {
+      "palavra": "FIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparece escrito na última cena do desenho",
+        "media": "Sinônimo de término",
+        "dificil": "Desfecho, conclusão"
+      }
+    },
+    {
+      "palavra": "CHÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde pisamos",
+        "media": "Sinônimo de solo",
+        "dificil": "Piso, terra"
+      }
+    },
+    {
+      "palavra": "PEDRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisa dura que achamos no rio",
+        "media": "Sinônimo de rocha",
+        "dificil": "Seixo, calhau"
+      }
+    },
+    {
+      "palavra": "AMIGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Colega com quem a gente brinca",
+        "media": "Sinônimo de companheiro",
+        "dificil": "Camarada, parceiro"
+      }
+    },
+    {
+      "palavra": "LIMPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica o quarto depois da faxina",
+        "media": "Sinônimo de asseado",
+        "dificil": "Higiênico, imaculado"
+      }
+    },
+    {
+      "palavra": "SUJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica a roupa depois de brincar na lama",
+        "media": "Sinônimo de imundo",
+        "dificil": "Encardido, emporcalhado"
+      }
+    },
+    {
+      "palavra": "CHEIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica o copo até a borda",
+        "media": "Sinônimo de repleto",
+        "dificil": "Lotado, abarrotado"
+      }
+    },
+    {
+      "palavra": "ROSTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte da cabeça onde ficam os olhos e o nariz",
+        "media": "Sinônimo de face",
+        "dificil": "Semblante, fisionomia"
+      }
+    },
+    {
+      "palavra": "CANSADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como ficamos depois de correr muito",
+        "media": "Sinônimo de exausto",
+        "dificil": "Fatigado, esgotado"
+      }
+    },
+    {
+      "palavra": "BRIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando dois amigos discutem feio",
+        "media": "Sinônimo de desavença",
+        "dificil": "Rixa, contenda"
+      }
+    },
+    {
+      "palavra": "ERRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a conta não dá certo, foi um...",
+        "media": "Sinônimo de engano",
+        "dificil": "Equívoco, falha"
+      }
+    },
+    {
+      "palavra": "ESPERTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem aprende tudo rapidinho é...",
+        "media": "Sinônimo de inteligente",
+        "dificil": "Sagaz, astuto, vivo"
+      }
+    },
+    {
+      "palavra": "ENORME",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Do tamanho de uma baleia",
+        "media": "Sinônimo de imenso",
+        "dificil": "Avantajado, desmedido"
+      }
+    },
+    {
+      "palavra": "CORAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que tem quem não foge do perigo",
+        "media": "Sinônimo de bravura",
+        "dificil": "Valentia, ousadia"
+      }
+    },
+    {
+      "palavra": "TEIMOSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem não muda de ideia de jeito nenhum",
+        "media": "Sinônimo de cabeçudo",
+        "dificil": "Obstinado, birrento"
+      }
+    },
+    {
+      "palavra": "GENTIL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem trata todos com carinho",
+        "media": "Sinônimo de amável",
+        "dificil": "Cortês, educado"
+      }
+    },
+    {
+      "palavra": "PREGUIÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vontade de não fazer nada",
+        "media": "Sinônimo de moleza",
+        "dificil": "Indolência, ócio"
+      }
+    },
+    {
+      "palavra": "PERIGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Atravessar a rua sem olhar é um...",
+        "media": "Sinônimo de risco",
+        "dificil": "Ameaça, cilada"
+      }
+    },
+    {
+      "palavra": "JEITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Maneira de fazer as coisas",
+        "media": "Sinônimo de modo",
+        "dificil": "Forma, estilo"
+      }
+    },
+    {
+      "palavra": "VONTADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que sentimos quando queremos muito algo",
+        "media": "Sinônimo de desejo",
+        "dificil": "Anseio, ânsia"
+      }
+    },
+    {
+      "palavra": "SINCERO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem sempre fala a verdade",
+        "media": "Sinônimo de franco",
+        "dificil": "Honesto, verdadeiro"
+      }
+    },
+    {
+      "palavra": "MAGNÍFICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Algo tão lindo que impressiona",
+        "media": "Sinônimo de esplêndido",
+        "dificil": "Grandioso, suntuoso"
+      }
+    },
+    {
+      "palavra": "GIGANTESCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Do tamanho de um prédio bem alto",
+        "media": "Sinônimo de colossal",
+        "dificil": "Descomunal, monumental"
+      }
+    },
+    {
+      "palavra": "INTELIGENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem aprende fácil e pensa bem",
+        "media": "Sinônimo de sabido",
+        "dificil": "Talentoso, brilhante, genial"
+      }
+    },
+    {
+      "palavra": "TRANQUILO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Como fica quem não tem pressa nem preocupação",
+        "media": "Sinônimo de sossegado",
+        "dificil": "Pacato, imperturbável"
+      }
+    },
+    {
+      "palavra": "RESIDÊNCIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Endereço onde a pessoa mora",
+        "media": "Sinônimo de moradia",
+        "dificil": "Habitação, morada"
+      }
+    },
+    {
+      "palavra": "ÁRDUO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Trabalho bem difícil e pesado é...",
+        "media": "Sinônimo de penoso",
+        "dificil": "Custoso, trabalhoso"
+      }
+    },
+    {
+      "palavra": "EXÍMIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem faz algo muito bem é...",
+        "media": "Sinônimo de excelente",
+        "dificil": "Notável, primoroso"
+      }
+    },
+    {
+      "palavra": "ÍNTEGRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem é honesto em tudo o que faz",
+        "media": "Sinônimo de probo",
+        "dificil": "Reto, incorruptível"
+      }
+    },
+    {
+      "palavra": "MÍSERO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pouquinho mesmo, quase nada",
+        "media": "Sinônimo de ínfimo",
+        "dificil": "Parco, irrisório"
+      }
+    },
+    {
+      "palavra": "LOQUAZ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem fala sem parar",
+        "media": "Sinônimo de falador",
+        "dificil": "Tagarela, falante"
+      }
+    },
+    {
+      "palavra": "AFÁVEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem trata os outros com doçura",
+        "media": "Sinônimo de cordial",
+        "dificil": "Simpático, acolhedor"
+      }
+    },
+    {
+      "palavra": "INCÓLUME",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem saiu do tombo sem nenhum machucado",
+        "media": "Sinônimo de ileso",
+        "dificil": "São e salvo"
+      }
+    },
+    {
+      "palavra": "OBSOLETO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Coisa velha que ninguém mais usa",
+        "media": "Sinônimo de ultrapassado",
+        "dificil": "Antiquado, arcaico"
+      }
+    },
+    {
+      "palavra": "DESLEIXADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem não cuida das suas coisas",
+        "media": "Sinônimo de relaxado",
+        "dificil": "Negligente, descuidado"
+      }
+    },
+    {
+      "palavra": "ESTUPEFATO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Como fica quem leva um susto e não acredita",
+        "media": "Sinônimo de pasmo",
+        "dificil": "Atônito, boquiaberto"
+      }
+    },
+    {
+      "palavra": "ÁVIDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem quer muito, muito alguma coisa",
+        "media": "Sinônimo de sedento",
+        "dificil": "Ansioso, cobiçoso"
+      }
+    },
+    {
+      "palavra": "PERSPICAZ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem percebe tudo bem depressa",
+        "media": "Sinônimo de sagaz",
+        "dificil": "Arguto, astuto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "tema": "Antônimos",
+  "categoria": "Língua portuguesa",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "FRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O sorvete é assim, e a sopa é quente",
+        "media": "Contrário de quente",
+        "dificil": "Oposto de cálido"
+      }
+    },
+    {
+      "palavra": "ALTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A girafa é assim, e a formiga é baixinha",
+        "media": "Contrário de baixo",
+        "dificil": "Oposto de rasteiro"
+      }
+    },
+    {
+      "palavra": "NOITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hora da lua e das estrelas",
+        "media": "Contrário de dia",
+        "dificil": "O avesso do período diurno"
+      }
+    },
+    {
+      "palavra": "SECO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica a roupa depois de pegar sol",
+        "media": "Contrário de molhado",
+        "dificil": "Oposto de úmido"
+      }
+    },
+    {
+      "palavra": "VAZIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Copo sem nada dentro",
+        "media": "Contrário de cheio",
+        "dificil": "Oposto de repleto"
+      }
+    },
+    {
+      "palavra": "FRACO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem não aguenta levantar peso",
+        "media": "Contrário de forte",
+        "dificil": "Oposto de robusto"
+      }
+    },
+    {
+      "palavra": "NOVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brinquedo que acabou de sair da caixa",
+        "media": "Contrário de velho",
+        "dificil": "Oposto de usado"
+      }
+    },
+    {
+      "palavra": "FECHAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que fazemos com a porta ao sair",
+        "media": "Contrário de abrir",
+        "dificil": "Oposto de escancarar"
+      }
+    },
+    {
+      "palavra": "SAIR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ir para fora de casa",
+        "media": "Contrário de entrar",
+        "dificil": "Oposto de ingressar"
+      }
+    },
+    {
+      "palavra": "LONGE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde a lua fica da gente",
+        "media": "Contrário de perto",
+        "dificil": "Oposto de próximo"
+      }
+    },
+    {
+      "palavra": "MAGRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fino como um palito",
+        "media": "Contrário de gordo",
+        "dificil": "Oposto de corpulento"
+      }
+    },
+    {
+      "palavra": "DOCE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Gosto do mel",
+        "media": "Contrário de amargo",
+        "dificil": "Oposto de acre"
+      }
+    },
+    {
+      "palavra": "SUBIR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que fazemos na escada para ir ao andar de cima",
+        "media": "Contrário de descer",
+        "dificil": "Oposto de baixar"
+      }
+    },
+    {
+      "palavra": "PERDER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que acontece com quem não ganha o jogo",
+        "media": "Contrário de ganhar",
+        "dificil": "Oposto de vencer"
+      }
+    },
+    {
+      "palavra": "CHORAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que fazemos quando estamos muito tristes",
+        "media": "Contrário de rir",
+        "dificil": "Oposto de gargalhar"
+      }
+    },
+    {
+      "palavra": "FORA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde fica o quintal em relação à casa",
+        "media": "Contrário de dentro",
+        "dificil": "Oposto de no interior"
+      }
+    },
+    {
+      "palavra": "PAZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando ninguém briga",
+        "media": "Contrário de guerra",
+        "dificil": "Oposto de conflito"
+      }
+    },
+    {
+      "palavra": "SIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Resposta de quem concorda",
+        "media": "Contrário de não",
+        "dificil": "Oposto de negativa"
+      }
+    },
+    {
+      "palavra": "CLARO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como fica o quarto com a luz acesa",
+        "media": "Contrário de escuro",
+        "dificil": "Oposto de sombrio"
+      }
+    },
+    {
+      "palavra": "MOLE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como é um travesseiro",
+        "media": "Contrário de duro",
+        "dificil": "Oposto de rígido"
+      }
+    },
+    {
+      "palavra": "CEDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Hora de acordar para ir à escola",
+        "media": "Contrário de tarde",
+        "dificil": "Nunca atrasado, ao raiar do dia"
+      }
+    },
+    {
+      "palavra": "AMOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que sentimos pela nossa família",
+        "media": "Contrário de ódio",
+        "dificil": "Oposto de aversão"
+      }
+    },
+    {
+      "palavra": "PESADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como é um elefante na balança",
+        "media": "Contrário de leve",
+        "dificil": "Oposto de leve como pluma"
+      }
+    },
+    {
+      "palavra": "ESQUERDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lado oposto ao da mão com que a maioria escreve",
+        "media": "Contrário de direita",
+        "dificil": "Oposto de destra"
+      }
+    },
+    {
+      "palavra": "ATRASADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quem chega depois da hora",
+        "media": "Contrário de pontual",
+        "dificil": "Oposto de adiantado"
+      }
+    },
+    {
+      "palavra": "BARULHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que faz o trovão",
+        "media": "Contrário de silêncio",
+        "dificil": "Oposto de quietude"
+      }
+    },
+    {
+      "palavra": "VERDADE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que fala quem não mente",
+        "media": "Contrário de mentira",
+        "dificil": "Oposto de falsidade"
+      }
+    },
+    {
+      "palavra": "AMANHECER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando o sol nasce",
+        "media": "Contrário de anoitecer",
+        "dificil": "Oposto de crepúsculo"
+      }
+    },
+    {
+      "palavra": "POBRE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem tem pouco dinheiro",
+        "media": "Contrário de rico",
+        "dificil": "Oposto de abastado"
+      }
+    },
+    {
+      "palavra": "CORAJOSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem não tem medo",
+        "media": "Contrário de medroso",
+        "dificil": "Oposto de covarde"
+      }
+    },
+    {
+      "palavra": "AUSENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aluno que faltou à aula",
+        "media": "Contrário de presente",
+        "dificil": "Quem não respondeu à chamada"
+      }
+    },
+    {
+      "palavra": "ACEITAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dizer sim a um convite",
+        "media": "Contrário de recusar",
+        "dificil": "Oposto de rejeitar"
+      }
+    },
+    {
+      "palavra": "INIMIGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem está do outro lado da briga",
+        "media": "Contrário de amigo",
+        "dificil": "Oposto de aliado"
+      }
+    },
+    {
+      "palavra": "DEFEITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Coisa que não está boa numa pessoa ou objeto",
+        "media": "Contrário de qualidade",
+        "dificil": "Oposto de virtude"
+      }
+    },
+    {
+      "palavra": "ESQUECER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Não lembrar onde guardou o brinquedo",
+        "media": "Contrário de lembrar",
+        "dificil": "Oposto de recordar"
+      }
+    },
+    {
+      "palavra": "HUMILDE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem não se acha melhor que ninguém",
+        "media": "Contrário de arrogante",
+        "dificil": "Oposto de soberbo"
+      }
+    },
+    {
+      "palavra": "INTERESSANTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Assunto que prende a nossa atenção",
+        "media": "Contrário de chato",
+        "dificil": "Oposto de enfadonho"
+      }
+    },
+    {
+      "palavra": "ESCASSO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando quase não tem",
+        "media": "Contrário de abundante",
+        "dificil": "Oposto de farto"
+      }
+    },
+    {
+      "palavra": "PERENE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Que dura para sempre",
+        "media": "Contrário de passageiro",
+        "dificil": "Oposto de efêmero"
+      }
+    },
+    {
+      "palavra": "CONCISO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Texto curtinho e direto",
+        "media": "Contrário de prolixo",
+        "dificil": "Oposto de verborrágico"
+      }
+    },
+    {
+      "palavra": "AVARO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem não gosta de gastar nem de dividir",
+        "media": "Contrário de generoso",
+        "dificil": "Oposto de pródigo"
+      }
+    },
+    {
+      "palavra": "OTIMISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem sempre acha que vai dar certo",
+        "media": "Contrário de pessimista",
+        "dificil": "Oposto de derrotista"
+      }
+    },
+    {
+      "palavra": "HOSTIL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem trata os outros com raiva",
+        "media": "Contrário de amigável",
+        "dificil": "Oposto de acolhedor"
+      }
+    },
+    {
+      "palavra": "OBSCURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Difícil de entender",
+        "media": "Contrário de evidente",
+        "dificil": "Oposto de cristalino"
+      }
+    },
+    {
+      "palavra": "ÁRIDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Como é o chão do deserto",
+        "media": "Contrário de fértil",
+        "dificil": "Oposto de viçoso"
+      }
+    },
+    {
+      "palavra": "EXTROVERTIDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quem faz amigos fácil e fala com todos",
+        "media": "Contrário de tímido",
+        "dificil": "Oposto de reservado"
+      }
+    },
+    {
+      "palavra": "INSÍPIDO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Comida sem gosto nenhum",
+        "media": "Contrário de saboroso",
+        "dificil": "Oposto de apetitoso"
+      }
+    },
+    {
+      "palavra": "ALTRUÍSTA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quem ajuda sem pensar em si",
+        "media": "Contrário de egoísta",
+        "dificil": "Oposto de individualista"
+      }
+    }
+  ]
+}

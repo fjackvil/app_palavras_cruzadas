@@ -1,0 +1,413 @@
+{
+  "tema": "Atletas famosos",
+  "categoria": "Esportes",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "PELÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rei do futebol, camisa 10 do Santos",
+        "media": "Craque tricampeão mundial pelo Brasil",
+        "dificil": "Edson Arantes do Nascimento"
+      }
+    },
+    {
+      "palavra": "NEYMAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque brasileiro que jogou no Santos e no Barcelona",
+        "media": "Maior artilheiro da seleção brasileira",
+        "dificil": "Menino da Vila que foi para Paris"
+      }
+    },
+    {
+      "palavra": "MESSI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque argentino campeão da Copa de 2022",
+        "media": "Camisa 10 da Argentina",
+        "dificil": "Atacante canhoto nascido em Rosário"
+      }
+    },
+    {
+      "palavra": "MARTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Rainha do futebol brasileiro",
+        "media": "Eleita seis vezes melhor do mundo",
+        "dificil": "Camisa 10 da seleção feminina"
+      }
+    },
+    {
+      "palavra": "SENNA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Piloto brasileiro de capacete amarelo",
+        "media": "Tricampeão da Fórmula 1",
+        "dificil": "Ayrton, ídolo das manhãs de domingo"
+      }
+    },
+    {
+      "palavra": "GUGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tenista brasileiro que desenhou um coração na quadra",
+        "media": "Gustavo Kuerten",
+        "dificil": "Tricampeão de Roland Garros"
+      }
+    },
+    {
+      "palavra": "RONALDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque brasileiro chamado de Fenômeno",
+        "media": "Artilheiro do penta em 2002",
+        "dificil": "Fenômeno de Bento Ribeiro"
+      }
+    },
+    {
+      "palavra": "ZICO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque do Flamengo chamado de Galinho",
+        "media": "Galinho de Quintino",
+        "dificil": "Camisa 10 rubro-negra dos anos 80"
+      }
+    },
+    {
+      "palavra": "BOLT",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Corredor da Jamaica, o homem mais rápido do mundo",
+        "media": "Velocista jamaicano",
+        "dificil": "Recordista dos cem metros com 9s58"
+      }
+    },
+    {
+      "palavra": "KAKÁ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque brasileiro eleito melhor do mundo em 2007",
+        "media": "Meia do São Paulo e do Milan",
+        "dificil": "Ricardo Izecson"
+      }
+    },
+    {
+      "palavra": "VINI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Atacante brasileiro do Real Madrid",
+        "media": "Atacante revelado pelo Flamengo",
+        "dificil": "Melhor do mundo da Fifa em 2024"
+      }
+    },
+    {
+      "palavra": "ROMÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Baixinho artilheiro do tetra em 1994",
+        "media": "Atacante do tetracampeonato",
+        "dificil": "Baixinho do gol mil"
+      }
+    },
+    {
+      "palavra": "RONALDINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Craque sorridente que jogava com muita alegria",
+        "media": "Gaúcho que brilhou no Barcelona",
+        "dificil": "Melhor do mundo em 2004 e 2005"
+      }
+    },
+    {
+      "palavra": "GARRINCHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Craque de pernas tortas que driblava muito",
+        "media": "Ponta do Botafogo",
+        "dificil": "Anjo das pernas tortas"
+      }
+    },
+    {
+      "palavra": "RAYSSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Skatista brasileira chamada de Fadinha",
+        "media": "Prata em Tóquio aos 13 anos",
+        "dificil": "Leal, a Fadinha do Maranhão"
+      }
+    },
+    {
+      "palavra": "REBECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ginasta brasileira campeã olímpica",
+        "media": "Ginasta de Guarulhos",
+        "dificil": "Ouro no solo em Paris 2024"
+      }
+    },
+    {
+      "palavra": "DAIANE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ginasta brasileira que tem um salto com seu nome",
+        "media": "Dos Santos, campeã mundial de 2003",
+        "dificil": "Do duplo twist carpado"
+      }
+    },
+    {
+      "palavra": "OSCAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mão Santa do basquete brasileiro",
+        "media": "Cestinha brasileiro de cinco Olimpíadas",
+        "dificil": "Schmidt, ídolo das cestas"
+      }
+    },
+    {
+      "palavra": "HORTÊNCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Rainha do basquete brasileiro",
+        "media": "Ala campeã mundial em 1994",
+        "dificil": "Fez dupla com Paula, a Magic"
+      }
+    },
+    {
+      "palavra": "JORDAN",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Astro do basquete americano que voava até a cesta",
+        "media": "Lenda do Chicago Bulls",
+        "dificil": "Michael, camisa 23"
+      }
+    },
+    {
+      "palavra": "FEDERER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tenista suíço muito elegante",
+        "media": "Vencedor de 20 títulos de Grand Slam",
+        "dificil": "Roger da Basileia"
+      }
+    },
+    {
+      "palavra": "NADAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tenista espanhol rei do saibro",
+        "media": "Catorze vezes campeão em Paris",
+        "dificil": "Rafa de Maiorca"
+      }
+    },
+    {
+      "palavra": "SERENA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tenista americana com 23 títulos de Grand Slam",
+        "media": "Irmã de Venus",
+        "dificil": "Williams caçula"
+      }
+    },
+    {
+      "palavra": "PHELPS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Nadador americano com 23 ouros olímpicos",
+        "media": "Recordista de medalhas olímpicas",
+        "dificil": "Tubarão de Baltimore"
+      }
+    },
+    {
+      "palavra": "CIELO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Nadador brasileiro campeão olímpico em 2008",
+        "media": "Ouro nos 50 metros livre em Pequim",
+        "dificil": "César, velocista das piscinas"
+      }
+    },
+    {
+      "palavra": "PIQUET",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Piloto brasileiro tricampeão da F1 nos anos 80",
+        "media": "Nelson, campeão em 81, 83 e 87",
+        "dificil": "Brasiliense das pistas"
+      }
+    },
+    {
+      "palavra": "FITTIPALDI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Primeiro brasileiro campeão da Fórmula 1",
+        "media": "Emerson, campeão em 1972 e 1974",
+        "dificil": "Também venceu as 500 Milhas de Indianápolis"
+      }
+    },
+    {
+      "palavra": "HAMILTON",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Piloto inglês com sete títulos na Fórmula 1",
+        "media": "Heptacampeão britânico",
+        "dificil": "Lewis, de Stevenage"
+      }
+    },
+    {
+      "palavra": "SCHUMACHER",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Piloto alemão com sete títulos na Fórmula 1",
+        "media": "Heptacampeão alemão",
+        "dificil": "Michael, lenda de Maranello"
+      }
+    },
+    {
+      "palavra": "MARADONA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Craque argentino campeão da Copa de 1986",
+        "media": "Camisa 10 do Napoli",
+        "dificil": "Dom Diego, do gol de mão"
+      }
+    },
+    {
+      "palavra": "MBAPPÉ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Atacante francês campeão do mundo em 2018",
+        "media": "Craque veloz da França",
+        "dificil": "Kylian, de Bondy"
+      }
+    },
+    {
+      "palavra": "ZIDANE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Craque francês campeão da Copa de 1998",
+        "media": "Zizou",
+        "dificil": "Meia de família argelina"
+      }
+    },
+    {
+      "palavra": "BECKENBAUER",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Kaiser do futebol alemão",
+        "media": "Campeão do mundo como capitão e como técnico",
+        "dificil": "Líbero lendário de Munique"
+      }
+    },
+    {
+      "palavra": "EUSÉBIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pantera Negra do futebol português",
+        "media": "Craque do Benfica nascido em Moçambique",
+        "dificil": "Artilheiro da Copa de 1966"
+      }
+    },
+    {
+      "palavra": "CAFU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capitão do penta que levantou a taça em 2002",
+        "media": "Lateral de três finais de Copa",
+        "dificil": "Marcos Evangelista, o Pendolino"
+      }
+    },
+    {
+      "palavra": "TAFFAREL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Goleiro do tetra em 1994",
+        "media": "Pegou pênalti na final contra a Itália",
+        "dificil": "Camisa 1 de Santa Rosa"
+      }
+    },
+    {
+      "palavra": "TOSTÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Craque mineiro do tri em 1970",
+        "media": "Atacante do Cruzeiro",
+        "dificil": "Virou médico e cronista"
+      }
+    },
+    {
+      "palavra": "JAIRZINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Furacão da Copa de 1970",
+        "media": "Marcou em todos os jogos da Copa de 1970",
+        "dificil": "Ponta do Botafogo"
+      }
+    },
+    {
+      "palavra": "SÓCRATES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Craque de barba que tocava de calcanhar",
+        "media": "Doutor do Corinthians",
+        "dificil": "Capitão da seleção de 1982"
+      }
+    },
+    {
+      "palavra": "ÍTALO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Surfista campeão olímpico em Tóquio",
+        "media": "Ferreira, de Baía Formosa",
+        "dificil": "Primeiro ouro olímpico do surfe"
+      }
+    },
+    {
+      "palavra": "MEDINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Surfista brasileiro tricampeão mundial",
+        "media": "Gabriel, de Maresias",
+        "dificil": "Bronze em Paris 2024"
+      }
+    },
+    {
+      "palavra": "ISAQUIAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Canoísta baiano com várias medalhas olímpicas",
+        "media": "Queiroz, de Ubaitaba",
+        "dificil": "Ouro em Tóquio na canoa individual"
+      }
+    },
+    {
+      "palavra": "GIBA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ponteiro do vôlei campeão olímpico em 2004",
+        "media": "Jogador de vôlei criado em Londrina",
+        "dificil": "Gilberto, astro da seleção de vôlei"
+      }
+    },
+    {
+      "palavra": "TORBEN",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Velejador brasileiro com cinco medalhas olímpicas",
+        "media": "Grael, mestre da vela",
+        "dificil": "Dono de dois ouros no iatismo"
+      }
+    },
+    {
+      "palavra": "COMANECI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Ginasta romena que tirou a primeira nota dez",
+        "media": "Nadia, perfeita em 1976",
+        "dificil": "Menina de ouro de Montreal"
+      }
+    }
+  ]
+}

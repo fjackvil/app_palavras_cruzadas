@@ -1,0 +1,422 @@
+{
+  "tema": "Clima",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bola de luz quente que ilumina o dia",
+        "media": "Estrela que aquece a Terra",
+        "dificil": "Astro-rei"
+      }
+    },
+    {
+      "palavra": "CHUVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água que cai das nuvens",
+        "media": "Precipitação de gotas de água",
+        "dificil": "Depois dela vem o arco-íris"
+      }
+    },
+    {
+      "palavra": "VENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ar que sopra e balança as árvores",
+        "media": "Ar em movimento",
+        "dificil": "Leva a pipa e o moinho"
+      }
+    },
+    {
+      "palavra": "NEVE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Floquinhos brancos e gelados que caem do céu",
+        "media": "Precipitação de cristais de gelo",
+        "dificil": "Flocos que pintam as montanhas de branco"
+      }
+    },
+    {
+      "palavra": "FRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a gente precisa de casaco",
+        "media": "Temperatura baixa",
+        "dificil": "Pede cobertor e chocolate quente"
+      }
+    },
+    {
+      "palavra": "CALOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando dá vontade de tomar sorvete",
+        "media": "Temperatura alta",
+        "dificil": "Pede ventilador e água gelada"
+      }
+    },
+    {
+      "palavra": "NUVEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Algodão branco que flutua no céu",
+        "media": "Massa de gotinhas de água no céu",
+        "dificil": "Cúmulo, cirro ou estrato"
+      }
+    },
+    {
+      "palavra": "RAIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Risco de luz no céu durante a tempestade",
+        "media": "Descarga elétrica entre nuvem e solo",
+        "dificil": "Descarga que Benjamin Franklin estudou com uma pipa"
+      }
+    },
+    {
+      "palavra": "GELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água que ficou dura de tão fria",
+        "media": "Água em estado sólido",
+        "dificil": "Quebrá-lo é acabar com o clima tenso"
+      }
+    },
+    {
+      "palavra": "TROVÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barulhão que vem depois do raio",
+        "media": "Estrondo provocado pela descarga elétrica",
+        "dificil": "O ronco da tempestade"
+      }
+    },
+    {
+      "palavra": "SECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando passa muito tempo sem chover",
+        "media": "Longo período sem chuva",
+        "dificil": "Flagelo do sertão em romance de Graciliano Ramos"
+      }
+    },
+    {
+      "palavra": "VERÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estação mais quente do ano",
+        "media": "Estação de dias longos e quentes",
+        "dificil": "Estação que no Brasil começa em dezembro"
+      }
+    },
+    {
+      "palavra": "OUTONO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estação em que as folhas caem",
+        "media": "Estação entre o verão e o inverno",
+        "dificil": "Estação que no Brasil começa em março"
+      }
+    },
+    {
+      "palavra": "CÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lá em cima, onde ficam as nuvens",
+        "media": "Espaço acima de nós onde ficam as nuvens",
+        "dificil": "Firmamento"
+      }
+    },
+    {
+      "palavra": "INVERNO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estação mais fria do ano",
+        "media": "Estação de dias curtos e frios",
+        "dificil": "Estação que no Brasil começa em junho"
+      }
+    },
+    {
+      "palavra": "ARCO-ÍRIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faixa colorida no céu depois da chuva",
+        "media": "Faixa de sete cores formada pela luz do sol",
+        "dificil": "Luz decomposta em gotas de chuva"
+      }
+    },
+    {
+      "palavra": "BRISA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ventinho fresco e gostoso",
+        "media": "Vento leve e fresco",
+        "dificil": "Aragem que vem do mar à tarde"
+      }
+    },
+    {
+      "palavra": "NEBLINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Nuvem baixinha que deixa tudo branco",
+        "media": "Nuvem rente ao chão que atrapalha a visão",
+        "dificil": "Faz o motorista acender o farol baixo"
+      }
+    },
+    {
+      "palavra": "GAROA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chuvinha bem fina",
+        "media": "Chuva fina e contínua",
+        "dificil": "São Paulo é a terra dela"
+      }
+    },
+    {
+      "palavra": "GRANIZO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinhas de gelo que caem do céu",
+        "media": "Chuva de pedras de gelo",
+        "dificil": "Saraiva que amassa carros"
+      }
+    },
+    {
+      "palavra": "ORVALHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gotinhas de água nas folhas de manhã",
+        "media": "Gotas que se formam de madrugada nas superfícies",
+        "dificil": "Sereno que molha a grama ao amanhecer"
+      }
+    },
+    {
+      "palavra": "GEADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Gelinho branco na grama em manhã muito fria",
+        "media": "Camada fina de gelo que se forma de madrugada",
+        "dificil": "Queima o cafezal nas noites frias do Sul"
+      }
+    },
+    {
+      "palavra": "TORNADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vento que gira como um funil",
+        "media": "Coluna de ar girando que desce da nuvem ao chão",
+        "dificil": "Redemoinho gigante da Planície americana"
+      }
+    },
+    {
+      "palavra": "FURACÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ventania enorme que gira sobre o mar",
+        "media": "Tempestade tropical de ventos muito fortes",
+        "dificil": "Ciclone tropical do Atlântico com nome de gente"
+      }
+    },
+    {
+      "palavra": "TUFÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ventania fortíssima que vem do mar na Ásia",
+        "media": "Ciclone tropical do Pacífico oeste",
+        "dificil": "Furacão do lado de lá, perto do Japão"
+      }
+    },
+    {
+      "palavra": "ENCHENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando a chuva faz o rio sair do lugar",
+        "media": "Transbordamento de rios por excesso de chuva",
+        "dificil": "Inundação"
+      }
+    },
+    {
+      "palavra": "TEMPORAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chuva muito forte com vento",
+        "media": "Tempestade forte e repentina",
+        "dificil": "Aguaceiro com ventania"
+      }
+    },
+    {
+      "palavra": "UMIDADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quanto de água tem no ar",
+        "media": "Quantidade de vapor de água no ar",
+        "dificil": "Quando está baixa, resseca o nariz"
+      }
+    },
+    {
+      "palavra": "ESTAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Verão, outono, inverno ou primavera",
+        "media": "Cada uma das quatro partes do ano",
+        "dificil": "Também é lugar onde o trem para"
+      }
+    },
+    {
+      "palavra": "VENDAVAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vento muito forte que derruba coisas",
+        "media": "Ventania violenta",
+        "dificil": "Ventania que destelha casas"
+      }
+    },
+    {
+      "palavra": "RELÂMPAGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Clarão que aparece no céu na tempestade",
+        "media": "Clarão causado por descarga elétrica",
+        "dificil": "Vem antes do trovão porque a luz é mais rápida"
+      }
+    },
+    {
+      "palavra": "TEMPESTADE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chuva forte com raios e trovões",
+        "media": "Mau tempo com chuva forte e ventos",
+        "dificil": "Fazer uma em copo d'água é exagerar"
+      }
+    },
+    {
+      "palavra": "PRIMAVERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estação das flores",
+        "media": "Estação entre o inverno e o verão",
+        "dificil": "Estação que no Brasil começa em setembro"
+      }
+    },
+    {
+      "palavra": "TERMÔMETRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que mostra se está quente ou frio",
+        "media": "Instrumento que mede a temperatura",
+        "dificil": "Mede a febre e a onda de calor"
+      }
+    },
+    {
+      "palavra": "GUARDA-CHUVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Objeto que a gente abre para não se molhar",
+        "media": "Objeto que protege da água que cai do céu",
+        "dificil": "Sombrinha"
+      }
+    },
+    {
+      "palavra": "MONÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Época de muita chuva na Índia",
+        "media": "Vento sazonal que traz chuvas ao sul da Ásia",
+        "dificil": "Regime de ventos que alaga Mumbai todo ano"
+      }
+    },
+    {
+      "palavra": "CICLONE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ventania enorme que gira em espiral",
+        "media": "Sistema de ventos girando em torno de baixa pressão",
+        "dificil": "O Catarina, de 2004, atingiu o Sul do Brasil"
+      }
+    },
+    {
+      "palavra": "BARÔMETRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Aparelho que ajuda a prever o tempo",
+        "media": "Instrumento que mede a pressão do ar",
+        "dificil": "Invenção de Torricelli com mercúrio"
+      }
+    },
+    {
+      "palavra": "ANEMÔMETRO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Aparelho que mede a força do vento",
+        "media": "Instrumento que mede a velocidade do vento",
+        "dificil": "Cata-vento de conchinhas das estações meteorológicas"
+      }
+    },
+    {
+      "palavra": "PLUVIÔMETRO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Aparelho que mede quanto choveu",
+        "media": "Instrumento que mede a quantidade de chuva",
+        "dificil": "Marca os milímetros de água caída"
+      }
+    },
+    {
+      "palavra": "ESTIAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tempo sem chuva em que o rio fica baixo",
+        "media": "Período sem chuvas com rios mais baixos",
+        "dificil": "Quando os reservatórios minguam"
+      }
+    },
+    {
+      "palavra": "MORMAÇO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Calor abafado com o céu nublado",
+        "media": "Tempo quente, úmido e abafado",
+        "dificil": "Queima a pele mesmo com o sol escondido"
+      }
+    },
+    {
+      "palavra": "NEVASCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tempestade de neve",
+        "media": "Queda forte de neve com vento",
+        "dificil": "Branco total que fecha estradas no inverno do norte"
+      }
+    },
+    {
+      "palavra": "MINUANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Vento gelado que sopra no Sul do Brasil",
+        "media": "Vento frio e seco do Rio Grande do Sul",
+        "dificil": "Sopro gelado que vem dos pampas no inverno gaúcho"
+      }
+    },
+    {
+      "palavra": "ARAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ventinho bem suave",
+        "media": "Vento brando",
+        "dificil": "Sopro leve, quase uma carícia"
+      }
+    },
+    {
+      "palavra": "CERRAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Neblina bem fechada",
+        "media": "Nevoeiro espesso",
+        "dificil": "Bruma tão densa que não se vê nada"
+      }
+    }
+  ]
+}

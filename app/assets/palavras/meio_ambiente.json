@@ -1,0 +1,449 @@
+{
+  "tema": "Meio ambiente",
+  "categoria": "Atualidades",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "LIXO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Restos e sujeira que vão para o cesto",
+        "media": "Resíduo descartado",
+        "dificil": "Separar o reciclável é dever de casa"
+      }
+    },
+    {
+      "palavra": "ÁGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a gente bebe e não pode desperdiçar",
+        "media": "Líquido essencial à vida",
+        "dificil": "H2O"
+      }
+    },
+    {
+      "palavra": "SOL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estrela que esquenta e ilumina a Terra",
+        "media": "Fonte de energia limpa no céu",
+        "dificil": "Astro-rei"
+      }
+    },
+    {
+      "palavra": "VENTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ar em movimento que balança as árvores",
+        "media": "Deslocamento de massas de ar",
+        "dificil": "Move as pás das usinas eólicas"
+      }
+    },
+    {
+      "palavra": "CHUVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Água que cai das nuvens",
+        "media": "Precipitação",
+        "dificil": "Ácida, quando o ar está poluído"
+      }
+    },
+    {
+      "palavra": "TERRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nosso planeta, a nossa casa",
+        "media": "Terceiro planeta a partir do Sol",
+        "dificil": "Planeta azul"
+      }
+    },
+    {
+      "palavra": "LATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Embalagem de metal que pode ser reciclada",
+        "media": "Recipiente de alumínio ou aço",
+        "dificil": "Vai no cesto amarelo da coleta seletiva"
+      }
+    },
+    {
+      "palavra": "VIDRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Material de garrafas e potes que vai no cesto verde",
+        "media": "Material transparente reciclável",
+        "dificil": "Feito de areia derretida"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Material dos cadernos que vai no cesto azul",
+        "media": "Folha feita de celulose",
+        "dificil": "Vem das árvores e pode ser reciclado"
+      }
+    },
+    {
+      "palavra": "ÁRVORE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Planta grande com tronco, galhos e folhas",
+        "media": "Vegetal lenhoso de grande porte",
+        "dificil": "Ipê, jatobá e pau-brasil"
+      }
+    },
+    {
+      "palavra": "MUDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plantinha nova pronta para ir para a terra",
+        "media": "Pequena planta para o plantio",
+        "dificil": "Semente que virou broto"
+      }
+    },
+    {
+      "palavra": "FUMAÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nuvem cinza que sai das chaminés e das queimadas",
+        "media": "Gases e partículas da combustão",
+        "dificil": "Polui o ar das cidades"
+      }
+    },
+    {
+      "palavra": "PLANTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ser vivo verde que nasce da semente",
+        "media": "Vegetal",
+        "dificil": "Faz fotossíntese"
+      }
+    },
+    {
+      "palavra": "SECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando falta chuva por muito tempo",
+        "media": "Estiagem",
+        "dificil": "Castiga o sertão nordestino"
+      }
+    },
+    {
+      "palavra": "PILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dá energia ao controle remoto e não vai no lixo comum",
+        "media": "Fonte portátil de energia química",
+        "dificil": "AA ou AAA, tem coleta especial"
+      }
+    },
+    {
+      "palavra": "SEMENTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Grãozinho que vira planta",
+        "media": "Parte da planta que germina",
+        "dificil": "Caroço que dá origem a uma árvore"
+      }
+    },
+    {
+      "palavra": "FLORESTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com muitas árvores juntas",
+        "media": "Mata densa",
+        "dificil": "A Amazônia é a maior tropical"
+      }
+    },
+    {
+      "palavra": "PLANETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A Terra é um",
+        "media": "Corpo celeste que gira em volta de uma estrela",
+        "dificil": "Salvar o ... é a missão"
+      }
+    },
+    {
+      "palavra": "NATUREZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Plantas, bichos, rios e montanhas",
+        "media": "Mundo natural",
+        "dificil": "Mãe ..."
+      }
+    },
+    {
+      "palavra": "RECICLAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Transformar lixo em coisa nova",
+        "media": "Reaproveitar material descartado",
+        "dificil": "Garrafa PET virando roupa"
+      }
+    },
+    {
+      "palavra": "POLUIÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sujeira no ar, na água ou na terra",
+        "media": "Contaminação do ambiente",
+        "dificil": "Fumaça de fábrica e esgoto no rio"
+      }
+    },
+    {
+      "palavra": "PLÁSTICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Material das sacolinhas, demora séculos para sumir",
+        "media": "Material derivado do petróleo",
+        "dificil": "Vai no cesto vermelho"
+      }
+    },
+    {
+      "palavra": "ADUBO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Comida para as plantas crescerem fortes",
+        "media": "Fertilizante",
+        "dificil": "Esterco e restos de comida viram isso"
+      }
+    },
+    {
+      "palavra": "CLIMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Como é o tempo de um lugar ao longo dos anos",
+        "media": "Padrão de temperatura e chuva de uma região",
+        "dificil": "Tropical, temperado ou polar"
+      }
+    },
+    {
+      "palavra": "ENERGIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que faz a lâmpada acender",
+        "media": "Capacidade de produzir trabalho",
+        "dificil": "Solar, eólica ou hidrelétrica"
+      }
+    },
+    {
+      "palavra": "CERRADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mata de árvores tortinhas e do pequi, no Brasil central",
+        "media": "Savana brasileira",
+        "dificil": "Berço das águas do Brasil"
+      }
+    },
+    {
+      "palavra": "CAATINGA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mata do sertão que perde as folhas na seca",
+        "media": "Bioma exclusivamente brasileiro do Nordeste",
+        "dificil": "Mata branca, em tupi"
+      }
+    },
+    {
+      "palavra": "MANGUE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar de lama na beira do mar, cheio de caranguejos",
+        "media": "Ecossistema de transição entre rio e mar",
+        "dificil": "Inspirou o movimento musical de Chico Science"
+      }
+    },
+    {
+      "palavra": "PAMPA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Campo do Sul do Brasil onde se cria gado",
+        "media": "Bioma de campos do Rio Grande do Sul",
+        "dificil": "Planície do chimarrão"
+      }
+    },
+    {
+      "palavra": "ESGOTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Água suja que sai das casas pelo cano",
+        "media": "Rede de águas servidas",
+        "dificil": "Tratá-lo faz parte do saneamento básico"
+      }
+    },
+    {
+      "palavra": "COLETA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando o caminhão passa para levar o lixo",
+        "media": "Recolhimento de resíduos",
+        "dificil": "Seletiva, separa por cores"
+      }
+    },
+    {
+      "palavra": "QUEIMADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fogo que destrói a mata",
+        "media": "Incêndio na vegetação",
+        "dificil": "Fumaça de agosto e setembro no Centro-Oeste"
+      }
+    },
+    {
+      "palavra": "BIOMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Grande região com plantas e bichos parecidos",
+        "media": "Conjunto de ecossistemas de uma área",
+        "dificil": "O Brasil tem seis: Amazônia, Cerrado..."
+      }
+    },
+    {
+      "palavra": "MATA ATLÂNTICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Floresta da costa brasileira, casa do mico-leão-dourado",
+        "media": "Bioma litorâneo mais devastado do Brasil",
+        "dificil": "Floresta que os portugueses viram primeiro"
+      }
+    },
+    {
+      "palavra": "ECOLOGIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Estudo de como os seres vivos e o ambiente se relacionam",
+        "media": "Ciência das relações dos seres vivos com o meio",
+        "dificil": "Termo criado por Ernst Haeckel"
+      }
+    },
+    {
+      "palavra": "EXTINÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando um tipo de bicho some para sempre",
+        "media": "Desaparecimento total de uma espécie",
+        "dificil": "Destino dos dinossauros"
+      }
+    },
+    {
+      "palavra": "ESPÉCIE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tipo de ser vivo, como a onça-pintada ou o tucano",
+        "media": "Unidade básica da classificação biológica",
+        "dificil": "A ararinha-azul é uma que quase sumiu"
+      }
+    },
+    {
+      "palavra": "OZÔNIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Camada do céu que protege a Terra dos raios do sol",
+        "media": "Gás de três átomos de oxigênio",
+        "dificil": "Sua camada tinha um buraco sobre a Antártida"
+      }
+    },
+    {
+      "palavra": "CARBONO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Elemento do gás que esquenta o planeta",
+        "media": "Elemento químico do CO2",
+        "dificil": "Créditos de ... são negociados"
+      }
+    },
+    {
+      "palavra": "AQUECIMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando o planeta fica cada vez mais quente",
+        "media": "Aumento da temperatura média global",
+        "dificil": "O efeito estufa o provoca"
+      }
+    },
+    {
+      "palavra": "DESMATAMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando cortam muitas árvores da floresta",
+        "media": "Derrubada da vegetação nativa",
+        "dificil": "Motosserras e queimadas o causam"
+      }
+    },
+    {
+      "palavra": "SUSTENTÁVEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Que usa a natureza sem acabar com ela",
+        "media": "Que atende ao presente sem prejudicar o futuro",
+        "dificil": "Desenvolvimento ..."
+      }
+    },
+    {
+      "palavra": "COMPOSTAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Transformar restos de comida em adubo",
+        "media": "Decomposição controlada de resíduos orgânicos",
+        "dificil": "O minhocário faz isso"
+      }
+    },
+    {
+      "palavra": "ECOSSISTEMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lugar onde plantas, bichos e ambiente vivem juntos",
+        "media": "Comunidade de seres vivos e seu meio físico",
+        "dificil": "Um lago ou um recife, por exemplo"
+      }
+    },
+    {
+      "palavra": "EÓLICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Energia que vem do vento",
+        "media": "Energia gerada por cata-ventos gigantes",
+        "dificil": "O Nordeste é campeão nela"
+      }
+    },
+    {
+      "palavra": "NASCENTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lugar onde um rio começa",
+        "media": "Olho-d'água",
+        "dificil": "Fonte de água que deve ser protegida"
+      }
+    },
+    {
+      "palavra": "SANEAMENTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Água tratada e esgoto encanado",
+        "media": "Serviços de água, esgoto e lixo",
+        "dificil": "Básico, é direito de todos"
+      }
+    },
+    {
+      "palavra": "AGROTÓXICO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Veneno usado nas plantações",
+        "media": "Defensivo agrícola",
+        "dificil": "Pesticida"
+      }
+    },
+    {
+      "palavra": "ASSOREAMENTO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Quando o rio fica cheio de terra e areia no fundo",
+        "media": "Acúmulo de sedimentos no leito de rios",
+        "dificil": "Causado pela retirada da mata ciliar"
+      }
+    }
+  ]
+}

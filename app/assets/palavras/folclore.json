@@ -1,0 +1,413 @@
+{
+  "tema": "Folclore",
+  "categoria": "Cultura",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SACI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Menino de uma perna só e gorro vermelho",
+        "media": "Pererê do redemoinho",
+        "dificil": "Vive aprontando nos redemoinhos de vento"
+      }
+    },
+    {
+      "palavra": "CURUPIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Protetor da mata com os pés virados para trás",
+        "media": "Guardião das florestas",
+        "dificil": "Seus rastros enganam os caçadores"
+      }
+    },
+    {
+      "palavra": "IARA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sereia dos rios brasileiros",
+        "media": "Mãe-d'água",
+        "dificil": "Encanta com seu canto nas águas"
+      }
+    },
+    {
+      "palavra": "BOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Golfinho cor-de-rosa dos rios da Amazônia",
+        "media": "Bicho que vira moço nas festas, diz a lenda",
+        "dificil": "Aparece de chapéu branco"
+      }
+    },
+    {
+      "palavra": "CUCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bruxa com cara de jacaré",
+        "media": "Personagem de cantiga de ninar",
+        "dificil": "Vem buscar quem não dorme, diz a canção"
+      }
+    },
+    {
+      "palavra": "MULA SEM CABEÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mula que corre pelos campos soltando faíscas",
+        "media": "Assombração que solta fogo pelo pescoço",
+        "dificil": "Galopa nas noites de quinta para sexta"
+      }
+    },
+    {
+      "palavra": "BOITATÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cobra de fogo que protege as matas",
+        "media": "Serpente flamejante",
+        "dificil": "Fogo-fátuo das lendas"
+      }
+    },
+    {
+      "palavra": "LOBISOMEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Homem que vira lobo na lua cheia",
+        "media": "Criatura das noites de lua cheia",
+        "dificil": "Lenda das sextas-feiras"
+      }
+    },
+    {
+      "palavra": "MAPINGUARI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Grandalhão peludo das lendas amazônicas",
+        "media": "Gigante da floresta do Acre e do Amazonas",
+        "dificil": "Bicho-preguiça gigante das lendas"
+      }
+    },
+    {
+      "palavra": "CAIPORA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Protetora dos bichos, montada num porco-do-mato",
+        "media": "Guardiã da caça",
+        "dificil": "Prima do Curupira nas lendas"
+      }
+    },
+    {
+      "palavra": "VITÓRIA-RÉGIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Planta grande e redonda que boia nos rios",
+        "media": "Lenda da moça que virou planta",
+        "dificil": "Flor da lenda de Naiá"
+      }
+    },
+    {
+      "palavra": "MANDIOCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Raiz que nasceu de uma menina, numa lenda tupi",
+        "media": "Raiz da lenda de Mani",
+        "dificil": "Casa de Mani, na lenda indígena"
+      }
+    },
+    {
+      "palavra": "GUARANÁ",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruta que parece um olho, numa lenda indígena",
+        "media": "Lenda dos Sateré-Mawé",
+        "dificil": "Fruto nascido do olho de um menino"
+      }
+    },
+    {
+      "palavra": "PARLENDA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Versinho de brincadeira, como Hoje é domingo",
+        "media": "Rima infantil decorada",
+        "dificil": "Uni-duni-tê é um exemplo"
+      }
+    },
+    {
+      "palavra": "TRAVA-LÍNGUA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Frase difícil de falar rápido",
+        "media": "Brincadeira de dicção",
+        "dificil": "O rato roeu a roupa do rei de Roma"
+      }
+    },
+    {
+      "palavra": "ADIVINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brincadeira do o que é, o que é?",
+        "media": "Charada popular",
+        "dificil": "Pergunta enigmática do povo"
+      }
+    },
+    {
+      "palavra": "CANTIGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Música de roda das crianças",
+        "media": "Canção popular",
+        "dificil": "Ciranda, cirandinha é uma"
+      }
+    },
+    {
+      "palavra": "CIRANDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dança de roda de mãos dadas",
+        "media": "Roda de Pernambuco",
+        "dificil": "Dança famosa em Itamaracá"
+      }
+    },
+    {
+      "palavra": "PIÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brinquedo que gira no chão com uma cordinha",
+        "media": "Brinquedo de fieira",
+        "dificil": "Roda até cair"
+      }
+    },
+    {
+      "palavra": "PETECA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brinquedo de penas que se joga com a mão",
+        "media": "Brinquedo de origem indígena",
+        "dificil": "Não pode deixar cair"
+      }
+    },
+    {
+      "palavra": "PIPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brinquedo de papel que voa com o vento",
+        "media": "Papagaio",
+        "dificil": "Pandorga, no Sul"
+      }
+    },
+    {
+      "palavra": "BILBOQUÊ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bola presa por cordão num pauzinho",
+        "media": "Jogo de encaixe com cordão",
+        "dificil": "Brinquedo antigo de destreza"
+      }
+    },
+    {
+      "palavra": "AMARELINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pular em quadrados riscados no chão",
+        "media": "Brincadeira de pular casas",
+        "dificil": "Termina no céu, desenhado com giz"
+      }
+    },
+    {
+      "palavra": "LENDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "História antiga que o povo conta",
+        "media": "Narrativa popular",
+        "dificil": "Passa de boca em boca"
+      }
+    },
+    {
+      "palavra": "BERIMBAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento de arco da capoeira",
+        "media": "Arco musical com cabaça",
+        "dificil": "Comanda a roda"
+      }
+    },
+    {
+      "palavra": "CAPOEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mistura de luta e dança com berimbau",
+        "media": "Arte afro-brasileira",
+        "dificil": "Ginga é seu passo básico"
+      }
+    },
+    {
+      "palavra": "BOI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho enfeitado da festa do Maranhão",
+        "media": "Animal da festa de Parintins",
+        "dificil": "Garantido ou Caprichoso"
+      }
+    },
+    {
+      "palavra": "BOIÚNA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Cobra gigante dos rios amazônicos",
+        "media": "Cobra-Grande da lenda",
+        "dificil": "Vira navio iluminado à noite, diz o povo"
+      }
+    },
+    {
+      "palavra": "MATINTA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Velha que vira pássaro e assobia à noite",
+        "media": "Lenda paraense do assobio noturno",
+        "dificil": "Personagem das lendas do Pará e do Amazonas"
+      }
+    },
+    {
+      "palavra": "FOLGUEDO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Festa popular com dança e música",
+        "media": "Brincadeira festiva do povo",
+        "dificil": "Bumba meu boi é um"
+      }
+    },
+    {
+      "palavra": "ARTESANATO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Objetos feitos à mão pelo povo",
+        "media": "Arte manual",
+        "dificil": "Renda e cerâmica do Nordeste"
+      }
+    },
+    {
+      "palavra": "RENDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tecido vazado feito à mão com bilros",
+        "media": "Bordado vazado de bilros",
+        "dificil": "Arte das mãos cearenses"
+      }
+    },
+    {
+      "palavra": "CARRANCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cara esculpida na frente dos barcos do São Francisco",
+        "media": "Figura de proa",
+        "dificil": "Diz a lenda que protege os barqueiros"
+      }
+    },
+    {
+      "palavra": "AGOSTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Mês do Dia do Folclore",
+        "media": "Mês em que o dia 22 celebra as lendas",
+        "dificil": "Oitavo mês do ano"
+      }
+    },
+    {
+      "palavra": "MAMULENGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fantoche de madeira do Nordeste",
+        "media": "Teatro de bonecos pernambucano",
+        "dificil": "Boneco que faz o povo rir na feira"
+      }
+    },
+    {
+      "palavra": "JONGO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Dança afro-brasileira do Sudeste com tambores",
+        "media": "Dança de roda do Vale do Paraíba",
+        "dificil": "Ancestral do samba, dizem"
+      }
+    },
+    {
+      "palavra": "UIRAPURU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Passarinho da Amazônia que traz sorte, diz a lenda",
+        "media": "Ave de canto mágico",
+        "dificil": "Quando canta, a mata se cala"
+      }
+    },
+    {
+      "palavra": "RODA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brincadeira de mãos dadas em círculo",
+        "media": "Ciranda em círculo",
+        "dificil": "Gira, gira e canta"
+      }
+    },
+    {
+      "palavra": "GUDE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinha de vidro para jogar no chão",
+        "media": "Jogo de bolinhas",
+        "dificil": "Búrica e triângulo são jeitos de jogar"
+      }
+    },
+    {
+      "palavra": "SAPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho da cantiga que não lava o pé",
+        "media": "Anfíbio das cantigas",
+        "dificil": "Cururu, da beira do rio"
+      }
+    },
+    {
+      "palavra": "JABUTI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tartaruga esperta das histórias indígenas",
+        "media": "Quelônio das fábulas do povo",
+        "dificil": "Vence a anta e a onça na esperteza"
+      }
+    },
+    {
+      "palavra": "GORRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O Saci usa um vermelho na cabeça",
+        "media": "Carapuça do Saci",
+        "dificil": "Quem pega o dele ganha um desejo, dizem"
+      }
+    },
+    {
+      "palavra": "CABRA-CEGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brincadeira de olhos vendados para pegar os amigos",
+        "media": "Pega-pega de olhos tapados",
+        "dificil": "Venda nos olhos e braços esticados"
+      }
+    },
+    {
+      "palavra": "CORRE CUTIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roda em que se deixa um lenço atrás de alguém",
+        "media": "Brincadeira de roda do lenço",
+        "dificil": "Na casa da tia, diz a cantiga"
+      }
+    },
+    {
+      "palavra": "QUEIMADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Jogo de acertar os amigos com a bola entre dois campos",
+        "media": "Jogo de bola entre duas equipes",
+        "dificil": "Também chamada de caçador"
+      }
+    }
+  ]
+}

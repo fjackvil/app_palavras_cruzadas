@@ -1,0 +1,422 @@
+{
+  "tema": "Instrumentos musicais",
+  "categoria": "Música",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "PIANO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de teclas pretas e brancas",
+        "media": "Teclado de cordas percutidas",
+        "dificil": "Pode ser de cauda"
+      }
+    },
+    {
+      "palavra": "FLAUTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de sopro fininho com furinhos",
+        "media": "Tubo de sopro com orifícios",
+        "dificil": "A doce é aprendida na escola"
+      }
+    },
+    {
+      "palavra": "VIOLÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de seis cordas tocado com os dedos",
+        "media": "Cordofone de caixa acústica",
+        "dificil": "Companheiro das rodas de bossa nova"
+      }
+    },
+    {
+      "palavra": "TAMBOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento em que se bate com as mãos ou baquetas",
+        "media": "Membranofone",
+        "dificil": "Rufa nos desfiles"
+      }
+    },
+    {
+      "palavra": "SINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça de metal que toca na torre da igreja",
+        "media": "Campânula que badala",
+        "dificil": "Bate as horas"
+      }
+    },
+    {
+      "palavra": "APITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz piii quando a gente sopra",
+        "media": "Instrumento de sopro agudo",
+        "dificil": "Comanda a bateria da escola de samba"
+      }
+    },
+    {
+      "palavra": "GAITA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento pequeno de sopro com furinhos",
+        "media": "Harmônica",
+        "dificil": "Bob Dylan tocava presa no pescoço"
+      }
+    },
+    {
+      "palavra": "HARPA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento grande de muitas cordas tocado com os dedos",
+        "media": "Cordofone triangular",
+        "dificil": "Símbolo da Irlanda"
+      }
+    },
+    {
+      "palavra": "BUMBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tambor grande que faz bum",
+        "media": "Tambor grave da bateria",
+        "dificil": "Tocado com pedal"
+      }
+    },
+    {
+      "palavra": "PRATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Disco de metal que faz tchiii",
+        "media": "Címbalo da bateria",
+        "dificil": "Também é onde se põe a comida"
+      }
+    },
+    {
+      "palavra": "CUÍCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento do samba que parece rir",
+        "media": "Tambor de fricção",
+        "dificil": "Esfrega-se uma varinha por dentro"
+      }
+    },
+    {
+      "palavra": "ÓRGÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de igreja com tubos enormes",
+        "media": "Teclado de tubos e foles",
+        "dificil": "Também é parte do corpo, como o coração"
+      }
+    },
+    {
+      "palavra": "VIOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de cordas da música caipira",
+        "media": "Instrumento caipira de dez cordas",
+        "dificil": "Na orquestra, é irmã maior do violino"
+      }
+    },
+    {
+      "palavra": "AGOGÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dois sininhos de metal batidos com vareta",
+        "media": "Campânulas duplas de origem africana",
+        "dificil": "Toca no samba e na capoeira"
+      }
+    },
+    {
+      "palavra": "BATERIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Conjunto de tambores e pratos",
+        "media": "Kit de percussão",
+        "dificil": "Também é a pilha do celular"
+      }
+    },
+    {
+      "palavra": "XILOFONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de plaquinhas batidas com baquetas",
+        "media": "Teclado de lâminas de madeira",
+        "dificil": "Primo do vibrafone"
+      }
+    },
+    {
+      "palavra": "TECLADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento eletrônico de teclas",
+        "media": "Sintetizador de teclas",
+        "dificil": "Também se usa para digitar"
+      }
+    },
+    {
+      "palavra": "PANDEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento redondo com platinelas que se balança e bate",
+        "media": "Pequeno tambor de moldura com platinelas",
+        "dificil": "Sem ele não há samba"
+      }
+    },
+    {
+      "palavra": "VIOLINO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de cordas tocado com arco no ombro",
+        "media": "Menor das cordas friccionadas",
+        "dificil": "Stradivari fabricou os mais famosos"
+      }
+    },
+    {
+      "palavra": "GUITARRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento elétrico de cordas do rock",
+        "media": "Cordofone eletrificado",
+        "dificil": "Precisa de amplificador"
+      }
+    },
+    {
+      "palavra": "SANFONA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de fole com teclas, do forró",
+        "media": "Acordeão",
+        "dificil": "Luiz Gonzaga a carregava no peito"
+      }
+    },
+    {
+      "palavra": "TRIÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ferrinho de três lados que faz tlim",
+        "media": "Idiofone de aço",
+        "dificil": "Forma geométrica e instrumento do forró"
+      }
+    },
+    {
+      "palavra": "CHOCALHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faz chique-chique quando sacudimos",
+        "media": "Instrumento com sementes ou contas",
+        "dificil": "Primo das maracas"
+      }
+    },
+    {
+      "palavra": "CORNETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Instrumento de sopro dos desfiles",
+        "media": "Clarim",
+        "dificil": "Toca alvorada no quartel"
+      }
+    },
+    {
+      "palavra": "TROMPETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento de sopro de metal com três pistões",
+        "media": "Metal agudo de pistões",
+        "dificil": "Louis Armstrong era mestre nele"
+      }
+    },
+    {
+      "palavra": "TROMBONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento de metal com vara que estica e encolhe",
+        "media": "Metal de vara",
+        "dificil": "Grave e brilhante nas gafieiras"
+      }
+    },
+    {
+      "palavra": "SAXOFONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento de metal tocado com palheta",
+        "media": "Sopro inventado por um belga por volta de 1840",
+        "dificil": "Estrela do jazz"
+      }
+    },
+    {
+      "palavra": "CLARINETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento preto de sopro com palheta",
+        "media": "Sopro de madeira e palheta simples",
+        "dificil": "Benny Goodman, o rei do swing, tocava este"
+      }
+    },
+    {
+      "palavra": "CAVAQUINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Violãozinho de quatro cordas do samba",
+        "media": "Cordofone pequeno de quatro cordas",
+        "dificil": "Base do choro e do pagode"
+      }
+    },
+    {
+      "palavra": "BERIMBAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arco com cabaça que toca na capoeira",
+        "media": "Arco musical de origem africana",
+        "dificil": "Comanda a roda de capoeira"
+      }
+    },
+    {
+      "palavra": "TUBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento de metal enorme e grave",
+        "media": "Metal mais grave da orquestra",
+        "dificil": "Vai no fundo da banda"
+      }
+    },
+    {
+      "palavra": "ZABUMBA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tambor grande do forró",
+        "media": "Bumbo nordestino",
+        "dificil": "Forma trio com sanfona e triângulo"
+      }
+    },
+    {
+      "palavra": "TAMBORIM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento pequeno do samba batido com baqueta",
+        "media": "Pequeno membranofone de mão",
+        "dificil": "Faz o teleco-teco"
+      }
+    },
+    {
+      "palavra": "RECO-RECO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Instrumento que faz barulho quando raspamos",
+        "media": "Raspador de ranhuras",
+        "dificil": "Bambu ou mola raspada com vareta"
+      }
+    },
+    {
+      "palavra": "OBOÉ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento de sopro de som anasalado",
+        "media": "Sopro de palheta dupla",
+        "dificil": "Dá o lá para a orquestra afinar"
+      }
+    },
+    {
+      "palavra": "FAGOTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento de sopro comprido e grave",
+        "media": "Madeira grave de palheta dupla",
+        "dificil": "Em \"Pedro e o Lobo\", faz a voz do avô"
+      }
+    },
+    {
+      "palavra": "VIOLONCELO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento grande de cordas tocado sentado",
+        "media": "Cordas friccionadas apoiadas no chão",
+        "dificil": "Yo-Yo Ma é seu astro"
+      }
+    },
+    {
+      "palavra": "CONTRABAIXO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento de cordas maior que uma pessoa",
+        "media": "Mais grave das cordas da orquestra",
+        "dificil": "Também tem versão elétrica no rock"
+      }
+    },
+    {
+      "palavra": "ATABAQUE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tambor alto tocado com as mãos",
+        "media": "Tambor afro-brasileiro",
+        "dificil": "Toca na capoeira e no candomblé"
+      }
+    },
+    {
+      "palavra": "ALAÚDE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento antigo de cordas com corpo de pera",
+        "media": "Cordofone medieval",
+        "dificil": "Vem do oud árabe"
+      }
+    },
+    {
+      "palavra": "BANDOLIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Instrumento pequeno de oito cordas do choro",
+        "media": "Cordofone de cordas duplas",
+        "dificil": "Jacob o levou no nome artístico"
+      }
+    },
+    {
+      "palavra": "TÍMPANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tambor enorme de orquestra que muda de afinação",
+        "media": "Caldeirão de percussão",
+        "dificil": "Também é membrana do ouvido"
+      }
+    },
+    {
+      "palavra": "CÍTARA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Instrumento indiano de muitas cordas",
+        "media": "Cordofone de braço longo",
+        "dificil": "Ravi Shankar foi seu mestre"
+      }
+    },
+    {
+      "palavra": "OCARINA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Flautinha redonda de barro",
+        "media": "Flauta globular",
+        "dificil": "Tem formato de ovo"
+      }
+    },
+    {
+      "palavra": "ALFAIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Tambor grande do maracatu",
+        "media": "Tambor de corda pernambucano",
+        "dificil": "Bate forte nas nações de Recife"
+      }
+    },
+    {
+      "palavra": "CASTANHOLA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Concha de madeira que estala na mão",
+        "media": "Idiofone espanhol",
+        "dificil": "Acompanha o flamenco"
+      }
+    }
+  ]
+}

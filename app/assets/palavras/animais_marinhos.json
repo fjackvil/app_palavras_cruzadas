@@ -1,0 +1,413 @@
+{
+  "tema": "Animais marinhos",
+  "categoria": "Natureza",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "POLVO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar com oito braços",
+        "media": "Molusco de oito tentáculos",
+        "dificil": "Cefalópode que solta tinta para fugir"
+      }
+    },
+    {
+      "palavra": "BALEIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O bicho gigante que solta água pelas costas",
+        "media": "Grande mamífero do oceano que respira ar",
+        "dificil": "A azul é o maior animal que já existiu"
+      }
+    },
+    {
+      "palavra": "LULA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar comprido com tentáculos",
+        "media": "Molusco de corpo alongado e dez braços",
+        "dificil": "Seus anéis empanados viram petisco"
+      }
+    },
+    {
+      "palavra": "FOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do gelo que bate palmas com as nadadeiras",
+        "media": "Mamífero marinho de corpo roliço que vive no frio",
+        "dificil": "Pinípede sem orelhas visíveis"
+      }
+    },
+    {
+      "palavra": "ORCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Golfinho grandão preto e branco",
+        "media": "Maior espécie de golfinho",
+        "dificil": "Chamada de baleia-assassina, mas é um delfinídeo"
+      }
+    },
+    {
+      "palavra": "SIRI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Caranguejo pequeno que nada na praia",
+        "media": "Crustáceo de patas em forma de remo",
+        "dificil": "Vai na casquinha servida na beira da praia"
+      }
+    },
+    {
+      "palavra": "ATUM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixe grande que vem em latinha",
+        "media": "Peixe grande e veloz de carne vermelha",
+        "dificil": "Peixe dos sushis de carne escura"
+      }
+    },
+    {
+      "palavra": "ARRAIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixe achatado que parece voar na água",
+        "media": "Peixe de corpo achatado e cauda fina",
+        "dificil": "Parente do tubarão em forma de pipa"
+      }
+    },
+    {
+      "palavra": "SALMÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixe de carne cor de laranja",
+        "media": "Peixe que sobe o rio para pôr ovos",
+        "dificil": "Peixe rosado dos mares frios, astro do sushi"
+      }
+    },
+    {
+      "palavra": "PEIXE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho que vive na água e tem nadadeiras",
+        "media": "Animal que respira por guelras",
+        "dificil": "No plural, é o signo de fevereiro e março"
+      }
+    },
+    {
+      "palavra": "OSTRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de concha que pode guardar uma pérola",
+        "media": "Molusco de duas conchas que forma pérolas",
+        "dificil": "Bivalve servido cru com limão"
+      }
+    },
+    {
+      "palavra": "CORAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho do mar que forma recifes coloridos",
+        "media": "Animal marinho que forma recifes",
+        "dificil": "Cnidário que constrói recifes; também é grupo de cantores"
+      }
+    },
+    {
+      "palavra": "MORSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do gelo com dois dentes enormes",
+        "media": "Mamífero do Ártico com presas compridas",
+        "dificil": "Pinípede de bigodão e presas de marfim"
+      }
+    },
+    {
+      "palavra": "BOTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Golfinho cinza que vive perto das praias do Brasil",
+        "media": "Golfinho pequeno do litoral e dos rios brasileiros",
+        "dificil": "O cinza vive em baías; o cor-de-rosa, na Amazônia"
+      }
+    },
+    {
+      "palavra": "TUBARÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixe grande de dentes afiados",
+        "media": "Peixe predador de dentes afiados",
+        "dificil": "Martelo e branco são espécies dele"
+      }
+    },
+    {
+      "palavra": "GOLFINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar muito esperto que pula",
+        "media": "Mamífero marinho muito inteligente",
+        "dificil": "Cetáceo que se comunica por assobios e cliques"
+      }
+    },
+    {
+      "palavra": "CAMARÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho do mar que fica rosa quando cozinha",
+        "media": "Crustáceo pequeno de corpo curvado",
+        "dificil": "Que dorme, a onda leva"
+      }
+    },
+    {
+      "palavra": "LAGOSTA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicho do mar de casca dura e antenas longas",
+        "media": "Crustáceo grande de antenas compridas",
+        "dificil": "Crustáceo dos pratos mais caros do cardápio"
+      }
+    },
+    {
+      "palavra": "SARDINHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixinho que vem apertado na lata",
+        "media": "Peixe pequeno que nada em grandes cardumes",
+        "dificil": "Estar como ela na lata é estar espremido"
+      }
+    },
+    {
+      "palavra": "ÁGUA-VIVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho do mar transparente que queima a pele",
+        "media": "Animal gelatinoso que queima quem encosta",
+        "dificil": "Medusa que assusta banhistas"
+      }
+    },
+    {
+      "palavra": "PEIXE-BOI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicho grandão e calmo que come plantas na água",
+        "media": "Mamífero aquático herbívoro e lento",
+        "dificil": "Sirênio ameaçado do litoral nordestino"
+      }
+    },
+    {
+      "palavra": "ESPONJA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicho do mar cheio de furinhos",
+        "media": "Animal marinho simples e poroso",
+        "dificil": "Porífero que deu nome a um objeto da pia"
+      }
+    },
+    {
+      "palavra": "LINGUADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peixe achatado com os dois olhos do mesmo lado",
+        "media": "Peixe chato que fica deitado no fundo do mar",
+        "dificil": "Peixe de filé fino que se camufla na areia"
+      }
+    },
+    {
+      "palavra": "BACALHAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peixe salgado do almoço de Páscoa",
+        "media": "Peixe dos mares frios vendido seco e salgado",
+        "dificil": "Fiel amigo da culinária portuguesa"
+      }
+    },
+    {
+      "palavra": "TAINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peixe prateado que vem em cardume no inverno",
+        "media": "Peixe de cardume pescado no litoral do Sul",
+        "dificil": "Sua pesca de arrasto é festa em Santa Catarina"
+      }
+    },
+    {
+      "palavra": "CAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tubarão pequeno que vira moqueca",
+        "media": "Nome dado a tubarões pequenos usados na culinária",
+        "dificil": "Elasmobrânquio de postas sem espinhas"
+      }
+    },
+    {
+      "palavra": "CARANGUEJO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de casca dura que anda de lado",
+        "media": "Crustáceo que anda de lado",
+        "dificil": "Signo de câncer, em versão de bicho"
+      }
+    },
+    {
+      "palavra": "TARTARUGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de casco que bota ovos na areia da praia",
+        "media": "Réptil marinho de casco duro",
+        "dificil": "Quelônio protegido pelo Projeto Tamar"
+      }
+    },
+    {
+      "palavra": "CAVALO-MARINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peixinho que nada em pé e tem o rabo enrolado",
+        "media": "Peixe em que o macho carrega os filhotes",
+        "dificil": "Hipocampo de cauda enrolada"
+      }
+    },
+    {
+      "palavra": "ESTRELA-DO-MAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bicho de cinco pontas que vive nas pedras da praia",
+        "media": "Animal de corpo achatado, geralmente com cinco braços",
+        "dificil": "Equinoderme que regenera os braços perdidos"
+      }
+    },
+    {
+      "palavra": "LEÃO-MARINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bicho do mar de bigode que equilibra bola",
+        "media": "Mamífero aquático de orelhinhas e nadadeiras",
+        "dificil": "Otarídeo de juba nos machos"
+      }
+    },
+    {
+      "palavra": "PEIXE-PALHAÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bichinho laranja com listras brancas que vive no recife",
+        "media": "Animal colorido que vive entre anêmonas",
+        "dificil": "Nadador listrado que se esconde em tentáculos sem se queimar"
+      }
+    },
+    {
+      "palavra": "OURIÇO-DO-MAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinha cheia de espinhos que vive nas pedras da praia",
+        "media": "Equinoderme coberto de espinhos",
+        "dificil": "Espinhento que fura o pé de quem anda nas pedras"
+      }
+    },
+    {
+      "palavra": "MEXILHÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conchinha escura que gruda nas pedras",
+        "media": "Molusco de concha escura que vive nas rochas",
+        "dificil": "Bivalve do prato belga com batatas fritas"
+      }
+    },
+    {
+      "palavra": "CACHALOTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Baleia de cabeça quadrada e enorme",
+        "media": "Maior baleia que tem dentes",
+        "dificil": "Moby Dick era um deles"
+      }
+    },
+    {
+      "palavra": "NARVAL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Baleia com um dente comprido na testa",
+        "media": "Cetáceo do Ártico com um dente longo em espiral",
+        "dificil": "O unicórnio do mar"
+      }
+    },
+    {
+      "palavra": "MORÉIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peixe comprido que parece uma cobra",
+        "media": "Peixe serpentiforme que vive em tocas no recife",
+        "dificil": "Parente da enguia de boca sempre aberta"
+      }
+    },
+    {
+      "palavra": "ANÊMONA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho do mar que parece uma flor",
+        "media": "Animal marinho de tentáculos que lembra uma flor",
+        "dificil": "Cnidário que abriga o peixe-palhaço"
+      }
+    },
+    {
+      "palavra": "GAROUPA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peixe grande e pintado que vive nas pedras",
+        "media": "Peixe de recife de corpo robusto",
+        "dificil": "Peixe que aparece na nota de 100 reais"
+      }
+    },
+    {
+      "palavra": "BAIACU",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peixe que incha feito uma bola",
+        "media": "Peixe que infla o corpo quando se assusta",
+        "dificil": "O fugu dos japoneses, venenoso se mal preparado"
+      }
+    },
+    {
+      "palavra": "BELUGA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Baleia branca dos mares gelados",
+        "media": "Pequena baleia branca do Ártico",
+        "dificil": "Chamada de canário-do-mar por ser muito vocal"
+      }
+    },
+    {
+      "palavra": "DUGONGO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Primo do peixe-boi de mares quentes",
+        "media": "Sirênio dos oceanos Índico e Pacífico",
+        "dificil": "Pastador de capim marinho que inspirou lendas de sereias"
+      }
+    },
+    {
+      "palavra": "NÁUTILO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Bicho do mar com concha enrolada em espiral",
+        "media": "Molusco de concha espiral dividida em câmaras",
+        "dificil": "Deu nome ao submarino do capitão Nemo"
+      }
+    },
+    {
+      "palavra": "PEPINO-DO-MAR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bicho mole do fundo do oceano com forma de legume",
+        "media": "Equinoderme de corpo mole e alongado",
+        "dificil": "Holotúria que lembra uma hortaliça"
+      }
+    },
+    {
+      "palavra": "CRACA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bichinho de casca que gruda no casco dos barcos",
+        "media": "Crustáceo que vive grudado em rochas e cascos",
+        "dificil": "Cirrípede que pega carona nas baleias"
+      }
+    }
+  ]
+}

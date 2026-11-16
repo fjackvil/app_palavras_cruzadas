@@ -1,0 +1,503 @@
+{
+  "tema": "Tecnologia",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "ROBÔ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina que faz tarefas sozinha",
+        "media": "Autômato programável",
+        "dificil": "Androide, quando tem forma humana"
+      }
+    },
+    {
+      "palavra": "MOTOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça que faz o carro andar",
+        "media": "Máquina que transforma energia em movimento",
+        "dificil": "Pode ser a combustão ou elétrico"
+      }
+    },
+    {
+      "palavra": "CABO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fio grosso que liga um aparelho ao outro",
+        "media": "Conjunto de fios com capa protetora",
+        "dificil": "Os submarinos ligam continentes"
+      }
+    },
+    {
+      "palavra": "BOTÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisinha que a gente aperta para ligar",
+        "media": "Tecla de comando de um aparelho",
+        "dificil": "O do elevador chama a cabine"
+      }
+    },
+    {
+      "palavra": "TOMADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Buraquinho na parede onde se liga o aparelho",
+        "media": "Ponto de conexão à rede elétrica",
+        "dificil": "No Brasil, tem padrão de três pinos"
+      }
+    },
+    {
+      "palavra": "FIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Linha fina de metal que leva a eletricidade",
+        "media": "Condutor elétrico",
+        "dificil": "Costuma ser de cobre com capa de plástico"
+      }
+    },
+    {
+      "palavra": "ANTENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Haste que pega o sinal da TV",
+        "media": "Peça que capta ou emite ondas",
+        "dificil": "Também existe na cabeça das formigas"
+      }
+    },
+    {
+      "palavra": "DRONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que voa com controle remoto",
+        "media": "Aeronave sem piloto a bordo",
+        "dificil": "Faz filmagens aéreas com hélices"
+      }
+    },
+    {
+      "palavra": "TECLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada botãozinho com letra do computador",
+        "media": "Botão com letra ou número",
+        "dificil": "O piano também tem as dele"
+      }
+    },
+    {
+      "palavra": "TRATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina forte que trabalha na roça",
+        "media": "Veículo agrícola de rodas grandes",
+        "dificil": "Puxa o arado no campo"
+      }
+    },
+    {
+      "palavra": "PILHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Coisa que dá energia ao controle remoto",
+        "media": "Gerador químico de energia elétrica",
+        "dificil": "AA e AAA são tamanhos dela"
+      }
+    },
+    {
+      "palavra": "MÁQUINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que ajuda a fazer trabalho",
+        "media": "Engenho mecânico",
+        "dificil": "A de lavar cuida da roupa"
+      }
+    },
+    {
+      "palavra": "SATÉLITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que gira em volta da Terra no espaço",
+        "media": "Equipamento em órbita para comunicação",
+        "dificil": "O Sputnik, de 1957, foi o primeiro artificial"
+      }
+    },
+    {
+      "palavra": "FOGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nave comprida que sobe ao espaço",
+        "media": "Veículo que leva cargas para a órbita",
+        "dificil": "Tem estágios que se soltam na subida"
+      }
+    },
+    {
+      "palavra": "BATERIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Peça que guarda energia no celular",
+        "media": "Acumulador de carga elétrica",
+        "dificil": "Pode ser recarregável"
+      }
+    },
+    {
+      "palavra": "ESCAVADEIRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Máquina amarela que abre buracos grandes na terra",
+        "media": "Máquina de terraplenagem com caçamba",
+        "dificil": "Tem braço articulado e esteira"
+      }
+    },
+    {
+      "palavra": "LASER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luz bem fininha e forte",
+        "media": "Feixe de luz concentrada",
+        "dificil": "Lê CDs e corta metais"
+      }
+    },
+    {
+      "palavra": "RADAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que acha aviões pelas ondas",
+        "media": "Detector que usa ondas de rádio",
+        "dificil": "Controla a velocidade nas estradas"
+      }
+    },
+    {
+      "palavra": "SENSOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peça que percebe calor, luz ou movimento",
+        "media": "Dispositivo que detecta estímulos",
+        "dificil": "Abre a porta do shopping sozinha"
+      }
+    },
+    {
+      "palavra": "DADOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Informações guardadas no computador",
+        "media": "Conjunto de informações digitais",
+        "dificil": "Bits e bytes"
+      }
+    },
+    {
+      "palavra": "MEMÓRIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar onde o computador guarda as coisas",
+        "media": "Componente que armazena dados",
+        "dificil": "RAM é um tipo dela"
+      }
+    },
+    {
+      "palavra": "CIRCUITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caminho fechado por onde passa a corrente",
+        "media": "Conjunto de componentes ligados",
+        "dificil": "Placa cheia de trilhas de cobre"
+      }
+    },
+    {
+      "palavra": "TURBINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Hélice grande que gira com vento ou água",
+        "media": "Máquina rotativa movida a fluido",
+        "dificil": "Gira na usina e no avião a jato"
+      }
+    },
+    {
+      "palavra": "USINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar grande onde se produz energia",
+        "media": "Central de produção de eletricidade",
+        "dificil": "Itaipu é uma das maiores do mundo"
+      }
+    },
+    {
+      "palavra": "GERADOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina que produz eletricidade",
+        "media": "Aparelho que transforma movimento em energia elétrica",
+        "dificil": "Liga quando acaba a luz no hospital"
+      }
+    },
+    {
+      "palavra": "ROBÓTICA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Ciência de construir máquinas que se mexem sozinhas",
+        "media": "Área de máquinas automáticas",
+        "dificil": "Asimov criou suas três leis"
+      }
+    },
+    {
+      "palavra": "SONDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Nave sem gente que explora outros planetas",
+        "media": "Veículo espacial não tripulado",
+        "dificil": "A Voyager 1 é a mais distante da Terra"
+      }
+    },
+    {
+      "palavra": "ESTEIRA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faixa que anda e leva as malas no aeroporto",
+        "media": "Correia transportadora",
+        "dificil": "Também existe na academia para correr"
+      }
+    },
+    {
+      "palavra": "GUINDASTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Máquina alta que levanta coisas pesadas",
+        "media": "Equipamento de içar cargas",
+        "dificil": "Grua de obra"
+      }
+    },
+    {
+      "palavra": "INTERRUPTOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Botão da parede que acende a luz",
+        "media": "Dispositivo que abre e fecha o circuito",
+        "dificil": "Chave de luz"
+      }
+    },
+    {
+      "palavra": "PAINEL SOLAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Placa que transforma luz do sol em energia",
+        "media": "Conjunto de células fotovoltaicas",
+        "dificil": "Fica no telhado de muitas casas"
+      }
+    },
+    {
+      "palavra": "LED",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Luzinha que gasta pouca energia",
+        "media": "Diodo emissor de luz",
+        "dificil": "Lâmpada econômica moderna"
+      }
+    },
+    {
+      "palavra": "BINÁRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Linguagem de zeros e uns",
+        "media": "Sistema de numeração de base dois",
+        "dificil": "Linguagem do processador"
+      }
+    },
+    {
+      "palavra": "PROCESSADOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O cérebro do computador",
+        "media": "Componente que executa as instruções",
+        "dificil": "CPU"
+      }
+    },
+    {
+      "palavra": "TRANSISTOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pecinha que liga e desliga a corrente",
+        "media": "Componente semicondutor de chaveamento",
+        "dificil": "Inventado em 1947 nos Estados Unidos"
+      }
+    },
+    {
+      "palavra": "SILÍCIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Material dos chips, que vem da areia",
+        "media": "Elemento de símbolo Si",
+        "dificil": "Dá nome a um vale da Califórnia"
+      }
+    },
+    {
+      "palavra": "AUTOMAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando as máquinas trabalham sozinhas",
+        "media": "Uso de máquinas que dispensam o operador",
+        "dificil": "Linha de montagem com robôs"
+      }
+    },
+    {
+      "palavra": "REATOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte da usina nuclear onde se gera calor",
+        "media": "Equipamento de fissão nuclear",
+        "dificil": "Angra tem dois deles"
+      }
+    },
+    {
+      "palavra": "DÍNAMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peça que acende o farol da bicicleta",
+        "media": "Gerador de corrente contínua",
+        "dificil": "Funciona pedalando"
+      }
+    },
+    {
+      "palavra": "HOLOGRAMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Imagem que parece flutuar em três dimensões",
+        "media": "Imagem tridimensional feita com laser",
+        "dificil": "Aparece em cartões e documentos"
+      }
+    },
+    {
+      "palavra": "FIBRA ÓPTICA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fio de vidro que leva internet pela luz",
+        "media": "Cabo que transmite dados por luz",
+        "dificil": "Fio fininho de vidro ou plástico"
+      }
+    },
+    {
+      "palavra": "SEMICONDUTOR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Material que deixa a corrente passar só às vezes",
+        "media": "Material como o silício",
+        "dificil": "Base de chips e transistores"
+      }
+    },
+    {
+      "palavra": "ALARME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que apita para avisar perigo",
+        "media": "Dispositivo de aviso sonoro",
+        "dificil": "Dispara se alguém mexe no carro"
+      }
+    },
+    {
+      "palavra": "SIRENE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Barulho forte da ambulância e dos bombeiros",
+        "media": "Aparelho de som alto para alertas",
+        "dificil": "Toca no fim do turno da fábrica"
+      }
+    },
+    {
+      "palavra": "HÉLICE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pás que giram no ventilador e no avião",
+        "media": "Peça de pás que gira e empurra o ar ou a água",
+        "dificil": "Move o barco por trás"
+      }
+    },
+    {
+      "palavra": "RÁDIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que toca música e notícias",
+        "media": "Aparelho que recebe ondas e as transforma em som",
+        "dificil": "O padre Landell de Moura foi um pioneiro dele no Brasil"
+      }
+    },
+    {
+      "palavra": "ESCADA ROLANTE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Escada que anda sozinha no shopping",
+        "media": "Escada movida por motor",
+        "dificil": "Degraus que sobem numa esteira"
+      }
+    },
+    {
+      "palavra": "MICRO-ONDAS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forno que esquenta a comida rapidinho",
+        "media": "Forno de radiação que agita a água da comida",
+        "dificil": "Inventado depois que um chocolate derreteu perto de um radar"
+      }
+    },
+    {
+      "palavra": "ENGRENAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Rodas com dentes que giram juntas",
+        "media": "Conjunto de rodas dentadas",
+        "dificil": "Peça básica dos relógios mecânicos"
+      }
+    },
+    {
+      "palavra": "CATRACA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roleta que gira para a gente passar no ônibus",
+        "media": "Torniquete de controle de entrada",
+        "dificil": "Conta quem passa no metrô"
+      }
+    },
+    {
+      "palavra": "COMBUSTÍVEL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que se põe no tanque do carro",
+        "media": "Substância que queima para gerar energia",
+        "dificil": "Gasolina, etanol ou diesel"
+      }
+    },
+    {
+      "palavra": "VÁLVULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peça que abre e fecha a passagem de água ou gás",
+        "media": "Dispositivo que controla o fluxo",
+        "dificil": "A da panela de pressão chia"
+      }
+    },
+    {
+      "palavra": "ELETROÍMÃ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bobina que puxa ferro quando passa corrente",
+        "media": "Bobina que atrai metais quando energizada",
+        "dificil": "Levanta sucata no ferro-velho"
+      }
+    },
+    {
+      "palavra": "BIOMETRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando o aparelho reconhece a sua digital",
+        "media": "Identificação pelo corpo, como digital ou rosto",
+        "dificil": "Leitura da íris ou da impressão do dedo"
+      }
+    },
+    {
+      "palavra": "TELEMETRIA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Medição feita de longe por sinais",
+        "media": "Transmissão de medidas à distância",
+        "dificil": "Usada nos carros de Fórmula 1 durante a corrida"
+      }
+    }
+  ]
+}

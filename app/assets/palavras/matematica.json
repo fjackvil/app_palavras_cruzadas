@@ -1,0 +1,566 @@
+{
+  "tema": "Matemática",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SOMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Conta de juntar: dois mais dois",
+        "media": "Resultado de uma adição",
+        "dificil": "Total das parcelas"
+      }
+    },
+    {
+      "palavra": "MAIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sinal da cruzinha nas contas",
+        "media": "Sinal de adição",
+        "dificil": "Positivo, no sinal"
+      }
+    },
+    {
+      "palavra": "MENOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sinal do tracinho nas contas",
+        "media": "Sinal de subtração",
+        "dificil": "Negativo, no sinal"
+      }
+    },
+    {
+      "palavra": "ZERO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número que vale nada",
+        "media": "Número que fica entre os negativos e os positivos",
+        "dificil": "Os indianos o usaram como algarismo"
+      }
+    },
+    {
+      "palavra": "CEM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dez vezes dez",
+        "media": "Dez dezenas",
+        "dificil": "Número romano C"
+      }
+    },
+    {
+      "palavra": "MIL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número com um e três zeros",
+        "media": "Dez centenas",
+        "dificil": "Número romano M"
+      }
+    },
+    {
+      "palavra": "CONTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a gente faz com números na escola",
+        "media": "Operação matemática",
+        "dificil": "Cálculo"
+      }
+    },
+    {
+      "palavra": "NÚMERO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Um, dois, três são exemplos",
+        "media": "Ideia de quantidade",
+        "dificil": "Pode ser par, ímpar, primo ou negativo"
+      }
+    },
+    {
+      "palavra": "CUBO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma do dado de brinquedo",
+        "media": "Sólido de seis faces quadradas",
+        "dificil": "Também é a terceira potência de um número"
+      }
+    },
+    {
+      "palavra": "RETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Linha que não faz curva",
+        "media": "Linha sem começo, sem fim e sem curva",
+        "dificil": "Menor caminho entre dois pontos, na geometria plana"
+      }
+    },
+    {
+      "palavra": "PONTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pinguinho bem pequeno no papel",
+        "media": "Elemento sem tamanho da geometria",
+        "dificil": "Dois deles definem uma linha"
+      }
+    },
+    {
+      "palavra": "LADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O quadrado tem quatro",
+        "media": "Segmento que forma um polígono",
+        "dificil": "O triângulo equilátero os tem iguais"
+      }
+    },
+    {
+      "palavra": "METADE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Uma das duas partes iguais",
+        "media": "Divisão de algo por dois",
+        "dificil": "Meio"
+      }
+    },
+    {
+      "palavra": "DOBRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Duas vezes o mesmo número",
+        "media": "Resultado de multiplicar por dois",
+        "dificil": "O de cinco é dez"
+      }
+    },
+    {
+      "palavra": "RÉGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Objeto reto para medir e traçar linhas",
+        "media": "Instrumento graduado em centímetros",
+        "dificil": "Fica no estojo junto do esquadro"
+      }
+    },
+    {
+      "palavra": "IGUAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sinal de dois tracinhos deitados",
+        "media": "Sinal que vem antes do resultado",
+        "dificil": "Idêntico"
+      }
+    },
+    {
+      "palavra": "PAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número como 2, 4, 6 e 8",
+        "media": "Número divisível por dois",
+        "dificil": "Todo número terminado em 0, 2, 4, 6 ou 8"
+      }
+    },
+    {
+      "palavra": "ÍMPAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número como 1, 3, 5 e 7",
+        "media": "Número que não se divide exatamente por dois",
+        "dificil": "Todo número terminado em 1, 3, 5, 7 ou 9"
+      }
+    },
+    {
+      "palavra": "DÚZIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doze ovos numa caixa",
+        "media": "Conjunto de doze",
+        "dificil": "Meia é seis"
+      }
+    },
+    {
+      "palavra": "CONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Forma do chapéu de aniversário",
+        "media": "Sólido de base redonda e ponta",
+        "dificil": "A casquinha de sorvete tem essa forma"
+      }
+    },
+    {
+      "palavra": "TABUADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lista de contas de vezes para decorar",
+        "media": "Tabela da multiplicação de 1 a 10",
+        "dificil": "Sete vezes oito, cinquenta e seis"
+      }
+    },
+    {
+      "palavra": "TRIÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Figura de três lados",
+        "media": "Polígono de três lados",
+        "dificil": "Pode ser equilátero, isósceles ou escaleno"
+      }
+    },
+    {
+      "palavra": "QUADRADO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Figura de quatro lados iguais",
+        "media": "Retângulo com os quatro lados iguais",
+        "dificil": "Também é a segunda potência de um número"
+      }
+    },
+    {
+      "palavra": "RETÂNGULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Figura de quatro lados como uma porta",
+        "media": "Quadrilátero com quatro cantos de 90 graus",
+        "dificil": "A folha de papel tem essa forma"
+      }
+    },
+    {
+      "palavra": "CÍRCULO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Figura redonda como uma moeda",
+        "media": "Figura plana redonda e cheia",
+        "dificil": "Sua área é pi vezes o raio ao quadrado"
+      }
+    },
+    {
+      "palavra": "DIVISÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Conta de repartir em partes iguais",
+        "media": "Operação inversa da multiplicação",
+        "dificil": "Operação que dá o quociente"
+      }
+    },
+    {
+      "palavra": "MILHÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Número enorme: um seguido de seis zeros",
+        "media": "Mil vezes mil",
+        "dificil": "Dez elevado à sexta potência"
+      }
+    },
+    {
+      "palavra": "ESFERA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Forma de uma bola",
+        "media": "Sólido perfeitamente redondo",
+        "dificil": "O globo terrestre tem quase essa forma"
+      }
+    },
+    {
+      "palavra": "ÂNGULO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Canto formado por duas linhas",
+        "media": "Abertura entre duas semirretas",
+        "dificil": "Medido em graus com o transferidor"
+      }
+    },
+    {
+      "palavra": "ÁBACO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Contador antigo de bolinhas",
+        "media": "Instrumento de contas com contas móveis",
+        "dificil": "Calculadora dos antigos"
+      }
+    },
+    {
+      "palavra": "LOSANGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Figura amarela no meio da bandeira do Brasil",
+        "media": "Quadrilátero de quatro lados iguais",
+        "dificil": "Forma do naipe de ouros"
+      }
+    },
+    {
+      "palavra": "PENTÁGONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Figura de cinco lados",
+        "media": "Polígono de cinco lados",
+        "dificil": "Forma das peças pretas da bola de futebol clássica"
+      }
+    },
+    {
+      "palavra": "HEXÁGONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Figura de seis lados, como o favo de mel",
+        "media": "Polígono de seis lados",
+        "dificil": "Forma das peças brancas da bola de futebol clássica"
+      }
+    },
+    {
+      "palavra": "SUBTRAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conta de tirar",
+        "media": "Operação que dá a diferença entre dois números",
+        "dificil": "Conta do sinal de menos"
+      }
+    },
+    {
+      "palavra": "MULTIPLICAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Conta de vezes",
+        "media": "Operação que soma o mesmo número várias vezes",
+        "dificil": "Seu resultado é o produto"
+      }
+    },
+    {
+      "palavra": "FRAÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedaço de um inteiro, como um meio",
+        "media": "Número escrito com numerador e denominador",
+        "dificil": "Um terço é uma"
+      }
+    },
+    {
+      "palavra": "DECIMAL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Número com vírgula, como 2,5",
+        "media": "Sistema de base dez",
+        "dificil": "Casa depois da vírgula"
+      }
+    },
+    {
+      "palavra": "PORCENTAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte de cem, com o símbolo %",
+        "media": "Razão com denominador cem",
+        "dificil": "Desconto de 10% usa ela"
+      }
+    },
+    {
+      "palavra": "MÉDIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Soma das notas dividida pelo número de provas",
+        "media": "Valor central de um grupo de números",
+        "dificil": "A aritmética é a mais conhecida"
+      }
+    },
+    {
+      "palavra": "ÁREA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tamanho da superfície de uma figura",
+        "media": "Medida em metros quadrados",
+        "dificil": "Base vezes altura, no retângulo"
+      }
+    },
+    {
+      "palavra": "DIÂMETRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Linha que corta o círculo bem no meio",
+        "media": "Corda que passa pelo centro",
+        "dificil": "Mede o dobro do raio"
+      }
+    },
+    {
+      "palavra": "GEOMETRIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Parte da matemática das formas",
+        "media": "Estudo de figuras, linhas e ângulos",
+        "dificil": "Ciência de Euclides"
+      }
+    },
+    {
+      "palavra": "PRIMO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Número que só se divide por 1 e por ele mesmo",
+        "media": "Número com exatamente dois divisores",
+        "dificil": "2, 3, 5 e 7 são exemplos"
+      }
+    },
+    {
+      "palavra": "COMPASSO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Objeto de duas pernas para desenhar círculos",
+        "media": "Instrumento de traçar circunferências",
+        "dificil": "Tem ponta seca e grafite"
+      }
+    },
+    {
+      "palavra": "INFINITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que não tem fim",
+        "media": "Quantidade sem limite",
+        "dificil": "Símbolo do oito deitado"
+      }
+    },
+    {
+      "palavra": "GRÁFICO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Desenho com barras para mostrar números",
+        "media": "Representação visual de dados",
+        "dificil": "Pode ser de pizza, barras ou linhas"
+      }
+    },
+    {
+      "palavra": "TRIPLO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Três vezes o mesmo número",
+        "media": "Resultado de multiplicar por três",
+        "dificil": "O de quatro é doze"
+      }
+    },
+    {
+      "palavra": "FACE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cada lado reto de um cubo",
+        "media": "Superfície plana de um sólido",
+        "dificil": "O cubo tem seis"
+      }
+    },
+    {
+      "palavra": "PERÍMETRO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Volta toda em torno de uma figura",
+        "media": "Soma das medidas dos lados",
+        "dificil": "Contorno medido de um polígono"
+      }
+    },
+    {
+      "palavra": "VÉRTICE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ponta onde duas linhas se encontram",
+        "media": "Ponto de encontro de lados ou arestas",
+        "dificil": "O cubo tem oito"
+      }
+    },
+    {
+      "palavra": "ARESTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Linha onde duas faces do cubo se encontram",
+        "media": "Segmento comum a duas faces",
+        "dificil": "O cubo tem doze"
+      }
+    },
+    {
+      "palavra": "EQUAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Conta com um valor escondido",
+        "media": "Igualdade com incógnita",
+        "dificil": "x + 2 = 5, por exemplo"
+      }
+    },
+    {
+      "palavra": "INCÓGNITA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O número escondido da conta",
+        "media": "Valor desconhecido de uma equação",
+        "dificil": "Costuma ser chamada de x"
+      }
+    },
+    {
+      "palavra": "ÁLGEBRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Parte da matemática que usa letras",
+        "media": "Ramo que trabalha com equações",
+        "dificil": "Nome vem do árabe al-jabr"
+      }
+    },
+    {
+      "palavra": "RAIZ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Conta contrária de elevar ao quadrado",
+        "media": "Operação inversa da potenciação",
+        "dificil": "A quadrada de nove é três"
+      }
+    },
+    {
+      "palavra": "PITÁGORAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sábio grego do triângulo retângulo",
+        "media": "Autor do famoso teorema da hipotenusa",
+        "dificil": "Filósofo de Samos"
+      }
+    },
+    {
+      "palavra": "PARALELA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Linhas que nunca se encontram, como trilhos",
+        "media": "Reta que não cruza outra no mesmo plano",
+        "dificil": "Como as linhas de um caderno"
+      }
+    },
+    {
+      "palavra": "DIAGONAL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Linha de um canto ao canto oposto",
+        "media": "Segmento que liga vértices não vizinhos",
+        "dificil": "O quadrado tem duas"
+      }
+    },
+    {
+      "palavra": "ALGARISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cada símbolo de 0 a 9",
+        "media": "Dígito",
+        "dificil": "O número 42 tem dois"
+      }
+    },
+    {
+      "palavra": "SIMETRIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando os dois lados são iguais como no espelho",
+        "media": "Correspondência das partes em relação a um eixo",
+        "dificil": "A borboleta tem"
+      }
+    },
+    {
+      "palavra": "HIPOTENUSA",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Lado mais comprido do triângulo retângulo",
+        "media": "Lado oposto ao ângulo reto",
+        "dificil": "Seu quadrado é a soma dos quadrados dos catetos"
+      }
+    },
+    {
+      "palavra": "TRANSFERIDOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Régua em meia-lua para medir ângulos",
+        "media": "Instrumento graduado em graus",
+        "dificil": "Mede de 0 a 180 graus"
+      }
+    }
+  ]
+}

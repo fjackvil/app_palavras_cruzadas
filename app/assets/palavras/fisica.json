@@ -1,0 +1,476 @@
+{
+  "tema": "Física",
+  "categoria": "Ciência",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "LUZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a lâmpada acende para a gente enxergar",
+        "media": "Radiação visível ao olho humano",
+        "dificil": "Viaja a cerca de 300 mil km por segundo"
+      }
+    },
+    {
+      "palavra": "SOM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aquilo que a gente ouve",
+        "media": "Onda que viaja pelo ar até o ouvido",
+        "dificil": "Não se propaga no vácuo"
+      }
+    },
+    {
+      "palavra": "FORÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a gente faz para empurrar ou puxar",
+        "media": "Ação capaz de mudar o movimento de um corpo",
+        "dificil": "Medida em newtons"
+      }
+    },
+    {
+      "palavra": "PESO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O número que aparece quando sobe na balança",
+        "media": "Força com que a Terra puxa um corpo",
+        "dificil": "Na Lua, ele fica seis vezes menor"
+      }
+    },
+    {
+      "palavra": "CALOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a gente sente perto do fogo",
+        "media": "Energia que passa do quente para o frio",
+        "dificil": "Faz o metal dilatar"
+      }
+    },
+    {
+      "palavra": "FRIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a gente sente no inverno",
+        "media": "Sensação de baixa temperatura",
+        "dificil": "Contrário de quente"
+      }
+    },
+    {
+      "palavra": "ÍMÃ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pedra que gruda na porta da geladeira",
+        "media": "Objeto que atrai o ferro",
+        "dificil": "Tem polo norte e polo sul"
+      }
+    },
+    {
+      "palavra": "ECO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando a voz volta na montanha",
+        "media": "Som refletido que se ouve de novo",
+        "dificil": "Na mitologia, ninfa que só repetia os outros"
+      }
+    },
+    {
+      "palavra": "SOMBRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mancha escura que a gente faz no chão no sol",
+        "media": "Região escura onde a luz não chega",
+        "dificil": "Fica mais comprida no fim da tarde"
+      }
+    },
+    {
+      "palavra": "MOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Espiral de metal que estica e volta",
+        "media": "Peça elástica que guarda energia",
+        "dificil": "Obedece à lei de Hooke"
+      }
+    },
+    {
+      "palavra": "ONDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que se forma na água quando joga uma pedra",
+        "media": "Perturbação que leva energia sem levar matéria",
+        "dificil": "Tem crista, vale e comprimento"
+      }
+    },
+    {
+      "palavra": "RAIO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faísca que cai do céu na tempestade",
+        "media": "Descarga elétrica entre nuvem e chão",
+        "dificil": "A gente o vê antes de ouvir o trovão"
+      }
+    },
+    {
+      "palavra": "QUEDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Quando algo cai no chão",
+        "media": "Movimento de um corpo que despenca",
+        "dificil": "Galileu estudou a dos corpos"
+      }
+    },
+    {
+      "palavra": "METRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Medida da altura das pessoas",
+        "media": "Unidade de comprimento",
+        "dificil": "Unidade de símbolo m"
+      }
+    },
+    {
+      "palavra": "CHOQUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que a tomada dá se mexer nela",
+        "media": "Passagem de corrente pelo corpo",
+        "dificil": "Descarga elétrica que faz o corpo tremer"
+      }
+    },
+    {
+      "palavra": "ESPELHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vidro onde a gente vê a própria imagem",
+        "media": "Superfície que reflete a luz",
+        "dificil": "Mostra a imagem invertida da esquerda para a direita"
+      }
+    },
+    {
+      "palavra": "ARCO-ÍRIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Faixa colorida no céu depois da chuva",
+        "media": "Luz do sol separada em cores pelas gotas",
+        "dificil": "Fenômeno de sete cores, segundo Newton"
+      }
+    },
+    {
+      "palavra": "ENERGIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O que faz as coisas funcionarem e se moverem",
+        "media": "Capacidade de realizar trabalho",
+        "dificil": "Pode ser cinética, térmica ou elétrica"
+      }
+    },
+    {
+      "palavra": "BALANÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que mostra quanto a gente pesa",
+        "media": "Instrumento de medir massa",
+        "dificil": "Tem dois pratos na versão antiga"
+      }
+    },
+    {
+      "palavra": "SEGUNDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tempinho bem curto do relógio",
+        "media": "Unidade de tempo do sistema internacional",
+        "dificil": "Um minuto tem sessenta deles"
+      }
+    },
+    {
+      "palavra": "GRAVIDADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Força que faz as coisas caírem",
+        "media": "Atração entre corpos com massa",
+        "dificil": "Newton a explicou com a maçã"
+      }
+    },
+    {
+      "palavra": "ATRITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que faz o tênis não escorregar",
+        "media": "Força que se opõe ao deslizamento",
+        "dificil": "Esquenta as mãos quando as esfregamos"
+      }
+    },
+    {
+      "palavra": "ALAVANCA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Barra que ajuda a levantar coisas pesadas",
+        "media": "Máquina simples com ponto de apoio",
+        "dificil": "Arquimedes disse que moveria o mundo com uma"
+      }
+    },
+    {
+      "palavra": "PÊNDULO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peso que balança preso num fio",
+        "media": "Corpo que oscila preso a um ponto",
+        "dificil": "O de Foucault mostra a Terra girando"
+      }
+    },
+    {
+      "palavra": "VÁCUO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar sem ar nenhum",
+        "media": "Espaço sem matéria",
+        "dificil": "No espaço quase não existe outra coisa"
+      }
+    },
+    {
+      "palavra": "PRESSÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que a gente sente no ouvido no fundo da piscina",
+        "media": "Força dividida pela área",
+        "dificil": "Medida em pascals"
+      }
+    },
+    {
+      "palavra": "ELETRICIDADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que faz a lâmpada acender",
+        "media": "Fenômeno das cargas em movimento nos fios",
+        "dificil": "Energia que chega pela tomada"
+      }
+    },
+    {
+      "palavra": "MASSA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quantidade de matéria de um corpo",
+        "media": "Grandeza medida em quilogramas",
+        "dificil": "Não muda na Lua, ao contrário do peso"
+      }
+    },
+    {
+      "palavra": "ÓRBITA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Caminho da Lua em volta da Terra",
+        "media": "Trajetória de um corpo em volta de outro",
+        "dificil": "A da Terra leva um ano"
+      }
+    },
+    {
+      "palavra": "PRISMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vidro que separa a luz branca em cores",
+        "media": "Sólido que decompõe a luz",
+        "dificil": "Newton usou um para separar as cores"
+      }
+    },
+    {
+      "palavra": "LENTE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vidro curvo dos óculos e da lupa",
+        "media": "Peça que desvia a luz para ampliar",
+        "dificil": "Pode ser convergente ou divergente"
+      }
+    },
+    {
+      "palavra": "MOVIMENTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando algo muda de lugar",
+        "media": "Mudança de posição com o tempo",
+        "dificil": "Newton fez três leis sobre ele"
+      }
+    },
+    {
+      "palavra": "TEMPERATURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O que o termômetro mede",
+        "media": "Medida do grau de agitação das partículas",
+        "dificil": "Medida em graus Celsius ou kelvins"
+      }
+    },
+    {
+      "palavra": "QUILOGRAMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Um litro de água pesa mais ou menos um",
+        "media": "Unidade de massa do sistema internacional",
+        "dificil": "Unidade de símbolo kg"
+      }
+    },
+    {
+      "palavra": "INÉRCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tendência de continuar parado ou andando",
+        "media": "Primeira lei de Newton",
+        "dificil": "Por isso o corpo vai para a frente quando o ônibus freia"
+      }
+    },
+    {
+      "palavra": "VOLT",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Unidade da tensão das tomadas",
+        "media": "Unidade de diferença de potencial",
+        "dificil": "Homenagem ao inventor italiano da pilha"
+      }
+    },
+    {
+      "palavra": "WATT",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Unidade de potência da lâmpada",
+        "media": "Unidade de potência do sistema internacional",
+        "dificil": "Homenagem ao escocês da máquina a vapor"
+      }
+    },
+    {
+      "palavra": "JOULE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Unidade de energia",
+        "media": "Unidade de trabalho e energia",
+        "dificil": "Homenagem a um físico inglês do calor"
+      }
+    },
+    {
+      "palavra": "NEWTON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Unidade de força",
+        "media": "Unidade de força do sistema internacional",
+        "dificil": "Também é o sobrenome do físico da maçã"
+      }
+    },
+    {
+      "palavra": "FÓTON",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Partícula de luz",
+        "media": "Quantum da radiação eletromagnética",
+        "dificil": "Partícula sem massa que viaja na velocidade da luz"
+      }
+    },
+    {
+      "palavra": "REFRAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Por que o canudo parece quebrado no copo",
+        "media": "Desvio da luz ao mudar de meio",
+        "dificil": "Explica o arco-íris e as lentes"
+      }
+    },
+    {
+      "palavra": "REFLEXÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando a luz bate e volta no espelho",
+        "media": "Retorno da luz ao bater numa superfície",
+        "dificil": "Ângulo de entrada igual ao de saída"
+      }
+    },
+    {
+      "palavra": "FREQUÊNCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quantas vezes algo se repete por segundo",
+        "media": "Número de ciclos por segundo",
+        "dificil": "Medida em hertz"
+      }
+    },
+    {
+      "palavra": "DECIBEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Unidade que mede se o som está alto",
+        "media": "Unidade de intensidade sonora",
+        "dificil": "Unidade de símbolo dB"
+      }
+    },
+    {
+      "palavra": "MAGNETISMO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Força invisível dos ímãs",
+        "media": "Fenômeno de atração e repulsão dos ímãs",
+        "dificil": "A bússola funciona por causa dele"
+      }
+    },
+    {
+      "palavra": "EMPUXO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Força que faz o barco boiar",
+        "media": "Força para cima feita por um líquido",
+        "dificil": "Princípio de Arquimedes"
+      }
+    },
+    {
+      "palavra": "ARQUIMEDES",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sábio grego que gritou eureca no banho",
+        "media": "Matemático de Siracusa",
+        "dificil": "Descobriu o princípio dos corpos que flutuam"
+      }
+    },
+    {
+      "palavra": "RELATIVIDADE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Teoria famosa de Einstein",
+        "media": "Teoria sobre espaço, tempo e gravidade",
+        "dificil": "Teoria de 1905 e de 1915"
+      }
+    },
+    {
+      "palavra": "ACELERAÇÃO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Quando o carro vai ficando mais rápido",
+        "media": "Variação da velocidade com o tempo",
+        "dificil": "Medida em metros por segundo ao quadrado"
+      }
+    },
+    {
+      "palavra": "VELOCIDADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "O quanto algo é rápido",
+        "media": "Distância percorrida dividida pelo tempo",
+        "dificil": "Medida em quilômetros por hora no carro"
+      }
+    },
+    {
+      "palavra": "POTÊNCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "O quanto um motor é forte",
+        "media": "Energia por unidade de tempo",
+        "dificil": "Medida em watts"
+      }
+    },
+    {
+      "palavra": "VETOR",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Seta usada para mostrar uma força",
+        "media": "Grandeza com módulo, direção e sentido",
+        "dificil": "Representado por uma flecha"
+      }
+    }
+  ]
+}

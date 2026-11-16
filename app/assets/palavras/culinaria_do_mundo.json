@@ -1,0 +1,467 @@
+{
+  "tema": "Culinária do mundo",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "PIZZA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa redonda com queijo que veio da Itália",
+        "media": "Prato italiano assado no forno a lenha",
+        "dificil": "Nasceu em Nápoles; a margherita é clássica"
+      }
+    },
+    {
+      "palavra": "SUSHI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinho de arroz com peixe cru, do Japão",
+        "media": "Prato japonês de arroz temperado e peixe",
+        "dificil": "Comido com hashi e shoyu"
+      }
+    },
+    {
+      "palavra": "TACO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Panqueca de milho dobrada e recheada, do México",
+        "media": "Tortilha mexicana recheada e dobrada",
+        "dificil": "Comida de rua mexicana com carne e pimenta"
+      }
+    },
+    {
+      "palavra": "CREPE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Panqueca fininha da França",
+        "media": "Massa fina francesa, doce ou salgada",
+        "dificil": "Típico da Bretanha, na França"
+      }
+    },
+    {
+      "palavra": "NHOQUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinhas de massa de batata da Itália",
+        "media": "Massa italiana de batata e farinha",
+        "dificil": "Tradição do dia 29, com dinheiro debaixo do prato"
+      }
+    },
+    {
+      "palavra": "QUIBE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinho de carne com trigo, do Líbano",
+        "media": "Salgado árabe de carne moída e trigo",
+        "dificil": "Pode ser frito, assado ou cru, no Líbano"
+      }
+    },
+    {
+      "palavra": "ESFIHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massinha assada com carne, de origem árabe",
+        "media": "Salgado libanês aberto ou fechado",
+        "dificil": "Pode ser de carne, queijo ou zaatar"
+      }
+    },
+    {
+      "palavra": "SALAME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Frio de carne curada vindo da Itália",
+        "media": "Embutido italiano curado e fatiado",
+        "dificil": "O tipo milano é um dos mais famosos"
+      }
+    },
+    {
+      "palavra": "SHOYU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Molho escuro e salgado da comida japonesa",
+        "media": "Molho de soja fermentada do Japão",
+        "dificil": "Acompanha o sushi e o sashimi"
+      }
+    },
+    {
+      "palavra": "NACHOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Triângulos crocantes de milho com queijo derretido",
+        "media": "Petisco mexicano de tortilha frita com queijo",
+        "dificil": "Inventados em Piedras Negras, no México"
+      }
+    },
+    {
+      "palavra": "FONDUE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Panela de queijo derretido para molhar pão, da Suíça",
+        "media": "Prato suíço de queijo ou chocolate derretido",
+        "dificil": "Prato de inverno com garfinhos compridos"
+      }
+    },
+    {
+      "palavra": "MASSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comida italiana de farinha, como o espaguete",
+        "media": "Mistura de farinha e ovos, base da cozinha italiana",
+        "dificil": "Os italianos a chamam de pasta"
+      }
+    },
+    {
+      "palavra": "TEMAKI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cone de alga recheado de arroz e peixe, do Japão",
+        "media": "Sushi japonês enrolado em cone de alga",
+        "dificil": "Cone de nori comido com a mão"
+      }
+    },
+    {
+      "palavra": "RAMEN",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sopa japonesa com macarrão",
+        "media": "Sopa de macarrão com caldo, ovo e carne, do Japão",
+        "dificil": "Prato de origem chinesa que virou mania no Japão"
+      }
+    },
+    {
+      "palavra": "LASANHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Camadas de massa, molho e queijo, da Itália",
+        "media": "Prato italiano de massa em camadas gratinada",
+        "dificil": "A bolonhesa é a mais pedida no domingo"
+      }
+    },
+    {
+      "palavra": "ESPAGUETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Macarrão comprido e fino da Itália",
+        "media": "Massa italiana longa e cilíndrica",
+        "dificil": "Com almôndegas, aparece em filmes de cachorrinhos"
+      }
+    },
+    {
+      "palavra": "YAKISSOBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Macarrão frito com legumes, do Japão",
+        "media": "Macarrão japonês salteado com carne e legumes",
+        "dificil": "Feito na chapa, com molho de shoyu"
+      }
+    },
+    {
+      "palavra": "MUÇARELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Queijo que derrete e estica na pizza",
+        "media": "Queijo italiano de massa filada",
+        "dificil": "O de búfala é o original da Campânia"
+      }
+    },
+    {
+      "palavra": "PANETONE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pão doce de Natal com frutinhas, da Itália",
+        "media": "Pão natalino italiano com frutas cristalizadas",
+        "dificil": "Nasceu em Milão"
+      }
+    },
+    {
+      "palavra": "ESTROGONOFE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carne em molho cremoso com batata palha",
+        "media": "Prato de origem russa com creme de leite",
+        "dificil": "Nome de família nobre russa; aqui leva batata palha"
+      }
+    },
+    {
+      "palavra": "HAMBÚRGUER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Carne redonda dentro do pão, famosa nos Estados Unidos",
+        "media": "Sanduíche de carne moída que fez fama nos EUA",
+        "dificil": "Nome que lembra uma cidade alemã"
+      }
+    },
+    {
+      "palavra": "OMELETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ovos batidos e dobrados na frigideira",
+        "media": "Prato francês de ovos batidos e fritos",
+        "dificil": "Não se faz sem quebrar ovos, diz o ditado"
+      }
+    },
+    {
+      "palavra": "PAELLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arroz amarelo com frutos do mar, da Espanha",
+        "media": "Prato espanhol de arroz com açafrão",
+        "dificil": "Nasceu em Valência, cozida em panela larga"
+      }
+    },
+    {
+      "palavra": "RISOTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arroz cremoso da Itália",
+        "media": "Prato italiano de arroz cremoso com caldo",
+        "dificil": "O alla milanese leva açafrão"
+      }
+    },
+    {
+      "palavra": "GUACAMOLE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pasta verde de abacate do México",
+        "media": "Pasta mexicana de abacate, tomate e limão",
+        "dificil": "Acompanha nachos e tacos"
+      }
+    },
+    {
+      "palavra": "BURRITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tortilha enrolada e recheada, do México",
+        "media": "Tortilha de trigo recheada de feijão e carne",
+        "dificil": "Seu nome em espanhol é de um pequeno animal de carga"
+      }
+    },
+    {
+      "palavra": "TOFU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Queijinho branco feito de soja, da China",
+        "media": "Coalhada de leite de soja",
+        "dificil": "Queijo de soja da cozinha oriental"
+      }
+    },
+    {
+      "palavra": "BACALHAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peixe salgado muito comido em Portugal",
+        "media": "Peixe seco e salgado da culinária portuguesa",
+        "dificil": "Estrela da Sexta-feira Santa"
+      }
+    },
+    {
+      "palavra": "BAGUETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pão comprido e fino da França",
+        "media": "Pão francês longo e crocante",
+        "dificil": "Os parisienses a carregam debaixo do braço"
+      }
+    },
+    {
+      "palavra": "CROISSANT",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pão em forma de meia-lua da França",
+        "media": "Pão folhado amanteigado francês",
+        "dificil": "Seu nome em francês significa crescente"
+      }
+    },
+    {
+      "palavra": "EMPANADA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pastel assado com carne, da Argentina",
+        "media": "Pastel assado típico da Argentina e do Chile",
+        "dificil": "Prima sul-americana do nosso pastel"
+      }
+    },
+    {
+      "palavra": "ALFAJOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Biscoito recheado de doce de leite, da Argentina",
+        "media": "Doce argentino de biscoitos com doce de leite",
+        "dificil": "Coberto de chocolate, é lembrança de Buenos Aires"
+      }
+    },
+    {
+      "palavra": "TORTILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Omelete grossa de batata da Espanha",
+        "media": "Omelete espanhola de batata e ovos",
+        "dificil": "No México, o nome é de um disco fino de milho"
+      }
+    },
+    {
+      "palavra": "PARMESÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Queijo duro ralado no macarrão, da Itália",
+        "media": "Queijo italiano duro e envelhecido",
+        "dificil": "Nome que vem da cidade de Parma"
+      }
+    },
+    {
+      "palavra": "CANELONE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tubos de massa recheados e gratinados, da Itália",
+        "media": "Massa italiana em tubos com recheio",
+        "dificil": "Parecido com a lasanha, mas enrolado"
+      }
+    },
+    {
+      "palavra": "SASHIMI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fatias de peixe cru sem arroz, do Japão",
+        "media": "Peixe cru fatiado da culinária japonesa",
+        "dificil": "O de salmão é o mais pedido no Brasil"
+      }
+    },
+    {
+      "palavra": "HOMUS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pasta de grão-de-bico do Oriente Médio",
+        "media": "Pasta árabe de grão-de-bico e tahine",
+        "dificil": "Comido com pão sírio no Líbano"
+      }
+    },
+    {
+      "palavra": "FALAFEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Bolinho frito de grão-de-bico do Oriente Médio",
+        "media": "Bolinho árabe de grão-de-bico ou fava",
+        "dificil": "Recheio de sanduíche no pão pita"
+      }
+    },
+    {
+      "palavra": "TABULE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Salada de trigo com salsinha e tomate, do Líbano",
+        "media": "Salada libanesa de trigo, hortelã e limão",
+        "dificil": "Leva o mesmo trigo do quibe"
+      }
+    },
+    {
+      "palavra": "PASTEL DE NATA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Docinho de creme assado de Portugal",
+        "media": "Doce português de massa folhada e creme",
+        "dificil": "Famoso nas pastelarias de Belém, em Lisboa"
+      }
+    },
+    {
+      "palavra": "PRETZEL",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pão em forma de laço, da Alemanha",
+        "media": "Pão alemão retorcido com sal grosso",
+        "dificil": "Símbolo das padarias da Baviera"
+      }
+    },
+    {
+      "palavra": "CHUCRUTE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Repolho azedinho da Alemanha",
+        "media": "Repolho fermentado da culinária alemã",
+        "dificil": "Acompanha salsichas alemãs"
+      }
+    },
+    {
+      "palavra": "KIMCHI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Acelga apimentada e azeda da Coreia",
+        "media": "Conserva coreana de vegetais fermentados",
+        "dificil": "Prato que não falta na mesa coreana"
+      }
+    },
+    {
+      "palavra": "WASABI",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pastinha verde que arde no nariz, do Japão",
+        "media": "Raiz picante japonesa ralada",
+        "dificil": "Raiz-forte verde do sushi"
+      }
+    },
+    {
+      "palavra": "MISSÔ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pasta de soja da sopa japonesa",
+        "media": "Pasta japonesa de soja fermentada",
+        "dificil": "Base de uma sopa servida nas refeições japonesas"
+      }
+    },
+    {
+      "palavra": "QUICHE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Torta salgada de ovos e creme, da França",
+        "media": "Torta aberta francesa de ovos, creme e recheio",
+        "dificil": "A lorraine leva bacon"
+      }
+    },
+    {
+      "palavra": "CEVICHE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Peixe cru temperado com limão, do Peru",
+        "media": "Prato peruano de peixe cru marinado no limão",
+        "dificil": "Prato símbolo da costa peruana"
+      }
+    },
+    {
+      "palavra": "CURRY",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Molho amarelo e picante da Índia",
+        "media": "Mistura indiana de especiarias",
+        "dificil": "Leva cúrcuma, cominho e coentro"
+      }
+    },
+    {
+      "palavra": "PESTO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Molho verde de manjericão da Itália",
+        "media": "Molho de manjericão, pinhole, alho e queijo",
+        "dificil": "Nasceu em Gênova, na Ligúria"
+      }
+    },
+    {
+      "palavra": "CARBONARA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Macarrão com ovo, queijo e toucinho, da Itália",
+        "media": "Molho romano de ovos, pecorino e guanciale",
+        "dificil": "Receita romana que não leva creme de leite"
+      }
+    },
+    {
+      "palavra": "PAD THAI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Macarrão de arroz frito com amendoim, da Tailândia",
+        "media": "Macarrão tailandês salteado com ovo e amendoim",
+        "dificil": "Prato nacional da Tailândia"
+      }
+    }
+  ]
+}

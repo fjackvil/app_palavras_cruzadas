@@ -1,0 +1,485 @@
+{
+  "tema": "Roupas",
+  "categoria": "Dia a dia",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "SAIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa que gira quando a menina dança",
+        "media": "Peça feminina presa na cintura, sem pernas",
+        "dificil": "Pode ser rodada, plissada ou lápis"
+      }
+    },
+    {
+      "palavra": "MEIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vai no pé antes do tênis",
+        "media": "Peça de malha que cobre o pé",
+        "dificil": "Faz par, mas sempre some uma"
+      }
+    },
+    {
+      "palavra": "BLUSA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa que cobre a barriga e os braços",
+        "media": "Peça de cima do vestuário",
+        "dificil": "Pode ser de manga curta ou de frio"
+      }
+    },
+    {
+      "palavra": "CALÇA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa com duas pernas compridas",
+        "media": "Peça que cobre da cintura aos pés",
+        "dificil": "Jeans é o tecido da mais famosa"
+      }
+    },
+    {
+      "palavra": "BONÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chapéu com aba na frente",
+        "media": "Cobertura de cabeça com pala",
+        "dificil": "Proteção do sol do jogador de beisebol"
+      }
+    },
+    {
+      "palavra": "LUVA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Esquenta as mãos no frio",
+        "media": "Peça que veste as mãos",
+        "dificil": "O goleiro usa para agarrar a bola"
+      }
+    },
+    {
+      "palavra": "GORRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Toquinha de lã para o frio",
+        "media": "Cobertura de malha para a cabeça",
+        "dificil": "O do Papai Noel é vermelho"
+      }
+    },
+    {
+      "palavra": "CAMISA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa de botões usada no trabalho",
+        "media": "Peça de cima com gola e botões",
+        "dificil": "A da seleção é amarela"
+      }
+    },
+    {
+      "palavra": "CHAPÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vai na cabeça para proteger do sol",
+        "media": "Cobertura de cabeça com aba",
+        "dificil": "O de palha é tradicional na festa junina"
+      }
+    },
+    {
+      "palavra": "BOTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sapato de cano alto",
+        "media": "Calçado que cobre o tornozelo",
+        "dificil": "A de chuva é de borracha"
+      }
+    },
+    {
+      "palavra": "TÊNIS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado de correr e brincar",
+        "media": "Calçado esportivo com cadarço",
+        "dificil": "Mesmo nome de um esporte de raquete"
+      }
+    },
+    {
+      "palavra": "CINTO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tira de couro que segura a calça",
+        "media": "Acessório com fivela que passa pelos passadores",
+        "dificil": "Também é a faixa do judoca"
+      }
+    },
+    {
+      "palavra": "CASACO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa quentinha para o frio",
+        "media": "Agasalho de manga comprida vestido por cima",
+        "dificil": "Peça de lã ou de couro para o inverno"
+      }
+    },
+    {
+      "palavra": "PIJAMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa de dormir",
+        "media": "Conjunto usado para dormir",
+        "dificil": "Roupa da festa do sono"
+      }
+    },
+    {
+      "palavra": "SAPATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado de ir a festas",
+        "media": "Calçado fechado de couro ou similar",
+        "dificil": "Precisa de graxa para brilhar"
+      }
+    },
+    {
+      "palavra": "BOTÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bolinha que fecha a camisa",
+        "media": "Peça que passa pela casa da roupa",
+        "dificil": "Fica preso por linha e agulha"
+      }
+    },
+    {
+      "palavra": "ZÍPER",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Fecho que abre e fecha com um puxão",
+        "media": "Fecho de dentinhos com cursor",
+        "dificil": "Também chamado de fecho ecler"
+      }
+    },
+    {
+      "palavra": "VESTIDO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa inteira de saia e blusa juntas",
+        "media": "Peça feminina inteira",
+        "dificil": "O de noiva é branco"
+      }
+    },
+    {
+      "palavra": "BERMUDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calça curtinha até o joelho",
+        "media": "Calça curta de verão",
+        "dificil": "Tem nome de ilhas do Atlântico"
+      }
+    },
+    {
+      "palavra": "JAQUETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Casaco curtinho de zíper",
+        "media": "Agasalho curto, de couro ou jeans",
+        "dificil": "O motoqueiro usa a de couro"
+      }
+    },
+    {
+      "palavra": "CHINELO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado de dedo usado em casa e na praia",
+        "media": "Calçado aberto de borracha",
+        "dificil": "Companheiro da piscina e do quintal"
+      }
+    },
+    {
+      "palavra": "SANDÁLIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Calçado aberto de tirinhas",
+        "media": "Calçado de tiras que deixa o pé à mostra",
+        "dificil": "Rasteirinha é um tipo"
+      }
+    },
+    {
+      "palavra": "UNIFORME",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa igual de todos na escola",
+        "media": "Vestimenta padronizada",
+        "dificil": "Os jogadores do time vestem igual"
+      }
+    },
+    {
+      "palavra": "FANTASIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa de super-herói no Carnaval",
+        "media": "Traje de disfarce",
+        "dificil": "Indispensável no baile de Carnaval"
+      }
+    },
+    {
+      "palavra": "MACACÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa inteiriça de calça e blusa",
+        "media": "Peça única que cobre tronco e pernas",
+        "dificil": "Uniforme do mecânico e do piloto"
+      }
+    },
+    {
+      "palavra": "CAMISETA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Camisa simples de malha, sem botões",
+        "media": "Peça de malha de manga curta",
+        "dificil": "Malha básica, lisa ou estampada"
+      }
+    },
+    {
+      "palavra": "GRAVATA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tira que se usa no pescoço com terno",
+        "media": "Acessório amarrado na gola da camisa",
+        "dificil": "Pode ser borboleta"
+      }
+    },
+    {
+      "palavra": "CADARÇO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cordão que amarra o tênis",
+        "media": "Cordão de fechar o calçado",
+        "dificil": "Fica desamarrado na hora errada"
+      }
+    },
+    {
+      "palavra": "AGASALHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa quentinha de frio",
+        "media": "Peça que protege do frio",
+        "dificil": "Conjunto de moletom para o inverno"
+      }
+    },
+    {
+      "palavra": "BIQUÍNI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Roupa de banho de duas peças",
+        "media": "Traje feminino de praia em duas partes",
+        "dificil": "Nome de um atol do Pacífico"
+      }
+    },
+    {
+      "palavra": "MOLETOM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa de malha grossa e felpuda",
+        "media": "Tecido felpudo de agasalhos",
+        "dificil": "Blusa com capuz de inverno"
+      }
+    },
+    {
+      "palavra": "CACHECOL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Faixa de lã enrolada no pescoço",
+        "media": "Echarpe de inverno",
+        "dificil": "Protege a garganta no frio"
+      }
+    },
+    {
+      "palavra": "CAMISOLA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Vestido de dormir",
+        "media": "Roupa feminina de dormir",
+        "dificil": "Prima comprida do pijama"
+      }
+    },
+    {
+      "palavra": "ROUPÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Veste felpuda de usar depois do banho",
+        "media": "Agasalho de banho atoalhado",
+        "dificil": "Vestido no hotel depois da piscina"
+      }
+    },
+    {
+      "palavra": "SUÉTER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Blusa de lã fechada",
+        "media": "Pulôver de tricô",
+        "dificil": "Malha de lã de gola redonda ou alta"
+      }
+    },
+    {
+      "palavra": "TERNO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa de paletó e calça, para festas",
+        "media": "Conjunto de paletó e calça",
+        "dificil": "Traje do noivo"
+      }
+    },
+    {
+      "palavra": "COLETE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Blusa sem mangas usada por cima",
+        "media": "Peça sem mangas sobre a camisa",
+        "dificil": "O salva-vidas é laranja"
+      }
+    },
+    {
+      "palavra": "BOINA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chapéu redondo e achatado",
+        "media": "Gorro chato sem aba",
+        "dificil": "Típica do País Basco e dos franceses"
+      }
+    },
+    {
+      "palavra": "PONCHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Capa de lã com buraco para a cabeça",
+        "media": "Manta com abertura central",
+        "dificil": "Típico dos Andes e do Sul"
+      }
+    },
+    {
+      "palavra": "QUIMONO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Roupa do judô e do caratê",
+        "media": "Traje tradicional japonês",
+        "dificil": "Amarrado por faixa colorida"
+      }
+    },
+    {
+      "palavra": "FIVELA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Peça de metal que prende o cinto",
+        "media": "Fecho de metal de cintos",
+        "dificil": "Também prende sandálias"
+      }
+    },
+    {
+      "palavra": "SOBRETUDO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Casaco comprido para o frio forte",
+        "media": "Casaco longo usado sobre a roupa",
+        "dificil": "Peça de detetive em filme antigo"
+      }
+    },
+    {
+      "palavra": "POLAINA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Meia sem pé usada na perna",
+        "media": "Peça que cobre a canela",
+        "dificil": "Item de bailarinas no aquecimento"
+      }
+    },
+    {
+      "palavra": "ECHARPE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lenço comprido no pescoço",
+        "media": "Faixa longa de tecido fino",
+        "dificil": "Acessório elegante que cobre os ombros"
+      }
+    },
+    {
+      "palavra": "XALE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pano que cobre os ombros da vovó",
+        "media": "Manta usada sobre os ombros",
+        "dificil": "Peça de tricô ou crochê das noites frias"
+      }
+    },
+    {
+      "palavra": "SARI",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Roupa de tecido enrolado das mulheres da Índia",
+        "media": "Traje feminino indiano de tecido longo",
+        "dificil": "Peça enrolada no corpo, típica da Índia"
+      }
+    },
+    {
+      "palavra": "BOMBACHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Calça larga do gaúcho",
+        "media": "Calça larga de cintura franzida",
+        "dificil": "Parte da pilcha gaúcha"
+      }
+    },
+    {
+      "palavra": "COLARINHO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Gola dura da camisa",
+        "media": "Gola de camisa social",
+        "dificil": "Fica embaixo da gravata"
+      }
+    },
+    {
+      "palavra": "BAINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dobra costurada na barra da calça",
+        "media": "Barra dobrada e costurada",
+        "dificil": "Fazê-la encurta a calça"
+      }
+    },
+    {
+      "palavra": "LAPELA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dobra do paletó perto do peito",
+        "media": "Parte dobrada da gola do paletó",
+        "dificil": "Lugar do broche"
+      }
+    },
+    {
+      "palavra": "ALPARGATA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sapatilha de lona com sola de corda",
+        "media": "Calçado de lona e sola de juta",
+        "dificil": "Calçado simples de sertanejos e espanhóis"
+      }
+    },
+    {
+      "palavra": "MOCASSIM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sapato macio sem cadarço",
+        "media": "Calçado sem cordões, de couro macio",
+        "dificil": "De origem indígena norte-americana"
+      }
+    },
+    {
+      "palavra": "VESTUÁRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Conjunto de roupas que se usa",
+        "media": "Conjunto de peças de roupa",
+        "dificil": "Setor das confecções"
+      }
+    }
+  ]
+}

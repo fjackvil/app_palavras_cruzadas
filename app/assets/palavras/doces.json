@@ -1,0 +1,494 @@
+{
+  "tema": "Doces",
+  "categoria": "Comida",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "BALA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho que se chupa, embrulhado em papel",
+        "media": "Guloseima dura ou mastigável de açúcar",
+        "dificil": "De goma, de coco ou de hortelã"
+      }
+    },
+    {
+      "palavra": "BOLO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de aniversário com velinhas",
+        "media": "Massa assada de farinha, ovos e açúcar",
+        "dificil": "De fubá, de cenoura ou de chocolate"
+      }
+    },
+    {
+      "palavra": "PUDIM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce molinho com calda de caramelo",
+        "media": "Sobremesa de forma com furo no meio",
+        "dificil": "O de leite condensado é o mais famoso"
+      }
+    },
+    {
+      "palavra": "PAÇOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho de amendoim que esfarela",
+        "media": "Doce de amendoim moído com açúcar",
+        "dificil": "Doce junino vendido em rolhas ou quadradinhos"
+      }
+    },
+    {
+      "palavra": "COCADA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de coco ralado com açúcar",
+        "media": "Doce de tabuleiro, branco ou queimado",
+        "dificil": "Vendida nas praias da Bahia"
+      }
+    },
+    {
+      "palavra": "BOMBOM",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Chocolate pequeno com recheio",
+        "media": "Doce de chocolate recheado",
+        "dificil": "Presente clássico em caixa na Páscoa"
+      }
+    },
+    {
+      "palavra": "PICOLÉ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Sorvete no palito",
+        "media": "Gelado de fruta ou creme preso num palito",
+        "dificil": "Alívio dos dias quentes na praia"
+      }
+    },
+    {
+      "palavra": "TORTA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de massa com recheio, cortado em fatias",
+        "media": "Massa assada com recheio e cobertura",
+        "dificil": "A de limão é uma das preferidas"
+      }
+    },
+    {
+      "palavra": "JUJUBA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bala de goma colorida coberta de açúcar",
+        "media": "Bala mole e açucarada de gelatina",
+        "dificil": "Goma colorida dos saquinhos de festa"
+      }
+    },
+    {
+      "palavra": "AÇÚCAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pozinho branco que deixa tudo doce",
+        "media": "Cristais extraídos da cana ou da beterraba",
+        "dificil": "Refinado, cristal ou mascavo"
+      }
+    },
+    {
+      "palavra": "CALDA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Molho docinho que escorre no sorvete",
+        "media": "Líquido de açúcar derretido",
+        "dificil": "A de caramelo cobre o pudim"
+      }
+    },
+    {
+      "palavra": "SONHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pão fofinho frito recheado de creme",
+        "media": "Bolinho frito recheado e polvilhado de açúcar",
+        "dificil": "Doce de padaria com nome do que se tem ao dormir"
+      }
+    },
+    {
+      "palavra": "MEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho que as abelhas fazem",
+        "media": "Líquido doce produzido nas colmeias",
+        "dificil": "Néctar guardado nos favos"
+      }
+    },
+    {
+      "palavra": "PAVÊ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce de camadas de biscoito e creme",
+        "media": "Sobremesa gelada de biscoito champanhe e creme",
+        "dificil": "Famoso pela piada do tio no Natal"
+      }
+    },
+    {
+      "palavra": "SORVETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce gelado de casquinha",
+        "media": "Creme congelado servido em bolas",
+        "dificil": "O napolitano tem três sabores"
+      }
+    },
+    {
+      "palavra": "PIRULITO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bala presa num palitinho",
+        "media": "Doce duro com cabo para segurar",
+        "dificil": "Pode ter chiclete no meio"
+      }
+    },
+    {
+      "palavra": "CHICLETE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Goma que se masca e faz bola",
+        "media": "Goma de mascar",
+        "dificil": "Não pode engolir nem grudar debaixo da carteira"
+      }
+    },
+    {
+      "palavra": "GELATINA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce colorido que balança no prato",
+        "media": "Sobremesa que endurece na geladeira",
+        "dificil": "Feita de colágeno, vem em pó com sabor de fruta"
+      }
+    },
+    {
+      "palavra": "BEIJINHO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho branco de coco com um cravo em cima",
+        "media": "Doce de leite condensado e coco ralado",
+        "dificil": "Irmão branquinho do brigadeiro"
+      }
+    },
+    {
+      "palavra": "BRIGADEIRO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Docinho de chocolate com granulado",
+        "media": "Doce de leite condensado, chocolate e manteiga",
+        "dificil": "Tem nome de patente militar"
+      }
+    },
+    {
+      "palavra": "CHURROS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Massa frita comprida recheada de doce de leite",
+        "media": "Doce frito polvilhado com açúcar e canela",
+        "dificil": "Origem espanhola, vendido em carrinhos"
+      }
+    },
+    {
+      "palavra": "CHOCOLATE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Doce marrom feito de cacau",
+        "media": "Doce feito das sementes de cacau",
+        "dificil": "Pode ser ao leite, meio amargo ou branco"
+      }
+    },
+    {
+      "palavra": "ALGODÃO-DOCE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Nuvem cor-de-rosa de açúcar no palito",
+        "media": "Fios de açúcar derretido e girado",
+        "dificil": "Doce de parque que some na boca"
+      }
+    },
+    {
+      "palavra": "DOCE DE LEITE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Creme marrom feito de leite e açúcar",
+        "media": "Leite cozido com açúcar até caramelizar",
+        "dificil": "Recheio do alfajor argentino"
+      }
+    },
+    {
+      "palavra": "MARIA-MOLE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Doce fofinho coberto de coco ralado",
+        "media": "Doce aerado de clara e gelatina com coco",
+        "dificil": "Doce com nome de gente que não tem firmeza"
+      }
+    },
+    {
+      "palavra": "CAJUZINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Docinho de amendoim em forma de caju",
+        "media": "Doce de festa feito de amendoim e chocolate",
+        "dificil": "Leva um amendoim no topo"
+      }
+    },
+    {
+      "palavra": "SUSPIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Docinho branco e crocante de clara",
+        "media": "Clara batida com açúcar e assada",
+        "dificil": "Merengue seco que derrete na boca"
+      }
+    },
+    {
+      "palavra": "RAPADURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tijolinho doce feito de cana",
+        "media": "Bloco de caldo de cana fervido e endurecido",
+        "dificil": "É doce, mas não é mole"
+      }
+    },
+    {
+      "palavra": "MERENGUE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Nuvem branca de clara batida com açúcar",
+        "media": "Clara batida em neve com açúcar",
+        "dificil": "Cobre a torta de limão"
+      }
+    },
+    {
+      "palavra": "CONFEITO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinha colorida que enfeita o bolo",
+        "media": "Pastilha de açúcar usada na decoração",
+        "dificil": "Lentilha de chocolate colorida é um tipo"
+      }
+    },
+    {
+      "palavra": "GRANULADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinhas de chocolate do brigadeiro",
+        "media": "Fiozinhos de chocolate para decorar doces",
+        "dificil": "Chuvinha que cobre o brigadeiro"
+      }
+    },
+    {
+      "palavra": "CARAMELO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Açúcar derretido que fica marrom",
+        "media": "Açúcar queimado até dourar",
+        "dificil": "Dá cor à calda do pudim"
+      }
+    },
+    {
+      "palavra": "TRUFA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bombom de chocolate cremoso por dentro",
+        "media": "Doce de chocolate com recheio de ganache",
+        "dificil": "Tem o mesmo nome de um fungo caro"
+      }
+    },
+    {
+      "palavra": "MANJAR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pudim branco de coco com calda de ameixa",
+        "media": "Doce branco de coco e amido de milho",
+        "dificil": "Dizem que é comida dos deuses"
+      }
+    },
+    {
+      "palavra": "MOUSSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Doce fofinho de maracujá ou chocolate",
+        "media": "Creme aerado com claras ou creme batido",
+        "dificil": "Palavra francesa que significa espuma"
+      }
+    },
+    {
+      "palavra": "PÃO DE MEL",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinho de especiarias coberto de chocolate",
+        "media": "Bolo de mel e especiarias com cobertura",
+        "dificil": "Recheado de doce de leite, é sucesso em feiras"
+      }
+    },
+    {
+      "palavra": "BEM-CASADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Docinho embrulhado dado nos casamentos",
+        "media": "Dois discos de pão de ló com recheio",
+        "dificil": "Lembrança de festa que deseja boa união"
+      }
+    },
+    {
+      "palavra": "ARROZ-DOCE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Arroz cozido no leite com canela",
+        "media": "Sobremesa de arroz, leite, açúcar e canela",
+        "dificil": "Doce junino feito com o grão do almoço"
+      }
+    },
+    {
+      "palavra": "CHANTILI",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Creme branco batido que vai no topo do doce",
+        "media": "Creme de leite batido com açúcar",
+        "dificil": "Chapéu fofo do sundae"
+      }
+    },
+    {
+      "palavra": "COBERTURA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Camada doce por cima do bolo",
+        "media": "Calda ou creme que reveste o doce",
+        "dificil": "Glacê e ganache são exemplos"
+      }
+    },
+    {
+      "palavra": "BAUNILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Sabor do sorvete branquinho",
+        "media": "Fava aromática usada em doces",
+        "dificil": "Orquídea que perfuma o creme"
+      }
+    },
+    {
+      "palavra": "CACAU",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fruto de onde vem o chocolate",
+        "media": "Fruto amazônico cujas sementes viram chocolate",
+        "dificil": "Fez a fama do sul da Bahia"
+      }
+    },
+    {
+      "palavra": "AMBROSIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Doce de ovos e leite com cravo e canela",
+        "media": "Doce talhado de leite, ovos e açúcar",
+        "dificil": "Nome do manjar dos deuses gregos"
+      }
+    },
+    {
+      "palavra": "OLHO DE SOGRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ameixa recheada de doce de coco",
+        "media": "Doce de festa com ameixa e coco",
+        "dificil": "Doce cujo nome lembra a mãe do marido"
+      }
+    },
+    {
+      "palavra": "QUEIJADINHA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Docinho de coco com queijo ralado",
+        "media": "Doce assado de coco, queijo e leite condensado",
+        "dificil": "Docinho em forminha de papel da doçaria mineira"
+      }
+    },
+    {
+      "palavra": "FONDANT",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Massa de açúcar lisinha que cobre bolos de festa",
+        "media": "Pasta de açúcar para cobrir bolos",
+        "dificil": "Cobertura lisa de bolos de casamento"
+      }
+    },
+    {
+      "palavra": "GANACHE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Creme de chocolate para rechear bolos",
+        "media": "Mistura de chocolate e creme de leite",
+        "dificil": "Recheio clássico da trufa"
+      }
+    },
+    {
+      "palavra": "PRALINÊ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Doce crocante de castanha caramelizada",
+        "media": "Açúcar caramelizado com castanhas moídas",
+        "dificil": "Recheio de bombom com nome francês"
+      }
+    },
+    {
+      "palavra": "TORRONE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Doce branco e duro com amendoim",
+        "media": "Doce italiano de mel, clara e amêndoas",
+        "dificil": "Barra natalina de origem italiana"
+      }
+    },
+    {
+      "palavra": "BABA DE MOÇA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Creme amarelinho de gemas e coco",
+        "media": "Creme de gemas, leite de coco e calda",
+        "dificil": "Doce de nome curioso da tradição portuguesa"
+      }
+    },
+    {
+      "palavra": "FIOS DE OVOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fiozinhos amarelos de gema que enfeitam o Natal",
+        "media": "Fios de gema cozidos em calda de açúcar",
+        "dificil": "Acompanham o tender na ceia"
+      }
+    },
+    {
+      "palavra": "MARZIPÃ",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Massinha doce de amêndoas em forma de frutinhas",
+        "media": "Massa de amêndoas moídas e açúcar",
+        "dificil": "Doce típico de Lübeck, na Alemanha"
+      }
+    },
+    {
+      "palavra": "MELADO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Calda grossa e escura feita de cana",
+        "media": "Xarope grosso de caldo de cana",
+        "dificil": "Fase antes da rapadura"
+      }
+    },
+    {
+      "palavra": "GLACÊ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cobertura branquinha que endurece no biscoito",
+        "media": "Cobertura de açúcar de confeiteiro",
+        "dificil": "Decora biscoitos de Natal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "tema": "Expressões populares",
+  "categoria": "Língua portuguesa",
+  "infantil": false,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "GATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Comprar ___ por lebre",
+        "media": "Ser enganado numa compra é levar esse bicho por lebre",
+        "dificil": "Felino do golpe na feira"
+      }
+    },
+    {
+      "palavra": "VACA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "A ___ foi para o brejo",
+        "media": "Quando tudo dá errado, ela foi para o brejo",
+        "dificil": "Malhada que atolou no ditado"
+      }
+    },
+    {
+      "palavra": "MÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mais vale um pássaro na ___ do que dois voando",
+        "media": "Melhor ter um pássaro nela que dois voando",
+        "dificil": "Parte do corpo do provérbio da garantia"
+      }
+    },
+    {
+      "palavra": "OLHOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Custar os ___ da cara",
+        "media": "O que algo caríssimo custa, da cara",
+        "dificil": "Par do rosto que paga o preço alto"
+      }
+    },
+    {
+      "palavra": "CÉU",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cair do ___",
+        "media": "Algo bom e inesperado caiu de lá",
+        "dificil": "Firmamento de onde vem a sorte"
+      }
+    },
+    {
+      "palavra": "ÁGUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ir por ___ abaixo",
+        "media": "Plano que fracassou foi por ela abaixo",
+        "dificil": "Líquido que leva os planos embora"
+      }
+    },
+    {
+      "palavra": "PULGA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Ficar com a ___ atrás da orelha",
+        "media": "Quem desconfia fica com ela atrás da orelha",
+        "dificil": "Inseto da desconfiança"
+      }
+    },
+    {
+      "palavra": "LUA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Viver no mundo da ___",
+        "media": "O distraído vive no mundo dela",
+        "dificil": "Satélite dos distraídos"
+      }
+    },
+    {
+      "palavra": "PEIXE",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Vender o seu ___",
+        "media": "Defender as próprias ideias é vendê-lo",
+        "dificil": "Mercadoria de quem faz propaganda de si"
+      }
+    },
+    {
+      "palavra": "NUVENS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Estar com a cabeça nas ___",
+        "media": "O sonhador anda com a cabeça nelas",
+        "dificil": "Onde mora a cabeça do distraído"
+      }
+    },
+    {
+      "palavra": "SAPO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Engolir ___",
+        "media": "Aguentar uma ofensa calado é engolir esse bicho",
+        "dificil": "Anfíbio engolido a contragosto"
+      }
+    },
+    {
+      "palavra": "OVOS",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pisar em ___",
+        "media": "Agir com muito cuidado é pisar neles",
+        "dificil": "Cascas frágeis sob os pés cautelosos"
+      }
+    },
+    {
+      "palavra": "PEDRA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Dormir como uma ___",
+        "media": "Ter sono pesadíssimo é dormir como ela",
+        "dificil": "Rocha que não acorda"
+      }
+    },
+    {
+      "palavra": "BOLA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pisar na ___",
+        "media": "Cometer um erro é pisar nela",
+        "dificil": "A redonda do vacilo"
+      }
+    },
+    {
+      "palavra": "PATO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pagar o ___",
+        "media": "Quem leva a culpa dos outros paga por ele",
+        "dificil": "Ave que paga a conta alheia"
+      }
+    },
+    {
+      "palavra": "FOGO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Brincar com ___",
+        "media": "Arriscar-se à toa é brincar com ele",
+        "dificil": "Chama perigosa do ditado"
+      }
+    },
+    {
+      "palavra": "AGULHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Procurar ___ no palheiro",
+        "media": "Busca quase impossível: ela no palheiro",
+        "dificil": "Objeto de costura perdido no feno"
+      }
+    },
+    {
+      "palavra": "CAVALO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Tirar o ___ da chuva",
+        "media": "Desistir de esperar algo é tirá-lo da chuva",
+        "dificil": "Montaria que sai do aguaceiro"
+      }
+    },
+    {
+      "palavra": "MACACO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada ___ no seu galho",
+        "media": "Cada um cuidando da sua vida, como ele no seu galho",
+        "dificil": "Primata que fica no próprio galho"
+      }
+    },
+    {
+      "palavra": "CÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "___ que ladra não morde",
+        "media": "Ditado: quem ameaça muito não faz nada",
+        "dificil": "Cachorro que só faz barulho"
+      }
+    },
+    {
+      "palavra": "PÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Comer o ___ que o diabo amassou",
+        "media": "Passar por grandes dificuldades",
+        "dificil": "Alimento amassado pelo capeta"
+      }
+    },
+    {
+      "palavra": "BOIS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dar nome aos ___",
+        "media": "Dizer claramente quem são os culpados",
+        "dificil": "Gado que finalmente ganha nome"
+      }
+    },
+    {
+      "palavra": "DERRAMADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chorar pelo leite ___",
+        "media": "Lamentar o que não tem mais volta",
+        "dificil": "Como fica o leite que caiu da mesa"
+      }
+    },
+    {
+      "palavra": "PANOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pôr ___ quentes",
+        "media": "Amenizar uma situação ou encobrir um erro",
+        "dificil": "Tecidos aquecidos que abafam a confusão"
+      }
+    },
+    {
+      "palavra": "FOCINHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Cara de um, ___ do outro",
+        "media": "Diz-se de duas pessoas muito parecidas",
+        "dificil": "Nariz do cachorro no ditado"
+      }
+    },
+    {
+      "palavra": "CACHORROS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Soltar os ___ em cima de alguém",
+        "media": "Brigar ou xingar com raiva",
+        "dificil": "Cães que se soltam na bronca"
+      }
+    },
+    {
+      "palavra": "BANHO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Um ___ de água fria",
+        "media": "Algo que acaba com a empolgação",
+        "dificil": "Ducha que desanima"
+      }
+    },
+    {
+      "palavra": "ESPETO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Em casa de ferreiro, o ___ é de pau",
+        "media": "Falta em casa o que se faz para os outros",
+        "dificil": "Utensílio de churrasco do ditado"
+      }
+    },
+    {
+      "palavra": "SANTO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Despir um ___ para vestir outro",
+        "media": "Resolver um problema criando outro",
+        "dificil": "Imagem do altar que fica sem roupa"
+      }
+    },
+    {
+      "palavra": "TOURO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pegar o ___ pelos chifres",
+        "media": "Enfrentar o problema de frente",
+        "dificil": "Animal da arena seguro pelos chifres"
+      }
+    },
+    {
+      "palavra": "BARBAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pôr as ___ de molho",
+        "media": "Ficar precavido ao ver o vizinho se dar mal",
+        "dificil": "Pelos do queixo que vão para o molho"
+      }
+    },
+    {
+      "palavra": "TEMPESTADE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Fazer ___ em copo d'água",
+        "media": "Exagerar um problema pequeno",
+        "dificil": "Temporal que cabe num copo"
+      }
+    },
+    {
+      "palavra": "FARINHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "___ do mesmo saco",
+        "media": "Pessoas iguais, quase sempre no mau sentido",
+        "dificil": "Pó que sai do mesmo saco"
+      }
+    },
+    {
+      "palavra": "ONÇA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Amigo da ___",
+        "media": "Falso amigo, que só atrapalha",
+        "dificil": "Felina pintada da falsa amizade"
+      }
+    },
+    {
+      "palavra": "INGLÊS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Só para ___ ver",
+        "media": "Feito só para aparentar, sem valer de verdade",
+        "dificil": "Estrangeiro que só olha a fachada"
+      }
+    },
+    {
+      "palavra": "GREGO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Isso para mim é ___",
+        "media": "Algo impossível de entender",
+        "dificil": "Idioma de Homero, incompreensível"
+      }
+    },
+    {
+      "palavra": "ESCANTEIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Chutar para ___",
+        "media": "Deixar algo ou alguém de lado",
+        "dificil": "Canto do campo onde vai o esquecido"
+      }
+    },
+    {
+      "palavra": "BURROS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Dar com os ___ n'água",
+        "media": "Fracassar num plano",
+        "dificil": "Jumentos que atolam no rio"
+      }
+    },
+    {
+      "palavra": "CHUTEIRAS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pendurar as ___",
+        "media": "Aposentar-se",
+        "dificil": "Calçado do jogador que vai para o prego"
+      }
+    },
+    {
+      "palavra": "BUGALHOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Confundir alhos com ___",
+        "media": "Misturar coisas que não têm nada a ver",
+        "dificil": "Galhas do carvalho trocadas pelo tempero"
+      }
+    },
+    {
+      "palavra": "TRANCA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Casa arrombada, ___ de ferro",
+        "media": "Tomar cuidado só depois do prejuízo",
+        "dificil": "Ferrolho que chega tarde"
+      }
+    },
+    {
+      "palavra": "CALENDAS",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Deixar para as ___ gregas",
+        "media": "Adiar para um dia que nunca vai chegar",
+        "dificil": "Primeiro dia do mês romano"
+      }
+    },
+    {
+      "palavra": "VEDETE",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Mais por fora que umbigo de ___",
+        "media": "Totalmente desinformado",
+        "dificil": "Estrela do teatro de revista"
+      }
+    },
+    {
+      "palavra": "MOURO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Trabalhar como um ___",
+        "media": "Trabalhar sem descanso",
+        "dificil": "Povo norte-africano que ocupou a Península Ibérica"
+      }
+    },
+    {
+      "palavra": "JUDAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Onde ___ perdeu as botas",
+        "media": "Lugar muito distante e de difícil acesso",
+        "dificil": "Apóstolo traidor do ditado"
+      }
+    },
+    {
+      "palavra": "TROIANOS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Agradar a gregos e ___",
+        "media": "Agradar a todos os lados",
+        "dificil": "Povo da guerra do cavalo de madeira"
+      }
+    },
+    {
+      "palavra": "RAPADURA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "___ é doce, mas não é mole",
+        "media": "Coisa boa também dá trabalho",
+        "dificil": "Tijolo de açúcar mascavo"
+      }
+    },
+    {
+      "palavra": "CONTA-GOTAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Dar algo a ___",
+        "media": "Dar aos pouquinhos",
+        "dificil": "Frasco de remédio que pinga"
+      }
+    },
+    {
+      "palavra": "ESTRIBEIRAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Perder as ___",
+        "media": "Perder a paciência e o controle",
+        "dificil": "Apoios do cavaleiro que se perdem na raiva"
+      }
+    },
+    {
+      "palavra": "ÉGUA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Lavar a ___",
+        "media": "Ganhar muito, aproveitar ao máximo",
+        "dificil": "Fêmea do cavalo que toma banho"
+      }
+    }
+  ]
+}

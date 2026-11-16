@@ -10,14 +10,19 @@ import 'tema.dart';
 /// grade que encaixou mais palavras. Tudo depende só da [semente], então a
 /// mesma semente gera sempre a mesma grade (base do desafio diário).
 class GeradorCruzadas {
-  const GeradorCruzadas({this.tentativas = 60});
+  const GeradorCruzadas({this.tentativas = 60, this.limiteCandidatas = 150});
 
   final int tentativas;
+
+  /// Quantas palavras cada tentativa testa, no máximo. Com "Misturado" há
+  /// milhares de candidatas; testar todas deixaria a grade lenta de montar.
+  final int limiteCandidatas;
 
   DesafioCruzadas gerar({
     required List<Tema> temas,
     required Nivel nivel,
     required int semente,
+    String? diario,
   }) {
     final candidatas = _candidatas(temas, nivel);
     if (candidatas.length < 2) {
@@ -26,7 +31,9 @@ class GeradorCruzadas {
     final aleatorio = Random(semente);
     _Tentativa? melhor;
     for (var t = 0; t < tentativas; t++) {
-      final ordem = [...candidatas]..shuffle(aleatorio);
+      final ordem = ([
+        ...candidatas,
+      ]..shuffle(aleatorio)).take(limiteCandidatas).toList();
       final tentativa = _Tentativa(nivel.tamanhoGrade)
         ..preencher(ordem, nivel.metaPalavras, aleatorio);
       if (melhor == null || tentativa.melhorQue(melhor)) melhor = tentativa;
@@ -37,6 +44,7 @@ class GeradorCruzadas {
       nivel: nivel,
       temas: temas.map((t) => t.id).toList(),
       semente: semente,
+      diario: diario,
       palavras: melhor!.numerar(nivel),
     );
   }

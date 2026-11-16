@@ -9,7 +9,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Tem cinco dedos",
-        "media": "Extremidade do braço"
+        "media": "Extremidade do braço",
+        "dificil": "Tem palma e dorso"
       }
     },
     {
@@ -17,7 +18,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Órgão que faz o xixi",
-        "media": "Órgão que filtra o sangue"
+        "media": "Órgão que filtra o sangue",
+        "dificil": "Feijão do aparelho urinário"
       }
     },
     {
@@ -25,7 +27,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para ver",
-        "media": "Órgão da visão"
+        "media": "Órgão da visão",
+        "dificil": "Janela da alma"
       }
     },
     {
@@ -33,7 +36,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para comer e falar",
-        "media": "Abertura do rosto"
+        "media": "Abertura do rosto",
+        "dificil": "Tem lábios e gengiva"
       }
     },
     {
@@ -41,7 +45,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "A mão tem cinco",
-        "media": "Extremidade da mão ou do pé"
+        "media": "Extremidade da mão ou do pé",
+        "dificil": "Polegar e mindinho são exemplos"
       }
     },
     {
@@ -49,7 +54,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Parte dura dentro do corpo",
-        "media": "Peça do esqueleto"
+        "media": "Peça do esqueleto",
+        "dificil": "Rico em cálcio"
       }
     },
     {
@@ -57,7 +63,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Cobre o corpo todo",
-        "media": "Maior órgão do corpo"
+        "media": "Maior órgão do corpo",
+        "dificil": "Tem epiderme e derme"
       }
     },
     {
@@ -65,7 +72,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fica na ponta do dedo",
-        "media": "Lâmina na ponta dos dedos"
+        "media": "Lâmina na ponta dos dedos",
+        "dificil": "Feita de queratina"
       }
     },
     {
@@ -73,7 +81,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Por onde o sangue passa",
-        "media": "Vaso que leva o sangue ao coração"
+        "media": "Vaso que leva o sangue ao coração",
+        "dificil": "A jugular é uma"
       }
     },
     {
@@ -81,7 +90,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para cheirar",
-        "media": "Órgão do olfato"
+        "media": "Órgão do olfato",
+        "dificil": "Tem narinas e septo"
       }
     },
     {
@@ -89,7 +99,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para mastigar",
-        "media": "Estrutura dura da boca"
+        "media": "Estrutura dura da boca",
+        "dificil": "Canino, molar ou incisivo"
       }
     },
     {
@@ -97,7 +108,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fica entre o ombro e a mão",
-        "media": "Membro superior"
+        "media": "Membro superior",
+        "dificil": "Tem bíceps e tríceps"
       }
     },
     {
@@ -105,7 +117,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para andar",
-        "media": "Membro inferior"
+        "media": "Membro inferior",
+        "dificil": "Tem coxa e canela"
       }
     },
     {
@@ -113,7 +126,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Onde o braço começa",
-        "media": "Junta do braço com o tronco"
+        "media": "Junta do braço com o tronco",
+        "dificil": "Onde se apoia quem precisa de consolo"
       }
     },
     {
@@ -121,7 +135,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fica acima dos olhos",
-        "media": "Parte de cima do rosto"
+        "media": "Parte de cima do rosto",
+        "dificil": "Fronte"
       }
     },
     {
@@ -129,7 +144,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Cresce na cabeça",
-        "media": "Pelos da cabeça"
+        "media": "Pelos da cabeça",
+        "dificil": "Madeixa"
       }
     },
     {
@@ -137,7 +153,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Por onde ouvimos",
-        "media": "Parte externa do ouvido"
+        "media": "Parte externa do ouvido",
+        "dificil": "Tem lóbulo e pavilhão"
       }
     },
     {
@@ -145,7 +162,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Dobra no meio da perna",
-        "media": "Articulação da perna"
+        "media": "Articulação da perna",
+        "dificil": "Fica coberto pela patela"
       }
     },
     {
@@ -153,7 +171,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Parte de trás do corpo",
-        "media": "Dorso"
+        "media": "Dorso",
+        "dificil": "Região dorsal"
       }
     },
     {
@@ -161,7 +180,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para respirar",
-        "media": "Órgão da respiração"
+        "media": "Órgão da respiração",
+        "dificil": "Cheio de alvéolos"
       }
     },
     {
@@ -169,7 +189,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Líquido vermelho do corpo",
-        "media": "Líquido que circula nas veias"
+        "media": "Líquido que circula nas veias",
+        "dificil": "Tem glóbulos vermelhos e plaquetas"
       }
     },
     {
@@ -177,7 +198,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Sente o gosto da comida",
-        "media": "Órgão do paladar"
+        "media": "Órgão do paladar",
+        "dificil": "Também é o idioma de um povo"
       }
     },
     {
@@ -185,7 +207,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fica embaixo da boca",
-        "media": "Parte de baixo do rosto"
+        "media": "Parte de baixo do rosto",
+        "dificil": "Mento"
       }
     },
     {
@@ -193,7 +216,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Buraquinho na barriga",
-        "media": "Cicatriz no centro da barriga"
+        "media": "Cicatriz no centro da barriga",
+        "dificil": "Lembrança do cordão do nascimento"
       }
     },
     {
@@ -201,7 +225,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Fica abaixo do peito",
-        "media": "Abdome"
+        "media": "Abdome",
+        "dificil": "Ventre, pança"
       }
     },
     {
@@ -209,7 +234,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Bate dentro do peito",
-        "media": "Órgão que bombeia o sangue"
+        "media": "Órgão que bombeia o sangue",
+        "dificil": "Tem átrios e ventrículos"
       }
     },
     {
@@ -217,7 +243,8 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Usamos para pensar",
-        "media": "Órgão do pensamento"
+        "media": "Órgão do pensamento",
+        "dificil": "Massa cinzenta"
       }
     },
     {
@@ -225,15 +252,17 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Liga a cabeça ao corpo",
-        "media": "Liga a cabeça ao tronco"
+        "media": "Liga a cabeça ao tronco",
+        "dificil": "Onde fica o gogó"
       }
     },
     {
       "palavra": "CINTURA",
       "dificuldade": 1,
       "dicas": {
-        "leve": "Onde se usa o cinto",
-        "media": "Parte do corpo onde se usa o cinto"
+        "leve": "Onde a calça fica presa",
+        "media": "Parte do tronco logo acima do quadril",
+        "dificil": "Medida que define o tamanho da calça"
       }
     },
     {
@@ -241,7 +270,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Fica forte com exercício",
-        "media": "Tecido que permite o movimento"
+        "media": "Tecido que permite o movimento",
+        "dificil": "O bíceps é um"
       }
     },
     {
@@ -249,7 +279,8 @@
       "dificuldade": 2,
       "dicas": {
         "leve": "Para onde vai a comida que engolimos",
-        "media": "Órgão da digestão"
+        "media": "Órgão da digestão",
+        "dificil": "Bolsa do suco gástrico"
       }
     },
     {
@@ -257,7 +288,179 @@
       "dificuldade": 1,
       "dicas": {
         "leve": "Dobra no meio do braço",
-        "media": "Articulação do braço"
+        "media": "Articulação do braço",
+        "dificil": "Dói de ciúme, diz o ditado"
+      }
+    },
+    {
+      "palavra": "ESQUELETO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Todos os ossos juntos",
+        "media": "Conjunto dos ossos",
+        "dificil": "Tem 206 peças no adulto"
+      }
+    },
+    {
+      "palavra": "SOBRANCELHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pelinhos acima dos olhos",
+        "media": "Arco de pelos sobre o olho",
+        "dificil": "Os cílios moram logo abaixo dela"
+      }
+    },
+    {
+      "palavra": "BOCHECHA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte fofinha do rosto",
+        "media": "Parte lateral do rosto",
+        "dificil": "Fica vermelha de vergonha"
+      }
+    },
+    {
+      "palavra": "CALCANHAR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Parte de trás do pé",
+        "media": "Região posterior do pé",
+        "dificil": "O de Aquiles era seu ponto fraco"
+      }
+    },
+    {
+      "palavra": "INTESTINO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Tubo comprido da barriga por onde passa a comida",
+        "media": "Órgão que absorve os nutrientes",
+        "dificil": "Pode ser delgado ou grosso"
+      }
+    },
+    {
+      "palavra": "FÍGADO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Órgão grande do lado direito da barriga",
+        "media": "Glândula que produz a bile",
+        "dificil": "A maior glândula do corpo"
+      }
+    },
+    {
+      "palavra": "PUPILA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Bolinha preta no meio do olho",
+        "media": "Abertura central da íris",
+        "dificil": "Também quer dizer aluna"
+      }
+    },
+    {
+      "palavra": "PÂNCREAS",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Órgão perto do estômago que ajuda na digestão",
+        "media": "Glândula que produz insulina",
+        "dificil": "Suas ilhotas regulam o açúcar do sangue"
+      }
+    },
+    {
+      "palavra": "CLAVÍCULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Osso entre o pescoço e o ombro",
+        "media": "Osso que liga o esterno à escápula",
+        "dificil": "Osso fino do colo"
+      }
+    },
+    {
+      "palavra": "FÊMUR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Osso da coxa",
+        "media": "O maior osso do corpo",
+        "dificil": "Encaixa no quadril"
+      }
+    },
+    {
+      "palavra": "TÍMPANO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pele fininha dentro do ouvido",
+        "media": "Membrana entre o ouvido externo e o médio",
+        "dificil": "Vibra quando o som chega"
+      }
+    },
+    {
+      "palavra": "RÓTULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Ossinho na frente do joelho",
+        "media": "Patela",
+        "dificil": "Osso arredondado que protege a articulação da perna"
+      }
+    },
+    {
+      "palavra": "DIAFRAGMA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Músculo que ajuda a respirar",
+        "media": "Músculo entre o tórax e o abdome",
+        "dificil": "Também regula a luz na câmera"
+      }
+    },
+    {
+      "palavra": "TRAQUEIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tubo por onde o ar vai aos pulmões",
+        "media": "Canal que leva o ar aos brônquios",
+        "dificil": "Tubo de cartilagem abaixo da laringe"
+      }
+    },
+    {
+      "palavra": "ESÔFAGO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Tubo por onde a comida desce",
+        "media": "Canal entre a faringe e o estômago",
+        "dificil": "Via do bolo alimentar"
+      }
+    },
+    {
+      "palavra": "RETINA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Fundo do olho que capta a luz",
+        "media": "Camada do olho sensível à luz",
+        "dificil": "Tem cones e bastonetes"
+      }
+    },
+    {
+      "palavra": "VÉRTEBRA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cada ossinho da coluna",
+        "media": "Peça óssea da espinha dorsal",
+        "dificil": "A coluna tem 33 delas"
+      }
+    },
+    {
+      "palavra": "MANDÍBULA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Osso do queixo que mexe ao mastigar",
+        "media": "Único osso móvel do crânio",
+        "dificil": "Maxilar inferior"
+      }
+    },
+    {
+      "palavra": "ESTERNO",
+      "dificuldade": 4,
+      "dicas": {
+        "leve": "Osso no meio do peito",
+        "media": "Osso plano do centro do tórax",
+        "dificil": "Onde se prendem as costelas da frente"
       }
     }
   ]

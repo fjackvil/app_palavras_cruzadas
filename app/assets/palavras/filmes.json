@@ -1,0 +1,449 @@
+{
+  "tema": "Filmes",
+  "categoria": "Cinema e TV",
+  "infantil": true,
+  "premium": true,
+  "palavras": [
+    {
+      "palavra": "CINEMA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Lugar com tela gigante onde assistimos a histórias",
+        "media": "Sala de exibição de filmes",
+        "dificil": "A sétima arte"
+      }
+    },
+    {
+      "palavra": "TELA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Onde a imagem aparece na sala escura",
+        "media": "Superfície onde o filme é projetado",
+        "dificil": "Fica branca antes de a sessão começar"
+      }
+    },
+    {
+      "palavra": "PIPOCA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Milho estourado que comemos vendo filme",
+        "media": "Petisco clássico das salas de exibição",
+        "dificil": "Grão que pula na panela quente"
+      }
+    },
+    {
+      "palavra": "ATOR",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Homem que faz um personagem no filme",
+        "media": "Intérprete masculino de um papel",
+        "dificil": "Vive outras vidas diante da câmera"
+      }
+    },
+    {
+      "palavra": "ATRIZ",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Mulher que faz uma personagem no filme",
+        "media": "Intérprete feminina de um papel",
+        "dificil": "Disputa o prêmio de melhor interpretação feminina"
+      }
+    },
+    {
+      "palavra": "VILÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O malvado da história",
+        "media": "Personagem que se opõe ao herói",
+        "dificil": "Antagonista que a plateia adora vaiar"
+      }
+    },
+    {
+      "palavra": "HERÓI",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Personagem corajoso que salva todo mundo",
+        "media": "Protagonista valente",
+        "dificil": "O mocinho da aventura"
+      }
+    },
+    {
+      "palavra": "FILA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Pessoas esperando, uma atrás da outra, para entrar",
+        "media": "Fileira de espera na bilheteria",
+        "dificil": "Respeita a ordem de chegada"
+      }
+    },
+    {
+      "palavra": "CENA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Um pedacinho da história do filme",
+        "media": "Trecho gravado num mesmo lugar e tempo",
+        "dificil": "Fazer uma é dar escândalo"
+      }
+    },
+    {
+      "palavra": "FINAL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Como a história termina",
+        "media": "Desfecho da trama",
+        "dificil": "Pode ser feliz ou surpreendente"
+      }
+    },
+    {
+      "palavra": "SESSÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Cada horário em que o filme passa no cinema",
+        "media": "Exibição marcada para certa hora",
+        "dificil": "A matinê é a da tarde"
+      }
+    },
+    {
+      "palavra": "CÂMERA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Aparelho que grava as imagens",
+        "media": "Equipamento de filmagem",
+        "dificil": "Fica ligada quando o diretor grita \"gravando!\""
+      }
+    },
+    {
+      "palavra": "AÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O diretor grita isso para começar a filmar",
+        "media": "Gênero de perseguições e muita correria",
+        "dificil": "Oposto de inércia, em cena"
+      }
+    },
+    {
+      "palavra": "PAPEL",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "O personagem que o ator vai fazer",
+        "media": "Personagem interpretado por alguém",
+        "dificil": "Folha que também pode ser \"de protagonista\""
+      }
+    },
+    {
+      "palavra": "COMÉDIA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filme feito para fazer rir",
+        "media": "Gênero humorístico",
+        "dificil": "Lugar de gargalhadas na sala escura"
+      }
+    },
+    {
+      "palavra": "AVENTURA",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filme cheio de viagens, mapas e desafios",
+        "media": "Gênero de expedições e descobertas",
+        "dificil": "Tem tesouro escondido e muitos perigos"
+      }
+    },
+    {
+      "palavra": "ANIMAÇÃO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Filme com desenhos que se mexem",
+        "media": "Técnica que dá movimento a desenhos",
+        "dificil": "Pode ser feita quadro a quadro"
+      }
+    },
+    {
+      "palavra": "INGRESSO",
+      "dificuldade": 1,
+      "dicas": {
+        "leve": "Bilhete para entrar na sala do filme",
+        "media": "Entrada paga para a sessão",
+        "dificil": "Comprado na bilheteria"
+      }
+    },
+    {
+      "palavra": "DRAMA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Filme com histórias sérias e emocionantes",
+        "media": "Gênero de conflitos intensos",
+        "dificil": "Costuma fazer a plateia chorar"
+      }
+    },
+    {
+      "palavra": "ROTEIRO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto com as falas e as cenas do filme",
+        "media": "Script da obra",
+        "dificil": "Também é o plano de uma viagem"
+      }
+    },
+    {
+      "palavra": "ESTREIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Primeiro dia em que o filme passa",
+        "media": "Lançamento nas salas",
+        "dificil": "Noite de tapete vermelho"
+      }
+    },
+    {
+      "palavra": "ELENCO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Todos os atores de um filme",
+        "media": "Conjunto de intérpretes",
+        "dificil": "Lista de nomes nos créditos"
+      }
+    },
+    {
+      "palavra": "CENÁRIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar montado onde a história é gravada",
+        "media": "Ambientação construída para as filmagens",
+        "dificil": "Às vezes é só madeira pintada"
+      }
+    },
+    {
+      "palavra": "FIGURINO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "As roupas que os atores usam",
+        "media": "Vestuário dos personagens",
+        "dificil": "Trabalho de quem costura para a cena"
+      }
+    },
+    {
+      "palavra": "DIRETOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pessoa que manda nas gravações",
+        "media": "Quem comanda a filmagem",
+        "dificil": "Grita \"corta!\" no set"
+      }
+    },
+    {
+      "palavra": "TRAILER",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Pedacinho do filme mostrado antes do lançamento",
+        "media": "Prévia de divulgação",
+        "dificil": "Passa antes da sessão para atrair público"
+      }
+    },
+    {
+      "palavra": "ESTÚDIO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Galpão enorme onde se gravam filmes",
+        "media": "Local de produção audiovisual",
+        "dificil": "Hollywood tem vários famosos"
+      }
+    },
+    {
+      "palavra": "PLATEIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "As pessoas que estão assistindo",
+        "media": "Público presente na sala",
+        "dificil": "Aplaude quando os créditos sobem"
+      }
+    },
+    {
+      "palavra": "LEGENDA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Texto embaixo da imagem traduzindo as falas",
+        "media": "Tradução escrita dos diálogos",
+        "dificil": "Alternativa à dublagem"
+      }
+    },
+    {
+      "palavra": "DUBLAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quando as vozes são trocadas para o nosso idioma",
+        "media": "Gravação das falas em outra língua",
+        "dificil": "Alternativa à legenda"
+      }
+    },
+    {
+      "palavra": "SUSPENSE",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Filme que deixa a gente curioso e nervoso",
+        "media": "Gênero de tensão e mistério",
+        "dificil": "Hitchcock era mestre nele"
+      }
+    },
+    {
+      "palavra": "FICÇÃO",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "História inventada",
+        "media": "Narrativa imaginária",
+        "dificil": "Científica, se tem naves e robôs"
+      }
+    },
+    {
+      "palavra": "CRÉDITOS",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lista de nomes no fim do filme",
+        "media": "Letreiro com toda a equipe",
+        "dificil": "Sobem na tela quando acaba"
+      }
+    },
+    {
+      "palavra": "PROJETOR",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Aparelho que joga a imagem na tela",
+        "media": "Máquina de exibição",
+        "dificil": "Fica numa cabine no fundo da sala"
+      }
+    },
+    {
+      "palavra": "TRILHA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "A sonora tem as músicas do filme",
+        "media": "Conjunto musical de uma obra (com \"sonora\")",
+        "dificil": "Também é caminho estreito no mato"
+      }
+    },
+    {
+      "palavra": "BILHETERIA",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Lugar onde se compra o ingresso",
+        "media": "Guichê de venda de entradas",
+        "dificil": "Também mede o sucesso comercial"
+      }
+    },
+    {
+      "palavra": "PERSONAGEM",
+      "dificuldade": 2,
+      "dicas": {
+        "leve": "Quem vive a história, como o herói ou o vilão",
+        "media": "Figura da ficção",
+        "dificil": "O ator lhe dá corpo e voz"
+      }
+    },
+    {
+      "palavra": "PRODUTOR",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que organiza e consegue dinheiro para o filme",
+        "media": "Responsável pelos recursos da obra",
+        "dificil": "Sobe ao palco quando ganha melhor filme"
+      }
+    },
+    {
+      "palavra": "ROTEIRISTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que escreve a história do filme",
+        "media": "Autor do texto e dos diálogos",
+        "dificil": "Escritor das cenas antes da filmagem"
+      }
+    },
+    {
+      "palavra": "CINEASTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pessoa que faz filmes",
+        "media": "Realizador de obras audiovisuais",
+        "dificil": "Autor de longas e curtas"
+      }
+    },
+    {
+      "palavra": "DOCUMENTÁRIO",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Filme que mostra fatos e pessoas reais",
+        "media": "Obra de não ficção",
+        "dificil": "Registra a realidade em vez de inventar"
+      }
+    },
+    {
+      "palavra": "CLAQUETE",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Plaquinha que bate antes de gravar a cena",
+        "media": "Quadro que identifica cada tomada",
+        "dificil": "Faz um estalo antes do \"gravando!\""
+      }
+    },
+    {
+      "palavra": "TOMADA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cada vez que a cena é gravada",
+        "media": "Registro contínuo de câmera",
+        "dificil": "Também é onde se liga o carregador"
+      }
+    },
+    {
+      "palavra": "MONTAGEM",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Juntar os pedaços gravados na ordem certa",
+        "media": "Edição das cenas",
+        "dificil": "Arte de cortar e colar imagens"
+      }
+    },
+    {
+      "palavra": "SEQUÊNCIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Filme que continua a história de outro",
+        "media": "Continuação de um sucesso",
+        "dificil": "Parte dois"
+      }
+    },
+    {
+      "palavra": "CURTA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Filme de poucos minutos",
+        "media": "Obra de pequena duração",
+        "dificil": "Oposto do longa-metragem"
+      }
+    },
+    {
+      "palavra": "ESTATUETA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Pequeno troféu em forma de boneco",
+        "media": "Prêmio dado aos vencedores",
+        "dificil": "A dourada é o sonho de todo ator"
+      }
+    },
+    {
+      "palavra": "MATINÊ",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Sessão de cinema à tarde",
+        "media": "Exibição vespertina",
+        "dificil": "Vem do francês \"matin\", manhã"
+      }
+    },
+    {
+      "palavra": "FOTOGRAFIA",
+      "dificuldade": 3,
+      "dicas": {
+        "leve": "Cuida da luz e das cores das imagens",
+        "media": "Área do filme comandada pelo diretor de imagem",
+        "dificil": "Também é retrato feito com câmera"
+      }
+    }
+  ]
+}
