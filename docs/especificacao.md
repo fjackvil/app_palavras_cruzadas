@@ -99,12 +99,14 @@ Cada desafio registra pontos, tempo, dicas usadas e estado (em andamento, desist
 
 O segundo modo de jogo usa os mesmos temas e a mesma biblioteca de palavras: o jogador acha as palavras escondidas numa grade de letras, arrastando o dedo sobre elas. É mais fácil que as cruzadas, então é uma boa porta de entrada para crianças.
 
-| Nível | Grade | Palavras | Direções | Lista |
-| --- | --- | --- | --- | --- |
-| Leve | 8×8 | 6 | Horizontal e vertical, só para a frente | Palavras visíveis |
-| Médio | 10×10 | 8 | + diagonal | Palavras visíveis |
-| Difícil | 12×12 | 10 | + de trás para a frente | Palavras visíveis |
-| Super difícil | 12×12 | 12 | Todas as direções | Só as dicas, sem as palavras |
+| Nível | Grade | Palavras | Lista |
+| --- | --- | --- | --- |
+| Leve | 8×8 | 6 | Palavras visíveis |
+| Médio | 10×10 | 8 | Palavras visíveis |
+| Difícil | 12×12 | 10 | Palavras visíveis |
+| Super difícil | 12×12 | 12 | Só as dicas, sem as palavras |
+
+- Em todos os níveis as palavras podem estar em qualquer uma das 8 direções: horizontal, vertical e diagonal, para a frente e de trás para a frente (decidido em 16/11/2026).
 
 - Ao achar uma palavra, ela ganha uma cor e é riscada na lista.
 - Pontuação, cronômetro, dica (revela a primeira letra da palavra, custando pontos), desistir e pendentes funcionam igual às cruzadas.

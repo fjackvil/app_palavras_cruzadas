@@ -53,20 +53,16 @@ class RegrasCaca {
   /// Usado para o tempo-alvo do bônus de tempo.
   final int segundosPorPalavra;
 
-  static const _paraFrente = [Direcao.direita, Direcao.baixo];
-  static const _comDiagonal = [
-    Direcao.direita,
-    Direcao.baixo,
-    Direcao.diagonalDesce,
-    Direcao.diagonalSobe,
-  ];
-  static const _comVolta = [..._comDiagonal, Direcao.esquerda, Direcao.cima];
+  /// Em todos os níveis as palavras podem estar em qualquer uma das 8
+  /// direções (decisão do Fernando em 16/11/2026); o nível muda o tamanho
+  /// da grade, a quantidade de palavras e a lista.
+  static const todasDirecoes = Direcao.values;
 
   static RegrasCaca de(Nivel nivel) => switch (nivel) {
     Nivel.leve => const RegrasCaca(
       tamanho: 8,
       quantidade: 6,
-      direcoes: _paraFrente,
+      direcoes: todasDirecoes,
       mostrarPalavras: true,
       minLetras: 3,
       segundosPorPalavra: 30,
@@ -74,7 +70,7 @@ class RegrasCaca {
     Nivel.medio => const RegrasCaca(
       tamanho: 10,
       quantidade: 8,
-      direcoes: _comDiagonal,
+      direcoes: todasDirecoes,
       mostrarPalavras: true,
       minLetras: 4,
       segundosPorPalavra: 30,
@@ -82,7 +78,7 @@ class RegrasCaca {
     Nivel.dificil => const RegrasCaca(
       tamanho: 12,
       quantidade: 10,
-      direcoes: _comVolta,
+      direcoes: todasDirecoes,
       mostrarPalavras: true,
       minLetras: 4,
       segundosPorPalavra: 30,
@@ -90,7 +86,7 @@ class RegrasCaca {
     Nivel.superDificil => const RegrasCaca(
       tamanho: 12,
       quantidade: 12,
-      direcoes: Direcao.values,
+      direcoes: todasDirecoes,
       mostrarPalavras: false,
       minLetras: 4,
       segundosPorPalavra: 45,

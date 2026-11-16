@@ -52,6 +52,21 @@ void main() {
     });
   }
 
+  test('todos os níveis usam as 8 direções', () {
+    for (final nivel in Nivel.values) {
+      final usadas = <Direcao>{};
+      for (var s = 0; s < 30; s++) {
+        final d = const GeradorCaca().gerar(
+          temas: temas,
+          nivel: nivel,
+          semente: s,
+        );
+        usadas.addAll(d.palavras.map((p) => p.direcao));
+      }
+      expect(usadas, Direcao.values.toSet(), reason: nivel.nome);
+    }
+  });
+
   test('mesma semente, mesma grade; JSON de ida e volta', () {
     final a = const GeradorCaca().gerar(
       temas: temas,
