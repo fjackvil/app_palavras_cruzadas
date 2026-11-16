@@ -29,28 +29,55 @@ class TelaPerfis extends StatelessWidget {
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
               const SizedBox(height: 4),
-              const Text('Os jogadores ficam guardados só neste celular.'),
+              Text(
+                perfis.isEmpty
+                    ? 'Crie um jogador para começar. Ele fica guardado só neste celular.'
+                    : 'Toque em Jogar ao lado do seu nome.',
+              ),
               const SizedBox(height: 16),
               for (final perfil in perfis)
                 Card(
-                  child: ListTile(
-                    leading: Text(
-                      perfil.avatar,
-                      style: const TextStyle(fontSize: 32),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 8, 4, 8),
+                    child: Row(
+                      children: [
+                        Text(
+                          perfil.avatar,
+                          style: const TextStyle(fontSize: 36),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Text(
+                            perfil.nome,
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                        ),
+                        FilledButton.icon(
+                          icon: const Icon(Icons.play_arrow),
+                          label: const Text('Jogar'),
+                          onPressed: () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => TelaInicio(perfilId: perfil.id),
+                            ),
+                          ),
+                        ),
+                        PopupMenuButton<String>(
+                          tooltip: 'Mais opções',
+                          onSelected: (_) => _confirmarApagar(context, perfil),
+                          itemBuilder: (_) => const [
+                            PopupMenuItem(
+                              value: 'apagar',
+                              child: Text('Apagar jogador'),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
-                    title: Text(perfil.nome),
-                    trailing: const Icon(Icons.chevron_right),
-                    onTap: () => Navigator.of(context).push(
-                      MaterialPageRoute<void>(
-                        builder: (_) => TelaInicio(perfilId: perfil.id),
-                      ),
-                    ),
-                    onLongPress: () => _confirmarApagar(context, perfil),
                   ),
                 ),
               const SizedBox(height: 8),
               if (perfis.length < Banco.maxPerfis)
-                FilledButton.icon(
+                (perfis.isEmpty ? FilledButton.icon : OutlinedButton.icon)(
                   icon: const Icon(Icons.person_add),
                   label: const Text('Novo jogador'),
                   onPressed: () => Navigator.of(context).push(

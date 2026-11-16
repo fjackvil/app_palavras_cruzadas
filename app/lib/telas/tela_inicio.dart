@@ -92,12 +92,17 @@ class _TelaInicioState extends State<TelaInicio> {
         }
         return Scaffold(
           appBar: AppBar(
-            leading: IconButton(
-              tooltip: 'Trocar de jogador',
-              icon: Text(perfil.avatar, style: const TextStyle(fontSize: 24)),
-              onPressed: () => Navigator.of(context).pop(),
+            // Seta de voltar padrão: volta para a lista de jogadores.
+            leading: const BackButton(),
+            title: Row(
+              children: [
+                Text(perfil.avatar, style: const TextStyle(fontSize: 24)),
+                const SizedBox(width: 8),
+                Flexible(
+                  child: Text(perfil.nome, overflow: TextOverflow.ellipsis),
+                ),
+              ],
             ),
-            title: Text(perfil.nome),
             actions: [
               StreamBuilder<int>(
                 stream: banco.observarTotalPontos(perfil.id),
