@@ -1,6 +1,6 @@
-import 'package:cruzaletra/app.dart';
-import 'package:cruzaletra/dados/banco.dart';
-import 'package:cruzaletra/dominio/tema.dart';
+import 'package:palavras_cruzadas/app.dart';
+import 'package:palavras_cruzadas/dados/banco.dart';
+import 'package:palavras_cruzadas/dominio/tema.dart';
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -8,7 +8,7 @@ void main() {
   testWidgets('abre pedindo o primeiro jogador', (tester) async {
     final banco = Banco(NativeDatabase.memory());
     await tester.pumpWidget(
-      CruzaLetraApp(banco: banco, temas: RepositorioTemas()),
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
     );
     await tester.pumpAndSettle();
     expect(find.text('Bem-vindo!'), findsOneWidget);

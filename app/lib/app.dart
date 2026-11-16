@@ -32,8 +32,12 @@ class Servicos extends InheritedWidget {
       banco != oldWidget.banco || temas != oldWidget.temas;
 }
 
-class CruzaLetraApp extends StatelessWidget {
-  const CruzaLetraApp({super.key, required this.banco, required this.temas});
+class PalavrasCruzadasApp extends StatelessWidget {
+  const PalavrasCruzadasApp({
+    super.key,
+    required this.banco,
+    required this.temas,
+  });
 
   final Banco banco;
   final RepositorioTemas temas;
@@ -44,7 +48,7 @@ class CruzaLetraApp extends StatelessWidget {
       banco: banco,
       temas: temas,
       child: MaterialApp(
-        title: 'Cruza Letra',
+        title: 'Palavras Cruzadas',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: CoresMarca.verde),

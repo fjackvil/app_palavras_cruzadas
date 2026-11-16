@@ -13,7 +13,8 @@ class TelaPerfis extends StatelessWidget {
   Widget build(BuildContext context) {
     final banco = Servicos.of(context).banco;
     return Scaffold(
-      appBar: AppBar(title: const Text('Cruza Letra')),
+      appBar: AppBar(title: const Text('Palavras Cruzadas')),
+      bottomNavigationBar: const _Marca(),
       body: StreamBuilder<List<Perfil>>(
         stream: banco.observarPerfis(),
         builder: (context, snapshot) {
@@ -117,5 +118,32 @@ class TelaPerfis extends StatelessWidget {
       ),
     );
     if (apagar == true) await banco.apagarPerfil(perfil.id);
+  }
+}
+
+/// Assinatura da Vilela Digit no rodapé da tela de jogadores.
+class _Marca extends StatelessWidget {
+  const _Marca();
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/marca/vilela.png',
+              height: 28,
+              semanticLabel: 'Logo da Vilela Digit',
+            ),
+            const SizedBox(width: 8),
+            Text('Vilela Digit', style: Theme.of(context).textTheme.titleSmall),
+          ],
+        ),
+      ),
+    );
   }
 }

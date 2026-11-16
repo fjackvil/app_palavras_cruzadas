@@ -1,4 +1,4 @@
-import 'package:cruzaletra/dominio/texto.dart';
+import 'package:palavras_cruzadas/dominio/texto.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

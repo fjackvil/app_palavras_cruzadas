@@ -1,4 +1,4 @@
-# Cruza Letra
+# Palavras Cruzadas
 
 App Android de palavras cruzadas e caça-palavras para todas as idades, por Vilela Digit.
 

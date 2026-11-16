@@ -1,6 +1,6 @@
-import 'package:cruzaletra/dominio/desafio.dart';
-import 'package:cruzaletra/dominio/gerador_cruzadas.dart';
-import 'package:cruzaletra/dominio/nivel.dart';
+import 'package:palavras_cruzadas/dominio/desafio.dart';
+import 'package:palavras_cruzadas/dominio/gerador_cruzadas.dart';
+import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../apoio.dart';

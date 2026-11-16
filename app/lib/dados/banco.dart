@@ -55,7 +55,7 @@ class Partidas extends Table {
 @DriftDatabase(tables: [Perfis, Partidas])
 class Banco extends _$Banco {
   Banco([QueryExecutor? executor])
-    : super(executor ?? driftDatabase(name: 'cruzaletra'));
+    : super(executor ?? driftDatabase(name: 'palavras_cruzadas'));
 
   static const maxPerfis = 5;
 

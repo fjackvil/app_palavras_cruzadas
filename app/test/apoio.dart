@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:cruzaletra/dominio/tema.dart';
+import 'package:palavras_cruzadas/dominio/tema.dart';
 
 /// Lê os temas direto da pasta assets, sem precisar do Flutter.
 List<Tema> temasDoDisco() {

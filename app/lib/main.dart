@@ -6,5 +6,5 @@ import 'dominio/tema.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(CruzaLetraApp(banco: Banco(), temas: RepositorioTemas()));
+  runApp(PalavrasCruzadasApp(banco: Banco(), temas: RepositorioTemas()));
 }

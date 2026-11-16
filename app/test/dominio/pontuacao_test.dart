@@ -1,5 +1,5 @@
-import 'package:cruzaletra/dominio/nivel.dart';
-import 'package:cruzaletra/dominio/pontuacao.dart';
+import 'package:palavras_cruzadas/dominio/nivel.dart';
+import 'package:palavras_cruzadas/dominio/pontuacao.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

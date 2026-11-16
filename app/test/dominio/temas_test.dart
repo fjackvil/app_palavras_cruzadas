@@ -1,4 +1,4 @@
-import 'package:cruzaletra/dominio/nivel.dart';
+import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../apoio.dart';

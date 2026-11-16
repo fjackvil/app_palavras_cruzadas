@@ -1,4 +1,4 @@
-# cruzaletra
+# palavras_cruzadas
 
 A new Flutter project.
 

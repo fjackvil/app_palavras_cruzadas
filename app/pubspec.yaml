@@ -1,5 +1,5 @@
-name: cruzaletra
-description: "Cruza Letra: palavras cruzadas e caça-palavras para todas as idades."
+name: palavras_cruzadas
+description: "Palavras Cruzadas: cruzadas e caça-palavras para todas as idades."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -65,6 +65,7 @@ flutter:
 
   assets:
     - assets/palavras/
+    - assets/marca/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -362,7 +362,7 @@ Sugiro lançar em 4 fases, começando por uma versão que seu filho já possa jo
 
 **Perguntas para você decidir**
 
-- [x] Nome do app: **Cruza Letra** (decidido em 16/11/2026; identificador `com.vileladigit.cruzaletra`; domínio cruzaletra.com.br livre na pesquisa, falta conferir no INPI)
+- [x] Nome do app: **Palavras Cruzadas** (decidido em 16/11/2026, no lugar de "Cruza Letra", porque é o nome que as pessoas procuram na loja; identificador `com.vileladigit.palavrascruzadas`)
 - [ ] Confirmar: conta de grupos só para maiores de 18 anos?
 - [ ] Confirmar: sem anúncios no plano grátis, para não coletar dados?
 - [ ] Grupos só no Premium, ou também no plano grátis?

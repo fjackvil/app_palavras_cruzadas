@@ -1,5 +1,5 @@
-import 'package:cruzaletra/dominio/nivel.dart';
-import 'package:cruzaletra/dominio/subir_nivel.dart';
+import 'package:palavras_cruzadas/dominio/nivel.dart';
+import 'package:palavras_cruzadas/dominio/subir_nivel.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 ResumoPartida r({

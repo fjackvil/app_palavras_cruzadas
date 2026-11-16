@@ -1,4 +1,4 @@
-package com.vileladigit.cruzaletra
+package com.vileladigit.palavrascruzadas
 
 import io.flutter.embedding.android.FlutterActivity
 

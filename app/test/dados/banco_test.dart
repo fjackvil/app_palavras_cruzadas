@@ -1,4 +1,4 @@
-import 'package:cruzaletra/dados/banco.dart';
+import 'package:palavras_cruzadas/dados/banco.dart';
 import 'package:drift/drift.dart' show driftRuntimeOptions;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
