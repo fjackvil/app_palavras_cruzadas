@@ -84,9 +84,27 @@ Abra a pasta do repositório e peça, por exemplo:
 
 ## 2. Passo a passo no Windows 11
 
+### Links para baixar
+
+Todos são sites oficiais. Dá para instalar pelo link ou pelo comando `winget` de cada passo; os dois dão no mesmo.
+
+| Programa | Para que serve | Link |
+| --- | --- | --- |
+| Git para Windows | Baixar e enviar o projeto do GitHub | <https://git-scm.com/download/win> |
+| Android Studio | Android SDK e emulador | <https://developer.android.com/studio> |
+| Flutter (stable) | Compilar e rodar o app | <https://docs.flutter.dev/get-started/install/windows/mobile> |
+| Flutter, todas as versões (arquivo .zip) | Se quiser escolher a versão (use 3.50 ou mais nova) | <https://docs.flutter.dev/release/archive> |
+| VS Code (opcional) | Editor de código | <https://code.visualstudio.com/download> |
+| Extensão Flutter do VS Code (opcional) | Rodar e depurar pelo editor | <https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter> |
+| Claude Code (opcional) | Continuar o desenvolvimento com o Claude | <https://claude.com/claude-code> |
+| Chaves SSH do GitHub | Página para cadastrar a chave da conta fjackvil (entre com ela antes) | <https://github.com/settings/keys> |
+| Repositório do projeto | Ver o código e os commits no navegador | <https://github.com/fjackvil/app_palavras_cruzadas> |
+
 Os comandos abaixo são para o **PowerShell**: menu Iniciar, digite "PowerShell" e abra. Onde aparece "reinicie o PowerShell", feche a janela e abra outra, para ele enxergar os programas novos.
 
 ### Passo 1: Git
+
+Download: <https://git-scm.com/download/win> (pode aceitar todas as opções padrão do instalador), ou pelo PowerShell:
 
 ```powershell
 winget install --id Git.Git -e
@@ -122,7 +140,7 @@ O repositório é da conta pessoal. Se essa máquina também tiver a conta de tr
    Get-Content $HOME\.ssh\github_fjackvil.pub | Set-Clipboard
    ```
 
-4. No GitHub, **entrando com a conta fjackvil**, vá em Settings → SSH and GPG keys → New SSH key, cole a chave e salve.
+4. No GitHub, **entrando com a conta fjackvil**, abra <https://github.com/settings/keys> (Settings → SSH and GPG keys) → New SSH key, cole a chave e salve.
 
 5. Teste a conexão. A resposta deve ser "Hi fjackvil!":
 
@@ -145,7 +163,7 @@ O `git config` sem `--global` vale só para este projeto.
 
 ### Passo 4: Android Studio, SDK e emulador
 
-1. Instale o Android Studio:
+1. Instale o Android Studio. Download: <https://developer.android.com/studio>, ou pelo PowerShell:
 
    ```powershell
    winget install --id Google.AndroidStudio -e
@@ -173,7 +191,9 @@ O `git config` sem `--global` vale só para este projeto.
 
 ### Passo 5: Flutter
 
-1. Baixe o Flutter **stable** (versão 3.50 ou mais nova) em <https://docs.flutter.dev/get-started/install/windows/mobile>, no arquivo `.zip`. Extraia para `C:\dev\flutter`.
+1. Baixe o Flutter **stable** (versão 3.50 ou mais nova), no arquivo `.zip`. Extraia para `C:\dev\flutter`.
+   - Página de instalação: <https://docs.flutter.dev/get-started/install/windows/mobile>
+   - Lista de todas as versões, se precisar de uma específica: <https://docs.flutter.dev/release/archive> (aba Windows, canal Stable)
    - Não use `C:\Program Files`: o Flutter precisa escrever na pasta.
    - Também dá para baixar com o git: `git clone -b stable https://github.com/flutter/flutter.git C:\dev\flutter`.
 
@@ -244,8 +264,8 @@ Não precisa ligar o modo desenvolvedor, então os apps de banco continuam funci
 
 ### Passo 8 (opcional): Claude Code e editor
 
-- **VS Code:** `winget install --id Microsoft.VisualStudioCode -e`, mais a extensão "Flutter" (ela instala a de Dart junto).
-- **Claude Code:** abra a pasta `C:\dev\app_palavras_cruzadas` e peça para continuar a partir deste arquivo.
+- **VS Code:** download em <https://code.visualstudio.com/download>, ou `winget install --id Microsoft.VisualStudioCode -e`. Depois instale a extensão Flutter (ela instala a de Dart junto): <https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter>.
+- **Claude Code:** download e instruções em <https://claude.com/claude-code>. Depois abra a pasta `C:\dev\app_palavras_cruzadas` e peça para continuar a partir deste arquivo.
 
 ### Problemas comuns
 
