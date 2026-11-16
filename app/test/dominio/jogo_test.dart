@@ -109,4 +109,33 @@ void main() {
     expect(volta.dicasLetra, 1);
     expect(volta.segundos, 1);
   });
+
+  test('palavra certa passa sozinha para a próxima que falta', () {
+    final jogo = JogoCruzadas(desafio(Nivel.medio));
+    digitarTudo(jogo, 'GATO');
+    // Foi para OVA, na primeira casa que falta (a do V).
+    expect(jogo.horizontal, isFalse);
+    expect((jogo.linha, jogo.coluna), (1, 3));
+  });
+
+  test('palavra errada não avança; verificar certa avança', () {
+    final jogo = JogoCruzadas(desafio(Nivel.medio));
+    digitarTudo(jogo, 'GATA');
+    expect(jogo.horizontal, isTrue);
+    expect(jogo.verificarPalavra(), isFalse);
+    jogo.tocar(0, 3);
+    if (!jogo.horizontal) jogo.tocar(0, 3);
+    jogo.digitar('O');
+    expect(jogo.horizontal, isFalse);
+    expect((jogo.linha, jogo.coluna), (1, 3));
+  });
+
+  test('ao retomar começa pela primeira palavra que falta', () {
+    final d = desafio(Nivel.medio);
+    final jogo = JogoCruzadas(d);
+    digitarTudo(jogo, 'GATO');
+    final volta = JogoCruzadas.deJson(d, jogo.paraJson());
+    expect(volta.horizontal, isFalse);
+    expect((volta.linha, volta.coluna), (1, 3));
+  });
 }

@@ -94,14 +94,34 @@ class JogoCruzadas extends ChangeNotifier {
 
   /// Seleciona a primeira casa livre de uma palavra (lista de dicas).
   void selecionarPalavra(PalavraNaGrade p) {
+    _irPara(p);
+    notifyListeners();
+  }
+
+  void _irPara(PalavraNaGrade p) {
     horizontal = p.horizontal;
-    final livre = p.casas.firstWhere(
-      (casa) => !travada(desafio.indice(casa.$1, casa.$2)),
-      orElse: () => p.casa(0),
-    );
+    final livre = p.casas.firstWhere((casa) {
+      final i = desafio.indice(casa.$1, casa.$2);
+      return !travada(i) && !_certa(i);
+    }, orElse: () => p.casa(0));
     linha = livre.$1;
     coluna = livre.$2;
-    notifyListeners();
+  }
+
+  /// Se a palavra [p] ficou certa, vai para a próxima palavra que falta
+  /// (na ordem da lista de dicas). Devolve true se mudou de palavra.
+  bool _seCompletaIrParaProxima(PalavraNaGrade? p) {
+    if (p == null || !palavraCompleta(p)) return false;
+    final lista = desafio.palavras;
+    final inicio = lista.indexOf(p);
+    for (var k = 1; k < lista.length; k++) {
+      final q = lista[(inicio + k) % lista.length];
+      if (!palavraCompleta(q)) {
+        _irPara(q);
+        return true;
+      }
+    }
+    return false;
   }
 
   void digitar(String letra) {
@@ -111,7 +131,7 @@ class JogoCruzadas extends ChangeNotifier {
       respostas[i] = letra;
       erradas.remove(i);
     }
-    _avancar();
+    if (!_seCompletaIrParaProxima(palavraAtual)) _avancar();
     notifyListeners();
   }
 
@@ -145,6 +165,7 @@ class JogoCruzadas extends ChangeNotifier {
     }
     _revelar(alvo);
     dicasLetra++;
+    _seCompletaIrParaProxima(p);
     notifyListeners();
   }
 
@@ -157,6 +178,7 @@ class JogoCruzadas extends ChangeNotifier {
       if (!travada(i) && !_certa(i)) _revelar(i);
     }
     dicasPalavra++;
+    _seCompletaIrParaProxima(p);
     notifyListeners();
   }
 
@@ -175,6 +197,7 @@ class JogoCruzadas extends ChangeNotifier {
         certa = false;
       }
     }
+    if (certa) _seCompletaIrParaProxima(p);
     notifyListeners();
     return certa;
   }
@@ -234,14 +257,12 @@ class JogoCruzadas extends ChangeNotifier {
 
   void _selecionarPrimeira() {
     if (desafio.palavras.isEmpty) return;
-    final p = desafio.palavras.first;
-    horizontal = p.horizontal;
-    final livre = p.casas.firstWhere(
-      (casa) => !travada(desafio.indice(casa.$1, casa.$2)),
-      orElse: () => p.casa(0),
+    // Ao retomar, começa pela primeira palavra que ainda falta.
+    final p = desafio.palavras.firstWhere(
+      (q) => !palavraCompleta(q),
+      orElse: () => desafio.palavras.first,
     );
-    linha = livre.$1;
-    coluna = livre.$2;
+    _irPara(p);
   }
 
   /// Vai para a próxima casa da palavra, pulando as travadas.
