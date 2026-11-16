@@ -1,6 +1,6 @@
 # App de palavras cruzadas e caça-palavras (Android)
 
-Antes de qualquer tarefa, leia `docs/especificacao.md`. Ela tem todas as decisões do produto.
+Antes de qualquer tarefa, leia `docs/especificacao.md` (todas as decisões do produto) e `docs/continuar-aqui.md` (onde o trabalho parou e o que falta).
 
 ## Decisões que não mudam sem conversar antes
 
