@@ -1,4 +1,4 @@
-# Palavras Cruzadas (nome provisório)
+# Cruza Letra
 
 App Android de palavras cruzadas e caça-palavras para todas as idades, por Vilela Digit.
 
