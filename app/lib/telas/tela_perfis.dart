@@ -5,6 +5,7 @@ import '../dados/banco.dart';
 import '../dominio/nivel.dart';
 import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
+import 'tela_como_jogar.dart';
 import 'tela_inicio.dart';
 import 'tela_novo_perfil.dart';
 
@@ -86,6 +87,14 @@ class TelaPerfis extends StatelessWidget {
                             )
                           else
                             const Text('Este aparelho já tem 5 jogadores.'),
+                          const SizedBox(height: 8),
+                          (perfis.isEmpty
+                              ? FilledButton.tonalIcon
+                              : TextButton.icon)(
+                            icon: const Icon(Icons.help_outline),
+                            label: const Text('Como jogar'),
+                            onPressed: () => abrirComoJogar(context),
+                          ),
                         ],
                       ),
               ),
@@ -295,3 +304,7 @@ class _CartaoJogador extends StatelessWidget {
     );
   }
 }
+
+void abrirComoJogar(BuildContext context) =>
+    Navigator.of(context)
+        .push(MaterialPageRoute<void>(builder: (_) => const TelaComoJogar()));

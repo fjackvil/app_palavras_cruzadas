@@ -16,6 +16,7 @@ import '../dominio/nivel.dart';
 import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
 import 'tela_caca.dart';
+import 'tela_como_jogar.dart';
 import 'tela_jogo.dart';
 import 'tela_resposta.dart';
 import 'tela_resposta_caca.dart';
@@ -300,6 +301,15 @@ class _TelaInicioState extends State<TelaInicio> {
               ],
             ),
             actions: [
+              IconButton(
+                tooltip: 'Como jogar',
+                icon: const Icon(Icons.help_outline),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => const TelaComoJogar(),
+                  ),
+                ),
+              ),
               StreamBuilder<int>(
                 stream: banco.observarTotalPontos(perfil.id),
                 builder: (context, s) => Padding(
