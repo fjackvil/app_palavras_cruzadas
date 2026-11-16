@@ -102,6 +102,11 @@ class Banco extends _$Banco {
         PerfisCompanion(nivelAtual: Value(nivel)),
       );
 
+  Future<void> mudarAvatar(int perfilId, String avatar) =>
+      (update(perfis)..where((p) => p.id.equals(perfilId))).write(
+        PerfisCompanion(avatar: Value(avatar)),
+      );
+
   Future<void> apagarPerfil(int perfilId) =>
       (delete(perfis)..where((p) => p.id.equals(perfilId))).go();
 

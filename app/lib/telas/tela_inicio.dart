@@ -14,6 +14,7 @@ import '../dominio/jogo_caca.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/tema.dart';
+import '../widgets/avatar.dart';
 import 'tela_caca.dart';
 import 'tela_jogo.dart';
 import 'tela_resposta.dart';
@@ -291,7 +292,7 @@ class _TelaInicioState extends State<TelaInicio> {
             leading: const BackButton(),
             title: Row(
               children: [
-                Text(perfil.avatar, style: const TextStyle(fontSize: 24)),
+                AvatarJogador(avatar: perfil.avatar, raio: 18),
                 const SizedBox(width: 8),
                 Flexible(
                   child: Text(perfil.nome, overflow: TextOverflow.ellipsis),

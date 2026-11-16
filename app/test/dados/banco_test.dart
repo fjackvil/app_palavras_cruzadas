@@ -2,6 +2,7 @@ import 'package:palavras_cruzadas/dados/banco.dart';
 import 'package:drift/drift.dart' show driftRuntimeOptions;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:palavras_cruzadas/widgets/avatar.dart';
 
 void main() {
   late Banco banco;
@@ -95,5 +96,15 @@ void main() {
     expect(await banco.observarConcluidas(perfil.id).first, hasLength(1));
     expect(await banco.ultimasEncerradas(perfil.id), hasLength(1));
     expect(await banco.observarTotalPontos(perfil.id).first, 0);
+  });
+
+  test('trocar o avatar por uma foto', () async {
+    final perfil = await novo('Duda');
+    await banco.mudarAvatar(perfil.id, 'foto:/tmp/x.jpg');
+    final lido = (await banco.listarPerfis()).single;
+    expect(lido.avatar, 'foto:/tmp/x.jpg');
+    expect(Avatar.ehFoto(lido.avatar), isTrue);
+    expect(Avatar.caminho(lido.avatar), '/tmp/x.jpg');
+    expect(Avatar.ehFoto('🦁'), isFalse);
   });
 }

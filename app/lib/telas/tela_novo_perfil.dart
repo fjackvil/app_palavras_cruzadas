@@ -2,11 +2,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
 import '../dominio/nivel.dart';
-
-const avatares = [
-  '🦁', '🐶', '🐱', '🐼', '🐸', '🦊', '🐵', '🐯', //
-  '🦄', '🐙', '🐢', '🦉', '🚀', '⚽', '🌻', '🎸',
-];
+import '../widgets/avatar.dart';
 
 /// Cadastro de um jogador: nome, idade e avatar. Fica só no celular.
 class TelaNovoPerfil extends StatefulWidget {
@@ -74,20 +70,11 @@ class _TelaNovoPerfilState extends State<TelaNovoPerfil> {
           ),
           Text('Nível sugerido: ${_nivelSugerido.nome}. Dá para mudar depois.'),
           const SizedBox(height: 16),
-          Text('Escolha um avatar', style: texto.titleMedium),
+          Text('Foto ou avatar', style: texto.titleMedium),
           const SizedBox(height: 8),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              for (final a in avatares)
-                ChoiceChip(
-                  label: Text(a, style: const TextStyle(fontSize: 28)),
-                  selected: a == _avatar,
-                  showCheckmark: false,
-                  onSelected: (_) => setState(() => _avatar = a),
-                ),
-            ],
+          EscolhaAvatar(
+            atual: _avatar,
+            aoEscolher: (a) => setState(() => _avatar = a),
           ),
           const SizedBox(height: 24),
           FilledButton(
