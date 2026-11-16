@@ -1,3 +1,4 @@
+import 'caca_palavras.dart';
 import 'desafio.dart';
 import 'gerador_cruzadas.dart';
 import 'nivel.dart';
@@ -32,6 +33,20 @@ abstract final class DesafioDiario {
       temas: temas(todos, nivel),
       nivel: nivel,
       semente: semente(d, nivel),
+      diario: d,
+    );
+  }
+
+  /// Caça-palavras do dia: outra semente, para não repetir as palavras das
+  /// cruzadas do mesmo dia.
+  static DesafioCaca gerarCaca(List<Tema> todos, Nivel nivel, DateTime dia) {
+    final d = data(dia);
+    return const GeradorCaca().gerar(
+      temas: todos
+          .where((t) => t.infantil && temaServeParaCaca(t, nivel))
+          .toList(),
+      nivel: nivel,
+      semente: semente(d, nivel) + 5,
       diario: d,
     );
   }

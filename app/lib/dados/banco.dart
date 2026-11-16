@@ -206,13 +206,14 @@ class Banco extends _$Banco {
             ..limit(1))
           .watchSingleOrNull();
 
-  /// Datas ('2026-11-16') dos desafios diários concluídos pelo perfil.
+  /// Datas ('2026-11-16') dos desafios diários concluídos pelo perfil, em
+  /// qualquer modo.
   Stream<Set<String>> observarDiasDoDiario(int perfilId) =>
       (select(partidas)..where(
             (p) =>
                 p.perfilId.equals(perfilId) &
                 p.estado.equals(EstadoPartida.concluido) &
-                p.desafioId.like('cruzadas:diario:%'),
+                p.desafioId.like('%:diario:%'),
           ))
           .watch()
           .map((lista) => {for (final p in lista) p.desafioId.split(':').last});

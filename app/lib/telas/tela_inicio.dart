@@ -6,14 +6,18 @@ import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
 import '../dados/banco.dart';
+import '../dominio/caca_palavras.dart';
 import '../dominio/desafio.dart';
 import '../dominio/desafio_diario.dart';
 import '../dominio/gerador_cruzadas.dart';
+import '../dominio/jogo_caca.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/tema.dart';
+import 'tela_caca.dart';
 import 'tela_jogo.dart';
 import 'tela_resposta.dart';
+import 'tela_resposta_caca.dart';
 
 /// Abaixo desta idade o perfil só vê temas marcados como infantis.
 const idadeTemasAdultos = 14;
@@ -45,11 +49,28 @@ class TelaInicio extends StatefulWidget {
   State<TelaInicio> createState() => _TelaInicioState();
 }
 
+/// Os dois modos de jogo.
+enum Modo {
+  cruzadas('cruzadas', 'Cruzadas', Icons.grid_on),
+  caca(DesafioCaca.modo, 'Caça-palavras', Icons.search);
+
+  const Modo(this.id, this.nome, this.icone);
+
+  /// Como fica gravado na coluna `modo` das partidas.
+  final String id;
+  final String nome;
+  final IconData icone;
+
+  static Modo daPartida(Partida p) =>
+      p.modo == DesafioCaca.modo ? Modo.caca : Modo.cruzadas;
+}
+
 class _TelaInicioState extends State<TelaInicio> {
   /// Ids dos temas escolhidos. Vazio = "Misturado".
   final Set<String> _escolhidos = {};
   Future<List<Tema>>? _temas;
   bool _montando = false;
+  Modo _modo = Modo.cruzadas;
 
   @override
   void didChangeDependencies() {
@@ -58,17 +79,21 @@ class _TelaInicioState extends State<TelaInicio> {
   }
 
   /// Temas que o perfil pode ver no nível: os infantis para crianças e só
-  /// os que têm palavras suficientes para o nível.
+  /// os que têm palavras suficientes para o modo e o nível.
   List<Tema> _visiveis(Perfil perfil, List<Tema> todos, Nivel nivel) {
     final idade = DateTime.now().year - perfil.anoNascimento;
     return todos
         .where((t) => idade >= idadeTemasAdultos || t.infantil)
-        .where((t) => t.disponivelPara(nivel))
+        .where(
+          (t) => _modo == Modo.caca
+              ? temaServeParaCaca(t, nivel)
+              : t.disponivelPara(nivel),
+        )
         .toList();
   }
 
   /// Monta a grade fora da tela principal para o app não travar.
-  Future<DesafioCruzadas> _montar(DesafioCruzadas Function() montar) async {
+  Future<T> _montar<T>(T Function() montar) async {
     setState(() => _montando = true);
     try {
       return await Isolate.run(montar);
@@ -77,12 +102,11 @@ class _TelaInicioState extends State<TelaInicio> {
     }
   }
 
-  Future<void> _comecar(Perfil perfil, DesafioCruzadas desafio) async {
+  Future<void> _comecarCruzadas(Perfil perfil, DesafioCruzadas desafio) async {
     final jogo = JogoCruzadas(desafio);
-    final banco = Servicos.of(context).banco;
-    final partidaId = await banco.iniciarPartida(
+    final partidaId = await Servicos.of(context).banco.iniciarPartida(
       perfilId: perfil.id,
-      modo: 'cruzadas',
+      modo: Modo.cruzadas.id,
       desafioId: desafio.id,
       desafio: jsonEncode(desafio.paraJson()),
       respostas: jsonEncode(jogo.paraJson()),
@@ -95,6 +119,23 @@ class _TelaInicioState extends State<TelaInicio> {
     );
   }
 
+  Future<void> _comecarCaca(Perfil perfil, DesafioCaca desafio) async {
+    final jogo = JogoCaca(desafio);
+    final partidaId = await Servicos.of(context).banco.iniciarPartida(
+      perfilId: perfil.id,
+      modo: Modo.caca.id,
+      desafioId: desafio.id,
+      desafio: jsonEncode(desafio.paraJson()),
+      respostas: jsonEncode(jogo.paraJson()),
+    );
+    if (!mounted) return;
+    await Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => TelaCaca(jogo: jogo, partidaId: partidaId),
+      ),
+    );
+  }
+
   Future<void> _jogar(Perfil perfil, List<Tema> visiveis, Nivel nivel) async {
     if (_montando) return;
     final escolhidos = visiveis
@@ -102,28 +143,38 @@ class _TelaInicioState extends State<TelaInicio> {
         .toList();
     final temas = escolhidos.isEmpty ? visiveis : escolhidos;
     final semente = Random().nextInt(1 << 31);
-    final desafio = await _montar(tarefaCruzadas(temas, nivel, semente));
-    await _comecar(perfil, desafio);
+    if (_modo == Modo.caca) {
+      final desafio = await _montar(tarefaCaca(temas, nivel, semente));
+      await _comecarCaca(perfil, desafio);
+    } else {
+      final desafio = await _montar(tarefaCruzadas(temas, nivel, semente));
+      await _comecarCruzadas(perfil, desafio);
+    }
   }
 
   Future<void> _jogarDiario(
     Perfil perfil,
     List<Tema> todos,
     Nivel nivel,
+    Modo modo,
   ) async {
     if (_montando) return;
     final hoje = DateTime.now();
-    final desafio = await _montar(tarefaDiario(todos, nivel, hoje));
-    await _comecar(perfil, desafio);
+    if (modo == Modo.caca) {
+      final desafio = await _montar(tarefaDiarioCaca(todos, nivel, hoje));
+      await _comecarCaca(perfil, desafio);
+    } else {
+      final desafio = await _montar(tarefaDiario(todos, nivel, hoje));
+      await _comecarCruzadas(perfil, desafio);
+    }
   }
 
   Future<void> _retomar(Partida partida) async {
-    final jogo = _jogoDa(partida);
-    await Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => TelaJogo(jogo: jogo, partidaId: partida.id),
-      ),
-    );
+    final Widget tela = Modo.daPartida(partida) == Modo.caca
+        ? TelaCaca(jogo: _jogoCacaDa(partida), partidaId: partida.id)
+        : TelaJogo(jogo: _jogoDa(partida), partidaId: partida.id);
+    await Navigator.of(context)
+        .push(MaterialPageRoute<void>(builder: (_) => tela));
   }
 
   JogoCruzadas _jogoDa(Partida partida) {
@@ -131,6 +182,16 @@ class _TelaInicioState extends State<TelaInicio> {
       jsonDecode(partida.desafio) as Map<String, dynamic>,
     );
     return JogoCruzadas.deJson(
+      desafio,
+      jsonDecode(partida.respostas) as Map<String, dynamic>,
+    );
+  }
+
+  JogoCaca _jogoCacaDa(Partida partida) {
+    final desafio = DesafioCaca.deJson(
+      jsonDecode(partida.desafio) as Map<String, dynamic>,
+    );
+    return JogoCaca.deJson(
       desafio,
       jsonDecode(partida.respostas) as Map<String, dynamic>,
     );
@@ -186,23 +247,28 @@ class _TelaInicioState extends State<TelaInicio> {
       ),
     );
     if (sim != true || !mounted) return;
-    final jogo = _jogoDa(partida);
+    // Guarda o progresso de quando desistiu (para mostrar o que faltava).
     await Servicos.of(context).banco.salvarPartida(
       partida.id,
       estado: EstadoPartida.resposta,
-      respostas: jsonEncode(jogo.paraJson()),
+      respostas: partida.respostas,
       tempoGastoSeg: partida.tempoGastoSeg,
       dicasUsadas: partida.dicasUsadas,
     );
-    await _mostrarResposta(partida, jogo: jogo);
+    await _mostrarResposta(partida);
   }
 
-  /// Abre a grade resolvida. [jogo] é o progresso de quando desistiu.
-  Future<void> _mostrarResposta(Partida partida, {JogoCruzadas? jogo}) async {
-    final j = (jogo ?? _jogoDa(partida))..revelarTudo();
+  /// Abre a grade resolvida.
+  Future<void> _mostrarResposta(Partida partida) async {
+    final Widget tela;
+    if (Modo.daPartida(partida) == Modo.caca) {
+      tela = TelaRespostaCaca(jogo: _jogoCacaDa(partida)..revelarTudo());
+    } else {
+      tela = TelaResposta(jogo: _jogoDa(partida)..revelarTudo());
+    }
     if (!mounted) return;
     await Navigator.of(context)
-        .push(MaterialPageRoute<void>(builder: (_) => TelaResposta(jogo: j)));
+        .push(MaterialPageRoute<void>(builder: (_) => tela));
   }
 
   @override
@@ -305,8 +371,24 @@ class _TelaInicioState extends State<TelaInicio> {
         _CartaoDiario(
           perfil: perfil,
           nivel: nivel,
-          aoJogar: () => _jogarDiario(perfil, todos, nivel),
+          aoJogar: (modo) => _jogarDiario(perfil, todos, nivel, modo),
           aoRetomar: _retomar,
+        ),
+        const SizedBox(height: 16),
+        Text('Jogo', style: texto.titleMedium),
+        const SizedBox(height: 8),
+        SegmentedButton<Modo>(
+          showSelectedIcon: false,
+          segments: [
+            for (final m in Modo.values)
+              ButtonSegment(
+                value: m,
+                icon: Icon(m.icone),
+                label: Text(m.nome, maxLines: 1),
+              ),
+          ],
+          selected: {_modo},
+          onSelectionChanged: (s) => setState(() => _modo = s.first),
         ),
         const SizedBox(height: 16),
         Text('Nível', style: texto.titleMedium),
@@ -381,8 +463,10 @@ class _TelaInicioState extends State<TelaInicio> {
             minimumSize: const Size.fromHeight(56),
             textStyle: texto.titleLarge,
           ),
-          icon: const Icon(Icons.grid_on),
-          label: const Text('Jogar cruzadas'),
+          icon: Icon(_modo.icone),
+          label: Text(
+            _modo == Modo.caca ? 'Jogar caça-palavras' : 'Jogar cruzadas',
+          ),
           onPressed: visiveis.isEmpty || _montando
               ? null
               : () => _jogar(perfil, visiveis, nivel),
@@ -400,7 +484,7 @@ class _TelaInicioState extends State<TelaInicio> {
                 for (final p in pendentes)
                   Card(
                     child: ListTile(
-                      leading: const Icon(Icons.pause_circle_outline),
+                      leading: Icon(Modo.daPartida(p).icone),
                       title: Text(descreverPartida(p, todos)),
                       subtitle: Text(
                         '${p.estado == EstadoPartida.desistido ? 'Desistiu' : 'Em andamento'}'
@@ -437,7 +521,7 @@ class _TelaInicioState extends State<TelaInicio> {
                     )
                   else
                     ListTile(
-                      leading: const Icon(Icons.emoji_events_outlined),
+                      leading: Icon(Modo.daPartida(p).icone),
                       title: Text(descreverPartida(p, todos)),
                       subtitle: Text(
                         '${formatarTempo(p.tempoGastoSeg)}'
@@ -465,8 +549,8 @@ class _TelaInicioState extends State<TelaInicio> {
   }
 }
 
-/// Cartão do desafio do dia: jogar, continuar ou ver o resultado, com a
-/// sequência de dias jogados.
+/// Cartão do desafio do dia: um para cada modo (jogar, continuar ou ver o
+/// resultado), com a sequência de dias jogados.
 class _CartaoDiario extends StatelessWidget {
   const _CartaoDiario({
     required this.perfil,
@@ -477,15 +561,13 @@ class _CartaoDiario extends StatelessWidget {
 
   final Perfil perfil;
   final Nivel nivel;
-  final VoidCallback aoJogar;
+  final ValueChanged<Modo> aoJogar;
   final ValueChanged<Partida> aoRetomar;
 
   @override
   Widget build(BuildContext context) {
     final banco = Servicos.of(context).banco;
     final texto = Theme.of(context).textTheme;
-    final hoje = DesafioDiario.data(DateTime.now());
-    final id = DesafioCruzadas.idDiario(nivel, hoje);
 
     return Card(
       color: CoresMarca.amarelo.withValues(alpha: 0.25),
@@ -517,50 +599,60 @@ class _CartaoDiario extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 4),
-            Text('Nível ${nivel.nome}. A mesma grade para todo mundo hoje.'),
-            const SizedBox(height: 12),
-            StreamBuilder<Partida?>(
-              stream: banco.observarPartidaDoDesafio(perfil.id, id),
-              builder: (context, s) {
-                final partida = s.data;
-                if (partida?.estado == EstadoPartida.concluido) {
-                  return Text(
-                    '✅ Feito hoje: ${partida!.pontos} pontos em '
-                    '${formatarTempo(partida.tempoGastoSeg)}. Volte amanhã!',
-                  );
-                }
-                if (partida?.estado == EstadoPartida.resposta) {
-                  return const Text(
-                    'Você viu a resposta de hoje. Amanhã tem outro!',
-                  );
-                }
-                if (partida != null) {
-                  return FilledButton.tonalIcon(
-                    icon: const Icon(Icons.play_arrow),
-                    label: const Text('Continuar o desafio do dia'),
-                    onPressed: () => aoRetomar(partida),
-                  );
-                }
-                return FilledButton.icon(
-                  icon: const Icon(Icons.play_arrow),
-                  label: const Text('Jogar o desafio do dia'),
-                  onPressed: aoJogar,
-                );
-              },
-            ),
+            Text('Nível ${nivel.nome}. As mesmas grades para todo mundo hoje.'),
+            for (final modo in Modo.values) ...[
+              const SizedBox(height: 12),
+              _linhaDoModo(context, banco, modo),
+            ],
           ],
         ),
       ),
     );
   }
+
+  Widget _linhaDoModo(BuildContext context, Banco banco, Modo modo) {
+    final hoje = DesafioDiario.data(DateTime.now());
+    final id = modo == Modo.caca
+        ? DesafioCaca.idDiario(nivel, hoje)
+        : DesafioCruzadas.idDiario(nivel, hoje);
+    return StreamBuilder<Partida?>(
+      stream: banco.observarPartidaDoDesafio(perfil.id, id),
+      builder: (context, s) {
+        final partida = s.data;
+        if (partida?.estado == EstadoPartida.concluido) {
+          return Text(
+            '✅ ${modo.nome}: ${partida!.pontos} pontos em '
+            '${formatarTempo(partida.tempoGastoSeg)}. Volte amanhã!',
+          );
+        }
+        if (partida?.estado == EstadoPartida.resposta) {
+          return Text('${modo.nome}: você viu a resposta. Amanhã tem outro!');
+        }
+        if (partida != null) {
+          return FilledButton.tonalIcon(
+            icon: Icon(modo.icone),
+            label: Text('Continuar: ${modo.nome}'),
+            onPressed: () => aoRetomar(partida),
+          );
+        }
+        return FilledButton.icon(
+          icon: Icon(modo.icone),
+          label: Text('Jogar: ${modo.nome}'),
+          onPressed: () => aoJogar(modo),
+        );
+      },
+    );
+  }
 }
 
-/// "Médio · Animais, Frutas" ou "Desafio do dia · Leve".
+/// "Médio · Animais, Frutas", "Caça-palavras · Leve · Misturado" ou
+/// "Desafio do dia · Leve".
 String descreverPartida(Partida p, List<Tema> temas) {
   final partes = p.desafioId.split(':');
+  final modo = Modo.daPartida(p) == Modo.caca ? 'Caça-palavras · ' : '';
   if (partes.length >= 4 && partes[1] == 'diario') {
     final nivel = Nivel.porNome(partes[2]);
-    return 'Desafio do dia · ${nivel.nome}';
+    return '${modo}Desafio do dia · ${nivel.nome}';
   }
   if (partes.length < 3) return 'Cruzadas';
   final nivel = Nivel.porNome(partes[1]);
@@ -568,7 +660,7 @@ String descreverPartida(Partida p, List<Tema> temas) {
   final nomes = ids.length > 3
       ? 'Misturado'
       : temas.where((t) => ids.contains(t.id)).map((t) => t.nome).join(', ');
-  return '${nivel.nome} · $nomes';
+  return '$modo${nivel.nome} · $nomes';
 }
 
 String formatarTempo(int segundos) {
@@ -597,3 +689,14 @@ DesafioCruzadas Function() tarefaDiario(
   DateTime dia,
 ) =>
     () => DesafioDiario.gerar(todos, nivel, dia);
+
+DesafioCaca Function() tarefaCaca(List<Tema> temas, Nivel nivel, int semente) =>
+    () =>
+        const GeradorCaca().gerar(temas: temas, nivel: nivel, semente: semente);
+
+DesafioCaca Function() tarefaDiarioCaca(
+  List<Tema> todos,
+  Nivel nivel,
+  DateTime dia,
+) =>
+    () => DesafioDiario.gerarCaca(todos, nivel, dia);

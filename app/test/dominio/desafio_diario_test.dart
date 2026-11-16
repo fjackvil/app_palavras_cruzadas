@@ -46,4 +46,20 @@ void main() {
     // Buraco quebra a sequência.
     expect(DesafioDiario.diasSeguidos({'2026-03-01', '2026-02-27'}, hoje), 1);
   });
+
+  test('caça-palavras do dia: igual no mesmo dia e só temas infantis', () {
+    final a = DesafioDiario.gerarCaca(
+      temas,
+      Nivel.medio,
+      DateTime(2026, 11, 16, 8),
+    );
+    final b = DesafioDiario.gerarCaca(
+      temas,
+      Nivel.medio,
+      DateTime(2026, 11, 16, 23),
+    );
+    expect(a.paraJson(), b.paraJson());
+    final infantis = temas.where((t) => t.infantil).map((t) => t.id).toSet();
+    expect(a.temas.every(infantis.contains), isTrue);
+  });
 }

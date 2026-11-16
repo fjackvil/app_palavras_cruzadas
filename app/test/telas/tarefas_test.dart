@@ -23,4 +23,13 @@ void main() {
     );
     expect(d.diario, '2026-11-16');
   });
+
+  test('tarefas do caça-palavras rodam em outro isolate', () async {
+    final livre = await Isolate.run(tarefaCaca(temas, Nivel.dificil, 9));
+    expect(livre.palavras, hasLength(10));
+    final diario = await Isolate.run(
+      tarefaDiarioCaca(temas, Nivel.leve, DateTime(2026, 11, 16)),
+    );
+    expect(diario.id, 'caca:diario:leve:2026-11-16');
+  });
 }

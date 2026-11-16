@@ -5,11 +5,11 @@ import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
 import '../dados/banco.dart';
+import '../dados/oferta_nivel.dart';
 import '../dominio/desafio.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
-import '../dominio/subir_nivel.dart';
 import '../widgets/grade_com_zoom.dart';
 import '../widgets/teclado.dart';
 import 'tela_inicio.dart' show formatarTempo;
@@ -100,12 +100,20 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
     _relogio?.cancel();
     final pontuacao = _jogo.pontuacao;
     await _salvar(estado: EstadoPartida.concluido, pontos: pontuacao.total);
-    final (perfilId, proximo) = await _ofertaDeNivel();
+    final (perfilId, proximo) = await ofertaDeNivel(_banco, widget.partidaId);
     if (!mounted) return;
     await Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
         builder: (_) => TelaResultado(
-          desafio: _jogo.desafio,
+          nivel: _jogo.nivel,
+          palavras: [
+            for (final p in _jogo.desafio.palavras)
+              (
+                rotulo: '${p.numero} ${p.horizontal ? '→' : '↓'}',
+                escrita: p.escrita,
+                dica: p.dica,
+              ),
+          ],
           pontuacao: pontuacao,
           segundos: _jogo.segundos,
           perfilId: perfilId,
@@ -116,42 +124,6 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
   }
 
   /// Confere se a pessoa fez 3 desafios seguidos rápido e sem dicas.
-  /// Se algo der errado aqui, só não oferece: o resultado aparece igual.
-  Future<(int?, Nivel?)> _ofertaDeNivel() async {
-    try {
-      return await _calcularOferta();
-    } on Object {
-      return (null, null);
-    }
-  }
-
-  Future<(int, Nivel?)> _calcularOferta() async {
-    final partida = await _banco.buscarPartida(widget.partidaId);
-    final perfil = await _banco.buscarPerfil(partida.perfilId);
-    final recentes = await _banco.ultimasEncerradas(perfil.id);
-    final resumos = [
-      for (final p in recentes)
-        if (p.modo == 'cruzadas') _resumir(p),
-    ];
-    return (
-      perfil.id,
-      SubirNivel.oferta(resumos, Nivel.porNome(perfil.nivelAtual)),
-    );
-  }
-
-  static ResumoPartida _resumir(Partida p) {
-    final desafio = DesafioCruzadas.deJson(
-      jsonDecode(p.desafio) as Map<String, dynamic>,
-    );
-    return ResumoPartida(
-      nivel: desafio.nivel,
-      concluida: p.estado == EstadoPartida.concluido,
-      dicas: p.dicasUsadas,
-      segundos: p.tempoGastoSeg,
-      tempoAlvoSegundos: desafio.tempoAlvoSegundos,
-    );
-  }
-
   Future<void> _desistir() async {
     final sim = await showDialog<bool>(
       context: context,
