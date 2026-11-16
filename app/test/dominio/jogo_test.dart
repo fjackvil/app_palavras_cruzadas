@@ -163,4 +163,15 @@ void main() {
     expect(jogo.palavraAtual!.resposta, 'OVA');
     expect(jogo.palavraAtual!.dica, 'Ovos de peixe');
   });
+
+  test('o cronômetro só começa depois da primeira ação', () {
+    final jogo = JogoCruzadas(desafio(Nivel.medio));
+    expect(jogo.comecou, isFalse);
+    jogo.digitar('G');
+    expect(jogo.comecou, isTrue);
+    final volta = JogoCruzadas.deJson(jogo.desafio, jogo.paraJson());
+    expect(volta.comecou, isFalse);
+    volta.tocar(2, 3);
+    expect(volta.comecou, isTrue);
+  });
 }

@@ -62,6 +62,10 @@ class JogoCruzadas extends ChangeNotifier {
   int dicasPalavra;
   int segundos;
 
+  /// O cronômetro só anda depois da primeira ação do jogador (tocar numa
+  /// casa, digitar, pedir dica). Ao retomar, espera de novo.
+  bool comecou = false;
+
   int linha = 0;
   int coluna = 0;
   bool horizontal = true;
@@ -82,6 +86,7 @@ class JogoCruzadas extends ChangeNotifier {
   ///   na letra de outra coluna quer a dica dessa coluna);
   /// - tocar de novo na mesma casa troca a direção.
   void tocar(int l, int c) {
+    comecou = true;
     if (desafio.ehBloqueada(l, c)) return;
     final h = desafio.palavraEm(l, c, horizontal: true);
     final v = desafio.palavraEm(l, c, horizontal: false);
@@ -106,6 +111,7 @@ class JogoCruzadas extends ChangeNotifier {
 
   /// Seleciona a primeira casa livre de uma palavra (lista de dicas).
   void selecionarPalavra(PalavraNaGrade p) {
+    comecou = true;
     _irPara(p);
     notifyListeners();
   }
@@ -137,6 +143,7 @@ class JogoCruzadas extends ChangeNotifier {
   }
 
   void digitar(String letra) {
+    comecou = true;
     if (concluido) return;
     final i = _atual;
     if (!travada(i)) {
@@ -148,6 +155,7 @@ class JogoCruzadas extends ChangeNotifier {
   }
 
   void apagar() {
+    comecou = true;
     final i = _atual;
     if (!travada(i) && respostas[i].isNotEmpty) {
       respostas[i] = '';
@@ -165,6 +173,7 @@ class JogoCruzadas extends ChangeNotifier {
 
   /// Revela a casa selecionada (ou a primeira errada da palavra).
   void dicaDeLetra() {
+    comecou = true;
     final p = palavraAtual;
     if (p == null || concluido) return;
     var alvo = _atual;
@@ -183,6 +192,7 @@ class JogoCruzadas extends ChangeNotifier {
 
   /// Revela a palavra selecionada inteira.
   void dicaDePalavra() {
+    comecou = true;
     final p = palavraAtual;
     if (p == null || concluido || palavraCompleta(p)) return;
     for (final (l, c) in p.casas) {
@@ -197,6 +207,7 @@ class JogoCruzadas extends ChangeNotifier {
   /// Marca de vermelho as letras erradas da palavra selecionada.
   /// Devolve true se a palavra está toda certa.
   bool verificarPalavra() {
+    comecou = true;
     final p = palavraAtual;
     if (p == null) return false;
     var certa = true;

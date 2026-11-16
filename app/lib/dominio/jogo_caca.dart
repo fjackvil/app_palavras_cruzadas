@@ -32,6 +32,17 @@ class JogoCaca extends ChangeNotifier {
   final Set<int> comDica;
   int segundos;
 
+  /// O cronômetro só anda depois da primeira ação do jogador (arrastar,
+  /// tocar numa letra, pedir dica). Ao retomar, espera de novo.
+  bool comecou = false;
+
+  /// Chamado quando o dedo encosta na grade.
+  void comecar() {
+    if (comecou) return;
+    comecou = true;
+    notifyListeners();
+  }
+
   /// Primeira casa da seleção feita com toques (toca na primeira letra e
   /// depois na última).
   (int, int)? inicioToque;
@@ -54,6 +65,7 @@ class JogoCaca extends ChangeNotifier {
   /// Tenta achar uma palavra entre as duas casas (em qualquer sentido).
   /// Devolve o índice da palavra achada, ou null.
   int? tentar(int l1, int c1, int l2, int c2) {
+    comecou = true;
     inicioToque = null;
     final casas = linhaEntre(l1, c1, l2, c2);
     if (casas == null || casas.length < 2 || concluido) {
@@ -78,6 +90,7 @@ class JogoCaca extends ChangeNotifier {
   /// Seleção por toques: o primeiro toque marca o início, o segundo tenta
   /// a palavra. Devolve o índice achado no segundo toque, ou null.
   int? tocar(int l, int c) {
+    comecou = true;
     final inicio = inicioToque;
     if (inicio == null || inicio == (l, c)) {
       inicioToque = inicio == (l, c) ? null : (l, c);
@@ -90,6 +103,7 @@ class JogoCaca extends ChangeNotifier {
   /// Dica: mostra a primeira letra de uma palavra que falta. Devolve a
   /// palavra, ou null se não sobrou nenhuma sem dica.
   PalavraEscondida? dica() {
+    comecou = true;
     for (var i = 0; i < desafio.palavras.length; i++) {
       if (encontradas.contains(i) || comDica.contains(i)) continue;
       comDica.add(i);

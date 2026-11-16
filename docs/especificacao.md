@@ -71,14 +71,14 @@ Cada desafio registra pontos, tempo, dicas usadas e estado (em andamento, desist
 
 - Grade tocável; ao tocar uma casa, destaca a palavra e mostra a dica.
 - Teclado próprio do app (letras grandes no nível Leve; acentos tratados automaticamente: "AÇÃO" vira "ACAO" na grade).
-- Cronômetro visível (pode ser ocultado no nível Leve para não estressar crianças).
+- Cronômetro visível (pode ser ocultado no nível Leve para não estressar crianças). Ele só começa a contar na primeira jogada (tocar numa casa, digitar ou arrastar), não ao abrir a tela.
 - Botões: dica, verificar palavra, pausar, desistir.
 
 **Pontuação (proposta)**
 
-- 10 pontos por letra correta, multiplicados pelo nível: Leve ×1, Médio ×1,5, Difícil ×2, Super difícil ×3.
+- 1 ponto por letra correta, multiplicado pelo nível: Leve ×1, Médio ×1,5, Difícil ×2, Super difícil ×3 (era 10 por letra; reduzido em 16/11/2026 porque os números ficavam altos demais).
 - Bônus de tempo: quanto mais rápido em relação ao tempo-alvo do desafio, maior o bônus (até +50%).
-- Dica de letra custa 15 pontos; dica de palavra inteira custa 50.
+- Dica de letra custa 2 pontos; dica de palavra inteira custa 5.
 - Concluir sem nenhuma dica dá bônus de +20%.
 
 **Desistir e voltar depois**

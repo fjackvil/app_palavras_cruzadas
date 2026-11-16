@@ -123,7 +123,7 @@ void main() {
         jogo.tentar(l1, c1, l2, c2);
       }
       expect(jogo.concluido, isTrue);
-      expect(jogo.pontuacao.custoDicas, 15);
+      expect(jogo.pontuacao.custoDicas, 2);
       expect(jogo.pontuacao.bonusSemDica, 0);
 
       final volta = JogoCaca.deJson(d, jogo.paraJson());

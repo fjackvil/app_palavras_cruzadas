@@ -11,9 +11,10 @@ class Pontuacao {
     required this.custoDicas,
   });
 
-  static const pontosPorLetra = 10;
-  static const custoDicaLetra = 15;
-  static const custoDicaPalavra = 50;
+  /// 1 ponto por letra (antes eram 10; os números ficavam altos demais).
+  static const pontosPorLetra = 1;
+  static const custoDicaLetra = 2;
+  static const custoDicaPalavra = 5;
 
   /// Bônus máximo de tempo (+50%), quando o tempo é quase zero.
   static const bonusTempoMaximo = 0.5;

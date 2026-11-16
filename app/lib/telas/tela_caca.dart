@@ -39,7 +39,7 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
     WidgetsBinding.instance.addObserver(this);
     _jogo.addListener(_aoMudar);
     _relogio = Timer.periodic(const Duration(seconds: 1), (_) {
-      if (_pausado || _encerrado) return;
+      if (_pausado || _encerrado || !_jogo.comecou) return;
       _jogo.contarSegundo();
       if (_jogo.segundos % 5 == 0) _salvar();
     });
@@ -187,7 +187,11 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            _mostrarTempo ? formatarTempo(_jogo.segundos) : _jogo.nivel.nome,
+            !_jogo.comecou
+                ? 'Toque para começar'
+                : _mostrarTempo
+                ? formatarTempo(_jogo.segundos)
+                : _jogo.nivel.nome,
           ),
           actions: [
             if (leve)

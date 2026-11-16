@@ -104,6 +104,7 @@ class _GradeCacaState extends State<GradeCaca> {
           if (widget.somenteLeitura) return pintura;
           return GestureDetector(
             onPanStart: (d) {
+              _jogo.comecar();
               final casa = _casaEm(d.localPosition, lado);
               setState(() {
                 _inicio = casa;
