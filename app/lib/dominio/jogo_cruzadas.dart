@@ -76,18 +76,30 @@ class JogoCruzadas extends ChangeNotifier {
 
   bool travada(int i) => fixas.contains(i) || reveladas.contains(i);
 
-  /// Toca numa casa. Tocar de novo na mesma casa troca a direção.
+  /// Toca numa casa. A dica passa a ser a da palavra tocada:
+  /// - casa de uma palavra só: seleciona essa palavra;
+  /// - cruzamento: seleciona a palavra que não estava selecionada (quem toca
+  ///   na letra de outra coluna quer a dica dessa coluna);
+  /// - tocar de novo na mesma casa troca a direção.
   void tocar(int l, int c) {
     if (desafio.ehBloqueada(l, c)) return;
-    final temH = desafio.palavraEm(l, c, horizontal: true) != null;
-    final temV = desafio.palavraEm(l, c, horizontal: false) != null;
-    if (l == linha && c == coluna && temH && temV) {
-      horizontal = !horizontal;
+    final h = desafio.palavraEm(l, c, horizontal: true);
+    final v = desafio.palavraEm(l, c, horizontal: false);
+    final mesmaCasa = l == linha && c == coluna;
+    final anterior = palavraAtual;
+    linha = l;
+    coluna = c;
+    if (h != null && v != null) {
+      if (mesmaCasa) {
+        horizontal = !horizontal;
+      } else if (anterior == h) {
+        horizontal = false;
+      } else if (anterior == v) {
+        horizontal = true;
+      }
+      // Vindo de outra palavra, mantém a direção atual.
     } else {
-      linha = l;
-      coluna = c;
-      if (horizontal && !temH) horizontal = false;
-      if (!horizontal && !temV) horizontal = true;
+      horizontal = h != null;
     }
     notifyListeners();
   }

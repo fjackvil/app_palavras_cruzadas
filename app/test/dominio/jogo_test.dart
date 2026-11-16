@@ -148,4 +148,19 @@ void main() {
     expect(jogo.reveladas, {3, 7, 11});
     expect(jogo.reveladas.contains(0), isFalse);
   });
+
+  test('tocar numa letra de outra coluna mostra a dica dela', () {
+    final jogo = JogoCruzadas(desafio(Nivel.medio));
+    expect(jogo.palavraAtual!.resposta, 'GATO');
+    // Casa só da vertical.
+    jogo.tocar(2, 3);
+    expect(jogo.palavraAtual!.resposta, 'OVA');
+    // Volta para a horizontal tocando numa casa só dela.
+    jogo.tocar(0, 1);
+    expect(jogo.palavraAtual!.resposta, 'GATO');
+    // Cruzamento: vai para a palavra que não estava selecionada.
+    jogo.tocar(0, 3);
+    expect(jogo.palavraAtual!.resposta, 'OVA');
+    expect(jogo.palavraAtual!.dica, 'Ovos de peixe');
+  });
 }
