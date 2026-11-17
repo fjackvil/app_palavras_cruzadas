@@ -101,31 +101,28 @@ class Banco extends _$Banco {
     ajustes,
   ).insertOnConflictUpdate(AjustesCompanion.insert(chave: chave, valor: valor));
 
-  /// Dicas usadas hoje pelo jogador, nos dois jogos.
-  Future<int> dicasHoje(int perfilId, DateTime agora) async =>
-      int.tryParse(await lerAjuste(_chaveDicas(perfilId, agora)) ?? '') ?? 0;
+  // Contadores do plano grátis. Valem para o CELULAR (somando todos os
+  // jogadores) e ficam em Ajustes, que não são apagados junto com um
+  // jogador: criar ou apagar jogadores não libera mais desafios nem dicas.
 
-  Future<void> contarDica(int perfilId, DateTime agora) async {
-    final n = await dicasHoje(perfilId, agora);
-    await gravarAjuste(_chaveDicas(perfilId, agora), '${n + 1}');
-  }
+  /// Dicas usadas hoje no aparelho, nos dois jogos.
+  Future<int> dicasHoje(DateTime agora) => _contador('dicas', agora);
 
-  static String _chaveDicas(int perfilId, DateTime d) =>
-      'dicas:$perfilId:${d.year}-${d.month}-${d.day}';
+  Future<void> contarDica(DateTime agora) => _somar('dicas', agora);
 
-  /// Desafios livres (fora o desafio do dia) começados hoje pelo jogador.
-  Future<int> desafiosHoje(int perfilId, DateTime agora) async {
-    final inicio = DateTime(agora.year, agora.month, agora.day);
-    final lista =
-        await (select(partidas)..where(
-              (p) =>
-                  p.perfilId.equals(perfilId) &
-                  p.criadaEm.isBiggerOrEqualValue(inicio) &
-                  p.desafioId.like('%:diario:%').not(),
-            ))
-            .get();
-    return lista.length;
-  }
+  /// Desafios livres (fora o desafio do dia) começados hoje no aparelho.
+  Future<int> desafiosHoje(DateTime agora) => _contador('desafios', agora);
+
+  Future<void> contarDesafio(DateTime agora) => _somar('desafios', agora);
+
+  Future<int> _contador(String nome, DateTime d) async =>
+      int.tryParse(await lerAjuste(_chaveDia(nome, d)) ?? '') ?? 0;
+
+  Future<void> _somar(String nome, DateTime d) async =>
+      gravarAjuste(_chaveDia(nome, d), '${await _contador(nome, d) + 1}');
+
+  static String _chaveDia(String nome, DateTime d) =>
+      '$nome:${d.year}-${d.month}-${d.day}';
 
   // ---------- Perfis ----------
 
@@ -214,11 +211,20 @@ class Banco extends _$Banco {
   Future<void> apagarPartida(int partidaId) =>
       (delete(partidas)..where((p) => p.id.equals(partidaId))).go();
 
-  /// Pendentes livres do jogador (fora o desafio do dia), para o limite do
-  /// plano grátis.
-  Future<int> pendentesLivres(int perfilId) async {
-    final lista = await observarPendentes(perfilId).first;
-    return lista.where((p) => !p.desafioId.contains(':diario:')).length;
+  /// Pendentes livres do aparelho, de todos os jogadores (fora o desafio
+  /// do dia), para o limite do plano grátis.
+  Future<int> pendentesLivres() async {
+    final lista =
+        await (select(partidas)..where(
+              (p) =>
+                  p.estado.isIn([
+                    EstadoPartida.andamento,
+                    EstadoPartida.desistido,
+                  ]) &
+                  p.desafioId.like('%:diario:%').not(),
+            ))
+            .get();
+    return lista.length;
   }
 
   Future<Partida> buscarPartida(int partidaId) =>

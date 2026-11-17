@@ -17,8 +17,8 @@ abstract final class PlanoGratis {
   static const desafiosPorDia = 3;
   static const dicasPorDia = 3;
 
-  /// Desafios começados e não terminados guardados por jogador (fora o
-  /// desafio do dia).
+  /// Desafios começados e não terminados guardados no celular, somando
+  /// todos os jogadores (fora o desafio do dia).
   static const maxPendentes = 3;
 }
 
@@ -38,8 +38,8 @@ class Plano {
   bool podeCriarJogador(int jogadores) =>
       premium || jogadores < PlanoGratis.maxJogadores;
 
-  /// [hoje]: desafios livres (fora o desafio do dia) começados hoje pelo
-  /// jogador, somando cruzadas e caça-palavras.
+  /// [hoje]: desafios livres (fora o desafio do dia) começados hoje no
+  /// celular, somando jogadores, cruzadas e caça-palavras.
   bool podeComecarDesafio(int hoje) =>
       premium || hoje < PlanoGratis.desafiosPorDia;
 
@@ -50,10 +50,10 @@ class Plano {
           PlanoGratis.desafiosPorDia,
         );
 
-  /// [pendentes]: desafios livres do jogador em andamento ou desistidos.
+  /// [pendentes]: desafios livres do celular em andamento ou desistidos.
   bool podeGuardarPendente(int pendentes) =>
       premium || pendentes < PlanoGratis.maxPendentes;
 
-  /// [hoje]: dicas usadas hoje pelo jogador, nos dois jogos.
+  /// [hoje]: dicas usadas hoje no celular, somando jogadores e jogos.
   bool podeUsarDica(int hoje) => premium || hoje < PlanoGratis.dicasPorDia;
 }

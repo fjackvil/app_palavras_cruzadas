@@ -142,36 +142,35 @@ void main() {
     expect(registros.single.temas, ['animais']);
   });
 
-  test('ajustes, dicas do dia e desafios do dia', () async {
-    final perfil = await novo('Gil');
+  test('ajustes e contadores do dia valem para o celular todo', () async {
     final agora = DateTime.now();
     expect(await banco.lerAjuste('premium'), isNull);
     await banco.gravarAjuste('premium', '1');
     await banco.gravarAjuste('premium', '0');
     expect(await banco.lerAjuste('premium'), '0');
 
-    expect(await banco.dicasHoje(perfil.id, agora), 0);
-    await banco.contarDica(perfil.id, agora);
-    await banco.contarDica(perfil.id, agora);
-    expect(await banco.dicasHoje(perfil.id, agora), 2);
-    final amanha = agora.add(const Duration(days: 1));
-    expect(await banco.dicasHoje(perfil.id, amanha), 0);
+    expect(await banco.dicasHoje(agora), 0);
+    await banco.contarDica(agora);
+    await banco.contarDica(agora);
+    expect(await banco.dicasHoje(agora), 2);
+    expect(await banco.dicasHoje(agora.add(const Duration(days: 1))), 0);
 
-    for (final id in [
-      'cruzadas:leve:x:1',
-      'caca:leve:x:2',
-      'cruzadas:diario:leve:2026-11-17',
-    ]) {
-      await banco.iniciarPartida(
-        perfilId: perfil.id,
-        modo: 'cruzadas',
-        desafioId: id,
-        desafio: '{}',
-        respostas: '{}',
-      );
+    expect(await banco.desafiosHoje(agora), 0);
+    await banco.contarDesafio(agora);
+    expect(await banco.desafiosHoje(agora), 1);
+  });
+
+  test('apagar e criar jogador de novo não zera os limites do dia', () async {
+    final agora = DateTime.now();
+    final ana = await novo('Ana');
+    for (var i = 0; i < 3; i++) {
+      await banco.contarDesafio(agora);
+      await banco.contarDica(agora);
     }
-    // O desafio do dia não conta no limite.
-    expect(await banco.desafiosHoje(perfil.id, agora), 2);
+    await banco.apagarPerfil(ana.id);
+    await novo('Ana de novo');
+    expect(await banco.desafiosHoje(agora), 3);
+    expect(await banco.dicasHoje(agora), 3);
   });
 
   test('banco da versão 1 é atualizado sem perder dados', () async {
@@ -201,7 +200,7 @@ void main() {
     expect(await atualizado.observarTotalPontos(1).first, 225);
     await atualizado.gravarAjuste('premium', '1');
     expect(await atualizado.lerAjuste('premium'), '1');
-    expect(await atualizado.desafiosHoje(1, DateTime.now()), 0);
+    expect(await atualizado.desafiosHoje(DateTime.now()), 0);
     await atualizado.close();
     pasta.deleteSync(recursive: true);
   });
@@ -226,9 +225,9 @@ void main() {
           ),
         );
       }
-      expect(await banco.pendentesLivres(perfil.id), 2);
+      expect(await banco.pendentesLivres(), 2);
       await banco.apagarPartida(ids.first);
-      expect(await banco.pendentesLivres(perfil.id), 1);
+      expect(await banco.pendentesLivres(), 1);
     },
   );
 }

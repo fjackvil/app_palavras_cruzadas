@@ -13,7 +13,7 @@ import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import '../widgets/grade_caca.dart';
 import 'tela_inicio.dart' show formatarTempo;
-import 'tela_resultado.dart';
+import 'fim_de_jogo.dart';
 
 /// Tela de jogo do caça-palavras. Salva o progresso a cada palavra achada.
 class TelaCaca extends StatefulWidget {
@@ -31,6 +31,9 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
   bool _pausado = false;
   bool _mostrarTempo = true;
   bool _encerrado = false;
+
+  /// Resultado do desafio terminado (null enquanto joga).
+  ResultadoFim? _fim;
 
   JogoCaca get _jogo => widget.jogo;
   Banco get _banco => Servicos.of(context).banco;
@@ -103,38 +106,37 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
     final recordes = await recordesBatidos(_banco, widget.partidaId);
     final medalhas = await conquistasLiberadas(_banco, widget.partidaId);
     if (!mounted) return;
-    await Navigator.of(context).pushReplacement(
-      MaterialPageRoute<void>(
-        builder: (_) => TelaResultado(
+    // Fica na tela, com a grade resolvida e o painel do fim por baixo.
+    setState(
+      () => _fim = ResultadoFim(
+        nivel: _jogo.nivel,
+        pontuacao: pontuacao,
+        segundos: _jogo.segundos,
+        palavras: [
+          for (final p in _jogo.desafio.palavras)
+            (rotulo: '•', escrita: p.escrita, dica: p.dica),
+        ],
+        textoCompartilhar: textoResultado(
+          caca: true,
           nivel: _jogo.nivel,
-          palavras: [
-            for (final p in _jogo.desafio.palavras)
-              (rotulo: '•', escrita: p.escrita, dica: p.dica),
-          ],
-          pontuacao: pontuacao,
-          textoCompartilhar: textoResultado(
-            caca: true,
-            nivel: _jogo.nivel,
-            diario: _jogo.desafio.diario,
-            pontos: pontuacao.total,
-            segundos: _jogo.segundos,
-            dicas: _jogo.dicasUsadas,
-            palavras: _jogo.desafio.palavras.length,
-          ),
+          diario: _jogo.desafio.diario,
+          pontos: pontuacao.total,
           segundos: _jogo.segundos,
-          perfilId: perfilId,
-          proximoNivel: proximo,
-          recordes: recordes,
-          conquistas: medalhas,
+          dicas: _jogo.dicasUsadas,
+          palavras: _jogo.desafio.palavras.length,
         ),
+        diario: _jogo.desafio.diario != null,
+        perfilId: perfilId,
+        proximoNivel: proximo,
+        recordes: recordes,
+        conquistas: medalhas,
       ),
     );
   }
 
   Future<void> _dica() async {
     if (_pausado || _encerrado) return;
-    final perfilId = await conferirDica(context, widget.partidaId);
-    if (perfilId == null || !mounted) return;
+    if (!await conferirDica(context) || !mounted) return;
     final sim = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -157,7 +159,7 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
     );
     if (sim != true || !mounted) return;
     final dada = _jogo.dica();
-    if (dada != null && mounted) await contarDica(context, perfilId);
+    if (dada != null && mounted) await contarDica(context);
     if (dada == null && mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
@@ -206,14 +208,16 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            !_jogo.comecou
+            _fim != null
+                ? 'Concluído! 🎉'
+                : !_jogo.comecou
                 ? 'Toque para começar'
                 : _mostrarTempo
                 ? formatarTempo(_jogo.segundos)
                 : _jogo.nivel.nome,
           ),
           actions: [
-            if (leve)
+            if (leve && _fim == null)
               IconButton(
                 tooltip: _mostrarTempo ? 'Esconder o tempo' : 'Mostrar o tempo',
                 icon: Icon(
@@ -221,77 +225,100 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
                 ),
                 onPressed: () => setState(() => _mostrarTempo = !_mostrarTempo),
               ),
-            IconButton(
-              tooltip: _pausado ? 'Continuar' : 'Pausar',
-              icon: Icon(_pausado ? Icons.play_arrow : Icons.pause),
-              onPressed: () => setState(() => _pausado = !_pausado),
-            ),
+            if (_fim == null)
+              IconButton(
+                tooltip: _pausado ? 'Continuar' : 'Pausar',
+                icon: Icon(_pausado ? Icons.play_arrow : Icons.pause),
+                onPressed: () => setState(() => _pausado = !_pausado),
+              ),
           ],
         ),
-        body: SafeArea(
-          child: _pausado
-              ? Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        'Pausado',
-                        style: Theme.of(context).textTheme.headlineMedium,
-                      ),
-                      const SizedBox(height: 16),
-                      FilledButton.icon(
-                        icon: const Icon(Icons.play_arrow),
-                        label: const Text('Continuar'),
-                        onPressed: () => setState(() => _pausado = false),
-                      ),
-                    ],
-                  ),
-                )
-              // Sem rolagem em volta da grade: o arrasto do dedo é só dela.
-              : Column(
-                  children: [
-                    Padding(
+        body: _fim != null
+            ? Column(
+                children: [
+                  Expanded(
+                    child: Padding(
                       padding: const EdgeInsets.all(8),
-                      child: Text(
-                        '${_jogo.encontradas.length} de ${d.palavras.length} '
-                        'palavras · arraste o dedo sobre a palavra',
-                        textAlign: TextAlign.center,
+                      child: Center(
+                        child: GradeCaca(jogo: _jogo, somenteLeitura: true),
                       ),
                     ),
-                    Expanded(
-                      flex: 3,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8),
-                        child: Center(
-                          child: GradeCaca(jogo: _jogo, aoAchar: _aoAchar),
+                  ),
+                  PainelFim(
+                    resultado: _fim!,
+                    aoEscolher: (acao) => Navigator.of(context).pop(acao),
+                  ),
+                ],
+              )
+            : SafeArea(
+                child: _pausado
+                    ? Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              'Pausado',
+                              style: Theme.of(context).textTheme.headlineMedium,
+                            ),
+                            const SizedBox(height: 16),
+                            FilledButton.icon(
+                              icon: const Icon(Icons.play_arrow),
+                              label: const Text('Continuar'),
+                              onPressed: () => setState(() => _pausado = false),
+                            ),
+                          ],
                         ),
+                      )
+                    // Sem rolagem em volta da grade: o arrasto do dedo é só dela.
+                    : Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8),
+                            child: Text(
+                              '${_jogo.encontradas.length} de ${d.palavras.length} '
+                              'palavras · arraste o dedo sobre a palavra',
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          Expanded(
+                            flex: 3,
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 8,
+                              ),
+                              child: Center(
+                                child: GradeCaca(
+                                  jogo: _jogo,
+                                  aoAchar: _aoAchar,
+                                ),
+                              ),
+                            ),
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              TextButton.icon(
+                                icon: const Icon(Icons.lightbulb_outline),
+                                label: const Text('Dica'),
+                                onPressed: _encerrado ? null : _dica,
+                              ),
+                              TextButton.icon(
+                                icon: const Icon(Icons.flag_outlined),
+                                label: const Text('Desistir'),
+                                onPressed: _encerrado ? null : _desistir,
+                              ),
+                            ],
+                          ),
+                          Expanded(
+                            flex: 2,
+                            child: SingleChildScrollView(
+                              padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                              child: ListaCaca(jogo: _jogo),
+                            ),
+                          ),
+                        ],
                       ),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        TextButton.icon(
-                          icon: const Icon(Icons.lightbulb_outline),
-                          label: const Text('Dica'),
-                          onPressed: _encerrado ? null : _dica,
-                        ),
-                        TextButton.icon(
-                          icon: const Icon(Icons.flag_outlined),
-                          label: const Text('Desistir'),
-                          onPressed: _encerrado ? null : _desistir,
-                        ),
-                      ],
-                    ),
-                    Expanded(
-                      flex: 2,
-                      child: SingleChildScrollView(
-                        padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
-                        child: ListaCaca(jogo: _jogo),
-                      ),
-                    ),
-                  ],
-                ),
-        ),
+              ),
       ),
     );
   }

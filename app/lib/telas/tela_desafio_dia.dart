@@ -10,6 +10,7 @@ import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
 import '../widgets/icones_jogo.dart';
 import 'abrir_jogo.dart';
+import 'fim_de_jogo.dart';
 import 'tela_inicio.dart'
     show Modo, formatarTempo, tarefaDiario, tarefaDiarioCaca;
 
@@ -56,18 +57,24 @@ class _TelaDesafioDiaState extends State<TelaDesafioDia> {
     if (_montando) return;
     setState(() => _montando = true);
     final hoje = DateTime.now();
+    AcaoFim? acao;
     try {
       if (modo == Modo.caca) {
         final d = await montarGrade(tarefaDiarioCaca(todos, nivel, hoje));
         if (mounted) setState(() => _montando = false);
-        if (mounted) await comecarCaca(context, widget.perfilId, d);
+        if (mounted) acao = await comecarCaca(context, widget.perfilId, d);
       } else {
         final d = await montarGrade(tarefaDiario(todos, nivel, hoje));
         if (mounted) setState(() => _montando = false);
-        if (mounted) await comecarCruzadas(context, widget.perfilId, d);
+        if (mounted) {
+          acao = await comecarCruzadas(context, widget.perfilId, d);
+        }
       }
     } finally {
       if (mounted && _montando) setState(() => _montando = false);
+    }
+    if (acao == AcaoFim.inicio && mounted) {
+      Navigator.of(context).popUntil((r) => r.isFirst);
     }
   }
 
@@ -283,7 +290,12 @@ class _CartaoModo extends StatelessWidget {
           final p? => (
             'Em andamento',
             FilledButton.tonal(
-              onPressed: () => retomarPartida(context, p),
+              onPressed: () async {
+                final acao = await retomarPartida(context, p);
+                if (acao == AcaoFim.inicio && context.mounted) {
+                  Navigator.of(context).popUntil((r) => r.isFirst);
+                }
+              },
               child: const Text('Continuar'),
             ),
           ),

@@ -15,7 +15,7 @@ import '../dominio/pontuacao.dart';
 import '../widgets/grade_com_zoom.dart';
 import '../widgets/teclado.dart';
 import 'tela_inicio.dart' show formatarTempo;
-import 'tela_resultado.dart';
+import 'fim_de_jogo.dart';
 
 /// Tela de jogo das cruzadas. Salva o progresso a cada letra.
 class TelaJogo extends StatefulWidget {
@@ -33,6 +33,9 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
   bool _pausado = false;
   bool _mostrarTempo = true;
   bool _encerrado = false;
+
+  /// Resultado do desafio terminado (null enquanto joga).
+  ResultadoFim? _fim;
 
   JogoCruzadas get _jogo => widget.jogo;
   Banco get _banco => Servicos.of(context).banco;
@@ -106,34 +109,34 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
     final recordes = await recordesBatidos(_banco, widget.partidaId);
     final medalhas = await conquistasLiberadas(_banco, widget.partidaId);
     if (!mounted) return;
-    await Navigator.of(context).pushReplacement(
-      MaterialPageRoute<void>(
-        builder: (_) => TelaResultado(
+    // Fica na tela, com a grade resolvida e o painel do fim por baixo.
+    setState(
+      () => _fim = ResultadoFim(
+        nivel: _jogo.nivel,
+        pontuacao: pontuacao,
+        segundos: _jogo.segundos,
+        palavras: [
+          for (final p in _jogo.desafio.palavras)
+            (
+              rotulo: '${p.numero} ${p.horizontal ? '→' : '↓'}',
+              escrita: p.escrita,
+              dica: p.dica,
+            ),
+        ],
+        textoCompartilhar: textoResultado(
+          caca: false,
           nivel: _jogo.nivel,
-          palavras: [
-            for (final p in _jogo.desafio.palavras)
-              (
-                rotulo: '${p.numero} ${p.horizontal ? '→' : '↓'}',
-                escrita: p.escrita,
-                dica: p.dica,
-              ),
-          ],
-          pontuacao: pontuacao,
-          textoCompartilhar: textoResultado(
-            caca: false,
-            nivel: _jogo.nivel,
-            diario: _jogo.desafio.diario,
-            pontos: pontuacao.total,
-            segundos: _jogo.segundos,
-            dicas: _jogo.dicasUsadas,
-            palavras: _jogo.desafio.palavras.length,
-          ),
+          diario: _jogo.desafio.diario,
+          pontos: pontuacao.total,
           segundos: _jogo.segundos,
-          perfilId: perfilId,
-          proximoNivel: proximo,
-          recordes: recordes,
-          conquistas: medalhas,
+          dicas: _jogo.dicasUsadas,
+          palavras: _jogo.desafio.palavras.length,
         ),
+        diario: _jogo.desafio.diario != null,
+        perfilId: perfilId,
+        proximoNivel: proximo,
+        recordes: recordes,
+        conquistas: medalhas,
       ),
     );
   }
@@ -167,8 +170,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
   }
 
   Future<void> _escolherDica() async {
-    final perfilId = await conferirDica(context, widget.partidaId);
-    if (perfilId == null || !mounted) return;
+    if (!await conferirDica(context) || !mounted) return;
     final escolha = await showModalBottomSheet<String>(
       context: context,
       builder: (context) => SafeArea(
@@ -192,7 +194,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
       ),
     );
     if (escolha == null || !mounted) return;
-    await contarDica(context, perfilId);
+    await contarDica(context);
     if (escolha == 'letra') await _acao(_jogo.dicaDeLetra);
     if (escolha == 'palavra') await _acao(_jogo.dicaDePalavra);
   }
@@ -264,14 +266,16 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            !_jogo.comecou
+            _fim != null
+                ? 'Concluído! 🎉'
+                : !_jogo.comecou
                 ? 'Toque para começar'
                 : _mostrarTempo
                 ? formatarTempo(_jogo.segundos)
                 : _jogo.nivel.nome,
           ),
           actions: [
-            if (leve)
+            if (leve && _fim == null)
               IconButton(
                 tooltip: _mostrarTempo ? 'Esconder o tempo' : 'Mostrar o tempo',
                 icon: Icon(
@@ -279,84 +283,103 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
                 ),
                 onPressed: () => setState(() => _mostrarTempo = !_mostrarTempo),
               ),
-            IconButton(
-              tooltip: _pausado ? 'Continuar' : 'Pausar',
-              icon: Icon(_pausado ? Icons.play_arrow : Icons.pause),
-              onPressed: () => setState(() => _pausado = !_pausado),
-            ),
+            if (_fim == null)
+              IconButton(
+                tooltip: _pausado ? 'Continuar' : 'Pausar',
+                icon: Icon(_pausado ? Icons.play_arrow : Icons.pause),
+                onPressed: () => setState(() => _pausado = !_pausado),
+              ),
           ],
         ),
-        body: SafeArea(
-          child: Column(
-            children: [
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: _pausado
-                      ? Center(
-                          child: _Pausado(
-                            aoContinuar: () => setState(() => _pausado = false),
-                          ),
-                        )
-                      : GradeComZoom(jogo: _jogo),
-                ),
-              ),
-              Material(
-                color: CoresMarca.verdeClaro.withValues(alpha: 0.2),
-                child: InkWell(
-                  onTap: _verTodasAsDicas,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 10,
-                    ),
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            atual == null
-                                ? 'Toque numa casa'
-                                : '${atual.numero} ${atual.horizontal ? '→' : '↓'}  ${atual.dica}',
-                            style: leve ? texto.titleLarge : texto.titleMedium,
-                          ),
-                        ),
-                        const Icon(Icons.list),
-                      ],
+        body: _fim != null
+            ? Column(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Center(child: GradeComZoom(jogo: _jogo)),
                     ),
                   ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 4),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  PainelFim(
+                    resultado: _fim!,
+                    aoEscolher: (acao) => Navigator.of(context).pop(acao),
+                  ),
+                ],
+              )
+            : SafeArea(
+                child: Column(
                   children: [
-                    TextButton.icon(
-                      icon: const Icon(Icons.lightbulb_outline),
-                      label: const Text('Dica'),
-                      onPressed: _encerrado ? null : _escolherDica,
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8),
+                        child: _pausado
+                            ? Center(
+                                child: _Pausado(
+                                  aoContinuar: () =>
+                                      setState(() => _pausado = false),
+                                ),
+                              )
+                            : GradeComZoom(jogo: _jogo),
+                      ),
                     ),
-                    TextButton.icon(
-                      icon: const Icon(Icons.spellcheck),
-                      label: const Text('Verificar'),
-                      onPressed: _encerrado ? null : _verificar,
+                    Material(
+                      color: CoresMarca.verdeClaro.withValues(alpha: 0.2),
+                      child: InkWell(
+                        onTap: _verTodasAsDicas,
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 10,
+                          ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  atual == null
+                                      ? 'Toque numa casa'
+                                      : '${atual.numero} ${atual.horizontal ? '→' : '↓'}  ${atual.dica}',
+                                  style: leve
+                                      ? texto.titleLarge
+                                      : texto.titleMedium,
+                                ),
+                              ),
+                              const Icon(Icons.list),
+                            ],
+                          ),
+                        ),
+                      ),
                     ),
-                    TextButton.icon(
-                      icon: const Icon(Icons.flag_outlined),
-                      label: const Text('Desistir'),
-                      onPressed: _encerrado ? null : _desistir,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 4),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          TextButton.icon(
+                            icon: const Icon(Icons.lightbulb_outline),
+                            label: const Text('Dica'),
+                            onPressed: _encerrado ? null : _escolherDica,
+                          ),
+                          TextButton.icon(
+                            icon: const Icon(Icons.spellcheck),
+                            label: const Text('Verificar'),
+                            onPressed: _encerrado ? null : _verificar,
+                          ),
+                          TextButton.icon(
+                            icon: const Icon(Icons.flag_outlined),
+                            label: const Text('Desistir'),
+                            onPressed: _encerrado ? null : _desistir,
+                          ),
+                        ],
+                      ),
+                    ),
+                    Teclado(
+                      grande: leve,
+                      aoDigitar: (l) => _acao(() => _jogo.digitar(l)),
+                      aoApagar: () => _acao(_jogo.apagar),
                     ),
                   ],
                 ),
               ),
-              Teclado(
-                grande: leve,
-                aoDigitar: (l) => _acao(() => _jogo.digitar(l)),
-                aoApagar: () => _acao(_jogo.apagar),
-              ),
-            ],
-          ),
-        ),
       ),
     );
   }

@@ -15,6 +15,7 @@ import '../widgets/avatar.dart';
 import '../widgets/escolhas_inicio.dart';
 import '../widgets/icones_jogo.dart';
 import 'abrir_jogo.dart';
+import 'fim_de_jogo.dart';
 import 'tela_como_jogar.dart';
 import 'tela_conquistas.dart';
 import 'tela_placar.dart';
@@ -123,8 +124,7 @@ class _TelaInicioState extends State<TelaInicio> {
   Future<int>? _hoje;
 
   Future<int> _contarHoje(int perfilId) =>
-      _hoje ??= Servicos.of(context).banco
-          .desafiosHoje(perfilId, DateTime.now());
+      _hoje ??= Servicos.of(context).banco.desafiosHoje(DateTime.now());
 
   Future<void> _jogar(Perfil perfil, List<Tema> visiveis, Nivel nivel) async {
     if (_montando) return;
@@ -136,14 +136,14 @@ class _TelaInicioState extends State<TelaInicio> {
       await abrirPremium(
         context,
         motivo:
-            'Você já jogou os ${PlanoGratis.desafiosPorDia} desafios grátis '
-            'de hoje. Amanhã tem mais, e o desafio do dia continua liberado. '
+            'Os ${PlanoGratis.desafiosPorDia} desafios grátis de hoje deste '
+            'celular já foram jogados (somando todos os jogadores). Amanhã '
+            'tem mais, e o desafio do dia continua liberado. '
             'Com o Premium, é sem limite.',
       );
       return;
     }
-    final pendentes = await Servicos.of(context).banco
-        .pendentesLivres(perfil.id);
+    final pendentes = await Servicos.of(context).banco.pendentesLivres();
     if (!mounted) return;
     if (!plano.podeGuardarPendente(pendentes)) {
       await _avisarPendentes();
@@ -154,15 +154,41 @@ class _TelaInicioState extends State<TelaInicio> {
         .toList();
     final temas = escolhidos.isEmpty ? visiveis : escolhidos;
     final semente = Random().nextInt(1 << 31);
+    // Conta o desafio no limite do dia (vale para o celular todo).
+    await Servicos.of(context).banco.contarDesafio(DateTime.now());
+    if (!mounted) return;
+    AcaoFim? acao;
     if (_modo == Modo.caca) {
       final desafio = await _montar(tarefaCaca(temas, nivel, semente));
-      if (mounted) await comecarCaca(context, perfil.id, desafio);
+      if (mounted) acao = await comecarCaca(context, perfil.id, desafio);
     } else {
       final desafio = await _montar(tarefaCruzadas(temas, nivel, semente));
-      if (mounted) await comecarCruzadas(context, perfil.id, desafio);
+      if (mounted) acao = await comecarCruzadas(context, perfil.id, desafio);
     }
     // Atualiza o "hoje: x de 3" ao voltar do jogo.
     if (mounted) setState(() => _hoje = null);
+    await _depoisDoJogo(acao);
+  }
+
+  /// Joga outro com as mesmas escolhas (montado a cada desenho da tela).
+  VoidCallback? _jogarNovo;
+
+  /// O que a pessoa escolheu no painel de fim de jogo.
+  Future<void> _depoisDoJogo(AcaoFim? acao) async {
+    if (!mounted || acao == null) return;
+    switch (acao) {
+      case AcaoFim.jogarOutro:
+        _jogarNovo?.call();
+      case AcaoFim.trocarTema:
+        // Já está na tela de escolher: leva até os temas.
+        await _rolagem.animateTo(
+          0,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeOut,
+        );
+      case AcaoFim.inicio:
+        Navigator.of(context).popUntil((r) => r.isFirst);
+    }
   }
 
   /// Grátis com 3 pendentes: termine ou apague um, ou vire Premium.
@@ -172,9 +198,11 @@ class _TelaInicioState extends State<TelaInicio> {
       builder: (context) => AlertDialog(
         title: const Text('Você tem desafios pela metade'),
         content: Text(
-          'No plano grátis dá para guardar até ${PlanoGratis.maxPendentes} '
-          'desafios começados. Termine ou apague um deles em "Pendentes", '
-          'aqui embaixo, para começar outro. Com o Premium não há limite.',
+          'No plano grátis, este celular guarda até '
+          '${PlanoGratis.maxPendentes} desafios começados, somando todos os '
+          'jogadores. Termine ou apague um deles em "Pendentes" (aqui ou na '
+          'tela de outro jogador) para começar outro. Com o Premium não há '
+          'limite.',
         ),
         actions: [
           TextButton(
@@ -199,8 +227,11 @@ class _TelaInicioState extends State<TelaInicio> {
     }
   }
 
-  Future<void> _retomarAqui(Partida partida) =>
-      retomarPartida(context, partida);
+  Future<void> _retomarAqui(Partida partida) async {
+    final acao = await retomarPartida(context, partida);
+    if (mounted) setState(() => _hoje = null);
+    await _depoisDoJogo(acao);
+  }
 
   /// Pendente desistido: continuar ou ver a resposta (encerra sem pontos).
   Future<void> _abrirPendente(Partida partida) async {
@@ -398,6 +429,9 @@ class _TelaInicioState extends State<TelaInicio> {
     final nivel = plano.nivelEfetivo(Nivel.porNome(perfil.nivelAtual));
     final visiveis = _visiveis(perfil, todos, nivel);
     final jogaveis = visiveis.where(plano.temaLiberado).toList();
+    _jogarNovo = jogaveis.isEmpty
+        ? null
+        : () => _jogar(perfil, jogaveis, nivel);
     final porCategoria = <String, List<Tema>>{};
     for (final t in visiveis) {
       porCategoria.putIfAbsent(t.categoria, () => []).add(t);

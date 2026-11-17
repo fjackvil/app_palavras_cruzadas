@@ -4,25 +4,25 @@ import '../app.dart';
 import '../dominio/plano.dart';
 import '../telas/tela_premium.dart';
 
-/// Confere o limite de dicas do plano grátis antes de dar uma dica.
-/// Devolve o id do jogador se pode dar a dica; null se não pode (e já
-/// abriu a tela do Premium explicando).
-Future<int?> conferirDica(BuildContext context, int partidaId) async {
+/// Confere o limite de dicas do plano grátis (por celular) antes de dar
+/// uma dica. Devolve true se pode; false se não pode (e já abriu a tela do
+/// Premium explicando).
+Future<bool> conferirDica(BuildContext context) async {
   final servicos = Servicos.of(context);
-  final partida = await servicos.banco.buscarPartida(partidaId);
-  final hoje = await servicos.banco.dicasHoje(partida.perfilId, DateTime.now());
-  if (servicos.plano.podeUsarDica(hoje)) return partida.perfilId;
+  final hoje = await servicos.banco.dicasHoje(DateTime.now());
+  if (servicos.plano.podeUsarDica(hoje)) return true;
   if (context.mounted) {
     await abrirPremium(
       context,
       motivo:
-          'As ${PlanoGratis.dicasPorDia} dicas grátis de hoje já foram usadas. '
+          'As ${PlanoGratis.dicasPorDia} dicas grátis de hoje deste celular já '
+          'foram usadas. '
           'Amanhã tem mais. Com o Premium, as dicas não têm limite.',
     );
   }
-  return null;
+  return false;
 }
 
-/// Conta uma dica usada hoje pelo jogador.
-Future<void> contarDica(BuildContext context, int perfilId) =>
-    Servicos.of(context).banco.contarDica(perfilId, DateTime.now());
+/// Conta uma dica usada hoje no aparelho.
+Future<void> contarDica(BuildContext context) =>
+    Servicos.of(context).banco.contarDica(DateTime.now());
