@@ -111,7 +111,7 @@ class TelaPerfis extends StatelessWidget {
                             )
                           else
                             const Text('Este aparelho já tem 5 jogadores.'),
-                          if (perfis.isNotEmpty) ...[
+                          if (mostrarPlacarFamilia && perfis.isNotEmpty) ...[
                             const SizedBox(height: 8),
                             FilledButton.tonalIcon(
                               icon: const Icon(Icons.emoji_events_outlined),

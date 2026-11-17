@@ -146,7 +146,7 @@ As palavras abaixo são exemplos; o banco completo (meta: 300+ palavras por tema
 
 Não há ranking global: as pontuações ficam só no celular, e a competição acontece entre os jogadores do mesmo aparelho ou por compartilhamento feito pelo próprio usuário.
 
-- **Placar da família:** ranking entre os perfis do aparelho, por semana, por nível e por tema.
+- **Placar da família:** ranking entre os perfis do aparelho, por semana, por nível e por tema. **Escondido no 1.0 (decidido em 17/11/2026):** como a família costuma jogar cada um no seu celular, um placar só do aparelho promete mais do que entrega. O código fica no app (constante `mostrarPlacarFamilia` em `tela_placar.dart`) e o placar volta junto com Grupos, como placar do grupo entre celulares. No 1.0, a comparação com a família é pelo desafio do dia e pelo compartilhar no WhatsApp.
 - **Recordes pessoais:** melhor tempo e maior pontuação em cada desafio e tema.
 - **Desafio diário:** a mesma grade para todos no dia (vem junto com o conteúdo baixado), então dá para comparar com amigos fora do app.
 - **Compartilhar resultado:** um botão gera um texto ou imagem ("Cruzada do dia: 850 pontos em 4min12s") e abre o compartilhamento do Android (WhatsApp etc.). Quem decide enviar é o usuário; nada passa pelo nosso servidor.
@@ -205,7 +205,7 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 
 **Preços sugeridos (testar):** R$ 9,90/mês, R$ 59,90/ano, R$ 99,90 vitalício. Oferecer 7 dias grátis na assinatura anual.
 
-**Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 1 tema por categoria, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). Limite de pendentes aplicado em 17/11/2026: até 3 no grátis (o desafio do dia não conta); ao tocar num pendente dá para continuar, ver a resposta (se desistiu) ou apagar. Os limites diários e de pendentes contam **por celular**, somando todos os jogadores, e ficam guardados à parte: criar ou apagar jogador não libera mais nada. Temas grátis (17/11/2026): um por categoria — Países, Animais, Alimentos, Desenhos animados, Instrumentos musicais, História do Brasil, Dinossauros, Futebol, Folclore, Escola, Antônimos e Meio ambiente.
+**Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 1 tema por categoria, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para irmãos ou pais e filhos dividirem o mesmo celular ou tablet). Limite de pendentes aplicado em 17/11/2026: até 3 no grátis (o desafio do dia não conta); ao tocar num pendente dá para continuar, ver a resposta (se desistiu) ou apagar. Os limites diários e de pendentes contam **por celular**, somando todos os jogadores, e ficam guardados à parte: criar ou apagar jogador não libera mais nada. Temas grátis (17/11/2026): um por categoria — Países, Animais, Alimentos, Desenhos animados, Instrumentos musicais, História do Brasil, Dinossauros, Futebol, Folclore, Escola, Antônimos e Meio ambiente.
 
 **Esclarecido em 17/11/2026:** o Premium é **por conta Google** (a da Play Store), não por família nem por celular. Vale em todo celular em que a pessoa entrar com aquela conta. O produto se chama só "Premium" (ID `premium`). O Google Play não oferece limite de aparelhos por conta; para usar o Premium em outro celular, alguém teria de entrar ali com a conta Google inteira do comprador (Gmail, Drive etc.), o que já desestimula o compartilhamento. Compras dentro do app não entram na Biblioteca da Família do Google. Limitar aparelhos exigiria servidor e guardar identificadores, o que vai contra a privacidade do app; por isso, não será feito.
 
@@ -360,7 +360,7 @@ Sugiro lançar em 4 fases, começando por uma versão que seu filho já possa jo
 
 **Depois do beta**
 
-- **Grupos (3–4 semanas):** login opcional com Google, criar grupo, convidar por e-mail ou link, mensagem de convite ao entrar, placar semanal, termos de uso e exclusão de conta.
+- **Grupos (3–4 semanas):** login opcional com Google, criar grupo, convidar por e-mail ou link, mensagem de convite ao entrar, placar semanal (traz de volta o placar da família, escondido no 1.0), termos de uso e exclusão de conta.
 - **Conteúdo no Supabase:** levar temas e palavras para o servidor, para adicionar conteúdo sem publicar uma nova versão do app.
 
 **Principais riscos**

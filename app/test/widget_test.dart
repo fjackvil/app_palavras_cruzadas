@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:palavras_cruzadas/app.dart';
 import 'package:palavras_cruzadas/dados/banco.dart';
 import 'package:palavras_cruzadas/dominio/tema.dart';
@@ -8,6 +10,7 @@ import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:palavras_cruzadas/dominio/pontuacao.dart';
 import 'package:palavras_cruzadas/telas/tela_desafio_dia.dart';
 import 'package:palavras_cruzadas/telas/tela_inicio.dart';
+import 'package:palavras_cruzadas/telas/tela_placar.dart';
 import 'package:palavras_cruzadas/telas/tela_resultado.dart';
 
 void main() {
@@ -37,9 +40,7 @@ void main() {
     await banco.close();
   });
 
-  testWidgets('Placar da família aparece com jogador cadastrado', (
-    tester,
-  ) async {
+  testWidgets('Placar da família fica escondido no 1.0', (tester) async {
     final banco = Banco(NativeDatabase.memory());
     await banco.criarPerfil(
       nome: 'Ana',
@@ -51,7 +52,20 @@ void main() {
       PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
     );
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Placar da família'));
+    expect(find.text('Placar da família'), findsNothing);
+    await banco.close();
+  });
+
+  testWidgets('tela do placar abre vazia', (tester) async {
+    final banco = Banco(NativeDatabase.memory());
+    await tester.pumpWidget(
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
+    );
+    await tester.pumpAndSettle();
+    final nav = tester.state<NavigatorState>(find.byType(Navigator).first);
+    unawaited(
+      nav.push(MaterialPageRoute<void>(builder: (_) => const TelaPlacar())),
+    );
     await tester.pumpAndSettle();
     expect(find.text('Esta semana'), findsOneWidget);
     expect(find.textContaining('Ninguém pontuou'), findsOneWidget);

@@ -361,13 +361,14 @@ class _TelaInicioState extends State<TelaInicio> {
             foregroundColor: Colors.white,
             title: Text(_escolhido?.nome ?? 'Vamos jogar!'),
             actions: [
-              IconButton(
-                tooltip: 'Placar da família',
-                icon: const Icon(Icons.emoji_events_outlined),
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute<void>(builder: (_) => const TelaPlacar()),
+              if (mostrarPlacarFamilia)
+                IconButton(
+                  tooltip: 'Placar da família',
+                  icon: const Icon(Icons.emoji_events_outlined),
+                  onPressed: () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(builder: (_) => const TelaPlacar()),
+                  ),
                 ),
-              ),
               IconButton(
                 tooltip: 'Como jogar',
                 icon: const Icon(Icons.help_outline),

@@ -8,6 +8,11 @@ import '../dominio/placar.dart';
 import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
 
+/// Escondido no 1.0: o placar só compara jogadores do mesmo celular, e a
+/// família costuma jogar cada um no seu. Volta junto com Grupos, como
+/// placar do grupo (entre celulares).
+const mostrarPlacarFamilia = false;
+
 /// Placar da família: ranking entre os jogadores do aparelho, por semana,
 /// jogo, nível e tema. Tudo calculado no celular.
 class TelaPlacar extends StatefulWidget {
