@@ -63,6 +63,7 @@ final _paginas = [
     'Todo dia tem uma cruzada e um caça-palavras novos.',
     'É a mesma grade para todo mundo no mesmo nível: dá para comparar com a família e os amigos.',
     'Jogue todo dia para aumentar a sua sequência 🔥.',
+    'Terminou? Toque em "Compartilhar resultado" para mandar seus pontos pelo WhatsApp. Só vai o resultado, nunca o seu nome.',
   ]),
   const _Pagina('👨‍👩‍👧‍👦', 'Jogar em família', [
     'Até 5 jogadores no mesmo celular, cada um com seu nível e seus pontos.',

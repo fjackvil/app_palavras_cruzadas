@@ -7,6 +7,7 @@ import '../app.dart';
 import '../dados/banco.dart';
 import '../dados/oferta_nivel.dart';
 import '../dominio/jogo_caca.dart';
+import '../dominio/compartilhar.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import '../widgets/grade_caca.dart';
@@ -110,6 +111,15 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
               (rotulo: '•', escrita: p.escrita, dica: p.dica),
           ],
           pontuacao: pontuacao,
+          textoCompartilhar: textoResultado(
+            caca: true,
+            nivel: _jogo.nivel,
+            diario: _jogo.desafio.diario,
+            pontos: pontuacao.total,
+            segundos: _jogo.segundos,
+            dicas: _jogo.dicasUsadas,
+            palavras: _jogo.desafio.palavras.length,
+          ),
           segundos: _jogo.segundos,
           perfilId: perfilId,
           proximoNivel: proximo,

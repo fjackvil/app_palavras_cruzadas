@@ -1,4 +1,5 @@
 import 'package:material_ui/material_ui.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../app.dart';
 import '../dominio/conquistas.dart';
@@ -22,6 +23,7 @@ class TelaResultado extends StatefulWidget {
     this.proximoNivel,
     this.recordes = const [],
     this.conquistas = const [],
+    this.textoCompartilhar,
   });
 
   final Nivel nivel;
@@ -38,6 +40,9 @@ class TelaResultado extends StatefulWidget {
 
   /// Conquistas liberadas neste desafio.
   final List<Conquista> conquistas;
+
+  /// Texto para o botão "Compartilhar resultado" (null = sem botão).
+  final String? textoCompartilhar;
 
   @override
   State<TelaResultado> createState() => _TelaResultadoState();
@@ -71,6 +76,20 @@ class _TelaResultadoState extends State<TelaResultado> {
             ),
           ),
           Center(child: Text('em ${formatarTempo(segundos)}')),
+          if (widget.textoCompartilhar != null) ...[
+            const SizedBox(height: 12),
+            Center(
+              child: FilledButton.tonalIcon(
+                icon: const Icon(Icons.share),
+                label: const Text('Compartilhar resultado'),
+                // Abre o compartilhar do Android: quem escolhe para quem
+                // mandar (ou se manda) é o jogador. Nada passa por servidor.
+                onPressed: () => SharePlus.instance.share(
+                  ShareParams(text: widget.textoCompartilhar),
+                ),
+              ),
+            ),
+          ],
           for (final c in widget.conquistas)
             Card(
               margin: const EdgeInsets.only(top: 16),

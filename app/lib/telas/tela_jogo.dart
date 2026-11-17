@@ -8,6 +8,7 @@ import '../dados/banco.dart';
 import '../dados/oferta_nivel.dart';
 import '../dominio/desafio.dart';
 import '../dominio/jogo_cruzadas.dart';
+import '../dominio/compartilhar.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import '../widgets/grade_com_zoom.dart';
@@ -117,6 +118,15 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
               ),
           ],
           pontuacao: pontuacao,
+          textoCompartilhar: textoResultado(
+            caca: false,
+            nivel: _jogo.nivel,
+            diario: _jogo.desafio.diario,
+            pontos: pontuacao.total,
+            segundos: _jogo.segundos,
+            dicas: _jogo.dicasUsadas,
+            palavras: _jogo.desafio.palavras.length,
+          ),
           segundos: _jogo.segundos,
           perfilId: perfilId,
           proximoNivel: proximo,

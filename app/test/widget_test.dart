@@ -3,7 +3,11 @@ import 'package:palavras_cruzadas/dados/banco.dart';
 import 'package:palavras_cruzadas/dominio/tema.dart';
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:material_ui/material_ui.dart';
+import 'package:palavras_cruzadas/dominio/nivel.dart';
+import 'package:palavras_cruzadas/dominio/pontuacao.dart';
 import 'package:palavras_cruzadas/telas/tela_inicio.dart';
+import 'package:palavras_cruzadas/telas/tela_resultado.dart';
 
 void main() {
   testWidgets('abre pedindo o primeiro jogador', (tester) async {
@@ -83,5 +87,27 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Nome ou apelido'), findsOneWidget);
     await banco.close();
+  });
+
+  testWidgets('resultado mostra o botão de compartilhar', (tester) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: TelaResultado(
+          nivel: Nivel.leve,
+          palavras: const [],
+          pontuacao: Pontuacao.calcular(
+            nivel: Nivel.leve,
+            letras: 20,
+            segundos: 60,
+            tempoAlvoSegundos: 100,
+            dicasLetra: 0,
+            dicasPalavra: 0,
+          ),
+          segundos: 60,
+          textoCompartilhar: 'Palavras Cruzadas',
+        ),
+      ),
+    );
+    expect(find.text('Compartilhar resultado'), findsOneWidget);
   });
 }
