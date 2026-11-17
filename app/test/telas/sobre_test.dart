@@ -49,4 +49,14 @@ void main() {
     expect(md, isNot(contains('[E-MAIL')));
     expect(md, contains('vileladigit@gmail.com'));
   });
+
+  test('termos de uso existem, com Premium, reembolso e contato', () {
+    final md = File(arquivoTermos).readAsStringSync();
+    final secoes = blocosMarkdown(md)
+        .where((b) => b.tipo == TipoBloco.secao)
+        .map((b) => b.texto);
+    expect(secoes, containsAll(['Plano grátis e Premium', 'Contato']));
+    expect(md, contains('Código de Defesa do Consumidor'));
+    expect(md, contains('vileladigit@gmail.com'));
+  });
 }

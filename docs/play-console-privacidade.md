@@ -29,8 +29,8 @@ Ela fica no repositório público `fjackvil/palavras-cruzadas-privacidade`, serv
 
 ```bash
 python3 tool/gerar_politica_html.py
-cp docs/privacidade/index.html ../palavras-cruzadas-privacidade/index.html
-cd ../palavras-cruzadas-privacidade && git commit -am "Atualiza a política" && git push
+cp -r docs/privacidade/. ../palavras-cruzadas-privacidade/
+cd ../palavras-cruzadas-privacidade && git add -A && git commit -m "Atualiza política e termos" && git push
 ```
 
 O e-mail de contato da política é **vileladigit@gmail.com**. Use o mesmo como e-mail de contato do desenvolvedor na Play Console.
@@ -42,6 +42,27 @@ Onde publicar a página (escolha um):
 | GitHub Pages | Grátis em repositório público | Repositório privado só no plano pago do GitHub. Dá para criar um repositório público só com essa página. |
 | Google Sites | Grátis | Colar o texto numa página. |
 | Site próprio | Domínio + hospedagem | Fica mais profissional. |
+
+**Termos de uso:** https://fjackvil.github.io/palavras-cruzadas-privacidade/termos/
+
+O texto fica em `app/assets/textos/termos-de-uso.md`; o app mostra os termos na tela Sobre e privacidade, e o mesmo script gera a página.
+
+## Página "Conteúdo do app" (para cada app)
+
+Fica em Play Console → (o app) → Política e programas → Conteúdo do app. Cada item abaixo é uma declaração:
+
+| Item | O que responder |
+| --- | --- |
+| Política de privacidade | https://fjackvil.github.io/palavras-cruzadas-privacidade/ |
+| Acesso ao app | Todo o app funciona sem login nem credencial especial |
+| Anúncios | Não, o app não contém anúncios |
+| Classificação de conteúdo | Questionário IARC (ver a seção 3) |
+| Público-alvo e conteúdo | Inclui menores de 13 anos (o app é para a família) → aplica a Política para Famílias |
+| Segurança dos dados | Não coleta nem compartilha dados (ver a seção 2) |
+| ID de publicidade | O app **não** usa o ID de publicidade |
+| Apps de notícias, saúde, finanças, governo | Não |
+| **Status de comerciante do app** | **Sim, é comerciante** (vende o Premium dentro do app), igual ao declarado na conta |
+| **Termos de Serviço** | https://fjackvil.github.io/palavras-cruzadas-privacidade/termos/ |
 
 ## 2. Formulário "Segurança dos dados" (Data safety)
 

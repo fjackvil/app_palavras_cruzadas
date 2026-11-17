@@ -69,7 +69,11 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [ ] Criar o produto `premium_familia` na Play Console e testar a compra numa faixa de teste (ver `docs/play-console-privacidade.md`). No emulador e em APK instalado fora da loja, o botão Comprar só avisa que a compra não está disponível.
 - Em versão de teste (`flutter run` sem `--release`), a tela do Premium tem um botão "Simular Premium" para conferir os bloqueios.
 - [ ] Chave de assinatura do app, conta de desenvolvedor no Google Play e teste fechado.
-- Respostas para a Play Console (Segurança dos dados, Famílias, classificação): `docs/play-console-privacidade.md`.
+- [x] Termos de uso escritos (`app/assets/textos/termos-de-uso.md`), mostrados no app (Sobre e privacidade) e publicados em https://fjackvil.github.io/palavras-cruzadas-privacidade/termos/
+- [x] Conta de desenvolvedor pessoal criada no Google Play (nome "Vilela Digit"). Status de comerciante: **comerciante**; publicar só no Brasil.
+- [ ] Concluir as verificações da conta (identidade, celular Android, telefone).
+- [ ] Chave de upload: criar com o keytool e pôr a senha em `app/android/key.properties` (o build já está pronto para ela); depois gerar o `.aab`.
+- Respostas para a Play Console (Conteúdo do app, Segurança dos dados, Famílias, classificação): `docs/play-console-privacidade.md`.
 
 ### Decisões tomadas nesta etapa
 

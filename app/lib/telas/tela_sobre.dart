@@ -11,6 +11,9 @@ const versaoApp = '1.0.0';
 /// Arquivo da política de privacidade (o mesmo texto vira a página web).
 const arquivoPolitica = 'assets/textos/politica-de-privacidade.md';
 
+/// Arquivo dos termos de uso (também vira página web).
+const arquivoTermos = 'assets/textos/termos-de-uso.md';
+
 /// Sobre o app: versão, quem faz e o resumo de privacidade, com o texto
 /// completo da política.
 class TelaSobre extends StatelessWidget {
@@ -99,6 +102,25 @@ class TelaSobre extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+          const SizedBox(height: 8),
+          OutlinedButton.icon(
+            icon: const Icon(Icons.description_outlined),
+            label: const Text('Ler os termos de uso'),
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (_) => const TelaTextoMarkdown(
+                  titulo: 'Termos de uso',
+                  arquivo: arquivoTermos,
+                ),
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+          Text(
+            'Dúvidas, sugestões ou erros nas palavras: vileladigit@gmail.com',
+            textAlign: TextAlign.center,
+            style: texto.bodySmall,
           ),
         ],
       ),

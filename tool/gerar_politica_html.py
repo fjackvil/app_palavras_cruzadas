@@ -1,25 +1,34 @@
-"""Gera a página web da política de privacidade a partir do mesmo texto
-que o app mostra (app/assets/textos/politica-de-privacidade.md).
+"""Gera as páginas web da política de privacidade e dos termos de uso a
+partir dos mesmos textos que o app mostra (app/assets/textos/*.md).
 
 Uso (na raiz do repositório):
     python3 tool/gerar_politica_html.py
 
-Saída: docs/privacidade/index.html — publique esse arquivo num endereço
-público (GitHub Pages, Google Sites, site próprio) e use o link na Play
-Console. Rode de novo sempre que mudar o texto.
+Saída:
+    docs/privacidade/index.html         (política de privacidade)
+    docs/privacidade/termos/index.html  (termos de uso)
+
+Publique copiando a pasta docs/privacidade para o repositório público
+palavras-cruzadas-privacidade (ver docs/play-console-privacidade.md).
+Rode de novo sempre que mudar um dos textos.
 """
 import html
 import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-ORIGEM = RAIZ / "app/assets/textos/politica-de-privacidade.md"
-DESTINO = RAIZ / "docs/privacidade/index.html"
+PAGINAS = [
+    ("politica-de-privacidade.md", "docs/privacidade/index.html",
+     "Política de privacidade"),
+    ("termos-de-uso.md", "docs/privacidade/termos/index.html",
+     "Termos de uso"),
+]
 
 
 def inline(texto: str) -> str:
     t = html.escape(texto)
-    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    return re.sub(r"(https://[^\s<]+[^\s<.,;:)])", r'<a href="\1">\1</a>', t)
 
 
 def converter(md: str) -> str:
@@ -60,7 +69,7 @@ PAGINA = """<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palavras Cruzadas · Política de privacidade</title>
+<title>Palavras Cruzadas · {titulo}</title>
 <style>
   :root {{ color-scheme: light dark; }}
   body {{ font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -82,12 +91,15 @@ PAGINA = """<!doctype html>
 
 
 def main() -> None:
-    DESTINO.parent.mkdir(parents=True, exist_ok=True)
-    DESTINO.write_text(
-        PAGINA.format(conteudo=converter(ORIGEM.read_text(encoding="utf-8"))),
-        encoding="utf-8",
-    )
-    print(f"ok: {DESTINO.relative_to(RAIZ)}")
+    for origem, destino, titulo in PAGINAS:
+        md = (RAIZ / "app/assets/textos" / origem).read_text(encoding="utf-8")
+        saida = RAIZ / destino
+        saida.parent.mkdir(parents=True, exist_ok=True)
+        saida.write_text(
+            PAGINA.format(titulo=titulo, conteudo=converter(md)),
+            encoding="utf-8",
+        )
+        print(f"ok: {destino}")
 
 
 if __name__ == "__main__":

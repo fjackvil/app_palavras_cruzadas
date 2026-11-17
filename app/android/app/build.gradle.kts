@@ -1,7 +1,19 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+}
+
+// Chave de assinatura (upload) para a Play Store. O arquivo key.properties
+// e a chave .jks ficam só no computador: estão no .gitignore e NUNCA vão
+// para o git. Sem key.properties, o release usa a chave de teste (debug).
+val chaveProps = Properties()
+val chaveArquivo = rootProject.file("key.properties")
+if (chaveArquivo.exists()) {
+    chaveProps.load(FileInputStream(chaveArquivo))
 }
 
 android {
@@ -29,11 +41,24 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        if (chaveArquivo.exists()) {
+            create("upload") {
+                keyAlias = chaveProps["keyAlias"] as String
+                keyPassword = chaveProps["keyPassword"] as String
+                storeFile = file(chaveProps["storeFile"] as String)
+                storePassword = chaveProps["storePassword"] as String
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = if (chaveArquivo.exists()) {
+                signingConfigs.getByName("upload")
+            } else {
+                signingConfigs.getByName("debug")
+            }
         }
     }
 }
