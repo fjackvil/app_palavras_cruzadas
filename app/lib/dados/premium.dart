@@ -15,6 +15,13 @@ class ServicoPremium extends ChangeNotifier {
 
   static const _chaveCopia = 'premium';
 
+  /// Versão de teste com tudo liberado, só para o desenvolvedor instalar
+  /// no próprio celular. Gerada com
+  /// `flutter build apk --release --dart-define=PREMIUM_LIBERADO=true`.
+  /// NUNCA enviar esse pacote para a Play Store: o pacote da loja é o .aab,
+  /// gerado sem essa opção.
+  static const liberadoParaTeste = bool.fromEnvironment('PREMIUM_LIBERADO');
+
   final Banco _banco;
 
   /// Loja de compras; nulo = a do Google Play.
@@ -52,6 +59,12 @@ class ServicoPremium extends ChangeNotifier {
 
   /// Lê a cópia local e, se houver loja, confere as compras da conta.
   Future<void> iniciar() async {
+    if (liberadoParaTeste) {
+      // Não fala com a loja nem grava nada: só libera tudo nesta instalação.
+      _premium = true;
+      notifyListeners();
+      return;
+    }
     _premium = await _banco.lerAjuste(_chaveCopia) == '1';
     notifyListeners();
     if (!usarLoja) return;

@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:palavras_cruzadas/dados/premium.dart';
 import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:palavras_cruzadas/dominio/plano.dart';
 
@@ -37,5 +38,9 @@ void main() {
     expect(premium.desafiosRestantes(9), isNull);
     expect(gratis.podeUsarDica(3), isFalse);
     expect(premium.podeUsarDica(99), isTrue);
+  });
+
+  test('o Premium de teste fica desligado nos builds normais', () {
+    expect(ServicoPremium.liberadoParaTeste, isFalse);
   });
 }

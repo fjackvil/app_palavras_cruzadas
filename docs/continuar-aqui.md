@@ -337,3 +337,36 @@ Agora o `flutter run --release` assina com a chave de upload. Se o emulador tive
 ~/Android/Sdk/platform-tools/adb uninstall com.vileladigit.palavrascruzadas
 ```
 
+## 4. Versão de teste com o Premium liberado (só para você)
+
+Serve para testar o app completo no seu celular sem comprar nada e sem a Play Store.
+
+### Gerar
+
+```bash
+cd app
+flutter build apk --release --split-per-abi --dart-define=PREMIUM_LIBERADO=true
+mkdir -p build/teste
+cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/teste/palavras-cruzadas-teste-premium.apk
+```
+
+O arquivo fica em `app/build/teste/palavras-cruzadas-teste-premium.apk` (cerca de 21 MB). Ele serve para quase todo celular Android feito a partir de 2017. Para um celular muito antigo, use o `app-armeabi-v7a-release.apk` da mesma pasta.
+
+### O que essa versão faz
+
+- **Abre com tudo liberado:** a primeira tela mostra "⭐ Premium ativo" e a tela Sobre mostra "🧪 teste com Premium liberado".
+- **Não fala com a loja e não grava compra nenhuma.**
+
+### Instalar no celular
+
+Não precisa de modo desenvolvedor.
+
+1. Mande o APK para você mesmo pelo WhatsApp ou pelo Google Drive.
+2. No celular, toque no arquivo.
+3. O Android pede para permitir instalar "desta fonte" (WhatsApp, Drive). Permita só para ela e instale.
+
+### Cuidados
+
+- **Nunca envie essa versão para a Play Store.** A loja recebe só o `.aab`, gerado sem `PREMIUM_LIBERADO`, como na seção 3. Um teste automático confere que o padrão é desligado.
+- **Antes de instalar pela Play Store** (teste fechado ou versão final), desinstale essa versão de teste. A Play Store assina o app com a chave do Google, e o Android não deixa trocar um app instalado por outro com assinatura diferente.
+

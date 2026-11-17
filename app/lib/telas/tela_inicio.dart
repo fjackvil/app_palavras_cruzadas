@@ -526,42 +526,95 @@ class _TelaInicioState extends State<TelaInicio> {
             ],
           ),
         ),
-        // Botão de jogar sempre à vista, sem precisar rolar.
-        SafeArea(
-          top: false,
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                if (!plano.premium)
-                  FutureBuilder<int>(
-                    future: _contarHoje(perfil.id),
-                    builder: (context, s) {
-                      final resta = plano.desafiosRestantes(s.data ?? 0) ?? 0;
-                      return TextButton(
-                        onPressed: () => abrirPremium(context),
-                        child: Text(
-                          resta == 0
-                              ? 'Desafios grátis de hoje acabaram · ⭐ Premium'
-                              : 'Hoje: $resta de ${PlanoGratis.desafiosPorDia} '
-                                    'desafios grátis · ⭐ Premium',
-                        ),
-                      );
-                    },
+        // Botão de jogar sempre à vista, sem precisar rolar, num painel
+        // branco que "flutua" sobre a lista.
+        Container(
+          decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.surface,
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.08),
+                blurRadius: 12,
+                offset: const Offset(0, -3),
+              ),
+            ],
+          ),
+          child: SafeArea(
+            top: false,
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 10, 16, 12),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (!plano.premium)
+                    FutureBuilder<int>(
+                      future: _contarHoje(perfil.id),
+                      builder: (context, s) {
+                        final resta = plano.desafiosRestantes(s.data ?? 0) ?? 0;
+                        return InkWell(
+                          borderRadius: BorderRadius.circular(16),
+                          onTap: () => abrirPremium(context),
+                          child: Padding(
+                            padding: const EdgeInsets.only(bottom: 8),
+                            child: Row(
+                              children: [
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 10,
+                                    vertical: 4,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: resta == 0
+                                        ? CoresMarca.vermelho.withValues(
+                                            alpha: 0.12,
+                                          )
+                                        : CoresMarca.verdeClaro.withValues(
+                                            alpha: 0.2,
+                                          ),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: Text(
+                                    resta == 0
+                                        ? '🎟️ Acabaram os grátis de hoje'
+                                        : '🎟️ $resta de '
+                                              '${PlanoGratis.desafiosPorDia} '
+                                              'grátis hoje',
+                                    style: texto.labelLarge,
+                                  ),
+                                ),
+                                const Spacer(),
+                                Text(
+                                  '⭐ Premium',
+                                  style: texto.labelLarge?.copyWith(
+                                    color: CoresMarca.verde,
+                                    fontWeight: FontWeight.w800,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                  BotaoJogar(
+                    titulo: jogar,
+                    subtitulo:
+                        'Nível ${nivel.nome} · '
+                        '${escolhidosVisiveis == 0
+                            ? 'temas misturados'
+                            : escolhidosVisiveis == 1
+                            ? '1 tema'
+                            : '$escolhidosVisiveis temas'}',
+                    icone: _modo == Modo.caca
+                        ? const IconeCaca(tamanho: 36)
+                        : const IconeCruzadas(tamanho: 36),
+                    aoTocar: jogaveis.isEmpty || _montando
+                        ? null
+                        : () => _jogar(perfil, jogaveis, nivel),
                   ),
-                FilledButton.icon(
-                  style: FilledButton.styleFrom(
-                    minimumSize: const Size.fromHeight(56),
-                    textStyle: texto.titleLarge,
-                  ),
-                  icon: Icon(_modo.icone),
-                  label: Text(jogar),
-                  onPressed: jogaveis.isEmpty || _montando
-                      ? null
-                      : () => _jogar(perfil, jogaveis, nivel),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ),

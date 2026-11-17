@@ -2,6 +2,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
+import '../dados/premium.dart';
 import '../widgets/icones_jogo.dart';
 
 /// Versão mostrada na tela Sobre. Mantenha igual à de `pubspec.yaml`
@@ -35,7 +36,9 @@ class TelaSobre extends StatelessWidget {
             style: texto.headlineSmall?.copyWith(fontWeight: FontWeight.w800),
           ),
           Text(
-            'Versão $versaoApp',
+            ServicoPremium.liberadoParaTeste
+                ? 'Versão $versaoApp · 🧪 teste com Premium liberado'
+                : 'Versão $versaoApp',
             textAlign: TextAlign.center,
             style: texto.bodyMedium,
           ),

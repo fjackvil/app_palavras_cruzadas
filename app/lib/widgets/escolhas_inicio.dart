@@ -361,3 +361,123 @@ String resumoCategoria({
   }
   return '$total temas';
 }
+
+/// Botão grande de jogar, no rodapé da tela do jogo: degradê verde, o
+/// desenho do jogo, o resumo do que vai ser jogado e uma seta. Encolhe um
+/// pouco ao ser tocado.
+class BotaoJogar extends StatefulWidget {
+  const BotaoJogar({
+    super.key,
+    required this.titulo,
+    required this.subtitulo,
+    required this.icone,
+    required this.aoTocar,
+  });
+
+  final String titulo;
+  final String subtitulo;
+  final Widget icone;
+
+  /// null = desativado (por exemplo, montando a grade).
+  final VoidCallback? aoTocar;
+
+  @override
+  State<BotaoJogar> createState() => _BotaoJogarState();
+}
+
+class _BotaoJogarState extends State<BotaoJogar> {
+  bool _apertado = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final texto = Theme.of(context).textTheme;
+    final ativo = widget.aoTocar != null;
+    return Semantics(
+      button: true,
+      enabled: ativo,
+      label: '${widget.titulo}. ${widget.subtitulo}',
+      child: GestureDetector(
+        onTapDown: ativo ? (_) => setState(() => _apertado = true) : null,
+        onTapCancel: () => setState(() => _apertado = false),
+        onTapUp: (_) => setState(() => _apertado = false),
+        onTap: widget.aoTocar,
+        child: AnimatedScale(
+          scale: _apertado ? 0.96 : 1,
+          duration: const Duration(milliseconds: 120),
+          child: AnimatedOpacity(
+            opacity: ativo ? 1 : 0.5,
+            duration: const Duration(milliseconds: 200),
+            child: Container(
+              padding: const EdgeInsets.fromLTRB(10, 10, 14, 10),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
+                  colors: [CoresMarca.verde, CoresMarca.verdeClaro],
+                ),
+                borderRadius: BorderRadius.circular(24),
+                boxShadow: [
+                  BoxShadow(
+                    color: CoresMarca.verde.withValues(alpha: 0.4),
+                    blurRadius: 14,
+                    offset: const Offset(0, 6),
+                  ),
+                ],
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: widget.icone,
+                  ),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          widget.titulo,
+                          style: texto.titleLarge?.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: 0.5,
+                          ),
+                        ),
+                        Text(
+                          widget.subtitulo,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: texto.bodyMedium?.copyWith(
+                            color: Colors.white.withValues(alpha: 0.9),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.25),
+                      shape: BoxShape.circle,
+                    ),
+                    child: const Icon(
+                      Icons.play_arrow_rounded,
+                      color: Colors.white,
+                      size: 30,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

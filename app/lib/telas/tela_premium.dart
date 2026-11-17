@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
+import '../dados/premium.dart';
 import '../dominio/plano.dart';
 
 /// Abre a tela "Seja Premium". [motivo] explica o que estava bloqueado.
@@ -87,7 +88,14 @@ class _TelaPremiumState extends State<TelaPremium> {
               const SizedBox(height: 16),
               _Comparacao(texto: texto),
               const SizedBox(height: 20),
-              if (premium.premium)
+              if (ServicoPremium.liberadoParaTeste)
+                const Center(
+                  child: Chip(
+                    avatar: Text('🧪'),
+                    label: Text('Versão de teste: Premium liberado sem compra'),
+                  ),
+                )
+              else if (premium.premium)
                 const Center(
                   child: Chip(
                     avatar: Icon(Icons.check_circle, color: CoresMarca.verde),
