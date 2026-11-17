@@ -23,6 +23,16 @@ A Play Console pede o **link** da política. O texto é o mesmo que o app mostra
   python3 tool/gerar_politica_html.py
   ```
 
+**Publicada em:** https://fjackvil.github.io/palavras-cruzadas-privacidade/
+
+Ela fica no repositório público `fjackvil/palavras-cruzadas-privacidade`, servido pelo GitHub Pages. No computador, o repositório fica ao lado deste projeto, em `git-fernando-pessoal/palavras-cruzadas-privacidade`. Para atualizar a página depois de mudar o texto:
+
+```bash
+python3 tool/gerar_politica_html.py
+cp docs/privacidade/index.html ../palavras-cruzadas-privacidade/index.html
+cd ../palavras-cruzadas-privacidade && git commit -am "Atualiza a política" && git push
+```
+
 O e-mail de contato da política é **vileladigit@gmail.com**. Use o mesmo como e-mail de contato do desenvolvedor na Play Console.
 
 Onde publicar a página (escolha um):
@@ -48,7 +58,7 @@ Dados que ficam **só no aparelho**, como nome do jogador, idade, foto e pontos,
 
 | Seção da Play Console | Resposta |
 | --- | --- |
-| Política de privacidade | O link publicado no passo 1 |
+| Política de privacidade | https://fjackvil.github.io/palavras-cruzadas-privacidade/ |
 | Anúncios | **Não**, o app não contém anúncios |
 | Acesso ao app | Todo o app funciona sem login ou credencial especial |
 | Público-alvo e conteúdo | Inclui faixas abaixo de 13 anos (o app é para a família). Isso aplica a **Política para Famílias** do Google, que o app já atende: sem anúncios, sem SDK de rastreio, sem coleta de dados. |
