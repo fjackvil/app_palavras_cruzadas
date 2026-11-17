@@ -62,7 +62,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'dez',
     emoji: '🔟',
-    nome: 'Dez na conta',
+    nome: '10 desafios',
     descricao: 'Termine 10 desafios.',
     meta: 10,
     progresso: (rs) => rs.length,
@@ -70,7 +70,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'cinquenta',
     emoji: '🏆',
-    nome: 'Craque das letras',
+    nome: '50 desafios',
     descricao: 'Termine 50 desafios.',
     meta: 50,
     progresso: (rs) => rs.length,
@@ -78,7 +78,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'sem_dica',
     emoji: '🧠',
-    nome: 'Cabeça boa',
+    nome: '10 sem dica',
     descricao: 'Termine 10 desafios sem usar dica.',
     meta: 10,
     progresso: (rs) => _contar(rs, (r) => r.dicas == 0),
@@ -86,7 +86,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'tres_dias',
     emoji: '🔥',
-    nome: 'Esquentando',
+    nome: '3 dias seguidos',
     descricao: 'Jogue 3 dias seguidos.',
     meta: 3,
     progresso: maiorSequenciaDeDias,
@@ -94,7 +94,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'sete_dias',
     emoji: '📆',
-    nome: 'Uma semana inteira',
+    nome: '7 dias seguidos',
     descricao: 'Jogue 7 dias seguidos.',
     meta: 7,
     progresso: maiorSequenciaDeDias,
@@ -102,7 +102,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'cruzadas',
     emoji: '✏️',
-    nome: 'Cruzadista',
+    nome: '10 cruzadas',
     descricao: 'Termine 10 palavras cruzadas.',
     meta: 10,
     progresso: (rs) => _contar(rs, (r) => r.modo != DesafioCaca.modo),
@@ -110,7 +110,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'caca',
     emoji: '🔍',
-    nome: 'Olho de águia',
+    nome: '10 caça-palavras',
     descricao: 'Termine 10 caça-palavras.',
     meta: 10,
     progresso: (rs) => _contar(rs, (r) => r.modo == DesafioCaca.modo),
@@ -118,7 +118,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'diario',
     emoji: '📅',
-    nome: 'Todo dia',
+    nome: '5 desafios do dia',
     descricao: 'Termine 5 desafios do dia.',
     meta: 5,
     progresso: (rs) => _contar(rs, (r) => r.temas.isEmpty),
@@ -126,7 +126,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'temas',
     emoji: '🗺️',
-    nome: 'Explorador',
+    nome: '10 temas',
     descricao: 'Jogue 10 temas diferentes, um de cada vez.',
     meta: 10,
     progresso: (rs) => {
@@ -137,7 +137,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'dificil',
     emoji: '💪',
-    nome: 'Sem medo',
+    nome: 'Nível Difícil',
     descricao: 'Termine um desafio no nível Difícil.',
     meta: 1,
     progresso: (rs) => _contar(rs, (r) => r.nivel == Nivel.dificil),
@@ -145,7 +145,7 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'super',
     emoji: '🦸',
-    nome: 'Super!',
+    nome: 'Nível Super',
     descricao: 'Termine um desafio no nível Super difícil.',
     meta: 1,
     progresso: (rs) => _contar(rs, (r) => r.nivel == Nivel.superDificil),
@@ -153,8 +153,8 @@ final conquistas = <Conquista>[
   Conquista(
     id: 'pontos',
     emoji: '⭐',
-    nome: 'Quinhentos',
-    descricao: 'Junte 500 pontos.',
+    nome: '500 pontos',
+    descricao: 'Junte 500 pontos, somando todos os desafios.',
     meta: 500,
     progresso: (rs) => rs.fold(0, (s, r) => s + r.pontos),
   ),

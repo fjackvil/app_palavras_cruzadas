@@ -114,7 +114,6 @@ class _PainelFimState extends State<PainelFim>
     final destaques = [
       if (_r.recordes.isNotEmpty)
         '🏅 Novo recorde: ${[_r.recordes.first, ..._r.recordes.skip(1).map((e) => e.toLowerCase())].join(' e ')}',
-      for (final c in _r.conquistas) '${c.emoji} Conquista nova: ${c.nome}',
     ];
     return SlideTransition(
       position: Tween(
@@ -193,6 +192,39 @@ class _PainelFimState extends State<PainelFim>
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Text(d, style: texto.labelLarge),
+                  ),
+                // Conquista nova: nome e o que ela quer dizer.
+                for (final c in _r.conquistas)
+                  Container(
+                    margin: const EdgeInsets.only(top: 6),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 6,
+                    ),
+                    decoration: BoxDecoration(
+                      color: CoresMarca.verdeClaro.withValues(alpha: 0.2),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Row(
+                      children: [
+                        Text(c.emoji, style: const TextStyle(fontSize: 24)),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Conquista nova: ${c.nome}',
+                                style: texto.labelLarge?.copyWith(
+                                  fontWeight: FontWeight.w800,
+                                ),
+                              ),
+                              Text(c.descricao, style: texto.bodySmall),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 if (_r.proximoNivel != null && _r.perfilId != null)
                   Container(
