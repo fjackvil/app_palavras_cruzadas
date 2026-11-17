@@ -205,7 +205,11 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 
 **Preços sugeridos (testar):** R$ 9,90/mês, R$ 59,90/ano, R$ 99,90 vitalício. Oferecer 7 dias grátis na assinatura anual.
 
-**Decidido em 17/11/2026:** compra única "Premium para a família" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). O limite de pendentes ainda não foi aplicado.
+**Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). O limite de pendentes ainda não foi aplicado.
+
+**Esclarecido em 17/11/2026:** o Premium é **por conta Google** (a da Play Store), não por família nem por celular. Vale em todo celular em que a pessoa entrar com aquela conta. O produto se chama só "Premium" (ID `premium`). O Google Play não oferece limite de aparelhos por conta; para usar o Premium em outro celular, alguém teria de entrar ali com a conta Google inteira do comprador (Gmail, Drive etc.), o que já desestimula o compartilhamento. Compras dentro do app não entram na Biblioteca da Família do Google. Limitar aparelhos exigiria servidor e guardar identificadores, o que vai contra a privacidade do app; por isso, não será feito.
+
+**Família hoje:** os jogadores (até 5) e o Placar da família são **do mesmo celular**. Jogar em família com cada um no seu celular, com placar compartilhado, é a parte de **Grupos**, prevista para depois do beta (precisa de conta e do Supabase).
 
 ## Tecnologia recomendada
 

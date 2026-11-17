@@ -11,7 +11,7 @@ Future<void> abrirPremium(BuildContext context, {String? motivo}) =>
       MaterialPageRoute<void>(builder: (_) => TelaPremium(motivo: motivo)),
     );
 
-/// Compra única que libera tudo para a família.
+/// Compra única que libera tudo. Fica na conta Google da Play Store.
 class TelaPremium extends StatefulWidget {
   const TelaPremium({super.key, this.motivo});
 
@@ -46,7 +46,7 @@ class _TelaPremiumState extends State<TelaPremium> {
           appBar: AppBar(
             backgroundColor: CoresMarca.verde,
             foregroundColor: Colors.white,
-            title: const Text('Premium para a família'),
+            title: const Text('Premium'),
           ),
           body: ListView(
             padding: const EdgeInsets.all(20),
@@ -63,10 +63,10 @@ class _TelaPremiumState extends State<TelaPremium> {
               const SizedBox(height: 4),
               Text(
                 premium.premium
-                    ? 'Obrigado por apoiar o app. Tudo está liberado para '
-                          'todos os jogadores deste celular.'
-                    : 'Uma compra só, sem mensalidade. Vale para todos os '
-                          'jogadores deste celular.',
+                    ? 'Obrigado por apoiar o app. Tudo está liberado.'
+                    : 'Uma compra só, sem mensalidade. Ela fica na sua conta '
+                          'Google: vale em qualquer celular em que você entrar '
+                          'com essa conta na Play Store.',
                 textAlign: TextAlign.center,
               ),
               if (widget.motivo != null && !premium.premium) ...[
@@ -99,7 +99,7 @@ class _TelaPremiumState extends State<TelaPremium> {
                 const Center(
                   child: Chip(
                     avatar: Icon(Icons.check_circle, color: CoresMarca.verde),
-                    label: Text('Premium ativo neste celular'),
+                    label: Text('Premium ativo nesta conta Google'),
                   ),
                 )
               else ...[

@@ -11,8 +11,8 @@ O Palavras Cruzadas é um jogo de palavras cruzadas e caça-palavras para a fam�
 ## Plano grátis e Premium
 
 - O app pode ser usado de graça, com alguns limites (por exemplo, de níveis, temas, desafios e dicas por dia). Os limites aparecem dentro do app e podem mudar em versões futuras.
-- O **Premium** é uma compra única, feita dentro do app pelo Google Play, que libera tudo para todos os jogadores do celular. O preço aparece antes da compra, na moeda do seu país.
-- A compra fica ligada à conta Google usada na Play Store. Para recuperar o Premium em outro celular ou depois de reinstalar o app, use a mesma conta Google e toque em "restaurar compra".
+- O **Premium** é uma compra única, feita dentro do app pelo Google Play, que libera tudo no app. O preço aparece antes da compra, na moeda do seu país.
+- A compra fica ligada à conta Google usada na Play Store e é para uso pessoal de quem tem essa conta. Para usar o Premium em outro celular seu ou depois de reinstalar o app, entre na Play Store com a mesma conta Google e toque em "restaurar compra".
 - O pagamento, a nota e o reembolso são tratados pelo Google Play, de acordo com as regras dele. Isso não tira os direitos que o Código de Defesa do Consumidor garante a você, como o direito de desistir da compra feita pela internet em até 7 dias. Para pedir reembolso, use o Google Play ou fale com a gente pelo contato abaixo.
 - Em contas Google de crianças (Family Link), o Google pede a aprovação dos pais antes de qualquer compra.
 

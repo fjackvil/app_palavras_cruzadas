@@ -1,15 +1,16 @@
 import 'nivel.dart';
 import 'tema.dart';
 
-/// Compra única que libera tudo para todos os jogadores do aparelho.
-const idProdutoPremium = 'premium_familia';
+/// Compra única do Premium. Fica ligada à conta Google da Play Store: vale
+/// em qualquer celular em que a pessoa entrar com essa conta.
+const idProdutoPremium = 'premium';
 
 /// Preço mostrado enquanto a loja não responde (o preço de verdade vem do
 /// Google Play, já na moeda da pessoa).
 const precoPremiumPadrao = r'R$ 9,90';
 
 /// Limites do plano grátis (proposta da especificação, com 2 jogadores
-/// para a família poder testar o placar). Premium não tem limites.
+/// para dar para experimentar o placar). Premium não tem limites.
 abstract final class PlanoGratis {
   static const niveis = {Nivel.leve, Nivel.medio};
   static const maxJogadores = 2;
