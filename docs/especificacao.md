@@ -356,6 +356,8 @@ Sugiro lançar em 4 fases, começando por uma versão que seu filho já possa jo
 3. **Caça-palavras, família e recordes (3–4 semanas):** modo caça-palavras, placar da família, recordes, conquistas e compartilhar resultado.
 4. **Monetização e publicação (3 semanas):** Google Play Billing, plano grátis × Premium, política de privacidade, teste fechado com 12 testadores por 14 dias, lançamento.
 
+**Ordem confirmada em 17/11/2026:** teste fechado de 14 dias (exigência do Google) → lançamento oficial (versão 1.0, que é o "beta" desta especificação, sem Grupos) → Grupos e conteúdo pelo Supabase como atualizações depois do lançamento.
+
 **Depois do beta**
 
 - **Grupos (3–4 semanas):** login opcional com Google, criar grupo, convidar por e-mail ou link, mensagem de convite ao entrar, placar semanal, termos de uso e exclusão de conta.
