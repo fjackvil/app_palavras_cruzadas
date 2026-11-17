@@ -243,6 +243,17 @@ class GradeTemas extends StatelessWidget {
                                 : marcados.remove(t.id),
                           ),
                         ),
+                      if (temas.any(_travado))
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
+                          child: Text(
+                            temas.every(_travado)
+                                ? '🔒 Todos os temas desta categoria são do '
+                                      'Premium'
+                                : '🔒 Estes são do Premium',
+                            style: Theme.of(context).textTheme.titleSmall,
+                          ),
+                        ),
                       for (final t in temas.where(_travado))
                         ListTile(
                           leading: const Text('🔒'),
@@ -296,11 +307,11 @@ class GradeTemas extends StatelessWidget {
                 texto,
                 emojiCategoria[categoria] ?? '📌',
                 categoria,
-                n > 0
-                    ? '$n de ${temas.length} ✓'
-                    : temas.every(_travado)
-                    ? '🔒 Premium'
-                    : '${temas.length} temas',
+                resumoCategoria(
+                  total: temas.length,
+                  escolhidos: n,
+                  travados: temas.where(_travado).length,
+                ),
               ),
             );
           },
@@ -333,4 +344,20 @@ class GradeTemas extends StatelessWidget {
           Text(info, style: texto.bodySmall, maxLines: 1),
         ],
       );
+}
+
+/// Texto curto embaixo do nome da categoria: quantos temas, quantos
+/// escolhidos e quantos são do Premium.
+String resumoCategoria({
+  required int total,
+  required int escolhidos,
+  required int travados,
+}) {
+  if (escolhidos > 0) return '$escolhidos de $total ✓';
+  if (travados == total) return '🔒 Premium';
+  if (travados > 0) {
+    final livres = total - travados;
+    return '$livres grátis · $travados 🔒';
+  }
+  return '$total temas';
 }
