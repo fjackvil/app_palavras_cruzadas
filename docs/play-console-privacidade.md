@@ -23,7 +23,7 @@ A Play Console pede o **link** da política. O texto é o mesmo que o app mostra
   python3 tool/gerar_politica_html.py
   ```
 
-Antes de publicar, troque `[E-MAIL DE CONTATO]` pelo e-mail de contato real, nos dois arquivos (rode o script de novo depois).
+O e-mail de contato da política é **vileladigit@gmail.com**. Use o mesmo como e-mail de contato do desenvolvedor na Play Console.
 
 Onde publicar a página (escolha um):
 

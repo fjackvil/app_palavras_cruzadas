@@ -62,7 +62,8 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 **Fase 4**
 
 - [x] Política de privacidade escrita (`app/assets/textos/politica-de-privacidade.md`), com página web gerada em `docs/privacidade/index.html` (`python3 tool/gerar_politica_html.py`). Tela **Sobre e privacidade** no app (toque no rodapé "Vilela Digit" da primeira tela).
-- [ ] Trocar `[E-MAIL DE CONTATO]` na política pelo e-mail real e publicar a página num endereço público (ver `docs/play-console-privacidade.md`).
+- [x] E-mail de contato na política: vileladigit@gmail.com.
+- [ ] Publicar `docs/privacidade/index.html` num endereço público e usar o link na Play Console (ver `docs/play-console-privacidade.md`).
 - [ ] Premium: Google Play Billing, bloqueios do plano grátis, tela "Seja Premium". Falta decidir o modelo (compra única, assinatura ou as duas) e os limites do grátis.
 - [ ] Chave de assinatura do app, conta de desenvolvedor no Google Play e teste fechado.
 - Respostas para a Play Console (Segurança dos dados, Famílias, classificação): `docs/play-console-privacidade.md`.

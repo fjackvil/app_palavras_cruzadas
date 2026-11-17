@@ -40,4 +40,10 @@ void main() {
       expect(manifesto, isNot(contains('permission.$p')), reason: p);
     }
   });
+
+  test('a política tem um e-mail de contato de verdade', () {
+    final md = File(arquivoPolitica).readAsStringSync();
+    expect(md, isNot(contains('[E-MAIL')));
+    expect(md, contains('vileladigit@gmail.com'));
+  });
 }

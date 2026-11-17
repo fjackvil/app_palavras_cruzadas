@@ -58,4 +58,4 @@ Se o app mudar de um jeito que afete a sua privacidade, esta política será atu
 ## Contato
 
 Vilela Digit
-E-mail: [E-MAIL DE CONTATO]
+E-mail: vileladigit@gmail.com
