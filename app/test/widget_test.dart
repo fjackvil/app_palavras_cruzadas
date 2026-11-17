@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:palavras_cruzadas/dominio/pontuacao.dart';
+import 'package:palavras_cruzadas/telas/tela_desafio_dia.dart';
 import 'package:palavras_cruzadas/telas/tela_inicio.dart';
 import 'package:palavras_cruzadas/telas/tela_resultado.dart';
 
@@ -111,5 +112,24 @@ void main() {
     expect(find.text('Compartilhar resultado'), findsOneWidget);
     expect(find.text('WhatsApp'), findsOneWidget);
     expect(find.text('Outros apps'), findsOneWidget);
+  });
+
+  testWidgets('cartão Desafio do dia abre a tela do dia', (tester) async {
+    final banco = Banco(NativeDatabase.memory());
+    await banco.criarPerfil(
+      nome: 'Lia',
+      anoNascimento: 2016,
+      avatar: '🐱',
+      nivel: 'leve',
+    );
+    await tester.pumpWidget(
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Desafio do dia'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(find.byType(TelaDesafioDia), findsOneWidget);
+    await banco.close();
   });
 }

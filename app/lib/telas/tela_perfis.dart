@@ -8,6 +8,7 @@ import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
 import 'tela_como_jogar.dart';
 import '../widgets/icones_jogo.dart';
+import 'tela_desafio_dia.dart';
 import 'tela_inicio.dart';
 import 'tela_placar.dart';
 import 'tela_premium.dart';
@@ -255,7 +256,10 @@ class _Destaques extends StatelessWidget {
     if (perfil == null) return;
     await navegador.push(
       MaterialPageRoute<void>(
-        builder: (_) => TelaInicio(perfilId: perfil.id, modoInicial: modo),
+        // Cartão "Desafio do dia" (modo nulo) abre a tela própria do dia.
+        builder: (_) => modo == null
+            ? TelaDesafioDia(perfilId: perfil.id)
+            : TelaInicio(perfilId: perfil.id, modoInicial: modo),
       ),
     );
   }
