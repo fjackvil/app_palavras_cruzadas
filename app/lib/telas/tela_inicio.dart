@@ -19,6 +19,7 @@ import 'tela_caca.dart';
 import 'tela_como_jogar.dart';
 import 'tela_jogo.dart';
 import 'tela_placar.dart';
+import 'tela_recordes.dart';
 import 'tela_resposta.dart';
 import 'tela_resposta_caca.dart';
 
@@ -489,6 +490,16 @@ class _TelaInicioState extends State<TelaInicio> {
           onPressed: visiveis.isEmpty || _montando
               ? null
               : () => _jogar(perfil, visiveis, nivel),
+        ),
+        const SizedBox(height: 8),
+        OutlinedButton.icon(
+          icon: const Icon(Icons.military_tech_outlined),
+          label: const Text('Meus recordes'),
+          onPressed: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => TelaRecordes(perfil: perfil),
+            ),
+          ),
         ),
         const SizedBox(height: 24),
         StreamBuilder<List<Partida>>(

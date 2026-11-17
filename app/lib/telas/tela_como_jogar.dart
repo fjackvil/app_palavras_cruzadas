@@ -50,6 +50,7 @@ final _paginas = [
     'A dica ajuda, mas custa pontos: ${Pontuacao.custoDicaLetra} por letra e '
         '${Pontuacao.custoDicaPalavra} pela palavra inteira.',
     'Mandou bem 3 vezes seguidas, rápido e sem dica? O app oferece subir de nível.',
+    'Bateu sua maior pontuação ou seu melhor tempo? Aparece "Novo recorde!". Veja todos em "Meus recordes".',
   ]),
   const _Pagina('💾', 'Tudo fica salvo', [
     'O jogo salva sozinho a cada letra. Pode fechar o app sem medo.',

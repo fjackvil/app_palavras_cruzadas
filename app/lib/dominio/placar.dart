@@ -9,6 +9,8 @@ class RegistroPlacar {
     required this.temas,
     required this.pontos,
     required this.quando,
+    this.segundos = 0,
+    this.partidaId = 0,
   });
 
   /// Lê o id do desafio: "cruzadas:medio:animais+frutas:123",
@@ -20,6 +22,8 @@ class RegistroPlacar {
     required String desafioId,
     required int pontos,
     required DateTime quando,
+    int segundos = 0,
+    int partidaId = 0,
   }) {
     final partes = desafioId.split(':');
     final diario = partes.length >= 4 && partes[1] == 'diario';
@@ -36,6 +40,8 @@ class RegistroPlacar {
       temas: temas,
       pontos: pontos,
       quando: quando,
+      segundos: segundos,
+      partidaId: partidaId,
     );
   }
 
@@ -45,6 +51,10 @@ class RegistroPlacar {
   final List<String> temas;
   final int pontos;
   final DateTime quando;
+
+  /// Tempo gasto no desafio.
+  final int segundos;
+  final int partidaId;
 }
 
 /// Filtros do placar. null = todos.

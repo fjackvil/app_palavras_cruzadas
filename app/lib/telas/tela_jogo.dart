@@ -101,6 +101,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
     final pontuacao = _jogo.pontuacao;
     await _salvar(estado: EstadoPartida.concluido, pontos: pontuacao.total);
     final (perfilId, proximo) = await ofertaDeNivel(_banco, widget.partidaId);
+    final recordes = await recordesBatidos(_banco, widget.partidaId);
     if (!mounted) return;
     await Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
@@ -118,6 +119,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
           segundos: _jogo.segundos,
           perfilId: perfilId,
           proximoNivel: proximo,
+          recordes: recordes,
         ),
       ),
     );

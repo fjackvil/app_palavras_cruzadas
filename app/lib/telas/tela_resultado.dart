@@ -19,6 +19,7 @@ class TelaResultado extends StatefulWidget {
     required this.segundos,
     this.perfilId,
     this.proximoNivel,
+    this.recordes = const [],
   });
 
   final Nivel nivel;
@@ -29,6 +30,9 @@ class TelaResultado extends StatefulWidget {
 
   /// Nível a oferecer, ou null se não há oferta.
   final Nivel? proximoNivel;
+
+  /// Recordes batidos neste desafio ("Maior pontuação", "Melhor tempo").
+  final List<String> recordes;
 
   @override
   State<TelaResultado> createState() => _TelaResultadoState();
@@ -62,6 +66,35 @@ class _TelaResultadoState extends State<TelaResultado> {
             ),
           ),
           Center(child: Text('em ${formatarTempo(segundos)}')),
+          if (widget.recordes.isNotEmpty)
+            Card(
+              margin: const EdgeInsets.only(top: 16),
+              color: CoresMarca.amarelo.withValues(alpha: 0.3),
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Row(
+                  children: [
+                    const Text('🏅', style: TextStyle(fontSize: 36)),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Novo recorde!',
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                          Text(
+                            '${[widget.recordes.first, ...widget.recordes.skip(1).map((r) => r.toLowerCase())].join(' e ')} no nível '
+                            '${widget.nivel.nome}.',
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           if (proximo != null && widget.perfilId != null && _subiu != false)
             _OfertaNivel(
               proximo: proximo,

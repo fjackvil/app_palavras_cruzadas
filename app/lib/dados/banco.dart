@@ -238,6 +238,8 @@ class Banco extends _$Banco {
               desafioId: p.desafioId,
               pontos: p.pontos,
               quando: p.atualizadoEm,
+              segundos: p.tempoGastoSeg,
+              partidaId: p.id,
             ),
         ],
       );

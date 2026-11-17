@@ -3,6 +3,7 @@ import 'dart:convert';
 import '../dominio/caca_palavras.dart';
 import '../dominio/desafio.dart';
 import '../dominio/nivel.dart';
+import '../dominio/recordes.dart';
 import '../dominio/subir_nivel.dart';
 import 'banco.dart';
 
@@ -45,4 +46,19 @@ ResumoPartida resumirPartida(Partida p) {
     segundos: p.tempoGastoSeg,
     tempoAlvoSegundos: alvo,
   );
+}
+
+/// Recordes que o desafio [partidaId] (já salvo como concluído) bateu:
+/// "Maior pontuação", "Melhor tempo". Se algo der errado, devolve vazio.
+Future<List<String>> recordesBatidos(Banco banco, int partidaId) async {
+  try {
+    final todos = await banco.observarRegistrosPlacar().first;
+    final novo = todos.firstWhere((r) => r.partidaId == partidaId);
+    return Recordes.batidos(
+      novo,
+      todos.where((r) => r.perfilId == novo.perfilId).toList(),
+    );
+  } on Object {
+    return const [];
+  }
 }
