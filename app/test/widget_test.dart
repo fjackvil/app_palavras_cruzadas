@@ -30,4 +30,25 @@ void main() {
     expect(find.text('Crie seu jogador'), findsOneWidget);
     await banco.close();
   });
+
+  testWidgets('Placar da família aparece com jogador cadastrado', (
+    tester,
+  ) async {
+    final banco = Banco(NativeDatabase.memory());
+    await banco.criarPerfil(
+      nome: 'Ana',
+      anoNascimento: 2015,
+      avatar: '🦁',
+      nivel: 'leve',
+    );
+    await tester.pumpWidget(
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Placar da família'));
+    await tester.pumpAndSettle();
+    expect(find.text('Esta semana'), findsOneWidget);
+    expect(find.textContaining('Ninguém pontuou'), findsOneWidget);
+    await banco.close();
+  });
 }

@@ -107,4 +107,34 @@ void main() {
     expect(Avatar.caminho(lido.avatar), '/tmp/x.jpg');
     expect(Avatar.ehFoto('🦁'), isFalse);
   });
+
+  test('placar lê só as concluídas', () async {
+    final perfil = await novo('Eva');
+    final a = await banco.iniciarPartida(
+      perfilId: perfil.id,
+      modo: 'cruzadas',
+      desafioId: 'cruzadas:medio:animais:1',
+      desafio: '{}',
+      respostas: '{}',
+    );
+    await banco.iniciarPartida(
+      perfilId: perfil.id,
+      modo: 'cruzadas',
+      desafioId: 'cruzadas:leve:frutas:2',
+      desafio: '{}',
+      respostas: '{}',
+    );
+    await banco.salvarPartida(
+      a,
+      estado: EstadoPartida.concluido,
+      respostas: '{}',
+      tempoGastoSeg: 30,
+      dicasUsadas: 0,
+      pontos: 42,
+    );
+    final registros = await banco.observarRegistrosPlacar().first;
+    expect(registros, hasLength(1));
+    expect(registros.single.pontos, 42);
+    expect(registros.single.temas, ['animais']);
+  });
 }

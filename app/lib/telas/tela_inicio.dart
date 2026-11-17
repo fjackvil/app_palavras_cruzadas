@@ -18,6 +18,7 @@ import '../widgets/avatar.dart';
 import 'tela_caca.dart';
 import 'tela_como_jogar.dart';
 import 'tela_jogo.dart';
+import 'tela_placar.dart';
 import 'tela_resposta.dart';
 import 'tela_resposta_caca.dart';
 
@@ -301,6 +302,13 @@ class _TelaInicioState extends State<TelaInicio> {
               ],
             ),
             actions: [
+              IconButton(
+                tooltip: 'Placar da família',
+                icon: const Icon(Icons.emoji_events_outlined),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(builder: (_) => const TelaPlacar()),
+                ),
+              ),
               IconButton(
                 tooltip: 'Como jogar',
                 icon: const Icon(Icons.help_outline),

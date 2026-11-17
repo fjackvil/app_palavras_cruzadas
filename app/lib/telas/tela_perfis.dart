@@ -7,6 +7,7 @@ import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
 import 'tela_como_jogar.dart';
 import 'tela_inicio.dart';
+import 'tela_placar.dart';
 import 'tela_novo_perfil.dart';
 
 /// Cores dos círculos dos avatares, em rodízio pelo id do jogador.
@@ -87,6 +88,18 @@ class TelaPerfis extends StatelessWidget {
                             )
                           else
                             const Text('Este aparelho já tem 5 jogadores.'),
+                          if (perfis.isNotEmpty) ...[
+                            const SizedBox(height: 8),
+                            FilledButton.tonalIcon(
+                              icon: const Icon(Icons.emoji_events_outlined),
+                              label: const Text('Placar da família'),
+                              onPressed: () => Navigator.of(context).push(
+                                MaterialPageRoute<void>(
+                                  builder: (_) => const TelaPlacar(),
+                                ),
+                              ),
+                            ),
+                          ],
                           const SizedBox(height: 8),
                           (perfis.isEmpty
                               ? FilledButton.tonalIcon

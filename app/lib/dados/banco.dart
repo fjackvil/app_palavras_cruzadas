@@ -1,6 +1,8 @@
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
 
+import '../dominio/placar.dart';
+
 part 'banco.g.dart';
 
 /// Jogadores do aparelho (até 5). Nada daqui sai do celular.
@@ -222,6 +224,23 @@ class Banco extends _$Banco {
           ))
           .watch()
           .map((lista) => {for (final p in lista) p.desafioId.split(':').last});
+
+  /// Todas as partidas concluídas do aparelho, no formato do placar.
+  Stream<List<RegistroPlacar>> observarRegistrosPlacar() =>
+      (select(
+        partidas,
+      )..where((p) => p.estado.equals(EstadoPartida.concluido))).watch().map(
+        (lista) => [
+          for (final p in lista)
+            RegistroPlacar.doDesafio(
+              perfilId: p.perfilId,
+              modo: p.modo,
+              desafioId: p.desafioId,
+              pontos: p.pontos,
+              quando: p.atualizadoEm,
+            ),
+        ],
+      );
 
   /// Soma dos pontos das partidas concluídas do perfil.
   Stream<int> observarTotalPontos(int perfilId) {

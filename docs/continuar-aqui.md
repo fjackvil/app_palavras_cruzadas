@@ -48,7 +48,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 
 **Fase 3 (em andamento)**
 
-- [ ] Placar da família: ranking entre os jogadores do aparelho, por semana, nível e tema.
+- [x] Placar da família: ranking entre os jogadores do aparelho, por semana (ou desde o início), jogo, nível e tema. Abre pelo botão na primeira tela ou pelo 🏆 na tela do jogador.
 - [ ] Recordes pessoais: melhor tempo e maior pontuação.
 - [ ] Conquistas, como 7 dias seguidos ou 10 desafios sem dica.
 - [ ] Botão de compartilhar resultado (texto pelo WhatsApp etc.).
