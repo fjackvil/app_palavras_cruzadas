@@ -1,0 +1,43 @@
+import 'dart:io';
+
+import 'package:flutter_test/flutter_test.dart';
+import 'package:palavras_cruzadas/telas/tela_sobre.dart';
+
+void main() {
+  test('versão da tela Sobre é a mesma do pubspec', () {
+    final pubspec = File('pubspec.yaml').readAsStringSync();
+    final versao = RegExp(
+      r'^version: ([0-9.]+)',
+      multiLine: true,
+    ).firstMatch(pubspec)!.group(1);
+    expect(versaoApp, versao);
+  });
+
+  test('a política é lida em blocos: título, seções, itens e parágrafos', () {
+    final md = File(arquivoPolitica).readAsStringSync();
+    final blocos = blocosMarkdown(md);
+    expect(blocos.first.tipo, TipoBloco.titulo);
+    final secoes = blocos
+        .where((b) => b.tipo == TipoBloco.secao)
+        .map((b) => b.texto);
+    expect(secoes, containsAll(['Resumo', 'Crianças', 'Contato']));
+    expect(blocos.where((b) => b.tipo == TipoBloco.item), isNotEmpty);
+  });
+
+  test('a política não promete o que o app não cumpre', () {
+    final md = File(arquivoPolitica).readAsStringSync();
+    final manifesto = File('android/app/src/main/AndroidManifest.xml')
+        .readAsStringSync();
+    // A política diz que o app não pede internet, localização, câmera etc.
+    expect(md, contains('não pede permissão de internet'));
+    for (final p in [
+      'INTERNET',
+      'LOCATION',
+      'CAMERA',
+      'CONTACTS',
+      'RECORD_AUDIO',
+    ]) {
+      expect(manifesto, isNot(contains('permission.$p')), reason: p);
+    }
+  });
+}

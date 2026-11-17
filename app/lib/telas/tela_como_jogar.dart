@@ -70,7 +70,7 @@ final _paginas = [
     'As crianças só veem temas próprios para a idade delas.',
     'Cada um toca no seu nome para jogar. Os pontos aparecem na primeira tela.',
     'No "Placar da família" 🏆 dá para ver quem está na frente na semana, e filtrar por jogo, nível e tema.',
-    'Tudo fica só neste celular: nada é enviado para a internet.',
+    'Tudo fica só neste celular: nada é enviado para a internet. Veja em "Sobre e privacidade", no rodapé da primeira tela.',
   ]),
 ];
 

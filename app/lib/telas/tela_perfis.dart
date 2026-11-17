@@ -9,6 +9,7 @@ import 'tela_como_jogar.dart';
 import '../widgets/icones_jogo.dart';
 import 'tela_inicio.dart';
 import 'tela_placar.dart';
+import 'tela_sobre.dart';
 import 'tela_novo_perfil.dart';
 
 /// Cores dos círculos dos avatares, em rodízio pelo id do jogador.
@@ -153,21 +154,36 @@ class _Marca extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final texto = Theme.of(context).textTheme;
+    // Tocar no rodapé abre "Sobre e privacidade".
     return SafeArea(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 12),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/marca/vilela.png',
-              height: 28,
-              semanticLabel: 'Logo da Vilela Digit',
-            ),
-            const SizedBox(width: 8),
-            Text('Vilela Digit', style: Theme.of(context).textTheme.titleSmall),
-          ],
+      child: InkWell(
+        onTap: () => Navigator.of(context)
+            .push(MaterialPageRoute<void>(builder: (_) => const TelaSobre())),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 12),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                'assets/marca/vilela.png',
+                height: 28,
+                semanticLabel: 'Logo da Vilela Digit',
+              ),
+              const SizedBox(width: 8),
+              Text('Vilela Digit', style: texto.titleSmall),
+              Text('  ·  ', style: texto.bodySmall),
+              const Icon(Icons.lock_outline, size: 16),
+              const SizedBox(width: 4),
+              Text(
+                'Sobre e privacidade',
+                style: texto.bodySmall?.copyWith(
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

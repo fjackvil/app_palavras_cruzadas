@@ -69,6 +69,7 @@ flutter:
   assets:
     - assets/palavras/
     - assets/marca/
+    - assets/textos/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
