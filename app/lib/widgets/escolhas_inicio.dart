@@ -176,6 +176,35 @@ class GradeTemas extends StatelessWidget {
                   child: ListView(
                     shrinkWrap: true,
                     children: [
+                      // Marca ou desmarca todos os temas da categoria.
+                      Builder(
+                        builder: (context) {
+                          final todos = temas.every(
+                            (t) => marcados.contains(t.id),
+                          );
+                          final alguns =
+                              !todos &&
+                              temas.any((t) => marcados.contains(t.id));
+                          return CheckboxListTile(
+                            tristate: true,
+                            value: todos ? true : (alguns ? null : false),
+                            title: Text(
+                              todos ? 'Desmarcar todos' : 'Marcar todos',
+                              style: const TextStyle(
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            onChanged: (_) => setSheet(() {
+                              if (todos) {
+                                marcados.removeAll(temas.map((t) => t.id));
+                              } else {
+                                marcados.addAll(temas.map((t) => t.id));
+                              }
+                            }),
+                          );
+                        },
+                      ),
+                      const Divider(height: 1),
                       for (final t in temas)
                         CheckboxListTile(
                           value: marcados.contains(t.id),
