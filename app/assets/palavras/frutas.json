@@ -2,7 +2,7 @@
   "tema": "Frutas",
   "categoria": "Natureza",
   "infantil": true,
-  "premium": false,
+  "premium": true,
   "palavras": [
     {
       "palavra": "UVA",

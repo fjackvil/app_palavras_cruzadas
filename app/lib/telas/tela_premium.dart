@@ -164,7 +164,7 @@ class _Comparacao extends StatelessWidget {
   Widget build(BuildContext context) {
     final linhas = [
       ('Níveis', 'Leve e Médio', 'Todos, até o Super'),
-      ('Temas', '10 temas', 'Todos os 64'),
+      ('Temas', '1 por categoria', 'Todos os 64'),
       ('Desafios por dia', '${PlanoGratis.desafiosPorDia}', 'Sem limite'),
       ('Dicas por dia', '${PlanoGratis.dicasPorDia}', 'Sem limite'),
       ('Jogadores', '${PlanoGratis.maxJogadores}', 'Até 5'),

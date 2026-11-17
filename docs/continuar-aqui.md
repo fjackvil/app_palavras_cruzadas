@@ -65,7 +65,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [x] E-mail de contato na política: vileladigit@gmail.com.
 - [x] Política publicada em https://fjackvil.github.io/palavras-cruzadas-privacidade/ (repositório público fjackvil/palavras-cruzadas-privacidade, GitHub Pages). Esse é o link para a Play Console.
 - [x] Premium: **compra única de R$ 9,90** ("Premium", produto `premium`), pelo plugin `in_app_purchase`. Tela "Seja Premium" com comparação grátis × Premium, comprar e restaurar compra. Cópia local do Premium no banco (funciona offline).
-- [x] Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia (o desafio do dia não conta), 3 dicas por dia, 2 jogadores. Tudo o que é pago aparece com 🔒 e leva à tela do Premium. Limites em `app/lib/dominio/plano.dart`.
+- [x] Plano grátis: Leve e Médio, 1 tema por categoria (12 temas), 3 desafios por dia (o desafio do dia não conta), 3 dicas por dia, 2 jogadores. Tudo o que é pago aparece com 🔒 e leva à tela do Premium. Limites em `app/lib/dominio/plano.dart`.
 - [ ] Criar o produto `premium` na Play Console e testar a compra numa faixa de teste (ver `docs/play-console-privacidade.md`). No emulador e em APK instalado fora da loja, o botão Comprar só avisa que a compra não está disponível.
 - Em versão de teste (`flutter run` sem `--release`), a tela do Premium tem um botão "Simular Premium" para conferir os bloqueios.
 - [ ] Chave de assinatura do app, conta de desenvolvedor no Google Play e teste fechado.

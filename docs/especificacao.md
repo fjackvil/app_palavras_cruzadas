@@ -195,7 +195,7 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 | Recurso | Grátis | Premium |
 | --- | --- | --- |
 | Níveis | Leve e Médio | Todos, incluindo Difícil e Super difícil |
-| Temas | 10 temas básicos | Todos os 65 e os novos de cada mês |
+| Temas | 1 tema por categoria (12) | Todos os 64 e os novos de cada mês |
 | Desafios por dia | 3 | Ilimitados |
 | Desafio diário e ranking | Sim | Sim |
 | Perfis | 1 | Até 5 |
@@ -205,7 +205,7 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 
 **Preços sugeridos (testar):** R$ 9,90/mês, R$ 59,90/ano, R$ 99,90 vitalício. Oferecer 7 dias grátis na assinatura anual.
 
-**Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). O limite de pendentes ainda não foi aplicado.
+**Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). O limite de pendentes ainda não foi aplicado. Temas grátis (17/11/2026): um por categoria — Países, Animais, Alimentos, Desenhos animados, Instrumentos musicais, História do Brasil, Dinossauros, Futebol, Folclore, Escola, Antônimos e Meio ambiente.
 
 **Esclarecido em 17/11/2026:** o Premium é **por conta Google** (a da Play Store), não por família nem por celular. Vale em todo celular em que a pessoa entrar com aquela conta. O produto se chama só "Premium" (ID `premium`). O Google Play não oferece limite de aparelhos por conta; para usar o Premium em outro celular, alguém teria de entrar ali com a conta Google inteira do comprador (Gmail, Drive etc.), o que já desestimula o compartilhamento. Compras dentro do app não entram na Biblioteca da Família do Google. Limitar aparelhos exigiria servidor e guardar identificadores, o que vai contra a privacidade do app; por isso, não será feito.
 
@@ -378,7 +378,7 @@ Sugiro lançar em 4 fases, começando por uma versão que seu filho já possa jo
 - [ ] Confirmar: sem anúncios no plano grátis, para não coletar dados?
 - [ ] Grupos só no Premium, ou também no plano grátis?
 - [x] Assinatura, compra única, ou as duas? **Compra única de R$ 9,90** (17/11/2026).
-- [ ] Mostrar o botão de compartilhar resultado também em perfis de crianças?
+- [x] Mostrar o botão de compartilhar resultado também em perfis de crianças? **Sim, para todos** (17/11/2026): o texto não leva nome nem idade.
 - [ ] Só português, ou planejar outros idiomas no futuro?
 - [ ] Algum tema deve ficar de fora (por exemplo, política em "Atualidades")?
 - [ ] Grade estilo americano (recomendado) ou estilo "direto" de revista brasileira?

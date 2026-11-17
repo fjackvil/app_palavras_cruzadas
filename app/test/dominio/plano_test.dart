@@ -1,5 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:palavras_cruzadas/dados/premium.dart';
+import 'package:palavras_cruzadas/dominio/caca_palavras.dart';
 import 'package:palavras_cruzadas/dominio/nivel.dart';
 import 'package:palavras_cruzadas/dominio/plano.dart';
 
@@ -18,9 +19,18 @@ void main() {
     expect(premium.nivelEfetivo(Nivel.superDificil), Nivel.superDificil);
   });
 
-  test('grátis libera os 10 temas marcados como gratuitos', () {
+  test('grátis libera exatamente um tema por categoria', () {
     final livres = temas.where(gratis.temaLiberado).toList();
-    expect(livres, hasLength(10));
+    final categorias = temas.map((t) => t.categoria).toSet();
+    expect(livres, hasLength(categorias.length));
+    expect(livres.map((t) => t.categoria).toSet(), categorias);
+    // Cada tema grátis serve para os dois jogos nos níveis do grátis.
+    for (final t in livres) {
+      for (final n in PlanoGratis.niveis) {
+        expect(t.disponivelPara(n), isTrue, reason: '${t.id} ${n.name}');
+        expect(temaServeParaCaca(t, n), isTrue, reason: '${t.id} caça');
+      }
+    }
     expect(temas.where(premium.temaLiberado), hasLength(temas.length));
     // Os gratuitos servem para os dois níveis do plano grátis.
     for (final n in PlanoGratis.niveis) {

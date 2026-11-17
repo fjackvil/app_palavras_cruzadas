@@ -2,7 +2,7 @@
   "tema": "Instrumentos musicais",
   "categoria": "Música",
   "infantil": true,
-  "premium": true,
+  "premium": false,
   "palavras": [
     {
       "palavra": "PIANO",

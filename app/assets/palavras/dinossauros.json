@@ -2,7 +2,7 @@
   "tema": "Dinossauros",
   "categoria": "Ciência",
   "infantil": true,
-  "premium": true,
+  "premium": false,
   "palavras": [
     {
       "palavra": "OVO",

@@ -421,8 +421,9 @@ class _TelaInicioState extends State<TelaInicio> {
                       aoBloqueado: () => abrirPremium(
                         context,
                         motivo:
-                            'Esse tema faz parte do Premium. No grátis são '
-                            '10 temas; no Premium, todos os ${todos.length}.',
+                            'Esse tema faz parte do Premium. No grátis há um '
+                            'tema por categoria; no Premium, todos os '
+                            '${todos.length}.',
                       ),
                     ),
                     const SizedBox(height: 8),

@@ -2,7 +2,7 @@
   "tema": "Futebol",
   "categoria": "Esportes",
   "infantil": true,
-  "premium": true,
+  "premium": false,
   "palavras": [
     {
       "palavra": "GOL",
