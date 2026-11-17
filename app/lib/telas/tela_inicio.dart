@@ -78,6 +78,13 @@ class _TelaInicioState extends State<TelaInicio> {
   Future<List<Tema>>? _temas;
   bool _montando = false;
   late Modo _modo = widget.modoInicial ?? Modo.cruzadas;
+  final _rolagem = ScrollController();
+
+  @override
+  void dispose() {
+    _rolagem.dispose();
+    super.dispose();
+  }
 
   /// O jogo escolhido na primeira tela, se veio de um cartão.
   Modo? get _escolhido => widget.modoInicial;
@@ -135,6 +142,13 @@ class _TelaInicioState extends State<TelaInicio> {
       );
       return;
     }
+    final pendentes = await Servicos.of(context).banco
+        .pendentesLivres(perfil.id);
+    if (!mounted) return;
+    if (!plano.podeGuardarPendente(pendentes)) {
+      await _avisarPendentes();
+      return;
+    }
     final escolhidos = visiveis
         .where((t) => _escolhidos.contains(t.id))
         .toList();
@@ -151,11 +165,46 @@ class _TelaInicioState extends State<TelaInicio> {
     if (mounted) setState(() => _hoje = null);
   }
 
+  /// Grátis com 3 pendentes: termine ou apague um, ou vire Premium.
+  Future<void> _avisarPendentes() async {
+    final escolha = await showDialog<String>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Você tem desafios pela metade'),
+        content: Text(
+          'No plano grátis dá para guardar até ${PlanoGratis.maxPendentes} '
+          'desafios começados. Termine ou apague um deles em "Pendentes", '
+          'aqui embaixo, para começar outro. Com o Premium não há limite.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, 'premium'),
+            child: const Text('⭐ Premium'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, 'ok'),
+            child: const Text('Ver pendentes'),
+          ),
+        ],
+      ),
+    );
+    if (!mounted) return;
+    if (escolha == 'premium') await abrirPremium(context);
+    if (escolha == 'ok') {
+      await _rolagem.animateTo(
+        _rolagem.position.maxScrollExtent,
+        duration: const Duration(milliseconds: 400),
+        curve: Curves.easeOut,
+      );
+    }
+  }
+
   Future<void> _retomarAqui(Partida partida) =>
       retomarPartida(context, partida);
 
   /// Pendente desistido: continuar ou ver a resposta (encerra sem pontos).
-  Future<void> _abrirDesistido(Partida partida) async {
+  Future<void> _abrirPendente(Partida partida) async {
+    final desistido = partida.estado == EstadoPartida.desistido;
     final escolha = await showModalBottomSheet<String>(
       context: context,
       builder: (context) => SafeArea(
@@ -168,11 +217,19 @@ class _TelaInicioState extends State<TelaInicio> {
               subtitle: const Text('O tempo continua de onde parou.'),
               onTap: () => Navigator.pop(context, 'continuar'),
             ),
+            // "Ver resposta" só depois de desistir, como na especificação.
+            if (desistido)
+              ListTile(
+                leading: const Icon(Icons.visibility_outlined),
+                title: const Text('Ver resposta'),
+                subtitle: const Text('Encerra o desafio sem pontos.'),
+                onTap: () => Navigator.pop(context, 'resposta'),
+              ),
             ListTile(
-              leading: const Icon(Icons.visibility_outlined),
-              title: const Text('Ver resposta'),
-              subtitle: const Text('Encerra o desafio sem pontos.'),
-              onTap: () => Navigator.pop(context, 'resposta'),
+              leading: const Icon(Icons.delete_outline),
+              title: const Text('Apagar este desafio'),
+              subtitle: const Text('Some dos pendentes, sem pontos.'),
+              onTap: () => Navigator.pop(context, 'apagar'),
             ),
           ],
         ),
@@ -181,6 +238,29 @@ class _TelaInicioState extends State<TelaInicio> {
     if (!mounted) return;
     if (escolha == 'continuar') await _retomarAqui(partida);
     if (escolha == 'resposta') await _verResposta(partida);
+    if (escolha == 'apagar') await _apagarPendente(partida);
+  }
+
+  Future<void> _apagarPendente(Partida partida) async {
+    final sim = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Apagar este desafio?'),
+        content: const Text('Ele sai dos pendentes e não vale pontos.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Voltar'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Apagar'),
+          ),
+        ],
+      ),
+    );
+    if (sim != true || !mounted) return;
+    await Servicos.of(context).banco.apagarPartida(partida.id);
   }
 
   Future<void> _verResposta(Partida partida) async {
@@ -335,6 +415,7 @@ class _TelaInicioState extends State<TelaInicio> {
       children: [
         Expanded(
           child: ListView(
+            controller: _rolagem,
             padding: EdgeInsets.zero,
             children: [
               _CabecalhoJogador(perfil: perfil),
@@ -474,10 +555,7 @@ class _TelaInicioState extends State<TelaInicio> {
                                     ' · ${formatarTempo(p.tempoGastoSeg)}',
                                   ),
                                   trailing: const Icon(Icons.chevron_right),
-                                  onTap: () =>
-                                      p.estado == EstadoPartida.desistido
-                                      ? _abrirDesistido(p)
-                                      : _retomarAqui(p),
+                                  onTap: () => _abrirPendente(p),
                                 ),
                               ),
                             const SizedBox(height: 16),

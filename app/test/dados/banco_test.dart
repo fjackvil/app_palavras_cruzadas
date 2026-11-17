@@ -205,4 +205,30 @@ void main() {
     await atualizado.close();
     pasta.deleteSync(recursive: true);
   });
+
+  test(
+    'pendentes livres não contam o desafio do dia; apagar partida',
+    () async {
+      final perfil = await novo('Rui');
+      final ids = <int>[];
+      for (final id in [
+        'cruzadas:leve:x:1',
+        'caca:leve:x:2',
+        'cruzadas:diario:leve:2026-11-17',
+      ]) {
+        ids.add(
+          await banco.iniciarPartida(
+            perfilId: perfil.id,
+            modo: 'cruzadas',
+            desafioId: id,
+            desafio: '{}',
+            respostas: '{}',
+          ),
+        );
+      }
+      expect(await banco.pendentesLivres(perfil.id), 2);
+      await banco.apagarPartida(ids.first);
+      expect(await banco.pendentesLivres(perfil.id), 1);
+    },
+  );
 }

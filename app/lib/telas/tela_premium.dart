@@ -167,6 +167,7 @@ class _Comparacao extends StatelessWidget {
       ('Temas', '1 por categoria', 'Todos os 64'),
       ('Desafios por dia', '${PlanoGratis.desafiosPorDia}', 'Sem limite'),
       ('Dicas por dia', '${PlanoGratis.dicasPorDia}', 'Sem limite'),
+      ('Desafios pela metade', 'Até ${PlanoGratis.maxPendentes}', 'Sem limite'),
       ('Jogadores', '${PlanoGratis.maxJogadores}', 'Até 5'),
       ('Desafio do dia', 'Sim', 'Sim'),
       ('Anúncios', 'Nenhum', 'Nenhum'),

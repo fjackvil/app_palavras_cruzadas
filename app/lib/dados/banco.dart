@@ -209,6 +209,18 @@ class Banco extends _$Banco {
     ),
   );
 
+  /// Apaga uma partida (por exemplo, um pendente que a pessoa não quer
+  /// mais).
+  Future<void> apagarPartida(int partidaId) =>
+      (delete(partidas)..where((p) => p.id.equals(partidaId))).go();
+
+  /// Pendentes livres do jogador (fora o desafio do dia), para o limite do
+  /// plano grátis.
+  Future<int> pendentesLivres(int perfilId) async {
+    final lista = await observarPendentes(perfilId).first;
+    return lista.where((p) => !p.desafioId.contains(':diario:')).length;
+  }
+
   Future<Partida> buscarPartida(int partidaId) =>
       (select(partidas)..where((p) => p.id.equals(partidaId))).getSingle();
 

@@ -47,6 +47,9 @@ void main() {
     expect(gratis.desafiosRestantes(1), 2);
     expect(premium.desafiosRestantes(9), isNull);
     expect(gratis.podeUsarDica(3), isFalse);
+    expect(gratis.podeGuardarPendente(2), isTrue);
+    expect(gratis.podeGuardarPendente(3), isFalse);
+    expect(premium.podeGuardarPendente(50), isTrue);
     expect(premium.podeUsarDica(99), isTrue);
   });
 
