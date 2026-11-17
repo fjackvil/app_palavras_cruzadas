@@ -75,6 +75,25 @@ Em Play Console → Política do app → Segurança dos dados:
 
 Dados que ficam **só no aparelho**, como nome do jogador, idade, foto e pontos, não contam como "coletados" pelas regras do Google, porque nunca saem do celular pelo app.
 
+**Atenção: a biblioteca de compras do Google (`com.android.billingclient:billing`) envia telemetria.** Ela traz o módulo `datatransport` do Google, que manda ao Google dados técnicos de diagnóstico sobre as compras assim que o app abre. Isso foi visto no registro do emulador em 17/11/2026. Ela também traz o `play-services-location`, mas sem permissão de localização no app, então não lê localização. Nenhum dado dos jogadores vai junto. A política de privacidade já conta isso.
+
+Antes de enviar o formulário, procure na ajuda da Play Console a orientação do Google sobre os dados que a **Play Billing Library** coleta (busque por "Play Billing Library" + "Segurança dos dados"). Então siga um destes caminhos:
+
+- Se o Google disser que esses dados **não precisam ser declarados** pelo desenvolvedor (por serem do próprio Google Play), mantenha **"Não"** acima.
+- Se disser que **precisam**, responda **"Sim, coleta"** e marque só:
+  - **Informações e desempenho do app → Diagnóstico.**
+  - Coletado: sim. Compartilhado: não.
+  - Finalidade: funcionalidade do app.
+  - Obrigatório: sim (vem junto com a compra).
+  - Criptografado em trânsito: sim.
+  - Os dados de pagamento ficam com o Google Play e não entram aqui.
+
+Se mudar a biblioteca ou a versão dela, confira de novo com:
+
+```bash
+cd app/android && ./gradlew -q :app:dependencies --configuration releaseRuntimeClasspath | grep -iE "datatransport|location|analytics|firebase"
+```
+
 ## 3. Outras declarações
 
 | Seção da Play Console | Resposta |

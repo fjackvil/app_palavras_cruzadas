@@ -67,8 +67,8 @@ class TelaSobre extends StatelessWidget {
                     'Não precisa de conta, login nem e-mail.',
                     'Jogadores, fotos e pontos ficam só neste celular.',
                     'Sem anúncios e sem rastreio.',
-                    'Nada dos jogadores é enviado: a internet só é usada '
-                        'pelo Google Play, para a compra do Premium.',
+                    'Nada dos jogadores é enviado. A internet é usada só '
+                        'pela biblioteca de compras do Google Play.',
                     'Compartilhar resultado é escolha sua, e vai sem nome.',
                   ])
                     Padding(

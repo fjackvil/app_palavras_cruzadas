@@ -9,7 +9,7 @@ Esta política vale para o app **Palavras Cruzadas**, da **Vilela Digit**, para 
 - Para jogar não precisa de conta, login, e-mail nem senha.
 - Tudo o que você cria no app fica guardado só no seu celular.
 - O app não tem anúncios e não usa nenhuma ferramenta de rastreio, de estatística ou de publicidade.
-- O app não pede permissão de localização, contatos, microfone ou câmera. Ele tem permissão de internet só porque o sistema de compras do Google Play exige; o app em si não envia nenhuma informação sua.
+- O app não pede permissão de localização, contatos, microfone ou câmera. Ele tem permissão de internet só porque o sistema de compras do Google Play exige. O app em si não envia nenhuma informação dos jogadores.
 - Nós, da Vilela Digit, não recebemos e não temos acesso a nada do que você faz no app.
 
 ## O que fica guardado no seu celular
@@ -38,7 +38,13 @@ O Android pode fazer, automaticamente, uma cópia de segurança dos dados dos ap
 
 O app tem uma versão completa (Premium), liberada por uma compra única feita pelo Google Play. O pagamento é tratado só pelo Google, de acordo com a política de privacidade dele. Nós não recebemos dados do seu cartão, do seu Pix nem da sua conta Google. O app apenas pergunta ao Google Play se a conta Google do aparelho já comprou o Premium e guarda no celular uma cópia dessa resposta, para funcionar sem internet.
 
-Para isso, o sistema de compras do Google Play exige que o app tenha permissão de internet. Essa conversa acontece entre o app e o Google Play; nenhuma informação dos jogadores (nomes, idades, fotos, pontos) é enviada.
+Para isso, o app usa a biblioteca oficial de compras do Google Play, que exige permissão de internet. Essa biblioteca é do Google e funciona assim:
+
+- Ela conversa com o Google Play para saber se o Premium foi comprado e para fazer a compra.
+- Ela também envia ao Google, por conta própria, dados técnicos de diagnóstico sobre o funcionamento das compras no aparelho (por exemplo, informações do aparelho, do app e de erros). Isso é tratado pelo Google, de acordo com a política de privacidade dele: https://policies.google.com/privacy
+- Ela inclui componentes do Google Play Services, mas o app não tem permissão de localização, então nenhuma localização é lida.
+
+Nenhuma informação dos jogadores (nomes, idades, fotos, pontos, partidas) é enviada, nem para nós nem para o Google.
 
 ## Crianças
 
