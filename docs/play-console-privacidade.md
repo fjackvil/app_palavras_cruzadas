@@ -2,7 +2,7 @@
 
 Este guia é para a hora de publicar (fase 4). Ele vale para o app como está hoje (17/11/2026). Se o app mudar, por exemplo ao entrar o Premium ou os Grupos, revise as respostas.
 
-**Por que as respostas são "não coletamos nada":** o app não pede **nenhuma** permissão. Não tem internet, câmera, galeria, localização, contatos nem microfone. Tudo o que o jogador cria fica no armazenamento privado do app, no próprio celular. Um teste automático (`app/test/telas/sobre_test.dart`) confere que o manifesto continua sem essas permissões.
+**Por que as respostas são "não coletamos nada":** o app não pede câmera, galeria, localização, contatos nem microfone. Tudo o que o jogador cria fica no armazenamento privado do app, no próprio celular. As únicas permissões vêm da biblioteca de compras do Google Play (`in_app_purchase`): `BILLING`, `INTERNET` e `ACCESS_NETWORK_STATE`. Elas servem só para a conversa com o Google Play sobre o Premium. O próprio app não tem nenhum código que envie dados. Um teste automático (`app/test/telas/sobre_test.dart`) confere que o manifesto do app não pede outras permissões.
 
 Depois de compilar, dá para conferir as permissões finais com:
 
@@ -10,7 +10,7 @@ Depois de compilar, dá para conferir as permissões finais com:
 grep uses-permission app/build/app/intermediates/merged_manifests/release/processReleaseManifest/AndroidManifest.xml
 ```
 
-Hoje a única permissão listada é uma interna do próprio Android (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`), que não dá acesso a nada.
+O resultado esperado é: `com.android.vending.BILLING`, `android.permission.INTERNET`, `android.permission.ACCESS_NETWORK_STATE` e uma interna do Android (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`). Se aparecer outra, a política precisa ser revista.
 
 ## 1. Publicar a política de privacidade num endereço da internet
 
@@ -62,13 +62,13 @@ Dados que ficam **só no aparelho**, como nome do jogador, idade, foto e pontos,
 | Anúncios | **Não**, o app não contém anúncios |
 | Acesso ao app | Todo o app funciona sem login ou credencial especial |
 | Público-alvo e conteúdo | Inclui faixas abaixo de 13 anos (o app é para a família). Isso aplica a **Política para Famílias** do Google, que o app já atende: sem anúncios, sem SDK de rastreio, sem coleta de dados. |
-| Classificação de conteúdo (questionário IARC) | Sem violência, sexo, drogas ou linguagem imprópria. Interação entre usuários: **não**. Compartilha localização: **não**. Compras digitais: **não** por enquanto (mude para **sim** quando entrar o Premium). |
+| Classificação de conteúdo (questionário IARC) | Sem violência, sexo, drogas ou linguagem imprópria. Interação entre usuários: **não**. Compartilha localização: **não**. Compras digitais: **sim** (Premium, compra única). |
 | App de notícias / saúde / finanças | Não |
 
-## 4. Quando entrar o Premium (compras)
+## 4. Premium (compra única)
 
-- O plugin `in_app_purchase` acrescenta a permissão `com.android.vending.BILLING`, que é a do Google Play para compras. Ela não dá acesso a dados do usuário.
-- Na Segurança dos dados, compras feitas pelo Google Play Billing em geral continuam como "não coletado pelo app", porque o pagamento é do Google. Confira a orientação do Google na hora de publicar.
-- Atualize a data e a seção "Compras" da política, se mudar algo.
+- **Produto a criar na Play Console:** em Monetizar → Produtos → Produtos no app, crie um produto **não consumível** com o ID **`premium_familia`**, nome "Premium para a família" e preço **R$ 9,90**. O ID precisa ser exatamente esse, porque é o que o app procura (`app/lib/dominio/plano.dart`).
+- **Teste da compra:** só funciona com o app instalado pela Play Store, numa faixa de teste (teste interno ou fechado). Cadastre a sua conta Google em Configurações → Teste de licença: assim a compra é de teste e não cobra de verdade.
+- **Segurança dos dados:** o pagamento é processado pelo Google Play. O app não recebe dados de pagamento, então a resposta continua "não coletamos". Confira a orientação do Google na hora de publicar.
 
 Isto não é aconselhamento jurídico. A especificação recomenda uma revisão com advogado antes do lançamento.

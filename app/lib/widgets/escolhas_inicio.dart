@@ -94,10 +94,16 @@ class SeletorNivel extends StatelessWidget {
     super.key,
     required this.atual,
     required this.aoEscolher,
+    this.bloqueado,
+    this.aoBloqueado,
   });
 
   final Nivel atual;
   final ValueChanged<Nivel> aoEscolher;
+
+  /// Níveis do Premium, quando o aparelho está no grátis.
+  final bool Function(Nivel)? bloqueado;
+  final ValueChanged<Nivel>? aoBloqueado;
 
   @override
   Widget build(BuildContext context) {
@@ -108,21 +114,31 @@ class SeletorNivel extends StatelessWidget {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 3),
-              child: CartaoEscolha(
-                escolhido: n == atual,
-                aoTocar: () => aoEscolher(n),
-                child: Column(
-                  children: [
-                    Text(emojiNivel[n]!, style: const TextStyle(fontSize: 26)),
-                    const SizedBox(height: 2),
-                    Text(
-                      n.nomeCurto,
-                      style: texto.labelLarge?.copyWith(
-                        fontWeight: n == atual ? FontWeight.w800 : null,
-                      ),
+              child: Builder(
+                builder: (context) {
+                  final travado = bloqueado?.call(n) ?? false;
+                  return CartaoEscolha(
+                    escolhido: n == atual,
+                    aoTocar: () =>
+                        travado ? aoBloqueado?.call(n) : aoEscolher(n),
+                    child: Column(
+                      children: [
+                        Text(
+                          travado ? '🔒' : emojiNivel[n]!,
+                          style: const TextStyle(fontSize: 26),
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          n.nomeCurto,
+                          style: texto.labelLarge?.copyWith(
+                            fontWeight: n == atual ? FontWeight.w800 : null,
+                            color: travado ? Colors.grey.shade600 : null,
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
+                  );
+                },
               ),
             ),
           ),
@@ -139,7 +155,15 @@ class GradeTemas extends StatelessWidget {
     required this.porCategoria,
     required this.escolhidos,
     required this.aoMudar,
+    this.bloqueado,
+    this.aoBloqueado,
   });
+
+  /// Temas do Premium, quando o aparelho está no grátis.
+  final bool Function(Tema)? bloqueado;
+  final VoidCallback? aoBloqueado;
+
+  bool _travado(Tema t) => bloqueado?.call(t) ?? false;
 
   /// Categorias na ordem da tela, com os temas visíveis de cada uma.
   final Map<String, List<Tema>> porCategoria;
@@ -179,12 +203,16 @@ class GradeTemas extends StatelessWidget {
                       // Marca ou desmarca todos os temas da categoria.
                       Builder(
                         builder: (context) {
-                          final todos = temas.every(
-                            (t) => marcados.contains(t.id),
-                          );
+                          // Só os temas liberados entram no "todos".
+                          final livres = temas
+                              .where((t) => !_travado(t))
+                              .toList();
+                          final todos =
+                              livres.isNotEmpty &&
+                              livres.every((t) => marcados.contains(t.id));
                           final alguns =
                               !todos &&
-                              temas.any((t) => marcados.contains(t.id));
+                              livres.any((t) => marcados.contains(t.id));
                           return CheckboxListTile(
                             tristate: true,
                             value: todos ? true : (alguns ? null : false),
@@ -196,16 +224,16 @@ class GradeTemas extends StatelessWidget {
                             ),
                             onChanged: (_) => setSheet(() {
                               if (todos) {
-                                marcados.removeAll(temas.map((t) => t.id));
+                                marcados.removeAll(livres.map((t) => t.id));
                               } else {
-                                marcados.addAll(temas.map((t) => t.id));
+                                marcados.addAll(livres.map((t) => t.id));
                               }
                             }),
                           );
                         },
                       ),
                       const Divider(height: 1),
-                      for (final t in temas)
+                      for (final t in temas.where((t) => !_travado(t)))
                         CheckboxListTile(
                           value: marcados.contains(t.id),
                           title: Text(t.nome),
@@ -214,6 +242,16 @@ class GradeTemas extends StatelessWidget {
                                 ? marcados.add(t.id)
                                 : marcados.remove(t.id),
                           ),
+                        ),
+                      for (final t in temas.where(_travado))
+                        ListTile(
+                          leading: const Text('🔒'),
+                          title: Text(t.nome),
+                          subtitle: const Text('Premium'),
+                          onTap: () {
+                            Navigator.pop(context);
+                            aoBloqueado?.call();
+                          },
                         ),
                     ],
                   ),
@@ -258,7 +296,11 @@ class GradeTemas extends StatelessWidget {
                 texto,
                 emojiCategoria[categoria] ?? '📌',
                 categoria,
-                n > 0 ? '$n de ${temas.length} ✓' : '${temas.length} temas',
+                n > 0
+                    ? '$n de ${temas.length} ✓'
+                    : temas.every(_travado)
+                    ? '🔒 Premium'
+                    : '${temas.length} temas',
               ),
             );
           },

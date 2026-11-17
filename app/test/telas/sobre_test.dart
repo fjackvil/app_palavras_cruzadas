@@ -28,8 +28,11 @@ void main() {
     final md = File(arquivoPolitica).readAsStringSync();
     final manifesto = File('android/app/src/main/AndroidManifest.xml')
         .readAsStringSync();
-    // A política diz que o app não pede internet, localização, câmera etc.
-    expect(md, contains('não pede permissão de internet'));
+    // A política diz que o app não pede localização, câmera etc., e que a
+    // internet vem só do sistema de compras do Google Play (ela é posta pela
+    // biblioteca de compras, não pelo manifesto do app).
+    expect(md, contains('não pede permissão de localização'));
+    expect(md, contains('sistema de compras do Google Play'));
     for (final p in [
       'INTERNET',
       'LOCATION',

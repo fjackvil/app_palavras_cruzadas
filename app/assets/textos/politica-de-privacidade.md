@@ -9,7 +9,7 @@ Esta política vale para o app **Palavras Cruzadas**, da **Vilela Digit**, para 
 - Para jogar não precisa de conta, login, e-mail nem senha.
 - Tudo o que você cria no app fica guardado só no seu celular.
 - O app não tem anúncios e não usa nenhuma ferramenta de rastreio, de estatística ou de publicidade.
-- O app não pede permissão de internet, localização, contatos, microfone ou câmera. Ele não tem como enviar suas informações para lugar nenhum.
+- O app não pede permissão de localização, contatos, microfone ou câmera. Ele tem permissão de internet só porque o sistema de compras do Google Play exige; o app em si não envia nenhuma informação sua.
 - Nós, da Vilela Digit, não recebemos e não temos acesso a nada do que você faz no app.
 
 ## O que fica guardado no seu celular
@@ -36,7 +36,9 @@ O Android pode fazer, automaticamente, uma cópia de segurança dos dados dos ap
 
 ## Compras
 
-Quando a versão completa (Premium) estiver disponível, a compra será feita pelo Google Play. O pagamento é tratado só pelo Google, de acordo com a política de privacidade dele. Nós não recebemos dados do seu cartão, do seu Pix nem da sua conta Google; o app apenas pergunta ao Google Play se aquela conta já comprou o Premium. Se esta política mudar por causa disso, a data no topo será atualizada.
+O app tem uma versão completa (Premium), liberada por uma compra única feita pelo Google Play. O pagamento é tratado só pelo Google, de acordo com a política de privacidade dele. Nós não recebemos dados do seu cartão, do seu Pix nem da sua conta Google. O app apenas pergunta ao Google Play se a conta Google do aparelho já comprou o Premium e guarda no celular uma cópia dessa resposta, para funcionar sem internet.
+
+Para isso, o sistema de compras do Google Play exige que o app tenha permissão de internet. Essa conversa acontece entre o app e o Google Play; nenhuma informação dos jogadores (nomes, idades, fotos, pontos) é enviada.
 
 ## Crianças
 

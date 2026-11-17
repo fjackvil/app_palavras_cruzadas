@@ -18,7 +18,10 @@ class _TelaNovoPerfilState extends State<TelaNovoPerfil> {
   String _avatar = avatares.first;
   bool _salvando = false;
 
-  Nivel get _nivelSugerido => Nivel.sugeridoParaIdade(_idade);
+  /// Nível sugerido pela idade, dentro do que o plano libera (no grátis,
+  /// adultos começam no Médio).
+  Nivel get _nivelSugerido =>
+      Servicos.of(context).plano.nivelEfetivo(Nivel.sugeridoParaIdade(_idade));
 
   @override
   void dispose() {

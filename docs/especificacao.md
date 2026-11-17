@@ -205,6 +205,8 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 
 **Preços sugeridos (testar):** R$ 9,90/mês, R$ 59,90/ano, R$ 99,90 vitalício. Oferecer 7 dias grátis na assinatura anual.
 
+**Decidido em 17/11/2026:** compra única "Premium para a família" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 10 temas, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para a família testar o placar). O limite de pendentes ainda não foi aplicado.
+
 ## Tecnologia recomendada
 
 Continua **Flutter** no app. No beta, as palavras vêm de **arquivos JSON dentro do app**, sem servidor; o **Supabase** só entra depois, para servir o conteúdo. Os dados dos jogadores ficam sempre num banco local no celular.
@@ -369,7 +371,7 @@ Sugiro lançar em 4 fases, começando por uma versão que seu filho já possa jo
 - [ ] Confirmar: conta de grupos só para maiores de 18 anos?
 - [ ] Confirmar: sem anúncios no plano grátis, para não coletar dados?
 - [ ] Grupos só no Premium, ou também no plano grátis?
-- [ ] Assinatura, compra única, ou as duas?
+- [x] Assinatura, compra única, ou as duas? **Compra única de R$ 9,90** (17/11/2026).
 - [ ] Mostrar o botão de compartilhar resultado também em perfis de crianças?
 - [ ] Só português, ou planejar outros idiomas no futuro?
 - [ ] Algum tema deve ficar de fora (por exemplo, política em "Atualidades")?

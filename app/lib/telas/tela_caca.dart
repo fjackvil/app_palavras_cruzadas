@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
 import '../dados/banco.dart';
+import '../dados/limite_dicas.dart';
 import '../dados/oferta_nivel.dart';
 import '../dominio/jogo_caca.dart';
 import '../dominio/compartilhar.dart';
@@ -132,6 +133,8 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
 
   Future<void> _dica() async {
     if (_pausado || _encerrado) return;
+    final perfilId = await conferirDica(context, widget.partidaId);
+    if (perfilId == null || !mounted) return;
     final sim = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -152,8 +155,10 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
         ],
       ),
     );
-    if (sim != true) return;
-    if (_jogo.dica() == null && mounted) {
+    if (sim != true || !mounted) return;
+    final dada = _jogo.dica();
+    if (dada != null && mounted) await contarDica(context, perfilId);
+    if (dada == null && mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('Todas as palavras que faltam já têm dica.'),

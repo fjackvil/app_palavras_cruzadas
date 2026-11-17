@@ -52,9 +52,24 @@ class Partidas extends Table {
   IntColumn get pontos => integer().withDefault(const Constant(0))();
   DateTimeColumn get atualizadoEm =>
       dateTime().withDefault(currentDateAndTime)();
+
+  /// Quando a partida começou (para o limite diário do plano grátis).
+  /// Partidas de antes da versão 2 do banco ficam sem data.
+  DateTimeColumn get criadaEm => dateTime().nullable()();
 }
 
-@DriftDatabase(tables: [Perfis, Partidas])
+/// Pares chave/valor do aparelho: cópia do Premium, contador de dicas do
+/// dia. Nada daqui sai do celular.
+@DataClassName('Ajuste')
+class Ajustes extends Table {
+  TextColumn get chave => text()();
+  TextColumn get valor => text()();
+
+  @override
+  Set<Column> get primaryKey => {chave};
+}
+
+@DriftDatabase(tables: [Perfis, Partidas, Ajustes])
 class Banco extends _$Banco {
   Banco([QueryExecutor? executor])
     : super(executor ?? driftDatabase(name: 'palavras_cruzadas'));
@@ -62,12 +77,55 @@ class Banco extends _$Banco {
   static const maxPerfis = 5;
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
+    onCreate: (m) => m.createAll(),
+    onUpgrade: (m, de, para) async {
+      if (de < 2) {
+        await m.addColumn(partidas, partidas.criadaEm);
+        await m.createTable(ajustes);
+      }
+    },
     beforeOpen: (_) async => customStatement('PRAGMA foreign_keys = ON'),
   );
+
+  // ---------- Ajustes ----------
+
+  Future<String?> lerAjuste(String chave) async => (await (select(
+    ajustes,
+  )..where((a) => a.chave.equals(chave))).getSingleOrNull())?.valor;
+
+  Future<void> gravarAjuste(String chave, String valor) => into(
+    ajustes,
+  ).insertOnConflictUpdate(AjustesCompanion.insert(chave: chave, valor: valor));
+
+  /// Dicas usadas hoje pelo jogador, nos dois jogos.
+  Future<int> dicasHoje(int perfilId, DateTime agora) async =>
+      int.tryParse(await lerAjuste(_chaveDicas(perfilId, agora)) ?? '') ?? 0;
+
+  Future<void> contarDica(int perfilId, DateTime agora) async {
+    final n = await dicasHoje(perfilId, agora);
+    await gravarAjuste(_chaveDicas(perfilId, agora), '${n + 1}');
+  }
+
+  static String _chaveDicas(int perfilId, DateTime d) =>
+      'dicas:$perfilId:${d.year}-${d.month}-${d.day}';
+
+  /// Desafios livres (fora o desafio do dia) começados hoje pelo jogador.
+  Future<int> desafiosHoje(int perfilId, DateTime agora) async {
+    final inicio = DateTime(agora.year, agora.month, agora.day);
+    final lista =
+        await (select(partidas)..where(
+              (p) =>
+                  p.perfilId.equals(perfilId) &
+                  p.criadaEm.isBiggerOrEqualValue(inicio) &
+                  p.desafioId.like('%:diario:%').not(),
+            ))
+            .get();
+    return lista.length;
+  }
 
   // ---------- Perfis ----------
 
@@ -128,6 +186,7 @@ class Banco extends _$Banco {
       desafio: desafio,
       estado: EstadoPartida.andamento,
       respostas: respostas,
+      criadaEm: Value(DateTime.now()),
     ),
   );
 

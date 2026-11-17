@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
 import '../dados/banco.dart';
+import '../dados/limite_dicas.dart';
 import '../dados/oferta_nivel.dart';
 import '../dominio/desafio.dart';
 import '../dominio/jogo_cruzadas.dart';
@@ -166,6 +167,8 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
   }
 
   Future<void> _escolherDica() async {
+    final perfilId = await conferirDica(context, widget.partidaId);
+    if (perfilId == null || !mounted) return;
     final escolha = await showModalBottomSheet<String>(
       context: context,
       builder: (context) => SafeArea(
@@ -188,6 +191,8 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
         ),
       ),
     );
+    if (escolha == null || !mounted) return;
+    await contarDica(context, perfilId);
     if (escolha == 'letra') await _acao(_jogo.dicaDeLetra);
     if (escolha == 'palavra') await _acao(_jogo.dicaDePalavra);
   }

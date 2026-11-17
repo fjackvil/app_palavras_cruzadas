@@ -13,6 +13,7 @@ import '../dominio/gerador_cruzadas.dart';
 import '../dominio/jogo_caca.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
+import '../dominio/plano.dart';
 import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
 import '../widgets/escolhas_inicio.dart';
@@ -22,6 +23,7 @@ import 'tela_como_jogar.dart';
 import 'tela_conquistas.dart';
 import 'tela_jogo.dart';
 import 'tela_placar.dart';
+import 'tela_premium.dart';
 import 'tela_recordes.dart';
 import 'tela_resposta.dart';
 import 'tela_resposta_caca.dart';
@@ -149,8 +151,29 @@ class _TelaInicioState extends State<TelaInicio> {
     );
   }
 
+  /// Desafios livres começados hoje (para o limite do plano grátis).
+  Future<int>? _hoje;
+
+  Future<int> _contarHoje(int perfilId) =>
+      _hoje ??= Servicos.of(context).banco
+          .desafiosHoje(perfilId, DateTime.now());
+
   Future<void> _jogar(Perfil perfil, List<Tema> visiveis, Nivel nivel) async {
     if (_montando) return;
+    final plano = Servicos.of(context).plano;
+    _hoje = null;
+    final hoje = await _contarHoje(perfil.id);
+    if (!mounted) return;
+    if (!plano.podeComecarDesafio(hoje)) {
+      await abrirPremium(
+        context,
+        motivo:
+            'Você já jogou os ${PlanoGratis.desafiosPorDia} desafios grátis '
+            'de hoje. Amanhã tem mais, e o desafio do dia continua liberado. '
+            'Com o Premium, é sem limite.',
+      );
+      return;
+    }
     final escolhidos = visiveis
         .where((t) => _escolhidos.contains(t.id))
         .toList();
@@ -163,6 +186,8 @@ class _TelaInicioState extends State<TelaInicio> {
       final desafio = await _montar(tarefaCruzadas(temas, nivel, semente));
       await _comecarCruzadas(perfil, desafio);
     }
+    // Atualiza o "hoje: x de 3" ao voltar do jogo.
+    if (mounted) setState(() => _hoje = null);
   }
 
   Future<void> _jogarDiario(
@@ -368,9 +393,12 @@ class _TelaInicioState extends State<TelaInicio> {
 
   Widget _conteudo(BuildContext context, Perfil perfil, List<Tema> todos) {
     final banco = Servicos.of(context).banco;
+    final plano = Servicos.of(context).plano;
     final texto = Theme.of(context).textTheme;
-    final nivel = Nivel.porNome(perfil.nivelAtual);
+    // No grátis, quem estava num nível do Premium joga o Médio.
+    final nivel = plano.nivelEfetivo(Nivel.porNome(perfil.nivelAtual));
     final visiveis = _visiveis(perfil, todos, nivel);
+    final jogaveis = visiveis.where(plano.temaLiberado).toList();
     final porCategoria = <String, List<Tema>>{};
     for (final t in visiveis) {
       porCategoria.putIfAbsent(t.categoria, () => []).add(t);
@@ -449,6 +477,13 @@ class _TelaInicioState extends State<TelaInicio> {
                     SeletorNivel(
                       atual: nivel,
                       aoEscolher: (n) => banco.mudarNivel(perfil.id, n.name),
+                      bloqueado: (n) => !plano.nivelLiberado(n),
+                      aoBloqueado: (n) => abrirPremium(
+                        context,
+                        motivo:
+                            'O nível ${n.nome} faz parte do Premium. No '
+                            'grátis dá para jogar o Leve e o Médio.',
+                      ),
                     ),
                     const SizedBox(height: 20),
                     Row(
@@ -472,6 +507,13 @@ class _TelaInicioState extends State<TelaInicio> {
                         () => _escolhidos
                           ..clear()
                           ..addAll(novos),
+                      ),
+                      bloqueado: (t) => !plano.temaLiberado(t),
+                      aoBloqueado: () => abrirPremium(
+                        context,
+                        motivo:
+                            'Esse tema faz parte do Premium. No grátis são '
+                            '10 temas; no Premium, todos os ${todos.length}.',
                       ),
                     ),
                     const SizedBox(height: 8),
@@ -579,17 +621,38 @@ class _TelaInicioState extends State<TelaInicio> {
         SafeArea(
           top: false,
           child: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
-            child: FilledButton.icon(
-              style: FilledButton.styleFrom(
-                minimumSize: const Size.fromHeight(56),
-                textStyle: texto.titleLarge,
-              ),
-              icon: Icon(_modo.icone),
-              label: Text(jogar),
-              onPressed: visiveis.isEmpty || _montando
-                  ? null
-                  : () => _jogar(perfil, visiveis, nivel),
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 12),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                if (!plano.premium)
+                  FutureBuilder<int>(
+                    future: _contarHoje(perfil.id),
+                    builder: (context, s) {
+                      final resta = plano.desafiosRestantes(s.data ?? 0) ?? 0;
+                      return TextButton(
+                        onPressed: () => abrirPremium(context),
+                        child: Text(
+                          resta == 0
+                              ? 'Desafios grátis de hoje acabaram · ⭐ Premium'
+                              : 'Hoje: $resta de ${PlanoGratis.desafiosPorDia} '
+                                    'desafios grátis · ⭐ Premium',
+                        ),
+                      );
+                    },
+                  ),
+                FilledButton.icon(
+                  style: FilledButton.styleFrom(
+                    minimumSize: const Size.fromHeight(56),
+                    textStyle: texto.titleLarge,
+                  ),
+                  icon: Icon(_modo.icone),
+                  label: Text(jogar),
+                  onPressed: jogaveis.isEmpty || _montando
+                      ? null
+                      : () => _jogar(perfil, jogaveis, nivel),
+                ),
+              ],
             ),
           ),
         ),

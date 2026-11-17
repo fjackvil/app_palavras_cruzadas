@@ -538,6 +538,17 @@ class $PartidasTable extends Partidas with TableInfo<$PartidasTable, Partida> {
     requiredDuringInsert: false,
     defaultValue: currentDateAndTime,
   );
+  static const VerificationMeta _criadaEmMeta = const VerificationMeta(
+    'criadaEm',
+  );
+  @override
+  late final GeneratedColumn<DateTime> criadaEm = GeneratedColumn<DateTime>(
+    'criada_em',
+    aliasedName,
+    true,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: false,
+  );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -551,6 +562,7 @@ class $PartidasTable extends Partidas with TableInfo<$PartidasTable, Partida> {
     dicasUsadas,
     pontos,
     atualizadoEm,
+    criadaEm,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -648,6 +660,12 @@ class $PartidasTable extends Partidas with TableInfo<$PartidasTable, Partida> {
         ),
       );
     }
+    if (data.containsKey('criada_em')) {
+      context.handle(
+        _criadaEmMeta,
+        criadaEm.isAcceptableOrUnknown(data['criada_em']!, _criadaEmMeta),
+      );
+    }
     return context;
   }
 
@@ -701,6 +719,10 @@ class $PartidasTable extends Partidas with TableInfo<$PartidasTable, Partida> {
         DriftSqlType.dateTime,
         data['${effectivePrefix}atualizado_em'],
       )!,
+      criadaEm: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}criada_em'],
+      ),
     );
   }
 
@@ -728,6 +750,10 @@ class Partida extends DataClass implements Insertable<Partida> {
   final int dicasUsadas;
   final int pontos;
   final DateTime atualizadoEm;
+
+  /// Quando a partida começou (para o limite diário do plano grátis).
+  /// Partidas de antes da versão 2 do banco ficam sem data.
+  final DateTime? criadaEm;
   const Partida({
     required this.id,
     required this.perfilId,
@@ -740,6 +766,7 @@ class Partida extends DataClass implements Insertable<Partida> {
     required this.dicasUsadas,
     required this.pontos,
     required this.atualizadoEm,
+    this.criadaEm,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -755,6 +782,9 @@ class Partida extends DataClass implements Insertable<Partida> {
     map['dicas_usadas'] = Variable<int>(dicasUsadas);
     map['pontos'] = Variable<int>(pontos);
     map['atualizado_em'] = Variable<DateTime>(atualizadoEm);
+    if (!nullToAbsent || criadaEm != null) {
+      map['criada_em'] = Variable<DateTime>(criadaEm);
+    }
     return map;
   }
 
@@ -771,6 +801,9 @@ class Partida extends DataClass implements Insertable<Partida> {
       dicasUsadas: Value(dicasUsadas),
       pontos: Value(pontos),
       atualizadoEm: Value(atualizadoEm),
+      criadaEm: criadaEm == null && nullToAbsent
+          ? const Value.absent()
+          : Value(criadaEm),
     );
   }
 
@@ -791,6 +824,7 @@ class Partida extends DataClass implements Insertable<Partida> {
       dicasUsadas: serializer.fromJson<int>(json['dicasUsadas']),
       pontos: serializer.fromJson<int>(json['pontos']),
       atualizadoEm: serializer.fromJson<DateTime>(json['atualizadoEm']),
+      criadaEm: serializer.fromJson<DateTime?>(json['criadaEm']),
     );
   }
   @override
@@ -808,6 +842,7 @@ class Partida extends DataClass implements Insertable<Partida> {
       'dicasUsadas': serializer.toJson<int>(dicasUsadas),
       'pontos': serializer.toJson<int>(pontos),
       'atualizadoEm': serializer.toJson<DateTime>(atualizadoEm),
+      'criadaEm': serializer.toJson<DateTime?>(criadaEm),
     };
   }
 
@@ -823,6 +858,7 @@ class Partida extends DataClass implements Insertable<Partida> {
     int? dicasUsadas,
     int? pontos,
     DateTime? atualizadoEm,
+    Value<DateTime?> criadaEm = const Value.absent(),
   }) => Partida(
     id: id ?? this.id,
     perfilId: perfilId ?? this.perfilId,
@@ -835,6 +871,7 @@ class Partida extends DataClass implements Insertable<Partida> {
     dicasUsadas: dicasUsadas ?? this.dicasUsadas,
     pontos: pontos ?? this.pontos,
     atualizadoEm: atualizadoEm ?? this.atualizadoEm,
+    criadaEm: criadaEm.present ? criadaEm.value : this.criadaEm,
   );
   Partida copyWithCompanion(PartidasCompanion data) {
     return Partida(
@@ -855,6 +892,7 @@ class Partida extends DataClass implements Insertable<Partida> {
       atualizadoEm: data.atualizadoEm.present
           ? data.atualizadoEm.value
           : this.atualizadoEm,
+      criadaEm: data.criadaEm.present ? data.criadaEm.value : this.criadaEm,
     );
   }
 
@@ -871,7 +909,8 @@ class Partida extends DataClass implements Insertable<Partida> {
           ..write('tempoGastoSeg: $tempoGastoSeg, ')
           ..write('dicasUsadas: $dicasUsadas, ')
           ..write('pontos: $pontos, ')
-          ..write('atualizadoEm: $atualizadoEm')
+          ..write('atualizadoEm: $atualizadoEm, ')
+          ..write('criadaEm: $criadaEm')
           ..write(')'))
         .toString();
   }
@@ -889,6 +928,7 @@ class Partida extends DataClass implements Insertable<Partida> {
     dicasUsadas,
     pontos,
     atualizadoEm,
+    criadaEm,
   );
   @override
   bool operator ==(Object other) =>
@@ -904,7 +944,8 @@ class Partida extends DataClass implements Insertable<Partida> {
           other.tempoGastoSeg == this.tempoGastoSeg &&
           other.dicasUsadas == this.dicasUsadas &&
           other.pontos == this.pontos &&
-          other.atualizadoEm == this.atualizadoEm);
+          other.atualizadoEm == this.atualizadoEm &&
+          other.criadaEm == this.criadaEm);
 }
 
 class PartidasCompanion extends UpdateCompanion<Partida> {
@@ -919,6 +960,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
   final Value<int> dicasUsadas;
   final Value<int> pontos;
   final Value<DateTime> atualizadoEm;
+  final Value<DateTime?> criadaEm;
   const PartidasCompanion({
     this.id = const Value.absent(),
     this.perfilId = const Value.absent(),
@@ -931,6 +973,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
     this.dicasUsadas = const Value.absent(),
     this.pontos = const Value.absent(),
     this.atualizadoEm = const Value.absent(),
+    this.criadaEm = const Value.absent(),
   });
   PartidasCompanion.insert({
     this.id = const Value.absent(),
@@ -944,6 +987,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
     this.dicasUsadas = const Value.absent(),
     this.pontos = const Value.absent(),
     this.atualizadoEm = const Value.absent(),
+    this.criadaEm = const Value.absent(),
   }) : perfilId = Value(perfilId),
        modo = Value(modo),
        desafioId = Value(desafioId),
@@ -962,6 +1006,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
     Expression<int>? dicasUsadas,
     Expression<int>? pontos,
     Expression<DateTime>? atualizadoEm,
+    Expression<DateTime>? criadaEm,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -975,6 +1020,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
       if (dicasUsadas != null) 'dicas_usadas': dicasUsadas,
       if (pontos != null) 'pontos': pontos,
       if (atualizadoEm != null) 'atualizado_em': atualizadoEm,
+      if (criadaEm != null) 'criada_em': criadaEm,
     });
   }
 
@@ -990,6 +1036,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
     Value<int>? dicasUsadas,
     Value<int>? pontos,
     Value<DateTime>? atualizadoEm,
+    Value<DateTime?>? criadaEm,
   }) {
     return PartidasCompanion(
       id: id ?? this.id,
@@ -1003,6 +1050,7 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
       dicasUsadas: dicasUsadas ?? this.dicasUsadas,
       pontos: pontos ?? this.pontos,
       atualizadoEm: atualizadoEm ?? this.atualizadoEm,
+      criadaEm: criadaEm ?? this.criadaEm,
     );
   }
 
@@ -1042,6 +1090,9 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
     if (atualizadoEm.present) {
       map['atualizado_em'] = Variable<DateTime>(atualizadoEm.value);
     }
+    if (criadaEm.present) {
+      map['criada_em'] = Variable<DateTime>(criadaEm.value);
+    }
     return map;
   }
 
@@ -1058,7 +1109,215 @@ class PartidasCompanion extends UpdateCompanion<Partida> {
           ..write('tempoGastoSeg: $tempoGastoSeg, ')
           ..write('dicasUsadas: $dicasUsadas, ')
           ..write('pontos: $pontos, ')
-          ..write('atualizadoEm: $atualizadoEm')
+          ..write('atualizadoEm: $atualizadoEm, ')
+          ..write('criadaEm: $criadaEm')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $AjustesTable extends Ajustes with TableInfo<$AjustesTable, Ajuste> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $AjustesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _chaveMeta = const VerificationMeta('chave');
+  @override
+  late final GeneratedColumn<String> chave = GeneratedColumn<String>(
+    'chave',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _valorMeta = const VerificationMeta('valor');
+  @override
+  late final GeneratedColumn<String> valor = GeneratedColumn<String>(
+    'valor',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [chave, valor];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'ajustes';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<Ajuste> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('chave')) {
+      context.handle(
+        _chaveMeta,
+        chave.isAcceptableOrUnknown(data['chave']!, _chaveMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_chaveMeta);
+    }
+    if (data.containsKey('valor')) {
+      context.handle(
+        _valorMeta,
+        valor.isAcceptableOrUnknown(data['valor']!, _valorMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_valorMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {chave};
+  @override
+  Ajuste map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return Ajuste(
+      chave: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}chave'],
+      )!,
+      valor: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}valor'],
+      )!,
+    );
+  }
+
+  @override
+  $AjustesTable createAlias(String alias) {
+    return $AjustesTable(attachedDatabase, alias);
+  }
+}
+
+class Ajuste extends DataClass implements Insertable<Ajuste> {
+  final String chave;
+  final String valor;
+  const Ajuste({required this.chave, required this.valor});
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['chave'] = Variable<String>(chave);
+    map['valor'] = Variable<String>(valor);
+    return map;
+  }
+
+  AjustesCompanion toCompanion(bool nullToAbsent) {
+    return AjustesCompanion(chave: Value(chave), valor: Value(valor));
+  }
+
+  factory Ajuste.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return Ajuste(
+      chave: serializer.fromJson<String>(json['chave']),
+      valor: serializer.fromJson<String>(json['valor']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'chave': serializer.toJson<String>(chave),
+      'valor': serializer.toJson<String>(valor),
+    };
+  }
+
+  Ajuste copyWith({String? chave, String? valor}) =>
+      Ajuste(chave: chave ?? this.chave, valor: valor ?? this.valor);
+  Ajuste copyWithCompanion(AjustesCompanion data) {
+    return Ajuste(
+      chave: data.chave.present ? data.chave.value : this.chave,
+      valor: data.valor.present ? data.valor.value : this.valor,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('Ajuste(')
+          ..write('chave: $chave, ')
+          ..write('valor: $valor')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(chave, valor);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is Ajuste &&
+          other.chave == this.chave &&
+          other.valor == this.valor);
+}
+
+class AjustesCompanion extends UpdateCompanion<Ajuste> {
+  final Value<String> chave;
+  final Value<String> valor;
+  final Value<int> rowid;
+  const AjustesCompanion({
+    this.chave = const Value.absent(),
+    this.valor = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  AjustesCompanion.insert({
+    required String chave,
+    required String valor,
+    this.rowid = const Value.absent(),
+  }) : chave = Value(chave),
+       valor = Value(valor);
+  static Insertable<Ajuste> custom({
+    Expression<String>? chave,
+    Expression<String>? valor,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (chave != null) 'chave': chave,
+      if (valor != null) 'valor': valor,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  AjustesCompanion copyWith({
+    Value<String>? chave,
+    Value<String>? valor,
+    Value<int>? rowid,
+  }) {
+    return AjustesCompanion(
+      chave: chave ?? this.chave,
+      valor: valor ?? this.valor,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (chave.present) {
+      map['chave'] = Variable<String>(chave.value);
+    }
+    if (valor.present) {
+      map['valor'] = Variable<String>(valor.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('AjustesCompanion(')
+          ..write('chave: $chave, ')
+          ..write('valor: $valor, ')
+          ..write('rowid: $rowid')
           ..write(')'))
         .toString();
   }
@@ -1069,11 +1328,16 @@ abstract class _$Banco extends GeneratedDatabase {
   $BancoManager get managers => $BancoManager(this);
   late final $PerfisTable perfis = $PerfisTable(this);
   late final $PartidasTable partidas = $PartidasTable(this);
+  late final $AjustesTable ajustes = $AjustesTable(this);
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
   @override
-  List<DatabaseSchemaEntity> get allSchemaEntities => [perfis, partidas];
+  List<DatabaseSchemaEntity> get allSchemaEntities => [
+    perfis,
+    partidas,
+    ajustes,
+  ];
   @override
   StreamQueryUpdateRules get streamUpdateRules => const StreamQueryUpdateRules([
     WritePropagation(
@@ -1409,6 +1673,7 @@ typedef $$PartidasTableCreateCompanionBuilder = PartidasCompanion Function({
   Value<int> dicasUsadas,
   Value<int> pontos,
   Value<DateTime> atualizadoEm,
+  Value<DateTime?> criadaEm,
 });
 typedef $$PartidasTableUpdateCompanionBuilder = PartidasCompanion Function({
   Value<int> id,
@@ -1422,6 +1687,7 @@ typedef $$PartidasTableUpdateCompanionBuilder = PartidasCompanion Function({
   Value<int> dicasUsadas,
   Value<int> pontos,
   Value<DateTime> atualizadoEm,
+  Value<DateTime?> criadaEm,
 });
 
 final class $$PartidasTableReferences
@@ -1501,6 +1767,11 @@ class $$PartidasTableFilterComposer extends Composer<_$Banco, $PartidasTable> {
 
   ColumnFilters<DateTime> get atualizadoEm => $composableBuilder(
     column: $table.atualizadoEm,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get criadaEm => $composableBuilder(
+    column: $table.criadaEm,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -1587,6 +1858,11 @@ class $$PartidasTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<DateTime> get criadaEm => $composableBuilder(
+    column: $table.criadaEm,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   $$PerfisTableOrderingComposer get perfilId {
     final $$PerfisTableOrderingComposer composer = $composerBuilder(
       composer: this,
@@ -1656,6 +1932,9 @@ class $$PartidasTableAnnotationComposer
     builder: (column) => column,
   );
 
+  GeneratedColumn<DateTime> get criadaEm =>
+      $composableBuilder(column: $table.criadaEm, builder: (column) => column);
+
   $$PerfisTableAnnotationComposer get perfilId {
     final $$PerfisTableAnnotationComposer composer = $composerBuilder(
       composer: this,
@@ -1719,6 +1998,7 @@ class $$PartidasTableTableManager
                 Value<int> dicasUsadas = const Value.absent(),
                 Value<int> pontos = const Value.absent(),
                 Value<DateTime> atualizadoEm = const Value.absent(),
+                Value<DateTime?> criadaEm = const Value.absent(),
               }) => PartidasCompanion(
                 id: id,
                 perfilId: perfilId,
@@ -1731,6 +2011,7 @@ class $$PartidasTableTableManager
                 dicasUsadas: dicasUsadas,
                 pontos: pontos,
                 atualizadoEm: atualizadoEm,
+                criadaEm: criadaEm,
               ),
           createCompanionCallback:
               ({
@@ -1745,6 +2026,7 @@ class $$PartidasTableTableManager
                 Value<int> dicasUsadas = const Value.absent(),
                 Value<int> pontos = const Value.absent(),
                 Value<DateTime> atualizadoEm = const Value.absent(),
+                Value<DateTime?> criadaEm = const Value.absent(),
               }) => PartidasCompanion.insert(
                 id: id,
                 perfilId: perfilId,
@@ -1757,6 +2039,7 @@ class $$PartidasTableTableManager
                 dicasUsadas: dicasUsadas,
                 pontos: pontos,
                 atualizadoEm: atualizadoEm,
+                criadaEm: criadaEm,
               ),
           withReferenceMapper: (p0) => p0
               .map(
@@ -1823,6 +2106,139 @@ typedef $$PartidasTableProcessedTableManager =
       Partida,
       PrefetchHooks Function({bool perfilId})
     >;
+typedef $$AjustesTableCreateCompanionBuilder = AjustesCompanion Function({
+  required String chave,
+  required String valor,
+  Value<int> rowid,
+});
+typedef $$AjustesTableUpdateCompanionBuilder = AjustesCompanion Function({
+  Value<String> chave,
+  Value<String> valor,
+  Value<int> rowid,
+});
+
+class $$AjustesTableFilterComposer extends Composer<_$Banco, $AjustesTable> {
+  $$AjustesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get chave => $composableBuilder(
+    column: $table.chave,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get valor => $composableBuilder(
+    column: $table.valor,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$AjustesTableOrderingComposer extends Composer<_$Banco, $AjustesTable> {
+  $$AjustesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get chave => $composableBuilder(
+    column: $table.chave,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get valor => $composableBuilder(
+    column: $table.valor,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$AjustesTableAnnotationComposer
+    extends Composer<_$Banco, $AjustesTable> {
+  $$AjustesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get chave =>
+      $composableBuilder(column: $table.chave, builder: (column) => column);
+
+  GeneratedColumn<String> get valor =>
+      $composableBuilder(column: $table.valor, builder: (column) => column);
+}
+
+class $$AjustesTableTableManager
+    extends
+        RootTableManager<
+          _$Banco,
+          $AjustesTable,
+          Ajuste,
+          $$AjustesTableFilterComposer,
+          $$AjustesTableOrderingComposer,
+          $$AjustesTableAnnotationComposer,
+          $$AjustesTableCreateCompanionBuilder,
+          $$AjustesTableUpdateCompanionBuilder,
+          (Ajuste, BaseReferences<_$Banco, $AjustesTable, Ajuste>),
+          Ajuste,
+          PrefetchHooks Function()
+        > {
+  $$AjustesTableTableManager(_$Banco db, $AjustesTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$AjustesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$AjustesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$AjustesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback: ({
+            Value<String> chave = const Value.absent(),
+            Value<String> valor = const Value.absent(),
+            Value<int> rowid = const Value.absent(),
+          }) => AjustesCompanion(chave: chave, valor: valor, rowid: rowid),
+          createCompanionCallback:
+              ({
+                required String chave,
+                required String valor,
+                Value<int> rowid = const Value.absent(),
+              }) => AjustesCompanion.insert(
+                chave: chave,
+                valor: valor,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable<$AjustesTable, Ajuste>(table),
+                  BaseReferences<_$Banco, $AjustesTable, Ajuste>(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$AjustesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$Banco,
+      $AjustesTable,
+      Ajuste,
+      $$AjustesTableFilterComposer,
+      $$AjustesTableOrderingComposer,
+      $$AjustesTableAnnotationComposer,
+      $$AjustesTableCreateCompanionBuilder,
+      $$AjustesTableUpdateCompanionBuilder,
+      (Ajuste, BaseReferences<_$Banco, $AjustesTable, Ajuste>),
+      Ajuste,
+      PrefetchHooks Function()
+    >;
 
 class $BancoManager {
   final _$Banco _db;
@@ -1831,4 +2247,6 @@ class $BancoManager {
       $$PerfisTableTableManager(_db, _db.perfis);
   $$PartidasTableTableManager get partidas =>
       $$PartidasTableTableManager(_db, _db.partidas);
+  $$AjustesTableTableManager get ajustes =>
+      $$AjustesTableTableManager(_db, _db.ajustes);
 }

@@ -1,6 +1,8 @@
 import 'package:material_ui/material_ui.dart';
 
 import 'dados/banco.dart';
+import 'dados/premium.dart';
+import 'dominio/plano.dart';
 import 'dominio/tema.dart';
 import 'telas/tela_perfis.dart';
 
@@ -18,43 +20,77 @@ class Servicos extends InheritedWidget {
     super.key,
     required this.banco,
     required this.temas,
+    required this.premium,
+    required this.ehPremium,
     required super.child,
   });
 
   final Banco banco;
   final RepositorioTemas temas;
+  final ServicoPremium premium;
+
+  /// Cópia do estado no momento: as telas se redesenham quando muda.
+  final bool ehPremium;
+
+  /// O que o aparelho pode usar agora (grátis ou Premium).
+  Plano get plano => Plano(premium: ehPremium);
 
   static Servicos of(BuildContext context) =>
       context.dependOnInheritedWidgetOfExactType<Servicos>()!;
 
   @override
   bool updateShouldNotify(Servicos oldWidget) =>
-      banco != oldWidget.banco || temas != oldWidget.temas;
+      banco != oldWidget.banco ||
+      temas != oldWidget.temas ||
+      ehPremium != oldWidget.ehPremium;
 }
 
-class PalavrasCruzadasApp extends StatelessWidget {
+class PalavrasCruzadasApp extends StatefulWidget {
   const PalavrasCruzadasApp({
     super.key,
     required this.banco,
     required this.temas,
+    this.premium,
   });
 
   final Banco banco;
   final RepositorioTemas temas;
 
+  /// Nos testes vem um serviço sem loja; no app, um de verdade.
+  final ServicoPremium? premium;
+
+  @override
+  State<PalavrasCruzadasApp> createState() => _PalavrasCruzadasAppState();
+}
+
+class _PalavrasCruzadasAppState extends State<PalavrasCruzadasApp> {
+  late final ServicoPremium _premium =
+      widget.premium ?? (ServicoPremium(widget.banco)..iniciar());
+
+  @override
+  void dispose() {
+    if (widget.premium == null) _premium.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Servicos(
-      banco: banco,
-      temas: temas,
-      child: MaterialApp(
-        title: 'Palavras Cruzadas',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: CoresMarca.verde),
-          useMaterial3: true,
+    return ListenableBuilder(
+      listenable: _premium,
+      builder: (context, _) => Servicos(
+        banco: widget.banco,
+        temas: widget.temas,
+        premium: _premium,
+        ehPremium: _premium.premium,
+        child: MaterialApp(
+          title: 'Palavras Cruzadas',
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            colorScheme: ColorScheme.fromSeed(seedColor: CoresMarca.verde),
+            useMaterial3: true,
+          ),
+          home: const TelaPerfis(),
         ),
-        home: const TelaPerfis(),
       ),
     );
   }

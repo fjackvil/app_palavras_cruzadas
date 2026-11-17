@@ -3,12 +3,14 @@ import 'package:material_ui/material_ui.dart';
 import '../app.dart';
 import '../dados/banco.dart';
 import '../dominio/nivel.dart';
+import '../dominio/plano.dart';
 import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
 import 'tela_como_jogar.dart';
 import '../widgets/icones_jogo.dart';
 import 'tela_inicio.dart';
 import 'tela_placar.dart';
+import 'tela_premium.dart';
 import 'tela_sobre.dart';
 import 'tela_novo_perfil.dart';
 
@@ -28,6 +30,7 @@ class TelaPerfis extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final banco = Servicos.of(context).banco;
+    final plano = Servicos.of(context).plano;
     final texto = Theme.of(context).textTheme;
     return Scaffold(
       bottomNavigationBar: const _Marca(),
@@ -80,13 +83,30 @@ class TelaPerfis extends StatelessWidget {
                                       textStyle: texto.titleLarge,
                                     )
                                   : null,
-                              icon: const Icon(Icons.person_add),
-                              label: const Text('Novo jogador'),
-                              onPressed: () => Navigator.of(context).push(
-                                MaterialPageRoute<void>(
-                                  builder: (_) => const TelaNovoPerfil(),
-                                ),
+                              icon: Icon(
+                                plano.podeCriarJogador(perfis.length)
+                                    ? Icons.person_add
+                                    : Icons.lock_outline,
                               ),
+                              label: Text(
+                                plano.podeCriarJogador(perfis.length)
+                                    ? 'Novo jogador'
+                                    : 'Novo jogador (Premium)',
+                              ),
+                              onPressed: () =>
+                                  plano.podeCriarJogador(perfis.length)
+                                  ? Navigator.of(context).push(
+                                      MaterialPageRoute<void>(
+                                        builder: (_) => const TelaNovoPerfil(),
+                                      ),
+                                    )
+                                  : abrirPremium(
+                                      context,
+                                      motivo:
+                                          'No plano grátis são até '
+                                          '${PlanoGratis.maxJogadores} jogadores. '
+                                          'Com o Premium, até ${Banco.maxPerfis}.',
+                                    ),
                             )
                           else
                             const Text('Este aparelho já tem 5 jogadores.'),
@@ -102,6 +122,8 @@ class TelaPerfis extends StatelessWidget {
                               ),
                             ),
                           ],
+                          const SizedBox(height: 8),
+                          _BotaoPremium(premium: plano.premium),
                           const SizedBox(height: 8),
                           (perfis.isEmpty
                               ? FilledButton.tonalIcon
@@ -390,3 +412,35 @@ class _CartaoJogador extends StatelessWidget {
 void abrirComoJogar(BuildContext context) =>
     Navigator.of(context)
         .push(MaterialPageRoute<void>(builder: (_) => const TelaComoJogar()));
+
+/// "Seja Premium" (ou o selo de Premium ativo), na primeira tela.
+class _BotaoPremium extends StatelessWidget {
+  const _BotaoPremium({required this.premium});
+
+  final bool premium;
+
+  @override
+  Widget build(BuildContext context) {
+    if (premium) {
+      return Center(
+        child: TextButton.icon(
+          icon: const Text('⭐'),
+          label: const Text('Premium ativo'),
+          onPressed: () => abrirPremium(context),
+        ),
+      );
+    }
+    return FilledButton.icon(
+      style: FilledButton.styleFrom(
+        backgroundColor: CoresMarca.amarelo,
+        foregroundColor: const Color(0xFF1B2A1B),
+        minimumSize: const Size.fromHeight(48),
+      ),
+      icon: const Text('⭐', style: TextStyle(fontSize: 18)),
+      label: Text(
+        'Seja Premium: libere tudo por ${Servicos.of(context).premium.preco}',
+      ),
+      onPressed: () => abrirPremium(context),
+    );
+  }
+}
