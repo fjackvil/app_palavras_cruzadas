@@ -80,6 +80,9 @@ class _TelaInicioState extends State<TelaInicio> {
   bool _montando = false;
   late Modo _modo = widget.modoInicial ?? Modo.cruzadas;
 
+  /// O jogo escolhido na primeira tela, se veio de um cartão.
+  Modo? get _escolhido => widget.modoInicial;
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -302,7 +305,18 @@ class _TelaInicioState extends State<TelaInicio> {
                 AvatarJogador(avatar: perfil.avatar, raio: 18),
                 const SizedBox(width: 8),
                 Flexible(
-                  child: Text(perfil.nome, overflow: TextOverflow.ellipsis),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(perfil.nome, overflow: TextOverflow.ellipsis),
+                      if (_escolhido != null)
+                        Text(
+                          _escolhido!.nome,
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -397,24 +411,30 @@ class _TelaInicioState extends State<TelaInicio> {
           nivel: nivel,
           aoJogar: (modo) => _jogarDiario(perfil, todos, nivel, modo),
           aoRetomar: _retomar,
+          // Jogo já escolhido na primeira tela: só o desafio do dia dele.
+          modos: _escolhido == null ? Modo.values : [_escolhido!],
         ),
         const SizedBox(height: 16),
-        Text('Jogo', style: texto.titleMedium),
-        const SizedBox(height: 8),
-        SegmentedButton<Modo>(
-          showSelectedIcon: false,
-          segments: [
-            for (final m in Modo.values)
-              ButtonSegment(
-                value: m,
-                icon: Icon(m.icone),
-                label: Text(m.nome, maxLines: 1),
-              ),
-          ],
-          selected: {_modo},
-          onSelectionChanged: (s) => setState(() => _modo = s.first),
-        ),
-        const SizedBox(height: 16),
+        // Quem chegou pelo cartão Cruzadas ou Caça-palavras já escolheu o
+        // jogo: não pergunta de novo.
+        if (_escolhido == null) ...[
+          Text('Jogo', style: texto.titleMedium),
+          const SizedBox(height: 8),
+          SegmentedButton<Modo>(
+            showSelectedIcon: false,
+            segments: [
+              for (final m in Modo.values)
+                ButtonSegment(
+                  value: m,
+                  icon: Icon(m.icone),
+                  label: Text(m.nome, maxLines: 1),
+                ),
+            ],
+            selected: {_modo},
+            onSelectionChanged: (s) => setState(() => _modo = s.first),
+          ),
+          const SizedBox(height: 16),
+        ],
         Text('Nível', style: texto.titleMedium),
         const SizedBox(height: 8),
         SegmentedButton<Nivel>(
@@ -527,7 +547,7 @@ class _TelaInicioState extends State<TelaInicio> {
         StreamBuilder<List<Partida>>(
           stream: banco.observarPendentes(perfil.id),
           builder: (context, s) {
-            final pendentes = s.data ?? const [];
+            final pendentes = _doJogo(s.data ?? const []);
             if (pendentes.isEmpty) return const SizedBox.shrink();
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -556,7 +576,7 @@ class _TelaInicioState extends State<TelaInicio> {
         StreamBuilder<List<Partida>>(
           stream: banco.observarConcluidas(perfil.id),
           builder: (context, s) {
-            final feitas = s.data ?? const [];
+            final feitas = _doJogo(s.data ?? const []);
             if (feitas.isEmpty) return const SizedBox.shrink();
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -589,6 +609,11 @@ class _TelaInicioState extends State<TelaInicio> {
     );
   }
 
+  /// Com o jogo já escolhido, as listas mostram só as partidas dele.
+  List<Partida> _doJogo(List<Partida> partidas) => _escolhido == null
+      ? partidas
+      : partidas.where((p) => Modo.daPartida(p) == _escolhido).toList();
+
   int _posicaoCategoria(String c) {
     final i = ordemCategorias.indexOf(c);
     return i < 0 ? ordemCategorias.length : i;
@@ -609,12 +634,14 @@ class _CartaoDiario extends StatelessWidget {
     required this.nivel,
     required this.aoJogar,
     required this.aoRetomar,
+    this.modos = Modo.values,
   });
 
   final Perfil perfil;
   final Nivel nivel;
   final ValueChanged<Modo> aoJogar;
   final ValueChanged<Partida> aoRetomar;
+  final List<Modo> modos;
 
   @override
   Widget build(BuildContext context) {
@@ -652,7 +679,7 @@ class _CartaoDiario extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             Text('Nível ${nivel.nome}. As mesmas grades para todo mundo hoje.'),
-            for (final modo in Modo.values) ...[
+            for (final modo in modos) ...[
               const SizedBox(height: 12),
               _linhaDoModo(context, banco, modo),
             ],
