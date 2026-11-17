@@ -240,6 +240,7 @@ class Banco extends _$Banco {
               quando: p.atualizadoEm,
               segundos: p.tempoGastoSeg,
               partidaId: p.id,
+              dicas: p.dicasUsadas,
             ),
         ],
       );

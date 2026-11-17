@@ -99,6 +99,7 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
     await _salvar(estado: EstadoPartida.concluido, pontos: pontuacao.total);
     final (perfilId, proximo) = await ofertaDeNivel(_banco, widget.partidaId);
     final recordes = await recordesBatidos(_banco, widget.partidaId);
+    final medalhas = await conquistasLiberadas(_banco, widget.partidaId);
     if (!mounted) return;
     await Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
@@ -113,6 +114,7 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
           perfilId: perfilId,
           proximoNivel: proximo,
           recordes: recordes,
+          conquistas: medalhas,
         ),
       ),
     );

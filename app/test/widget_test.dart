@@ -3,6 +3,7 @@ import 'package:palavras_cruzadas/dados/banco.dart';
 import 'package:palavras_cruzadas/dominio/tema.dart';
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:palavras_cruzadas/telas/tela_inicio.dart';
 
 void main() {
   testWidgets('abre pedindo o primeiro jogador', (tester) async {
@@ -49,6 +50,38 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Esta semana'), findsOneWidget);
     expect(find.textContaining('Ninguém pontuou'), findsOneWidget);
+    await banco.close();
+  });
+
+  testWidgets('cartão Caça-palavras abre o jogo já escolhido', (tester) async {
+    final banco = Banco(NativeDatabase.memory());
+    await banco.criarPerfil(
+      nome: 'Bia',
+      anoNascimento: 2015,
+      avatar: '🐶',
+      nivel: 'leve',
+    );
+    await tester.pumpWidget(
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Caça-palavras'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 500));
+    final tela = tester.widget<TelaInicio>(find.byType(TelaInicio));
+    expect(tela.modoInicial, Modo.caca);
+    await banco.close();
+  });
+
+  testWidgets('cartão Cruzadas sem jogador abre o cadastro', (tester) async {
+    final banco = Banco(NativeDatabase.memory());
+    await tester.pumpWidget(
+      PalavrasCruzadasApp(banco: banco, temas: RepositorioTemas()),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Cruzadas'));
+    await tester.pumpAndSettle();
+    expect(find.text('Nome ou apelido'), findsOneWidget);
     await banco.close();
   });
 }

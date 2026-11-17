@@ -1,6 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 
 import '../app.dart';
+import '../dominio/conquistas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import 'tela_inicio.dart' show formatarTempo;
@@ -20,6 +21,7 @@ class TelaResultado extends StatefulWidget {
     this.perfilId,
     this.proximoNivel,
     this.recordes = const [],
+    this.conquistas = const [],
   });
 
   final Nivel nivel;
@@ -33,6 +35,9 @@ class TelaResultado extends StatefulWidget {
 
   /// Recordes batidos neste desafio ("Maior pontuação", "Melhor tempo").
   final List<String> recordes;
+
+  /// Conquistas liberadas neste desafio.
+  final List<Conquista> conquistas;
 
   @override
   State<TelaResultado> createState() => _TelaResultadoState();
@@ -66,6 +71,16 @@ class _TelaResultadoState extends State<TelaResultado> {
             ),
           ),
           Center(child: Text('em ${formatarTempo(segundos)}')),
+          for (final c in widget.conquistas)
+            Card(
+              margin: const EdgeInsets.only(top: 16),
+              color: CoresMarca.verdeClaro.withValues(alpha: 0.3),
+              child: ListTile(
+                leading: Text(c.emoji, style: const TextStyle(fontSize: 34)),
+                title: Text('Conquista nova: ${c.nome}'),
+                subtitle: Text(c.descricao),
+              ),
+            ),
           if (widget.recordes.isNotEmpty)
             Card(
               margin: const EdgeInsets.only(top: 16),

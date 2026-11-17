@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import '../dominio/caca_palavras.dart';
+import '../dominio/conquistas.dart';
 import '../dominio/desafio.dart';
 import '../dominio/nivel.dart';
 import '../dominio/recordes.dart';
@@ -57,6 +58,20 @@ Future<List<String>> recordesBatidos(Banco banco, int partidaId) async {
     return Recordes.batidos(
       novo,
       todos.where((r) => r.perfilId == novo.perfilId).toList(),
+    );
+  } on Object {
+    return const [];
+  }
+}
+
+/// Conquistas que o desafio [partidaId] (já salvo como concluído) liberou.
+Future<List<Conquista>> conquistasLiberadas(Banco banco, int partidaId) async {
+  try {
+    final todos = await banco.observarRegistrosPlacar().first;
+    final novo = todos.firstWhere((r) => r.partidaId == partidaId);
+    return conquistasNovas(
+      todos.where((r) => r.perfilId == novo.perfilId).toList(),
+      partidaId,
     );
   } on Object {
     return const [];

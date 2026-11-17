@@ -30,7 +30,7 @@ final _paginas = [
     'Escolha o nível: Leve, Médio, Difícil ou Super.',
     'Escolha um ou mais temas, ou deixe "Misturado" para vir de tudo.',
   ]),
-  const _Pagina('🧩', 'Palavras cruzadas', [
+  const _Pagina('✏️', 'Palavras cruzadas', [
     'Toque numa casa branca: a palavra fica verde e a dica aparece embaixo.',
     'Digite as letras no teclado. Não precisa de acento: "LEÃO" é LEAO.',
     'Toque numa letra de outra palavra para ver a dica dela. Tocar de novo na mesma casa troca entre horizontal e vertical.',
@@ -50,7 +50,8 @@ final _paginas = [
     'A dica ajuda, mas custa pontos: ${Pontuacao.custoDicaLetra} por letra e '
         '${Pontuacao.custoDicaPalavra} pela palavra inteira.',
     'Mandou bem 3 vezes seguidas, rápido e sem dica? O app oferece subir de nível.',
-    'Bateu sua maior pontuação ou seu melhor tempo? Aparece "Novo recorde!". Veja todos em "Meus recordes".',
+    'Bateu sua maior pontuação ou seu melhor tempo? Aparece "Novo recorde!". Veja todos em "Recordes".',
+    'Ganhe medalhas em "Conquistas": primeiro desafio, 7 dias seguidos, 10 sem dica e outras.',
   ]),
   const _Pagina('💾', 'Tudo fica salvo', [
     'O jogo salva sozinho a cada letra. Pode fechar o app sem medo.',

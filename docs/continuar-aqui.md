@@ -49,8 +49,8 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 **Fase 3 (em andamento)**
 
 - [x] Placar da família: ranking entre os jogadores do aparelho, por semana (ou desde o início), jogo, nível e tema. Abre pelo botão na primeira tela ou pelo 🏆 na tela do jogador.
-- [x] Recordes pessoais: maior pontuação e melhor tempo por jogo e nível, maior pontuação por tema, e aviso de "Novo recorde!" no resultado. Tela "Meus recordes" na tela do jogador.
-- [ ] Conquistas, como 7 dias seguidos ou 10 desafios sem dica.
+- [x] Recordes pessoais: maior pontuação e melhor tempo por jogo e nível, maior pontuação por tema, e aviso de "Novo recorde!" no resultado. Tela "Recordes" na tela do jogador.
+- [x] Conquistas: 13 medalhas locais (primeiro desafio, 10 e 50 desafios, 10 sem dica, 3 e 7 dias seguidos, 10 cruzadas, 10 caça-palavras, 5 desafios do dia, 10 temas, Difícil, Super, 500 pontos). Aviso "Conquista nova" no resultado; tela Conquistas na tela do jogador.
 - [ ] Botão de compartilhar resultado (texto pelo WhatsApp etc.).
 
 **Pendências**

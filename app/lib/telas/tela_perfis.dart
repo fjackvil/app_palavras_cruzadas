@@ -6,6 +6,7 @@ import '../dominio/nivel.dart';
 import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
 import 'tela_como_jogar.dart';
+import '../widgets/icones_jogo.dart';
 import 'tela_inicio.dart';
 import 'tela_placar.dart';
 import 'tela_novo_perfil.dart';
@@ -40,7 +41,7 @@ class TelaPerfis extends StatelessWidget {
                 subtitulo: 'Cruzadas e caça-palavras para toda a família',
               ),
               const SizedBox(height: 16),
-              const _Destaques(),
+              _Destaques(perfis: perfis ?? const []),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 20, 16, 16),
                 child: perfis == null
@@ -173,37 +174,89 @@ class _Marca extends StatelessWidget {
   }
 }
 
-/// Os três jeitos de jogar, em destaque logo abaixo do cabeçalho.
+/// Os três jeitos de jogar, logo abaixo do cabeçalho. Tocar num deles abre
+/// o jogo: direto, se só há um jogador; perguntando quem vai jogar, se há
+/// vários; ou no cadastro, se ainda não há nenhum.
 class _Destaques extends StatelessWidget {
-  const _Destaques();
+  const _Destaques({required this.perfis});
+
+  final List<Perfil> perfis;
+
+  Future<void> _abrir(BuildContext context, Modo? modo) async {
+    final navegador = Navigator.of(context);
+    if (perfis.isEmpty) {
+      await navegador.push(
+        MaterialPageRoute<void>(builder: (_) => const TelaNovoPerfil()),
+      );
+      return;
+    }
+    final perfil = perfis.length == 1
+        ? perfis.single
+        : await showModalBottomSheet<Perfil>(
+            context: context,
+            builder: (context) => SafeArea(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const ListTile(
+                    title: Text(
+                      'Quem vai jogar?',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                  for (final p in perfis)
+                    ListTile(
+                      leading: AvatarJogador(avatar: p.avatar, raio: 20),
+                      title: Text(p.nome),
+                      onTap: () => Navigator.pop(context, p),
+                    ),
+                ],
+              ),
+            ),
+          );
+    if (perfil == null) return;
+    await navegador.push(
+      MaterialPageRoute<void>(
+        builder: (_) => TelaInicio(perfilId: perfil.id, modoInicial: modo),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
-    const itens = [
-      ('🧩', 'Cruzadas'),
-      ('🔍', 'Caça-palavras'),
-      ('📅', 'Desafio do dia'),
+    final itens = <(Widget, String, Modo?)>[
+      (const IconeCruzadas(), 'Cruzadas', Modo.cruzadas),
+      (const IconeCaca(), 'Caça-palavras', Modo.caca),
+      (
+        const Text('📅', style: TextStyle(fontSize: 30)),
+        'Desafio do dia',
+        null,
+      ),
     ];
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12),
       child: Row(
         children: [
-          for (final (emoji, nome) in itens)
+          for (final (icone, nome, modo) in itens)
             Expanded(
               child: Card(
                 margin: const EdgeInsets.symmetric(horizontal: 4),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 12),
-                  child: Column(
-                    children: [
-                      Text(emoji, style: const TextStyle(fontSize: 28)),
-                      const SizedBox(height: 4),
-                      Text(
-                        nome,
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.labelLarge,
-                      ),
-                    ],
+                clipBehavior: Clip.antiAlias,
+                child: InkWell(
+                  onTap: () => _abrir(context, modo),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                    child: Column(
+                      children: [
+                        SizedBox(height: 38, child: Center(child: icone)),
+                        const SizedBox(height: 6),
+                        Text(
+                          nome,
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context).textTheme.labelLarge,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),

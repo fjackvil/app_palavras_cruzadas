@@ -17,6 +17,7 @@ import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
 import 'tela_caca.dart';
 import 'tela_como_jogar.dart';
+import 'tela_conquistas.dart';
 import 'tela_jogo.dart';
 import 'tela_placar.dart';
 import 'tela_recordes.dart';
@@ -45,9 +46,12 @@ const ordemCategorias = [
 /// Tela principal de um jogador: desafio do dia, nível, temas, pendentes e
 /// histórico.
 class TelaInicio extends StatefulWidget {
-  const TelaInicio({super.key, required this.perfilId});
+  const TelaInicio({super.key, required this.perfilId, this.modoInicial});
 
   final int perfilId;
+
+  /// Jogo já escolhido ao abrir (pelos cartões da primeira tela).
+  final Modo? modoInicial;
 
   @override
   State<TelaInicio> createState() => _TelaInicioState();
@@ -74,7 +78,7 @@ class _TelaInicioState extends State<TelaInicio> {
   final Set<String> _escolhidos = {};
   Future<List<Tema>>? _temas;
   bool _montando = false;
-  Modo _modo = Modo.cruzadas;
+  late Modo _modo = widget.modoInicial ?? Modo.cruzadas;
 
   @override
   void didChangeDependencies() {
@@ -492,14 +496,32 @@ class _TelaInicioState extends State<TelaInicio> {
               : () => _jogar(perfil, visiveis, nivel),
         ),
         const SizedBox(height: 8),
-        OutlinedButton.icon(
-          icon: const Icon(Icons.military_tech_outlined),
-          label: const Text('Meus recordes'),
-          onPressed: () => Navigator.of(context).push(
-            MaterialPageRoute<void>(
-              builder: (_) => TelaRecordes(perfil: perfil),
+        Row(
+          children: [
+            Expanded(
+              child: OutlinedButton.icon(
+                icon: const Icon(Icons.military_tech_outlined),
+                label: const Text('Recordes'),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => TelaRecordes(perfil: perfil),
+                  ),
+                ),
+              ),
             ),
-          ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: OutlinedButton.icon(
+                icon: const Icon(Icons.workspace_premium_outlined),
+                label: const Text('Conquistas'),
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => TelaConquistas(perfil: perfil),
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
         const SizedBox(height: 24),
         StreamBuilder<List<Partida>>(
