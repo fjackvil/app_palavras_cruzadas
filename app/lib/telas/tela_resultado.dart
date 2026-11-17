@@ -1,7 +1,9 @@
 import 'package:material_ui/material_ui.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../app.dart';
+import '../dominio/compartilhar.dart';
 import '../dominio/conquistas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
@@ -52,6 +54,21 @@ class _TelaResultadoState extends State<TelaResultado> {
   /// null = ainda não respondeu; true = subiu; false = ficou.
   bool? _subiu;
 
+  /// Abre o WhatsApp com o texto pronto. Sem o app do WhatsApp, tenta o
+  /// link wa.me; se nada abrir, mostra o compartilhar do Android.
+  Future<void> _whatsApp(String texto) async {
+    for (final link in [linkAppWhatsApp(texto), linkWhatsApp(texto)]) {
+      try {
+        if (await launchUrl(link, mode: LaunchMode.externalApplication)) {
+          return;
+        }
+      } on Object {
+        // Tenta o próximo jeito.
+      }
+    }
+    await SharePlus.instance.share(ShareParams(text: texto));
+  }
+
   Future<void> _subir() async {
     await Servicos.of(context).banco
         .mudarNivel(widget.perfilId!, widget.proximoNivel!.name);
@@ -77,17 +94,40 @@ class _TelaResultadoState extends State<TelaResultado> {
           ),
           Center(child: Text('em ${formatarTempo(segundos)}')),
           if (widget.textoCompartilhar != null) ...[
-            const SizedBox(height: 12),
-            Center(
-              child: FilledButton.tonalIcon(
-                icon: const Icon(Icons.share),
-                label: const Text('Compartilhar resultado'),
-                // Abre o compartilhar do Android: quem escolhe para quem
-                // mandar (ou se manda) é o jogador. Nada passa por servidor.
-                onPressed: () => SharePlus.instance.share(
-                  ShareParams(text: widget.textoCompartilhar),
+            const SizedBox(height: 16),
+            Text(
+              'Compartilhar resultado',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.titleSmall,
+            ),
+            const SizedBox(height: 8),
+            // Quem escolhe para quem mandar (ou se manda) é o jogador. O
+            // texto leva o resultado e o link da loja, nada pessoal, e não
+            // passa por nenhum servidor nosso.
+            Row(
+              children: [
+                Expanded(
+                  child: FilledButton.icon(
+                    style: FilledButton.styleFrom(
+                      backgroundColor: const Color(0xFF25D366),
+                      foregroundColor: Colors.white,
+                    ),
+                    icon: const Icon(Icons.chat),
+                    label: const Text('WhatsApp'),
+                    onPressed: () => _whatsApp(widget.textoCompartilhar!),
+                  ),
                 ),
-              ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: OutlinedButton.icon(
+                    icon: const Icon(Icons.share),
+                    label: const Text('Outros apps'),
+                    onPressed: () => SharePlus.instance.share(
+                      ShareParams(text: widget.textoCompartilhar),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
           for (final c in widget.conquistas)

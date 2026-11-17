@@ -109,5 +109,7 @@ void main() {
       ),
     );
     expect(find.text('Compartilhar resultado'), findsOneWidget);
+    expect(find.text('WhatsApp'), findsOneWidget);
+    expect(find.text('Outros apps'), findsOneWidget);
   });
 }

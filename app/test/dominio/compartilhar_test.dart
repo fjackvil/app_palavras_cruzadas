@@ -34,4 +34,22 @@ void main() {
     expect(t, contains('com 2 dicas'));
     expect(t, isNot(contains('mesma grade')));
   });
+
+  test('texto termina com o link para instalar; links do WhatsApp', () {
+    final t = textoResultado(
+      caca: false,
+      nivel: Nivel.medio,
+      diario: null,
+      pontos: 10,
+      segundos: 10,
+      dicas: 0,
+      palavras: 3,
+    );
+    expect(t.trim().split('\n').last, endsWith(linkLoja));
+    expect(linkLoja, contains('com.vileladigit.palavrascruzadas'));
+    final wa = linkWhatsApp('Oi ⭐ 10');
+    expect(wa.host, 'wa.me');
+    expect(wa.queryParameters['text'], 'Oi ⭐ 10');
+    expect(linkAppWhatsApp('x').scheme, 'whatsapp');
+  });
 }

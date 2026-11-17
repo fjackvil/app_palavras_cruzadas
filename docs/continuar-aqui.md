@@ -51,7 +51,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [x] Placar da família: ranking entre os jogadores do aparelho, por semana (ou desde o início), jogo, nível e tema. Abre pelo botão na primeira tela ou pelo 🏆 na tela do jogador.
 - [x] Recordes pessoais: maior pontuação e melhor tempo por jogo e nível, maior pontuação por tema, e aviso de "Novo recorde!" no resultado. Tela "Recordes" na tela do jogador.
 - [x] Conquistas: 13 medalhas locais (primeiro desafio, 10 e 50 desafios, 10 sem dica, 3 e 7 dias seguidos, 10 cruzadas, 10 caça-palavras, 5 desafios do dia, 10 temas, Difícil, Super, 500 pontos). Aviso "Conquista nova" no resultado; tela Conquistas na tela do jogador.
-- [x] Botão "Compartilhar resultado" na tela de resultado: abre o compartilhar do Android com um texto (jogo, nível, pontos, tempo, dicas), sem nome nem idade. Plugin `share_plus`. Aparece para todos os perfis; a pergunta da especificação sobre esconder em perfis de crianças continua aberta.
+- [x] Botão "Compartilhar resultado" na tela de resultado: abre o compartilhar do Android com um texto (jogo, nível, pontos, tempo, dicas), sem nome nem idade. Botão verde "WhatsApp" (abre o WhatsApp com o texto pronto; sem WhatsApp, abre o link wa.me) e "Outros apps" (compartilhar do Android, plugin `share_plus`). O texto termina com o link da Play Store (`com.vileladigit.palavrascruzadas`), que só funciona depois da publicação (fase 4). Aparece para todos os perfis; a pergunta da especificação sobre esconder em perfis de crianças continua aberta.
 
 **Pendências**
 

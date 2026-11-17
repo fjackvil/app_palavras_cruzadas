@@ -1,5 +1,10 @@
 import 'nivel.dart';
 
+/// Página do app na Play Store. Só abre depois que o app for publicado;
+/// antes disso o link mostra "item não encontrado".
+const linkLoja =
+    'https://play.google.com/store/apps/details?id=com.vileladigit.palavrascruzadas';
+
 /// Texto que o jogador pode mandar pelo WhatsApp etc. depois de terminar.
 /// Não leva o nome nem a idade de ninguém: só o desafio e o resultado.
 String textoResultado({
@@ -30,8 +35,19 @@ String textoResultado({
     '$palavras palavras, $dicaTexto',
     if (diario != null)
       'Consegue fazer melhor? É a mesma grade para todo mundo hoje!',
+    '',
+    'Baixe o app e jogue também: $linkLoja',
   ].join('\n');
 }
+
+/// Link que abre o WhatsApp já com o texto escrito; a pessoa só escolhe o
+/// contato ou o grupo.
+Uri linkWhatsApp(String texto) =>
+    Uri.parse('https://wa.me/?text=${Uri.encodeComponent(texto)}');
+
+/// O mesmo, pelo app do WhatsApp (abre direto, sem passar pelo navegador).
+Uri linkAppWhatsApp(String texto) =>
+    Uri.parse('whatsapp://send?text=${Uri.encodeComponent(texto)}');
 
 /// '2026-11-17' → '17/11'.
 String _data(String iso) {
