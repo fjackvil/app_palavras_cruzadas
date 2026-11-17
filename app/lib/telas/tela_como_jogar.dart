@@ -59,7 +59,7 @@ final _paginas = [
     'O desafio vai para "Pendentes" e você continua depois, de onde parou.',
     'Num desafio desistido, dá para "Ver resposta". Aí ele termina sem pontos.',
   ]),
-  const _Pagina('📅', 'Desafio do dia', [
+  const _Pagina('🗓️', 'Desafio do dia', [
     'Todo dia tem uma cruzada e um caça-palavras novos.',
     'É a mesma grade para todo mundo no mesmo nível: dá para comparar com a família e os amigos.',
     'Jogue todo dia para aumentar a sua sequência 🔥.',

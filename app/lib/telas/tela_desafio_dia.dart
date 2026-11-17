@@ -192,7 +192,7 @@ class _Cabecalho extends StatelessWidget {
       ),
       child: Row(
         children: [
-          const Text('📅', style: TextStyle(fontSize: 48)),
+          const IconeCalendario(tamanho: 56),
           const SizedBox(width: 12),
           Expanded(
             child: Column(

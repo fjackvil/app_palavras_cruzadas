@@ -117,7 +117,7 @@ final conquistas = <Conquista>[
   ),
   Conquista(
     id: 'diario',
-    emoji: '📅',
+    emoji: '🗓️',
     nome: '5 desafios do dia',
     descricao: 'Termine 5 desafios do dia.',
     meta: 5,

@@ -139,3 +139,70 @@ class _Grade extends CustomPainter {
   @override
   bool shouldRepaint(_Grade old) => false;
 }
+
+const _mesesCurtos = [
+  'JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', //
+  'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ',
+];
+
+/// Folhinha de calendário com o mês e o dia de [data] (hoje, se vazio), em
+/// português. Substitui o emoji 📅, que no Android mostra "July 17" fixo.
+class IconeCalendario extends StatelessWidget {
+  const IconeCalendario({super.key, this.tamanho = 36, this.data});
+
+  final double tamanho;
+  final DateTime? data;
+
+  @override
+  Widget build(BuildContext context) {
+    final d = data ?? DateTime.now();
+    final raio = Radius.circular(tamanho * 0.16);
+    return SizedBox.square(
+      dimension: tamanho,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.all(raio),
+          border: Border.all(
+            color: const Color(0xFF1B2A1B),
+            width: tamanho * 0.04,
+          ),
+        ),
+        child: Column(
+          children: [
+            Container(
+              height: tamanho * 0.32,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: const Color(0xFFE5533D),
+                borderRadius: BorderRadius.vertical(top: raio * 0.7),
+              ),
+              child: Text(
+                _mesesCurtos[d.month - 1],
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: tamanho * 0.2,
+                  fontWeight: FontWeight.w800,
+                  height: 1,
+                ),
+              ),
+            ),
+            Expanded(
+              child: Center(
+                child: Text(
+                  '${d.day}',
+                  style: TextStyle(
+                    color: const Color(0xFF1B2A1B),
+                    fontSize: tamanho * 0.42,
+                    fontWeight: FontWeight.w900,
+                    height: 1,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

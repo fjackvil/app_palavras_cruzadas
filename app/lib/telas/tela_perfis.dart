@@ -269,11 +269,7 @@ class _Destaques extends StatelessWidget {
     final itens = <(Widget, String, Modo?)>[
       (const IconeCruzadas(), 'Cruzadas', Modo.cruzadas),
       (const IconeCaca(), 'Caça-palavras', Modo.caca),
-      (
-        const Text('📅', style: TextStyle(fontSize: 30)),
-        'Desafio do dia',
-        null,
-      ),
+      (const IconeCalendario(), 'Desafio do dia', null),
     ];
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12),
