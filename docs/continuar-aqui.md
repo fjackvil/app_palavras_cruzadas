@@ -72,7 +72,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [x] Termos de uso escritos (`app/assets/textos/termos-de-uso.md`), mostrados no app (Sobre e privacidade) e publicados em https://fjackvil.github.io/palavras-cruzadas-privacidade/termos/
 - [x] Conta de desenvolvedor pessoal criada no Google Play (nome "Vilela Digit"). Status de comerciante: **comerciante**; publicar só no Brasil.
 - [ ] Concluir as verificações da conta (identidade, celular Android, telefone).
-- [ ] Chave de upload: criar com o keytool e pôr a senha em `app/android/key.properties` (o build já está pronto para ela); depois gerar o `.aab`.
+- [x] Chave de upload criada (`~/.chaves/palavras-cruzadas-upload.jks`, certificado "CN=Vilela Digit") e primeiro pacote `.aab` gerado (versão 1.0.0+1). Como gerar de novo: seção "Pacote para a Play Store" abaixo.
 - Respostas para a Play Console (Conteúdo do app, Segurança dos dados, Famílias, classificação): `docs/play-console-privacidade.md`.
 
 ### Decisões tomadas nesta etapa
@@ -289,3 +289,51 @@ Não precisa ligar o modo desenvolvedor, então os apps de banco continuam funci
 | Emulador muito lento ou travando | Confira o Passo 4.4 (hipervisor) e se o Graphics está em "Hardware". Use `flutter run --release`. |
 | `Permission denied (publickey)` no git | Teste `ssh -T git@github-pessoal`. Confira se a chave foi adicionada na conta **fjackvil** e se o arquivo `config` não ficou com extensão `.txt`. |
 | Primeiro `flutter run` demorado (vários minutos) | Normal: ele baixa o Gradle e as dependências do Android só na primeira vez. |
+
+---
+
+## 3. Pacote para a Play Store
+
+### A chave de upload
+
+- **Arquivo:** `~/.chaves/palavras-cruzadas-upload.jks`, fora do projeto, com o alias `upload`.
+- **Senha:** fica em `app/android/key.properties`, que **nunca vai para o git** (está no `.gitignore`).
+- **Cópia de segurança:** guarde a chave e a senha fora do computador (pendrive, gerenciador de senhas, Drive pessoal). Se a chave se perder, o Google consegue trocar a chave de upload pela "assinatura de apps do Google Play", mas leva alguns dias.
+- **Em outra máquina (Windows):** copie o `.jks` para, por exemplo, `C:\Users\<você>\.chaves\` e crie `app\android\key.properties` com:
+
+  ```
+  storePassword=<senha>
+  keyPassword=<senha>
+  keyAlias=upload
+  storeFile=C:/Users/<você>/.chaves/palavras-cruzadas-upload.jks
+  ```
+
+  Sem esse arquivo, o build continua funcionando, mas assina com a chave de teste. Esse pacote não é aceito pela loja como atualização.
+
+### Gerar o pacote
+
+```bash
+cd app
+flutter build appbundle --release
+```
+
+O pacote fica em `app/build/app/outputs/bundle/release/app-release.aab`. Ele tem cerca de 60 MB porque leva as versões para todos os tipos de celular; cada pessoa baixa só a parte do aparelho dela, uns 20 MB.
+
+Para conferir se saiu assinado com a chave certa, rode o comando abaixo. A resposta deve mostrar `Owner: CN=Vilela Digit`:
+
+```bash
+keytool -printcert -jarfile app/build/app/outputs/bundle/release/app-release.aab
+```
+
+### A cada novo envio para a loja
+
+Aumente o número depois do `+` em `app/pubspec.yaml`. Por exemplo, `version: 1.0.0+1` vira `1.0.1+2`. A Play Store recusa um pacote com o mesmo número (versionCode) de um já enviado.
+
+### Emulador depois da chave
+
+Agora o `flutter run --release` assina com a chave de upload. Se o emulador tiver uma versão instalada com a chave de teste, a instalação falha por assinatura diferente. Desinstale antes, lembrando que isso apaga os dados de teste do emulador:
+
+```bash
+~/Android/Sdk/platform-tools/adb uninstall com.vileladigit.palavrascruzadas
+```
+
