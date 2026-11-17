@@ -15,6 +15,8 @@ import '../dominio/jogo_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/tema.dart';
 import '../widgets/avatar.dart';
+import '../widgets/escolhas_inicio.dart';
+import '../widgets/icones_jogo.dart';
 import 'tela_caca.dart';
 import 'tela_como_jogar.dart';
 import 'tela_conquistas.dart';
@@ -300,26 +302,9 @@ class _TelaInicioState extends State<TelaInicio> {
           appBar: AppBar(
             // Seta de voltar padrão: volta para a lista de jogadores.
             leading: const BackButton(),
-            title: Row(
-              children: [
-                AvatarJogador(avatar: perfil.avatar, raio: 18),
-                const SizedBox(width: 8),
-                Flexible(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(perfil.nome, overflow: TextOverflow.ellipsis),
-                      if (_escolhido != null)
-                        Text(
-                          _escolhido!.nome,
-                          style: Theme.of(context).textTheme.bodySmall,
-                        ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
+            backgroundColor: CoresMarca.verde,
+            foregroundColor: Colors.white,
+            title: Text(_escolhido?.nome ?? 'Vamos jogar!'),
             actions: [
               IconButton(
                 tooltip: 'Placar da família',
@@ -335,13 +320,6 @@ class _TelaInicioState extends State<TelaInicio> {
                   MaterialPageRoute<void>(
                     builder: (_) => const TelaComoJogar(),
                   ),
-                ),
-              ),
-              StreamBuilder<int>(
-                stream: banco.observarTotalPontos(perfil.id),
-                builder: (context, s) => Padding(
-                  padding: const EdgeInsets.only(right: 16),
-                  child: Center(child: Text('${s.data ?? 0} pontos')),
                 ),
               ),
             ],
@@ -403,207 +381,217 @@ class _TelaInicioState extends State<TelaInicio> {
         .where((t) => _escolhidos.contains(t.id))
         .length;
 
-    return ListView(
-      padding: const EdgeInsets.all(16),
+    final ordenado = {for (final c in categorias) c: porCategoria[c]!};
+    final jogar = _modo == Modo.caca ? 'Jogar caça-palavras' : 'Jogar cruzadas';
+
+    return Column(
       children: [
-        _CartaoDiario(
-          perfil: perfil,
-          nivel: nivel,
-          aoJogar: (modo) => _jogarDiario(perfil, todos, nivel, modo),
-          aoRetomar: _retomar,
-          // Jogo já escolhido na primeira tela: só o desafio do dia dele.
-          modos: _escolhido == null ? Modo.values : [_escolhido!],
-        ),
-        const SizedBox(height: 16),
-        // Quem chegou pelo cartão Cruzadas ou Caça-palavras já escolheu o
-        // jogo: não pergunta de novo.
-        if (_escolhido == null) ...[
-          Text('Jogo', style: texto.titleMedium),
-          const SizedBox(height: 8),
-          SegmentedButton<Modo>(
-            showSelectedIcon: false,
-            segments: [
-              for (final m in Modo.values)
-                ButtonSegment(
-                  value: m,
-                  icon: Icon(m.icone),
-                  label: Text(m.nome, maxLines: 1),
-                ),
-            ],
-            selected: {_modo},
-            onSelectionChanged: (s) => setState(() => _modo = s.first),
-          ),
-          const SizedBox(height: 16),
-        ],
-        Text('Nível', style: texto.titleMedium),
-        const SizedBox(height: 8),
-        SegmentedButton<Nivel>(
-          showSelectedIcon: false,
-          segments: [
-            for (final n in Nivel.values)
-              ButtonSegment(
-                value: n,
-                label: Text(n.nomeCurto, maxLines: 1),
-                tooltip: n.nome,
-              ),
-          ],
-          selected: {nivel},
-          onSelectionChanged: (s) => banco.mudarNivel(perfil.id, s.first.name),
-        ),
-        const SizedBox(height: 16),
-        Row(
-          children: [
-            Expanded(child: Text('Temas', style: texto.titleMedium)),
-            Text(
-              escolhidosVisiveis == 0
-                  ? 'Misturado (todos)'
-                  : '$escolhidosVisiveis escolhido(s)',
-            ),
-          ],
-        ),
-        const SizedBox(height: 8),
-        Align(
-          alignment: Alignment.centerLeft,
-          child: FilterChip(
-            label: const Text('Misturado'),
-            selected: escolhidosVisiveis == 0,
-            onSelected: (_) => setState(_escolhidos.clear),
-          ),
-        ),
-        for (final categoria in categorias)
-          ExpansionTile(
-            tilePadding: EdgeInsets.zero,
-            title: Text(categoria),
-            subtitle: Text(
-              _resumoCategoria(porCategoria[categoria]!),
-              style: texto.bodySmall,
-            ),
+        Expanded(
+          child: ListView(
+            padding: EdgeInsets.zero,
             children: [
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
+              _CabecalhoJogador(perfil: perfil),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    for (final t in porCategoria[categoria]!)
-                      FilterChip(
-                        label: Text(t.nome),
-                        selected: _escolhidos.contains(t.id),
-                        onSelected: (sim) => setState(
-                          () => sim
-                              ? _escolhidos.add(t.id)
-                              : _escolhidos.remove(t.id),
-                        ),
+                    _CartaoDiario(
+                      perfil: perfil,
+                      nivel: nivel,
+                      aoJogar: (modo) =>
+                          _jogarDiario(perfil, todos, nivel, modo),
+                      aoRetomar: _retomar,
+                      // Jogo já escolhido na primeira tela: só o desafio do dia dele.
+                      modos: _escolhido == null ? Modo.values : [_escolhido!],
+                    ),
+                    const SizedBox(height: 20),
+                    // Quem chegou pelo cartão Cruzadas ou Caça-palavras já escolheu o
+                    // jogo: não pergunta de novo.
+                    if (_escolhido == null) ...[
+                      Text('Qual jogo?', style: texto.titleMedium),
+                      const SizedBox(height: 8),
+                      Row(
+                        children: [
+                          for (final m in Modo.values)
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 3,
+                                ),
+                                child: CartaoEscolha(
+                                  escolhido: _modo == m,
+                                  aoTocar: () => setState(() => _modo = m),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      m == Modo.caca
+                                          ? const IconeCaca(tamanho: 30)
+                                          : const IconeCruzadas(tamanho: 30),
+                                      const SizedBox(width: 8),
+                                      Flexible(
+                                        child: Text(
+                                          m.nome,
+                                          style: texto.labelLarge,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                        ],
                       ),
+                      const SizedBox(height: 20),
+                    ],
+                    Text('Nível', style: texto.titleMedium),
+                    const SizedBox(height: 8),
+                    SeletorNivel(
+                      atual: nivel,
+                      aoEscolher: (n) => banco.mudarNivel(perfil.id, n.name),
+                    ),
+                    const SizedBox(height: 20),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text('Temas', style: texto.titleMedium),
+                        ),
+                        Text(
+                          escolhidosVisiveis == 0
+                              ? 'Misturado'
+                              : '$escolhidosVisiveis escolhido(s)',
+                          style: texto.bodySmall,
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    GradeTemas(
+                      porCategoria: ordenado,
+                      escolhidos: _escolhidos,
+                      aoMudar: (novos) => setState(
+                        () => _escolhidos
+                          ..clear()
+                          ..addAll(novos),
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: OutlinedButton.icon(
+                            icon: const Icon(Icons.military_tech_outlined),
+                            label: const Text('Recordes'),
+                            onPressed: () => Navigator.of(context).push(
+                              MaterialPageRoute<void>(
+                                builder: (_) => TelaRecordes(perfil: perfil),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: OutlinedButton.icon(
+                            icon: const Icon(Icons.workspace_premium_outlined),
+                            label: const Text('Conquistas'),
+                            onPressed: () => Navigator.of(context).push(
+                              MaterialPageRoute<void>(
+                                builder: (_) => TelaConquistas(perfil: perfil),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 24),
+                    StreamBuilder<List<Partida>>(
+                      stream: banco.observarPendentes(perfil.id),
+                      builder: (context, s) {
+                        final pendentes = _doJogo(s.data ?? const []);
+                        if (pendentes.isEmpty) return const SizedBox.shrink();
+                        return Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Text('Pendentes', style: texto.titleMedium),
+                            for (final p in pendentes)
+                              Card(
+                                child: ListTile(
+                                  leading: Icon(Modo.daPartida(p).icone),
+                                  title: Text(descreverPartida(p, todos)),
+                                  subtitle: Text(
+                                    '${p.estado == EstadoPartida.desistido ? 'Desistiu' : 'Em andamento'}'
+                                    ' · ${formatarTempo(p.tempoGastoSeg)}',
+                                  ),
+                                  trailing: const Icon(Icons.chevron_right),
+                                  onTap: () =>
+                                      p.estado == EstadoPartida.desistido
+                                      ? _abrirDesistido(p)
+                                      : _retomar(p),
+                                ),
+                              ),
+                            const SizedBox(height: 16),
+                          ],
+                        );
+                      },
+                    ),
+                    StreamBuilder<List<Partida>>(
+                      stream: banco.observarConcluidas(perfil.id),
+                      builder: (context, s) {
+                        final feitas = _doJogo(s.data ?? const []);
+                        if (feitas.isEmpty) return const SizedBox.shrink();
+                        return Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Text('Concluídos', style: texto.titleMedium),
+                            for (final p in feitas.take(10))
+                              if (p.estado == EstadoPartida.resposta)
+                                ListTile(
+                                  leading: const Icon(
+                                    Icons.visibility_outlined,
+                                  ),
+                                  title: Text(descreverPartida(p, todos)),
+                                  subtitle: const Text(
+                                    'Viu a resposta · sem pontos',
+                                  ),
+                                  trailing: const Icon(Icons.chevron_right),
+                                  onTap: () => _mostrarResposta(p),
+                                )
+                              else
+                                ListTile(
+                                  leading: Icon(Modo.daPartida(p).icone),
+                                  title: Text(descreverPartida(p, todos)),
+                                  subtitle: Text(
+                                    '${formatarTempo(p.tempoGastoSeg)}'
+                                    ' · ${p.dicasUsadas} dica(s)',
+                                  ),
+                                  trailing: Text('${p.pontos} pts'),
+                                ),
+                          ],
+                        );
+                      },
+                    ),
                   ],
                 ),
               ),
-              const SizedBox(height: 8),
             ],
           ),
-        const SizedBox(height: 16),
-        FilledButton.icon(
-          style: FilledButton.styleFrom(
-            minimumSize: const Size.fromHeight(56),
-            textStyle: texto.titleLarge,
-          ),
-          icon: Icon(_modo.icone),
-          label: Text(
-            _modo == Modo.caca ? 'Jogar caça-palavras' : 'Jogar cruzadas',
-          ),
-          onPressed: visiveis.isEmpty || _montando
-              ? null
-              : () => _jogar(perfil, visiveis, nivel),
         ),
-        const SizedBox(height: 8),
-        Row(
-          children: [
-            Expanded(
-              child: OutlinedButton.icon(
-                icon: const Icon(Icons.military_tech_outlined),
-                label: const Text('Recordes'),
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => TelaRecordes(perfil: perfil),
-                  ),
-                ),
+        // Botão de jogar sempre à vista, sem precisar rolar.
+        SafeArea(
+          top: false,
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+            child: FilledButton.icon(
+              style: FilledButton.styleFrom(
+                minimumSize: const Size.fromHeight(56),
+                textStyle: texto.titleLarge,
               ),
+              icon: Icon(_modo.icone),
+              label: Text(jogar),
+              onPressed: visiveis.isEmpty || _montando
+                  ? null
+                  : () => _jogar(perfil, visiveis, nivel),
             ),
-            const SizedBox(width: 8),
-            Expanded(
-              child: OutlinedButton.icon(
-                icon: const Icon(Icons.workspace_premium_outlined),
-                label: const Text('Conquistas'),
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => TelaConquistas(perfil: perfil),
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 24),
-        StreamBuilder<List<Partida>>(
-          stream: banco.observarPendentes(perfil.id),
-          builder: (context, s) {
-            final pendentes = _doJogo(s.data ?? const []);
-            if (pendentes.isEmpty) return const SizedBox.shrink();
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text('Pendentes', style: texto.titleMedium),
-                for (final p in pendentes)
-                  Card(
-                    child: ListTile(
-                      leading: Icon(Modo.daPartida(p).icone),
-                      title: Text(descreverPartida(p, todos)),
-                      subtitle: Text(
-                        '${p.estado == EstadoPartida.desistido ? 'Desistiu' : 'Em andamento'}'
-                        ' · ${formatarTempo(p.tempoGastoSeg)}',
-                      ),
-                      trailing: const Icon(Icons.chevron_right),
-                      onTap: () => p.estado == EstadoPartida.desistido
-                          ? _abrirDesistido(p)
-                          : _retomar(p),
-                    ),
-                  ),
-                const SizedBox(height: 16),
-              ],
-            );
-          },
-        ),
-        StreamBuilder<List<Partida>>(
-          stream: banco.observarConcluidas(perfil.id),
-          builder: (context, s) {
-            final feitas = _doJogo(s.data ?? const []);
-            if (feitas.isEmpty) return const SizedBox.shrink();
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text('Concluídos', style: texto.titleMedium),
-                for (final p in feitas.take(10))
-                  if (p.estado == EstadoPartida.resposta)
-                    ListTile(
-                      leading: const Icon(Icons.visibility_outlined),
-                      title: Text(descreverPartida(p, todos)),
-                      subtitle: const Text('Viu a resposta · sem pontos'),
-                      trailing: const Icon(Icons.chevron_right),
-                      onTap: () => _mostrarResposta(p),
-                    )
-                  else
-                    ListTile(
-                      leading: Icon(Modo.daPartida(p).icone),
-                      title: Text(descreverPartida(p, todos)),
-                      subtitle: Text(
-                        '${formatarTempo(p.tempoGastoSeg)}'
-                        ' · ${p.dicasUsadas} dica(s)',
-                      ),
-                      trailing: Text('${p.pontos} pts'),
-                    ),
-              ],
-            );
-          },
+          ),
         ),
       ],
     );
@@ -618,11 +606,79 @@ class _TelaInicioState extends State<TelaInicio> {
     final i = ordemCategorias.indexOf(c);
     return i < 0 ? ordemCategorias.length : i;
   }
+}
 
-  String _resumoCategoria(List<Tema> temas) {
-    final escolhidos = temas.where((t) => _escolhidos.contains(t.id)).length;
-    final total = '${temas.length} tema(s)';
-    return escolhidos == 0 ? total : '$total · $escolhidos escolhido(s)';
+/// Topo colorido da tela do jogador: avatar grande, saudação e pontos.
+class _CabecalhoJogador extends StatelessWidget {
+  const _CabecalhoJogador({required this.perfil});
+
+  final Perfil perfil;
+
+  @override
+  Widget build(BuildContext context) {
+    final banco = Servicos.of(context).banco;
+    final texto = Theme.of(context).textTheme;
+    return Container(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 20),
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomRight,
+          colors: [CoresMarca.verde, CoresMarca.verdeClaro],
+        ),
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(28)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(3),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              shape: BoxShape.circle,
+            ),
+            child: AvatarJogador(
+              avatar: perfil.avatar,
+              raio: 32,
+              fundo: const Color(0xFFFFF3C4),
+            ),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Olá, ${perfil.nome}!',
+                  overflow: TextOverflow.ellipsis,
+                  style: texto.headlineSmall?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                StreamBuilder<int>(
+                  stream: banco.observarTotalPontos(perfil.id),
+                  builder: (context, s) => Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 10,
+                      vertical: 4,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.25),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      '⭐ ${s.data ?? 0} pontos',
+                      style: texto.titleSmall?.copyWith(color: Colors.white),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -648,8 +704,22 @@ class _CartaoDiario extends StatelessWidget {
     final banco = Servicos.of(context).banco;
     final texto = Theme.of(context).textTheme;
 
-    return Card(
-      color: CoresMarca.amarelo.withValues(alpha: 0.25),
+    return Container(
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [Color(0xFFFFE08A), Color(0xFFFFB74D)],
+        ),
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.orange.withValues(alpha: 0.25),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -657,10 +727,15 @@ class _CartaoDiario extends StatelessWidget {
           children: [
             Row(
               children: [
-                const Icon(Icons.today),
+                const Text('📅', style: TextStyle(fontSize: 28)),
                 const SizedBox(width: 8),
                 Expanded(
-                  child: Text('Desafio do dia', style: texto.titleLarge),
+                  child: Text(
+                    'Desafio do dia',
+                    style: texto.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
                 ),
                 StreamBuilder<Set<String>>(
                   stream: banco.observarDiasDoDiario(perfil.id),
@@ -677,8 +752,6 @@ class _CartaoDiario extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 4),
-            Text('Nível ${nivel.nome}. As mesmas grades para todo mundo hoje.'),
             for (final modo in modos) ...[
               const SizedBox(height: 12),
               _linhaDoModo(context, banco, modo),
