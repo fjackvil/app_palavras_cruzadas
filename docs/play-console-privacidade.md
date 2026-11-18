@@ -88,6 +88,12 @@ Antes de enviar o formulário, procure na ajuda da Play Console a orientação d
   - Criptografado em trânsito: sim.
   - Os dados de pagamento ficam com o Google Play e não entram aqui.
 
+**Decisão tomada em 18/11/2026 (o que foi enviado):** seguindo a orientação do Google (a Billing Library é exemplo de acesso a "Informações financeiras"), declaramos **coleta** de:
+
+- **Informações financeiras → Histórico de compras:** coletado, não compartilhado, não efêmero, obrigatório, finalidade "Funcionalidade do app".
+- **Informações e desempenho do app → Diagnóstico:** coletado, não compartilhado, não efêmero, obrigatório, finalidade "Análise".
+- Criptografado em trânsito: sim. Sem criação de conta, sem login com contas de fora. Pedido de exclusão: não respondido (opcional). Selo "Compromisso com a Política para famílias": sim.
+
 Se mudar a biblioteca ou a versão dela, confira de novo com:
 
 ```bash
