@@ -34,7 +34,7 @@ Presença na loja → **Página principal da loja**: use `docs/loja/textos-da-lo
 
 - Ícone: `docs/loja/icone-512.png`
 - Gráfico de recursos: `docs/loja/destaque-1024x500.png`
-- Capturas de tela do celular: `docs/loja/telas/` (ainda a fazer)
+- Capturas de tela do celular: as 6 imagens `docs/loja/telas/1-inicio.png` a `6-fim.png`, nessa ordem (geradas por `tool/telas_loja.py`)
 
 E em **Configurações da loja**: categoria **Palavras**, e-mail vileladigit@gmail.com.
 

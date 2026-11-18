@@ -58,7 +58,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [x] 18/11/2026 (teste no S25 Ultra): barra do Android não tampa mais o app; sons e vibração no fim do jogo; Ranking pessoal na primeira tela; nível Pequenos (4 a 5 anos); textos sem "família". Detalhes em `docs/especificacao.md`. Conferido num emulador Android 16 com os 3 botões (`Android16_botoes`).
 - [x] Código ofuscado nos pacotes (`tool/pacote.sh`), 18/11/2026. Conferido: os nomes somem do código compilado e o app funciona igual.
 - [x] Conta da Play Console verificada (18/11/2026). Material da loja em `docs/loja/`: textos, ícone 512, gráfico de recursos e o roteiro passo a passo (`docs/loja/roteiro-play-console.md`).
-- [ ] Capturas de tela da loja (`docs/loja/telas/`).
+- [x] Capturas de tela da loja: 6 imagens em `docs/loja/telas/` (prints do emulador em `originais/`, montagem por `tool/telas_loja.py`).
 - [ ] Ligar a **Proteção automática** do Google Play (Play Console > Integridade do app), quando a conta estiver liberada.
 - [ ] Verificar as compras num servidor (Supabase), para barrar Premium pirata. Fica para depois do lançamento.
 - [ ] Conferir no celular de verdade: som no modo Som, só a vibração de toque do celular no Vibrar/Silencioso, nada no Não perturbe.
