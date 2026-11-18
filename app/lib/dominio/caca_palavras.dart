@@ -58,7 +58,18 @@ class RegrasCaca {
   /// da grade, a quantidade de palavras e a lista.
   static const todasDirecoes = Direcao.values;
 
+  /// Exceção combinada em 18/11/2026: no Pequenos (4 a 5 anos) só para a
+  /// direita e para baixo; de trás para frente e na diagonal é difícil
+  /// demais nessa idade.
   static RegrasCaca de(Nivel nivel) => switch (nivel) {
+    Nivel.pequenos => const RegrasCaca(
+      tamanho: 6,
+      quantidade: 4,
+      direcoes: [Direcao.direita, Direcao.baixo],
+      mostrarPalavras: true,
+      minLetras: 3,
+      segundosPorPalavra: 40,
+    ),
     Nivel.leve => const RegrasCaca(
       tamanho: 8,
       quantidade: 6,
@@ -100,6 +111,7 @@ List<Palavra> palavrasDoCaca(Tema tema, Nivel nivel) {
   return tema.palavras
       .where(
         (p) =>
+            (!nivel.soComDesenho || p.emoji != null) &&
             p.dificuldade <= nivel.maxDificuldade &&
             p.grade.length >= regras.minLetras &&
             p.grade.length <= regras.tamanho,

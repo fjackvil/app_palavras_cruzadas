@@ -54,6 +54,7 @@ void main() {
   });
 
   const minimoPorNivel = {
+    Nivel.pequenos: 3,
     Nivel.leve: 4,
     Nivel.medio: 8,
     Nivel.dificil: 12,

@@ -20,8 +20,8 @@ class JogoCruzadas extends ChangeNotifier {
            respostas ??
            List<String>.filled(desafio.tamanho * desafio.tamanho, ''),
        reveladas = reveladas ?? <int>{} {
-    // No nível Leve a primeira letra de cada palavra já vem escrita.
-    if (desafio.nivel == Nivel.leve) {
+    // Nos níveis Pequenos e Leve a primeira letra já vem escrita.
+    if (desafio.nivel.facil) {
       for (final p in desafio.palavras) {
         final (l, c) = p.casa(0);
         final i = desafio.indice(l, c);

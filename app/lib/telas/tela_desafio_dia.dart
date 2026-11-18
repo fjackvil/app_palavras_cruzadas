@@ -131,7 +131,7 @@ class _TelaDesafioDiaState extends State<TelaDesafioDia> {
                             Text(
                               'Todo dia tem um desafio novo. Quem joga no '
                               'mesmo nível recebe a mesma grade: dá para '
-                              'comparar com a família!',
+                              'comparar com os amigos!',
                               textAlign: TextAlign.center,
                               style: texto.bodySmall,
                             ),

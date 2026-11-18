@@ -9,7 +9,6 @@ import '../dados/limite_dicas.dart';
 import '../dados/oferta_nivel.dart';
 import '../dominio/jogo_caca.dart';
 import '../dominio/compartilhar.dart';
-import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import '../widgets/grade_caca.dart';
 import 'tela_inicio.dart' show formatarTempo;
@@ -199,7 +198,7 @@ class _TelaCacaState extends State<TelaCaca> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    final leve = _jogo.nivel == Nivel.leve;
+    final leve = _jogo.nivel.facil;
     final d = _jogo.desafio;
     return PopScope(
       onPopInvokedWithResult: (didPop, _) {

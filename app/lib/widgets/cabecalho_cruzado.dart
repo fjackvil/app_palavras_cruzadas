@@ -59,8 +59,8 @@ class _CabecalhoCruzadoState extends State<CabecalhoCruzado>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Palavras\nCruzadas',
-                      style: texto.headlineMedium?.copyWith(
+                      'Palavras\nCruzadas e\nCaça-palavras',
+                      style: texto.headlineSmall?.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.w800,
                         height: 1.05,

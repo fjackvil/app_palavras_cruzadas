@@ -56,6 +56,7 @@ Para jogar não há conta nem login: os jogadores são criados e guardados só n
 
 | Nível | Idade sugerida | Grade | Tamanho das palavras | Dicas |
 | --- | --- | --- | --- | --- |
+| Pequenos | 4–5 anos | 6×6 | 3–6 letras, só palavras com desenho | O desenho (emoji) é a dica; primeira letra visível; no caça-palavras, só para a direita e para baixo (exceção à regra das 8 direções) |
 | Leve | 6–9 anos | 5×5 a 7×7 | 3–6 letras | Frases simples, imagem opcional, primeira letra visível |
 | Médio | 10–13 anos | 9×9 a 11×11 | 4–8 letras | Definições diretas |
 | Difícil | 14+ anos | 13×13 | até 10 letras | Definições e sinônimos |
@@ -208,6 +209,16 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 **Decidido em 17/11/2026:** compra única "Premium" por **R$ 9,90** (preço baixo para ganhar em quantidade), sem assinatura por enquanto. Plano grátis: Leve e Médio, 1 tema por categoria, 3 desafios por dia, 3 dicas por dia e **2 jogadores** (em vez de 1, para irmãos ou pais e filhos dividirem o mesmo celular ou tablet). Limite de pendentes aplicado em 17/11/2026: até 3 no grátis (o desafio do dia não conta); ao tocar num pendente dá para continuar, ver a resposta (se desistiu) ou apagar. Os limites diários e de pendentes contam **por celular**, somando todos os jogadores, e ficam guardados à parte: criar ou apagar jogador não libera mais nada. Temas grátis (17/11/2026): um por categoria — Países, Animais, Alimentos, Desenhos animados, Instrumentos musicais, História do Brasil, Dinossauros, Futebol, Folclore, Escola, Antônimos e Meio ambiente.
 
 **Esclarecido em 17/11/2026:** o Premium é **por conta Google** (a da Play Store), não por família nem por celular. Vale em todo celular em que a pessoa entrar com aquela conta. O produto se chama só "Premium" (ID `premium`). O Google Play não oferece limite de aparelhos por conta; para usar o Premium em outro celular, alguém teria de entrar ali com a conta Google inteira do comprador (Gmail, Drive etc.), o que já desestimula o compartilhamento. Compras dentro do app não entram na Biblioteca da Família do Google. Limitar aparelhos exigiria servidor e guardar identificadores, o que vai contra a privacidade do app; por isso, não será feito.
+
+**Pequenos (18/11/2026):** nível para 4 a 5 anos, sugerido pela idade e grátis. Usa só palavras com o campo `emoji` no JSON (9 temas: Animais, Frutas, Alimentos, Corpo humano, Meios de transporte, Clima, Roupas, Animais marinhos, Objetos da casa). Os desenhos são postos por `tool/emojis_pequenos.py`.
+
+**Sons e vibração (18/11/2026):** no fim de cada desafio o app toca um som (vitória, recorde ou conquista, o mais especial ganha). Segue o modo do celular sozinho, sem pedir nada: modo Som toca; Vibrar ou Silencioso só vibra; Não perturbe não faz nada. O botão 🔊 na tela do jogador desliga tudo. Sons sintetizados por `tool/gerar_sons.py` (sem direitos de terceiros).
+
+**Ranking pessoal (18/11/2026):** na primeira tela, cada jogador contra ele mesmo: pontos da semana, melhor partida, maior sequência de dias e conquistas, com a comparação com a semana passada.
+
+**Barra do Android (18/11/2026):** desde o Android 15 o app desenha por baixo da barra de navegação. `BarraDoSistema` (em `app.dart`) reserva esse espaço em todas as telas.
+
+**Texto do 1.0 (18/11/2026):** o app se apresenta como jogo individual, sem falar de família (dá para ter mais de um jogador no celular). O tema família volta com Grupos.
 
 **Família hoje:** os jogadores (até 5) e o Placar da família são **do mesmo celular**. Jogar em família com cada um no seu celular, com placar compartilhado, é a parte de **Grupos**, prevista para depois do beta (precisa de conta e do Supabase).
 

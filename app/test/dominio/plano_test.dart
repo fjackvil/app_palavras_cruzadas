@@ -26,7 +26,7 @@ void main() {
     expect(livres.map((t) => t.categoria).toSet(), categorias);
     // Cada tema grátis serve para os dois jogos nos níveis do grátis.
     for (final t in livres) {
-      for (final n in PlanoGratis.niveis) {
+      for (final n in PlanoGratis.niveis.where((n) => !n.soComDesenho)) {
         expect(t.disponivelPara(n), isTrue, reason: '${t.id} ${n.name}');
         expect(temaServeParaCaca(t, n), isTrue, reason: '${t.id} caça');
       }

@@ -1,6 +1,6 @@
 # Política de privacidade
 
-Última atualização: 17 de novembro de 2026.
+Última atualização: 18 de novembro de 2026.
 
 Esta política vale para o app **Palavras Cruzadas**, da **Vilela Digit**, para Android. Ela explica, em linguagem simples, o que acontece com as suas informações. O resumo é: **o app não coleta, não envia e não compartilha nenhum dado pessoal.**
 
@@ -9,7 +9,7 @@ Esta política vale para o app **Palavras Cruzadas**, da **Vilela Digit**, para 
 - Para jogar não precisa de conta, login, e-mail nem senha.
 - Tudo o que você cria no app fica guardado só no seu celular.
 - O app não tem anúncios e não usa nenhuma ferramenta de rastreio, de estatística ou de publicidade.
-- O app não pede permissão de localização, contatos, microfone ou câmera. Ele tem permissão de internet só porque o sistema de compras do Google Play exige. O app em si não envia nenhuma informação dos jogadores.
+- O app não pede permissão de localização, contatos, microfone ou câmera. Ele tem permissão de internet só porque o sistema de compras do Google Play exige, e permissão de vibrar, para avisar o fim do jogo quando o celular está no silencioso. O app em si não envia nenhuma informação dos jogadores.
 - Nós, da Vilela Digit, não recebemos e não temos acesso a nada do que você faz no app.
 
 ## O que fica guardado no seu celular
@@ -48,7 +48,7 @@ Nenhuma informação dos jogadores (nomes, idades, fotos, pontos, partidas) é e
 
 ## Crianças
 
-O app foi feito para a família toda, inclusive crianças. Como nada é coletado, nenhuma informação de criança é enviada para nós nem para terceiros. Perfis de crianças só veem temas próprios para a idade. Recomendamos que os pais ou responsáveis criem os perfis das crianças e acompanhem o uso. Compras, quando existirem, passam pelo Google Play, que pede a aprovação dos pais em contas infantis (Family Link).
+O app é para todas as idades, inclusive crianças a partir de 4 anos. Como nada é coletado, nenhuma informação de criança é enviada para nós nem para terceiros. Perfis de crianças só veem temas próprios para a idade. Recomendamos que os pais ou responsáveis criem os perfis das crianças e acompanhem o uso. Compras, quando existirem, passam pelo Google Play, que pede a aprovação dos pais em contas infantis (Family Link).
 
 ## Como apagar seus dados
 

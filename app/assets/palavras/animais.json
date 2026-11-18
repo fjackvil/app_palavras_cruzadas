@@ -11,7 +11,8 @@
         "leve": "Animal que mia",
         "media": "Felino doméstico que caça ratos",
         "dificil": "Bichano que, dizem, tem sete vidas"
-      }
+      },
+      "emoji": "🐱"
     },
     {
       "palavra": "PATO",
@@ -20,7 +21,8 @@
         "leve": "Ave que faz quá-quá",
         "media": "Ave aquática de bico achatado",
         "dificil": "Palmípede de bico chato, primo do ganso e do cisne"
-      }
+      },
+      "emoji": "🦆"
     },
     {
       "palavra": "VACA",
@@ -29,7 +31,8 @@
         "leve": "Animal que faz mu e dá leite",
         "media": "Fêmea do boi",
         "dificil": "Mãe do bezerro, mimosa do pasto"
-      }
+      },
+      "emoji": "🐄"
     },
     {
       "palavra": "LEÃO",
@@ -38,7 +41,8 @@
         "leve": "O rei da selva",
         "media": "Felino africano de juba",
         "dificil": "Signo de quem nasce no fim de julho ou em agosto"
-      }
+      },
+      "emoji": "🦁"
     },
     {
       "palavra": "SAPO",
@@ -47,7 +51,8 @@
         "leve": "Bicho verde que pula e coaxa",
         "media": "Anfíbio que coaxa",
         "dificil": "Na fábula, um beijo pode revelar que ele é um príncipe"
-      }
+      },
+      "emoji": "🐸"
     },
     {
       "palavra": "URSO",
@@ -56,7 +61,8 @@
         "leve": "Bicho grande e peludo que gosta de mel",
         "media": "Mamífero que hiberna no inverno",
         "dificil": "Pode ser polar, pardo ou de pelúcia"
-      }
+      },
+      "emoji": "🐻"
     },
     {
       "palavra": "RATO",
@@ -65,7 +71,8 @@
         "leve": "Bicho pequeno que gosta de queijo",
         "media": "Roedor de cauda longa",
         "dificil": "Na fábula, roeu a rede e salvou o leão"
-      }
+      },
+      "emoji": "🐭"
     },
     {
       "palavra": "LOBO",
@@ -74,7 +81,8 @@
         "leve": "Animal que uiva para a lua",
         "media": "Canídeo selvagem que vive em alcateia",
         "dificil": "O guará é o mais famoso do Cerrado"
-      }
+      },
+      "emoji": "🐺"
     },
     {
       "palavra": "TATU",
@@ -92,7 +100,8 @@
         "leve": "Gato grande e pintado das matas do Brasil",
         "media": "Maior felino das Américas",
         "dificil": "A pintada aparece na nota de 50 reais"
-      }
+      },
+      "emoji": "🐆"
     },
     {
       "palavra": "ZEBRA",
@@ -101,7 +110,8 @@
         "leve": "Cavalo com listras pretas e brancas",
         "media": "Equino listrado da África",
         "dificil": "No futebol, é o resultado que ninguém esperava"
-      }
+      },
+      "emoji": "🦓"
     },
     {
       "palavra": "PEIXE",
@@ -110,7 +120,8 @@
         "leve": "Bicho que vive na água e tem nadadeiras",
         "media": "Animal que respira por guelras",
         "dificil": "No plural, é o signo de fevereiro e março"
-      }
+      },
+      "emoji": "🐟"
     },
     {
       "palavra": "COBRA",
@@ -119,7 +130,8 @@
         "leve": "Bicho comprido que rasteja",
         "media": "Réptil sem patas",
         "dificil": "Serpente; também quem é craque em alguma coisa"
-      }
+      },
+      "emoji": "🐍"
     },
     {
       "palavra": "POLVO",
@@ -128,7 +140,8 @@
         "leve": "Bicho do mar com oito braços",
         "media": "Molusco de oito tentáculos",
         "dificil": "Cefalópode que solta tinta para fugir"
-      }
+      },
+      "emoji": "🐙"
     },
     {
       "palavra": "PORCO",
@@ -137,7 +150,8 @@
         "leve": "Animal cor-de-rosa que faz oinc",
         "media": "Animal criado no chiqueiro",
         "dificil": "Suíno que, filhote, é chamado de leitão"
-      }
+      },
+      "emoji": "🐷"
     },
     {
       "palavra": "ARARA",
@@ -146,7 +160,8 @@
         "leve": "Ave grande e colorida de bico curvo",
         "media": "Ave de penas coloridas das matas brasileiras",
         "dificil": "Ficar uma dessas é ficar furioso"
-      }
+      },
+      "emoji": "🦜"
     },
     {
       "palavra": "MACACO",
@@ -155,7 +170,8 @@
         "leve": "Bicho que adora banana e pula nas árvores",
         "media": "Primata que vive em bando",
         "dificil": "Ferramenta que levanta o carro na troca do pneu"
-      }
+      },
+      "emoji": "🐒"
     },
     {
       "palavra": "COELHO",
@@ -164,7 +180,8 @@
         "leve": "Bicho de orelhas compridas que come cenoura",
         "media": "Animal de orelhas longas que salta",
         "dificil": "Na Páscoa, dizem que traz ovos de chocolate"
-      }
+      },
+      "emoji": "🐰"
     },
     {
       "palavra": "GIRAFA",
@@ -173,7 +190,8 @@
         "leve": "Animal de pescoço muito comprido",
         "media": "Mamífero mais alto do mundo",
         "dificil": "Ruminante africano que come folhas no alto das acácias"
-      }
+      },
+      "emoji": "🦒"
     },
     {
       "palavra": "CAVALO",
@@ -182,7 +200,8 @@
         "leve": "Animal que relincha e a gente monta",
         "media": "Equino usado para montaria",
         "dificil": "Peça do xadrez que anda em L"
-      }
+      },
+      "emoji": "🐴"
     },
     {
       "palavra": "ABELHA",
@@ -191,7 +210,8 @@
         "leve": "Inseto que faz mel",
         "media": "Inseto que produz mel e cera",
         "dificil": "Operária da colmeia"
-      }
+      },
+      "emoji": "🐝"
     },
     {
       "palavra": "CORUJA",
@@ -200,7 +220,8 @@
         "leve": "Ave que fica acordada à noite",
         "media": "Ave noturna de olhos grandes",
         "dificil": "Símbolo da sabedoria; a mãe orgulhosa também é uma"
-      }
+      },
+      "emoji": "🦉"
     },
     {
       "palavra": "OVELHA",
@@ -209,7 +230,8 @@
         "leve": "Animal que faz mé e dá lã",
         "media": "Animal de onde vem a lã",
         "dificil": "A negra é a diferente da família"
-      }
+      },
+      "emoji": "🐑"
     },
     {
       "palavra": "JACARÉ",
@@ -218,7 +240,8 @@
         "leve": "Bicho da água com a boca cheia de dentes",
         "media": "Réptil parente do crocodilo",
         "dificil": "O de papo-amarelo vive nos rios do Brasil"
-      }
+      },
+      "emoji": "🐊"
     },
     {
       "palavra": "BALEIA",
@@ -227,7 +250,8 @@
         "leve": "Bicho enorme do mar que respira ar",
         "media": "Mamífero gigante dos oceanos",
         "dificil": "Jubarte e cachalote são exemplos"
-      }
+      },
+      "emoji": "🐳"
     },
     {
       "palavra": "CAMELO",
@@ -317,7 +341,8 @@
         "leve": "Gatão laranja com listras pretas",
         "media": "Maior felino do mundo, todo listrado",
         "dificil": "Felino de Bengala e da Sibéria"
-      }
+      },
+      "emoji": "🐯"
     },
     {
       "palavra": "TUCANO",

@@ -12,7 +12,7 @@ const precoPremiumPadrao = r'R$ 9,90';
 /// Limites do plano grátis (proposta da especificação, com 2 jogadores
 /// para dar para experimentar o placar). Premium não tem limites.
 abstract final class PlanoGratis {
-  static const niveis = {Nivel.leve, Nivel.medio};
+  static const niveis = {Nivel.pequenos, Nivel.leve, Nivel.medio};
   static const maxJogadores = 2;
   static const desafiosPorDia = 3;
   static const dicasPorDia = 3;

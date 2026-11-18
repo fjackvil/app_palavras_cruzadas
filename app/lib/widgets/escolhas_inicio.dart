@@ -22,6 +22,7 @@ const emojiCategoria = {
 
 /// Emoji de cada nível.
 const emojiNivel = {
+  Nivel.pequenos: '🧸',
   Nivel.leve: '🙂',
   Nivel.medio: '😎',
   Nivel.dificil: '🤓',
@@ -88,7 +89,7 @@ class _CartaoEscolhaState extends State<CartaoEscolha> {
   }
 }
 
-/// Os 4 níveis em cartões com emoji.
+/// Os níveis em cartões com emoji.
 class SeletorNivel extends StatelessWidget {
   const SeletorNivel({
     super.key,
@@ -128,11 +129,14 @@ class SeletorNivel extends StatelessWidget {
                           style: const TextStyle(fontSize: 26),
                         ),
                         const SizedBox(height: 2),
-                        Text(
-                          n.nomeCurto,
-                          style: texto.labelLarge?.copyWith(
-                            fontWeight: n == atual ? FontWeight.w800 : null,
-                            color: travado ? Colors.grey.shade600 : null,
+                        FittedBox(
+                          child: Text(
+                            n.nomeCurto,
+                            maxLines: 1,
+                            style: texto.labelLarge?.copyWith(
+                              fontWeight: n == atual ? FontWeight.w800 : null,
+                              color: travado ? Colors.grey.shade600 : null,
+                            ),
                           ),
                         ),
                       ],
@@ -359,7 +363,7 @@ String resumoCategoria({
     final livres = total - travados;
     return '$livres grátis · $travados 🔒';
   }
-  return '$total temas';
+  return total == 1 ? '1 tema' : '$total temas';
 }
 
 /// Botão grande de jogar, no rodapé da tela do jogo: degradê verde, o

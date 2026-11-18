@@ -12,6 +12,7 @@ class Palavra {
     required this.dificuldade,
     required this.dicas,
     required this.tema,
+    this.emoji,
   }) : grade = paraGrade(palavra);
 
   factory Palavra.deJson(Map<String, dynamic> json, String tema) => Palavra(
@@ -19,6 +20,7 @@ class Palavra {
     dificuldade: json['dificuldade'] as int,
     dicas: Map<String, String>.from(json['dicas'] as Map),
     tema: tema,
+    emoji: json['emoji'] as String?,
   );
 
   /// Como a palavra é escrita (com acentos), por exemplo "LEÃO".
@@ -30,8 +32,13 @@ class Palavra {
   final Map<String, String> dicas;
   final String tema;
 
+  /// Desenho da palavra (por exemplo 🐱 para GATO). É a dica do nível
+  /// Pequenos, para quem ainda está aprendendo a ler.
+  final String? emoji;
+
   /// Dica do nível; se faltar, usa a mais próxima.
   String dicaPara(Nivel nivel) {
+    if (nivel.soComDesenho && emoji != null) return emoji!;
     const todas = ['leve', 'media', 'dificil'];
     // Primeiro a do nível; depois as vizinhas, da mais perto à mais longe.
     final alvo = todas.indexOf(nivel.chaveDica);
@@ -85,6 +92,7 @@ class Tema {
   List<Palavra> palavrasPara(Nivel nivel) => palavras
       .where(
         (p) =>
+            (!nivel.soComDesenho || p.emoji != null) &&
             p.dificuldade <= nivel.maxDificuldade &&
             p.grade.length >= nivel.minLetras &&
             p.grade.length <= nivel.maxLetras,
@@ -94,9 +102,12 @@ class Tema {
   /// Mínimo de palavras para o tema aparecer num nível.
   static const minimoPorNivel = 12;
 
+  /// No Pequenos as grades têm só 4 palavras, então 8 com desenho bastam.
+  static int minimoPara(Nivel nivel) => nivel.soComDesenho ? 8 : minimoPorNivel;
+
   /// Se o tema tem palavras suficientes para montar grades no nível.
   bool disponivelPara(Nivel nivel) =>
-      palavrasPara(nivel).length >= minimoPorNivel;
+      palavrasPara(nivel).length >= minimoPara(nivel);
 }
 
 /// Lê os temas que vêm dentro do app.

@@ -1,5 +1,17 @@
-/// Os 4 níveis da especificação.
+/// Os níveis da especificação. Pequenos (4 a 5 anos) entrou em 18/11/2026.
 enum Nivel {
+  pequenos(
+    nome: 'Pequenos',
+    nomeCurto: 'Pequenos',
+    multiplicador: 1,
+    tamanhoGrade: 6,
+    minLetras: 3,
+    maxLetras: 6,
+    maxDificuldade: 1,
+    metaPalavras: 4,
+    segundosPorLetra: 12,
+    chaveDica: 'pequenos',
+  ),
   leve(
     nome: 'Leve',
     nomeCurto: 'Leve',
@@ -84,15 +96,24 @@ enum Nivel {
   /// Usado para calcular o tempo-alvo do desafio.
   final int segundosPorLetra;
 
-  /// Qual dica do JSON o nível mostra ('leve', 'media' ou 'dificil').
+  /// Qual dica do JSON o nível mostra ('leve', 'media' ou 'dificil'). No
+  /// Pequenos a dica é o desenho (campo 'emoji' da palavra).
   final String chaveDica;
 
   /// Nível sugerido pela idade. Super difícil fica para quem escolher.
   static Nivel sugeridoParaIdade(int idade) {
+    if (idade <= 5) return Nivel.pequenos;
     if (idade <= 9) return Nivel.leve;
     if (idade <= 13) return Nivel.medio;
     return Nivel.dificil;
   }
+
+  /// Pequenos e Leve: a primeira letra de cada palavra já vem escrita e as
+  /// letras ficam maiores.
+  bool get facil => index <= Nivel.leve.index;
+
+  /// Só entram palavras com desenho, e o desenho é a dica.
+  bool get soComDesenho => this == Nivel.pequenos;
 
   static Nivel porNome(String nome) =>
       Nivel.values.firstWhere((n) => n.name == nome, orElse: () => Nivel.leve);

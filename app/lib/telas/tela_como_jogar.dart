@@ -27,7 +27,7 @@ final _paginas = [
   const _Pagina('🎯', 'Escolha o jogo', [
     'Toque em "Jogar" ao lado do seu nome.',
     'Escolha o jogo: Cruzadas ou Caça-palavras.',
-    'Escolha o nível: Leve, Médio, Difícil ou Super.',
+    'Escolha o nível: Pequenos (4 a 5 anos, com desenhos), Leve, Médio, Difícil ou Super.',
     'Escolha um ou mais temas, ou deixe "Misturado" para vir de tudo.',
   ]),
   const _Pagina('✏️', 'Palavras cruzadas', [
@@ -61,14 +61,14 @@ final _paginas = [
   ]),
   const _Pagina('🗓️', 'Desafio do dia', [
     'Todo dia tem uma cruzada e um caça-palavras novos.',
-    'É a mesma grade para todo mundo no mesmo nível: dá para comparar com a família e os amigos.',
+    'É a mesma grade para todo mundo no mesmo nível: dá para comparar com os amigos.',
     'Jogue todo dia para aumentar a sua sequência 🔥.',
     'Terminou? Toque em "WhatsApp" para mandar seus pontos, com o link para instalar o app. Só vai o resultado, nunca o seu nome.',
   ]),
-  const _Pagina('👨‍👩‍👧‍👦', 'Jogar em família', [
-    'Até 5 jogadores no mesmo celular, cada um com seu nível e seus pontos.',
-    'As crianças só veem temas próprios para a idade delas.',
-    'Cada um toca no seu nome para jogar. Os pontos aparecem na primeira tela.',
+  const _Pagina('🙋', 'Jogadores', [
+    'Dá para ter mais de um jogador no mesmo celular, cada um com seu nível, seus pontos e seus recordes.',
+    'Crianças só veem temas próprios para a idade delas.',
+    'Toque em "Jogar" ao lado do seu nome. Seus pontos aparecem na primeira tela.',
     'Tudo fica só neste celular: nada é enviado para a internet. Veja em "Sobre e privacidade", no rodapé da primeira tela.',
   ]),
 ];

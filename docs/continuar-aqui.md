@@ -55,8 +55,12 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 
 **Pendências**
 
+- [x] 18/11/2026 (teste no S25 Ultra): barra do Android não tampa mais o app; sons e vibração no fim do jogo; Ranking pessoal na primeira tela; nível Pequenos (4 a 5 anos); textos sem "família". Detalhes em `docs/especificacao.md`. Conferido num emulador Android 16 com os 3 botões (`Android16_botoes`).
+- [ ] Conferir no celular de verdade: som no modo Som, só vibração no Vibrar/Silencioso, nada no Não perturbe.
+
 - [ ] **Testar tudo no aparelho de verdade.** No Linux, o emulador ficou travando para o Fernando. Do lado do Android o app respondia normalmente (comandos `adb` funcionavam e as telas abriam em menos de 0,5 s). A suspeita é a janela do emulador naquele computador.
 - [ ] Revisão humana do conteúdo: ver `docs/revisao-conteudo.md`.
+- [ ] **Voltar o tema "família" junto com a competição entre famílias (Grupos).** Em 18/11/2026 o 1.0 passou a falar de jogo individual: saíram "para toda a família" da primeira tela, "comparar com a família" do Desafio do dia, a página "Jogar em família" do Como jogar (virou "Jogadores") e as menções na política e nos termos. Continua sendo possível ter mais de um jogador no celular. Quando Grupos chegar, rever esses textos e o Placar da família (`mostrarPlacarFamilia`).
 - [ ] Os pontos feitos antes da mudança de pontuação (por exemplo, os 225 do Theo no emulador do Linux) continuam na escala antiga. Na máquina nova o banco começa vazio.
 
 **Fase 4**

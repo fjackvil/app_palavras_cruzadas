@@ -4,6 +4,7 @@ import '../app.dart';
 import '../dados/banco.dart';
 import '../dominio/nivel.dart';
 import '../dominio/plano.dart';
+import '../widgets/ranking_pessoal.dart';
 import '../widgets/avatar.dart';
 import '../widgets/cabecalho_cruzado.dart';
 import 'tela_como_jogar.dart';
@@ -42,9 +43,7 @@ class TelaPerfis extends StatelessWidget {
           return ListView(
             padding: EdgeInsets.zero,
             children: [
-              const CabecalhoCruzado(
-                subtitulo: 'Cruzadas e caça-palavras para toda a família',
-              ),
+              const CabecalhoCruzado(),
               const SizedBox(height: 16),
               _Destaques(perfis: perfis ?? const []),
               Padding(
@@ -73,7 +72,8 @@ class TelaPerfis extends StatelessWidget {
                               perfil: perfil,
                               aoApagar: () => _confirmarApagar(context, perfil),
                             ),
-                          const SizedBox(height: 8),
+                          SecaoRankingPessoal(perfis: perfis),
+                          const SizedBox(height: 16),
                           if (perfis.length < Banco.maxPerfis)
                             (perfis.isEmpty
                                 ? FilledButton.icon

@@ -11,7 +11,8 @@
         "leve": "Carro grande para várias pessoas",
         "media": "Utilitário de passageiros",
         "dificil": "Furgão de lotação"
-      }
+      },
+      "emoji": "🚐"
     },
     {
       "palavra": "TREM",
@@ -20,7 +21,8 @@
         "leve": "Anda nos trilhos",
         "media": "Composição de vagões",
         "dificil": "A maria-fumaça é um"
-      }
+      },
+      "emoji": "🚆"
     },
     {
       "palavra": "MOTO",
@@ -29,7 +31,8 @@
         "leve": "Veículo de duas rodas que faz vrum",
         "media": "Veículo de duas rodas a gasolina",
         "dificil": "Duas rodas e capacete obrigatório"
-      }
+      },
+      "emoji": "🏍️"
     },
     {
       "palavra": "TÁXI",
@@ -38,7 +41,8 @@
         "leve": "Carro que a gente paga para nos levar",
         "media": "Carro de aluguel com motorista",
         "dificil": "Amarelo em Nova York, cobra bandeirada"
-      }
+      },
+      "emoji": "🚕"
     },
     {
       "palavra": "JIPE",
@@ -56,7 +60,8 @@
         "leve": "Parte de borracha da roda",
         "media": "Revestimento de borracha da roda",
         "dificil": "Pode ser careca ou furado"
-      }
+      },
+      "emoji": "🛞"
     },
     {
       "palavra": "CARRO",
@@ -65,7 +70,8 @@
         "leve": "Tem quatro rodas e leva a família",
         "media": "Automóvel",
         "dificil": "Possante de quatro rodas"
-      }
+      },
+      "emoji": "🚗"
     },
     {
       "palavra": "AVIÃO",
@@ -74,7 +80,8 @@
         "leve": "Voa no céu levando pessoas",
         "media": "Aeronave de passageiros",
         "dificil": "Pássaro de aço"
-      }
+      },
+      "emoji": "✈️"
     },
     {
       "palavra": "BARCO",
@@ -83,7 +90,8 @@
         "leve": "Anda na água",
         "media": "Embarcação",
         "dificil": "Vai a remo, a vela ou a motor"
-      }
+      },
+      "emoji": "⛵"
     },
     {
       "palavra": "NAVIO",
@@ -92,7 +100,8 @@
         "leve": "Barco bem grande que cruza o mar",
         "media": "Grande embarcação",
         "dificil": "Pode ser cargueiro ou de cruzeiro"
-      }
+      },
+      "emoji": "🚢"
     },
     {
       "palavra": "METRÔ",
@@ -101,7 +110,8 @@
         "leve": "Trem que anda debaixo da terra",
         "media": "Trem urbano subterrâneo",
         "dificil": "Linha subterrânea das grandes cidades"
-      }
+      },
+      "emoji": "🚇"
     },
     {
       "palavra": "CANOA",
@@ -110,7 +120,8 @@
         "leve": "Barquinho de remo",
         "media": "Embarcação a remo",
         "dificil": "Embarcação indígena feita de tronco"
-      }
+      },
+      "emoji": "🛶"
     },
     {
       "palavra": "SKATE",
@@ -119,7 +130,8 @@
         "leve": "Prancha com rodinhas",
         "media": "Prancha de rodas para manobras",
         "dificil": "Prancha das manobras na pista"
-      }
+      },
+      "emoji": "🛹"
     },
     {
       "palavra": "BALÃO",
@@ -128,7 +140,8 @@
         "leve": "Sobe no céu com ar quente",
         "media": "Aeronave de ar quente",
         "dificil": "Tem cesto e queimador"
-      }
+      },
+      "emoji": "🎈"
     },
     {
       "palavra": "PORTO",
@@ -164,7 +177,8 @@
         "leve": "Veículo grande que leva muita gente",
         "media": "Transporte coletivo urbano",
         "dificil": "Circular, coletivo"
-      }
+      },
+      "emoji": "🚌"
     },
     {
       "palavra": "TRATOR",
@@ -173,7 +187,8 @@
         "leve": "Veículo que trabalha na fazenda",
         "media": "Veículo agrícola",
         "dificil": "Puxa o arado"
-      }
+      },
+      "emoji": "🚜"
     },
     {
       "palavra": "LANCHA",
@@ -182,7 +197,8 @@
         "leve": "Barco rápido com motor",
         "media": "Embarcação veloz a motor",
         "dificil": "Barco de passeio veloz"
-      }
+      },
+      "emoji": "🚤"
     },
     {
       "palavra": "PILOTO",

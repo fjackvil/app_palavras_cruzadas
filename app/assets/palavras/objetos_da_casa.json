@@ -11,7 +11,8 @@
         "leve": "Lugar onde a gente dorme",
         "media": "Móvel com colchão para dormir",
         "dificil": "Tem cabeceira, lençol e travesseiro"
-      }
+      },
+      "emoji": "🛏️"
     },
     {
       "palavra": "MESA",
@@ -29,7 +30,8 @@
         "leve": "Assento macio da sala para várias pessoas",
         "media": "Assento estofado para mais de uma pessoa",
         "dificil": "Pode ser retrátil ou de canto"
-      }
+      },
+      "emoji": "🛋️"
     },
     {
       "palavra": "PORTA",
@@ -38,7 +40,8 @@
         "leve": "Abre e fecha para entrar no quarto",
         "media": "Abertura com folha que dá acesso aos cômodos",
         "dificil": "Tem maçaneta e fechadura"
-      }
+      },
+      "emoji": "🚪"
     },
     {
       "palavra": "JANELA",
@@ -47,7 +50,8 @@
         "leve": "Abertura na parede para ver lá fora",
         "media": "Abertura que deixa entrar luz e ar",
         "dificil": "Pode ter vidro, veneziana ou cortina"
-      }
+      },
+      "emoji": "🪟"
     },
     {
       "palavra": "GARFO",
@@ -56,7 +60,8 @@
         "leve": "Talher de dentinhos para espetar a comida",
         "media": "Talher com dentes",
         "dificil": "Faz par com a faca no prato"
-      }
+      },
+      "emoji": "🍴"
     },
     {
       "palavra": "FACA",
@@ -65,7 +70,8 @@
         "leve": "Talher que corta a carne",
         "media": "Utensílio de lâmina para cortar",
         "dificil": "Afiada, mora na gaveta dos talheres"
-      }
+      },
+      "emoji": "🔪"
     },
     {
       "palavra": "COLHER",
@@ -74,7 +80,8 @@
         "leve": "Talher de tomar sopa",
         "media": "Talher côncavo para levar líquidos à boca",
         "dificil": "A de pau mexe a panela de doce"
-      }
+      },
+      "emoji": "🥄"
     },
     {
       "palavra": "PANELA",
@@ -83,7 +90,8 @@
         "leve": "Vasilha onde se cozinha a comida",
         "media": "Recipiente de cozinhar no fogo",
         "dificil": "A de pressão apita"
-      }
+      },
+      "emoji": "🍳"
     },
     {
       "palavra": "TAPETE",
@@ -128,7 +136,8 @@
         "leve": "Abre a fechadura da porta",
         "media": "Peça de metal que gira na fechadura",
         "dificil": "A reserva às vezes fica debaixo do tapete"
-      }
+      },
+      "emoji": "🔑"
     },
     {
       "palavra": "VARAL",

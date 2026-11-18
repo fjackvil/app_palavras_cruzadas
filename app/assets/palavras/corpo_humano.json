@@ -11,7 +11,8 @@
         "leve": "Tem cinco dedos",
         "media": "Extremidade do braço",
         "dificil": "Tem palma e dorso"
-      }
+      },
+      "emoji": "✋"
     },
     {
       "palavra": "RIM",
@@ -29,7 +30,8 @@
         "leve": "Usamos para ver",
         "media": "Órgão da visão",
         "dificil": "Janela da alma"
-      }
+      },
+      "emoji": "👁️"
     },
     {
       "palavra": "BOCA",
@@ -38,7 +40,8 @@
         "leve": "Usamos para comer e falar",
         "media": "Abertura do rosto",
         "dificil": "Tem lábios e gengiva"
-      }
+      },
+      "emoji": "👄"
     },
     {
       "palavra": "DEDO",
@@ -47,7 +50,8 @@
         "leve": "A mão tem cinco",
         "media": "Extremidade da mão ou do pé",
         "dificil": "Polegar e mindinho são exemplos"
-      }
+      },
+      "emoji": "☝️"
     },
     {
       "palavra": "OSSO",
@@ -56,7 +60,8 @@
         "leve": "Parte dura dentro do corpo",
         "media": "Peça do esqueleto",
         "dificil": "Rico em cálcio"
-      }
+      },
+      "emoji": "🦴"
     },
     {
       "palavra": "PELE",
@@ -74,7 +79,8 @@
         "leve": "Fica na ponta do dedo",
         "media": "Lâmina na ponta dos dedos",
         "dificil": "Feita de queratina"
-      }
+      },
+      "emoji": "💅"
     },
     {
       "palavra": "VEIA",
@@ -92,7 +98,8 @@
         "leve": "Usamos para cheirar",
         "media": "Órgão do olfato",
         "dificil": "Tem narinas e septo"
-      }
+      },
+      "emoji": "👃"
     },
     {
       "palavra": "DENTE",
@@ -101,7 +108,8 @@
         "leve": "Usamos para mastigar",
         "media": "Estrutura dura da boca",
         "dificil": "Canino, molar ou incisivo"
-      }
+      },
+      "emoji": "🦷"
     },
     {
       "palavra": "BRAÇO",
@@ -110,7 +118,8 @@
         "leve": "Fica entre o ombro e a mão",
         "media": "Membro superior",
         "dificil": "Tem bíceps e tríceps"
-      }
+      },
+      "emoji": "💪"
     },
     {
       "palavra": "PERNA",
@@ -119,7 +128,8 @@
         "leve": "Usamos para andar",
         "media": "Membro inferior",
         "dificil": "Tem coxa e canela"
-      }
+      },
+      "emoji": "🦵"
     },
     {
       "palavra": "OMBRO",
@@ -146,7 +156,8 @@
         "leve": "Cresce na cabeça",
         "media": "Pelos da cabeça",
         "dificil": "Madeixa"
-      }
+      },
+      "emoji": "💇"
     },
     {
       "palavra": "ORELHA",
@@ -155,7 +166,8 @@
         "leve": "Por onde ouvimos",
         "media": "Parte externa do ouvido",
         "dificil": "Tem lóbulo e pavilhão"
-      }
+      },
+      "emoji": "👂"
     },
     {
       "palavra": "JOELHO",
@@ -200,7 +212,8 @@
         "leve": "Sente o gosto da comida",
         "media": "Órgão do paladar",
         "dificil": "Também é o idioma de um povo"
-      }
+      },
+      "emoji": "👅"
     },
     {
       "palavra": "QUEIXO",

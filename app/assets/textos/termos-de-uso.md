@@ -1,12 +1,12 @@
 # Termos de uso
 
-Última atualização: 17 de novembro de 2026.
+Última atualização: 18 de novembro de 2026.
 
 Estes termos valem para o app **Palavras Cruzadas**, da **Vilela Digit**, para Android. Ao instalar e usar o app, você concorda com eles. Se não concordar, não use o app. Para menores de idade, quem aceita estes termos são os pais ou responsáveis.
 
 ## O app
 
-O Palavras Cruzadas é um jogo de palavras cruzadas e caça-palavras para a família, em português. Para jogar não precisa de conta, login nem e-mail: os jogadores são criados e guardados só no seu celular. Como tratamos as suas informações está na Política de privacidade, dentro do app (em "Sobre e privacidade") e em https://fjackvil.github.io/palavras-cruzadas-privacidade/
+O Palavras Cruzadas é um jogo de palavras cruzadas e caça-palavras em português, para todas as idades. Para jogar não precisa de conta, login nem e-mail: os jogadores são criados e guardados só no seu celular. Como tratamos as suas informações está na Política de privacidade, dentro do app (em "Sobre e privacidade") e em https://fjackvil.github.io/palavras-cruzadas-privacidade/
 
 ## Plano grátis e Premium
 
@@ -18,7 +18,7 @@ O Palavras Cruzadas é um jogo de palavras cruzadas e caça-palavras para a fam�
 
 ## Uso do app
 
-Você pode usar o app para o seu entretenimento pessoal e da sua família. Não é permitido:
+Você pode usar o app para o seu entretenimento pessoal. Não é permitido:
 
 - copiar, vender ou redistribuir o app ou o seu conteúdo (palavras, dicas, desenhos) sem autorização;
 - tentar burlar a compra do Premium, modificar o app ou usar versões alteradas dele;

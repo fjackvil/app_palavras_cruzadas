@@ -34,7 +34,10 @@ void main() {
   for (final nivel in Nivel.values) {
     test('grades válidas no ${nivel.nome}, misturado e cada tema', () {
       final visiveis = temas.where((t) => temaServeParaCaca(t, nivel));
-      expect(visiveis.length, greaterThan(40));
+      expect(
+        visiveis.length,
+        nivel.soComDesenho ? greaterThanOrEqualTo(9) : greaterThan(40),
+      );
       for (var s = 0; s < 5; s++) {
         conferir(
           const GeradorCaca().gerar(
@@ -52,8 +55,22 @@ void main() {
     });
   }
 
-  test('todos os níveis usam as 8 direções', () {
-    for (final nivel in Nivel.values) {
+  test('Pequenos: só para a direita e para baixo', () {
+    final usadas = <Direcao>{};
+    for (var s = 0; s < 30; s++) {
+      final d = const GeradorCaca().gerar(
+        temas: temas,
+        nivel: Nivel.pequenos,
+        semente: s,
+      );
+      expect(d.palavras.every((p) => p.dica.isNotEmpty), isTrue);
+      usadas.addAll(d.palavras.map((p) => p.direcao));
+    }
+    expect(usadas, {Direcao.direita, Direcao.baixo});
+  });
+
+  test('do Leve ao Super, as 8 direções', () {
+    for (final nivel in Nivel.values.where((n) => !n.soComDesenho)) {
       final usadas = <Direcao>{};
       for (var s = 0; s < 30; s++) {
         final d = const GeradorCaca().gerar(

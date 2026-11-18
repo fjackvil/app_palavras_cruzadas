@@ -246,14 +246,15 @@ class ListaCaca extends StatelessWidget {
                   ? corDaPalavra(i).withValues(alpha: 0.35)
                   : null,
               label: Text(
-                d.palavras[i].escrita,
-                style:
-                    (d.nivel.index == 0 ? texto.titleMedium : texto.bodyLarge)
-                        ?.copyWith(
-                          decoration: jogo.encontradas.contains(i)
-                              ? TextDecoration.lineThrough
-                              : null,
-                        ),
+                d.nivel.soComDesenho
+                    ? '${d.palavras[i].dica} ${d.palavras[i].escrita}'
+                    : d.palavras[i].escrita,
+                style: (d.nivel.facil ? texto.titleMedium : texto.bodyLarge)
+                    ?.copyWith(
+                      decoration: jogo.encontradas.contains(i)
+                          ? TextDecoration.lineThrough
+                          : null,
+                    ),
               ),
             ),
         ],

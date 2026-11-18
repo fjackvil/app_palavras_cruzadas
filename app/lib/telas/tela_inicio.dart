@@ -11,6 +11,7 @@ import '../dominio/gerador_cruzadas.dart';
 import '../dominio/nivel.dart';
 import '../dominio/plano.dart';
 import '../dominio/tema.dart';
+import '../widgets/botao_sons.dart';
 import '../widgets/avatar.dart';
 import '../widgets/escolhas_inicio.dart';
 import '../widgets/icones_jogo.dart';
@@ -361,6 +362,7 @@ class _TelaInicioState extends State<TelaInicio> {
             foregroundColor: Colors.white,
             title: Text(_escolhido?.nome ?? 'Vamos jogar!'),
             actions: [
+              const BotaoSons(),
               if (mostrarPlacarFamilia)
                 IconButton(
                   tooltip: 'Placar da família',

@@ -3,6 +3,7 @@ import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../app.dart';
+import '../dados/sons.dart';
 import '../dominio/compartilhar.dart';
 import '../dominio/conquistas.dart';
 import '../dominio/nivel.dart';
@@ -84,6 +85,21 @@ class _PainelFimState extends State<PainelFim>
   bool _subiu = false;
 
   ResultadoFim get _r => widget.resultado;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      Sons.tocar(
+        Servicos.of(context).banco,
+        somDoFim(
+          recorde: _r.recordes.isNotEmpty,
+          conquista: _r.conquistas.isNotEmpty,
+        ),
+      );
+    });
+  }
 
   @override
   void dispose() {

@@ -11,7 +11,8 @@
         "leve": "Bola de luz quente que ilumina o dia",
         "media": "Estrela que aquece a Terra",
         "dificil": "Astro-rei"
-      }
+      },
+      "emoji": "☀️"
     },
     {
       "palavra": "CHUVA",
@@ -20,7 +21,8 @@
         "leve": "Água que cai das nuvens",
         "media": "Precipitação de gotas de água",
         "dificil": "Depois dela vem o arco-íris"
-      }
+      },
+      "emoji": "🌧️"
     },
     {
       "palavra": "VENTO",
@@ -29,7 +31,8 @@
         "leve": "Ar que sopra e balança as árvores",
         "media": "Ar em movimento",
         "dificil": "Leva a pipa e o moinho"
-      }
+      },
+      "emoji": "🌬️"
     },
     {
       "palavra": "NEVE",
@@ -38,7 +41,8 @@
         "leve": "Floquinhos brancos e gelados que caem do céu",
         "media": "Precipitação de cristais de gelo",
         "dificil": "Flocos que pintam as montanhas de branco"
-      }
+      },
+      "emoji": "❄️"
     },
     {
       "palavra": "FRIO",
@@ -47,7 +51,8 @@
         "leve": "Quando a gente precisa de casaco",
         "media": "Temperatura baixa",
         "dificil": "Pede cobertor e chocolate quente"
-      }
+      },
+      "emoji": "🥶"
     },
     {
       "palavra": "CALOR",
@@ -56,7 +61,8 @@
         "leve": "Quando dá vontade de tomar sorvete",
         "media": "Temperatura alta",
         "dificil": "Pede ventilador e água gelada"
-      }
+      },
+      "emoji": "🥵"
     },
     {
       "palavra": "NUVEM",
@@ -65,7 +71,8 @@
         "leve": "Algodão branco que flutua no céu",
         "media": "Massa de gotinhas de água no céu",
         "dificil": "Cúmulo, cirro ou estrato"
-      }
+      },
+      "emoji": "☁️"
     },
     {
       "palavra": "RAIO",
@@ -74,7 +81,8 @@
         "leve": "Risco de luz no céu durante a tempestade",
         "media": "Descarga elétrica entre nuvem e solo",
         "dificil": "Descarga que Benjamin Franklin estudou com uma pipa"
-      }
+      },
+      "emoji": "⚡"
     },
     {
       "palavra": "GELO",
@@ -83,7 +91,8 @@
         "leve": "Água que ficou dura de tão fria",
         "media": "Água em estado sólido",
         "dificil": "Quebrá-lo é acabar com o clima tenso"
-      }
+      },
+      "emoji": "🧊"
     },
     {
       "palavra": "TROVÃO",
@@ -92,7 +101,8 @@
         "leve": "Barulhão que vem depois do raio",
         "media": "Estrondo provocado pela descarga elétrica",
         "dificil": "O ronco da tempestade"
-      }
+      },
+      "emoji": "⛈️"
     },
     {
       "palavra": "SECA",

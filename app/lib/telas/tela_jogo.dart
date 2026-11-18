@@ -10,7 +10,6 @@ import '../dados/oferta_nivel.dart';
 import '../dominio/desafio.dart';
 import '../dominio/jogo_cruzadas.dart';
 import '../dominio/compartilhar.dart';
-import '../dominio/nivel.dart';
 import '../dominio/pontuacao.dart';
 import '../widgets/grade_com_zoom.dart';
 import '../widgets/teclado.dart';
@@ -255,7 +254,7 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    final leve = _jogo.nivel == Nivel.leve;
+    final leve = _jogo.nivel.facil;
     final atual = _jogo.palavraAtual;
     final texto = Theme.of(context).textTheme;
 
@@ -338,7 +337,9 @@ class _TelaJogoState extends State<TelaJogo> with WidgetsBindingObserver {
                                   atual == null
                                       ? 'Toque numa casa'
                                       : '${atual.numero} ${atual.horizontal ? '→' : '↓'}  ${atual.dica}',
-                                  style: leve
+                                  style: _jogo.nivel.soComDesenho
+                                      ? texto.headlineMedium
+                                      : leve
                                       ? texto.titleLarge
                                       : texto.titleMedium,
                                 ),

@@ -20,7 +20,8 @@
         "leve": "Vai no pé antes do tênis",
         "media": "Peça de malha que cobre o pé",
         "dificil": "Faz par, mas sempre some uma"
-      }
+      },
+      "emoji": "🧦"
     },
     {
       "palavra": "BLUSA",
@@ -29,7 +30,8 @@
         "leve": "Roupa que cobre a barriga e os braços",
         "media": "Peça de cima do vestuário",
         "dificil": "Pode ser de manga curta ou de frio"
-      }
+      },
+      "emoji": "👚"
     },
     {
       "palavra": "CALÇA",
@@ -38,7 +40,8 @@
         "leve": "Roupa com duas pernas compridas",
         "media": "Peça que cobre da cintura aos pés",
         "dificil": "Jeans é o tecido da mais famosa"
-      }
+      },
+      "emoji": "👖"
     },
     {
       "palavra": "BONÉ",
@@ -47,7 +50,8 @@
         "leve": "Chapéu com aba na frente",
         "media": "Cobertura de cabeça com pala",
         "dificil": "Proteção do sol do jogador de beisebol"
-      }
+      },
+      "emoji": "🧢"
     },
     {
       "palavra": "LUVA",
@@ -56,7 +60,8 @@
         "leve": "Esquenta as mãos no frio",
         "media": "Peça que veste as mãos",
         "dificil": "O goleiro usa para agarrar a bola"
-      }
+      },
+      "emoji": "🧤"
     },
     {
       "palavra": "GORRO",
@@ -74,7 +79,8 @@
         "leve": "Roupa de botões usada no trabalho",
         "media": "Peça de cima com gola e botões",
         "dificil": "A da seleção é amarela"
-      }
+      },
+      "emoji": "👕"
     },
     {
       "palavra": "CHAPÉU",
@@ -83,7 +89,8 @@
         "leve": "Vai na cabeça para proteger do sol",
         "media": "Cobertura de cabeça com aba",
         "dificil": "O de palha é tradicional na festa junina"
-      }
+      },
+      "emoji": "👒"
     },
     {
       "palavra": "BOTA",
@@ -92,7 +99,8 @@
         "leve": "Sapato de cano alto",
         "media": "Calçado que cobre o tornozelo",
         "dificil": "A de chuva é de borracha"
-      }
+      },
+      "emoji": "👢"
     },
     {
       "palavra": "TÊNIS",
@@ -101,7 +109,8 @@
         "leve": "Calçado de correr e brincar",
         "media": "Calçado esportivo com cadarço",
         "dificil": "Mesmo nome de um esporte de raquete"
-      }
+      },
+      "emoji": "👟"
     },
     {
       "palavra": "CINTO",
@@ -119,7 +128,8 @@
         "leve": "Roupa quentinha para o frio",
         "media": "Agasalho de manga comprida vestido por cima",
         "dificil": "Peça de lã ou de couro para o inverno"
-      }
+      },
+      "emoji": "🧥"
     },
     {
       "palavra": "PIJAMA",
@@ -137,7 +147,8 @@
         "leve": "Calçado de ir a festas",
         "media": "Calçado fechado de couro ou similar",
         "dificil": "Precisa de graxa para brilhar"
-      }
+      },
+      "emoji": "👞"
     },
     {
       "palavra": "BOTÃO",

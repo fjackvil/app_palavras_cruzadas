@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';
 
 import 'dados/banco.dart';
@@ -89,8 +90,34 @@ class _PalavrasCruzadasAppState extends State<PalavrasCruzadasApp> {
             colorScheme: ColorScheme.fromSeed(seedColor: CoresMarca.verde),
             useMaterial3: true,
           ),
+          builder: (context, tela) => BarraDoSistema(child: tela!),
           home: const TelaPerfis(),
         ),
+      ),
+    );
+  }
+}
+
+/// Desde o Android 15 o app desenha por baixo da barra de navegação (os
+/// botões voltar, início e recentes, ou a barrinha de gestos). Isto reserva
+/// esse espaço embaixo e nas laterais para todas as telas e janelas, com um
+/// fundo claro e ícones escuros na barra, como era antes.
+class BarraDoSistema extends StatelessWidget {
+  const BarraDoSistema({super.key, required this.child});
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    final cores = Theme.of(context).colorScheme;
+    return AnnotatedRegion<SystemUiOverlayStyle>(
+      value: const SystemUiOverlayStyle(
+        systemNavigationBarColor: Colors.transparent,
+        systemNavigationBarIconBrightness: Brightness.dark,
+      ),
+      child: ColoredBox(
+        color: cores.surface,
+        child: SafeArea(top: false, child: child),
       ),
     );
   }
