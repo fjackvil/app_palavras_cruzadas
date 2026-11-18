@@ -57,7 +57,7 @@ Fica em Play Console → (o app) → Política e programas → Conteúdo do app.
 | Acesso ao app | Todo o app funciona sem login nem credencial especial |
 | Anúncios | Não, o app não contém anúncios |
 | Classificação de conteúdo | Questionário IARC (ver a seção 3) |
-| Público-alvo e conteúdo | Inclui menores de 13 anos (o app é para a família) → aplica a Política para Famílias |
+| Público-alvo e conteúdo | Faixas etárias: **todas**, de "5 anos ou menos" até "18 anos ou mais" (o nível Pequenos é para 4 a 5 anos) → aplica a Política para Famílias |
 | Segurança dos dados | Não coleta nem compartilha dados (ver a seção 2) |
 | ID de publicidade | O app **não** usa o ID de publicidade |
 | Apps de notícias, saúde, finanças, governo | Não |
@@ -101,7 +101,7 @@ cd app/android && ./gradlew -q :app:dependencies --configuration releaseRuntimeC
 | Política de privacidade | https://fjackvil.github.io/palavras-cruzadas-privacidade/ |
 | Anúncios | **Não**, o app não contém anúncios |
 | Acesso ao app | Todo o app funciona sem login ou credencial especial |
-| Público-alvo e conteúdo | Inclui faixas abaixo de 13 anos (o app é para a família). Isso aplica a **Política para Famílias** do Google, que o app já atende: sem anúncios, sem SDK de rastreio, sem coleta de dados. |
+| Público-alvo e conteúdo | Todas as faixas etárias, inclusive "5 anos ou menos". Isso aplica a **Política para Famílias** do Google, que o app já atende: sem anúncios, sem SDK de rastreio, sem coleta de dados. |
 | Classificação de conteúdo (questionário IARC) | Sem violência, sexo, drogas ou linguagem imprópria. Interação entre usuários: **não**. Compartilha localização: **não**. Compras digitais: **sim** (Premium, compra única). |
 | App de notícias / saúde / finanças | Não |
 
