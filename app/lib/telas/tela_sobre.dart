@@ -35,13 +35,7 @@ class TelaSobre extends StatelessWidget {
             textAlign: TextAlign.center,
             style: texto.headlineSmall?.copyWith(fontWeight: FontWeight.w800),
           ),
-          Text(
-            ServicoPremium.liberadoParaTeste
-                ? 'Versão $versaoApp · 🧪 teste com Premium liberado'
-                : 'Versão $versaoApp',
-            textAlign: TextAlign.center,
-            style: texto.bodyMedium,
-          ),
+          const VersaoComCodigo(),
           const SizedBox(height: 12),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -127,6 +121,102 @@ class TelaSobre extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+/// Linha da versão. Sete toques seguidos abrem o campo do código de
+/// revisor do Google Play (ver [ServicoPremium.usarCodigoRevisor]).
+class VersaoComCodigo extends StatefulWidget {
+  const VersaoComCodigo({super.key});
+
+  static const toquesParaAbrir = 7;
+
+  @override
+  State<VersaoComCodigo> createState() => _VersaoComCodigoState();
+}
+
+class _VersaoComCodigoState extends State<VersaoComCodigo> {
+  int _toques = 0;
+
+  Future<void> _tocou() async {
+    _toques++;
+    if (_toques < VersaoComCodigo.toquesParaAbrir) return;
+    _toques = 0;
+    final premium = Servicos.of(context).premium;
+    final mensageiro = ScaffoldMessenger.of(context);
+    final codigo = await showDialog<String>(
+      context: context,
+      builder: (_) => const _DialogoCodigo(),
+    );
+    if (codigo == null || codigo.trim().isEmpty) return;
+    final ok = await premium.usarCodigoRevisor(codigo);
+    mensageiro
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(
+          content: Text(
+            ok ? 'Premium liberado neste celular.' : 'Código inválido.',
+          ),
+        ),
+      );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      behavior: HitTestBehavior.opaque,
+      onTap: _tocou,
+      child: Text(
+        ServicoPremium.liberadoParaTeste
+            ? 'Versão $versaoApp · 🧪 teste com Premium liberado'
+            : 'Versão $versaoApp',
+        textAlign: TextAlign.center,
+        style: Theme.of(context).textTheme.bodyMedium,
+      ),
+    );
+  }
+}
+
+class _DialogoCodigo extends StatefulWidget {
+  const _DialogoCodigo();
+
+  @override
+  State<_DialogoCodigo> createState() => _DialogoCodigoState();
+}
+
+class _DialogoCodigoState extends State<_DialogoCodigo> {
+  final _campo = TextEditingController();
+
+  @override
+  void dispose() {
+    _campo.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: const Text('Código de acesso'),
+      content: TextField(
+        controller: _campo,
+        autofocus: true,
+        textCapitalization: TextCapitalization.characters,
+        autocorrect: false,
+        enableSuggestions: false,
+        decoration: const InputDecoration(hintText: 'Código'),
+        onSubmitted: (v) => Navigator.of(context).pop(v),
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(),
+          child: const Text('Cancelar'),
+        ),
+        FilledButton(
+          onPressed: () => Navigator.of(context).pop(_campo.text),
+          child: const Text('OK'),
+        ),
+      ],
     );
   }
 }

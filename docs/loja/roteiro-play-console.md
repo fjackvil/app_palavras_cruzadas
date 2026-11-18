@@ -19,7 +19,7 @@ Play Console → **Criar app**:
 Responda cada item com a tabela de `docs/play-console-privacidade.md`:
 
 1. Política de privacidade: https://fjackvil.github.io/palavras-cruzadas-privacidade/
-2. Acesso ao app: tudo funciona sem login.
+2. Detalhes do login (antigo "Acesso ao app"): **Sim, há parte restrita** (o Premium é pago). Em "Adicionar informações", em inglês: não há login; para liberar o Premium sem comprar, "About and privacy → tap the version 7 times → enter the code". O código fica só em `app/codigo-revisor.txt` (fora do Git) e na Play Console. Marque a caixa de acesso total. Para trocar o código, gere outro código, sal e hash em `app/lib/dados/premium.dart`.
 3. Anúncios: não.
 4. Classificação de conteúdo: questionário IARC (categoria **Jogo**, sem violência etc.; compras digitais: sim).
 5. Público-alvo: **todas as faixas**, inclusive "5 anos ou menos". Como inclui crianças, a Play pede mais detalhes da Política para Famílias: sem anúncios, sem dados coletados.

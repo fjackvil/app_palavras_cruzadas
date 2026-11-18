@@ -1,5 +1,8 @@
 import 'dart:async';
 
+import 'dart:convert';
+
+import 'package:crypto/crypto.dart';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
@@ -14,6 +17,25 @@ class ServicoPremium extends ChangeNotifier {
   ServicoPremium(this._banco, {this.loja, this.usarLoja = true});
 
   static const _chaveCopia = 'premium';
+  static const _chaveRevisor = 'premium_revisor';
+
+  /// Código de revisor do Google Play: libera o Premium só neste aparelho,
+  /// para a equipe de análise ver tudo (ela não pode comprar). O código em
+  /// si fica só na Play Console (Detalhes do login) e no arquivo local
+  /// `codigo-revisor.txt`, fora do Git; aqui guardamos só o SHA-256 dele
+  /// com um sal, para não dar para ler o código dentro do app. Para trocar,
+  /// gere outro código, sal e hash juntos.
+  static const _salRevisor = '3e013e8175ec77e5';
+  static const _hashRevisor =
+      '3f26d7b934d8fdc649082dfb1a8a4914171ac6b69cb436c9c1a092510bea02d5';
+
+  /// Confere o código de revisor (sem diferença entre maiúsculas e
+  /// minúsculas, ignorando espaços e hífens).
+  static bool codigoRevisorValido(String codigo) {
+    final limpo = codigo.toUpperCase().replaceAll(RegExp(r'[\s-]'), '');
+    final hash = sha256.convert(utf8.encode('$_salRevisor$limpo'));
+    return hash.toString() == _hashRevisor;
+  }
 
   /// Versão de teste com tudo liberado, só para o desenvolvedor instalar
   /// no próprio celular. Gerada com
@@ -65,7 +87,9 @@ class ServicoPremium extends ChangeNotifier {
       notifyListeners();
       return;
     }
-    _premium = await _banco.lerAjuste(_chaveCopia) == '1';
+    _premium =
+        await _banco.lerAjuste(_chaveCopia) == '1' ||
+        await _banco.lerAjuste(_chaveRevisor) == '1';
     notifyListeners();
     if (!usarLoja) return;
     try {
@@ -152,6 +176,17 @@ class ServicoPremium extends ChangeNotifier {
     _premium = sim;
     await _banco.gravarAjuste(_chaveCopia, sim ? '1' : '0');
     notifyListeners();
+  }
+
+  /// Libera o Premium neste aparelho se o código de revisor estiver certo.
+  /// Fica guardado à parte da compra: a conferência com o Google Play não
+  /// o desliga.
+  Future<bool> usarCodigoRevisor(String codigo) async {
+    if (!codigoRevisorValido(codigo)) return false;
+    await _banco.gravarAjuste(_chaveRevisor, '1');
+    _premium = true;
+    notifyListeners();
+    return true;
   }
 
   /// Só em versão de teste (debug): liga e desliga o Premium sem comprar,

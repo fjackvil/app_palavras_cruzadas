@@ -49,3 +49,6 @@ app.*.map.json
 
 # Símbolos do código ofuscado (tool/pacote.sh). Guardar fora do Git.
 /simbolos/
+
+# Código do revisor do Google (só na Play Console).
+/codigo-revisor.txt
