@@ -1,6 +1,6 @@
 # Onde paramos e como continuar
 
-Última atualização: 16/11/2026.
+Última atualização: 18/11/2026.
 
 Este arquivo tem duas partes:
 
@@ -58,6 +58,9 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 - [x] 18/11/2026 (teste no S25 Ultra): barra do Android não tampa mais o app; sons e vibração no fim do jogo; Ranking pessoal na primeira tela; nível Pequenos (4 a 5 anos); textos sem "família". Detalhes em `docs/especificacao.md`. Conferido num emulador Android 16 com os 3 botões (`Android16_botoes`).
 - [x] Código ofuscado nos pacotes (`tool/pacote.sh`), 18/11/2026. Conferido: os nomes somem do código compilado e o app funciona igual.
 - [x] Conta da Play Console verificada (18/11/2026). Material da loja em `docs/loja/`: textos, ícone 512, gráfico de recursos e o roteiro passo a passo (`docs/loja/roteiro-play-console.md`).
+- [x] 18/11/2026: app criado na Play Console, todas as declarações preenchidas (respostas em `docs/play-console-privacidade.md`), página da loja completa e **versão 1 (1.0.0) do teste fechado "Alpha" enviada para análise** (país: Brasil; lista de e-mails "Testadores"). Classificação IARC: Livre/3 anos fora do Brasil e **14 anos no Brasil** (por causa da compra). Inscrito no programa "Aprovado por professores".
+- [x] Código de revisor do Google (7 toques na versão, tela Sobre) e porta dos pais antes da compra. O código fica só em `app/codigo-revisor.txt` (fora do Git) e na Play Console.
+- [ ] Depois da aprovação: criar o produto `premium` (R$ 9,90), pôr a conta pessoal no Teste de licença, copiar o link de participação e mandar aos testadores (mínimo 12 inscritos por 14 dias seguidos). Guardar `app/simbolos/1.0.0+1-loja/` no Drive.
 - [x] Capturas de tela da loja: 6 imagens em `docs/loja/telas/` (prints do emulador em `originais/`, montagem por `tool/telas_loja.py`).
 - [ ] Ligar a **Proteção automática** do Google Play (Play Console > Integridade do app), quando a conta estiver liberada.
 - [ ] Verificar as compras num servidor (Supabase), para barrar Premium pirata. Fica para depois do lançamento.
