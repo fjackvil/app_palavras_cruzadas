@@ -56,6 +56,9 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 **Pendências**
 
 - [x] 18/11/2026 (teste no S25 Ultra): barra do Android não tampa mais o app; sons e vibração no fim do jogo; Ranking pessoal na primeira tela; nível Pequenos (4 a 5 anos); textos sem "família". Detalhes em `docs/especificacao.md`. Conferido num emulador Android 16 com os 3 botões (`Android16_botoes`).
+- [x] Código ofuscado nos pacotes (`tool/pacote.sh`), 18/11/2026. Conferido: os nomes somem do código compilado e o app funciona igual.
+- [ ] Ligar a **Proteção automática** do Google Play (Play Console > Integridade do app), quando a conta estiver liberada.
+- [ ] Verificar as compras num servidor (Supabase), para barrar Premium pirata. Fica para depois do lançamento.
 - [ ] Conferir no celular de verdade: som no modo Som, só a vibração de toque do celular no Vibrar/Silencioso, nada no Não perturbe.
 
 - [ ] **Testar tudo no aparelho de verdade.** No Linux, o emulador ficou travando para o Fernando. Do lado do Android o app respondia normalmente (comandos `adb` funcionavam e as telas abriam em menos de 0,5 s). A suspeita é a janela do emulador naquele computador.
@@ -317,10 +320,20 @@ Não precisa ligar o modo desenvolvedor, então os apps de banco continuam funci
 
 ### Gerar o pacote
 
+Na pasta do projeto (no Windows, use o **Git Bash**):
+
+```bash
+tool/pacote.sh loja
+```
+
+O script gera o pacote com o **código ofuscado**: os nomes de dentro do app viram letras sem sentido, o que dificulta quem tentar estudar o app para burlar o Premium. Por baixo ele roda:
+
 ```bash
 cd app
-flutter build appbundle --release
+flutter build appbundle --release --obfuscate --split-debug-info=simbolos/1.0.0+1-loja
 ```
+
+**Guarde os símbolos.** Eles ficam em `app/simbolos/<versão>-loja/`, não vão para o Git e são o mapa para ler relatórios de erro do código ofuscado. Copie a pasta de cada versão enviada à loja para um lugar seguro, por exemplo o Google Drive.
 
 O pacote fica em `app/build/app/outputs/bundle/release/app-release.aab`. Ele tem cerca de 60 MB porque leva as versões para todos os tipos de celular; cada pessoa baixa só a parte do aparelho dela, uns 20 MB.
 
@@ -349,11 +362,10 @@ Serve para testar o app completo no seu celular sem comprar nada e sem a Play St
 ### Gerar
 
 ```bash
-cd app
-flutter build apk --release --split-per-abi --dart-define=PREMIUM_LIBERADO=true
-mkdir -p build/teste
-cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk build/teste/palavras-cruzadas-teste-premium.apk
+tool/pacote.sh teste
 ```
+
+Também sai com o código ofuscado. Os símbolos ficam em `app/simbolos/<versão>-teste/` (não precisa guardar, é só para teste).
 
 O arquivo fica em `app/build/teste/palavras-cruzadas-teste-premium.apk` (cerca de 21 MB). Ele serve para quase todo celular Android feito a partir de 2017. Para um celular muito antigo, use o `app-armeabi-v7a-release.apk` da mesma pasta.
 

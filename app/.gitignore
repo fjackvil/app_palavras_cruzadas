@@ -46,3 +46,6 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Símbolos do código ofuscado (tool/pacote.sh). Guardar fora do Git.
+/simbolos/
