@@ -39,6 +39,7 @@ void main() {
       'CAMERA',
       'CONTACTS',
       'RECORD_AUDIO',
+      'VIBRATE',
     ]) {
       expect(manifesto, isNot(contains('permission.$p')), reason: p);
     }

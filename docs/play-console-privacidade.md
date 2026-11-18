@@ -2,7 +2,7 @@
 
 Este guia é para a hora de publicar (fase 4). Ele vale para o app como está hoje (17/11/2026). Se o app mudar, por exemplo ao entrar o Premium ou os Grupos, revise as respostas.
 
-**Por que as respostas são "não coletamos nada":** o app não pede câmera, galeria, localização, contatos nem microfone. Tudo o que o jogador cria fica no armazenamento privado do app, no próprio celular. As permissões são `VIBRATE` (do próprio app, para vibrar no fim do jogo quando o celular está no silencioso; não envolve dados) e as da biblioteca de compras do Google Play (`in_app_purchase`): `BILLING`, `INTERNET` e `ACCESS_NETWORK_STATE`, que servem só para a conversa com o Google Play sobre o Premium. O próprio app não tem nenhum código que envie dados. Um teste automático (`app/test/telas/sobre_test.dart`) confere que o manifesto do app não pede outras permissões.
+**Por que as respostas são "não coletamos nada":** o app não pede câmera, galeria, localização, contatos nem microfone. Tudo o que o jogador cria fica no armazenamento privado do app, no próprio celular. As únicas permissões vêm da biblioteca de compras do Google Play (`in_app_purchase`): `BILLING`, `INTERNET` e `ACCESS_NETWORK_STATE`. Elas servem só para a conversa com o Google Play sobre o Premium. O próprio app não tem nenhum código que envie dados. Um teste automático (`app/test/telas/sobre_test.dart`) confere que o manifesto do app não pede outras permissões.
 
 Depois de compilar, dá para conferir as permissões finais com:
 
@@ -10,7 +10,7 @@ Depois de compilar, dá para conferir as permissões finais com:
 grep uses-permission app/build/app/intermediates/merged_manifests/release/processReleaseManifest/AndroidManifest.xml
 ```
 
-O resultado esperado é: `android.permission.VIBRATE`, `com.android.vending.BILLING`, `android.permission.INTERNET`, `android.permission.ACCESS_NETWORK_STATE` e uma interna do Android (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`). Se aparecer outra, a política precisa ser revista.
+O resultado esperado é: `com.android.vending.BILLING`, `android.permission.INTERNET`, `android.permission.ACCESS_NETWORK_STATE` e uma interna do Android (`DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`). Se aparecer outra, a política precisa ser revista.
 
 ## 1. Publicar a política de privacidade num endereço da internet
 

@@ -212,7 +212,7 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 
 **Pequenos (18/11/2026):** nível para 4 a 5 anos, sugerido pela idade e grátis. Usa só palavras com o campo `emoji` no JSON (9 temas: Animais, Frutas, Alimentos, Corpo humano, Meios de transporte, Clima, Roupas, Animais marinhos, Objetos da casa). Os desenhos são postos por `tool/emojis_pequenos.py`.
 
-**Sons e vibração (18/11/2026):** no fim de cada desafio o app toca um som (vitória, recorde ou conquista, o mais especial ganha). Segue o modo do celular sozinho, sem pedir nada: modo Som toca; Vibrar ou Silencioso só vibra; Não perturbe não faz nada. O botão 🔊 na tela do jogador desliga tudo. Sons sintetizados por `tool/gerar_sons.py` (sem direitos de terceiros).
+**Sons e vibração (18/11/2026):** no fim de cada desafio o app toca um som (vitória, recorde ou conquista, o mais especial ganha). Segue o padrão do celular sozinho, sem nenhuma permissão: modo Som toca; Vibrar ou Silencioso usa só a vibração de toque do Android (a do teclado), que obedece à configuração de vibração do celular; Não perturbe não faz nada. O botão 🔊 na tela do jogador desliga tudo. Sons sintetizados por `tool/gerar_sons.py` (sem direitos de terceiros).
 
 **Ranking pessoal (18/11/2026):** na primeira tela, cada jogador contra ele mesmo: pontos da semana, melhor partida, maior sequência de dias e conquistas, com a comparação com a semana passada.
 

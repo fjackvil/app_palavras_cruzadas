@@ -6,9 +6,7 @@ import android.media.AudioAttributes
 import android.media.AudioManager
 import android.media.SoundPool
 import android.os.Build
-import android.os.VibrationEffect
-import android.os.Vibrator
-import android.os.VibratorManager
+import android.view.HapticFeedbackConstants
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
@@ -16,7 +14,7 @@ import io.flutter.plugin.common.MethodChannel
 /**
  * Sons e vibração seguindo o modo do celular, sem pedir nada à pessoa:
  * - modo Som: toca o som;
- * - modo Vibrar ou Silencioso: só vibra;
+ * - modo Vibrar ou Silencioso: só a vibração de toque do celular;
  * - Não perturbe ligado: nem som nem vibração.
  */
 class MainActivity : FlutterActivity() {
@@ -67,21 +65,22 @@ class MainActivity : FlutterActivity() {
         return "vibrou"
     }
 
+    /**
+     * Vibração de toque do próprio Android (a mesma do teclado). Não precisa
+     * de permissão e segue a configuração de vibração do celular: se a pessoa
+     * desligou a vibração de toque, nada acontece.
+     */
     private fun vibrar(nome: String) {
-        val vibrador: Vibrator = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            (getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager).defaultVibrator
+        val tela = window?.decorView ?: return
+        val efeito = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            HapticFeedbackConstants.CONFIRM
         } else {
-            @Suppress("DEPRECATION")
-            getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            HapticFeedbackConstants.LONG_PRESS
         }
-        if (!vibrador.hasVibrator()) return
-        // Pausa, vibra, pausa, vibra... (em milissegundos).
-        val padrao = when (nome) {
-            "recorde" -> longArrayOf(0, 80, 60, 80, 60, 250)
-            "conquista" -> longArrayOf(0, 60, 50, 120)
-            else -> longArrayOf(0, 150)
+        tela.performHapticFeedback(efeito)
+        if (nome == "recorde" || nome == "conquista") {
+            tela.postDelayed({ tela.performHapticFeedback(efeito) }, 180)
         }
-        vibrador.vibrate(VibrationEffect.createWaveform(padrao, -1))
     }
 
     override fun onDestroy() {
