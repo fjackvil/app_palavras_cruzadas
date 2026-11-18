@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 import '../app.dart';
 import '../dados/premium.dart';
 import '../dominio/plano.dart';
+import '../widgets/porta_pais.dart';
 
 /// Abre a tela "Seja Premium". [motivo] explica o que estava bloqueado.
 Future<void> abrirPremium(BuildContext context, {String? motivo}) =>
@@ -108,7 +109,13 @@ class _TelaPremiumState extends State<TelaPremium> {
                     minimumSize: const Size.fromHeight(56),
                     textStyle: texto.titleLarge,
                   ),
-                  onPressed: premium.comprando ? null : premium.comprar,
+                  onPressed: premium.comprando
+                      ? null
+                      : () async {
+                          if (await confirmarAdulto(context)) {
+                            await premium.comprar();
+                          }
+                        },
                   child: premium.comprando
                       ? const SizedBox(
                           width: 24,

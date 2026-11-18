@@ -51,7 +51,7 @@ Cada um com seu nome, seu desenho ou sua foto, seu nível e seus pontos.
 Não precisa de conta, login nem e-mail. Seus jogadores, fotos e pontos ficam só no seu celular: nada é enviado para nós. Sem anúncios e sem rastreamento.
 
 ⭐ GRÁTIS OU PREMIUM
-O plano grátis tem os níveis Pequenos, Leve e Médio, um tema por categoria, 3 desafios e 3 dicas por dia. O Premium é uma compra única, sem mensalidade, que libera tudo: todos os níveis e temas, desafios e dicas sem limite e até 5 jogadores.
+O plano grátis tem os níveis Pequenos, Leve e Médio, um tema por categoria, 3 desafios e 3 dicas por dia. O Premium é uma compra única, sem mensalidade, que libera tudo: todos os níveis e temas, desafios e dicas sem limite e até 5 jogadores. Antes da compra, o app faz uma pergunta para um adulto, para evitar compras por engano.
 ```
 
 ## Outros campos da página

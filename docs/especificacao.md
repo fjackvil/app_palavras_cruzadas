@@ -181,6 +181,8 @@ Continua freemium, cobrado pelo Google Play Billing, mas sem login no app: a com
 - Todo conteúdo digital vendido dentro do app precisa usar o Google Play Billing. O Google cuida do pagamento, de reembolsos e de impostos.
 - Ao abrir, o app consulta as compras da conta Google do aparelho. Se houver Premium, libera tudo para todos os perfis daquele celular.
 - Trocou de celular? Basta usar a mesma conta Google na Play Store: o Premium volta sozinho, sem cadastro.
+- **Porta dos pais:** antes de abrir a compra, o app pede a resposta de uma multiplicação (6 a 9 × 6 a 9), para evitar compra por engano de criança no celular dos pais.
+- **Classificação indicativa:** por causa da compra do Premium, a IARC deu **14 anos no Brasil** (ClassInd, regra do ECA Digital); Livre/3 anos nos outros países (18/11/2026).
 - O app confere a assinatura digital que o Google coloca em cada compra, usando a chave pública do app. Sem servidor, um app pirateado ainda consegue burlar isso; é um risco aceitável no começo.
 - Se a criança usa uma conta Google infantil (Family Link), a compra precisa da aprovação dos pais, feita pelo próprio Google.
 - Sem RevenueCat: ele exigiria enviar um identificador do usuário para um serviço externo.

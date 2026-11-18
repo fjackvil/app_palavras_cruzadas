@@ -14,7 +14,7 @@ O Palavras Cruzadas é um jogo de palavras cruzadas e caça-palavras em portugu�
 - O **Premium** é uma compra única, feita dentro do app pelo Google Play, que libera tudo no app. O preço aparece antes da compra, na moeda do seu país.
 - A compra fica ligada à conta Google usada na Play Store e é para uso pessoal de quem tem essa conta. Para usar o Premium em outro celular seu ou depois de reinstalar o app, entre na Play Store com a mesma conta Google e toque em "restaurar compra".
 - O pagamento, a nota e o reembolso são tratados pelo Google Play, de acordo com as regras dele. Isso não tira os direitos que o Código de Defesa do Consumidor garante a você, como o direito de desistir da compra feita pela internet em até 7 dias. Para pedir reembolso, use o Google Play ou fale com a gente pelo contato abaixo.
-- Em contas Google de crianças (Family Link), o Google pede a aprovação dos pais antes de qualquer compra.
+- Antes de abrir a compra, o app faz uma pergunta para um adulto (uma conta de multiplicação), para evitar compras por engano feitas por crianças. Em contas Google de crianças (Family Link), o Google também pede a aprovação dos pais antes de qualquer compra.
 
 ## Uso do app
 
