@@ -13,10 +13,12 @@ void main() {
       dicas: 0,
       palavras: 6,
     );
-    expect(t, contains('Desafio do dia 17/11 · Cruzadas · Leve'));
+    expect(t, contains('Desafio do dia 17/11 · Cruzadas · nível Leve'));
     expect(t, contains('42 pontos em ⏱ 3min12s'));
     expect(t, contains('sem nenhuma dica'));
-    expect(t, contains('mesma grade'));
+    expect(t, contains('a mesma para todo mundo'));
+    expect(t.split('\n').first, convite);
+    expect(t, contains('Duvido você fazer mais pontos'));
   });
 
   test('texto de caça-palavras livre, com dicas', () {
@@ -29,10 +31,10 @@ void main() {
       dicas: 2,
       palavras: 12,
     );
-    expect(t, contains('Caça-palavras · Super difícil'));
+    expect(t, contains('Caça-palavras · nível Super difícil'));
     expect(t, contains('45s'));
     expect(t, contains('com 2 dicas'));
-    expect(t, isNot(contains('mesma grade')));
+    expect(t, isNot(contains('a mesma para todo mundo')));
   });
 
   test('texto termina com o link para instalar; links do WhatsApp', () {

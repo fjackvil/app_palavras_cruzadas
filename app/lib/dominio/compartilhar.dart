@@ -21,24 +21,32 @@ String textoResultado({
   final s = (segundos % 60).toString().padLeft(2, '0');
   final tempo = m > 0 ? '${m}min${s}s' : '${segundos}s';
   final titulo = diario != null
-      ? '📅 Desafio do dia ${_data(diario)} · $jogo · ${nivel.nome}'
-      : '${caca ? '🔍' : '✏️'} $jogo · ${nivel.nome}';
+      ? '📅 Desafio do dia ${_data(diario)} · $jogo · nível ${nivel.nome}'
+      : '${caca ? '🔍' : '✏️'} $jogo · nível ${nivel.nome}';
   final dicaTexto = dicas == 0
       ? 'sem nenhuma dica 💪'
       : dicas == 1
       ? 'com 1 dica'
       : 'com $dicas dicas';
   return [
-    'Palavras Cruzadas',
+    convite,
+    '',
     titulo,
     '⭐ $pontos pontos em ⏱ $tempo',
     '$palavras palavras, $dicaTexto',
-    if (diario != null)
-      'Consegue fazer melhor? É a mesma grade para todo mundo hoje!',
+    if (diario != null) ...[
+      '',
+      'Hoje a grade é a mesma para todo mundo no mesmo nível. '
+          'Duvido você fazer mais pontos! 😉',
+    ],
     '',
-    'Baixe o app e jogue também: $linkLoja',
+    'Baixe e jogue também 👇',
+    linkLoja,
   ].join('\n');
 }
+
+/// Primeira linha da mensagem. O *nome* sai em negrito no WhatsApp.
+const convite = 'Oi! Estou jogando o *Palavras Cruzadas* e ele é top! 😄';
 
 /// Link que abre o WhatsApp já com o texto escrito; a pessoa só escolhe o
 /// contato ou o grupo.
