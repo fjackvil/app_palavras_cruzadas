@@ -1,11 +1,13 @@
 # Onde paramos e como continuar
 
-Última atualização: 18/11/2026.
+Última atualização: 21/11/2026.
 
 Este arquivo tem duas partes:
 
 1. **Onde paramos:** o que já está pronto, o que falta e as decisões tomadas.
 2. **Passo a passo no Windows 11:** tudo o que precisa instalar para testar o app em outra máquina.
+
+**Máquinas (21/11/2026):** o Claude Code agora roda no `servidor-fernando` (Ubuntu Server, sem tela), acessado por SSH a partir do notebook. Lá ainda não há Flutter nem Android SDK, e não dá para abrir emulador com janela: os testes visuais são no notebook ou no celular de verdade. O app foi feito até 18/11 num computador Linux com tela; é dele que falam as menções a "Linux" e ao emulador abaixo. A chave de upload não está no servidor.
 
 ---
 
@@ -309,7 +311,7 @@ Não precisa ligar o modo desenvolvedor, então os apps de banco continuam funci
 
 ### A chave de upload
 
-- **Arquivo:** `~/.chaves/palavras-cruzadas-upload.jks`, fora do projeto, com o alias `upload`.
+- **Arquivo:** `~/.chaves/palavras-cruzadas-upload.jks` no computador Linux antigo (não está no `servidor-fernando`), fora do projeto, com o alias `upload`.
 - **Senha:** fica em `app/android/key.properties`, que **nunca vai para o git** (está no `.gitignore`).
 - **Cópia de segurança:** guarde a chave e a senha fora do computador (pendrive, gerenciador de senhas, Drive pessoal). Se a chave se perder, o Google consegue trocar a chave de upload pela "assinatura de apps do Google Play", mas leva alguns dias.
 - **Em outra máquina (Windows):** copie o `.jks` para, por exemplo, `C:\Users\<você>\.chaves\` e crie `app\android\key.properties` com:
