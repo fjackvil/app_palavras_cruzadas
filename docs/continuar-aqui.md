@@ -1,6 +1,6 @@
 # Onde paramos e como continuar
 
-Última atualização: 21/11/2026.
+Última atualização: 23/11/2026.
 
 Este arquivo tem duas partes:
 
@@ -57,6 +57,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 
 **Pendências**
 
+- [ ] **Versão 1.0.1+2 pronta, ainda NÃO enviada** (23/11/2026). Muda só o contato: fernando.vilela@vileladigit.com.br e site vileladigit.com.br (tela Sobre, política e termos). O Fernando decidiu enviar só depois que o teste fechado terminar e o Google aprovar a produção. Antes de enviar, gerar o pacote de novo com `tool/pacote.sh loja`, porque o `app/build` não fica guardado. O contato da página da loja na Play Console já foi trocado e publicado; o cadastro da conta continua com vileladigit@gmail.com.
 - [x] 18/11/2026 (teste no S25 Ultra): barra do Android não tampa mais o app; sons e vibração no fim do jogo; Ranking pessoal na primeira tela; nível Pequenos (4 a 5 anos); textos sem "família". Detalhes em `docs/especificacao.md`. Conferido num emulador Android 16 com os 3 botões (`Android16_botoes`).
 - [x] Código ofuscado nos pacotes (`tool/pacote.sh`), 18/11/2026. Conferido: os nomes somem do código compilado e o app funciona igual.
 - [x] Conta da Play Console verificada (18/11/2026). Material da loja em `docs/loja/`: textos, ícone 512, gráfico de recursos e o roteiro passo a passo (`docs/loja/roteiro-play-console.md`).
