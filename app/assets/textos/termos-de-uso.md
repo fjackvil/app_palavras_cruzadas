@@ -1,6 +1,6 @@
 # Termos de uso
 
-Última atualização: 18 de novembro de 2026.
+Última atualização: 23 de novembro de 2026.
 
 Estes termos valem para o app **Palavras Cruzadas**, da **Vilela Digit**, para Android. Ao instalar e usar o app, você concorda com eles. Se não concordar, não use o app. Para menores de idade, quem aceita estes termos são os pais ou responsáveis.
 
@@ -51,4 +51,5 @@ Estes termos seguem as leis do Brasil, incluindo o Código de Defesa do Consumid
 ## Contato
 
 Vilela Digit
-E-mail: vileladigit@gmail.com
+E-mail: fernando.vilela@vileladigit.com.br
+Site: https://vileladigit.com.br

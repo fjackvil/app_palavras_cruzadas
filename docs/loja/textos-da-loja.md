@@ -64,7 +64,7 @@ O plano grátis tem os níveis Pequenos, Leve e Médio, um tema por categoria, 3
 | Vídeo | Deixe vazio |
 | Categoria do app | Jogo → Palavras |
 | Tags | Palavras cruzadas, Caça-palavras, Palavras, Quebra-cabeça, Educativo (as que aparecerem parecidas) |
-| E-mail de contato | vileladigit@gmail.com |
-| Site | Pode deixar vazio, ou https://fjackvil.github.io/palavras-cruzadas-privacidade/ |
+| E-mail de contato | fernando.vilela@vileladigit.com.br |
+| Site | https://vileladigit.com.br |
 | Política de privacidade | https://fjackvil.github.io/palavras-cruzadas-privacidade/ |
 | Idioma padrão | Português (Brasil) – pt-BR |

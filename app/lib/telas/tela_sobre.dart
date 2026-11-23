@@ -115,7 +115,7 @@ class TelaSobre extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           Text(
-            'Dúvidas, sugestões ou erros nas palavras: vileladigit@gmail.com',
+            'Dúvidas, sugestões ou erros nas palavras: fernando.vilela@vileladigit.com.br\nvileladigit.com.br',
             textAlign: TextAlign.center,
             style: texto.bodySmall,
           ),

@@ -1,6 +1,6 @@
 # Política de privacidade
 
-Última atualização: 18 de novembro de 2026.
+Última atualização: 23 de novembro de 2026.
 
 Esta política vale para o app **Palavras Cruzadas**, da **Vilela Digit**, para Android. Ela explica, em linguagem simples, o que acontece com as suas informações. O resumo é: **o app não coleta, não envia e não compartilha nenhum dado pessoal.**
 
@@ -66,4 +66,5 @@ Se o app mudar de um jeito que afete a sua privacidade, esta política será atu
 ## Contato
 
 Vilela Digit
-E-mail: vileladigit@gmail.com
+E-mail: fernando.vilela@vileladigit.com.br
+Site: https://vileladigit.com.br

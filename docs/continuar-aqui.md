@@ -76,7 +76,7 @@ Para testar: 124 testes automáticos, todos passando (`flutter test` dentro de `
 **Fase 4**
 
 - [x] Política de privacidade escrita (`app/assets/textos/politica-de-privacidade.md`), com página web gerada em `docs/privacidade/index.html` (`python3 tool/gerar_politica_html.py`). Tela **Sobre e privacidade** no app (toque no rodapé "Vilela Digit" da primeira tela).
-- [x] E-mail de contato na política: vileladigit@gmail.com.
+- [x] E-mail de contato na política: fernando.vilela@vileladigit.com.br, site https://vileladigit.com.br (trocados em 23/11/2026; antes vileladigit@gmail.com).
 - [x] Política publicada em https://fjackvil.github.io/palavras-cruzadas-privacidade/ (repositório público fjackvil/palavras-cruzadas-privacidade, GitHub Pages). Esse é o link para a Play Console.
 - [x] Premium: **compra única de R$ 9,90** ("Premium", produto `premium`), pelo plugin `in_app_purchase`. Tela "Seja Premium" com comparação grátis × Premium, comprar e restaurar compra. Cópia local do Premium no banco (funciona offline).
 - [x] Plano grátis: Leve e Médio, 1 tema por categoria (12 temas), 3 desafios e 3 dicas por dia, 2 jogadores e até 3 pendentes, **contados por celular** (somando os jogadores, e apagar ou criar jogador não zera; o desafio do dia não conta) (o desafio do dia não conta; dá para apagar um pendente). Tudo o que é pago aparece com 🔒 e leva à tela do Premium. Limites em `app/lib/dominio/plano.dart`.

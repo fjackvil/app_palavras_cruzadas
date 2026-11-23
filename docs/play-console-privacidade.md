@@ -33,7 +33,7 @@ cp -r docs/privacidade/. ../palavras-cruzadas-privacidade/
 cd ../palavras-cruzadas-privacidade && git add -A && git commit -m "Atualiza política e termos" && git push
 ```
 
-O e-mail de contato da política é **vileladigit@gmail.com**. Use o mesmo como e-mail de contato do desenvolvedor na Play Console.
+O e-mail de contato da política é **fernando.vilela@vileladigit.com.br** e o site é **https://vileladigit.com.br** (desde 23/11/2026; antes era vileladigit@gmail.com). Use o mesmo como e-mail de contato do desenvolvedor na Play Console.
 
 Onde publicar a página (escolha um):
 

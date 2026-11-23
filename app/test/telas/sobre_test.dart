@@ -48,7 +48,7 @@ void main() {
   test('a política tem um e-mail de contato de verdade', () {
     final md = File(arquivoPolitica).readAsStringSync();
     expect(md, isNot(contains('[E-MAIL')));
-    expect(md, contains('vileladigit@gmail.com'));
+    expect(md, contains('fernando.vilela@vileladigit.com.br'));
   });
 
   test('termos de uso existem, com Premium, reembolso e contato', () {
@@ -58,6 +58,6 @@ void main() {
         .map((b) => b.texto);
     expect(secoes, containsAll(['Plano grátis e Premium', 'Contato']));
     expect(md, contains('Código de Defesa do Consumidor'));
-    expect(md, contains('vileladigit@gmail.com'));
+    expect(md, contains('fernando.vilela@vileladigit.com.br'));
   });
 }
