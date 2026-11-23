@@ -59,7 +59,7 @@ Teste e lançamento → Testes → **Teste fechado** → criar faixa (pode usar 
 
 Só aparece depois que um pacote com a biblioteca de compras foi enviado (passo 5).
 
-Monetizar → Produtos → **Produtos no app** → Criar produto:
+Monetizar com o Google Play → Produtos → **Produtos únicos** → Criar produto único (feito em 23/11/2026). Na etapa "Disponibilidade e preços": ID da opção de compra `premium`, tipo "Comprar", conteúdo digital; em Set prices, marque todos os países, ponha 9,90 BRL e depois corrija o Brasil, que o Google arredonda para 9,99:
 
 | Campo | O que pôr |
 | --- | --- |

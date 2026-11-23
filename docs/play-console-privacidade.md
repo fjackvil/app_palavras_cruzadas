@@ -113,8 +113,8 @@ cd app/android && ./gradlew -q :app:dependencies --configuration releaseRuntimeC
 
 ## 4. Premium (compra única)
 
-- **Produto a criar na Play Console:** em Monetizar → Produtos → Produtos no app, crie um produto **não consumível** com o ID **`premium`**, nome "Premium" e preço **R$ 9,90**. O ID precisa ser exatamente esse, porque é o que o app procura (`app/lib/dominio/plano.dart`).
-- **Teste da compra:** só funciona com o app instalado pela Play Store, numa faixa de teste (teste interno ou fechado). Cadastre a sua conta Google em Configurações → Teste de licença: assim a compra é de teste e não cobra de verdade.
+- **Produto (criado em 23/11/2026, ativo):** em Monetizar com o Google Play → Produtos → **Produtos únicos**, ID **`premium`**, nome "Premium", opção de compra `premium` do tipo "Comprar" (compatível com versões anteriores), conteúdo digital, **R$ 9,90** no Brasil. O ID precisa ser exatamente esse, porque é o que o app procura (`app/lib/dominio/plano.dart`).
+- **Teste da compra:** só funciona com o app instalado pela Play Store, numa faixa de teste (teste interno ou fechado). No Teste de licença (Configurações, vale para a conta toda) está marcada a lista "Testadores": a compra deles é de teste, não cobra e o Premium fica para sempre. Desmarcar depois do lançamento.
 - **Segurança dos dados:** o pagamento é processado pelo Google Play. O app não recebe dados de pagamento, então a resposta continua "não coletamos". Confira a orientação do Google na hora de publicar.
 
 Isto não é aconselhamento jurídico. A especificação recomenda uma revisão com advogado antes do lançamento.
