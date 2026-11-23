@@ -7,7 +7,7 @@ import '../widgets/icones_jogo.dart';
 
 /// Versão mostrada na tela Sobre. Mantenha igual à de `pubspec.yaml`
 /// (um teste confere).
-const versaoApp = '1.0.0';
+const versaoApp = '1.0.1';
 
 /// Arquivo da política de privacidade (o mesmo texto vira a página web).
 const arquivoPolitica = 'assets/textos/politica-de-privacidade.md';
